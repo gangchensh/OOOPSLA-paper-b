@@ -1,0 +1,2167 @@
+DIGEST 6264740ffe59543f04aabf401b405b7a
+FIonia.MiniTransformer_AST
+R3952:3956 Stdlib.Reals.Reals <> <> lib
+R3958:3960 Stdlib.micromega.Lia <> <> lib
+R3978:4000 Ionia.CNN_Examples_Base <> <> lib
+R4018:4044 Ionia.CNN_Examples_Base_Ops <> <> lib
+R4062:4088 Ionia.CNN_CodeGen_Semantics <> <> lib
+R4119:4124 Stdlib.Strings.String <> <> lib
+R4126:4129 Stdlib.Lists.List <> <> lib
+R4139:4151 Stdlib.Lists.List ListNotations <> mod
+def 4458:4463 <> mt_eps
+R4467:4469 Ionia.DataExp <> exp def
+R4471:4473 Ionia.DataExp <> num constr
+R4478:4484 Ionia.DataExp <> REconst constr
+R4488:4490 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R4491:4493 Stdlib.Reals.Rdefinitions <> IZR def
+def 4524:4532 <> mt_neginf
+R4536:4538 Ionia.DataExp <> exp def
+R4540:4542 Ionia.DataExp <> num constr
+R4547:4553 Ionia.DataExp <> REconst constr
+R4556:4557 Stdlib.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R4558:4560 Stdlib.Reals.Rdefinitions <> IZR def
+R4565:4567 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+def 4597:4603 <> mt_half
+R4607:4609 Ionia.DataExp <> exp def
+R4611:4613 Ionia.DataExp <> num constr
+R4618:4624 Ionia.DataExp <> REconst constr
+R4628:4630 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+def 5100:5111 <> mt_sqrt_2_pi
+R5115:5117 Ionia.DataExp <> exp def
+R5119:5121 Ionia.DataExp <> num constr
+R5128:5134 Ionia.DataExp <> REconst constr
+R5157:5159 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R5137:5139 Stdlib.Reals.Rdefinitions <> IZR def
+R5160:5162 Stdlib.Reals.Rdefinitions <> IZR def
+R5167:5169 Stdlib.ZArith.BinInt <> ::Z_scope:x_'^'_x not
+def 5212:5219 <> mt_cubic
+R5223:5225 Ionia.DataExp <> exp def
+R5227:5229 Ionia.DataExp <> num constr
+R5234:5240 Ionia.DataExp <> REconst constr
+R5248:5250 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+def 5352:5364 <> mt_attn_scale
+R5368:5370 Ionia.DataExp <> exp def
+R5372:5374 Ionia.DataExp <> num constr
+R5379:5381 Ionia.CNN_Defs <> div def
+R5388:5391 Ionia.CNN_Defs <> sqrt def
+R5394:5400 Ionia.DataExp <> REconst constr
+R5403:5405 Stdlib.Reals.Rdefinitions <> IZR def
+R5383:5385 Ionia.CNN_Defs <> one def
+def 5492:5500 <> mt_tanh_r
+R5507:5509 Ionia.DataExp <> exp def
+R5511:5513 Ionia.DataExp <> num constr
+binder 5503:5503 <> x:1
+R5518:5520 Ionia.DataExp <> exp def
+R5522:5524 Ionia.DataExp <> num constr
+R5531:5533 Ionia.CNN_Defs <> div def
+R5575:5577 Ionia.CNN_Defs <> add def
+R5589:5592 Ionia.CNN_Defs <> pExp def
+R5595:5600 Ionia.CNN_Defs <> negate def
+R5602:5602 Ionia.MiniTransformer_AST <> x:1 var
+R5580:5583 Ionia.CNN_Defs <> pExp def
+R5585:5585 Ionia.MiniTransformer_AST <> x:1 var
+R5536:5538 Ionia.CNN_Defs <> sub def
+R5550:5553 Ionia.CNN_Defs <> pExp def
+R5556:5561 Ionia.CNN_Defs <> negate def
+R5563:5563 Ionia.MiniTransformer_AST <> x:1 var
+R5541:5544 Ionia.CNN_Defs <> pExp def
+R5546:5546 Ionia.MiniTransformer_AST <> x:1 var
+def 5620:5628 <> mt_gelu_r
+R5635:5637 Ionia.DataExp <> exp def
+R5639:5641 Ionia.DataExp <> num constr
+binder 5631:5631 <> x:2
+R5646:5648 Ionia.DataExp <> exp def
+R5650:5652 Ionia.DataExp <> num constr
+R5659:5661 Ionia.CNN_Defs <> mul def
+R5686:5688 Ionia.CNN_Defs <> add def
+R5695:5703 Ionia.MiniTransformer_AST <> mt_tanh_r def
+R5706:5708 Ionia.CNN_Defs <> mul def
+R5756:5758 Ionia.CNN_Defs <> add def
+R5763:5765 Ionia.CNN_Defs <> mul def
+R5777:5779 Ionia.CNN_Defs <> mul def
+R5791:5791 Ionia.MiniTransformer_AST <> x:2 var
+R5782:5784 Ionia.CNN_Defs <> mul def
+R5788:5788 Ionia.MiniTransformer_AST <> x:2 var
+R5786:5786 Ionia.MiniTransformer_AST <> x:2 var
+R5767:5774 Ionia.MiniTransformer_AST <> mt_cubic def
+R5760:5760 Ionia.MiniTransformer_AST <> x:2 var
+R5710:5721 Ionia.MiniTransformer_AST <> mt_sqrt_2_pi def
+R5690:5692 Ionia.CNN_Defs <> one def
+R5664:5666 Ionia.CNN_Defs <> mul def
+R5676:5676 Ionia.MiniTransformer_AST <> x:2 var
+R5668:5674 Ionia.MiniTransformer_AST <> mt_half def
+def 5863:5872 <> mt_ln_cell
+R5892:5894 Ionia.DataExp <> exp def
+R5896:5898 Ionia.DataExp <> num constr
+binder 5875:5875 <> x:3
+binder 5877:5880 <> mean:4
+binder 5882:5884 <> var:5
+binder 5886:5886 <> g:6
+binder 5888:5888 <> b:7
+R5903:5905 Ionia.DataExp <> exp def
+R5907:5909 Ionia.DataExp <> num constr
+R5916:5918 Ionia.CNN_Defs <> add def
+R5971:5971 Ionia.MiniTransformer_AST <> b:7 var
+R5921:5923 Ionia.CNN_Defs <> mul def
+R5928:5930 Ionia.CNN_Defs <> div def
+R5946:5949 Ionia.CNN_Defs <> sqrt def
+R5952:5954 Ionia.CNN_Defs <> add def
+R5960:5965 Ionia.MiniTransformer_AST <> mt_eps def
+R5956:5958 Ionia.MiniTransformer_AST <> var:5 var
+R5933:5935 Ionia.CNN_Defs <> sub def
+R5939:5942 Ionia.MiniTransformer_AST <> mean:4 var
+R5937:5937 Ionia.MiniTransformer_AST <> x:3 var
+R5925:5925 Ionia.MiniTransformer_AST <> g:6 var
+def 6230:6231 <> T1
+R6236:6238 Ionia.DataExp <> ary constr
+R6246:6248 Ionia.DataExp <> num constr
+R6240:6241 Ionia.DataExp <> :::'''{'_x_'}' not
+R6244:6244 Ionia.DataExp <> :::'''{'_x_'}' not
+def 6314:6315 <> T2
+R6320:6322 Ionia.DataExp <> ary constr
+R6331:6333 Ionia.DataExp <> ary constr
+R6341:6343 Ionia.DataExp <> num constr
+R6335:6336 Ionia.DataExp <> :::'''{'_x_'}' not
+R6339:6339 Ionia.DataExp <> :::'''{'_x_'}' not
+R6324:6325 Ionia.DataExp <> :::'''{'_x_'}' not
+R6328:6328 Ionia.DataExp <> :::'''{'_x_'}' not
+def 6394:6395 <> T3
+R6400:6402 Ionia.DataExp <> ary constr
+R6410:6412 Ionia.DataExp <> ary constr
+R6420:6422 Ionia.DataExp <> ary constr
+R6430:6432 Ionia.DataExp <> num constr
+R6424:6425 Ionia.DataExp <> :::'''{'_x_'}' not
+R6428:6428 Ionia.DataExp <> :::'''{'_x_'}' not
+R6414:6415 Ionia.DataExp <> :::'''{'_x_'}' not
+R6417:6417 Ionia.DataExp <> :::'''{'_x_'}' not
+R6404:6405 Ionia.DataExp <> :::'''{'_x_'}' not
+R6407:6407 Ionia.DataExp <> :::'''{'_x_'}' not
+def 6470:6472 <> T4H
+R6477:6479 Ionia.DataExp <> ary constr
+R6487:6489 Ionia.DataExp <> ary constr
+R6497:6499 Ionia.DataExp <> ary constr
+R6507:6509 Ionia.DataExp <> ary constr
+R6517:6519 Ionia.DataExp <> num constr
+R6511:6512 Ionia.DataExp <> :::'''{'_x_'}' not
+R6515:6515 Ionia.DataExp <> :::'''{'_x_'}' not
+R6501:6502 Ionia.DataExp <> :::'''{'_x_'}' not
+R6504:6504 Ionia.DataExp <> :::'''{'_x_'}' not
+R6491:6492 Ionia.DataExp <> :::'''{'_x_'}' not
+R6494:6494 Ionia.DataExp <> :::'''{'_x_'}' not
+R6481:6482 Ionia.DataExp <> :::'''{'_x_'}' not
+R6484:6484 Ionia.DataExp <> :::'''{'_x_'}' not
+def 6552:6554 <> T4S
+R6559:6561 Ionia.DataExp <> ary constr
+R6569:6571 Ionia.DataExp <> ary constr
+R6579:6581 Ionia.DataExp <> ary constr
+R6589:6591 Ionia.DataExp <> ary constr
+R6598:6600 Ionia.DataExp <> num constr
+R6593:6594 Ionia.DataExp <> :::'''{'_x_'}' not
+R6596:6596 Ionia.DataExp <> :::'''{'_x_'}' not
+R6583:6584 Ionia.DataExp <> :::'''{'_x_'}' not
+R6586:6586 Ionia.DataExp <> :::'''{'_x_'}' not
+R6573:6574 Ionia.DataExp <> :::'''{'_x_'}' not
+R6576:6576 Ionia.DataExp <> :::'''{'_x_'}' not
+R6563:6564 Ionia.DataExp <> :::'''{'_x_'}' not
+R6566:6566 Ionia.DataExp <> :::'''{'_x_'}' not
+def 6634:6636 <> T2H
+R6641:6643 Ionia.DataExp <> ary constr
+R6652:6654 Ionia.DataExp <> ary constr
+R6661:6663 Ionia.DataExp <> num constr
+R6656:6657 Ionia.DataExp <> :::'''{'_x_'}' not
+R6659:6659 Ionia.DataExp <> :::'''{'_x_'}' not
+R6645:6646 Ionia.DataExp <> :::'''{'_x_'}' not
+R6649:6649 Ionia.DataExp <> :::'''{'_x_'}' not
+def 6713:6715 <> T3O
+R6720:6722 Ionia.DataExp <> ary constr
+R6730:6732 Ionia.DataExp <> ary constr
+R6740:6742 Ionia.DataExp <> ary constr
+R6749:6751 Ionia.DataExp <> num constr
+R6744:6745 Ionia.DataExp <> :::'''{'_x_'}' not
+R6747:6747 Ionia.DataExp <> :::'''{'_x_'}' not
+R6734:6735 Ionia.DataExp <> :::'''{'_x_'}' not
+R6737:6737 Ionia.DataExp <> :::'''{'_x_'}' not
+R6724:6725 Ionia.DataExp <> :::'''{'_x_'}' not
+R6727:6727 Ionia.DataExp <> :::'''{'_x_'}' not
+def 6796:6799 <> i0_1
+R6803:6805 Ionia.finType <> fin def
+R6812:6818 Ionia.finType <> nat2fin def
+R6821:6833 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+def 7095:7101 <> tok_tab
+R7105:7107 Ionia.DataExp <> exp def
+R7110:7112 Ionia.DataExp <> ary constr
+R7120:7122 Ionia.DataExp <> ary constr
+R7130:7132 Ionia.DataExp <> num constr
+R7124:7125 Ionia.DataExp <> :::'''{'_x_'}' not
+R7128:7128 Ionia.DataExp <> :::'''{'_x_'}' not
+R7114:7115 Ionia.DataExp <> :::'''{'_x_'}' not
+R7117:7117 Ionia.DataExp <> :::'''{'_x_'}' not
+R7139:7141 Ionia.CNN_CodeGen_Core <> vrd def
+def 7165:7171 <> pos_tab
+R7175:7177 Ionia.DataExp <> exp def
+R7180:7182 Ionia.DataExp <> ary constr
+R7190:7192 Ionia.DataExp <> ary constr
+R7200:7202 Ionia.DataExp <> num constr
+R7194:7195 Ionia.DataExp <> :::'''{'_x_'}' not
+R7198:7198 Ionia.DataExp <> :::'''{'_x_'}' not
+R7184:7185 Ionia.DataExp <> :::'''{'_x_'}' not
+R7187:7187 Ionia.DataExp <> :::'''{'_x_'}' not
+R7209:7211 Ionia.CNN_CodeGen_Core <> vrd def
+def 7236:7243 <> l1_ln1_g
+R7247:7249 Ionia.DataExp <> exp def
+R7251:7252 Ionia.MiniTransformer_AST <> T1 def
+R7257:7259 Ionia.CNN_CodeGen_Core <> vrd def
+def 7284:7291 <> l1_ln1_b
+R7295:7297 Ionia.DataExp <> exp def
+R7299:7300 Ionia.MiniTransformer_AST <> T1 def
+R7305:7307 Ionia.CNN_CodeGen_Core <> vrd def
+def 7332:7339 <> l1_ln2_g
+R7343:7345 Ionia.DataExp <> exp def
+R7347:7348 Ionia.MiniTransformer_AST <> T1 def
+R7353:7355 Ionia.CNN_CodeGen_Core <> vrd def
+def 7380:7387 <> l1_ln2_b
+R7391:7393 Ionia.DataExp <> exp def
+R7395:7396 Ionia.MiniTransformer_AST <> T1 def
+R7401:7403 Ionia.CNN_CodeGen_Core <> vrd def
+def 7428:7432 <> l1_wq
+R7436:7438 Ionia.DataExp <> exp def
+R7440:7441 Ionia.MiniTransformer_AST <> T2 def
+R7446:7448 Ionia.CNN_CodeGen_Core <> vrd def
+def 7470:7474 <> l1_wk
+R7478:7480 Ionia.DataExp <> exp def
+R7482:7483 Ionia.MiniTransformer_AST <> T2 def
+R7488:7490 Ionia.CNN_CodeGen_Core <> vrd def
+def 7512:7516 <> l1_wv
+R7520:7522 Ionia.DataExp <> exp def
+R7524:7525 Ionia.MiniTransformer_AST <> T2 def
+R7530:7532 Ionia.CNN_CodeGen_Core <> vrd def
+def 7554:7558 <> l1_wo
+R7562:7564 Ionia.DataExp <> exp def
+R7566:7567 Ionia.MiniTransformer_AST <> T2 def
+R7572:7574 Ionia.CNN_CodeGen_Core <> vrd def
+def 7596:7600 <> l1_w1
+R7604:7606 Ionia.DataExp <> exp def
+R7608:7609 Ionia.MiniTransformer_AST <> T2 def
+R7614:7616 Ionia.CNN_CodeGen_Core <> vrd def
+def 7638:7642 <> l1_w2
+R7646:7648 Ionia.DataExp <> exp def
+R7650:7651 Ionia.MiniTransformer_AST <> T2 def
+R7656:7658 Ionia.CNN_CodeGen_Core <> vrd def
+def 7681:7688 <> l2_ln1_g
+R7692:7694 Ionia.DataExp <> exp def
+R7696:7697 Ionia.MiniTransformer_AST <> T1 def
+R7702:7704 Ionia.CNN_CodeGen_Core <> vrd def
+def 7729:7736 <> l2_ln1_b
+R7740:7742 Ionia.DataExp <> exp def
+R7744:7745 Ionia.MiniTransformer_AST <> T1 def
+R7750:7752 Ionia.CNN_CodeGen_Core <> vrd def
+def 7777:7784 <> l2_ln2_g
+R7788:7790 Ionia.DataExp <> exp def
+R7792:7793 Ionia.MiniTransformer_AST <> T1 def
+R7798:7800 Ionia.CNN_CodeGen_Core <> vrd def
+def 7825:7832 <> l2_ln2_b
+R7836:7838 Ionia.DataExp <> exp def
+R7840:7841 Ionia.MiniTransformer_AST <> T1 def
+R7846:7848 Ionia.CNN_CodeGen_Core <> vrd def
+def 7873:7877 <> l2_wq
+R7881:7883 Ionia.DataExp <> exp def
+R7885:7886 Ionia.MiniTransformer_AST <> T2 def
+R7891:7893 Ionia.CNN_CodeGen_Core <> vrd def
+def 7915:7919 <> l2_wk
+R7923:7925 Ionia.DataExp <> exp def
+R7927:7928 Ionia.MiniTransformer_AST <> T2 def
+R7933:7935 Ionia.CNN_CodeGen_Core <> vrd def
+def 7957:7961 <> l2_wv
+R7965:7967 Ionia.DataExp <> exp def
+R7969:7970 Ionia.MiniTransformer_AST <> T2 def
+R7975:7977 Ionia.CNN_CodeGen_Core <> vrd def
+def 7999:8003 <> l2_wo
+R8007:8009 Ionia.DataExp <> exp def
+R8011:8012 Ionia.MiniTransformer_AST <> T2 def
+R8017:8019 Ionia.CNN_CodeGen_Core <> vrd def
+def 8041:8045 <> l2_w1
+R8049:8051 Ionia.DataExp <> exp def
+R8053:8054 Ionia.MiniTransformer_AST <> T2 def
+R8059:8061 Ionia.CNN_CodeGen_Core <> vrd def
+def 8083:8087 <> l2_w2
+R8091:8093 Ionia.DataExp <> exp def
+R8095:8096 Ionia.MiniTransformer_AST <> T2 def
+R8101:8103 Ionia.CNN_CodeGen_Core <> vrd def
+def 8126:8130 <> lnf_g
+R8134:8136 Ionia.DataExp <> exp def
+R8138:8139 Ionia.MiniTransformer_AST <> T1 def
+R8144:8146 Ionia.CNN_CodeGen_Core <> vrd def
+def 8168:8172 <> lnf_b
+R8176:8178 Ionia.DataExp <> exp def
+R8180:8181 Ionia.MiniTransformer_AST <> T1 def
+R8186:8188 Ionia.CNN_CodeGen_Core <> vrd def
+def 8210:8214 <> whead
+R8218:8220 Ionia.DataExp <> exp def
+R8222:8224 Ionia.MiniTransformer_AST <> T2H def
+R8229:8231 Ionia.CNN_CodeGen_Core <> vrd def
+def 8254:8257 <> l1_w
+R8261:8263 Ionia.DataExp <> acc def
+R8265:8266 Ionia.MiniTransformer_AST <> T3 def
+R8271:8273 Ionia.CNN_CodeGen_Core <> vwt def
+def 8292:8295 <> l1_r
+R8299:8301 Ionia.DataExp <> exp def
+R8303:8304 Ionia.MiniTransformer_AST <> T3 def
+R8309:8311 Ionia.CNN_CodeGen_Core <> vrd def
+def 8330:8333 <> l2_w
+R8337:8339 Ionia.DataExp <> acc def
+R8341:8342 Ionia.MiniTransformer_AST <> T3 def
+R8347:8349 Ionia.CNN_CodeGen_Core <> vwt def
+def 8368:8371 <> l2_r
+R8375:8377 Ionia.DataExp <> exp def
+R8379:8380 Ionia.MiniTransformer_AST <> T3 def
+R8385:8387 Ionia.CNN_CodeGen_Core <> vrd def
+def 8406:8409 <> l3_w
+R8413:8415 Ionia.DataExp <> acc def
+R8417:8418 Ionia.MiniTransformer_AST <> T3 def
+R8423:8425 Ionia.CNN_CodeGen_Core <> vwt def
+def 8444:8447 <> l3_r
+R8451:8453 Ionia.DataExp <> exp def
+R8455:8456 Ionia.MiniTransformer_AST <> T3 def
+R8461:8463 Ionia.CNN_CodeGen_Core <> vrd def
+def 8482:8485 <> l4_w
+R8489:8491 Ionia.DataExp <> acc def
+R8493:8494 Ionia.MiniTransformer_AST <> T3 def
+R8499:8501 Ionia.CNN_CodeGen_Core <> vwt def
+def 8520:8523 <> l4_r
+R8527:8529 Ionia.DataExp <> exp def
+R8531:8532 Ionia.MiniTransformer_AST <> T3 def
+R8537:8539 Ionia.CNN_CodeGen_Core <> vrd def
+def 8559:8564 <> bln1_w
+R8568:8570 Ionia.DataExp <> acc def
+R8572:8573 Ionia.MiniTransformer_AST <> T3 def
+R8578:8580 Ionia.CNN_CodeGen_Core <> vwt def
+def 8601:8606 <> bln1_r
+R8610:8612 Ionia.DataExp <> exp def
+R8614:8615 Ionia.MiniTransformer_AST <> T3 def
+R8620:8622 Ionia.CNN_CodeGen_Core <> vrd def
+def 8643:8648 <> bmha_w
+R8652:8654 Ionia.DataExp <> acc def
+R8656:8657 Ionia.MiniTransformer_AST <> T3 def
+R8662:8664 Ionia.CNN_CodeGen_Core <> vwt def
+def 8685:8690 <> bmha_r
+R8694:8696 Ionia.DataExp <> exp def
+R8698:8699 Ionia.MiniTransformer_AST <> T3 def
+R8704:8706 Ionia.CNN_CodeGen_Core <> vrd def
+def 8727:8731 <> br1_w
+R8735:8737 Ionia.DataExp <> acc def
+R8739:8740 Ionia.MiniTransformer_AST <> T3 def
+R8745:8747 Ionia.CNN_CodeGen_Core <> vwt def
+def 8767:8771 <> br1_r
+R8775:8777 Ionia.DataExp <> exp def
+R8779:8780 Ionia.MiniTransformer_AST <> T3 def
+R8785:8787 Ionia.CNN_CodeGen_Core <> vrd def
+def 8807:8812 <> bln2_w
+R8816:8818 Ionia.DataExp <> acc def
+R8820:8821 Ionia.MiniTransformer_AST <> T3 def
+R8826:8828 Ionia.CNN_CodeGen_Core <> vwt def
+def 8849:8854 <> bln2_r
+R8858:8860 Ionia.DataExp <> exp def
+R8862:8863 Ionia.MiniTransformer_AST <> T3 def
+R8868:8870 Ionia.CNN_CodeGen_Core <> vrd def
+def 8891:8896 <> btf1_w
+R8900:8902 Ionia.DataExp <> acc def
+R8904:8905 Ionia.MiniTransformer_AST <> T3 def
+R8910:8912 Ionia.CNN_CodeGen_Core <> vwt def
+def 8933:8938 <> btf1_r
+R8942:8944 Ionia.DataExp <> exp def
+R8946:8947 Ionia.MiniTransformer_AST <> T3 def
+R8952:8954 Ionia.CNN_CodeGen_Core <> vrd def
+def 8975:8979 <> btg_w
+R8983:8985 Ionia.DataExp <> acc def
+R8987:8988 Ionia.MiniTransformer_AST <> T3 def
+R8993:8995 Ionia.CNN_CodeGen_Core <> vwt def
+def 9015:9019 <> btg_r
+R9023:9025 Ionia.DataExp <> exp def
+R9027:9028 Ionia.MiniTransformer_AST <> T3 def
+R9033:9035 Ionia.CNN_CodeGen_Core <> vrd def
+def 9055:9060 <> btf2_w
+R9064:9066 Ionia.DataExp <> acc def
+R9068:9069 Ionia.MiniTransformer_AST <> T3 def
+R9074:9076 Ionia.CNN_CodeGen_Core <> vwt def
+def 9097:9102 <> btf2_r
+R9106:9108 Ionia.DataExp <> exp def
+R9110:9111 Ionia.MiniTransformer_AST <> T3 def
+R9116:9118 Ionia.CNN_CodeGen_Core <> vrd def
+def 9140:9144 <> mtq_w
+R9148:9150 Ionia.DataExp <> acc def
+R9152:9153 Ionia.MiniTransformer_AST <> T3 def
+R9158:9160 Ionia.CNN_CodeGen_Core <> vwt def
+def 9180:9184 <> mtq_r
+R9188:9190 Ionia.DataExp <> exp def
+R9192:9193 Ionia.MiniTransformer_AST <> T3 def
+R9198:9200 Ionia.CNN_CodeGen_Core <> vrd def
+def 9220:9224 <> mtk_w
+R9228:9230 Ionia.DataExp <> acc def
+R9232:9233 Ionia.MiniTransformer_AST <> T3 def
+R9238:9240 Ionia.CNN_CodeGen_Core <> vwt def
+def 9260:9264 <> mtk_r
+R9268:9270 Ionia.DataExp <> exp def
+R9272:9273 Ionia.MiniTransformer_AST <> T3 def
+R9278:9280 Ionia.CNN_CodeGen_Core <> vrd def
+def 9300:9304 <> mtv_w
+R9308:9310 Ionia.DataExp <> acc def
+R9312:9313 Ionia.MiniTransformer_AST <> T3 def
+R9318:9320 Ionia.CNN_CodeGen_Core <> vwt def
+def 9340:9344 <> mtv_r
+R9348:9350 Ionia.DataExp <> exp def
+R9352:9353 Ionia.MiniTransformer_AST <> T3 def
+R9358:9360 Ionia.CNN_CodeGen_Core <> vrd def
+def 9380:9385 <> mtmg_w
+R9389:9391 Ionia.DataExp <> acc def
+R9393:9394 Ionia.MiniTransformer_AST <> T3 def
+R9399:9401 Ionia.CNN_CodeGen_Core <> vwt def
+def 9422:9427 <> mtmg_r
+R9431:9433 Ionia.DataExp <> exp def
+R9435:9436 Ionia.MiniTransformer_AST <> T3 def
+R9441:9443 Ionia.CNN_CodeGen_Core <> vrd def
+def 9465:9470 <> mtqs_w
+R9474:9476 Ionia.DataExp <> acc def
+R9478:9480 Ionia.MiniTransformer_AST <> T4H def
+R9485:9487 Ionia.CNN_CodeGen_Core <> vwt def
+def 9508:9513 <> mtqs_r
+R9517:9519 Ionia.DataExp <> exp def
+R9521:9523 Ionia.MiniTransformer_AST <> T4H def
+R9528:9530 Ionia.CNN_CodeGen_Core <> vrd def
+def 9551:9556 <> mtks_w
+R9560:9562 Ionia.DataExp <> acc def
+R9564:9566 Ionia.MiniTransformer_AST <> T4H def
+R9571:9573 Ionia.CNN_CodeGen_Core <> vwt def
+def 9594:9599 <> mtks_r
+R9603:9605 Ionia.DataExp <> exp def
+R9607:9609 Ionia.MiniTransformer_AST <> T4H def
+R9614:9616 Ionia.CNN_CodeGen_Core <> vrd def
+def 9637:9642 <> mtvs_w
+R9646:9648 Ionia.DataExp <> acc def
+R9650:9652 Ionia.MiniTransformer_AST <> T4H def
+R9657:9659 Ionia.CNN_CodeGen_Core <> vwt def
+def 9680:9685 <> mtvs_r
+R9689:9691 Ionia.DataExp <> exp def
+R9693:9695 Ionia.MiniTransformer_AST <> T4H def
+R9700:9702 Ionia.CNN_CodeGen_Core <> vrd def
+def 9723:9729 <> mtatt_w
+R9733:9735 Ionia.DataExp <> acc def
+R9737:9739 Ionia.MiniTransformer_AST <> T4H def
+R9744:9746 Ionia.CNN_CodeGen_Core <> vwt def
+def 9768:9774 <> mtatt_r
+R9778:9780 Ionia.DataExp <> exp def
+R9782:9784 Ionia.MiniTransformer_AST <> T4H def
+R9789:9791 Ionia.CNN_CodeGen_Core <> vrd def
+def 9814:9822 <> mtscore_w
+R9826:9828 Ionia.DataExp <> acc def
+R9830:9832 Ionia.MiniTransformer_AST <> T4S def
+R9837:9839 Ionia.CNN_CodeGen_Core <> vwt def
+def 9863:9871 <> mtscore_r
+R9875:9877 Ionia.DataExp <> exp def
+R9879:9881 Ionia.MiniTransformer_AST <> T4S def
+R9886:9888 Ionia.CNN_CodeGen_Core <> vrd def
+def 9912:9919 <> mtprob_w
+R9923:9925 Ionia.DataExp <> acc def
+R9927:9929 Ionia.MiniTransformer_AST <> T4S def
+R9934:9936 Ionia.CNN_CodeGen_Core <> vwt def
+def 9959:9966 <> mtprob_r
+R9970:9972 Ionia.DataExp <> exp def
+R9974:9976 Ionia.MiniTransformer_AST <> T4S def
+R9981:9983 Ionia.CNN_CodeGen_Core <> vrd def
+def 10007:10014 <> output_w
+R10018:10020 Ionia.DataExp <> acc def
+R10022:10024 Ionia.MiniTransformer_AST <> T3O def
+R10029:10031 Ionia.CNN_CodeGen_Core <> vwt def
+def 11099:11104 <> mt_tok
+R11111:11113 Corelib.Init.Datatypes <> nat ind
+binder 11107:11107 <> i:8
+R11122:11124 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R11121:11121 Ionia.MiniTransformer_AST <> i:8 var
+binder 11117:11117 <> H:9
+R11130:11132 Ionia.finType <> fin def
+R11139:11145 Ionia.finType <> nat2fin def
+R11147:11147 Ionia.MiniTransformer_AST <> H:9 var
+def 11162:11178 <> mt_embed_pos_comm
+R11187:11189 Ionia.DataExp <> acc def
+R11191:11192 Ionia.MiniTransformer_AST <> T3 def
+binder 11181:11183 <> out:10
+R11203:11205 Ionia.finType <> fin def
+binder 11196:11196 <> p:11
+binder 11198:11199 <> tk:12
+R11212:11215 Ionia.CNN_CodeGen_Core <> comm ind
+R11222:11227 Ionia.CNN_CodeGen_Core <> seqfor constr
+R11238:11240 Ionia.finType <> fin def
+binder 11234:11234 <> j:13
+R11270:11274 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R11266:11267 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R11269:11269 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R11262:11263 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R11265:11265 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R11255:11256 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R11261:11261 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R11252:11254 Ionia.MiniTransformer_AST <> out:10 var
+R11257:11260 Ionia.MiniTransformer_AST <> i0_1 def
+R11264:11264 Ionia.MiniTransformer_AST <> p:11 var
+R11268:11268 Ionia.MiniTransformer_AST <> j:13 var
+R11275:11277 Ionia.CNN_Defs <> add def
+R11307:11308 Ionia.DataExp <> :::x_'|['_x_']' not
+R11310:11310 Ionia.DataExp <> :::x_'|['_x_']' not
+R11303:11304 Ionia.DataExp <> :::x_'|['_x_']' not
+R11306:11306 Ionia.DataExp <> :::x_'|['_x_']' not
+R11296:11302 Ionia.MiniTransformer_AST <> pos_tab def
+R11305:11305 Ionia.MiniTransformer_AST <> p:11 var
+R11309:11309 Ionia.MiniTransformer_AST <> j:13 var
+R11291:11292 Ionia.DataExp <> :::x_'|['_x_']' not
+R11294:11294 Ionia.DataExp <> :::x_'|['_x_']' not
+R11286:11287 Ionia.DataExp <> :::x_'|['_x_']' not
+R11290:11290 Ionia.DataExp <> :::x_'|['_x_']' not
+R11279:11285 Ionia.MiniTransformer_AST <> tok_tab def
+R11288:11289 Ionia.MiniTransformer_AST <> tk:12 var
+R11293:11293 Ionia.MiniTransformer_AST <> j:13 var
+def 11326:11338 <> mt_embed_comm
+R11342:11345 Ionia.CNN_CodeGen_Core <> comm ind
+R11424:11429 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R11352:11368 Ionia.MiniTransformer_AST <> mt_embed_pos_comm def
+R11402:11407 Ionia.MiniTransformer_AST <> mt_tok def
+R11377:11382 Ionia.MiniTransformer_AST <> mt_tok def
+R11370:11373 Ionia.MiniTransformer_AST <> l1_w def
+R11502:11507 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R11430:11446 Ionia.MiniTransformer_AST <> mt_embed_pos_comm def
+R11480:11485 Ionia.MiniTransformer_AST <> mt_tok def
+R11455:11460 Ionia.MiniTransformer_AST <> mt_tok def
+R11448:11451 Ionia.MiniTransformer_AST <> l1_w def
+R11580:11585 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R11508:11524 Ionia.MiniTransformer_AST <> mt_embed_pos_comm def
+R11558:11563 Ionia.MiniTransformer_AST <> mt_tok def
+R11533:11538 Ionia.MiniTransformer_AST <> mt_tok def
+R11526:11529 Ionia.MiniTransformer_AST <> l1_w def
+R11658:11663 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R11586:11602 Ionia.MiniTransformer_AST <> mt_embed_pos_comm def
+R11636:11641 Ionia.MiniTransformer_AST <> mt_tok def
+R11611:11616 Ionia.MiniTransformer_AST <> mt_tok def
+R11604:11607 Ionia.MiniTransformer_AST <> l1_w def
+R11736:11741 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R11664:11680 Ionia.MiniTransformer_AST <> mt_embed_pos_comm def
+R11714:11719 Ionia.MiniTransformer_AST <> mt_tok def
+R11689:11694 Ionia.MiniTransformer_AST <> mt_tok def
+R11682:11685 Ionia.MiniTransformer_AST <> l1_w def
+R11814:11819 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R11742:11758 Ionia.MiniTransformer_AST <> mt_embed_pos_comm def
+R11792:11797 Ionia.MiniTransformer_AST <> mt_tok def
+R11767:11772 Ionia.MiniTransformer_AST <> mt_tok def
+R11760:11763 Ionia.MiniTransformer_AST <> l1_w def
+R11892:11897 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R11820:11836 Ionia.MiniTransformer_AST <> mt_embed_pos_comm def
+R11870:11875 Ionia.MiniTransformer_AST <> mt_tok def
+R11845:11850 Ionia.MiniTransformer_AST <> mt_tok def
+R11838:11841 Ionia.MiniTransformer_AST <> l1_w def
+R11898:11914 Ionia.MiniTransformer_AST <> mt_embed_pos_comm def
+R11948:11953 Ionia.MiniTransformer_AST <> mt_tok def
+R11923:11928 Ionia.MiniTransformer_AST <> mt_tok def
+R11916:11919 Ionia.MiniTransformer_AST <> l1_w def
+def 12228:12241 <> mt_ln_row_comm
+R12250:12252 Ionia.DataExp <> exp def
+R12255:12257 Ionia.DataExp <> ary constr
+R12265:12267 Ionia.DataExp <> num constr
+R12259:12260 Ionia.DataExp <> :::'''{'_x_'}' not
+R12263:12263 Ionia.DataExp <> :::'''{'_x_'}' not
+binder 12246:12246 <> x:14
+R12278:12280 Ionia.DataExp <> exp def
+R12283:12285 Ionia.DataExp <> ary constr
+R12293:12295 Ionia.DataExp <> num constr
+R12287:12288 Ionia.DataExp <> :::'''{'_x_'}' not
+R12291:12291 Ionia.DataExp <> :::'''{'_x_'}' not
+binder 12272:12272 <> g:15
+binder 12274:12274 <> b:16
+R12308:12310 Ionia.DataExp <> acc def
+R12313:12315 Ionia.DataExp <> ary constr
+R12323:12325 Ionia.DataExp <> num constr
+R12317:12318 Ionia.DataExp <> :::'''{'_x_'}' not
+R12321:12321 Ionia.DataExp <> :::'''{'_x_'}' not
+binder 12302:12304 <> out:17
+R12331:12334 Ionia.CNN_CodeGen_Core <> comm ind
+R12342:12348 Ionia.CNN_CodeGen_Core <> loopacc constr
+R12350:12352 Ionia.DataExp <> num constr
+binder 12359:12360 <> t1:18
+R12379:12381 Ionia.CNN_CodeGen_Core <> vwt def
+R12383:12384 Ionia.MiniTransformer_AST <> t1:18 var
+binder 12373:12374 <> w1:19
+R12399:12401 Ionia.CNN_CodeGen_Core <> vrd def
+R12403:12404 Ionia.MiniTransformer_AST <> t1:18 var
+binder 12393:12394 <> v1:20
+R12413:12413 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R12425:12433 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R12416:12420 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R12414:12415 Ionia.MiniTransformer_AST <> w1:19 var
+R12421:12424 Ionia.CNN_Defs <> zero def
+R12480:12487 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R12434:12439 Ionia.CNN_CodeGen_Core <> seqfor constr
+R12450:12452 Ionia.finType <> fin def
+binder 12446:12446 <> j:21
+R12462:12466 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R12460:12461 Ionia.MiniTransformer_AST <> w1:19 var
+R12467:12469 Ionia.CNN_Defs <> add def
+R12477:12478 Ionia.MiniTransformer_AST <> v1:20 var
+R12472:12473 Ionia.DataExp <> :::x_'|['_x_']' not
+R12475:12475 Ionia.DataExp <> :::x_'|['_x_']' not
+R12471:12471 Ionia.MiniTransformer_AST <> x:14 var
+R12474:12474 Ionia.MiniTransformer_AST <> j:21 var
+R12489:12495 Ionia.CNN_CodeGen_Core <> loopacc constr
+R12497:12499 Ionia.DataExp <> num constr
+binder 12506:12507 <> t2:22
+R12528:12530 Ionia.CNN_CodeGen_Core <> vwt def
+R12532:12533 Ionia.MiniTransformer_AST <> t2:22 var
+binder 12522:12523 <> w2:23
+R12548:12550 Ionia.CNN_CodeGen_Core <> vrd def
+R12552:12553 Ionia.MiniTransformer_AST <> t2:22 var
+binder 12542:12543 <> v2:24
+R12564:12564 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R12576:12586 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R12567:12571 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R12565:12566 Ionia.MiniTransformer_AST <> w2:23 var
+R12572:12575 Ionia.CNN_Defs <> zero def
+R12693:12702 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R12587:12592 Ionia.CNN_CodeGen_Core <> seqfor constr
+R12603:12605 Ionia.finType <> fin def
+binder 12599:12599 <> j:25
+R12623:12627 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R12621:12622 Ionia.MiniTransformer_AST <> w2:23 var
+R12628:12630 Ionia.CNN_Defs <> add def
+R12690:12691 Ionia.MiniTransformer_AST <> v2:24 var
+R12633:12635 Ionia.CNN_Defs <> mul def
+R12664:12666 Ionia.CNN_Defs <> sub def
+R12675:12679 Ionia.CNN_Defs <> div_n def
+R12681:12682 Ionia.MiniTransformer_AST <> v1:20 var
+R12669:12670 Ionia.DataExp <> :::x_'|['_x_']' not
+R12672:12672 Ionia.DataExp <> :::x_'|['_x_']' not
+R12668:12668 Ionia.MiniTransformer_AST <> x:14 var
+R12671:12671 Ionia.MiniTransformer_AST <> j:25 var
+R12638:12640 Ionia.CNN_Defs <> sub def
+R12649:12653 Ionia.CNN_Defs <> div_n def
+R12655:12656 Ionia.MiniTransformer_AST <> v1:20 var
+R12643:12644 Ionia.DataExp <> :::x_'|['_x_']' not
+R12646:12646 Ionia.DataExp <> :::x_'|['_x_']' not
+R12642:12642 Ionia.MiniTransformer_AST <> x:14 var
+R12645:12645 Ionia.MiniTransformer_AST <> j:25 var
+R12703:12708 Ionia.CNN_CodeGen_Core <> seqfor constr
+R12719:12721 Ionia.finType <> fin def
+binder 12715:12715 <> j:26
+R12744:12748 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R12740:12741 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R12743:12743 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R12737:12739 Ionia.MiniTransformer_AST <> out:17 var
+R12742:12742 Ionia.MiniTransformer_AST <> j:26 var
+R12749:12758 Ionia.MiniTransformer_AST <> mt_ln_cell def
+R12801:12802 Ionia.DataExp <> :::x_'|['_x_']' not
+R12804:12804 Ionia.DataExp <> :::x_'|['_x_']' not
+R12800:12800 Ionia.MiniTransformer_AST <> b:16 var
+R12803:12803 Ionia.MiniTransformer_AST <> j:26 var
+R12795:12796 Ionia.DataExp <> :::x_'|['_x_']' not
+R12798:12798 Ionia.DataExp <> :::x_'|['_x_']' not
+R12794:12794 Ionia.MiniTransformer_AST <> g:15 var
+R12797:12797 Ionia.MiniTransformer_AST <> j:26 var
+R12781:12785 Ionia.CNN_Defs <> div_n def
+R12787:12788 Ionia.MiniTransformer_AST <> v2:24 var
+R12767:12771 Ionia.CNN_Defs <> div_n def
+R12773:12774 Ionia.MiniTransformer_AST <> v1:20 var
+R12761:12762 Ionia.DataExp <> :::x_'|['_x_']' not
+R12764:12764 Ionia.DataExp <> :::x_'|['_x_']' not
+R12760:12760 Ionia.MiniTransformer_AST <> x:14 var
+R12763:12763 Ionia.MiniTransformer_AST <> j:26 var
+def 12822:12838 <> mt_layernorm_comm
+R12847:12849 Ionia.DataExp <> exp def
+R12851:12852 Ionia.MiniTransformer_AST <> T3 def
+binder 12843:12843 <> x:27
+R12862:12864 Ionia.DataExp <> exp def
+R12866:12867 Ionia.MiniTransformer_AST <> T1 def
+binder 12856:12856 <> g:28
+binder 12858:12858 <> b:29
+R12877:12879 Ionia.DataExp <> acc def
+R12881:12882 Ionia.MiniTransformer_AST <> T3 def
+binder 12871:12873 <> out:30
+R12887:12890 Ionia.CNN_CodeGen_Core <> comm ind
+R12897:12902 Ionia.CNN_CodeGen_Core <> seqfor constr
+R12914:12916 Ionia.finType <> fin def
+binder 12909:12910 <> bb:31
+R12923:12928 Ionia.CNN_CodeGen_Core <> seqfor constr
+R12940:12942 Ionia.finType <> fin def
+binder 12935:12936 <> ss:32
+R12953:12966 Ionia.MiniTransformer_AST <> mt_ln_row_comm def
+R12993:12994 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R12997:12997 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R12988:12989 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R12992:12992 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R12985:12987 Ionia.MiniTransformer_AST <> out:30 var
+R12990:12991 Ionia.MiniTransformer_AST <> bb:31 var
+R12995:12996 Ionia.MiniTransformer_AST <> ss:32 var
+R12982:12982 Ionia.MiniTransformer_AST <> b:29 var
+R12980:12980 Ionia.MiniTransformer_AST <> g:28 var
+R12974:12975 Ionia.DataExp <> :::x_'|['_x_']' not
+R12978:12978 Ionia.DataExp <> :::x_'|['_x_']' not
+R12969:12970 Ionia.DataExp <> :::x_'|['_x_']' not
+R12973:12973 Ionia.DataExp <> :::x_'|['_x_']' not
+R12968:12968 Ionia.MiniTransformer_AST <> x:27 var
+R12971:12972 Ionia.MiniTransformer_AST <> bb:31 var
+R12976:12977 Ionia.MiniTransformer_AST <> ss:32 var
+def 13015:13035 <> mt_layernorm_par_comm
+R13044:13046 Ionia.DataExp <> exp def
+R13048:13049 Ionia.MiniTransformer_AST <> T3 def
+binder 13040:13040 <> x:33
+R13059:13061 Ionia.DataExp <> exp def
+R13063:13064 Ionia.MiniTransformer_AST <> T1 def
+binder 13053:13053 <> g:34
+binder 13055:13055 <> b:35
+R13074:13076 Ionia.DataExp <> acc def
+R13078:13079 Ionia.MiniTransformer_AST <> T3 def
+binder 13068:13070 <> out:36
+R13084:13087 Ionia.CNN_CodeGen_Core <> comm ind
+R13094:13099 Ionia.CNN_CodeGen_Core <> seqfor constr
+R13111:13113 Ionia.finType <> fin def
+binder 13106:13107 <> bb:37
+R13120:13125 Ionia.CNN_CodeGen_Core <> parfor constr
+binder 13143:13144 <> ss:38
+binder 13146:13146 <> o:39
+R13155:13168 Ionia.MiniTransformer_AST <> mt_ln_row_comm def
+R13186:13186 Ionia.MiniTransformer_AST <> o:39 var
+R13184:13184 Ionia.MiniTransformer_AST <> b:35 var
+R13182:13182 Ionia.MiniTransformer_AST <> g:34 var
+R13176:13177 Ionia.DataExp <> :::x_'|['_x_']' not
+R13180:13180 Ionia.DataExp <> :::x_'|['_x_']' not
+R13171:13172 Ionia.DataExp <> :::x_'|['_x_']' not
+R13175:13175 Ionia.DataExp <> :::x_'|['_x_']' not
+R13170:13170 Ionia.MiniTransformer_AST <> x:33 var
+R13173:13174 Ionia.MiniTransformer_AST <> bb:37 var
+R13178:13179 Ionia.MiniTransformer_AST <> ss:38 var
+R13131:13132 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R13135:13135 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R13128:13130 Ionia.MiniTransformer_AST <> out:36 var
+R13133:13134 Ionia.MiniTransformer_AST <> bb:37 var
+def 13447:13461 <> mt_bmm_row_comm
+R13470:13472 Corelib.Init.Datatypes <> nat ind
+binder 13464:13464 <> n:40
+binder 13466:13466 <> p:41
+R13482:13484 Ionia.DataExp <> exp def
+R13487:13489 Ionia.DataExp <> ary constr
+R13497:13499 Ionia.DataExp <> ary constr
+R13506:13508 Ionia.DataExp <> num constr
+R13501:13502 Ionia.DataExp <> :::'''{'_x_'}' not
+R13504:13504 Ionia.DataExp <> :::'''{'_x_'}' not
+R13503:13503 Ionia.MiniTransformer_AST <> n:40 var
+R13491:13492 Ionia.DataExp <> :::'''{'_x_'}' not
+R13494:13494 Ionia.DataExp <> :::'''{'_x_'}' not
+binder 13478:13478 <> x:42
+R13518:13520 Ionia.DataExp <> exp def
+R13523:13525 Ionia.DataExp <> ary constr
+R13533:13535 Ionia.DataExp <> ary constr
+R13542:13544 Ionia.DataExp <> num constr
+R13537:13538 Ionia.DataExp <> :::'''{'_x_'}' not
+R13540:13540 Ionia.DataExp <> :::'''{'_x_'}' not
+R13539:13539 Ionia.MiniTransformer_AST <> p:41 var
+R13527:13528 Ionia.DataExp <> :::'''{'_x_'}' not
+R13530:13530 Ionia.DataExp <> :::'''{'_x_'}' not
+R13529:13529 Ionia.MiniTransformer_AST <> n:40 var
+binder 13514:13514 <> w:43
+R13558:13560 Ionia.DataExp <> acc def
+R13563:13565 Ionia.DataExp <> ary constr
+R13573:13575 Ionia.DataExp <> ary constr
+R13582:13584 Ionia.DataExp <> num constr
+R13577:13578 Ionia.DataExp <> :::'''{'_x_'}' not
+R13580:13580 Ionia.DataExp <> :::'''{'_x_'}' not
+R13579:13579 Ionia.MiniTransformer_AST <> p:41 var
+R13567:13568 Ionia.DataExp <> :::'''{'_x_'}' not
+R13570:13570 Ionia.DataExp <> :::'''{'_x_'}' not
+binder 13552:13554 <> out:44
+R13591:13594 Ionia.CNN_CodeGen_Core <> comm ind
+R13601:13606 Ionia.CNN_CodeGen_Core <> seqfor constr
+R13618:13620 Ionia.finType <> fin def
+binder 13613:13614 <> ss:45
+R13627:13632 Ionia.CNN_CodeGen_Core <> seqfor constr
+R13643:13645 Ionia.finType <> fin def
+R13647:13647 Ionia.MiniTransformer_AST <> p:41 var
+binder 13639:13639 <> j:46
+R13657:13663 Ionia.CNN_CodeGen_Core <> loopacc constr
+R13665:13667 Ionia.DataExp <> num constr
+binder 13674:13676 <> tmp:47
+R13697:13699 Ionia.CNN_CodeGen_Core <> vwt def
+R13701:13703 Ionia.MiniTransformer_AST <> tmp:47 var
+binder 13691:13692 <> wa:48
+R13718:13720 Ionia.CNN_CodeGen_Core <> vrd def
+R13722:13724 Ionia.MiniTransformer_AST <> tmp:47 var
+binder 13712:13713 <> va:49
+R13735:13735 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R13747:13757 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R13738:13742 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R13736:13737 Ionia.MiniTransformer_AST <> wa:48 var
+R13743:13746 Ionia.CNN_Defs <> zero def
+R13824:13833 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R13758:13763 Ionia.CNN_CodeGen_Core <> seqfor constr
+R13774:13776 Ionia.finType <> fin def
+R13778:13778 Ionia.MiniTransformer_AST <> n:40 var
+binder 13770:13770 <> k:50
+R13785:13789 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R13783:13784 Ionia.MiniTransformer_AST <> wa:48 var
+R13790:13792 Ionia.CNN_Defs <> add def
+R13821:13822 Ionia.MiniTransformer_AST <> va:49 var
+R13795:13797 Ionia.CNN_Defs <> mul def
+R13815:13816 Ionia.DataExp <> :::x_'|['_x_']' not
+R13818:13818 Ionia.DataExp <> :::x_'|['_x_']' not
+R13811:13812 Ionia.DataExp <> :::x_'|['_x_']' not
+R13814:13814 Ionia.DataExp <> :::x_'|['_x_']' not
+R13810:13810 Ionia.MiniTransformer_AST <> w:43 var
+R13813:13813 Ionia.MiniTransformer_AST <> k:50 var
+R13817:13817 Ionia.MiniTransformer_AST <> j:46 var
+R13805:13806 Ionia.DataExp <> :::x_'|['_x_']' not
+R13808:13808 Ionia.DataExp <> :::x_'|['_x_']' not
+R13800:13801 Ionia.DataExp <> :::x_'|['_x_']' not
+R13804:13804 Ionia.DataExp <> :::x_'|['_x_']' not
+R13799:13799 Ionia.MiniTransformer_AST <> x:42 var
+R13802:13803 Ionia.MiniTransformer_AST <> ss:45 var
+R13807:13807 Ionia.MiniTransformer_AST <> k:50 var
+R13846:13850 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R13842:13843 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R13845:13845 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R13837:13838 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R13841:13841 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R13834:13836 Ionia.MiniTransformer_AST <> out:44 var
+R13839:13840 Ionia.MiniTransformer_AST <> ss:45 var
+R13844:13844 Ionia.MiniTransformer_AST <> j:46 var
+R13851:13852 Ionia.MiniTransformer_AST <> va:49 var
+def 13870:13888 <> mt_bmm_row_par_comm
+R13897:13899 Corelib.Init.Datatypes <> nat ind
+binder 13891:13891 <> n:51
+binder 13893:13893 <> p:52
+R13909:13911 Ionia.DataExp <> exp def
+R13914:13916 Ionia.DataExp <> ary constr
+R13924:13926 Ionia.DataExp <> ary constr
+R13933:13935 Ionia.DataExp <> num constr
+R13928:13929 Ionia.DataExp <> :::'''{'_x_'}' not
+R13931:13931 Ionia.DataExp <> :::'''{'_x_'}' not
+R13930:13930 Ionia.MiniTransformer_AST <> n:51 var
+R13918:13919 Ionia.DataExp <> :::'''{'_x_'}' not
+R13921:13921 Ionia.DataExp <> :::'''{'_x_'}' not
+binder 13905:13905 <> x:53
+R13945:13947 Ionia.DataExp <> exp def
+R13950:13952 Ionia.DataExp <> ary constr
+R13960:13962 Ionia.DataExp <> ary constr
+R13969:13971 Ionia.DataExp <> num constr
+R13964:13965 Ionia.DataExp <> :::'''{'_x_'}' not
+R13967:13967 Ionia.DataExp <> :::'''{'_x_'}' not
+R13966:13966 Ionia.MiniTransformer_AST <> p:52 var
+R13954:13955 Ionia.DataExp <> :::'''{'_x_'}' not
+R13957:13957 Ionia.DataExp <> :::'''{'_x_'}' not
+R13956:13956 Ionia.MiniTransformer_AST <> n:51 var
+binder 13941:13941 <> w:54
+R13985:13987 Ionia.DataExp <> acc def
+R13990:13992 Ionia.DataExp <> ary constr
+R14000:14002 Ionia.DataExp <> ary constr
+R14009:14011 Ionia.DataExp <> num constr
+R14004:14005 Ionia.DataExp <> :::'''{'_x_'}' not
+R14007:14007 Ionia.DataExp <> :::'''{'_x_'}' not
+R14006:14006 Ionia.MiniTransformer_AST <> p:52 var
+R13994:13995 Ionia.DataExp <> :::'''{'_x_'}' not
+R13997:13997 Ionia.DataExp <> :::'''{'_x_'}' not
+binder 13979:13981 <> out:55
+R14018:14021 Ionia.CNN_CodeGen_Core <> comm ind
+R14028:14033 Ionia.CNN_CodeGen_Core <> parfor constr
+binder 14044:14045 <> ss:56
+binder 14047:14047 <> o:57
+R14052:14057 Ionia.CNN_CodeGen_Core <> seqfor constr
+R14068:14070 Ionia.finType <> fin def
+R14072:14072 Ionia.MiniTransformer_AST <> p:52 var
+binder 14064:14064 <> j:58
+R14082:14088 Ionia.CNN_CodeGen_Core <> loopacc constr
+R14090:14092 Ionia.DataExp <> num constr
+binder 14099:14101 <> tmp:59
+R14122:14124 Ionia.CNN_CodeGen_Core <> vwt def
+R14126:14128 Ionia.MiniTransformer_AST <> tmp:59 var
+binder 14116:14117 <> wa:60
+R14143:14145 Ionia.CNN_CodeGen_Core <> vrd def
+R14147:14149 Ionia.MiniTransformer_AST <> tmp:59 var
+binder 14137:14138 <> va:61
+R14160:14160 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R14172:14182 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R14163:14167 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R14161:14162 Ionia.MiniTransformer_AST <> wa:60 var
+R14168:14171 Ionia.CNN_Defs <> zero def
+R14249:14258 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R14183:14188 Ionia.CNN_CodeGen_Core <> seqfor constr
+R14199:14201 Ionia.finType <> fin def
+R14203:14203 Ionia.MiniTransformer_AST <> n:51 var
+binder 14195:14195 <> k:62
+R14210:14214 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R14208:14209 Ionia.MiniTransformer_AST <> wa:60 var
+R14215:14217 Ionia.CNN_Defs <> add def
+R14246:14247 Ionia.MiniTransformer_AST <> va:61 var
+R14220:14222 Ionia.CNN_Defs <> mul def
+R14240:14241 Ionia.DataExp <> :::x_'|['_x_']' not
+R14243:14243 Ionia.DataExp <> :::x_'|['_x_']' not
+R14236:14237 Ionia.DataExp <> :::x_'|['_x_']' not
+R14239:14239 Ionia.DataExp <> :::x_'|['_x_']' not
+R14235:14235 Ionia.MiniTransformer_AST <> w:54 var
+R14238:14238 Ionia.MiniTransformer_AST <> k:62 var
+R14242:14242 Ionia.MiniTransformer_AST <> j:58 var
+R14230:14231 Ionia.DataExp <> :::x_'|['_x_']' not
+R14233:14233 Ionia.DataExp <> :::x_'|['_x_']' not
+R14225:14226 Ionia.DataExp <> :::x_'|['_x_']' not
+R14229:14229 Ionia.DataExp <> :::x_'|['_x_']' not
+R14224:14224 Ionia.MiniTransformer_AST <> x:53 var
+R14227:14228 Ionia.MiniTransformer_AST <> ss:56 var
+R14232:14232 Ionia.MiniTransformer_AST <> k:62 var
+R14264:14268 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R14260:14261 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R14263:14263 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R14259:14259 Ionia.MiniTransformer_AST <> o:57 var
+R14262:14262 Ionia.MiniTransformer_AST <> j:58 var
+R14269:14270 Ionia.MiniTransformer_AST <> va:61 var
+R14035:14037 Ionia.MiniTransformer_AST <> out:55 var
+def 14288:14298 <> mt_bmm_comm
+R14307:14309 Corelib.Init.Datatypes <> nat ind
+binder 14301:14301 <> n:63
+binder 14303:14303 <> p:64
+R14319:14321 Ionia.DataExp <> exp def
+R14324:14326 Ionia.DataExp <> ary constr
+R14334:14336 Ionia.DataExp <> ary constr
+R14344:14346 Ionia.DataExp <> ary constr
+R14353:14355 Ionia.DataExp <> num constr
+R14348:14349 Ionia.DataExp <> :::'''{'_x_'}' not
+R14351:14351 Ionia.DataExp <> :::'''{'_x_'}' not
+R14350:14350 Ionia.MiniTransformer_AST <> n:63 var
+R14338:14339 Ionia.DataExp <> :::'''{'_x_'}' not
+R14341:14341 Ionia.DataExp <> :::'''{'_x_'}' not
+R14328:14329 Ionia.DataExp <> :::'''{'_x_'}' not
+R14331:14331 Ionia.DataExp <> :::'''{'_x_'}' not
+binder 14315:14315 <> x:65
+R14368:14370 Ionia.DataExp <> exp def
+R14373:14375 Ionia.DataExp <> ary constr
+R14383:14385 Ionia.DataExp <> ary constr
+R14392:14394 Ionia.DataExp <> num constr
+R14387:14388 Ionia.DataExp <> :::'''{'_x_'}' not
+R14390:14390 Ionia.DataExp <> :::'''{'_x_'}' not
+R14389:14389 Ionia.MiniTransformer_AST <> p:64 var
+R14377:14378 Ionia.DataExp <> :::'''{'_x_'}' not
+R14380:14380 Ionia.DataExp <> :::'''{'_x_'}' not
+R14379:14379 Ionia.MiniTransformer_AST <> n:63 var
+binder 14364:14364 <> w:66
+R14408:14410 Ionia.DataExp <> acc def
+R14413:14415 Ionia.DataExp <> ary constr
+R14423:14425 Ionia.DataExp <> ary constr
+R14433:14435 Ionia.DataExp <> ary constr
+R14442:14444 Ionia.DataExp <> num constr
+R14437:14438 Ionia.DataExp <> :::'''{'_x_'}' not
+R14440:14440 Ionia.DataExp <> :::'''{'_x_'}' not
+R14439:14439 Ionia.MiniTransformer_AST <> p:64 var
+R14427:14428 Ionia.DataExp <> :::'''{'_x_'}' not
+R14430:14430 Ionia.DataExp <> :::'''{'_x_'}' not
+R14417:14418 Ionia.DataExp <> :::'''{'_x_'}' not
+R14420:14420 Ionia.DataExp <> :::'''{'_x_'}' not
+binder 14402:14404 <> out:67
+R14452:14455 Ionia.CNN_CodeGen_Core <> comm ind
+R14462:14467 Ionia.CNN_CodeGen_Core <> seqfor constr
+R14479:14481 Ionia.finType <> fin def
+binder 14474:14475 <> bb:68
+R14488:14502 Ionia.MiniTransformer_AST <> mt_bmm_row_comm def
+R14517:14518 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R14521:14521 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R14514:14516 Ionia.MiniTransformer_AST <> out:67 var
+R14519:14520 Ionia.MiniTransformer_AST <> bb:68 var
+R14511:14511 Ionia.MiniTransformer_AST <> w:66 var
+R14505:14506 Ionia.DataExp <> :::x_'|['_x_']' not
+R14509:14509 Ionia.DataExp <> :::x_'|['_x_']' not
+R14504:14504 Ionia.MiniTransformer_AST <> x:65 var
+R14507:14508 Ionia.MiniTransformer_AST <> bb:68 var
+def 14538:14552 <> mt_bmm_par_comm
+R14561:14563 Corelib.Init.Datatypes <> nat ind
+binder 14555:14555 <> n:69
+binder 14557:14557 <> p:70
+R14573:14575 Ionia.DataExp <> exp def
+R14578:14580 Ionia.DataExp <> ary constr
+R14588:14590 Ionia.DataExp <> ary constr
+R14598:14600 Ionia.DataExp <> ary constr
+R14607:14609 Ionia.DataExp <> num constr
+R14602:14603 Ionia.DataExp <> :::'''{'_x_'}' not
+R14605:14605 Ionia.DataExp <> :::'''{'_x_'}' not
+R14604:14604 Ionia.MiniTransformer_AST <> n:69 var
+R14592:14593 Ionia.DataExp <> :::'''{'_x_'}' not
+R14595:14595 Ionia.DataExp <> :::'''{'_x_'}' not
+R14582:14583 Ionia.DataExp <> :::'''{'_x_'}' not
+R14585:14585 Ionia.DataExp <> :::'''{'_x_'}' not
+binder 14569:14569 <> x:71
+R14622:14624 Ionia.DataExp <> exp def
+R14627:14629 Ionia.DataExp <> ary constr
+R14637:14639 Ionia.DataExp <> ary constr
+R14646:14648 Ionia.DataExp <> num constr
+R14641:14642 Ionia.DataExp <> :::'''{'_x_'}' not
+R14644:14644 Ionia.DataExp <> :::'''{'_x_'}' not
+R14643:14643 Ionia.MiniTransformer_AST <> p:70 var
+R14631:14632 Ionia.DataExp <> :::'''{'_x_'}' not
+R14634:14634 Ionia.DataExp <> :::'''{'_x_'}' not
+R14633:14633 Ionia.MiniTransformer_AST <> n:69 var
+binder 14618:14618 <> w:72
+R14662:14664 Ionia.DataExp <> acc def
+R14667:14669 Ionia.DataExp <> ary constr
+R14677:14679 Ionia.DataExp <> ary constr
+R14687:14689 Ionia.DataExp <> ary constr
+R14696:14698 Ionia.DataExp <> num constr
+R14691:14692 Ionia.DataExp <> :::'''{'_x_'}' not
+R14694:14694 Ionia.DataExp <> :::'''{'_x_'}' not
+R14693:14693 Ionia.MiniTransformer_AST <> p:70 var
+R14681:14682 Ionia.DataExp <> :::'''{'_x_'}' not
+R14684:14684 Ionia.DataExp <> :::'''{'_x_'}' not
+R14671:14672 Ionia.DataExp <> :::'''{'_x_'}' not
+R14674:14674 Ionia.DataExp <> :::'''{'_x_'}' not
+binder 14656:14658 <> out:73
+R14706:14709 Ionia.CNN_CodeGen_Core <> comm ind
+R14716:14721 Ionia.CNN_CodeGen_Core <> seqfor constr
+R14733:14735 Ionia.finType <> fin def
+binder 14728:14729 <> bb:74
+R14742:14760 Ionia.MiniTransformer_AST <> mt_bmm_row_par_comm def
+R14775:14776 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R14779:14779 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R14772:14774 Ionia.MiniTransformer_AST <> out:73 var
+R14777:14778 Ionia.MiniTransformer_AST <> bb:74 var
+R14769:14769 Ionia.MiniTransformer_AST <> w:72 var
+R14763:14764 Ionia.DataExp <> :::x_'|['_x_']' not
+R14767:14767 Ionia.DataExp <> :::x_'|['_x_']' not
+R14762:14762 Ionia.MiniTransformer_AST <> x:71 var
+R14765:14766 Ionia.MiniTransformer_AST <> bb:74 var
+def 15121:15138 <> mt_splitheads_comm
+R15145:15147 Ionia.DataExp <> exp def
+R15149:15150 Ionia.MiniTransformer_AST <> T3 def
+binder 15141:15141 <> x:75
+R15160:15162 Ionia.DataExp <> acc def
+R15164:15166 Ionia.MiniTransformer_AST <> T4H def
+binder 15154:15156 <> out:76
+R15171:15174 Ionia.CNN_CodeGen_Core <> comm ind
+R15181:15186 Ionia.CNN_CodeGen_Core <> seqfor constr
+R15198:15200 Ionia.finType <> fin def
+binder 15193:15194 <> bb:77
+R15207:15212 Ionia.CNN_CodeGen_Core <> seqfor constr
+R15224:15226 Ionia.finType <> fin def
+binder 15219:15220 <> hh:78
+R15237:15242 Ionia.CNN_CodeGen_Core <> seqfor constr
+R15254:15256 Ionia.finType <> fin def
+binder 15249:15250 <> ss:79
+R15263:15268 Ionia.CNN_CodeGen_Core <> seqfor constr
+R15280:15282 Ionia.finType <> fin def
+binder 15275:15276 <> dd:80
+R15319:15323 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R15314:15315 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R15318:15318 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R15309:15310 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R15313:15313 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R15304:15305 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R15308:15308 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R15299:15300 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R15303:15303 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R15296:15298 Ionia.MiniTransformer_AST <> out:76 var
+R15301:15302 Ionia.MiniTransformer_AST <> bb:77 var
+R15306:15307 Ionia.MiniTransformer_AST <> hh:78 var
+R15311:15312 Ionia.MiniTransformer_AST <> ss:79 var
+R15316:15317 Ionia.MiniTransformer_AST <> dd:80 var
+R15335:15336 Ionia.DataExp <> :::x_'|['_x_']' not
+R15355:15355 Ionia.DataExp <> :::x_'|['_x_']' not
+R15330:15331 Ionia.DataExp <> :::x_'|['_x_']' not
+R15334:15334 Ionia.DataExp <> :::x_'|['_x_']' not
+R15325:15326 Ionia.DataExp <> :::x_'|['_x_']' not
+R15329:15329 Ionia.DataExp <> :::x_'|['_x_']' not
+R15324:15324 Ionia.MiniTransformer_AST <> x:75 var
+R15327:15328 Ionia.MiniTransformer_AST <> bb:77 var
+R15332:15333 Ionia.MiniTransformer_AST <> ss:79 var
+R15337:15348 Ionia.vector <> idx_2d_to_1d def
+R15353:15354 Ionia.MiniTransformer_AST <> dd:80 var
+R15350:15351 Ionia.MiniTransformer_AST <> hh:78 var
+def 15374:15391 <> mt_mergeheads_comm
+R15398:15400 Ionia.DataExp <> exp def
+R15402:15404 Ionia.MiniTransformer_AST <> T4H def
+binder 15394:15394 <> x:81
+R15414:15416 Ionia.DataExp <> acc def
+R15418:15419 Ionia.MiniTransformer_AST <> T3 def
+binder 15408:15410 <> out:82
+R15424:15427 Ionia.CNN_CodeGen_Core <> comm ind
+R15434:15439 Ionia.CNN_CodeGen_Core <> seqfor constr
+R15451:15453 Ionia.finType <> fin def
+binder 15446:15447 <> bb:83
+R15460:15465 Ionia.CNN_CodeGen_Core <> seqfor constr
+R15477:15479 Ionia.finType <> fin def
+binder 15472:15473 <> ss:84
+R15490:15495 Ionia.CNN_CodeGen_Core <> seqfor constr
+R15507:15509 Ionia.finType <> fin def
+binder 15502:15503 <> xx:85
+R15541:15553 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R15536:15537 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R15540:15540 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R15531:15532 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R15535:15535 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R15526:15527 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R15530:15530 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R15523:15525 Ionia.MiniTransformer_AST <> out:82 var
+R15528:15529 Ionia.MiniTransformer_AST <> bb:83 var
+R15533:15534 Ionia.MiniTransformer_AST <> ss:84 var
+R15538:15539 Ionia.MiniTransformer_AST <> xx:85 var
+R15595:15596 Ionia.DataExp <> :::x_'|['_x_']' not
+R15624:15624 Ionia.DataExp <> :::x_'|['_x_']' not
+R15590:15591 Ionia.DataExp <> :::x_'|['_x_']' not
+R15594:15594 Ionia.DataExp <> :::x_'|['_x_']' not
+R15560:15561 Ionia.DataExp <> :::x_'|['_x_']' not
+R15589:15589 Ionia.DataExp <> :::x_'|['_x_']' not
+R15555:15556 Ionia.DataExp <> :::x_'|['_x_']' not
+R15559:15559 Ionia.DataExp <> :::x_'|['_x_']' not
+R15554:15554 Ionia.MiniTransformer_AST <> x:81 var
+R15557:15558 Ionia.MiniTransformer_AST <> bb:83 var
+R15562:15564 Corelib.Init.Datatypes <> fst def
+R15568:15579 Ionia.vector <> idx_1d_to_2d def
+R15586:15587 Ionia.MiniTransformer_AST <> xx:85 var
+R15592:15593 Ionia.MiniTransformer_AST <> ss:84 var
+R15597:15599 Corelib.Init.Datatypes <> snd def
+R15603:15614 Ionia.vector <> idx_1d_to_2d def
+R15621:15622 Ionia.MiniTransformer_AST <> xx:85 var
+def 16131:16147 <> mt_attn_head_comm
+R16160:16162 Ionia.DataExp <> exp def
+R16165:16167 Ionia.DataExp <> ary constr
+R16175:16177 Ionia.DataExp <> ary constr
+R16185:16187 Ionia.DataExp <> num constr
+R16179:16180 Ionia.DataExp <> :::'''{'_x_'}' not
+R16183:16183 Ionia.DataExp <> :::'''{'_x_'}' not
+R16169:16170 Ionia.DataExp <> :::'''{'_x_'}' not
+R16172:16172 Ionia.DataExp <> :::'''{'_x_'}' not
+binder 16152:16152 <> q:86
+binder 16154:16154 <> k:87
+binder 16156:16156 <> v:88
+R16212:16214 Ionia.DataExp <> exp def
+R16217:16219 Ionia.DataExp <> ary constr
+R16227:16229 Ionia.DataExp <> ary constr
+R16236:16238 Ionia.DataExp <> num constr
+R16231:16232 Ionia.DataExp <> :::'''{'_x_'}' not
+R16234:16234 Ionia.DataExp <> :::'''{'_x_'}' not
+R16221:16222 Ionia.DataExp <> :::'''{'_x_'}' not
+R16224:16224 Ionia.DataExp <> :::'''{'_x_'}' not
+binder 16195:16201 <> score_r:89
+binder 16203:16208 <> prob_r:90
+R16263:16265 Ionia.DataExp <> acc def
+R16268:16270 Ionia.DataExp <> ary constr
+R16278:16280 Ionia.DataExp <> ary constr
+R16287:16289 Ionia.DataExp <> num constr
+R16282:16283 Ionia.DataExp <> :::'''{'_x_'}' not
+R16285:16285 Ionia.DataExp <> :::'''{'_x_'}' not
+R16272:16273 Ionia.DataExp <> :::'''{'_x_'}' not
+R16275:16275 Ionia.DataExp <> :::'''{'_x_'}' not
+binder 16246:16252 <> score_a:91
+binder 16254:16259 <> prob_a:92
+R16303:16305 Ionia.DataExp <> acc def
+R16308:16310 Ionia.DataExp <> ary constr
+R16318:16320 Ionia.DataExp <> ary constr
+R16328:16330 Ionia.DataExp <> num constr
+R16322:16323 Ionia.DataExp <> :::'''{'_x_'}' not
+R16326:16326 Ionia.DataExp <> :::'''{'_x_'}' not
+R16312:16313 Ionia.DataExp <> :::'''{'_x_'}' not
+R16315:16315 Ionia.DataExp <> :::'''{'_x_'}' not
+binder 16297:16299 <> out:93
+R16337:16340 Ionia.CNN_CodeGen_Core <> comm ind
+R16347:16352 Ionia.CNN_CodeGen_Core <> seqfor constr
+R16363:16365 Ionia.finType <> fin def
+binder 16359:16359 <> i:94
+R16376:16376 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R16731:16739 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R16377:16382 Ionia.CNN_CodeGen_Core <> seqfor constr
+R16393:16395 Ionia.finType <> fin def
+binder 16389:16389 <> j:95
+R16408:16409 Ionia.CNN_CodeGen_Core <> If constr
+R16450:16450 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16689:16699 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16729:16729 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16452:16458 Ionia.CNN_CodeGen_Core <> loopacc constr
+R16460:16462 Ionia.DataExp <> num constr
+binder 16469:16471 <> tmp:96
+R16496:16498 Ionia.CNN_CodeGen_Core <> vwt def
+R16500:16502 Ionia.MiniTransformer_AST <> tmp:96 var
+binder 16490:16491 <> wa:97
+R16517:16519 Ionia.CNN_CodeGen_Core <> vrd def
+R16521:16523 Ionia.MiniTransformer_AST <> tmp:96 var
+binder 16511:16512 <> va:98
+R16538:16538 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R16550:16564 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R16541:16545 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R16539:16540 Ionia.MiniTransformer_AST <> wa:97 var
+R16546:16549 Ionia.CNN_Defs <> zero def
+R16634:16647 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R16565:16570 Ionia.CNN_CodeGen_Core <> seqfor constr
+R16582:16584 Ionia.finType <> fin def
+binder 16577:16578 <> kk:99
+R16594:16598 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R16592:16593 Ionia.MiniTransformer_AST <> wa:97 var
+R16599:16601 Ionia.CNN_Defs <> add def
+R16631:16632 Ionia.MiniTransformer_AST <> va:98 var
+R16604:16606 Ionia.CNN_Defs <> mul def
+R16624:16625 Ionia.DataExp <> :::x_'|['_x_']' not
+R16628:16628 Ionia.DataExp <> :::x_'|['_x_']' not
+R16620:16621 Ionia.DataExp <> :::x_'|['_x_']' not
+R16623:16623 Ionia.DataExp <> :::x_'|['_x_']' not
+R16619:16619 Ionia.MiniTransformer_AST <> k:87 var
+R16622:16622 Ionia.MiniTransformer_AST <> j:95 var
+R16626:16627 Ionia.MiniTransformer_AST <> kk:99 var
+R16613:16614 Ionia.DataExp <> :::x_'|['_x_']' not
+R16617:16617 Ionia.DataExp <> :::x_'|['_x_']' not
+R16609:16610 Ionia.DataExp <> :::x_'|['_x_']' not
+R16612:16612 Ionia.DataExp <> :::x_'|['_x_']' not
+R16608:16608 Ionia.MiniTransformer_AST <> q:86 var
+R16611:16611 Ionia.MiniTransformer_AST <> i:94 var
+R16615:16616 Ionia.MiniTransformer_AST <> kk:99 var
+R16663:16667 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R16659:16660 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R16662:16662 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R16655:16656 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R16658:16658 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R16648:16654 Ionia.MiniTransformer_AST <> score_a:91 var
+R16657:16657 Ionia.MiniTransformer_AST <> i:94 var
+R16661:16661 Ionia.MiniTransformer_AST <> j:95 var
+R16668:16670 Ionia.CNN_Defs <> mul def
+R16686:16687 Ionia.MiniTransformer_AST <> va:98 var
+R16672:16684 Ionia.MiniTransformer_AST <> mt_attn_scale def
+R16715:16719 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R16711:16712 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R16714:16714 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R16707:16708 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R16710:16710 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R16700:16706 Ionia.MiniTransformer_AST <> score_a:91 var
+R16709:16709 Ionia.MiniTransformer_AST <> i:94 var
+R16713:16713 Ionia.MiniTransformer_AST <> j:95 var
+R16720:16728 Ionia.MiniTransformer_AST <> mt_neginf def
+R16412:16415 Ionia.DataExp <> BLeb constr
+R16430:16436 Ionia.finType <> fin2nat def
+R16438:16438 Ionia.MiniTransformer_AST <> i:94 var
+R16418:16424 Ionia.finType <> fin2nat def
+R16426:16426 Ionia.MiniTransformer_AST <> j:95 var
+R16740:16740 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R16990:16999 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R17242:17242 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R16742:16748 Ionia.CNN_CodeGen_Core <> loopacc constr
+R16750:16752 Ionia.DataExp <> num constr
+binder 16759:16761 <> tmp:100
+R16782:16784 Ionia.CNN_CodeGen_Core <> vwt def
+R16786:16788 Ionia.MiniTransformer_AST <> tmp:100 var
+binder 16776:16777 <> wa:101
+R16803:16805 Ionia.CNN_CodeGen_Core <> vrd def
+R16807:16809 Ionia.MiniTransformer_AST <> tmp:100 var
+binder 16797:16798 <> va:102
+R16820:16820 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R16832:16842 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R16823:16827 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R16821:16822 Ionia.MiniTransformer_AST <> wa:101 var
+R16828:16831 Ionia.CNN_Defs <> zero def
+R16905:16914 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R16843:16848 Ionia.CNN_CodeGen_Core <> seqfor constr
+R16859:16861 Ionia.finType <> fin def
+binder 16855:16855 <> j:103
+R16870:16874 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R16868:16869 Ionia.MiniTransformer_AST <> wa:101 var
+R16875:16877 Ionia.CNN_Defs <> add def
+R16902:16903 Ionia.MiniTransformer_AST <> va:102 var
+R16880:16883 Ionia.CNN_Defs <> pExp def
+R16896:16897 Ionia.DataExp <> :::x_'|['_x_']' not
+R16899:16899 Ionia.DataExp <> :::x_'|['_x_']' not
+R16892:16893 Ionia.DataExp <> :::x_'|['_x_']' not
+R16895:16895 Ionia.DataExp <> :::x_'|['_x_']' not
+R16885:16891 Ionia.MiniTransformer_AST <> score_r:89 var
+R16894:16894 Ionia.MiniTransformer_AST <> i:94 var
+R16898:16898 Ionia.MiniTransformer_AST <> j:103 var
+R16915:16920 Ionia.CNN_CodeGen_Core <> seqfor constr
+R16931:16933 Ionia.finType <> fin def
+binder 16927:16927 <> j:104
+R16954:16958 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R16950:16951 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R16953:16953 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R16946:16947 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R16949:16949 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R16940:16945 Ionia.MiniTransformer_AST <> prob_a:92 var
+R16948:16948 Ionia.MiniTransformer_AST <> i:94 var
+R16952:16952 Ionia.MiniTransformer_AST <> j:104 var
+R16959:16961 Ionia.CNN_Defs <> div def
+R16986:16987 Ionia.MiniTransformer_AST <> va:102 var
+R16964:16967 Ionia.CNN_Defs <> pExp def
+R16980:16981 Ionia.DataExp <> :::x_'|['_x_']' not
+R16983:16983 Ionia.DataExp <> :::x_'|['_x_']' not
+R16976:16977 Ionia.DataExp <> :::x_'|['_x_']' not
+R16979:16979 Ionia.DataExp <> :::x_'|['_x_']' not
+R16969:16975 Ionia.MiniTransformer_AST <> score_r:89 var
+R16978:16978 Ionia.MiniTransformer_AST <> i:94 var
+R16982:16982 Ionia.MiniTransformer_AST <> j:104 var
+R17000:17005 Ionia.CNN_CodeGen_Core <> seqfor constr
+R17016:17018 Ionia.finType <> fin def
+binder 17012:17012 <> j:105
+R17033:17039 Ionia.CNN_CodeGen_Core <> loopacc constr
+R17041:17043 Ionia.DataExp <> num constr
+binder 17050:17052 <> tmp:106
+R17075:17077 Ionia.CNN_CodeGen_Core <> vwt def
+R17079:17081 Ionia.MiniTransformer_AST <> tmp:106 var
+binder 17069:17070 <> wa:107
+R17096:17098 Ionia.CNN_CodeGen_Core <> vrd def
+R17100:17102 Ionia.MiniTransformer_AST <> tmp:106 var
+binder 17090:17091 <> va:108
+R17115:17115 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R17127:17139 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R17118:17122 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R17116:17117 Ionia.MiniTransformer_AST <> wa:107 var
+R17123:17126 Ionia.CNN_Defs <> zero def
+R17210:17221 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R17140:17145 Ionia.CNN_CodeGen_Core <> seqfor constr
+R17156:17158 Ionia.finType <> fin def
+binder 17152:17152 <> l:109
+R17167:17171 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R17165:17166 Ionia.MiniTransformer_AST <> wa:107 var
+R17172:17174 Ionia.CNN_Defs <> add def
+R17207:17208 Ionia.MiniTransformer_AST <> va:108 var
+R17177:17179 Ionia.CNN_Defs <> mul def
+R17201:17202 Ionia.DataExp <> :::x_'|['_x_']' not
+R17204:17204 Ionia.DataExp <> :::x_'|['_x_']' not
+R17197:17198 Ionia.DataExp <> :::x_'|['_x_']' not
+R17200:17200 Ionia.DataExp <> :::x_'|['_x_']' not
+R17196:17196 Ionia.MiniTransformer_AST <> v:88 var
+R17199:17199 Ionia.MiniTransformer_AST <> l:109 var
+R17203:17203 Ionia.MiniTransformer_AST <> j:105 var
+R17191:17192 Ionia.DataExp <> :::x_'|['_x_']' not
+R17194:17194 Ionia.DataExp <> :::x_'|['_x_']' not
+R17187:17188 Ionia.DataExp <> :::x_'|['_x_']' not
+R17190:17190 Ionia.DataExp <> :::x_'|['_x_']' not
+R17181:17186 Ionia.MiniTransformer_AST <> prob_r:90 var
+R17189:17189 Ionia.MiniTransformer_AST <> i:94 var
+R17193:17193 Ionia.MiniTransformer_AST <> l:109 var
+R17233:17237 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R17229:17230 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R17232:17232 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R17225:17226 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R17228:17228 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R17222:17224 Ionia.MiniTransformer_AST <> out:93 var
+R17227:17227 Ionia.MiniTransformer_AST <> i:94 var
+R17231:17231 Ionia.MiniTransformer_AST <> j:105 var
+R17238:17239 Ionia.MiniTransformer_AST <> va:108 var
+def 17258:17274 <> mt_attnheads_comm
+R17288:17290 Ionia.DataExp <> exp def
+R17292:17294 Ionia.MiniTransformer_AST <> T4H def
+binder 17277:17278 <> qs:110
+binder 17280:17281 <> ks:111
+binder 17283:17284 <> vs:112
+R17304:17306 Ionia.DataExp <> acc def
+R17308:17310 Ionia.MiniTransformer_AST <> T4H def
+binder 17298:17300 <> out:113
+R17315:17318 Ionia.CNN_CodeGen_Core <> comm ind
+R17325:17330 Ionia.CNN_CodeGen_Core <> seqfor constr
+R17342:17344 Ionia.finType <> fin def
+binder 17337:17338 <> bb:114
+R17351:17356 Ionia.CNN_CodeGen_Core <> seqfor constr
+R17368:17370 Ionia.finType <> fin def
+binder 17363:17364 <> hh:115
+R17381:17397 Ionia.MiniTransformer_AST <> mt_attn_head_comm def
+R17541:17542 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R17545:17545 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R17536:17537 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R17540:17540 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R17533:17535 Ionia.MiniTransformer_AST <> out:113 var
+R17538:17539 Ionia.MiniTransformer_AST <> bb:114 var
+R17543:17544 Ionia.MiniTransformer_AST <> hh:115 var
+R17525:17526 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R17529:17529 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R17520:17521 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R17524:17524 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R17512:17519 Ionia.MiniTransformer_AST <> mtprob_w def
+R17522:17523 Ionia.MiniTransformer_AST <> bb:114 var
+R17527:17528 Ionia.MiniTransformer_AST <> hh:115 var
+R17504:17505 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R17508:17508 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R17499:17500 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R17503:17503 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R17490:17498 Ionia.MiniTransformer_AST <> mtscore_w def
+R17501:17502 Ionia.MiniTransformer_AST <> bb:114 var
+R17506:17507 Ionia.MiniTransformer_AST <> hh:115 var
+R17477:17478 Ionia.DataExp <> :::x_'|['_x_']' not
+R17481:17481 Ionia.DataExp <> :::x_'|['_x_']' not
+R17472:17473 Ionia.DataExp <> :::x_'|['_x_']' not
+R17476:17476 Ionia.DataExp <> :::x_'|['_x_']' not
+R17464:17471 Ionia.MiniTransformer_AST <> mtprob_r def
+R17474:17475 Ionia.MiniTransformer_AST <> bb:114 var
+R17479:17480 Ionia.MiniTransformer_AST <> hh:115 var
+R17458:17459 Ionia.DataExp <> :::x_'|['_x_']' not
+R17462:17462 Ionia.DataExp <> :::x_'|['_x_']' not
+R17453:17454 Ionia.DataExp <> :::x_'|['_x_']' not
+R17457:17457 Ionia.DataExp <> :::x_'|['_x_']' not
+R17444:17452 Ionia.MiniTransformer_AST <> mtscore_r def
+R17455:17456 Ionia.MiniTransformer_AST <> bb:114 var
+R17460:17461 Ionia.MiniTransformer_AST <> hh:115 var
+R17432:17433 Ionia.DataExp <> :::x_'|['_x_']' not
+R17436:17436 Ionia.DataExp <> :::x_'|['_x_']' not
+R17427:17428 Ionia.DataExp <> :::x_'|['_x_']' not
+R17431:17431 Ionia.DataExp <> :::x_'|['_x_']' not
+R17425:17426 Ionia.MiniTransformer_AST <> vs:112 var
+R17429:17430 Ionia.MiniTransformer_AST <> bb:114 var
+R17434:17435 Ionia.MiniTransformer_AST <> hh:115 var
+R17419:17420 Ionia.DataExp <> :::x_'|['_x_']' not
+R17423:17423 Ionia.DataExp <> :::x_'|['_x_']' not
+R17414:17415 Ionia.DataExp <> :::x_'|['_x_']' not
+R17418:17418 Ionia.DataExp <> :::x_'|['_x_']' not
+R17412:17413 Ionia.MiniTransformer_AST <> ks:111 var
+R17416:17417 Ionia.MiniTransformer_AST <> bb:114 var
+R17421:17422 Ionia.MiniTransformer_AST <> hh:115 var
+R17406:17407 Ionia.DataExp <> :::x_'|['_x_']' not
+R17410:17410 Ionia.DataExp <> :::x_'|['_x_']' not
+R17401:17402 Ionia.DataExp <> :::x_'|['_x_']' not
+R17405:17405 Ionia.DataExp <> :::x_'|['_x_']' not
+R17399:17400 Ionia.MiniTransformer_AST <> qs:110 var
+R17403:17404 Ionia.MiniTransformer_AST <> bb:114 var
+R17408:17409 Ionia.MiniTransformer_AST <> hh:115 var
+def 17563:17583 <> mt_attnheads_par_comm
+R17597:17599 Ionia.DataExp <> exp def
+R17601:17603 Ionia.MiniTransformer_AST <> T4H def
+binder 17586:17587 <> qs:116
+binder 17589:17590 <> ks:117
+binder 17592:17593 <> vs:118
+R17613:17615 Ionia.DataExp <> acc def
+R17617:17619 Ionia.MiniTransformer_AST <> T4H def
+binder 17607:17609 <> out:119
+R17624:17627 Ionia.CNN_CodeGen_Core <> comm ind
+R17634:17639 Ionia.CNN_CodeGen_Core <> seqfor constr
+R17651:17653 Ionia.finType <> fin def
+binder 17646:17647 <> bb:120
+R17660:17665 Ionia.CNN_CodeGen_Core <> parfor constr
+binder 17683:17684 <> hh:121
+binder 17686:17687 <> oh:122
+R17696:17712 Ionia.MiniTransformer_AST <> mt_attn_head_comm def
+R17847:17848 Ionia.MiniTransformer_AST <> oh:122 var
+R17840:17841 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R17844:17844 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R17835:17836 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R17839:17839 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R17827:17834 Ionia.MiniTransformer_AST <> mtprob_w def
+R17837:17838 Ionia.MiniTransformer_AST <> bb:120 var
+R17842:17843 Ionia.MiniTransformer_AST <> hh:121 var
+R17819:17820 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R17823:17823 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R17814:17815 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R17818:17818 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R17805:17813 Ionia.MiniTransformer_AST <> mtscore_w def
+R17816:17817 Ionia.MiniTransformer_AST <> bb:120 var
+R17821:17822 Ionia.MiniTransformer_AST <> hh:121 var
+R17792:17793 Ionia.DataExp <> :::x_'|['_x_']' not
+R17796:17796 Ionia.DataExp <> :::x_'|['_x_']' not
+R17787:17788 Ionia.DataExp <> :::x_'|['_x_']' not
+R17791:17791 Ionia.DataExp <> :::x_'|['_x_']' not
+R17779:17786 Ionia.MiniTransformer_AST <> mtprob_r def
+R17789:17790 Ionia.MiniTransformer_AST <> bb:120 var
+R17794:17795 Ionia.MiniTransformer_AST <> hh:121 var
+R17773:17774 Ionia.DataExp <> :::x_'|['_x_']' not
+R17777:17777 Ionia.DataExp <> :::x_'|['_x_']' not
+R17768:17769 Ionia.DataExp <> :::x_'|['_x_']' not
+R17772:17772 Ionia.DataExp <> :::x_'|['_x_']' not
+R17759:17767 Ionia.MiniTransformer_AST <> mtscore_r def
+R17770:17771 Ionia.MiniTransformer_AST <> bb:120 var
+R17775:17776 Ionia.MiniTransformer_AST <> hh:121 var
+R17747:17748 Ionia.DataExp <> :::x_'|['_x_']' not
+R17751:17751 Ionia.DataExp <> :::x_'|['_x_']' not
+R17742:17743 Ionia.DataExp <> :::x_'|['_x_']' not
+R17746:17746 Ionia.DataExp <> :::x_'|['_x_']' not
+R17740:17741 Ionia.MiniTransformer_AST <> vs:118 var
+R17744:17745 Ionia.MiniTransformer_AST <> bb:120 var
+R17749:17750 Ionia.MiniTransformer_AST <> hh:121 var
+R17734:17735 Ionia.DataExp <> :::x_'|['_x_']' not
+R17738:17738 Ionia.DataExp <> :::x_'|['_x_']' not
+R17729:17730 Ionia.DataExp <> :::x_'|['_x_']' not
+R17733:17733 Ionia.DataExp <> :::x_'|['_x_']' not
+R17727:17728 Ionia.MiniTransformer_AST <> ks:117 var
+R17731:17732 Ionia.MiniTransformer_AST <> bb:120 var
+R17736:17737 Ionia.MiniTransformer_AST <> hh:121 var
+R17721:17722 Ionia.DataExp <> :::x_'|['_x_']' not
+R17725:17725 Ionia.DataExp <> :::x_'|['_x_']' not
+R17716:17717 Ionia.DataExp <> :::x_'|['_x_']' not
+R17720:17720 Ionia.DataExp <> :::x_'|['_x_']' not
+R17714:17715 Ionia.MiniTransformer_AST <> qs:116 var
+R17718:17719 Ionia.MiniTransformer_AST <> bb:120 var
+R17723:17724 Ionia.MiniTransformer_AST <> hh:121 var
+R17671:17672 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R17675:17675 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R17668:17670 Ionia.MiniTransformer_AST <> out:119 var
+R17673:17674 Ionia.MiniTransformer_AST <> bb:120 var
+def 18109:18122 <> mt_gelu3d_comm
+R18129:18131 Ionia.DataExp <> exp def
+R18133:18134 Ionia.MiniTransformer_AST <> T3 def
+binder 18125:18125 <> x:123
+R18144:18146 Ionia.DataExp <> acc def
+R18148:18149 Ionia.MiniTransformer_AST <> T3 def
+binder 18138:18140 <> out:124
+R18154:18157 Ionia.CNN_CodeGen_Core <> comm ind
+R18164:18169 Ionia.CNN_CodeGen_Core <> seqfor constr
+R18181:18183 Ionia.finType <> fin def
+binder 18176:18177 <> bb:125
+R18190:18195 Ionia.CNN_CodeGen_Core <> seqfor constr
+R18207:18209 Ionia.finType <> fin def
+binder 18202:18203 <> ss:126
+R18216:18221 Ionia.CNN_CodeGen_Core <> seqfor constr
+R18232:18234 Ionia.finType <> fin def
+binder 18228:18228 <> j:127
+R18263:18267 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R18259:18260 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R18262:18262 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R18254:18255 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R18258:18258 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R18249:18250 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R18253:18253 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R18246:18248 Ionia.MiniTransformer_AST <> out:124 var
+R18251:18252 Ionia.MiniTransformer_AST <> bb:125 var
+R18256:18257 Ionia.MiniTransformer_AST <> ss:126 var
+R18261:18261 Ionia.MiniTransformer_AST <> j:127 var
+R18268:18276 Ionia.MiniTransformer_AST <> mt_gelu_r def
+R18289:18290 Ionia.DataExp <> :::x_'|['_x_']' not
+R18292:18292 Ionia.DataExp <> :::x_'|['_x_']' not
+R18284:18285 Ionia.DataExp <> :::x_'|['_x_']' not
+R18288:18288 Ionia.DataExp <> :::x_'|['_x_']' not
+R18279:18280 Ionia.DataExp <> :::x_'|['_x_']' not
+R18283:18283 Ionia.DataExp <> :::x_'|['_x_']' not
+R18278:18278 Ionia.MiniTransformer_AST <> x:123 var
+R18281:18282 Ionia.MiniTransformer_AST <> bb:125 var
+R18286:18287 Ionia.MiniTransformer_AST <> ss:126 var
+R18291:18291 Ionia.MiniTransformer_AST <> j:127 var
+def 18310:18327 <> mt_gelu3d_par_comm
+R18334:18336 Ionia.DataExp <> exp def
+R18338:18339 Ionia.MiniTransformer_AST <> T3 def
+binder 18330:18330 <> x:128
+R18349:18351 Ionia.DataExp <> acc def
+R18353:18354 Ionia.MiniTransformer_AST <> T3 def
+binder 18343:18345 <> out:129
+R18359:18362 Ionia.CNN_CodeGen_Core <> comm ind
+R18369:18374 Ionia.CNN_CodeGen_Core <> seqfor constr
+R18386:18388 Ionia.finType <> fin def
+binder 18381:18382 <> bb:130
+R18395:18400 Ionia.CNN_CodeGen_Core <> parfor constr
+binder 18418:18419 <> ss:131
+binder 18421:18421 <> o:132
+R18430:18435 Ionia.CNN_CodeGen_Core <> seqfor constr
+R18446:18448 Ionia.finType <> fin def
+binder 18442:18442 <> j:133
+R18461:18465 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R18457:18458 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R18460:18460 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R18456:18456 Ionia.MiniTransformer_AST <> o:132 var
+R18459:18459 Ionia.MiniTransformer_AST <> j:133 var
+R18466:18474 Ionia.MiniTransformer_AST <> mt_gelu_r def
+R18487:18488 Ionia.DataExp <> :::x_'|['_x_']' not
+R18490:18490 Ionia.DataExp <> :::x_'|['_x_']' not
+R18482:18483 Ionia.DataExp <> :::x_'|['_x_']' not
+R18486:18486 Ionia.DataExp <> :::x_'|['_x_']' not
+R18477:18478 Ionia.DataExp <> :::x_'|['_x_']' not
+R18481:18481 Ionia.DataExp <> :::x_'|['_x_']' not
+R18476:18476 Ionia.MiniTransformer_AST <> x:128 var
+R18479:18480 Ionia.MiniTransformer_AST <> bb:130 var
+R18484:18485 Ionia.MiniTransformer_AST <> ss:131 var
+R18489:18489 Ionia.MiniTransformer_AST <> j:133 var
+R18406:18407 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R18410:18410 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R18403:18405 Ionia.MiniTransformer_AST <> out:129 var
+R18408:18409 Ionia.MiniTransformer_AST <> bb:130 var
+def 18508:18520 <> mt_add3d_comm
+R18529:18531 Ionia.DataExp <> exp def
+R18533:18534 Ionia.MiniTransformer_AST <> T3 def
+binder 18523:18523 <> x:134
+binder 18525:18525 <> y:135
+R18544:18546 Ionia.DataExp <> acc def
+R18548:18549 Ionia.MiniTransformer_AST <> T3 def
+binder 18538:18540 <> out:136
+R18554:18557 Ionia.CNN_CodeGen_Core <> comm ind
+R18564:18569 Ionia.CNN_CodeGen_Core <> seqfor constr
+R18581:18583 Ionia.finType <> fin def
+binder 18576:18577 <> bb:137
+R18590:18595 Ionia.CNN_CodeGen_Core <> seqfor constr
+R18607:18609 Ionia.finType <> fin def
+binder 18602:18603 <> ss:138
+R18616:18621 Ionia.CNN_CodeGen_Core <> seqfor constr
+R18632:18634 Ionia.finType <> fin def
+binder 18628:18628 <> j:139
+R18663:18667 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R18659:18660 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R18662:18662 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R18654:18655 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R18658:18658 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R18649:18650 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R18653:18653 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R18646:18648 Ionia.MiniTransformer_AST <> out:136 var
+R18651:18652 Ionia.MiniTransformer_AST <> bb:137 var
+R18656:18657 Ionia.MiniTransformer_AST <> ss:138 var
+R18661:18661 Ionia.MiniTransformer_AST <> j:139 var
+R18668:18670 Ionia.CNN_Defs <> add def
+R18699:18700 Ionia.DataExp <> :::x_'|['_x_']' not
+R18702:18702 Ionia.DataExp <> :::x_'|['_x_']' not
+R18694:18695 Ionia.DataExp <> :::x_'|['_x_']' not
+R18698:18698 Ionia.DataExp <> :::x_'|['_x_']' not
+R18689:18690 Ionia.DataExp <> :::x_'|['_x_']' not
+R18693:18693 Ionia.DataExp <> :::x_'|['_x_']' not
+R18688:18688 Ionia.MiniTransformer_AST <> y:135 var
+R18691:18692 Ionia.MiniTransformer_AST <> bb:137 var
+R18696:18697 Ionia.MiniTransformer_AST <> ss:138 var
+R18701:18701 Ionia.MiniTransformer_AST <> j:139 var
+R18683:18684 Ionia.DataExp <> :::x_'|['_x_']' not
+R18686:18686 Ionia.DataExp <> :::x_'|['_x_']' not
+R18678:18679 Ionia.DataExp <> :::x_'|['_x_']' not
+R18682:18682 Ionia.DataExp <> :::x_'|['_x_']' not
+R18673:18674 Ionia.DataExp <> :::x_'|['_x_']' not
+R18677:18677 Ionia.DataExp <> :::x_'|['_x_']' not
+R18672:18672 Ionia.MiniTransformer_AST <> x:134 var
+R18675:18676 Ionia.MiniTransformer_AST <> bb:137 var
+R18680:18681 Ionia.MiniTransformer_AST <> ss:138 var
+R18685:18685 Ionia.MiniTransformer_AST <> j:139 var
+def 18720:18736 <> mt_add3d_par_comm
+R18745:18747 Ionia.DataExp <> exp def
+R18749:18750 Ionia.MiniTransformer_AST <> T3 def
+binder 18739:18739 <> x:140
+binder 18741:18741 <> y:141
+R18760:18762 Ionia.DataExp <> acc def
+R18764:18765 Ionia.MiniTransformer_AST <> T3 def
+binder 18754:18756 <> out:142
+R18770:18773 Ionia.CNN_CodeGen_Core <> comm ind
+R18780:18785 Ionia.CNN_CodeGen_Core <> seqfor constr
+R18797:18799 Ionia.finType <> fin def
+binder 18792:18793 <> bb:143
+R18806:18811 Ionia.CNN_CodeGen_Core <> parfor constr
+binder 18829:18830 <> ss:144
+binder 18832:18832 <> o:145
+R18841:18846 Ionia.CNN_CodeGen_Core <> seqfor constr
+R18857:18859 Ionia.finType <> fin def
+binder 18853:18853 <> j:146
+R18872:18876 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R18868:18869 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R18871:18871 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R18867:18867 Ionia.MiniTransformer_AST <> o:145 var
+R18870:18870 Ionia.MiniTransformer_AST <> j:146 var
+R18877:18879 Ionia.CNN_Defs <> add def
+R18908:18909 Ionia.DataExp <> :::x_'|['_x_']' not
+R18911:18911 Ionia.DataExp <> :::x_'|['_x_']' not
+R18903:18904 Ionia.DataExp <> :::x_'|['_x_']' not
+R18907:18907 Ionia.DataExp <> :::x_'|['_x_']' not
+R18898:18899 Ionia.DataExp <> :::x_'|['_x_']' not
+R18902:18902 Ionia.DataExp <> :::x_'|['_x_']' not
+R18897:18897 Ionia.MiniTransformer_AST <> y:141 var
+R18900:18901 Ionia.MiniTransformer_AST <> bb:143 var
+R18905:18906 Ionia.MiniTransformer_AST <> ss:144 var
+R18910:18910 Ionia.MiniTransformer_AST <> j:146 var
+R18892:18893 Ionia.DataExp <> :::x_'|['_x_']' not
+R18895:18895 Ionia.DataExp <> :::x_'|['_x_']' not
+R18887:18888 Ionia.DataExp <> :::x_'|['_x_']' not
+R18891:18891 Ionia.DataExp <> :::x_'|['_x_']' not
+R18882:18883 Ionia.DataExp <> :::x_'|['_x_']' not
+R18886:18886 Ionia.DataExp <> :::x_'|['_x_']' not
+R18881:18881 Ionia.MiniTransformer_AST <> x:140 var
+R18884:18885 Ionia.MiniTransformer_AST <> bb:143 var
+R18889:18890 Ionia.MiniTransformer_AST <> ss:144 var
+R18894:18894 Ionia.MiniTransformer_AST <> j:146 var
+R18817:18818 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R18821:18821 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R18814:18816 Ionia.MiniTransformer_AST <> out:142 var
+R18819:18820 Ionia.MiniTransformer_AST <> bb:143 var
+def 19172:19184 <> mt_block_comm
+R19193:19195 Ionia.DataExp <> exp def
+R19197:19198 Ionia.MiniTransformer_AST <> T3 def
+binder 19189:19189 <> x:147
+R19230:19232 Ionia.DataExp <> exp def
+R19234:19235 Ionia.MiniTransformer_AST <> T1 def
+binder 19204:19208 <> ln1_g:148
+binder 19210:19214 <> ln1_b:149
+binder 19216:19220 <> ln2_g:150
+binder 19222:19226 <> ln2_b:151
+R19261:19263 Ionia.DataExp <> exp def
+R19265:19266 Ionia.MiniTransformer_AST <> T2 def
+binder 19241:19242 <> wq:152
+binder 19244:19245 <> wk:153
+binder 19247:19248 <> wv:154
+binder 19250:19251 <> wo:155
+binder 19253:19254 <> w1:156
+binder 19256:19257 <> w2:157
+R19278:19280 Ionia.DataExp <> acc def
+R19282:19283 Ionia.MiniTransformer_AST <> T3 def
+binder 19272:19274 <> out:158
+R19288:19291 Ionia.CNN_CodeGen_Core <> comm ind
+R19336:19341 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R19298:19314 Ionia.MiniTransformer_AST <> mt_layernorm_comm def
+R19330:19335 Ionia.MiniTransformer_AST <> bln1_w def
+R19324:19328 Ionia.MiniTransformer_AST <> ln1_b:149 var
+R19318:19322 Ionia.MiniTransformer_AST <> ln1_g:148 var
+R19316:19316 Ionia.MiniTransformer_AST <> x:147 var
+R19369:19374 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R19342:19352 Ionia.MiniTransformer_AST <> mt_bmm_comm def
+R19364:19368 Ionia.MiniTransformer_AST <> mtq_w def
+R19361:19362 Ionia.MiniTransformer_AST <> wq:152 var
+R19354:19359 Ionia.MiniTransformer_AST <> bln1_r def
+R19406:19411 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R19375:19392 Ionia.MiniTransformer_AST <> mt_splitheads_comm def
+R19400:19405 Ionia.MiniTransformer_AST <> mtqs_w def
+R19394:19398 Ionia.MiniTransformer_AST <> mtq_r def
+R19439:19444 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R19412:19422 Ionia.MiniTransformer_AST <> mt_bmm_comm def
+R19434:19438 Ionia.MiniTransformer_AST <> mtk_w def
+R19431:19432 Ionia.MiniTransformer_AST <> wk:153 var
+R19424:19429 Ionia.MiniTransformer_AST <> bln1_r def
+R19476:19481 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R19445:19462 Ionia.MiniTransformer_AST <> mt_splitheads_comm def
+R19470:19475 Ionia.MiniTransformer_AST <> mtks_w def
+R19464:19468 Ionia.MiniTransformer_AST <> mtk_r def
+R19509:19514 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R19482:19492 Ionia.MiniTransformer_AST <> mt_bmm_comm def
+R19504:19508 Ionia.MiniTransformer_AST <> mtv_w def
+R19501:19502 Ionia.MiniTransformer_AST <> wv:154 var
+R19494:19499 Ionia.MiniTransformer_AST <> bln1_r def
+R19546:19551 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R19515:19532 Ionia.MiniTransformer_AST <> mt_splitheads_comm def
+R19540:19545 Ionia.MiniTransformer_AST <> mtvs_w def
+R19534:19538 Ionia.MiniTransformer_AST <> mtv_r def
+R19598:19603 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R19552:19568 Ionia.MiniTransformer_AST <> mt_attnheads_comm def
+R19591:19597 Ionia.MiniTransformer_AST <> mtatt_w def
+R19584:19589 Ionia.MiniTransformer_AST <> mtvs_r def
+R19577:19582 Ionia.MiniTransformer_AST <> mtks_r def
+R19570:19575 Ionia.MiniTransformer_AST <> mtqs_r def
+R19637:19642 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R19604:19621 Ionia.MiniTransformer_AST <> mt_mergeheads_comm def
+R19631:19636 Ionia.MiniTransformer_AST <> mtmg_w def
+R19623:19629 Ionia.MiniTransformer_AST <> mtatt_r def
+R19671:19676 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R19643:19653 Ionia.MiniTransformer_AST <> mt_bmm_comm def
+R19665:19670 Ionia.MiniTransformer_AST <> bmha_w def
+R19662:19663 Ionia.MiniTransformer_AST <> wo:155 var
+R19655:19660 Ionia.MiniTransformer_AST <> mtmg_r def
+R19705:19710 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R19677:19689 Ionia.MiniTransformer_AST <> mt_add3d_comm def
+R19700:19704 Ionia.MiniTransformer_AST <> br1_w def
+R19693:19698 Ionia.MiniTransformer_AST <> bmha_r def
+R19691:19691 Ionia.MiniTransformer_AST <> x:147 var
+R19753:19758 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R19711:19727 Ionia.MiniTransformer_AST <> mt_layernorm_comm def
+R19747:19752 Ionia.MiniTransformer_AST <> bln2_w def
+R19741:19745 Ionia.MiniTransformer_AST <> ln2_b:151 var
+R19735:19739 Ionia.MiniTransformer_AST <> ln2_g:150 var
+R19729:19733 Ionia.MiniTransformer_AST <> br1_r def
+R19787:19792 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R19759:19769 Ionia.MiniTransformer_AST <> mt_bmm_comm def
+R19781:19786 Ionia.MiniTransformer_AST <> btf1_w def
+R19778:19779 Ionia.MiniTransformer_AST <> w1:156 var
+R19771:19776 Ionia.MiniTransformer_AST <> bln2_r def
+R19820:19825 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R19793:19806 Ionia.MiniTransformer_AST <> mt_gelu3d_comm def
+R19815:19819 Ionia.MiniTransformer_AST <> btg_w def
+R19808:19813 Ionia.MiniTransformer_AST <> btf1_r def
+R19853:19858 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R19826:19836 Ionia.MiniTransformer_AST <> mt_bmm_comm def
+R19847:19852 Ionia.MiniTransformer_AST <> btf2_w def
+R19844:19845 Ionia.MiniTransformer_AST <> w2:157 var
+R19838:19842 Ionia.MiniTransformer_AST <> btg_r def
+R19859:19871 Ionia.MiniTransformer_AST <> mt_add3d_comm def
+R19886:19888 Ionia.MiniTransformer_AST <> out:158 var
+R19879:19884 Ionia.MiniTransformer_AST <> btf2_r def
+R19873:19877 Ionia.MiniTransformer_AST <> br1_r def
+def 19903:19919 <> mt_block_par_comm
+R19928:19930 Ionia.DataExp <> exp def
+R19932:19933 Ionia.MiniTransformer_AST <> T3 def
+binder 19924:19924 <> x:159
+R19965:19967 Ionia.DataExp <> exp def
+R19969:19970 Ionia.MiniTransformer_AST <> T1 def
+binder 19939:19943 <> ln1_g:160
+binder 19945:19949 <> ln1_b:161
+binder 19951:19955 <> ln2_g:162
+binder 19957:19961 <> ln2_b:163
+R19996:19998 Ionia.DataExp <> exp def
+R20000:20001 Ionia.MiniTransformer_AST <> T2 def
+binder 19976:19977 <> wq:164
+binder 19979:19980 <> wk:165
+binder 19982:19983 <> wv:166
+binder 19985:19986 <> wo:167
+binder 19988:19989 <> w1:168
+binder 19991:19992 <> w2:169
+R20013:20015 Ionia.DataExp <> acc def
+R20017:20018 Ionia.MiniTransformer_AST <> T3 def
+binder 20007:20009 <> out:170
+R20023:20026 Ionia.CNN_CodeGen_Core <> comm ind
+R20075:20080 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R20033:20053 Ionia.MiniTransformer_AST <> mt_layernorm_par_comm def
+R20069:20074 Ionia.MiniTransformer_AST <> bln1_w def
+R20063:20067 Ionia.MiniTransformer_AST <> ln1_b:161 var
+R20057:20061 Ionia.MiniTransformer_AST <> ln1_g:160 var
+R20055:20055 Ionia.MiniTransformer_AST <> x:159 var
+R20112:20117 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R20081:20095 Ionia.MiniTransformer_AST <> mt_bmm_par_comm def
+R20107:20111 Ionia.MiniTransformer_AST <> mtq_w def
+R20104:20105 Ionia.MiniTransformer_AST <> wq:164 var
+R20097:20102 Ionia.MiniTransformer_AST <> bln1_r def
+R20149:20154 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R20118:20135 Ionia.MiniTransformer_AST <> mt_splitheads_comm def
+R20143:20148 Ionia.MiniTransformer_AST <> mtqs_w def
+R20137:20141 Ionia.MiniTransformer_AST <> mtq_r def
+R20186:20191 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R20155:20169 Ionia.MiniTransformer_AST <> mt_bmm_par_comm def
+R20181:20185 Ionia.MiniTransformer_AST <> mtk_w def
+R20178:20179 Ionia.MiniTransformer_AST <> wk:165 var
+R20171:20176 Ionia.MiniTransformer_AST <> bln1_r def
+R20223:20228 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R20192:20209 Ionia.MiniTransformer_AST <> mt_splitheads_comm def
+R20217:20222 Ionia.MiniTransformer_AST <> mtks_w def
+R20211:20215 Ionia.MiniTransformer_AST <> mtk_r def
+R20260:20265 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R20229:20243 Ionia.MiniTransformer_AST <> mt_bmm_par_comm def
+R20255:20259 Ionia.MiniTransformer_AST <> mtv_w def
+R20252:20253 Ionia.MiniTransformer_AST <> wv:166 var
+R20245:20250 Ionia.MiniTransformer_AST <> bln1_r def
+R20297:20302 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R20266:20283 Ionia.MiniTransformer_AST <> mt_splitheads_comm def
+R20291:20296 Ionia.MiniTransformer_AST <> mtvs_w def
+R20285:20289 Ionia.MiniTransformer_AST <> mtv_r def
+R20353:20358 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R20303:20323 Ionia.MiniTransformer_AST <> mt_attnheads_par_comm def
+R20346:20352 Ionia.MiniTransformer_AST <> mtatt_w def
+R20339:20344 Ionia.MiniTransformer_AST <> mtvs_r def
+R20332:20337 Ionia.MiniTransformer_AST <> mtks_r def
+R20325:20330 Ionia.MiniTransformer_AST <> mtqs_r def
+R20392:20397 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R20359:20376 Ionia.MiniTransformer_AST <> mt_mergeheads_comm def
+R20386:20391 Ionia.MiniTransformer_AST <> mtmg_w def
+R20378:20384 Ionia.MiniTransformer_AST <> mtatt_r def
+R20430:20435 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R20398:20412 Ionia.MiniTransformer_AST <> mt_bmm_par_comm def
+R20424:20429 Ionia.MiniTransformer_AST <> bmha_w def
+R20421:20422 Ionia.MiniTransformer_AST <> wo:167 var
+R20414:20419 Ionia.MiniTransformer_AST <> mtmg_r def
+R20468:20473 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R20436:20452 Ionia.MiniTransformer_AST <> mt_add3d_par_comm def
+R20463:20467 Ionia.MiniTransformer_AST <> br1_w def
+R20456:20461 Ionia.MiniTransformer_AST <> bmha_r def
+R20454:20454 Ionia.MiniTransformer_AST <> x:159 var
+R20520:20525 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R20474:20494 Ionia.MiniTransformer_AST <> mt_layernorm_par_comm def
+R20514:20519 Ionia.MiniTransformer_AST <> bln2_w def
+R20508:20512 Ionia.MiniTransformer_AST <> ln2_b:163 var
+R20502:20506 Ionia.MiniTransformer_AST <> ln2_g:162 var
+R20496:20500 Ionia.MiniTransformer_AST <> br1_r def
+R20558:20563 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R20526:20540 Ionia.MiniTransformer_AST <> mt_bmm_par_comm def
+R20552:20557 Ionia.MiniTransformer_AST <> btf1_w def
+R20549:20550 Ionia.MiniTransformer_AST <> w1:168 var
+R20542:20547 Ionia.MiniTransformer_AST <> bln2_r def
+R20595:20600 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R20564:20581 Ionia.MiniTransformer_AST <> mt_gelu3d_par_comm def
+R20590:20594 Ionia.MiniTransformer_AST <> btg_w def
+R20583:20588 Ionia.MiniTransformer_AST <> btf1_r def
+R20632:20637 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R20601:20615 Ionia.MiniTransformer_AST <> mt_bmm_par_comm def
+R20626:20631 Ionia.MiniTransformer_AST <> btf2_w def
+R20623:20624 Ionia.MiniTransformer_AST <> w2:169 var
+R20617:20621 Ionia.MiniTransformer_AST <> btg_r def
+R20638:20654 Ionia.MiniTransformer_AST <> mt_add3d_par_comm def
+R20669:20671 Ionia.MiniTransformer_AST <> out:170 var
+R20662:20667 Ionia.MiniTransformer_AST <> btf2_r def
+R20656:20660 Ionia.MiniTransformer_AST <> br1_r def
+def 20930:20953 <> minitransformer_ast_comm
+R20957:20960 Ionia.CNN_CodeGen_Core <> comm ind
+R20980:20985 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R20967:20979 Ionia.MiniTransformer_AST <> mt_embed_comm def
+R21097:21102 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R20986:20998 Ionia.MiniTransformer_AST <> mt_block_comm def
+R21093:21096 Ionia.MiniTransformer_AST <> l2_w def
+R21087:21091 Ionia.MiniTransformer_AST <> l1_w2 def
+R21081:21085 Ionia.MiniTransformer_AST <> l1_w1 def
+R21075:21079 Ionia.MiniTransformer_AST <> l1_wo def
+R21069:21073 Ionia.MiniTransformer_AST <> l1_wv def
+R21063:21067 Ionia.MiniTransformer_AST <> l1_wk def
+R21057:21061 Ionia.MiniTransformer_AST <> l1_wq def
+R21032:21039 Ionia.MiniTransformer_AST <> l1_ln2_b def
+R21023:21030 Ionia.MiniTransformer_AST <> l1_ln2_g def
+R21014:21021 Ionia.MiniTransformer_AST <> l1_ln1_b def
+R21005:21012 Ionia.MiniTransformer_AST <> l1_ln1_g def
+R21000:21003 Ionia.MiniTransformer_AST <> l1_r def
+R21214:21219 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R21103:21115 Ionia.MiniTransformer_AST <> mt_block_comm def
+R21210:21213 Ionia.MiniTransformer_AST <> l3_w def
+R21204:21208 Ionia.MiniTransformer_AST <> l2_w2 def
+R21198:21202 Ionia.MiniTransformer_AST <> l2_w1 def
+R21192:21196 Ionia.MiniTransformer_AST <> l2_wo def
+R21186:21190 Ionia.MiniTransformer_AST <> l2_wv def
+R21180:21184 Ionia.MiniTransformer_AST <> l2_wk def
+R21174:21178 Ionia.MiniTransformer_AST <> l2_wq def
+R21149:21156 Ionia.MiniTransformer_AST <> l2_ln2_b def
+R21140:21147 Ionia.MiniTransformer_AST <> l2_ln2_g def
+R21131:21138 Ionia.MiniTransformer_AST <> l2_ln1_b def
+R21122:21129 Ionia.MiniTransformer_AST <> l2_ln1_g def
+R21117:21120 Ionia.MiniTransformer_AST <> l2_r def
+R21259:21264 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R21220:21236 Ionia.MiniTransformer_AST <> mt_layernorm_comm def
+R21255:21258 Ionia.MiniTransformer_AST <> l4_w def
+R21249:21253 Ionia.MiniTransformer_AST <> lnf_b def
+R21243:21247 Ionia.MiniTransformer_AST <> lnf_g def
+R21238:21241 Ionia.MiniTransformer_AST <> l3_r def
+R21265:21275 Ionia.MiniTransformer_AST <> mt_bmm_comm def
+R21288:21295 Ionia.MiniTransformer_AST <> output_w def
+R21282:21286 Ionia.MiniTransformer_AST <> whead def
+R21277:21280 Ionia.MiniTransformer_AST <> l4_r def
+def 21310:21337 <> minitransformer_ast_par_comm
+R21341:21344 Ionia.CNN_CodeGen_Core <> comm ind
+R21364:21369 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R21351:21363 Ionia.MiniTransformer_AST <> mt_embed_comm def
+R21489:21494 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R21370:21386 Ionia.MiniTransformer_AST <> mt_block_par_comm def
+R21485:21488 Ionia.MiniTransformer_AST <> l2_w def
+R21479:21483 Ionia.MiniTransformer_AST <> l1_w2 def
+R21473:21477 Ionia.MiniTransformer_AST <> l1_w1 def
+R21467:21471 Ionia.MiniTransformer_AST <> l1_wo def
+R21461:21465 Ionia.MiniTransformer_AST <> l1_wv def
+R21455:21459 Ionia.MiniTransformer_AST <> l1_wk def
+R21449:21453 Ionia.MiniTransformer_AST <> l1_wq def
+R21420:21427 Ionia.MiniTransformer_AST <> l1_ln2_b def
+R21411:21418 Ionia.MiniTransformer_AST <> l1_ln2_g def
+R21402:21409 Ionia.MiniTransformer_AST <> l1_ln1_b def
+R21393:21400 Ionia.MiniTransformer_AST <> l1_ln1_g def
+R21388:21391 Ionia.MiniTransformer_AST <> l1_r def
+R21614:21619 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R21495:21511 Ionia.MiniTransformer_AST <> mt_block_par_comm def
+R21610:21613 Ionia.MiniTransformer_AST <> l3_w def
+R21604:21608 Ionia.MiniTransformer_AST <> l2_w2 def
+R21598:21602 Ionia.MiniTransformer_AST <> l2_w1 def
+R21592:21596 Ionia.MiniTransformer_AST <> l2_wo def
+R21586:21590 Ionia.MiniTransformer_AST <> l2_wv def
+R21580:21584 Ionia.MiniTransformer_AST <> l2_wk def
+R21574:21578 Ionia.MiniTransformer_AST <> l2_wq def
+R21545:21552 Ionia.MiniTransformer_AST <> l2_ln2_b def
+R21536:21543 Ionia.MiniTransformer_AST <> l2_ln2_g def
+R21527:21534 Ionia.MiniTransformer_AST <> l2_ln1_b def
+R21518:21525 Ionia.MiniTransformer_AST <> l2_ln1_g def
+R21513:21516 Ionia.MiniTransformer_AST <> l2_r def
+R21663:21668 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R21620:21640 Ionia.MiniTransformer_AST <> mt_layernorm_par_comm def
+R21659:21662 Ionia.MiniTransformer_AST <> l4_w def
+R21653:21657 Ionia.MiniTransformer_AST <> lnf_b def
+R21647:21651 Ionia.MiniTransformer_AST <> lnf_g def
+R21642:21645 Ionia.MiniTransformer_AST <> l3_r def
+R21669:21683 Ionia.MiniTransformer_AST <> mt_bmm_par_comm def
+R21696:21703 Ionia.MiniTransformer_AST <> output_w def
+R21690:21694 Ionia.MiniTransformer_AST <> whead def
+R21685:21688 Ionia.MiniTransformer_AST <> l4_r def
+prf 22118:22131 <> eval_seq_congr
+binder 22142:22143 <> c1:171
+binder 22145:22147 <> c1':172
+binder 22149:22150 <> c2:173
+binder 22152:22154 <> c2':174
+binder 22156:22158 <> rho:175
+R22163:22163 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22196:22202 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 22171:22171 <> r:176
+R22183:22185 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22174:22177 Ionia.CNN_CodeGen_Semantics <> eval def
+R22182:22182 Ionia.MiniTransformer_AST <> r:176 var
+R22179:22180 Ionia.MiniTransformer_AST <> c1:171 var
+R22186:22189 Ionia.CNN_CodeGen_Semantics <> eval def
+R22195:22195 Ionia.MiniTransformer_AST <> r:176 var
+R22191:22193 Ionia.MiniTransformer_AST <> c1':172 var
+R22203:22203 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22236:22242 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 22211:22211 <> r:177
+R22223:22225 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22214:22217 Ionia.CNN_CodeGen_Semantics <> eval def
+R22222:22222 Ionia.MiniTransformer_AST <> r:177 var
+R22219:22220 Ionia.MiniTransformer_AST <> c2:173 var
+R22226:22229 Ionia.CNN_CodeGen_Semantics <> eval def
+R22235:22235 Ionia.MiniTransformer_AST <> r:177 var
+R22231:22233 Ionia.MiniTransformer_AST <> c2':174 var
+R22262:22264 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22243:22246 Ionia.CNN_CodeGen_Semantics <> eval def
+R22259:22261 Ionia.MiniTransformer_AST <> rho:175 var
+R22251:22254 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R22249:22250 Ionia.MiniTransformer_AST <> c1:171 var
+R22255:22256 Ionia.MiniTransformer_AST <> c2:173 var
+R22265:22268 Ionia.CNN_CodeGen_Semantics <> eval def
+R22283:22285 Ionia.MiniTransformer_AST <> rho:175 var
+R22274:22277 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R22271:22273 Ionia.MiniTransformer_AST <> c1':172 var
+R22278:22280 Ionia.MiniTransformer_AST <> c2':174 var
+R22338:22341 Ionia.CNN_CodeGen_Semantics <> eval def
+R22358:22369 Ionia.CNN_CodeGen_Semantics <> eval_seq_aux thm
+R22381:22387 Ionia.CNN_CodeGen_Semantics PCG seq def
+prf 22431:22451 <> mt_layernorm_par_eval
+binder 22462:22462 <> x:178
+binder 22464:22464 <> g:179
+binder 22466:22466 <> b:180
+binder 22468:22470 <> out:181
+binder 22472:22474 <> rho:182
+R22521:22525 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22479:22482 Ionia.CNN_CodeGen_Semantics <> eval def
+R22518:22520 Ionia.MiniTransformer_AST <> rho:182 var
+R22485:22505 Ionia.MiniTransformer_AST <> mt_layernorm_par_comm def
+R22513:22515 Ionia.MiniTransformer_AST <> out:181 var
+R22511:22511 Ionia.MiniTransformer_AST <> b:180 var
+R22509:22509 Ionia.MiniTransformer_AST <> g:179 var
+R22507:22507 Ionia.MiniTransformer_AST <> x:178 var
+R22526:22529 Ionia.CNN_CodeGen_Semantics <> eval def
+R22561:22563 Ionia.MiniTransformer_AST <> rho:182 var
+R22532:22548 Ionia.MiniTransformer_AST <> mt_layernorm_comm def
+R22556:22558 Ionia.MiniTransformer_AST <> out:181 var
+R22554:22554 Ionia.MiniTransformer_AST <> b:180 var
+R22552:22552 Ionia.MiniTransformer_AST <> g:179 var
+R22550:22550 Ionia.MiniTransformer_AST <> x:178 var
+prf 22606:22620 <> mt_bmm_par_eval
+binder 22631:22631 <> n:183
+binder 22633:22633 <> p:184
+binder 22635:22635 <> x:185
+binder 22637:22637 <> w:186
+binder 22639:22641 <> out:187
+binder 22643:22645 <> rho:188
+R22689:22691 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22650:22653 Ionia.CNN_CodeGen_Semantics <> eval def
+R22686:22688 Ionia.MiniTransformer_AST <> rho:188 var
+R22657:22671 Ionia.MiniTransformer_AST <> mt_bmm_par_comm def
+R22673:22673 Ionia.MiniTransformer_AST <> n:183 var
+R22675:22675 Ionia.MiniTransformer_AST <> p:184 var
+R22677:22677 Ionia.MiniTransformer_AST <> x:185 var
+R22679:22679 Ionia.MiniTransformer_AST <> w:186 var
+R22681:22683 Ionia.MiniTransformer_AST <> out:187 var
+R22692:22695 Ionia.CNN_CodeGen_Semantics <> eval def
+R22724:22726 Ionia.MiniTransformer_AST <> rho:188 var
+R22699:22709 Ionia.MiniTransformer_AST <> mt_bmm_comm def
+R22711:22711 Ionia.MiniTransformer_AST <> n:183 var
+R22713:22713 Ionia.MiniTransformer_AST <> p:184 var
+R22715:22715 Ionia.MiniTransformer_AST <> x:185 var
+R22717:22717 Ionia.MiniTransformer_AST <> w:186 var
+R22719:22721 Ionia.MiniTransformer_AST <> out:187 var
+prf 22769:22789 <> mt_attnheads_par_eval
+binder 22800:22801 <> qs:189
+binder 22803:22804 <> ks:190
+binder 22806:22807 <> vs:191
+binder 22809:22811 <> out:192
+binder 22813:22815 <> rho:193
+R22865:22869 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22820:22823 Ionia.CNN_CodeGen_Semantics <> eval def
+R22862:22864 Ionia.MiniTransformer_AST <> rho:193 var
+R22826:22846 Ionia.MiniTransformer_AST <> mt_attnheads_par_comm def
+R22857:22859 Ionia.MiniTransformer_AST <> out:192 var
+R22854:22855 Ionia.MiniTransformer_AST <> vs:191 var
+R22851:22852 Ionia.MiniTransformer_AST <> ks:190 var
+R22848:22849 Ionia.MiniTransformer_AST <> qs:189 var
+R22870:22873 Ionia.CNN_CodeGen_Semantics <> eval def
+R22908:22910 Ionia.MiniTransformer_AST <> rho:193 var
+R22876:22892 Ionia.MiniTransformer_AST <> mt_attnheads_comm def
+R22903:22905 Ionia.MiniTransformer_AST <> out:192 var
+R22900:22901 Ionia.MiniTransformer_AST <> vs:191 var
+R22897:22898 Ionia.MiniTransformer_AST <> ks:190 var
+R22894:22895 Ionia.MiniTransformer_AST <> qs:189 var
+prf 22953:22970 <> mt_gelu3d_par_eval
+binder 22981:22981 <> x:194
+binder 22983:22985 <> out:195
+binder 22987:22989 <> rho:196
+R23029:23031 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22994:22997 Ionia.CNN_CodeGen_Semantics <> eval def
+R23026:23028 Ionia.MiniTransformer_AST <> rho:196 var
+R23000:23017 Ionia.MiniTransformer_AST <> mt_gelu3d_par_comm def
+R23021:23023 Ionia.MiniTransformer_AST <> out:195 var
+R23019:23019 Ionia.MiniTransformer_AST <> x:194 var
+R23032:23035 Ionia.CNN_CodeGen_Semantics <> eval def
+R23060:23062 Ionia.MiniTransformer_AST <> rho:196 var
+R23038:23051 Ionia.MiniTransformer_AST <> mt_gelu3d_comm def
+R23055:23057 Ionia.MiniTransformer_AST <> out:195 var
+R23053:23053 Ionia.MiniTransformer_AST <> x:194 var
+prf 23105:23121 <> mt_add3d_par_eval
+binder 23132:23132 <> x:197
+binder 23134:23134 <> y:198
+binder 23136:23138 <> out:199
+binder 23140:23142 <> rho:200
+R23183:23185 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23147:23150 Ionia.CNN_CodeGen_Semantics <> eval def
+R23180:23182 Ionia.MiniTransformer_AST <> rho:200 var
+R23153:23169 Ionia.MiniTransformer_AST <> mt_add3d_par_comm def
+R23175:23177 Ionia.MiniTransformer_AST <> out:199 var
+R23173:23173 Ionia.MiniTransformer_AST <> y:198 var
+R23171:23171 Ionia.MiniTransformer_AST <> x:197 var
+R23186:23189 Ionia.CNN_CodeGen_Semantics <> eval def
+R23215:23217 Ionia.MiniTransformer_AST <> rho:200 var
+R23192:23204 Ionia.MiniTransformer_AST <> mt_add3d_comm def
+R23210:23212 Ionia.MiniTransformer_AST <> out:199 var
+R23208:23208 Ionia.MiniTransformer_AST <> y:198 var
+R23206:23206 Ionia.MiniTransformer_AST <> x:197 var
+prf 23260:23276 <> mt_block_par_eval
+binder 23287:23287 <> x:201
+binder 23289:23293 <> ln1_g:202
+binder 23295:23299 <> ln1_b:203
+binder 23301:23305 <> ln2_g:204
+binder 23307:23311 <> ln2_b:205
+binder 23313:23314 <> wq:206
+binder 23316:23317 <> wk:207
+binder 23319:23320 <> wv:208
+binder 23322:23323 <> wo:209
+binder 23325:23326 <> w1:210
+binder 23328:23329 <> w2:211
+binder 23331:23333 <> out:212
+binder 23335:23337 <> rho:213
+R23418:23422 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23342:23345 Ionia.CNN_CodeGen_Semantics <> eval def
+R23415:23417 Ionia.MiniTransformer_AST <> rho:213 var
+R23348:23364 Ionia.MiniTransformer_AST <> mt_block_par_comm def
+R23410:23412 Ionia.MiniTransformer_AST <> out:212 var
+R23407:23408 Ionia.MiniTransformer_AST <> w2:211 var
+R23404:23405 Ionia.MiniTransformer_AST <> w1:210 var
+R23401:23402 Ionia.MiniTransformer_AST <> wo:209 var
+R23398:23399 Ionia.MiniTransformer_AST <> wv:208 var
+R23395:23396 Ionia.MiniTransformer_AST <> wk:207 var
+R23392:23393 Ionia.MiniTransformer_AST <> wq:206 var
+R23386:23390 Ionia.MiniTransformer_AST <> ln2_b:205 var
+R23380:23384 Ionia.MiniTransformer_AST <> ln2_g:204 var
+R23374:23378 Ionia.MiniTransformer_AST <> ln1_b:203 var
+R23368:23372 Ionia.MiniTransformer_AST <> ln1_g:202 var
+R23366:23366 Ionia.MiniTransformer_AST <> x:201 var
+R23423:23426 Ionia.CNN_CodeGen_Semantics <> eval def
+R23492:23494 Ionia.MiniTransformer_AST <> rho:213 var
+R23429:23441 Ionia.MiniTransformer_AST <> mt_block_comm def
+R23487:23489 Ionia.MiniTransformer_AST <> out:212 var
+R23484:23485 Ionia.MiniTransformer_AST <> w2:211 var
+R23481:23482 Ionia.MiniTransformer_AST <> w1:210 var
+R23478:23479 Ionia.MiniTransformer_AST <> wo:209 var
+R23475:23476 Ionia.MiniTransformer_AST <> wv:208 var
+R23472:23473 Ionia.MiniTransformer_AST <> wk:207 var
+R23469:23470 Ionia.MiniTransformer_AST <> wq:206 var
+R23463:23467 Ionia.MiniTransformer_AST <> ln2_b:205 var
+R23457:23461 Ionia.MiniTransformer_AST <> ln2_g:204 var
+R23451:23455 Ionia.MiniTransformer_AST <> ln1_b:203 var
+R23445:23449 Ionia.MiniTransformer_AST <> ln1_g:202 var
+R23443:23443 Ionia.MiniTransformer_AST <> x:201 var
+R23521:23537 Ionia.MiniTransformer_AST <> mt_block_par_comm def
+R23540:23552 Ionia.MiniTransformer_AST <> mt_block_comm def
+R23563:23576 Ionia.MiniTransformer_AST <> eval_seq_congr thm
+R23597:23617 Ionia.MiniTransformer_AST <> mt_layernorm_par_eval thm
+R23641:23654 Ionia.MiniTransformer_AST <> eval_seq_congr thm
+R23676:23690 Ionia.MiniTransformer_AST <> mt_bmm_par_eval thm
+R23715:23728 Ionia.MiniTransformer_AST <> eval_seq_congr thm
+R23791:23804 Ionia.MiniTransformer_AST <> eval_seq_congr thm
+R23826:23840 Ionia.MiniTransformer_AST <> mt_bmm_par_eval thm
+R23865:23878 Ionia.MiniTransformer_AST <> eval_seq_congr thm
+R23941:23954 Ionia.MiniTransformer_AST <> eval_seq_congr thm
+R23976:23990 Ionia.MiniTransformer_AST <> mt_bmm_par_eval thm
+R24015:24028 Ionia.MiniTransformer_AST <> eval_seq_congr thm
+R24091:24104 Ionia.MiniTransformer_AST <> eval_seq_congr thm
+R24126:24146 Ionia.MiniTransformer_AST <> mt_attnheads_par_eval thm
+R24171:24184 Ionia.MiniTransformer_AST <> eval_seq_congr thm
+R24247:24260 Ionia.MiniTransformer_AST <> eval_seq_congr thm
+R24282:24296 Ionia.MiniTransformer_AST <> mt_bmm_par_eval thm
+R24321:24334 Ionia.MiniTransformer_AST <> eval_seq_congr thm
+R24356:24372 Ionia.MiniTransformer_AST <> mt_add3d_par_eval thm
+R24397:24410 Ionia.MiniTransformer_AST <> eval_seq_congr thm
+R24433:24453 Ionia.MiniTransformer_AST <> mt_layernorm_par_eval thm
+R24479:24492 Ionia.MiniTransformer_AST <> eval_seq_congr thm
+R24515:24529 Ionia.MiniTransformer_AST <> mt_bmm_par_eval thm
+R24555:24568 Ionia.MiniTransformer_AST <> eval_seq_congr thm
+R24591:24608 Ionia.MiniTransformer_AST <> mt_gelu3d_par_eval thm
+R24634:24647 Ionia.MiniTransformer_AST <> eval_seq_congr thm
+R24670:24684 Ionia.MiniTransformer_AST <> mt_bmm_par_eval thm
+R24710:24726 Ionia.MiniTransformer_AST <> mt_add3d_par_eval thm
+prf 24813:24843 <> minitransformer_ast_par_eval_eq
+binder 24854:24856 <> rho:214
+R24898:24900 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24861:24864 Ionia.CNN_CodeGen_Semantics <> eval def
+R24895:24897 Ionia.MiniTransformer_AST <> rho:214 var
+R24866:24893 Ionia.MiniTransformer_AST <> minitransformer_ast_par_comm def
+R24901:24904 Ionia.CNN_CodeGen_Semantics <> eval def
+R24931:24933 Ionia.MiniTransformer_AST <> rho:214 var
+R24906:24929 Ionia.MiniTransformer_AST <> minitransformer_ast_comm def
+R24964:24991 Ionia.MiniTransformer_AST <> minitransformer_ast_par_comm def
+R24994:25017 Ionia.MiniTransformer_AST <> minitransformer_ast_comm def
+R25028:25041 Ionia.MiniTransformer_AST <> eval_seq_congr thm
+R25113:25126 Ionia.MiniTransformer_AST <> eval_seq_congr thm
+R25148:25164 Ionia.MiniTransformer_AST <> mt_block_par_eval thm
+R25189:25202 Ionia.MiniTransformer_AST <> eval_seq_congr thm
+R25224:25240 Ionia.MiniTransformer_AST <> mt_block_par_eval thm
+R25265:25278 Ionia.MiniTransformer_AST <> eval_seq_congr thm
+R25300:25320 Ionia.MiniTransformer_AST <> mt_layernorm_par_eval thm
+R25345:25359 Ionia.MiniTransformer_AST <> mt_bmm_par_eval thm

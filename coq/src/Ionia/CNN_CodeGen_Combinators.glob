@@ -1,0 +1,1062 @@
+DIGEST 0d709fe89082999ab807a54c4ee91176
+FIonia.CNN_CodeGen_Combinators
+R3187:3191 Stdlib.Reals.Reals <> <> lib
+R3193:3198 Stdlib.Strings.String <> <> lib
+R3200:3202 Stdlib.Init.Nat <> <> lib
+R3204:3207 Stdlib.Lists.List <> <> lib
+R3209:3212 Stdlib.Bool.Bool <> <> lib
+R3214:3218 Stdlib.Arith.Arith <> <> lib
+R3236:3248 Ionia.DataExp <> <> lib
+R3266:3279 Ionia.CNN_Defs <> <> lib
+R3290:3308 Ionia.Proof_CodeGen <> <> lib
+R3326:3347 Ionia.CNN_CodeGen_Core <> <> lib
+R3365:3391 Ionia.CNN_CodeGen_Semantics <> <> lib
+R3433:3445 Ionia.DataExp <> <> mod
+mod 3427:3428 <> DE
+R3461:3474 Ionia.CNN_Defs <> <> mod
+mod 3455:3456 <> CD
+R3491:3509 Ionia.Proof_CodeGen <> <> mod
+mod 3484:3486 <> PCG
+R3525:3546 Ionia.CNN_CodeGen_Core <> <> mod
+mod 3519:3520 <> CG
+prf 3796:3811 <> mkvSeq_equiv_sem
+R3829:3831 Corelib.Init.Datatypes <> nat ind
+binder 3825:3825 <> n:1
+R3839:3842 Ionia.DataExp <> data ind
+binder 3835:3835 <> d:2
+R3855:3858 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3850:3852 Ionia.finType <> fin def
+R3854:3854 Ionia.CNN_CodeGen_Combinators <> n:1 var
+R3859:3861 Ionia.DataExp <> exp def
+R3863:3863 Ionia.CNN_CodeGen_Combinators <> d:2 var
+binder 3846:3846 <> f:3
+R3871:3873 Ionia.DataExp <> acc def
+R3876:3878 Ionia.DataExp <> ary constr
+R3885:3885 Ionia.CNN_CodeGen_Combinators <> d:2 var
+R3880:3881 Ionia.DataExp <> :::'''{'_x_'}' not
+R3883:3883 Ionia.DataExp <> :::'''{'_x_'}' not
+R3882:3882 Ionia.CNN_CodeGen_Combinators <> n:1 var
+binder 3867:3867 <> a:4
+R3894:3894 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3935:3943 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 3902:3902 <> i:5
+R3905:3926 Ionia.CNN_CodeGen_Semantics <> exp_independent_of_acc def
+R3934:3934 Ionia.CNN_CodeGen_Combinators <> a:4 var
+R3929:3929 Ionia.CNN_CodeGen_Combinators <> f:3 var
+R3931:3931 Ionia.CNN_CodeGen_Combinators <> i:5 var
+R3965:3967 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3944:3947 Ionia.CNN_CodeGen_Semantics <> eval def
+R3951:3955 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R3950:3950 Ionia.CNN_CodeGen_Combinators <> a:4 var
+R3956:3961 Ionia.DataExp <> mkvSeq def
+R3963:3963 Ionia.CNN_CodeGen_Combinators <> f:3 var
+R3968:3971 Ionia.CNN_CodeGen_Semantics <> eval def
+R3974:3979 Ionia.CNN_CodeGen_Core <> seqfor constr
+R3990:3992 Ionia.finType <> fin def
+R3994:3994 Ionia.CNN_CodeGen_Combinators <> n:1 var
+binder 3986:3986 <> i:6
+R4006:4010 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R4000:4003 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R4005:4005 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R3999:3999 Ionia.CNN_CodeGen_Combinators <> a:4 var
+R4004:4004 Ionia.CNN_CodeGen_Combinators <> i:6 var
+R4011:4011 Ionia.CNN_CodeGen_Combinators <> f:3 var
+R4013:4013 Ionia.CNN_CodeGen_Combinators <> i:6 var
+R4041:4051 Ionia.CNN_CodeGen_Semantics <> eval_mkvSeq thm
+prf 4080:4095 <> mkvPar_equiv_sem
+R4113:4115 Corelib.Init.Datatypes <> nat ind
+binder 4109:4109 <> n:7
+R4123:4126 Ionia.DataExp <> data ind
+binder 4119:4119 <> d:8
+R4139:4142 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4134:4136 Ionia.finType <> fin def
+R4138:4138 Ionia.CNN_CodeGen_Combinators <> n:7 var
+R4143:4145 Ionia.DataExp <> exp def
+R4147:4147 Ionia.CNN_CodeGen_Combinators <> d:8 var
+binder 4130:4130 <> f:9
+R4155:4157 Ionia.DataExp <> acc def
+R4160:4162 Ionia.DataExp <> ary constr
+R4169:4169 Ionia.CNN_CodeGen_Combinators <> d:8 var
+R4164:4165 Ionia.DataExp <> :::'''{'_x_'}' not
+R4167:4167 Ionia.DataExp <> :::'''{'_x_'}' not
+R4166:4166 Ionia.CNN_CodeGen_Combinators <> n:7 var
+binder 4151:4151 <> a:10
+R4178:4178 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4219:4227 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 4186:4186 <> i:11
+R4189:4210 Ionia.CNN_CodeGen_Semantics <> exp_independent_of_acc def
+R4218:4218 Ionia.CNN_CodeGen_Combinators <> a:10 var
+R4213:4213 Ionia.CNN_CodeGen_Combinators <> f:9 var
+R4215:4215 Ionia.CNN_CodeGen_Combinators <> i:11 var
+R4249:4251 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4228:4231 Ionia.CNN_CodeGen_Semantics <> eval def
+R4235:4239 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R4234:4234 Ionia.CNN_CodeGen_Combinators <> a:10 var
+R4240:4245 Ionia.DataExp <> mkvPar def
+R4247:4247 Ionia.CNN_CodeGen_Combinators <> f:9 var
+R4252:4255 Ionia.CNN_CodeGen_Semantics <> eval def
+R4258:4263 Ionia.CNN_CodeGen_Core <> parfor constr
+R4277:4279 Ionia.finType <> fin def
+R4281:4281 Ionia.CNN_CodeGen_Combinators <> n:7 var
+binder 4273:4273 <> i:12
+R4289:4291 Ionia.DataExp <> acc def
+R4293:4293 Ionia.CNN_CodeGen_Combinators <> d:8 var
+binder 4285:4285 <> o:13
+R4300:4304 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R4299:4299 Ionia.CNN_CodeGen_Combinators <> o:13 var
+R4305:4305 Ionia.CNN_CodeGen_Combinators <> f:9 var
+R4307:4307 Ionia.CNN_CodeGen_Combinators <> i:12 var
+R4265:4265 Ionia.CNN_CodeGen_Combinators <> a:10 var
+R4335:4345 Ionia.CNN_CodeGen_Semantics <> eval_mkvPar thm
+prf 4612:4623 <> If_equiv_sem
+R4641:4643 Corelib.Init.Datatypes <> nat ind
+binder 4637:4637 <> n:14
+R4651:4654 Ionia.DataExp <> data ind
+binder 4647:4647 <> d:15
+R4662:4664 Ionia.DataExp <> acc def
+R4667:4669 Ionia.DataExp <> ary constr
+R4676:4676 Ionia.CNN_CodeGen_Combinators <> d:15 var
+R4671:4672 Ionia.DataExp <> :::'''{'_x_'}' not
+R4674:4674 Ionia.DataExp <> :::'''{'_x_'}' not
+R4673:4673 Ionia.CNN_CodeGen_Combinators <> n:14 var
+binder 4658:4658 <> a:16
+R4685:4688 Ionia.DataExp <> bexp ind
+binder 4681:4681 <> b:17
+R4709:4711 Ionia.DataExp <> exp def
+R4713:4713 Ionia.CNN_CodeGen_Combinators <> d:15 var
+binder 4701:4702 <> e1:18
+binder 4704:4705 <> e2:19
+R4721:4723 Ionia.finType <> fin def
+R4725:4725 Ionia.CNN_CodeGen_Combinators <> n:14 var
+binder 4717:4717 <> i:20
+R4735:4741 Ionia.CNN_CodeGen_Combinators <> env def
+binder 4729:4731 <> rho:21
+R4846:4853 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4829:4831 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4749:4760 Ionia.CNN_CodeGen_Combinators <> eval_bexp def
+R4828:4828 Ionia.CNN_CodeGen_Combinators <> b:17 var
+binder 4767:4767 <> s:22
+R4778:4780 Ionia.CNN_CodeGen_Combinators <> rho:21 var
+R4783:4788 Ionia.CNN_CodeGen_Combinators <> Var constr
+R4790:4790 Ionia.CNN_CodeGen_Combinators <> s:22 var
+R4798:4801 Corelib.Init.Datatypes <> Some constr
+R4812:4815 Corelib.Init.Datatypes <> None constr
+R4820:4821 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R0 defax
+R4832:4843 Ionia.CNN_CodeGen_Combinators <> bexp2bool def
+R4845:4845 Ionia.CNN_CodeGen_Combinators <> b:17 var
+R4909:4915 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4854:4857 Ionia.CNN_CodeGen_Semantics <> eval def
+R4906:4908 Ionia.CNN_CodeGen_Combinators <> rho:21 var
+R4867:4872 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R4903:4903 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R4861:4864 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R4866:4866 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R4860:4860 Ionia.CNN_CodeGen_Combinators <> a:16 var
+R4865:4865 Ionia.CNN_CodeGen_Combinators <> i:20 var
+R4876:4884 Ionia.DataExp <> bexp2bool def
+R4886:4886 Ionia.CNN_CodeGen_Combinators <> b:17 var
+R4901:4902 Ionia.CNN_CodeGen_Combinators <> e2:19 var
+R4893:4894 Ionia.CNN_CodeGen_Combinators <> e1:18 var
+R4916:4919 Ionia.CNN_CodeGen_Semantics <> eval def
+R4961:4963 Ionia.CNN_CodeGen_Combinators <> rho:21 var
+R4922:4923 Ionia.CNN_CodeGen_Core <> If constr
+R4927:4927 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4942:4943 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4958:4958 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4935:4939 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R4929:4932 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R4934:4934 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R4928:4928 Ionia.CNN_CodeGen_Combinators <> a:16 var
+R4933:4933 Ionia.CNN_CodeGen_Combinators <> i:20 var
+R4940:4941 Ionia.CNN_CodeGen_Combinators <> e1:18 var
+R4951:4955 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R4945:4948 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R4950:4950 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R4944:4944 Ionia.CNN_CodeGen_Combinators <> a:16 var
+R4949:4949 Ionia.CNN_CodeGen_Combinators <> i:20 var
+R4956:4957 Ionia.CNN_CodeGen_Combinators <> e2:19 var
+R4925:4925 Ionia.CNN_CodeGen_Combinators <> b:17 var
+R4989:4995 Ionia.CNN_CodeGen_Semantics <> eval_If thm
+prf 5024:5036 <> If1_equiv_sem
+R5054:5057 Ionia.DataExp <> data ind
+binder 5050:5050 <> d:23
+R5065:5067 Ionia.DataExp <> acc def
+R5069:5069 Ionia.CNN_CodeGen_Combinators <> d:23 var
+binder 5061:5061 <> a:24
+R5077:5080 Ionia.DataExp <> bexp ind
+binder 5073:5073 <> b:25
+R5092:5094 Ionia.DataExp <> exp def
+R5096:5096 Ionia.CNN_CodeGen_Combinators <> d:23 var
+binder 5084:5085 <> e1:26
+binder 5087:5088 <> e2:27
+R5106:5112 Ionia.CNN_CodeGen_Combinators <> env def
+binder 5100:5102 <> rho:28
+R5217:5224 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5200:5202 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5120:5131 Ionia.CNN_CodeGen_Combinators <> eval_bexp def
+R5199:5199 Ionia.CNN_CodeGen_Combinators <> b:25 var
+binder 5138:5138 <> s:29
+R5149:5151 Ionia.CNN_CodeGen_Combinators <> rho:28 var
+R5154:5159 Ionia.CNN_CodeGen_Combinators <> Var constr
+R5161:5161 Ionia.CNN_CodeGen_Combinators <> s:29 var
+R5169:5172 Corelib.Init.Datatypes <> Some constr
+R5183:5186 Corelib.Init.Datatypes <> None constr
+R5191:5192 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R0 defax
+R5203:5214 Ionia.CNN_CodeGen_Combinators <> bexp2bool def
+R5216:5216 Ionia.CNN_CodeGen_Combinators <> b:25 var
+R5274:5280 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5225:5228 Ionia.CNN_CodeGen_Semantics <> eval def
+R5271:5273 Ionia.CNN_CodeGen_Combinators <> rho:28 var
+R5232:5237 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R5268:5268 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R5231:5231 Ionia.CNN_CodeGen_Combinators <> a:24 var
+R5241:5249 Ionia.DataExp <> bexp2bool def
+R5251:5251 Ionia.CNN_CodeGen_Combinators <> b:25 var
+R5266:5267 Ionia.CNN_CodeGen_Combinators <> e2:27 var
+R5258:5259 Ionia.CNN_CodeGen_Combinators <> e1:26 var
+R5281:5284 Ionia.CNN_CodeGen_Semantics <> eval def
+R5314:5316 Ionia.CNN_CodeGen_Combinators <> rho:28 var
+R5287:5288 Ionia.CNN_CodeGen_Core <> If constr
+R5292:5292 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5301:5302 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5311:5311 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5294:5298 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R5293:5293 Ionia.CNN_CodeGen_Combinators <> a:24 var
+R5299:5300 Ionia.CNN_CodeGen_Combinators <> e1:26 var
+R5304:5308 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R5303:5303 Ionia.CNN_CodeGen_Combinators <> a:24 var
+R5309:5310 Ionia.CNN_CodeGen_Combinators <> e2:27 var
+R5290:5290 Ionia.CNN_CodeGen_Combinators <> b:25 var
+R5342:5349 Ionia.CNN_CodeGen_Semantics <> eval_If1 thm
+prf 5378:5390 <> cIf_equiv_sem
+R5408:5411 Ionia.DataExp <> data ind
+binder 5404:5404 <> d:30
+R5419:5422 Ionia.DataExp <> bexp ind
+binder 5415:5415 <> b:31
+R5434:5436 Ionia.DataExp <> exp def
+R5438:5438 Ionia.CNN_CodeGen_Combinators <> d:30 var
+binder 5426:5427 <> e1:32
+binder 5429:5430 <> e2:33
+R5451:5454 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5446:5448 Ionia.DataExp <> exp def
+R5450:5450 Ionia.CNN_CodeGen_Combinators <> d:30 var
+R5455:5458 Ionia.CNN_CodeGen_Core <> comm ind
+binder 5442:5442 <> c:34
+R5468:5474 Ionia.CNN_CodeGen_Combinators <> env def
+binder 5462:5464 <> rho:35
+R5579:5586 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5562:5564 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5482:5493 Ionia.CNN_CodeGen_Combinators <> eval_bexp def
+R5561:5561 Ionia.CNN_CodeGen_Combinators <> b:31 var
+binder 5500:5500 <> s:36
+R5511:5513 Ionia.CNN_CodeGen_Combinators <> rho:35 var
+R5516:5521 Ionia.CNN_CodeGen_Combinators <> Var constr
+R5523:5523 Ionia.CNN_CodeGen_Combinators <> s:36 var
+R5531:5534 Corelib.Init.Datatypes <> Some constr
+R5545:5548 Corelib.Init.Datatypes <> None constr
+R5553:5554 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R0 defax
+R5565:5576 Ionia.CNN_CodeGen_Combinators <> bexp2bool def
+R5578:5578 Ionia.CNN_CodeGen_Combinators <> b:31 var
+R5632:5638 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5587:5590 Ionia.CNN_CodeGen_Semantics <> eval def
+R5629:5631 Ionia.CNN_CodeGen_Combinators <> rho:35 var
+R5593:5593 Ionia.CNN_CodeGen_Combinators <> c:34 var
+R5599:5607 Ionia.DataExp <> bexp2bool def
+R5609:5609 Ionia.CNN_CodeGen_Combinators <> b:31 var
+R5624:5625 Ionia.CNN_CodeGen_Combinators <> e2:33 var
+R5616:5617 Ionia.CNN_CodeGen_Combinators <> e1:32 var
+R5639:5642 Ionia.CNN_CodeGen_Semantics <> eval def
+R5664:5666 Ionia.CNN_CodeGen_Combinators <> rho:35 var
+R5645:5646 Ionia.CNN_CodeGen_Core <> If constr
+R5650:5650 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5655:5656 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5661:5661 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5651:5651 Ionia.CNN_CodeGen_Combinators <> c:34 var
+R5653:5654 Ionia.CNN_CodeGen_Combinators <> e1:32 var
+R5657:5657 Ionia.CNN_CodeGen_Combinators <> c:34 var
+R5659:5660 Ionia.CNN_CodeGen_Combinators <> e2:33 var
+R5648:5648 Ionia.CNN_CodeGen_Combinators <> b:31 var
+R5692:5699 Ionia.CNN_CodeGen_Semantics <> eval_cIf thm
+prf 5966:5978 <> new_equiv_sem
+binder 5991:5991 <> d:37
+R5999:6001 Ionia.DataExp <> exp def
+R6003:6003 Ionia.CNN_CodeGen_Combinators <> d:37 var
+binder 5994:5995 <> e1:38
+R6016:6019 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6011:6013 Ionia.DataExp <> exp def
+R6015:6015 Ionia.CNN_CodeGen_Combinators <> d:37 var
+R6020:6023 Ionia.CNN_CodeGen_Core <> comm ind
+binder 6007:6007 <> c:39
+R6055:6062 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6031:6049 Ionia.CNN_CodeGen_Semantics <> new_continuation_ok def
+R6053:6054 Ionia.CNN_CodeGen_Combinators <> e1:38 var
+R6051:6051 Ionia.CNN_CodeGen_Combinators <> c:39 var
+binder 6070:6072 <> rho:40
+R6135:6144 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6082:6100 Ionia.CNN_CodeGen_Combinators <> StructUndefined def
+R6102:6102 Ionia.CNN_CodeGen_Combinators <> d:37 var
+R6105:6112 Ionia.CNN_CodeGen_Combinators <> acc' def
+R6115:6120 Ionia.CNN_CodeGen_Combinators <> Var constr
+R6132:6134 Ionia.CNN_CodeGen_Combinators <> rho:40 var
+R6208:6216 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6145:6148 Ionia.CNN_CodeGen_Semantics <> eval def
+R6205:6207 Ionia.CNN_CodeGen_Combinators <> rho:40 var
+R6151:6153 Ionia.CNN_CodeGen_Core <> new constr
+binder 6160:6162 <> tmp:41
+R6180:6182 Ionia.CNN_CodeGen_Combinators <> tmp:41 var
+binder 6172:6172 <> w:42
+binder 6174:6174 <> v:43
+R6195:6198 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R6188:6192 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R6187:6187 Ionia.CNN_CodeGen_Combinators <> w:42 var
+R6193:6194 Ionia.CNN_CodeGen_Combinators <> e1:38 var
+R6199:6199 Ionia.CNN_CodeGen_Combinators <> c:39 var
+R6201:6201 Ionia.CNN_CodeGen_Combinators <> v:43 var
+R6217:6224 Ionia.CNN_CodeGen_Semantics <> eval_aux def
+R6235:6237 Ionia.CNN_CodeGen_Combinators <> rho:40 var
+R6227:6227 Ionia.CNN_CodeGen_Combinators <> c:39 var
+R6229:6230 Ionia.CNN_CodeGen_Combinators <> e1:38 var
+R6263:6276 Ionia.CNN_CodeGen_Semantics <> eval_new_equiv thm
+prf 6844:6859 <> reduce_equiv_sem
+R6877:6879 Corelib.Init.Datatypes <> nat ind
+binder 6873:6873 <> n:44
+R6888:6891 Ionia.DataExp <> data ind
+binder 6883:6884 <> d1:45
+R6905:6908 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6899:6901 Ionia.DataExp <> exp def
+R6903:6904 Ionia.CNN_CodeGen_Combinators <> d1:45 var
+R6916:6919 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6909:6911 Ionia.DataExp <> exp def
+R6913:6915 Ionia.DataExp <> num constr
+R6920:6922 Ionia.DataExp <> exp def
+R6924:6926 Ionia.DataExp <> num constr
+binder 6895:6895 <> f:46
+R6943:6945 Ionia.DataExp <> exp def
+R6947:6949 Ionia.DataExp <> num constr
+binder 6939:6939 <> i:47
+R6957:6959 Ionia.DataExp <> exp def
+R6962:6964 Ionia.DataExp <> ary constr
+R6971:6972 Ionia.CNN_CodeGen_Combinators <> d1:45 var
+R6966:6967 Ionia.DataExp <> :::'''{'_x_'}' not
+R6969:6969 Ionia.DataExp <> :::'''{'_x_'}' not
+R6968:6968 Ionia.CNN_CodeGen_Combinators <> n:44 var
+binder 6953:6953 <> e:48
+R6981:6983 Ionia.DataExp <> acc def
+R6985:6987 Ionia.DataExp <> num constr
+binder 6977:6977 <> a:49
+R6997:7003 Ionia.CNN_CodeGen_Combinators <> env def
+binder 6991:6993 <> rho:50
+R7029:7036 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7011:7026 Ionia.CNN_CodeGen_Semantics <> reduce_op_proper def
+R7028:7028 Ionia.CNN_CodeGen_Combinators <> f:46 var
+R7051:7058 Ionia.CNN_CodeGen_Combinators <> acc' def
+R7060:7062 Ionia.DataExp <> num constr
+R7065:7070 Ionia.CNN_CodeGen_Combinators <> Var constr
+R7083:7085 Ionia.DataExp <> acc def
+R7087:7089 Ionia.DataExp <> num constr
+binder 7041:7044 <> wtmp:51
+R7132:7139 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7100:7118 Ionia.CNN_CodeGen_Combinators <> StructUndefined def
+R7120:7122 Ionia.DataExp <> num constr
+R7124:7127 Ionia.CNN_CodeGen_Combinators <> wtmp:51 var
+R7129:7131 Ionia.CNN_CodeGen_Combinators <> rho:50 var
+R7188:7195 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7141:7162 Ionia.CNN_CodeGen_Semantics <> exp_independent_of_acc def
+R7165:7167 Ionia.DataExp <> ary constr
+R7174:7175 Ionia.CNN_CodeGen_Combinators <> d1:45 var
+R7169:7170 Ionia.DataExp <> :::'''{'_x_'}' not
+R7172:7172 Ionia.DataExp <> :::'''{'_x_'}' not
+R7171:7171 Ionia.CNN_CodeGen_Combinators <> n:44 var
+R7178:7180 Ionia.DataExp <> num constr
+R7182:7182 Ionia.CNN_CodeGen_Combinators <> e:48 var
+R7184:7187 Ionia.CNN_CodeGen_Combinators <> wtmp:51 var
+R7205:7212 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7197:7200 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R7196:7196 Ionia.CNN_CodeGen_Combinators <> a:49 var
+R7201:7204 Ionia.CNN_CodeGen_Combinators <> wtmp:51 var
+R7245:7251 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7213:7216 Ionia.CNN_CodeGen_Semantics <> eval def
+R7242:7244 Ionia.CNN_CodeGen_Combinators <> rho:50 var
+R7220:7224 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R7219:7219 Ionia.CNN_CodeGen_Combinators <> a:49 var
+R7225:7233 Ionia.CNN_CodeGen_Combinators <> reduce def
+R7239:7239 Ionia.CNN_CodeGen_Combinators <> e:48 var
+R7237:7237 Ionia.CNN_CodeGen_Combinators <> i:47 var
+R7235:7235 Ionia.CNN_CodeGen_Combinators <> f:46 var
+R7252:7255 Ionia.CNN_CodeGen_Semantics <> eval def
+R7420:7422 Ionia.CNN_CodeGen_Combinators <> rho:50 var
+R7259:7268 Ionia.CNN_CodeGen_Combinators <> loopacc constr
+R7270:7272 Ionia.DataExp <> num constr
+binder 7279:7281 <> tmp:52
+R7301:7306 Ionia.CNN_CodeGen_Combinators <> vwt def
+R7308:7310 Ionia.CNN_CodeGen_Combinators <> tmp:52 var
+binder 7296:7296 <> w:53
+R7330:7335 Ionia.CNN_CodeGen_Combinators <> vrd def
+R7337:7339 Ionia.CNN_CodeGen_Combinators <> tmp:52 var
+binder 7325:7325 <> v:54
+R7357:7360 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R7351:7355 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R7350:7350 Ionia.CNN_CodeGen_Combinators <> w:53 var
+R7356:7356 Ionia.CNN_CodeGen_Combinators <> i:47 var
+R7406:7409 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R7361:7366 Ionia.CNN_CodeGen_Core <> seqfor constr
+R7378:7380 Ionia.finType <> fin def
+R7382:7382 Ionia.CNN_CodeGen_Combinators <> n:44 var
+binder 7373:7374 <> i0:55
+R7388:7392 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R7387:7387 Ionia.CNN_CodeGen_Combinators <> w:53 var
+R7393:7393 Ionia.CNN_CodeGen_Combinators <> f:46 var
+R7404:7404 Ionia.CNN_CodeGen_Combinators <> v:54 var
+R7396:7399 Ionia.DataExp <> :::x_'|['_x_']' not
+R7402:7402 Ionia.DataExp <> :::x_'|['_x_']' not
+R7395:7395 Ionia.CNN_CodeGen_Combinators <> e:48 var
+R7400:7401 Ionia.CNN_CodeGen_Combinators <> i0:55 var
+R7411:7415 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R7410:7410 Ionia.CNN_CodeGen_Combinators <> a:49 var
+R7416:7416 Ionia.CNN_CodeGen_Combinators <> v:54 var
+R7506:7522 Ionia.CNN_CodeGen_Semantics <> eval_reduce_equiv thm
+prf 7756:7775 <> reduce_equiv_sem_gen
+R7793:7795 Corelib.Init.Datatypes <> nat ind
+binder 7789:7789 <> n:56
+R7807:7810 Ionia.DataExp <> data ind
+binder 7799:7800 <> d1:57
+binder 7802:7803 <> d2:58
+R7824:7827 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7818:7820 Ionia.DataExp <> exp def
+R7822:7823 Ionia.CNN_CodeGen_Combinators <> d1:57 var
+R7834:7837 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7828:7830 Ionia.DataExp <> exp def
+R7832:7833 Ionia.CNN_CodeGen_Combinators <> d2:58 var
+R7838:7840 Ionia.DataExp <> exp def
+R7842:7843 Ionia.CNN_CodeGen_Combinators <> d2:58 var
+binder 7814:7814 <> f:59
+R7860:7862 Ionia.DataExp <> exp def
+R7864:7865 Ionia.CNN_CodeGen_Combinators <> d2:58 var
+binder 7856:7856 <> i:60
+R7873:7875 Ionia.DataExp <> exp def
+R7878:7880 Ionia.DataExp <> ary constr
+R7887:7888 Ionia.CNN_CodeGen_Combinators <> d1:57 var
+R7882:7883 Ionia.DataExp <> :::'''{'_x_'}' not
+R7885:7885 Ionia.DataExp <> :::'''{'_x_'}' not
+R7884:7884 Ionia.CNN_CodeGen_Combinators <> n:56 var
+binder 7869:7869 <> e:61
+R7897:7899 Ionia.DataExp <> acc def
+R7901:7902 Ionia.CNN_CodeGen_Combinators <> d2:58 var
+binder 7893:7893 <> a:62
+R7912:7918 Ionia.CNN_CodeGen_Combinators <> env def
+binder 7906:7908 <> rho:63
+R7944:7951 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7926:7941 Ionia.CNN_CodeGen_Semantics <> reduce_op_proper def
+R7943:7943 Ionia.CNN_CodeGen_Combinators <> f:59 var
+R7966:7971 Ionia.CNN_CodeGen_Combinators <> vwt def
+R7973:7974 Ionia.CNN_CodeGen_Combinators <> d2:58 var
+binder 7956:7959 <> wtmp:64
+R8024:8031 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7993:8011 Ionia.CNN_CodeGen_Combinators <> StructUndefined def
+R8013:8014 Ionia.CNN_CodeGen_Combinators <> d2:58 var
+R8016:8019 Ionia.CNN_CodeGen_Combinators <> wtmp:64 var
+R8021:8023 Ionia.CNN_CodeGen_Combinators <> rho:63 var
+R8079:8086 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8033:8054 Ionia.CNN_CodeGen_Semantics <> exp_independent_of_acc def
+R8057:8059 Ionia.DataExp <> ary constr
+R8066:8067 Ionia.CNN_CodeGen_Combinators <> d1:57 var
+R8061:8062 Ionia.DataExp <> :::'''{'_x_'}' not
+R8064:8064 Ionia.DataExp <> :::'''{'_x_'}' not
+R8063:8063 Ionia.CNN_CodeGen_Combinators <> n:56 var
+R8070:8071 Ionia.CNN_CodeGen_Combinators <> d2:58 var
+R8073:8073 Ionia.CNN_CodeGen_Combinators <> e:61 var
+R8075:8078 Ionia.CNN_CodeGen_Combinators <> wtmp:64 var
+R8087:8087 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8143:8151 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 8095:8095 <> p:65
+R8119:8122 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8099:8108 Ionia.CNN_CodeGen_Combinators <> in_acc def
+R8110:8111 Ionia.CNN_CodeGen_Combinators <> d2:58 var
+R8113:8113 Ionia.CNN_CodeGen_Combinators <> p:65 var
+R8115:8118 Ionia.CNN_CodeGen_Combinators <> wtmp:64 var
+R8123:8124 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R8126:8135 Ionia.CNN_CodeGen_Combinators <> in_acc def
+R8137:8138 Ionia.CNN_CodeGen_Combinators <> d2:58 var
+R8140:8140 Ionia.CNN_CodeGen_Combinators <> p:65 var
+R8142:8142 Ionia.CNN_CodeGen_Combinators <> a:62 var
+R8184:8190 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8152:8155 Ionia.CNN_CodeGen_Semantics <> eval def
+R8181:8183 Ionia.CNN_CodeGen_Combinators <> rho:63 var
+R8159:8163 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R8158:8158 Ionia.CNN_CodeGen_Combinators <> a:62 var
+R8164:8172 Ionia.CNN_CodeGen_Combinators <> reduce def
+R8178:8178 Ionia.CNN_CodeGen_Combinators <> e:61 var
+R8176:8176 Ionia.CNN_CodeGen_Combinators <> i:60 var
+R8174:8174 Ionia.CNN_CodeGen_Combinators <> f:59 var
+R8191:8194 Ionia.CNN_CodeGen_Semantics <> eval def
+R8358:8360 Ionia.CNN_CodeGen_Combinators <> rho:63 var
+R8198:8207 Ionia.CNN_CodeGen_Combinators <> loopacc constr
+R8209:8210 Ionia.CNN_CodeGen_Combinators <> d2:58 var
+binder 8217:8219 <> tmp:66
+R8239:8244 Ionia.CNN_CodeGen_Combinators <> vwt def
+R8246:8248 Ionia.CNN_CodeGen_Combinators <> tmp:66 var
+binder 8234:8234 <> w:67
+R8268:8273 Ionia.CNN_CodeGen_Combinators <> vrd def
+R8275:8277 Ionia.CNN_CodeGen_Combinators <> tmp:66 var
+binder 8263:8263 <> v:68
+R8295:8298 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R8289:8293 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R8288:8288 Ionia.CNN_CodeGen_Combinators <> w:67 var
+R8294:8294 Ionia.CNN_CodeGen_Combinators <> i:60 var
+R8344:8347 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R8299:8304 Ionia.CNN_CodeGen_Core <> seqfor constr
+R8316:8318 Ionia.finType <> fin def
+R8320:8320 Ionia.CNN_CodeGen_Combinators <> n:56 var
+binder 8311:8312 <> i0:69
+R8326:8330 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R8325:8325 Ionia.CNN_CodeGen_Combinators <> w:67 var
+R8331:8331 Ionia.CNN_CodeGen_Combinators <> f:59 var
+R8342:8342 Ionia.CNN_CodeGen_Combinators <> v:68 var
+R8334:8337 Ionia.DataExp <> :::x_'|['_x_']' not
+R8340:8340 Ionia.DataExp <> :::x_'|['_x_']' not
+R8333:8333 Ionia.CNN_CodeGen_Combinators <> e:61 var
+R8338:8339 Ionia.CNN_CodeGen_Combinators <> i0:69 var
+R8349:8353 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R8348:8348 Ionia.CNN_CodeGen_Combinators <> a:62 var
+R8354:8354 Ionia.CNN_CodeGen_Combinators <> v:68 var
+R8448:8468 Ionia.CNN_CodeGen_Semantics <> eval_reduce_equiv_gen thm
+prf 8497:8509 <> max_equiv_sem
+R8527:8529 Corelib.Init.Datatypes <> nat ind
+binder 8523:8523 <> n:70
+R8537:8539 Ionia.DataExp <> exp def
+R8542:8544 Ionia.DataExp <> ary constr
+R8551:8553 Ionia.DataExp <> num constr
+R8546:8547 Ionia.DataExp <> :::'''{'_x_'}' not
+R8549:8549 Ionia.DataExp <> :::'''{'_x_'}' not
+R8548:8548 Ionia.CNN_CodeGen_Combinators <> n:70 var
+binder 8533:8533 <> e:71
+R8562:8564 Ionia.DataExp <> acc def
+R8566:8568 Ionia.DataExp <> num constr
+binder 8558:8558 <> a:72
+R8578:8584 Ionia.CNN_CodeGen_Combinators <> env def
+binder 8572:8574 <> rho:73
+R8606:8613 Ionia.CNN_CodeGen_Combinators <> acc' def
+R8615:8617 Ionia.DataExp <> num constr
+R8620:8625 Ionia.CNN_CodeGen_Combinators <> Var constr
+R8638:8640 Ionia.DataExp <> acc def
+R8642:8644 Ionia.DataExp <> num constr
+binder 8596:8599 <> wtmp:74
+R8687:8694 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8655:8673 Ionia.CNN_CodeGen_Combinators <> StructUndefined def
+R8675:8677 Ionia.DataExp <> num constr
+R8679:8682 Ionia.CNN_CodeGen_Combinators <> wtmp:74 var
+R8684:8686 Ionia.CNN_CodeGen_Combinators <> rho:73 var
+R8744:8751 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8696:8717 Ionia.CNN_CodeGen_Semantics <> exp_independent_of_acc def
+R8720:8722 Ionia.DataExp <> ary constr
+R8729:8731 Ionia.DataExp <> num constr
+R8724:8725 Ionia.DataExp <> :::'''{'_x_'}' not
+R8727:8727 Ionia.DataExp <> :::'''{'_x_'}' not
+R8726:8726 Ionia.CNN_CodeGen_Combinators <> n:70 var
+R8734:8736 Ionia.DataExp <> num constr
+R8738:8738 Ionia.CNN_CodeGen_Combinators <> e:71 var
+R8740:8743 Ionia.CNN_CodeGen_Combinators <> wtmp:74 var
+R8761:8768 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8753:8756 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R8752:8752 Ionia.CNN_CodeGen_Combinators <> a:72 var
+R8757:8760 Ionia.CNN_CodeGen_Combinators <> wtmp:74 var
+R8794:8800 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8769:8772 Ionia.CNN_CodeGen_Semantics <> eval def
+R8791:8793 Ionia.CNN_CodeGen_Combinators <> rho:73 var
+R8776:8780 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R8775:8775 Ionia.CNN_CodeGen_Combinators <> a:72 var
+R8781:8786 Ionia.CNN_CodeGen_Combinators <> max def
+R8788:8788 Ionia.CNN_CodeGen_Combinators <> e:71 var
+R8801:8804 Ionia.CNN_CodeGen_Semantics <> eval def
+R9022:9024 Ionia.CNN_CodeGen_Combinators <> rho:73 var
+R8808:8817 Ionia.CNN_CodeGen_Combinators <> loopacc constr
+R8819:8821 Ionia.DataExp <> num constr
+binder 8828:8830 <> tmp:75
+R8850:8855 Ionia.CNN_CodeGen_Combinators <> vwt def
+R8857:8859 Ionia.CNN_CodeGen_Combinators <> tmp:75 var
+binder 8845:8845 <> w:76
+R8879:8884 Ionia.CNN_CodeGen_Combinators <> vrd def
+R8886:8888 Ionia.CNN_CodeGen_Combinators <> tmp:75 var
+binder 8874:8874 <> v:77
+R8912:8922 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R8900:8904 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R8899:8899 Ionia.CNN_CodeGen_Combinators <> w:76 var
+R8905:8911 Ionia.CNN_CodeGen_Combinators <> zero def
+R9008:9011 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R8923:8928 Ionia.CNN_CodeGen_Core <> seqfor constr
+R8940:8942 Ionia.finType <> fin def
+R8944:8944 Ionia.CNN_CodeGen_Combinators <> n:70 var
+binder 8935:8936 <> i0:78
+R8957:8958 Ionia.CNN_CodeGen_Core <> If constr
+R8982:8982 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8997:8998 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9006:9006 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8984:8988 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R8983:8983 Ionia.CNN_CodeGen_Combinators <> w:76 var
+R8990:8993 Ionia.DataExp <> :::x_'|['_x_']' not
+R8996:8996 Ionia.DataExp <> :::x_'|['_x_']' not
+R8989:8989 Ionia.CNN_CodeGen_Combinators <> e:71 var
+R8994:8995 Ionia.CNN_CodeGen_Combinators <> i0:78 var
+R9000:9004 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R8999:8999 Ionia.CNN_CodeGen_Combinators <> w:76 var
+R9005:9005 Ionia.CNN_CodeGen_Combinators <> v:77 var
+R8961:8968 Ionia.CNN_CodeGen_Combinators <> gtExp def
+R8979:8979 Ionia.CNN_CodeGen_Combinators <> v:77 var
+R8971:8974 Ionia.DataExp <> :::x_'|['_x_']' not
+R8977:8977 Ionia.DataExp <> :::x_'|['_x_']' not
+R8970:8970 Ionia.CNN_CodeGen_Combinators <> e:71 var
+R8975:8976 Ionia.CNN_CodeGen_Combinators <> i0:78 var
+R9013:9017 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R9012:9012 Ionia.CNN_CodeGen_Combinators <> a:72 var
+R9018:9018 Ionia.CNN_CodeGen_Combinators <> v:77 var
+R9098:9111 Ionia.CNN_CodeGen_Semantics <> eval_max_equiv thm
+prf 9140:9152 <> sum_equiv_sem
+R9170:9172 Corelib.Init.Datatypes <> nat ind
+binder 9166:9166 <> n:79
+R9180:9182 Ionia.DataExp <> exp def
+R9185:9187 Ionia.DataExp <> ary constr
+R9194:9196 Ionia.DataExp <> num constr
+R9189:9190 Ionia.DataExp <> :::'''{'_x_'}' not
+R9192:9192 Ionia.DataExp <> :::'''{'_x_'}' not
+R9191:9191 Ionia.CNN_CodeGen_Combinators <> n:79 var
+binder 9176:9176 <> e:80
+R9205:9207 Ionia.DataExp <> acc def
+R9209:9211 Ionia.DataExp <> num constr
+binder 9201:9201 <> a:81
+R9221:9227 Ionia.CNN_CodeGen_Combinators <> env def
+binder 9215:9217 <> rho:82
+R9249:9256 Ionia.CNN_CodeGen_Combinators <> acc' def
+R9258:9260 Ionia.DataExp <> num constr
+R9263:9268 Ionia.CNN_CodeGen_Combinators <> Var constr
+R9281:9283 Ionia.DataExp <> acc def
+R9285:9287 Ionia.DataExp <> num constr
+binder 9239:9242 <> wtmp:83
+R9330:9337 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9298:9316 Ionia.CNN_CodeGen_Combinators <> StructUndefined def
+R9318:9320 Ionia.DataExp <> num constr
+R9322:9325 Ionia.CNN_CodeGen_Combinators <> wtmp:83 var
+R9327:9329 Ionia.CNN_CodeGen_Combinators <> rho:82 var
+R9387:9394 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9339:9360 Ionia.CNN_CodeGen_Semantics <> exp_independent_of_acc def
+R9363:9365 Ionia.DataExp <> ary constr
+R9372:9374 Ionia.DataExp <> num constr
+R9367:9368 Ionia.DataExp <> :::'''{'_x_'}' not
+R9370:9370 Ionia.DataExp <> :::'''{'_x_'}' not
+R9369:9369 Ionia.CNN_CodeGen_Combinators <> n:79 var
+R9377:9379 Ionia.DataExp <> num constr
+R9381:9381 Ionia.CNN_CodeGen_Combinators <> e:80 var
+R9383:9386 Ionia.CNN_CodeGen_Combinators <> wtmp:83 var
+R9404:9411 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9396:9399 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R9395:9395 Ionia.CNN_CodeGen_Combinators <> a:81 var
+R9400:9403 Ionia.CNN_CodeGen_Combinators <> wtmp:83 var
+R9437:9443 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9412:9415 Ionia.CNN_CodeGen_Semantics <> eval def
+R9434:9436 Ionia.CNN_CodeGen_Combinators <> rho:82 var
+R9419:9423 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R9418:9418 Ionia.CNN_CodeGen_Combinators <> a:81 var
+R9424:9429 Ionia.CNN_CodeGen_Combinators <> sum def
+R9431:9431 Ionia.CNN_CodeGen_Combinators <> e:80 var
+R9444:9447 Ionia.CNN_CodeGen_Semantics <> eval def
+R9623:9625 Ionia.CNN_CodeGen_Combinators <> rho:82 var
+R9451:9460 Ionia.CNN_CodeGen_Combinators <> loopacc constr
+R9462:9464 Ionia.DataExp <> num constr
+binder 9471:9473 <> tmp:84
+R9493:9498 Ionia.CNN_CodeGen_Combinators <> vwt def
+R9500:9502 Ionia.CNN_CodeGen_Combinators <> tmp:84 var
+binder 9488:9488 <> w:85
+R9522:9527 Ionia.CNN_CodeGen_Combinators <> vrd def
+R9529:9531 Ionia.CNN_CodeGen_Combinators <> tmp:84 var
+binder 9517:9517 <> v:86
+R9555:9558 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R9543:9547 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R9542:9542 Ionia.CNN_CodeGen_Combinators <> w:85 var
+R9548:9554 Ionia.CNN_CodeGen_Combinators <> zero def
+R9609:9612 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R9559:9564 Ionia.CNN_CodeGen_Core <> seqfor constr
+R9576:9578 Ionia.finType <> fin def
+R9580:9580 Ionia.CNN_CodeGen_Combinators <> n:79 var
+binder 9571:9572 <> i0:87
+R9586:9590 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R9585:9585 Ionia.CNN_CodeGen_Combinators <> w:85 var
+R9591:9596 Ionia.CNN_CodeGen_Combinators <> add def
+R9607:9607 Ionia.CNN_CodeGen_Combinators <> v:86 var
+R9599:9602 Ionia.DataExp <> :::x_'|['_x_']' not
+R9605:9605 Ionia.DataExp <> :::x_'|['_x_']' not
+R9598:9598 Ionia.CNN_CodeGen_Combinators <> e:80 var
+R9603:9604 Ionia.CNN_CodeGen_Combinators <> i0:87 var
+R9614:9618 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R9613:9613 Ionia.CNN_CodeGen_Combinators <> a:81 var
+R9619:9619 Ionia.CNN_CodeGen_Combinators <> v:86 var
+R9699:9712 Ionia.CNN_CodeGen_Semantics <> eval_sum_equiv thm
+prf 9741:9757 <> creduce_equiv_sem
+R9775:9777 Corelib.Init.Datatypes <> nat ind
+binder 9771:9771 <> n:88
+R9786:9789 Ionia.DataExp <> data ind
+binder 9781:9782 <> d1:89
+R9803:9806 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9797:9799 Ionia.DataExp <> exp def
+R9801:9802 Ionia.CNN_CodeGen_Combinators <> d1:89 var
+R9814:9817 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9807:9809 Ionia.DataExp <> exp def
+R9811:9813 Ionia.DataExp <> num constr
+R9818:9820 Ionia.DataExp <> exp def
+R9822:9824 Ionia.DataExp <> num constr
+binder 9793:9793 <> f:90
+R9841:9843 Ionia.DataExp <> exp def
+R9845:9847 Ionia.DataExp <> num constr
+binder 9837:9837 <> i:91
+R9855:9857 Ionia.DataExp <> exp def
+R9860:9862 Ionia.DataExp <> ary constr
+R9869:9870 Ionia.CNN_CodeGen_Combinators <> d1:89 var
+R9864:9865 Ionia.DataExp <> :::'''{'_x_'}' not
+R9867:9867 Ionia.DataExp <> :::'''{'_x_'}' not
+R9866:9866 Ionia.CNN_CodeGen_Combinators <> n:88 var
+binder 9851:9851 <> e:92
+R9886:9889 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9879:9881 Ionia.DataExp <> exp def
+R9883:9885 Ionia.DataExp <> num constr
+R9890:9893 Ionia.CNN_CodeGen_Core <> comm ind
+binder 9875:9875 <> c:93
+R9903:9909 Ionia.CNN_CodeGen_Combinators <> env def
+binder 9897:9899 <> rho:94
+R9931:9938 Ionia.CNN_CodeGen_Combinators <> acc' def
+R9940:9942 Ionia.DataExp <> num constr
+R9945:9950 Ionia.CNN_CodeGen_Combinators <> Var constr
+R9963:9965 Ionia.DataExp <> acc def
+R9967:9969 Ionia.DataExp <> num constr
+binder 9921:9924 <> wtmp:95
+R10012:10019 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9980:9998 Ionia.CNN_CodeGen_Combinators <> StructUndefined def
+R10000:10002 Ionia.DataExp <> num constr
+R10004:10007 Ionia.CNN_CodeGen_Combinators <> wtmp:95 var
+R10009:10011 Ionia.CNN_CodeGen_Combinators <> rho:94 var
+R10068:10075 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10021:10042 Ionia.CNN_CodeGen_Semantics <> exp_independent_of_acc def
+R10045:10047 Ionia.DataExp <> ary constr
+R10054:10055 Ionia.CNN_CodeGen_Combinators <> d1:89 var
+R10049:10050 Ionia.DataExp <> :::'''{'_x_'}' not
+R10052:10052 Ionia.DataExp <> :::'''{'_x_'}' not
+R10051:10051 Ionia.CNN_CodeGen_Combinators <> n:88 var
+R10058:10060 Ionia.DataExp <> num constr
+R10062:10062 Ionia.CNN_CodeGen_Combinators <> e:92 var
+R10064:10067 Ionia.CNN_CodeGen_Combinators <> wtmp:95 var
+R10094:10101 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10076:10091 Ionia.CNN_CodeGen_Semantics <> reduce_op_proper def
+R10093:10093 Ionia.CNN_CodeGen_Combinators <> f:90 var
+R10145:10152 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10102:10124 Ionia.CNN_CodeGen_Semantics <> loopacc_continuation_ok def
+R10129:10137 Ionia.CNN_CodeGen_Combinators <> reduce def
+R10143:10143 Ionia.CNN_CodeGen_Combinators <> e:92 var
+R10141:10141 Ionia.CNN_CodeGen_Combinators <> i:91 var
+R10139:10139 Ionia.CNN_CodeGen_Combinators <> f:90 var
+R10126:10126 Ionia.CNN_CodeGen_Combinators <> c:93 var
+R10189:10195 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10153:10160 Ionia.CNN_CodeGen_Semantics <> eval_aux def
+R10186:10188 Ionia.CNN_CodeGen_Combinators <> rho:94 var
+R10163:10163 Ionia.CNN_CodeGen_Combinators <> c:93 var
+R10166:10174 Ionia.CNN_CodeGen_Combinators <> reduce def
+R10180:10180 Ionia.CNN_CodeGen_Combinators <> e:92 var
+R10178:10178 Ionia.CNN_CodeGen_Combinators <> i:91 var
+R10176:10176 Ionia.CNN_CodeGen_Combinators <> f:90 var
+R10196:10199 Ionia.CNN_CodeGen_Semantics <> eval def
+R10360:10362 Ionia.CNN_CodeGen_Combinators <> rho:94 var
+R10203:10212 Ionia.CNN_CodeGen_Combinators <> loopacc constr
+R10214:10216 Ionia.DataExp <> num constr
+binder 10223:10225 <> tmp:96
+R10245:10250 Ionia.CNN_CodeGen_Combinators <> vwt def
+R10252:10254 Ionia.CNN_CodeGen_Combinators <> tmp:96 var
+binder 10240:10240 <> w:97
+R10274:10279 Ionia.CNN_CodeGen_Combinators <> vrd def
+R10281:10283 Ionia.CNN_CodeGen_Combinators <> tmp:96 var
+binder 10269:10269 <> v:98
+R10301:10304 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R10295:10299 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R10294:10294 Ionia.CNN_CodeGen_Combinators <> w:97 var
+R10300:10300 Ionia.CNN_CodeGen_Combinators <> i:91 var
+R10350:10353 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R10305:10310 Ionia.CNN_CodeGen_Core <> seqfor constr
+R10322:10324 Ionia.finType <> fin def
+R10326:10326 Ionia.CNN_CodeGen_Combinators <> n:88 var
+binder 10317:10318 <> i0:99
+R10332:10336 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R10331:10331 Ionia.CNN_CodeGen_Combinators <> w:97 var
+R10337:10337 Ionia.CNN_CodeGen_Combinators <> f:90 var
+R10348:10348 Ionia.CNN_CodeGen_Combinators <> v:98 var
+R10340:10343 Ionia.DataExp <> :::x_'|['_x_']' not
+R10346:10346 Ionia.DataExp <> :::x_'|['_x_']' not
+R10339:10339 Ionia.CNN_CodeGen_Combinators <> e:92 var
+R10344:10345 Ionia.CNN_CodeGen_Combinators <> i0:99 var
+R10354:10354 Ionia.CNN_CodeGen_Combinators <> c:93 var
+R10356:10356 Ionia.CNN_CodeGen_Combinators <> v:98 var
+R10445:10462 Ionia.CNN_CodeGen_Semantics <> eval_creduce_equiv thm
+prf 10569:10589 <> creduce_equiv_sem_gen
+R10607:10609 Corelib.Init.Datatypes <> nat ind
+binder 10603:10603 <> n:100
+R10621:10624 Ionia.DataExp <> data ind
+binder 10613:10614 <> d1:101
+binder 10616:10617 <> d2:102
+R10638:10641 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10632:10634 Ionia.DataExp <> exp def
+R10636:10637 Ionia.CNN_CodeGen_Combinators <> d1:101 var
+R10648:10651 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10642:10644 Ionia.DataExp <> exp def
+R10646:10647 Ionia.CNN_CodeGen_Combinators <> d2:102 var
+R10652:10654 Ionia.DataExp <> exp def
+R10656:10657 Ionia.CNN_CodeGen_Combinators <> d2:102 var
+binder 10628:10628 <> f:103
+R10674:10676 Ionia.DataExp <> exp def
+R10678:10679 Ionia.CNN_CodeGen_Combinators <> d2:102 var
+binder 10670:10670 <> i:104
+R10687:10689 Ionia.DataExp <> exp def
+R10692:10694 Ionia.DataExp <> ary constr
+R10701:10702 Ionia.CNN_CodeGen_Combinators <> d1:101 var
+R10696:10697 Ionia.DataExp <> :::'''{'_x_'}' not
+R10699:10699 Ionia.DataExp <> :::'''{'_x_'}' not
+R10698:10698 Ionia.CNN_CodeGen_Combinators <> n:100 var
+binder 10683:10683 <> e:105
+R10717:10720 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10711:10713 Ionia.DataExp <> exp def
+R10715:10716 Ionia.CNN_CodeGen_Combinators <> d2:102 var
+R10721:10724 Ionia.CNN_CodeGen_Core <> comm ind
+binder 10707:10707 <> c:106
+R10734:10740 Ionia.CNN_CodeGen_Combinators <> env def
+binder 10728:10730 <> rho:107
+R10762:10767 Ionia.CNN_CodeGen_Combinators <> vwt def
+R10769:10770 Ionia.CNN_CodeGen_Combinators <> d2:102 var
+binder 10752:10755 <> wtmp:108
+R10806:10813 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10788:10803 Ionia.CNN_CodeGen_Semantics <> reduce_op_proper def
+R10805:10805 Ionia.CNN_CodeGen_Combinators <> f:103 var
+R10846:10853 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10815:10833 Ionia.CNN_CodeGen_Combinators <> StructUndefined def
+R10835:10836 Ionia.CNN_CodeGen_Combinators <> d2:102 var
+R10838:10841 Ionia.CNN_CodeGen_Combinators <> wtmp:108 var
+R10843:10845 Ionia.CNN_CodeGen_Combinators <> rho:107 var
+R10901:10908 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10855:10876 Ionia.CNN_CodeGen_Semantics <> exp_independent_of_acc def
+R10879:10881 Ionia.DataExp <> ary constr
+R10888:10889 Ionia.CNN_CodeGen_Combinators <> d1:101 var
+R10883:10884 Ionia.DataExp <> :::'''{'_x_'}' not
+R10886:10886 Ionia.DataExp <> :::'''{'_x_'}' not
+R10885:10885 Ionia.CNN_CodeGen_Combinators <> n:100 var
+R10892:10893 Ionia.CNN_CodeGen_Combinators <> d2:102 var
+R10895:10895 Ionia.CNN_CodeGen_Combinators <> e:105 var
+R10897:10900 Ionia.CNN_CodeGen_Combinators <> wtmp:108 var
+R10952:10959 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10909:10931 Ionia.CNN_CodeGen_Semantics <> loopacc_continuation_ok def
+R10936:10944 Ionia.CNN_CodeGen_Combinators <> reduce def
+R10950:10950 Ionia.CNN_CodeGen_Combinators <> e:105 var
+R10948:10948 Ionia.CNN_CodeGen_Combinators <> i:104 var
+R10946:10946 Ionia.CNN_CodeGen_Combinators <> f:103 var
+R10933:10933 Ionia.CNN_CodeGen_Combinators <> c:106 var
+R10996:11002 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10960:10967 Ionia.CNN_CodeGen_Semantics <> eval_aux def
+R10993:10995 Ionia.CNN_CodeGen_Combinators <> rho:107 var
+R10970:10970 Ionia.CNN_CodeGen_Combinators <> c:106 var
+R10973:10981 Ionia.CNN_CodeGen_Combinators <> reduce def
+R10987:10987 Ionia.CNN_CodeGen_Combinators <> e:105 var
+R10985:10985 Ionia.CNN_CodeGen_Combinators <> i:104 var
+R10983:10983 Ionia.CNN_CodeGen_Combinators <> f:103 var
+R11003:11006 Ionia.CNN_CodeGen_Semantics <> eval def
+R11166:11168 Ionia.CNN_CodeGen_Combinators <> rho:107 var
+R11010:11019 Ionia.CNN_CodeGen_Combinators <> loopacc constr
+R11021:11022 Ionia.CNN_CodeGen_Combinators <> d2:102 var
+binder 11029:11031 <> tmp:109
+R11051:11056 Ionia.CNN_CodeGen_Combinators <> vwt def
+R11058:11060 Ionia.CNN_CodeGen_Combinators <> tmp:109 var
+binder 11046:11046 <> w:110
+R11080:11085 Ionia.CNN_CodeGen_Combinators <> vrd def
+R11087:11089 Ionia.CNN_CodeGen_Combinators <> tmp:109 var
+binder 11075:11075 <> v:111
+R11107:11110 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R11101:11105 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R11100:11100 Ionia.CNN_CodeGen_Combinators <> w:110 var
+R11106:11106 Ionia.CNN_CodeGen_Combinators <> i:104 var
+R11156:11159 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R11111:11116 Ionia.CNN_CodeGen_Core <> seqfor constr
+R11128:11130 Ionia.finType <> fin def
+R11132:11132 Ionia.CNN_CodeGen_Combinators <> n:100 var
+binder 11123:11124 <> i0:112
+R11138:11142 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R11137:11137 Ionia.CNN_CodeGen_Combinators <> w:110 var
+R11143:11143 Ionia.CNN_CodeGen_Combinators <> f:103 var
+R11154:11154 Ionia.CNN_CodeGen_Combinators <> v:111 var
+R11146:11149 Ionia.DataExp <> :::x_'|['_x_']' not
+R11152:11152 Ionia.DataExp <> :::x_'|['_x_']' not
+R11145:11145 Ionia.CNN_CodeGen_Combinators <> e:105 var
+R11150:11151 Ionia.CNN_CodeGen_Combinators <> i0:112 var
+R11160:11160 Ionia.CNN_CodeGen_Combinators <> c:106 var
+R11162:11162 Ionia.CNN_CodeGen_Combinators <> v:111 var
+R11254:11275 Ionia.CNN_CodeGen_Semantics <> eval_creduce_equiv_gen thm
+prf 11304:11317 <> cmax_equiv_sem
+R11335:11337 Corelib.Init.Datatypes <> nat ind
+binder 11331:11331 <> n:113
+R11345:11347 Ionia.DataExp <> exp def
+R11350:11352 Ionia.DataExp <> ary constr
+R11359:11361 Ionia.DataExp <> num constr
+R11354:11355 Ionia.DataExp <> :::'''{'_x_'}' not
+R11357:11357 Ionia.DataExp <> :::'''{'_x_'}' not
+R11356:11356 Ionia.CNN_CodeGen_Combinators <> n:113 var
+binder 11341:11341 <> e:114
+R11377:11380 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11370:11372 Ionia.DataExp <> exp def
+R11374:11376 Ionia.DataExp <> num constr
+R11381:11384 Ionia.CNN_CodeGen_Core <> comm ind
+binder 11366:11366 <> c:115
+R11394:11400 Ionia.CNN_CodeGen_Combinators <> env def
+binder 11388:11390 <> rho:116
+R11422:11429 Ionia.CNN_CodeGen_Combinators <> acc' def
+R11431:11433 Ionia.DataExp <> num constr
+R11436:11441 Ionia.CNN_CodeGen_Combinators <> Var constr
+R11454:11456 Ionia.DataExp <> acc def
+R11458:11460 Ionia.DataExp <> num constr
+binder 11412:11415 <> wtmp:117
+R11503:11510 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11471:11489 Ionia.CNN_CodeGen_Combinators <> StructUndefined def
+R11491:11493 Ionia.DataExp <> num constr
+R11495:11498 Ionia.CNN_CodeGen_Combinators <> wtmp:117 var
+R11500:11502 Ionia.CNN_CodeGen_Combinators <> rho:116 var
+R11560:11567 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11512:11533 Ionia.CNN_CodeGen_Semantics <> exp_independent_of_acc def
+R11536:11538 Ionia.DataExp <> ary constr
+R11545:11547 Ionia.DataExp <> num constr
+R11540:11541 Ionia.DataExp <> :::'''{'_x_'}' not
+R11543:11543 Ionia.DataExp <> :::'''{'_x_'}' not
+R11542:11542 Ionia.CNN_CodeGen_Combinators <> n:113 var
+R11550:11552 Ionia.DataExp <> num constr
+R11554:11554 Ionia.CNN_CodeGen_Combinators <> e:114 var
+R11556:11559 Ionia.CNN_CodeGen_Combinators <> wtmp:117 var
+R11604:11611 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11568:11590 Ionia.CNN_CodeGen_Semantics <> loopacc_continuation_ok def
+R11595:11600 Ionia.CNN_CodeGen_Combinators <> max def
+R11602:11602 Ionia.CNN_CodeGen_Combinators <> e:114 var
+R11592:11592 Ionia.CNN_CodeGen_Combinators <> c:115 var
+R11641:11647 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11612:11619 Ionia.CNN_CodeGen_Semantics <> eval_aux def
+R11638:11640 Ionia.CNN_CodeGen_Combinators <> rho:116 var
+R11622:11622 Ionia.CNN_CodeGen_Combinators <> c:115 var
+R11625:11630 Ionia.CNN_CodeGen_Combinators <> max def
+R11632:11632 Ionia.CNN_CodeGen_Combinators <> e:114 var
+R11648:11651 Ionia.CNN_CodeGen_Semantics <> eval def
+R11865:11867 Ionia.CNN_CodeGen_Combinators <> rho:116 var
+R11655:11664 Ionia.CNN_CodeGen_Combinators <> loopacc constr
+R11666:11668 Ionia.DataExp <> num constr
+binder 11675:11677 <> tmp:118
+R11697:11702 Ionia.CNN_CodeGen_Combinators <> vwt def
+R11704:11706 Ionia.CNN_CodeGen_Combinators <> tmp:118 var
+binder 11692:11692 <> w:119
+R11726:11731 Ionia.CNN_CodeGen_Combinators <> vrd def
+R11733:11735 Ionia.CNN_CodeGen_Combinators <> tmp:118 var
+binder 11721:11721 <> v:120
+R11759:11769 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R11747:11751 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R11746:11746 Ionia.CNN_CodeGen_Combinators <> w:119 var
+R11752:11758 Ionia.CNN_CodeGen_Combinators <> zero def
+R11855:11858 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R11770:11775 Ionia.CNN_CodeGen_Core <> seqfor constr
+R11787:11789 Ionia.finType <> fin def
+R11791:11791 Ionia.CNN_CodeGen_Combinators <> n:113 var
+binder 11782:11783 <> i0:121
+R11804:11805 Ionia.CNN_CodeGen_Core <> If constr
+R11829:11829 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11844:11845 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11853:11853 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11831:11835 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R11830:11830 Ionia.CNN_CodeGen_Combinators <> w:119 var
+R11837:11840 Ionia.DataExp <> :::x_'|['_x_']' not
+R11843:11843 Ionia.DataExp <> :::x_'|['_x_']' not
+R11836:11836 Ionia.CNN_CodeGen_Combinators <> e:114 var
+R11841:11842 Ionia.CNN_CodeGen_Combinators <> i0:121 var
+R11847:11851 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R11846:11846 Ionia.CNN_CodeGen_Combinators <> w:119 var
+R11852:11852 Ionia.CNN_CodeGen_Combinators <> v:120 var
+R11808:11815 Ionia.CNN_CodeGen_Combinators <> gtExp def
+R11826:11826 Ionia.CNN_CodeGen_Combinators <> v:120 var
+R11818:11821 Ionia.DataExp <> :::x_'|['_x_']' not
+R11824:11824 Ionia.DataExp <> :::x_'|['_x_']' not
+R11817:11817 Ionia.CNN_CodeGen_Combinators <> e:114 var
+R11822:11823 Ionia.CNN_CodeGen_Combinators <> i0:121 var
+R11859:11859 Ionia.CNN_CodeGen_Combinators <> c:115 var
+R11861:11861 Ionia.CNN_CodeGen_Combinators <> v:120 var
+R11940:11954 Ionia.CNN_CodeGen_Semantics <> eval_cmax_equiv thm
+prf 11983:11996 <> csum_equiv_sem
+R12014:12016 Corelib.Init.Datatypes <> nat ind
+binder 12010:12010 <> n:122
+R12024:12026 Ionia.DataExp <> exp def
+R12029:12031 Ionia.DataExp <> ary constr
+R12038:12040 Ionia.DataExp <> num constr
+R12033:12034 Ionia.DataExp <> :::'''{'_x_'}' not
+R12036:12036 Ionia.DataExp <> :::'''{'_x_'}' not
+R12035:12035 Ionia.CNN_CodeGen_Combinators <> n:122 var
+binder 12020:12020 <> e:123
+R12056:12059 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12049:12051 Ionia.DataExp <> exp def
+R12053:12055 Ionia.DataExp <> num constr
+R12060:12063 Ionia.CNN_CodeGen_Core <> comm ind
+binder 12045:12045 <> c:124
+R12073:12079 Ionia.CNN_CodeGen_Combinators <> env def
+binder 12067:12069 <> rho:125
+R12101:12108 Ionia.CNN_CodeGen_Combinators <> acc' def
+R12110:12112 Ionia.DataExp <> num constr
+R12115:12120 Ionia.CNN_CodeGen_Combinators <> Var constr
+R12133:12135 Ionia.DataExp <> acc def
+R12137:12139 Ionia.DataExp <> num constr
+binder 12091:12094 <> wtmp:126
+R12182:12189 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12150:12168 Ionia.CNN_CodeGen_Combinators <> StructUndefined def
+R12170:12172 Ionia.DataExp <> num constr
+R12174:12177 Ionia.CNN_CodeGen_Combinators <> wtmp:126 var
+R12179:12181 Ionia.CNN_CodeGen_Combinators <> rho:125 var
+R12239:12246 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12191:12212 Ionia.CNN_CodeGen_Semantics <> exp_independent_of_acc def
+R12215:12217 Ionia.DataExp <> ary constr
+R12224:12226 Ionia.DataExp <> num constr
+R12219:12220 Ionia.DataExp <> :::'''{'_x_'}' not
+R12222:12222 Ionia.DataExp <> :::'''{'_x_'}' not
+R12221:12221 Ionia.CNN_CodeGen_Combinators <> n:122 var
+R12229:12231 Ionia.DataExp <> num constr
+R12233:12233 Ionia.CNN_CodeGen_Combinators <> e:123 var
+R12235:12238 Ionia.CNN_CodeGen_Combinators <> wtmp:126 var
+R12283:12290 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12247:12269 Ionia.CNN_CodeGen_Semantics <> loopacc_continuation_ok def
+R12274:12279 Ionia.CNN_CodeGen_Combinators <> sum def
+R12281:12281 Ionia.CNN_CodeGen_Combinators <> e:123 var
+R12271:12271 Ionia.CNN_CodeGen_Combinators <> c:124 var
+R12320:12326 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12291:12298 Ionia.CNN_CodeGen_Semantics <> eval_aux def
+R12317:12319 Ionia.CNN_CodeGen_Combinators <> rho:125 var
+R12301:12301 Ionia.CNN_CodeGen_Combinators <> c:124 var
+R12304:12309 Ionia.CNN_CodeGen_Combinators <> sum def
+R12311:12311 Ionia.CNN_CodeGen_Combinators <> e:123 var
+R12327:12330 Ionia.CNN_CodeGen_Semantics <> eval def
+R12502:12504 Ionia.CNN_CodeGen_Combinators <> rho:125 var
+R12334:12343 Ionia.CNN_CodeGen_Combinators <> loopacc constr
+R12345:12347 Ionia.DataExp <> num constr
+binder 12354:12356 <> tmp:127
+R12376:12381 Ionia.CNN_CodeGen_Combinators <> vwt def
+R12383:12385 Ionia.CNN_CodeGen_Combinators <> tmp:127 var
+binder 12371:12371 <> w:128
+R12405:12410 Ionia.CNN_CodeGen_Combinators <> vrd def
+R12412:12414 Ionia.CNN_CodeGen_Combinators <> tmp:127 var
+binder 12400:12400 <> v:129
+R12438:12441 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R12426:12430 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R12425:12425 Ionia.CNN_CodeGen_Combinators <> w:128 var
+R12431:12437 Ionia.CNN_CodeGen_Combinators <> zero def
+R12492:12495 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R12442:12447 Ionia.CNN_CodeGen_Core <> seqfor constr
+R12459:12461 Ionia.finType <> fin def
+R12463:12463 Ionia.CNN_CodeGen_Combinators <> n:122 var
+binder 12454:12455 <> i0:130
+R12469:12473 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R12468:12468 Ionia.CNN_CodeGen_Combinators <> w:128 var
+R12474:12479 Ionia.CNN_CodeGen_Combinators <> add def
+R12490:12490 Ionia.CNN_CodeGen_Combinators <> v:129 var
+R12482:12485 Ionia.DataExp <> :::x_'|['_x_']' not
+R12488:12488 Ionia.DataExp <> :::x_'|['_x_']' not
+R12481:12481 Ionia.CNN_CodeGen_Combinators <> e:123 var
+R12486:12487 Ionia.CNN_CodeGen_Combinators <> i0:130 var
+R12496:12496 Ionia.CNN_CodeGen_Combinators <> c:124 var
+R12498:12498 Ionia.CNN_CodeGen_Combinators <> v:129 var
+R12577:12591 Ionia.CNN_CodeGen_Semantics <> eval_csum_equiv thm

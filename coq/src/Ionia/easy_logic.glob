@@ -1,0 +1,357 @@
+DIGEST 33db291e4d2b8f58ac562be66734a107
+FIonia.easy_logic
+R15:38 Stdlib.Logic.Classical_Prop <> <> lib
+prf 80:89 <> match_some
+binder 93:93 <> A:1
+R114:119 Corelib.Init.Datatypes <> option ind
+R121:121 Ionia.easy_logic <> A:1 var
+binder 111:111 <> a:2
+R131:131 Ionia.easy_logic <> A:1 var
+binder 125:125 <> b:3
+binder 127:127 <> c:4
+R147:150 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R139:142 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R138:138 Ionia.easy_logic <> a:2 var
+R143:146 Corelib.Init.Datatypes <> None constr
+R191:193 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R157:157 Ionia.easy_logic <> a:2 var
+R164:167 Corelib.Init.Datatypes <> Some constr
+R174:174 Ionia.easy_logic <> b:3 var
+R178:181 Corelib.Init.Datatypes <> None constr
+R186:186 Ionia.easy_logic <> c:4 var
+R194:194 Ionia.easy_logic <> b:3 var
+prf 277:285 <> some_none
+binder 288:288 <> A:6
+R308:313 Corelib.Init.Datatypes <> option ind
+R315:315 Ionia.easy_logic <> A:6 var
+binder 305:305 <> a:7
+R330:333 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R322:325 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R321:321 Ionia.easy_logic <> a:7 var
+R326:329 Corelib.Init.Datatypes <> None constr
+R334:341 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R345:347 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R344:344 Ionia.easy_logic <> A:6 var
+binder 342:342 <> b:8
+R349:351 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R348:348 Ionia.easy_logic <> a:7 var
+R352:355 Corelib.Init.Datatypes <> Some constr
+R357:357 Ionia.easy_logic <> b:8 var
+prf 901:910 <> some_equal
+binder 913:913 <> A:9
+binder 915:915 <> B:10
+R937:937 Ionia.easy_logic <> A:9 var
+binder 932:932 <> a:11
+binder 934:934 <> c:12
+R945:945 Ionia.easy_logic <> B:10 var
+binder 941:941 <> b:13
+binder 943:943 <> d:14
+R971:975 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R961:961 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R952:955 Corelib.Init.Datatypes <> Some constr
+R956:956 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R958:958 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R960:960 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R957:957 Ionia.easy_logic <> a:11 var
+R959:959 Ionia.easy_logic <> b:13 var
+R962:965 Corelib.Init.Datatypes <> Some constr
+R966:966 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R968:968 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R970:970 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R967:967 Ionia.easy_logic <> c:12 var
+R969:969 Ionia.easy_logic <> d:14 var
+R979:982 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R977:977 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R976:976 Ionia.easy_logic <> a:11 var
+R978:978 Ionia.easy_logic <> c:12 var
+R984:984 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R983:983 Ionia.easy_logic <> b:13 var
+R985:985 Ionia.easy_logic <> d:14 var
+prf 1086:1098 <> some_neq_none
+binder 1101:1101 <> A:15
+R1120:1120 Ionia.easy_logic <> A:15 var
+binder 1118:1118 <> a:16
+R1130:1133 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R1124:1127 Corelib.Init.Datatypes <> Some constr
+R1129:1129 Ionia.easy_logic <> a:16 var
+R1134:1137 Corelib.Init.Datatypes <> None constr
+prf 1185:1200 <> some_is_not_none
+binder 1203:1203 <> A:17
+R1222:1222 Ionia.easy_logic <> A:17 var
+binder 1220:1220 <> a:18
+R1228:1233 Corelib.Init.Datatypes <> option ind
+R1235:1235 Ionia.easy_logic <> A:17 var
+binder 1226:1226 <> b:19
+R1252:1255 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1243:1245 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1242:1242 Ionia.easy_logic <> b:19 var
+R1246:1249 Corelib.Init.Datatypes <> Some constr
+R1251:1251 Ionia.easy_logic <> a:18 var
+R1257:1260 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R1256:1256 Ionia.easy_logic <> b:19 var
+R1261:1264 Corelib.Init.Datatypes <> None constr
+R1305:1317 Ionia.easy_logic <> some_neq_none thm
+prf 1334:1348 <> option_none_dec
+binder 1351:1351 <> A:20
+R1370:1375 Corelib.Init.Datatypes <> option ind
+R1377:1377 Ionia.easy_logic <> A:20 var
+binder 1368:1368 <> a:21
+R1383:1383 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1392:1394 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1404:1404 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1385:1387 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1384:1384 Ionia.easy_logic <> a:21 var
+R1388:1391 Corelib.Init.Datatypes <> None constr
+R1396:1399 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R1395:1395 Ionia.easy_logic <> a:21 var
+R1400:1403 Corelib.Init.Datatypes <> None constr
+R1442:1454 Ionia.easy_logic <> some_neq_none thm
+def 1497:1508 <> opt_pair_inv
+binder 1511:1511 <> A:22
+binder 1513:1513 <> B:23
+R1524:1529 Corelib.Init.Datatypes <> option ind
+R1533:1533 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1532:1532 Ionia.easy_logic <> A:22 var
+R1534:1534 Ionia.easy_logic <> B:23 var
+binder 1521:1521 <> z:24
+R1541:1541 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1550:1552 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1561:1561 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1542:1547 Corelib.Init.Datatypes <> option ind
+R1549:1549 Ionia.easy_logic <> A:22 var
+R1553:1558 Corelib.Init.Datatypes <> option ind
+R1560:1560 Ionia.easy_logic <> B:23 var
+R1575:1575 Ionia.easy_logic <> z:24 var
+R1587:1590 Corelib.Init.Datatypes <> Some constr
+R1592:1592 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1594:1594 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1596:1596 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1601:1601 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1608:1609 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1616:1616 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1602:1605 Corelib.Init.Datatypes <> Some constr
+R1610:1613 Corelib.Init.Datatypes <> Some constr
+R1623:1626 Corelib.Init.Datatypes <> None constr
+R1637:1637 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1642:1643 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1648:1648 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1638:1641 Corelib.Init.Datatypes <> None constr
+R1644:1647 Corelib.Init.Datatypes <> None constr
+def 1669:1676 <> opt_pair
+binder 1679:1679 <> A:26
+binder 1681:1681 <> B:27
+R1692:1692 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1701:1703 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1712:1712 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1693:1698 Corelib.Init.Datatypes <> option ind
+R1700:1700 Ionia.easy_logic <> A:26 var
+R1704:1709 Corelib.Init.Datatypes <> option ind
+R1711:1711 Ionia.easy_logic <> B:27 var
+binder 1689:1689 <> z:28
+R1717:1722 Corelib.Init.Datatypes <> option ind
+R1726:1726 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1725:1725 Ionia.easy_logic <> A:26 var
+R1727:1727 Ionia.easy_logic <> B:27 var
+R1741:1741 Ionia.easy_logic <> z:28 var
+R1753:1753 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1760:1761 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1768:1768 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1754:1757 Corelib.Init.Datatypes <> Some constr
+R1762:1765 Corelib.Init.Datatypes <> Some constr
+R1773:1776 Corelib.Init.Datatypes <> Some constr
+R1778:1778 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1780:1781 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1783:1783 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1790:1790 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1792:1792 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1794:1794 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1810:1813 Corelib.Init.Datatypes <> None constr
+prf 1829:1846 <> opt_pair_left_none
+binder 1849:1849 <> A:30
+binder 1851:1851 <> B:31
+R1871:1876 Corelib.Init.Datatypes <> option ind
+R1878:1878 Ionia.easy_logic <> B:31 var
+binder 1868:1868 <> b:32
+R1907:1909 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1885:1892 Ionia.easy_logic <> opt_pair def
+R1894:1894 Ionia.easy_logic <> A:30 var
+R1896:1896 Ionia.easy_logic <> B:31 var
+R1898:1898 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1903:1904 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1906:1906 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1899:1902 Corelib.Init.Datatypes <> None constr
+R1905:1905 Ionia.easy_logic <> b:32 var
+R1910:1913 Corelib.Init.Datatypes <> None constr
+prf 1970:1988 <> opt_pair_right_none
+binder 1991:1991 <> A:33
+binder 1993:1993 <> B:34
+R2013:2018 Corelib.Init.Datatypes <> option ind
+R2020:2020 Ionia.easy_logic <> A:33 var
+binder 2010:2010 <> a:35
+R2049:2051 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2027:2034 Ionia.easy_logic <> opt_pair def
+R2036:2036 Ionia.easy_logic <> A:33 var
+R2038:2038 Ionia.easy_logic <> B:34 var
+R2040:2040 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2042:2043 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2048:2048 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2041:2041 Ionia.easy_logic <> a:35 var
+R2044:2047 Corelib.Init.Datatypes <> None constr
+R2052:2055 Corelib.Init.Datatypes <> None constr
+prf 2112:2128 <> opt_pair_not_none
+binder 2132:2132 <> A:36
+binder 2134:2134 <> B:37
+R2154:2159 Corelib.Init.Datatypes <> option ind
+R2161:2161 Ionia.easy_logic <> A:36 var
+binder 2151:2151 <> a:38
+R2167:2172 Corelib.Init.Datatypes <> option ind
+R2174:2174 Ionia.easy_logic <> B:37 var
+binder 2165:2165 <> b:39
+R2207:2211 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2199:2202 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R2181:2188 Ionia.easy_logic <> opt_pair def
+R2190:2190 Ionia.easy_logic <> A:36 var
+R2192:2192 Ionia.easy_logic <> B:37 var
+R2194:2194 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2196:2196 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2198:2198 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2195:2195 Ionia.easy_logic <> a:38 var
+R2197:2197 Ionia.easy_logic <> b:39 var
+R2203:2206 Corelib.Init.Datatypes <> None constr
+R2219:2222 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2213:2214 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R2212:2212 Ionia.easy_logic <> a:38 var
+R2215:2218 Corelib.Init.Datatypes <> None constr
+R2224:2225 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R2223:2223 Ionia.easy_logic <> b:39 var
+R2226:2229 Corelib.Init.Datatypes <> None constr
+R2297:2309 Ionia.easy_logic <> some_neq_none thm
+R2324:2336 Ionia.easy_logic <> some_neq_none thm
+R2454:2466 Ionia.easy_logic <> some_neq_none thm
+R2523:2535 Ionia.easy_logic <> some_neq_none thm
+R2631:2643 Ionia.easy_logic <> some_neq_none thm
+prf 2766:2785 <> negation_equivalence
+binder 2796:2796 <> A:40
+binder 2798:2798 <> B:41
+R2808:2808 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2816:2822 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2832:2832 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2810:2814 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2809:2809 Ionia.easy_logic <> A:40 var
+R2815:2815 Ionia.easy_logic <> B:41 var
+R2825:2829 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R2823:2823 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2824:2824 Ionia.easy_logic <> B:41 var
+R2830:2830 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2831:2831 Ionia.easy_logic <> A:40 var
+prf 2900:2913 <> contrapositive
+binder 2924:2924 <> A:42
+binder 2926:2926 <> B:43
+R2936:2936 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2943:2948 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2957:2957 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2938:2941 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2937:2937 Ionia.easy_logic <> A:42 var
+R2942:2942 Ionia.easy_logic <> B:43 var
+R2951:2954 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2949:2949 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2950:2950 Ionia.easy_logic <> B:43 var
+R2955:2955 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2956:2956 Ionia.easy_logic <> A:42 var
+prf 2986:3007 <> inverse_contrapositive
+binder 3018:3018 <> A:44
+binder 3020:3020 <> B:45
+R3030:3030 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3039:3044 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3051:3051 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3033:3036 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3031:3031 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3032:3032 Ionia.easy_logic <> B:45 var
+R3037:3037 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3038:3038 Ionia.easy_logic <> A:44 var
+R3046:3049 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3045:3045 Ionia.easy_logic <> A:44 var
+R3050:3050 Ionia.easy_logic <> B:45 var
+R3092:3098 Stdlib.Logic.Classical_Prop <> classic prfax
+prf 3229:3242 <> not_all_ex_not
+binder 3254:3254 <> A:46
+R3270:3273 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3269:3269 Ionia.easy_logic <> A:46 var
+binder 3265:3265 <> P:47
+R3300:3304 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3283:3285 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3299:3299 Corelib.Init.Logic <> ::type_scope:'~'_x not
+binder 3293:3293 <> x:48
+R3296:3296 Ionia.easy_logic <> P:47 var
+R3298:3298 Ionia.easy_logic <> x:48 var
+R3305:3311 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3313:3314 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3312:3312 <> x:49
+R3315:3316 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3317:3317 Ionia.easy_logic <> P:47 var
+R3319:3319 Ionia.easy_logic <> x:49 var
+R3457:3460 Stdlib.Logic.Classical_Prop <> NNPP thm
+R3611:3617 Stdlib.Logic.Classical_Prop <> classic prfax
+prf 3911:3929 <> double_negation_iff
+binder 3940:3940 <> P:50
+R3955:3959 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3950:3951 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3952:3953 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3954:3954 Ionia.easy_logic <> P:50 var
+R3960:3960 Ionia.easy_logic <> P:50 var
+R4037:4040 Stdlib.Logic.Classical_Prop <> NNPP thm
+prf 4188:4199 <> negation_neq
+binder 4210:4211 <> e1:51
+binder 4213:4214 <> e2:52
+R4233:4237 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4223:4224 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R4227:4230 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R4225:4226 Ionia.easy_logic <> e1:51 var
+R4231:4232 Ionia.easy_logic <> e2:52 var
+R4240:4240 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4238:4239 Ionia.easy_logic <> e1:51 var
+R4241:4242 Ionia.easy_logic <> e2:52 var
+R4268:4286 Ionia.easy_logic <> double_negation_iff thm
+prf 4315:4324 <> all_ex_not
+binder 4336:4336 <> A:53
+R4352:4355 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4351:4351 Ionia.easy_logic <> A:53 var
+binder 4347:4347 <> P:54
+R4366:4366 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4380:4385 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+binder 4374:4374 <> x:55
+R4377:4377 Ionia.easy_logic <> P:54 var
+R4379:4379 Ionia.easy_logic <> x:55 var
+R4386:4388 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R4404:4404 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R4389:4395 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4397:4398 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 4396:4396 <> x:56
+R4399:4400 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R4401:4401 Ionia.easy_logic <> P:54 var
+R4403:4403 Ionia.easy_logic <> x:56 var
+R4430:4449 Ionia.easy_logic <> negation_equivalence thm
+R4461:4479 Ionia.easy_logic <> double_negation_iff thm
+R4490:4503 Ionia.easy_logic <> not_all_ex_not thm
+prf 4530:4549 <> a_false_iff_not_true
+R4563:4566 Corelib.Init.Datatypes <> bool ind
+binder 4561:4561 <> a:57
+R4581:4585 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4573:4575 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4572:4572 Ionia.easy_logic <> a:57 var
+R4576:4580 Corelib.Init.Datatypes <> false constr
+R4586:4588 Corelib.Init.Logic <> not def
+R4592:4594 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4591:4591 Ionia.easy_logic <> a:57 var
+R4595:4598 Corelib.Init.Datatypes <> true constr
+prf 4735:4752 <> true_iff_not_false
+R4766:4769 Corelib.Init.Datatypes <> bool ind
+binder 4764:4764 <> a:58
+R4783:4787 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4776:4778 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4775:4775 Ionia.easy_logic <> a:58 var
+R4779:4782 Corelib.Init.Datatypes <> true constr
+R4788:4790 Corelib.Init.Logic <> not def
+R4794:4796 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4793:4793 Ionia.easy_logic <> a:58 var
+R4797:4801 Corelib.Init.Datatypes <> false constr

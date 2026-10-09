@@ -1,0 +1,2200 @@
+DIGEST 119c7909d1c0e15d1bc177f6f00c7f0e
+FIonia.Opt_ApproxError
+R2816:2820 Stdlib.Reals.Reals <> <> lib
+R2822:2824 Stdlib.micromega.Lra <> <> lib
+R2826:2830 Stdlib.micromega.Psatz <> <> lib
+R2832:2836 Stdlib.Arith.Arith <> <> lib
+R2854:2872 Ionia.Proof_CodeGen <> <> lib
+def 3289:3292 <> rsum
+R3297:3299 Corelib.Init.Datatypes <> nat ind
+binder 3295:3295 <> n:1
+R3308:3313 Ionia.vector <> vector def
+R3317:3317 Ionia.Opt_ApproxError <> n:1 var
+R3315:3315 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3303:3304 <> xs:2
+R3322:3322 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R3327:3334 Ionia.vector <> v_reduce def
+R3344:3345 Ionia.Opt_ApproxError <> xs:2 var
+R3336:3340 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rplus defax
+def 3438:3443 <> v_map1
+R3451:3454 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3450:3450 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R3455:3455 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3446:3446 <> f:3
+R3461:3463 Corelib.Init.Datatypes <> nat ind
+binder 3459:3459 <> n:4
+R3478:3481 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3468:3473 Ionia.vector <> vector def
+R3477:3477 Ionia.Opt_ApproxError <> n:4 var
+R3475:3475 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R3482:3487 Ionia.vector <> vector def
+R3491:3491 Ionia.Opt_ApproxError <> n:4 var
+R3489:3489 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R3504:3504 Ionia.Opt_ApproxError <> n:4 var
+R3524:3527 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3514:3519 Ionia.vector <> vector def
+R3523:3523 Ionia.Opt_ApproxError <> n:6 var
+R3521:3521 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R3528:3533 Ionia.vector <> vector def
+R3537:3537 Ionia.Opt_ApproxError <> n:6 var
+R3535:3535 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R3563:3564 Corelib.Init.Datatypes <> tt constr
+R3570:3570 Corelib.Init.Datatypes <> S constr
+binder 3582:3582 <> a:7
+R3587:3587 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3607:3608 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3618:3618 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3588:3593 Ionia.Opt_ApproxError <> v_map1:5 def
+R3601:3603 Corelib.Init.Datatypes <> fst def
+R3605:3605 Ionia.Opt_ApproxError <> a:7 var
+R3595:3595 Ionia.Opt_ApproxError <> f:3 var
+R3609:3609 Ionia.Opt_ApproxError <> f:3 var
+R3612:3614 Corelib.Init.Datatypes <> snd def
+R3616:3616 Ionia.Opt_ApproxError <> a:7 var
+def 3695:3699 <> v_pw2
+binder 3702:3702 <> A:8
+binder 3704:3704 <> B:9
+binder 3706:3706 <> C:10
+R3721:3724 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3720:3720 Ionia.Opt_ApproxError <> A:8 var
+R3726:3729 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3725:3725 Ionia.Opt_ApproxError <> B:9 var
+R3730:3730 Ionia.Opt_ApproxError <> C:10 var
+binder 3716:3716 <> f:11
+R3736:3738 Corelib.Init.Datatypes <> nat ind
+binder 3734:3734 <> n:12
+R3755:3758 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3745:3750 Ionia.vector <> vector def
+R3754:3754 Ionia.Opt_ApproxError <> n:12 var
+R3752:3752 Ionia.Opt_ApproxError <> A:8 var
+R3769:3772 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3759:3764 Ionia.vector <> vector def
+R3768:3768 Ionia.Opt_ApproxError <> n:12 var
+R3766:3766 Ionia.Opt_ApproxError <> B:9 var
+R3773:3778 Ionia.vector <> vector def
+R3782:3782 Ionia.Opt_ApproxError <> n:12 var
+R3780:3780 Ionia.Opt_ApproxError <> C:10 var
+R3795:3795 Ionia.Opt_ApproxError <> n:12 var
+R3815:3818 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3805:3810 Ionia.vector <> vector def
+R3814:3814 Ionia.Opt_ApproxError <> n:14 var
+R3812:3812 Ionia.Opt_ApproxError <> A:8 var
+R3829:3832 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3819:3824 Ionia.vector <> vector def
+R3828:3828 Ionia.Opt_ApproxError <> n:14 var
+R3826:3826 Ionia.Opt_ApproxError <> B:9 var
+R3833:3838 Ionia.vector <> vector def
+R3842:3842 Ionia.Opt_ApproxError <> n:14 var
+R3840:3840 Ionia.Opt_ApproxError <> C:10 var
+R3870:3871 Corelib.Init.Datatypes <> tt constr
+R3877:3877 Corelib.Init.Datatypes <> S constr
+binder 3889:3889 <> a:15
+binder 3891:3891 <> b:16
+R3896:3896 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3923:3924 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3942:3942 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3897:3901 Ionia.Opt_ApproxError <> v_pw2:13 def
+R3917:3919 Corelib.Init.Datatypes <> fst def
+R3921:3921 Ionia.Opt_ApproxError <> b:16 var
+R3909:3911 Corelib.Init.Datatypes <> fst def
+R3913:3913 Ionia.Opt_ApproxError <> a:15 var
+R3903:3903 Ionia.Opt_ApproxError <> f:11 var
+R3925:3925 Ionia.Opt_ApproxError <> f:11 var
+R3936:3938 Corelib.Init.Datatypes <> snd def
+R3940:3940 Ionia.Opt_ApproxError <> b:16 var
+R3928:3930 Corelib.Init.Datatypes <> snd def
+R3932:3932 Ionia.Opt_ApproxError <> a:15 var
+def 4007:4014 <> v_pw_rel
+binder 4017:4017 <> A:17
+binder 4019:4019 <> B:18
+R4034:4037 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4033:4033 Ionia.Opt_ApproxError <> A:17 var
+R4039:4042 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4038:4038 Ionia.Opt_ApproxError <> B:18 var
+binder 4029:4029 <> P:19
+R4052:4054 Corelib.Init.Datatypes <> nat ind
+binder 4050:4050 <> n:20
+R4071:4074 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4061:4066 Ionia.vector <> vector def
+R4070:4070 Ionia.Opt_ApproxError <> n:20 var
+R4068:4068 Ionia.Opt_ApproxError <> A:17 var
+R4085:4088 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4075:4080 Ionia.vector <> vector def
+R4084:4084 Ionia.Opt_ApproxError <> n:20 var
+R4082:4082 Ionia.Opt_ApproxError <> B:18 var
+R4105:4105 Ionia.Opt_ApproxError <> n:20 var
+R4125:4128 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4115:4120 Ionia.vector <> vector def
+R4124:4124 Ionia.Opt_ApproxError <> n:22 var
+R4122:4122 Ionia.Opt_ApproxError <> A:17 var
+R4139:4142 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4129:4134 Ionia.vector <> vector def
+R4138:4138 Ionia.Opt_ApproxError <> n:22 var
+R4136:4136 Ionia.Opt_ApproxError <> B:18 var
+R4174:4177 Corelib.Init.Logic <> True ind
+R4183:4183 Corelib.Init.Datatypes <> S constr
+binder 4195:4195 <> a:23
+binder 4197:4197 <> b:24
+R4231:4234 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R4202:4209 Ionia.Opt_ApproxError <> v_pw_rel:21 def
+R4225:4227 Corelib.Init.Datatypes <> fst def
+R4229:4229 Ionia.Opt_ApproxError <> b:24 var
+R4217:4219 Corelib.Init.Datatypes <> fst def
+R4221:4221 Ionia.Opt_ApproxError <> a:23 var
+R4211:4211 Ionia.Opt_ApproxError <> P:19 var
+R4235:4235 Ionia.Opt_ApproxError <> P:19 var
+R4246:4248 Corelib.Init.Datatypes <> snd def
+R4250:4250 Ionia.Opt_ApproxError <> b:24 var
+R4238:4240 Corelib.Init.Datatypes <> snd def
+R4242:4242 Ionia.Opt_ApproxError <> a:23 var
+def 4305:4309 <> v_all
+R4317:4320 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4316:4316 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4312:4312 <> P:25
+R4330:4332 Corelib.Init.Datatypes <> nat ind
+binder 4328:4328 <> n:26
+R4347:4350 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4337:4342 Ionia.vector <> vector def
+R4346:4346 Ionia.Opt_ApproxError <> n:26 var
+R4344:4344 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R4367:4367 Ionia.Opt_ApproxError <> n:26 var
+R4387:4390 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4377:4382 Ionia.vector <> vector def
+R4386:4386 Ionia.Opt_ApproxError <> n:28 var
+R4384:4384 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R4420:4423 Corelib.Init.Logic <> True ind
+R4429:4429 Corelib.Init.Datatypes <> S constr
+binder 4441:4441 <> a:29
+R4464:4467 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R4446:4450 Ionia.Opt_ApproxError <> v_all:27 def
+R4458:4460 Corelib.Init.Datatypes <> fst def
+R4462:4462 Ionia.Opt_ApproxError <> a:29 var
+R4452:4452 Ionia.Opt_ApproxError <> P:25 var
+R4468:4468 Ionia.Opt_ApproxError <> P:25 var
+R4471:4473 Corelib.Init.Datatypes <> snd def
+R4475:4475 Ionia.Opt_ApproxError <> a:29 var
+def 4540:4548 <> v_abs_sum
+R4553:4555 Corelib.Init.Datatypes <> nat ind
+binder 4551:4551 <> n:30
+R4564:4569 Ionia.vector <> vector def
+R4573:4573 Ionia.Opt_ApproxError <> n:30 var
+R4571:4571 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4559:4560 <> xs:31
+R4578:4578 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R4583:4586 Ionia.Opt_ApproxError <> rsum def
+R4589:4594 Ionia.Opt_ApproxError <> v_map1 def
+R4596:4599 Stdlib.Reals.Rbasic_fun <> Rabs def
+R4601:4601 Ionia.Opt_ApproxError <> n:30 var
+R4603:4604 Ionia.Opt_ApproxError <> xs:31 var
+prf 4615:4621 <> rsum_Sn
+R4635:4637 Corelib.Init.Datatypes <> nat ind
+binder 4633:4633 <> n:32
+R4646:4651 Ionia.vector <> vector def
+R4655:4655 Ionia.Opt_ApproxError <> n:32 var
+R4653:4653 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4641:4642 <> xs:33
+R4661:4661 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4659:4659 <> x:34
+R4698:4700 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4667:4670 Ionia.Opt_ApproxError <> rsum def
+R4683:4688 Ionia.vector <> vector def
+R4693:4693 Corelib.Init.Datatypes <> S constr
+R4695:4695 Ionia.Opt_ApproxError <> n:32 var
+R4690:4690 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R4673:4673 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4676:4677 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4679:4679 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4674:4675 Ionia.Opt_ApproxError <> xs:33 var
+R4678:4678 Ionia.Opt_ApproxError <> x:34 var
+R4702:4704 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R4701:4701 Ionia.Opt_ApproxError <> x:34 var
+R4705:4708 Ionia.Opt_ApproxError <> rsum def
+R4710:4711 Ionia.Opt_ApproxError <> xs:33 var
+R4736:4739 Ionia.Opt_ApproxError <> rsum def
+R4750:4760 Ionia.vector <> v_reduce_Sn thm
+prf 4788:4796 <> v_map1_Sn
+R4813:4816 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4812:4812 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R4817:4817 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4808:4808 <> f:35
+R4823:4825 Corelib.Init.Datatypes <> nat ind
+binder 4821:4821 <> n:36
+R4834:4839 Ionia.vector <> vector def
+R4843:4843 Ionia.Opt_ApproxError <> n:36 var
+R4841:4841 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4829:4830 <> a1:37
+R4852:4852 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4847:4848 <> a2:38
+R4900:4903 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4942:4942 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4858:4863 Ionia.Opt_ApproxError <> v_map1 def
+R4865:4865 Ionia.Opt_ApproxError <> f:35 var
+R4868:4868 Corelib.Init.Datatypes <> S constr
+R4870:4870 Ionia.Opt_ApproxError <> n:36 var
+R4885:4890 Ionia.vector <> vector def
+R4895:4895 Corelib.Init.Datatypes <> S constr
+R4897:4897 Ionia.Opt_ApproxError <> n:36 var
+R4892:4892 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R4874:4874 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4877:4878 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4881:4881 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4875:4876 Ionia.Opt_ApproxError <> a1:37 var
+R4879:4880 Ionia.Opt_ApproxError <> a2:38 var
+R4928:4933 Ionia.vector <> vector def
+R4938:4938 Corelib.Init.Datatypes <> S constr
+R4940:4940 Ionia.Opt_ApproxError <> n:36 var
+R4935:4935 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R4904:4904 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4918:4919 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4924:4924 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4905:4910 Ionia.Opt_ApproxError <> v_map1 def
+R4912:4912 Ionia.Opt_ApproxError <> f:35 var
+R4914:4914 Ionia.Opt_ApproxError <> n:36 var
+R4916:4917 Ionia.Opt_ApproxError <> a1:37 var
+R4920:4920 Ionia.Opt_ApproxError <> f:35 var
+R4922:4923 Ionia.Opt_ApproxError <> a2:38 var
+prf 4977:4984 <> v_pw2_Sn
+binder 4996:4996 <> A:39
+binder 4998:4998 <> B:40
+binder 5000:5000 <> C:41
+R5015:5018 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5014:5014 Ionia.Opt_ApproxError <> A:39 var
+R5020:5023 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5019:5019 Ionia.Opt_ApproxError <> B:40 var
+R5024:5024 Ionia.Opt_ApproxError <> C:41 var
+binder 5010:5010 <> f:42
+R5030:5032 Corelib.Init.Datatypes <> nat ind
+binder 5028:5028 <> n:43
+R5045:5050 Ionia.vector <> vector def
+R5054:5054 Ionia.Opt_ApproxError <> n:43 var
+R5052:5052 Ionia.Opt_ApproxError <> A:39 var
+binder 5040:5041 <> a1:44
+R5063:5068 Ionia.vector <> vector def
+R5072:5072 Ionia.Opt_ApproxError <> n:43 var
+R5070:5070 Ionia.Opt_ApproxError <> B:40 var
+binder 5058:5059 <> b1:45
+R5081:5081 Ionia.Opt_ApproxError <> A:39 var
+binder 5076:5077 <> a2:46
+R5090:5090 Ionia.Opt_ApproxError <> B:40 var
+binder 5085:5086 <> b2:47
+R5165:5170 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5214:5214 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5096:5100 Ionia.Opt_ApproxError <> v_pw2 def
+R5150:5155 Ionia.vector <> vector def
+R5160:5160 Corelib.Init.Datatypes <> S constr
+R5162:5162 Ionia.Opt_ApproxError <> n:43 var
+R5157:5157 Ionia.Opt_ApproxError <> B:40 var
+R5139:5139 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5142:5143 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5146:5146 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5140:5141 Ionia.Opt_ApproxError <> b1:45 var
+R5144:5145 Ionia.Opt_ApproxError <> b2:47 var
+R5122:5127 Ionia.vector <> vector def
+R5132:5132 Corelib.Init.Datatypes <> S constr
+R5134:5134 Ionia.Opt_ApproxError <> n:43 var
+R5129:5129 Ionia.Opt_ApproxError <> A:39 var
+R5111:5111 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5114:5115 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5118:5118 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5112:5113 Ionia.Opt_ApproxError <> a1:44 var
+R5116:5117 Ionia.Opt_ApproxError <> a2:46 var
+R5105:5105 Corelib.Init.Datatypes <> S constr
+R5107:5107 Ionia.Opt_ApproxError <> n:43 var
+R5102:5102 Ionia.Opt_ApproxError <> f:42 var
+R5200:5205 Ionia.vector <> vector def
+R5210:5210 Corelib.Init.Datatypes <> S constr
+R5212:5212 Ionia.Opt_ApproxError <> n:43 var
+R5207:5207 Ionia.Opt_ApproxError <> C:41 var
+R5171:5171 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5187:5188 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5196:5196 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5172:5176 Ionia.Opt_ApproxError <> v_pw2 def
+R5185:5186 Ionia.Opt_ApproxError <> b1:45 var
+R5182:5183 Ionia.Opt_ApproxError <> a1:44 var
+R5180:5180 Ionia.Opt_ApproxError <> n:43 var
+R5178:5178 Ionia.Opt_ApproxError <> f:42 var
+R5189:5189 Ionia.Opt_ApproxError <> f:42 var
+R5194:5195 Ionia.Opt_ApproxError <> b2:47 var
+R5191:5192 Ionia.Opt_ApproxError <> a2:46 var
+prf 5249:5260 <> v_abs_sum_Sn
+R5274:5276 Corelib.Init.Datatypes <> nat ind
+binder 5272:5272 <> n:48
+R5285:5290 Ionia.vector <> vector def
+R5294:5294 Ionia.Opt_ApproxError <> n:48 var
+R5292:5292 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 5280:5281 <> xs:49
+R5300:5300 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 5298:5298 <> x:50
+R5342:5344 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5306:5314 Ionia.Opt_ApproxError <> v_abs_sum def
+R5327:5332 Ionia.vector <> vector def
+R5337:5337 Corelib.Init.Datatypes <> S constr
+R5339:5339 Ionia.Opt_ApproxError <> n:48 var
+R5334:5334 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R5317:5317 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5320:5321 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5323:5323 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5318:5319 Ionia.Opt_ApproxError <> xs:49 var
+R5322:5322 Ionia.Opt_ApproxError <> x:50 var
+R5351:5353 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R5345:5348 Stdlib.Reals.Rbasic_fun <> Rabs def
+R5350:5350 Ionia.Opt_ApproxError <> x:50 var
+R5354:5362 Ionia.Opt_ApproxError <> v_abs_sum def
+R5364:5365 Ionia.Opt_ApproxError <> xs:49 var
+R5390:5398 Ionia.Opt_ApproxError <> v_abs_sum def
+R5409:5417 Ionia.Opt_ApproxError <> v_map1_Sn thm
+R5420:5426 Ionia.Opt_ApproxError <> rsum_Sn thm
+prf 5595:5605 <> rsum_eq_sum
+R5619:5621 Corelib.Init.Datatypes <> nat ind
+binder 5617:5617 <> n:51
+R5630:5635 Ionia.vector <> vector def
+R5639:5639 Ionia.Opt_ApproxError <> n:51 var
+R5637:5637 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 5625:5626 <> xs:52
+R5652:5654 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5645:5648 Ionia.Opt_ApproxError <> rsum def
+R5650:5651 Ionia.Opt_ApproxError <> xs:52 var
+R5655:5657 Ionia.Proof_CodeGen <> sum def
+R5659:5660 Ionia.Opt_ApproxError <> xs:52 var
+prf 5695:5707 <> rsum_triangle
+R5721:5723 Corelib.Init.Datatypes <> nat ind
+binder 5719:5719 <> n:53
+R5732:5737 Ionia.vector <> vector def
+R5741:5741 Ionia.Opt_ApproxError <> n:53 var
+R5739:5739 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 5727:5728 <> xs:54
+R5761:5764 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R5747:5750 Stdlib.Reals.Rbasic_fun <> Rabs def
+R5753:5756 Ionia.Opt_ApproxError <> rsum def
+R5758:5759 Ionia.Opt_ApproxError <> xs:54 var
+R5765:5773 Ionia.Opt_ApproxError <> v_abs_sum def
+R5775:5776 Ionia.Opt_ApproxError <> xs:54 var
+R5858:5866 Ionia.Opt_ApproxError <> v_abs_sum def
+R5869:5872 Ionia.Opt_ApproxError <> rsum def
+R5894:5900 Stdlib.Reals.Rbasic_fun <> Rabs_R0 thm
+R5948:5954 Ionia.Opt_ApproxError <> rsum_Sn thm
+R5957:5968 Ionia.Opt_ApproxError <> v_abs_sum_Sn thm
+R6019:6029 Stdlib.Reals.Rbasic_fun <> Rabs_triang thm
+R6034:6037 Ionia.Opt_ApproxError <> rsum def
+prf 6073:6088 <> v_abs_sum_nonneg
+R6102:6104 Corelib.Init.Datatypes <> nat ind
+binder 6100:6100 <> n:55
+R6113:6118 Ionia.vector <> vector def
+R6122:6122 Ionia.Opt_ApproxError <> n:55 var
+R6120:6120 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 6108:6109 <> xs:56
+R6129:6132 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R6133:6141 Ionia.Opt_ApproxError <> v_abs_sum def
+R6143:6144 Ionia.Opt_ApproxError <> xs:56 var
+R6226:6234 Ionia.Opt_ApproxError <> v_abs_sum def
+R6237:6240 Ionia.Opt_ApproxError <> rsum def
+R6291:6302 Ionia.Opt_ApproxError <> v_abs_sum_Sn thm
+R6343:6350 Stdlib.Reals.Rbasic_fun <> Rabs_pos thm
+prf 6373:6382 <> rsum_pw_le
+R6396:6398 Corelib.Init.Datatypes <> nat ind
+binder 6394:6394 <> n:57
+R6408:6413 Ionia.vector <> vector def
+R6417:6417 Ionia.Opt_ApproxError <> n:57 var
+R6415:6415 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 6402:6402 <> a:58
+binder 6404:6404 <> b:59
+R6441:6444 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6423:6430 Ionia.Opt_ApproxError <> v_pw_rel def
+R6440:6440 Ionia.Opt_ApproxError <> b:59 var
+R6438:6438 Ionia.Opt_ApproxError <> a:58 var
+R6436:6436 Ionia.Opt_ApproxError <> n:57 var
+R6432:6434 Stdlib.Reals.Rdefinitions <> Rle def
+R6451:6454 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R6445:6448 Ionia.Opt_ApproxError <> rsum def
+R6450:6450 Ionia.Opt_ApproxError <> a:58 var
+R6455:6458 Ionia.Opt_ApproxError <> rsum def
+R6460:6460 Ionia.Opt_ApproxError <> b:59 var
+R6547:6550 Ionia.Opt_ApproxError <> rsum def
+R6651:6657 Ionia.Opt_ApproxError <> rsum_Sn thm
+R6666:6680 Stdlib.Reals.RIneq <> Rplus_le_compat thm
+prf 6701:6716 <> rsum_pw2_sub_abs
+R6730:6732 Corelib.Init.Datatypes <> nat ind
+binder 6728:6728 <> n:60
+R6742:6747 Ionia.vector <> vector def
+R6751:6751 Ionia.Opt_ApproxError <> n:60 var
+R6749:6749 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 6736:6736 <> a:61
+binder 6738:6738 <> b:62
+R6779:6782 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R6757:6760 Stdlib.Reals.Rbasic_fun <> Rabs def
+R6769:6771 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R6763:6766 Ionia.Opt_ApproxError <> rsum def
+R6768:6768 Ionia.Opt_ApproxError <> a:61 var
+R6772:6775 Ionia.Opt_ApproxError <> rsum def
+R6777:6777 Ionia.Opt_ApproxError <> b:62 var
+R6783:6786 Ionia.Opt_ApproxError <> rsum def
+R6789:6793 Ionia.Opt_ApproxError <> v_pw2 def
+R6825:6825 Ionia.Opt_ApproxError <> b:62 var
+R6823:6823 Ionia.Opt_ApproxError <> a:61 var
+R6821:6821 Ionia.Opt_ApproxError <> n:60 var
+binder 6800:6800 <> x:63
+binder 6802:6802 <> y:64
+R6807:6810 Stdlib.Reals.Rbasic_fun <> Rabs def
+R6814:6816 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R6813:6813 Ionia.Opt_ApproxError <> x:63 var
+R6817:6817 Ionia.Opt_ApproxError <> y:64 var
+R6911:6914 Ionia.Opt_ApproxError <> rsum def
+R6938:6940 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R6968:6974 Stdlib.Reals.Rbasic_fun <> Rabs_R0 thm
+R7035:7042 Ionia.Opt_ApproxError <> v_pw2_Sn thm
+R7046:7052 Ionia.Opt_ApproxError <> rsum_Sn thm
+R7114:7117 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7130:7130 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7104:7106 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7107:7110 Ionia.Opt_ApproxError <> rsum def
+R7120:7122 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7123:7126 Ionia.Opt_ApproxError <> rsum def
+R7145:7145 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7153:7157 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7175:7175 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7148:7150 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7165:7167 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7158:7161 Ionia.Opt_ApproxError <> rsum def
+R7168:7171 Ionia.Opt_ApproxError <> rsum def
+R7203:7213 Stdlib.Reals.Rbasic_fun <> Rabs_triang thm
+R7218:7220 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7233:7235 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7226:7229 Ionia.Opt_ApproxError <> rsum def
+R7236:7239 Ionia.Opt_ApproxError <> rsum def
+sec 7520:7532 <> RoundingModel
+var 7545:7545 RoundingModel u
+R7549:7549 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+var 7563:7564 RoundingModel Hu
+R7569:7572 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R7573:7573 Ionia.Opt_ApproxError <> RoundingModel.u var
+var 7586:7588 RoundingModel rnd
+R7593:7596 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7592:7592 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R7597:7597 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+var 7611:7617 RoundingModel rnd_rel
+R7630:7630 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 7628:7628 <> x:71
+R7649:7652 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R7633:7636 Stdlib.Reals.Rbasic_fun <> Rabs def
+R7644:7646 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7639:7641 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R7643:7643 Ionia.Opt_ApproxError <> x:71 var
+R7647:7647 Ionia.Opt_ApproxError <> x:71 var
+R7654:7656 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R7653:7653 Ionia.Opt_ApproxError <> RoundingModel.u var
+R7657:7660 Stdlib.Reals.Rbasic_fun <> Rabs def
+R7662:7662 Ionia.Opt_ApproxError <> x:71 var
+prf 7750:7761 <> pow_1pu_ge_1
+R7774:7776 Corelib.Init.Datatypes <> nat ind
+binder 7772:7772 <> n:74
+R7780:7783 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R7784:7784 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R7790:7793 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R7786:7788 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7789:7789 Ionia.Opt_ApproxError <> RoundingModel.u var
+R7794:7794 Ionia.Opt_ApproxError <> n:74 var
+R7860:7860 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R7866:7869 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R7862:7864 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7865:7865 Ionia.Opt_ApproxError <> RoundingModel.u var
+R7870:7870 Corelib.Init.Datatypes <> S constr
+R7881:7881 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R7887:7890 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R7883:7885 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7886:7886 Ionia.Opt_ApproxError <> RoundingModel.u var
+R7891:7891 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R7897:7900 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R7893:7895 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R7896:7896 Ionia.Opt_ApproxError <> RoundingModel.u var
+R7941:7943 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R7971:7985 Stdlib.Reals.RIneq <> Rmult_le_compat thm
+prf 8005:8016 <> gamma_nonneg
+R8029:8031 Corelib.Init.Datatypes <> nat ind
+binder 8027:8027 <> n:75
+R8035:8038 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R8050:8052 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R8039:8039 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R8045:8048 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R8041:8043 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R8044:8044 Ionia.Opt_ApproxError <> RoundingModel.u var
+R8049:8049 Ionia.Opt_ApproxError <> n:75 var
+R8083:8094 Ionia.Opt_ApproxError <> pow_1pu_ge_1 thm
+prf 8164:8176 <> rnd_abs_bound
+R8189:8189 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 8187:8187 <> x:76
+R8204:8207 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R8192:8195 Stdlib.Reals.Rbasic_fun <> Rabs def
+R8198:8200 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R8202:8202 Ionia.Opt_ApproxError <> x:76 var
+R8208:8208 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R8214:8217 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R8210:8212 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R8213:8213 Ionia.Opt_ApproxError <> RoundingModel.u var
+R8218:8221 Stdlib.Reals.Rbasic_fun <> Rabs def
+R8223:8223 Ionia.Opt_ApproxError <> x:76 var
+R8256:8262 Ionia.Opt_ApproxError <> RoundingModel.rnd_rel var
+R8300:8303 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R8288:8291 Stdlib.Reals.Rbasic_fun <> Rabs def
+R8294:8296 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R8320:8322 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R8304:8307 Stdlib.Reals.Rbasic_fun <> Rabs def
+R8315:8317 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R8310:8312 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R8323:8326 Stdlib.Reals.Rbasic_fun <> Rabs def
+R8345:8347 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R8358:8358 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R8368:8371 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R8364:8366 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R8359:8361 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R8395:8405 Stdlib.Reals.Rbasic_fun <> Rabs_triang thm
+prf 8429:8439 <> rnd_add_err
+R8454:8454 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 8450:8450 <> x:77
+binder 8452:8452 <> y:78
+R8487:8490 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R8459:8462 Stdlib.Reals.Rbasic_fun <> Rabs def
+R8476:8479 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R8485:8485 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R8465:8467 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R8471:8473 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R8470:8470 Ionia.Opt_ApproxError <> x:77 var
+R8474:8474 Ionia.Opt_ApproxError <> y:78 var
+R8481:8483 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R8480:8480 Ionia.Opt_ApproxError <> x:77 var
+R8484:8484 Ionia.Opt_ApproxError <> y:78 var
+R8492:8494 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R8491:8491 Ionia.Opt_ApproxError <> RoundingModel.u var
+R8495:8498 Stdlib.Reals.Rbasic_fun <> Rabs def
+R8502:8504 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R8501:8501 Ionia.Opt_ApproxError <> x:77 var
+R8505:8505 Ionia.Opt_ApproxError <> y:78 var
+R8530:8536 Ionia.Opt_ApproxError <> RoundingModel.rnd_rel var
+prf 8551:8561 <> rnd_sub_err
+R8576:8576 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 8572:8572 <> x:79
+binder 8574:8574 <> y:80
+R8609:8612 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R8581:8584 Stdlib.Reals.Rbasic_fun <> Rabs def
+R8598:8601 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R8607:8607 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R8587:8589 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R8593:8595 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R8592:8592 Ionia.Opt_ApproxError <> x:79 var
+R8596:8596 Ionia.Opt_ApproxError <> y:80 var
+R8603:8605 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R8602:8602 Ionia.Opt_ApproxError <> x:79 var
+R8606:8606 Ionia.Opt_ApproxError <> y:80 var
+R8614:8616 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R8613:8613 Ionia.Opt_ApproxError <> RoundingModel.u var
+R8617:8620 Stdlib.Reals.Rbasic_fun <> Rabs def
+R8624:8626 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R8623:8623 Ionia.Opt_ApproxError <> x:79 var
+R8627:8627 Ionia.Opt_ApproxError <> y:80 var
+R8652:8658 Ionia.Opt_ApproxError <> RoundingModel.rnd_rel var
+prf 8673:8683 <> rnd_mul_err
+R8698:8698 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 8694:8694 <> x:81
+binder 8696:8696 <> y:82
+R8729:8732 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R8703:8706 Stdlib.Reals.Rbasic_fun <> Rabs def
+R8720:8722 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R8709:8711 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R8715:8717 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R8714:8714 Ionia.Opt_ApproxError <> x:81 var
+R8718:8718 Ionia.Opt_ApproxError <> y:82 var
+R8724:8726 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R8723:8723 Ionia.Opt_ApproxError <> x:81 var
+R8727:8727 Ionia.Opt_ApproxError <> y:82 var
+R8734:8736 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R8733:8733 Ionia.Opt_ApproxError <> RoundingModel.u var
+R8737:8740 Stdlib.Reals.Rbasic_fun <> Rabs def
+R8744:8746 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R8743:8743 Ionia.Opt_ApproxError <> x:81 var
+R8747:8747 Ionia.Opt_ApproxError <> y:82 var
+R8772:8778 Ionia.Opt_ApproxError <> RoundingModel.rnd_rel var
+prf 8793:8803 <> rnd_div_err
+R8818:8818 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 8814:8814 <> x:83
+binder 8816:8816 <> y:84
+R8849:8852 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R8823:8826 Stdlib.Reals.Rbasic_fun <> Rabs def
+R8840:8842 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R8829:8831 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R8835:8837 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R8834:8834 Ionia.Opt_ApproxError <> x:83 var
+R8838:8838 Ionia.Opt_ApproxError <> y:84 var
+R8844:8846 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R8843:8843 Ionia.Opt_ApproxError <> x:83 var
+R8847:8847 Ionia.Opt_ApproxError <> y:84 var
+R8854:8856 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R8853:8853 Ionia.Opt_ApproxError <> RoundingModel.u var
+R8857:8860 Stdlib.Reals.Rbasic_fun <> Rabs def
+R8864:8866 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R8863:8863 Ionia.Opt_ApproxError <> x:83 var
+R8867:8867 Ionia.Opt_ApproxError <> y:84 var
+R8892:8898 Ionia.Opt_ApproxError <> RoundingModel.rnd_rel var
+prf 8980:9000 <> add_err_compositional
+R9019:9019 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 9011:9011 <> a:85
+binder 9013:9013 <> b:86
+binder 9015:9015 <> x:87
+binder 9017:9017 <> y:88
+R9052:9057 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R9024:9027 Stdlib.Reals.Rbasic_fun <> Rabs def
+R9041:9044 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R9050:9050 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R9030:9032 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R9036:9038 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R9035:9035 Ionia.Opt_ApproxError <> a:85 var
+R9039:9039 Ionia.Opt_ApproxError <> b:86 var
+R9046:9048 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R9045:9045 Ionia.Opt_ApproxError <> x:87 var
+R9049:9049 Ionia.Opt_ApproxError <> y:88 var
+R9089:9091 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R9074:9076 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R9059:9061 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R9058:9058 Ionia.Opt_ApproxError <> RoundingModel.u var
+R9062:9065 Stdlib.Reals.Rbasic_fun <> Rabs def
+R9069:9071 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R9068:9068 Ionia.Opt_ApproxError <> a:85 var
+R9072:9072 Ionia.Opt_ApproxError <> b:86 var
+R9077:9080 Stdlib.Reals.Rbasic_fun <> Rabs def
+R9084:9086 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R9083:9083 Ionia.Opt_ApproxError <> a:85 var
+R9087:9087 Ionia.Opt_ApproxError <> x:87 var
+R9092:9095 Stdlib.Reals.Rbasic_fun <> Rabs def
+R9099:9101 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R9098:9098 Ionia.Opt_ApproxError <> b:86 var
+R9102:9102 Ionia.Opt_ApproxError <> y:88 var
+R9135:9141 Ionia.Opt_ApproxError <> RoundingModel.rnd_rel var
+R9145:9147 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R9180:9183 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R9189:9189 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R9169:9171 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R9175:9177 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R9185:9187 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R9202:9202 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R9224:9228 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R9246:9246 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R9214:9217 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R9223:9223 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R9203:9205 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R9209:9211 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R9219:9221 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R9229:9229 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R9235:9239 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R9245:9245 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R9231:9233 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R9241:9243 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R9267:9275 Stdlib.Reals.RIneq <> Rle_trans thm
+R9284:9294 Stdlib.Reals.Rbasic_fun <> Rabs_triang thm
+R9311:9321 Stdlib.Reals.Rbasic_fun <> Rabs_triang thm
+R9325:9327 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R9333:9335 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+prf 9366:9386 <> mul_err_compositional
+R9405:9405 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 9397:9397 <> a:89
+binder 9399:9399 <> b:90
+binder 9401:9401 <> x:91
+binder 9403:9403 <> y:92
+R9436:9441 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R9410:9413 Stdlib.Reals.Rbasic_fun <> Rabs def
+R9427:9429 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R9416:9418 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R9422:9424 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R9421:9421 Ionia.Opt_ApproxError <> a:89 var
+R9425:9425 Ionia.Opt_ApproxError <> b:90 var
+R9431:9433 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R9430:9430 Ionia.Opt_ApproxError <> x:91 var
+R9434:9434 Ionia.Opt_ApproxError <> y:92 var
+R9482:9484 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R9458:9460 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R9443:9445 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R9442:9442 Ionia.Opt_ApproxError <> RoundingModel.u var
+R9446:9449 Stdlib.Reals.Rbasic_fun <> Rabs def
+R9453:9455 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R9452:9452 Ionia.Opt_ApproxError <> a:89 var
+R9456:9456 Ionia.Opt_ApproxError <> b:90 var
+R9467:9469 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R9461:9464 Stdlib.Reals.Rbasic_fun <> Rabs def
+R9466:9466 Ionia.Opt_ApproxError <> b:90 var
+R9470:9473 Stdlib.Reals.Rbasic_fun <> Rabs def
+R9477:9479 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R9476:9476 Ionia.Opt_ApproxError <> a:89 var
+R9480:9480 Ionia.Opt_ApproxError <> x:91 var
+R9491:9493 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R9485:9488 Stdlib.Reals.Rbasic_fun <> Rabs def
+R9490:9490 Ionia.Opt_ApproxError <> x:91 var
+R9494:9497 Stdlib.Reals.Rbasic_fun <> Rabs def
+R9501:9503 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R9500:9500 Ionia.Opt_ApproxError <> b:90 var
+R9504:9504 Ionia.Opt_ApproxError <> y:92 var
+R9537:9543 Ionia.Opt_ApproxError <> RoundingModel.rnd_rel var
+R9547:9549 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R9582:9584 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R9571:9573 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R9577:9579 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R9586:9588 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R9602:9602 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R9622:9626 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R9652:9652 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R9614:9616 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R9603:9605 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R9609:9611 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R9618:9620 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R9638:9640 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R9627:9627 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R9633:9636 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R9629:9631 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R9642:9645 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R9651:9651 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R9647:9649 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R9673:9681 Stdlib.Reals.RIneq <> Rle_trans thm
+R9690:9700 Stdlib.Reals.Rbasic_fun <> Rabs_triang thm
+R9717:9727 Stdlib.Reals.Rbasic_fun <> Rabs_triang thm
+R9730:9730 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R9736:9739 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R9732:9734 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R9745:9748 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R9754:9754 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R9750:9752 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R9776:9784 Stdlib.Reals.Rbasic_fun <> Rabs_mult thm
+def 10058:10065 <> rsum_rnd
+R10070:10072 Corelib.Init.Datatypes <> nat ind
+binder 10068:10068 <> n:93
+R10081:10086 Ionia.vector <> vector def
+R10090:10090 Ionia.Opt_ApproxError <> n:93 var
+R10088:10088 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 10076:10077 <> xs:94
+R10095:10095 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R10102:10109 Ionia.vector <> v_reduce def
+R10142:10143 Ionia.Opt_ApproxError <> xs:94 var
+binder 10116:10116 <> x:95
+binder 10118:10120 <> acc:96
+R10125:10127 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R10131:10133 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R10130:10130 Ionia.Opt_ApproxError <> x:95 var
+R10134:10136 Ionia.Opt_ApproxError <> acc:96 var
+prf 10153:10163 <> rsum_rnd_Sn
+R10177:10179 Corelib.Init.Datatypes <> nat ind
+binder 10175:10175 <> n:97
+R10188:10193 Ionia.vector <> vector def
+R10197:10197 Ionia.Opt_ApproxError <> n:97 var
+R10195:10195 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 10183:10184 <> xs:98
+R10203:10203 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 10201:10201 <> x:99
+R10244:10246 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10209:10216 Ionia.Opt_ApproxError <> rsum_rnd def
+R10229:10234 Ionia.vector <> vector def
+R10239:10239 Corelib.Init.Datatypes <> S constr
+R10241:10241 Ionia.Opt_ApproxError <> n:97 var
+R10236:10236 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R10219:10219 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10222:10223 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10225:10225 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10220:10221 Ionia.Opt_ApproxError <> xs:98 var
+R10224:10224 Ionia.Opt_ApproxError <> x:99 var
+R10247:10249 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R10253:10255 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R10252:10252 Ionia.Opt_ApproxError <> x:99 var
+R10256:10263 Ionia.Opt_ApproxError <> rsum_rnd def
+R10265:10266 Ionia.Opt_ApproxError <> xs:98 var
+R10292:10299 Ionia.Opt_ApproxError <> rsum_rnd def
+R10310:10320 Ionia.vector <> v_reduce_Sn thm
+prf 10453:10466 <> rsum_rnd_error
+R10480:10482 Corelib.Init.Datatypes <> nat ind
+binder 10478:10478 <> n:100
+R10491:10496 Ionia.vector <> vector def
+R10500:10500 Ionia.Opt_ApproxError <> n:100 var
+R10498:10498 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 10486:10487 <> xs:101
+R10534:10537 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R10506:10509 Stdlib.Reals.Rbasic_fun <> Rabs def
+R10523:10525 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R10512:10519 Ionia.Opt_ApproxError <> rsum_rnd def
+R10521:10522 Ionia.Opt_ApproxError <> xs:101 var
+R10526:10529 Ionia.Opt_ApproxError <> rsum def
+R10531:10532 Ionia.Opt_ApproxError <> xs:101 var
+R10538:10538 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R10554:10557 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R10550:10552 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R10539:10539 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R10545:10548 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R10541:10543 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R10544:10544 Ionia.Opt_ApproxError <> RoundingModel.u var
+R10549:10549 Ionia.Opt_ApproxError <> n:100 var
+R10558:10566 Ionia.Opt_ApproxError <> v_abs_sum def
+R10568:10569 Ionia.Opt_ApproxError <> xs:101 var
+R10651:10658 Ionia.Opt_ApproxError <> rsum_rnd def
+R10661:10664 Ionia.Opt_ApproxError <> rsum def
+R10667:10675 Ionia.Opt_ApproxError <> v_abs_sum def
+R10699:10701 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R10729:10735 Stdlib.Reals.Rbasic_fun <> Rabs_R0 thm
+R10783:10789 Ionia.Opt_ApproxError <> rsum_Sn thm
+R10792:10802 Ionia.Opt_ApproxError <> rsum_rnd_Sn thm
+R10805:10816 Ionia.Opt_ApproxError <> v_abs_sum_Sn thm
+R10867:10873 Ionia.Opt_ApproxError <> RoundingModel.rnd_rel var
+R10877:10879 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R10880:10887 Ionia.Opt_ApproxError <> rsum_rnd def
+R10918:10930 Ionia.Opt_ApproxError <> rsum_triangle thm
+R10964:10979 Ionia.Opt_ApproxError <> v_abs_sum_nonneg thm
+R11011:11022 Ionia.Opt_ApproxError <> pow_1pu_ge_1 thm
+R11051:11058 Stdlib.Reals.Rbasic_fun <> Rabs_pos thm
+R11137:11152 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R11091:11094 Stdlib.Reals.Rbasic_fun <> Rabs def
+R11119:11122 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R11135:11135 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R11097:11099 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R11103:11105 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11106:11113 Ionia.Opt_ApproxError <> rsum_rnd def
+R11124:11126 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11127:11130 Ionia.Opt_ApproxError <> rsum def
+R11203:11220 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11153:11156 Stdlib.Reals.Rbasic_fun <> Rabs def
+R11181:11184 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R11201:11201 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R11159:11161 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R11165:11167 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11168:11175 Ionia.Opt_ApproxError <> rsum_rnd def
+R11186:11188 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11189:11196 Ionia.Opt_ApproxError <> rsum_rnd def
+R11221:11224 Stdlib.Reals.Rbasic_fun <> Rabs def
+R11239:11241 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R11227:11234 Ionia.Opt_ApproxError <> rsum_rnd def
+R11242:11245 Ionia.Opt_ApproxError <> rsum def
+R11291:11294 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R11307:11307 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R11269:11271 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R11275:11277 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11278:11285 Ionia.Opt_ApproxError <> rsum_rnd def
+R11296:11298 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11299:11302 Ionia.Opt_ApproxError <> rsum def
+R11324:11324 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11368:11386 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11410:11410 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11347:11350 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R11367:11367 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R11325:11327 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R11331:11333 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11334:11341 Ionia.Opt_ApproxError <> rsum_rnd def
+R11352:11354 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11355:11362 Ionia.Opt_ApproxError <> rsum_rnd def
+R11399:11401 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R11387:11394 Ionia.Opt_ApproxError <> rsum_rnd def
+R11402:11405 Ionia.Opt_ApproxError <> rsum def
+R11434:11444 Stdlib.Reals.Rbasic_fun <> Rabs_triang thm
+R11491:11506 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R11468:11471 Stdlib.Reals.Rbasic_fun <> Rabs def
+R11475:11477 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11478:11485 Ionia.Opt_ApproxError <> rsum_rnd def
+R11529:11531 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11513:11515 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11507:11510 Stdlib.Reals.Rbasic_fun <> Rabs def
+R11516:11524 Ionia.Opt_ApproxError <> v_abs_sum def
+R11532:11532 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R11548:11551 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R11544:11546 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R11533:11533 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R11539:11542 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R11535:11537 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11538:11538 Ionia.Opt_ApproxError <> RoundingModel.u var
+R11552:11560 Ionia.Opt_ApproxError <> v_abs_sum def
+R11610:11627 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R11587:11590 Stdlib.Reals.Rbasic_fun <> Rabs def
+R11594:11596 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11597:11604 Ionia.Opt_ApproxError <> rsum_rnd def
+R11647:11649 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11628:11631 Stdlib.Reals.Rbasic_fun <> Rabs def
+R11635:11637 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11638:11641 Ionia.Opt_ApproxError <> rsum def
+R11650:11653 Stdlib.Reals.Rbasic_fun <> Rabs def
+R11668:11670 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R11656:11663 Ionia.Opt_ApproxError <> rsum_rnd def
+R11671:11674 Ionia.Opt_ApproxError <> rsum def
+R11701:11703 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11704:11711 Ionia.Opt_ApproxError <> rsum_rnd def
+R11734:11734 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11747:11751 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11775:11775 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11736:11738 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11739:11742 Ionia.Opt_ApproxError <> rsum def
+R11764:11766 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R11752:11759 Ionia.Opt_ApproxError <> rsum_rnd def
+R11767:11770 Ionia.Opt_ApproxError <> rsum def
+R11801:11811 Stdlib.Reals.Rbasic_fun <> Rabs_triang thm
+R11834:11844 Stdlib.Reals.Rbasic_fun <> Rabs_triang thm
+R11849:11852 Ionia.Opt_ApproxError <> rsum def
+R11946:11961 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R11900:11903 Stdlib.Reals.Rbasic_fun <> Rabs def
+R11928:11931 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R11944:11944 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R11906:11908 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R11912:11914 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11915:11922 Ionia.Opt_ApproxError <> rsum_rnd def
+R11933:11935 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11936:11939 Ionia.Opt_ApproxError <> rsum def
+R12026:12043 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11963:11966 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12025:12025 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R11962:11962 Ionia.Opt_ApproxError <> RoundingModel.u var
+R11989:11991 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11973:11975 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11967:11970 Stdlib.Reals.Rbasic_fun <> Rabs def
+R11976:11984 Ionia.Opt_ApproxError <> v_abs_sum def
+R11992:11992 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12008:12011 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12004:12006 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R11993:11993 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R11999:12002 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R11995:11997 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11998:11998 Ionia.Opt_ApproxError <> RoundingModel.u var
+R12012:12020 Ionia.Opt_ApproxError <> v_abs_sum def
+R12044:12044 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12060:12063 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12056:12058 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R12045:12045 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R12051:12054 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R12047:12049 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R12050:12050 Ionia.Opt_ApproxError <> RoundingModel.u var
+R12064:12072 Ionia.Opt_ApproxError <> v_abs_sum def
+R12127:12144 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R12101:12103 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12100:12100 Ionia.Opt_ApproxError <> RoundingModel.u var
+R12104:12107 Stdlib.Reals.Rbasic_fun <> Rabs def
+R12111:12113 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R12114:12121 Ionia.Opt_ApproxError <> rsum_rnd def
+R12146:12149 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12208:12208 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12145:12145 Ionia.Opt_ApproxError <> RoundingModel.u var
+R12172:12174 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R12156:12158 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R12150:12153 Stdlib.Reals.Rbasic_fun <> Rabs def
+R12159:12167 Ionia.Opt_ApproxError <> v_abs_sum def
+R12175:12175 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12191:12194 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12187:12189 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R12176:12176 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R12182:12185 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R12178:12180 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R12181:12181 Ionia.Opt_ApproxError <> RoundingModel.u var
+R12195:12203 Ionia.Opt_ApproxError <> v_abs_sum def
+R12226:12242 Stdlib.Reals.RIneq <> Rmult_le_compat_l thm
+R12278:12278 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R12284:12287 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R12280:12282 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R12283:12283 Ionia.Opt_ApproxError <> RoundingModel.u var
+R12288:12288 Corelib.Init.Datatypes <> S constr
+R12299:12299 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12305:12308 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12301:12303 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R12304:12304 Ionia.Opt_ApproxError <> RoundingModel.u var
+R12309:12309 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R12315:12318 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R12311:12313 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R12314:12314 Ionia.Opt_ApproxError <> RoundingModel.u var
+R12357:12360 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R12388:12390 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12361:12361 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12367:12371 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12387:12387 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12363:12365 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R12366:12366 Ionia.Opt_ApproxError <> RoundingModel.u var
+R12383:12385 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R12372:12372 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R12378:12381 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R12374:12376 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R12377:12377 Ionia.Opt_ApproxError <> RoundingModel.u var
+R12391:12394 Stdlib.Reals.Rbasic_fun <> Rabs def
+R12412:12423 Stdlib.Reals.RIneq <> Rmult_le_pos thm
+R12432:12443 Stdlib.Reals.RIneq <> Rmult_le_pos thm
+R12457:12464 Stdlib.Reals.Rbasic_fun <> Rabs_pos thm
+def 12565:12573 <> dot_exact
+R12578:12580 Corelib.Init.Datatypes <> nat ind
+binder 12576:12576 <> n:102
+R12590:12595 Ionia.vector <> vector def
+R12599:12599 Ionia.Opt_ApproxError <> n:102 var
+R12597:12597 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 12584:12584 <> w:103
+binder 12586:12586 <> x:104
+R12604:12604 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R12609:12612 Ionia.Opt_ApproxError <> rsum def
+R12615:12619 Ionia.Opt_ApproxError <> v_pw2 def
+R12631:12631 Ionia.Opt_ApproxError <> x:104 var
+R12629:12629 Ionia.Opt_ApproxError <> w:103 var
+R12627:12627 Ionia.Opt_ApproxError <> n:102 var
+R12621:12625 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+def 12724:12730 <> dot_rnd
+R12735:12737 Corelib.Init.Datatypes <> nat ind
+binder 12733:12733 <> n:105
+R12747:12752 Ionia.vector <> vector def
+R12756:12756 Ionia.Opt_ApproxError <> n:105 var
+R12754:12754 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 12741:12741 <> w:106
+binder 12743:12743 <> x:107
+R12761:12761 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R12768:12775 Ionia.Opt_ApproxError <> rsum_rnd def
+R12778:12782 Ionia.Opt_ApproxError <> v_pw2 def
+R12813:12813 Ionia.Opt_ApproxError <> x:107 var
+R12811:12811 Ionia.Opt_ApproxError <> w:106 var
+R12809:12809 Ionia.Opt_ApproxError <> n:105 var
+binder 12789:12789 <> a:108
+binder 12791:12791 <> b:109
+R12796:12798 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R12802:12804 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12801:12801 Ionia.Opt_ApproxError <> a:108 var
+R12805:12805 Ionia.Opt_ApproxError <> b:109 var
+prf 12824:12842 <> v_abs_sum_pwmul_rnd
+R12856:12858 Corelib.Init.Datatypes <> nat ind
+binder 12854:12854 <> n:110
+R12868:12873 Ionia.vector <> vector def
+R12877:12877 Ionia.Opt_ApproxError <> n:110 var
+R12875:12875 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 12862:12862 <> w:111
+binder 12864:12864 <> x:112
+R12931:12936 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R12883:12891 Ionia.Opt_ApproxError <> v_abs_sum def
+R12894:12898 Ionia.Opt_ApproxError <> v_pw2 def
+R12929:12929 Ionia.Opt_ApproxError <> x:112 var
+R12927:12927 Ionia.Opt_ApproxError <> w:111 var
+R12925:12925 Ionia.Opt_ApproxError <> n:110 var
+binder 12905:12905 <> a:113
+binder 12907:12907 <> b:114
+R12912:12914 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R12918:12920 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12917:12917 Ionia.Opt_ApproxError <> a:113 var
+R12921:12921 Ionia.Opt_ApproxError <> b:114 var
+R12937:12937 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12943:12946 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12939:12941 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R12942:12942 Ionia.Opt_ApproxError <> RoundingModel.u var
+R12947:12955 Ionia.Opt_ApproxError <> v_abs_sum def
+R12958:12962 Ionia.Opt_ApproxError <> v_pw2 def
+R12974:12974 Ionia.Opt_ApproxError <> x:112 var
+R12972:12972 Ionia.Opt_ApproxError <> w:111 var
+R12970:12970 Ionia.Opt_ApproxError <> n:110 var
+R12964:12968 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R13060:13068 Ionia.Opt_ApproxError <> v_abs_sum def
+R13071:13074 Ionia.Opt_ApproxError <> rsum def
+R13143:13150 Ionia.Opt_ApproxError <> v_pw2_Sn thm
+R13154:13165 Ionia.Opt_ApproxError <> v_abs_sum_Sn thm
+R13218:13230 Ionia.Opt_ApproxError <> rnd_abs_bound thm
+R13235:13237 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R13266:13281 Ionia.Opt_ApproxError <> v_abs_sum_nonneg thm
+R13286:13290 Ionia.Opt_ApproxError <> v_pw2 def
+R13292:13296 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R13331:13338 Stdlib.Reals.Rbasic_fun <> Rabs_pos thm
+R13343:13345 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+prf 13379:13396 <> rsum_pwmul_rnd_sub
+R13410:13412 Corelib.Init.Datatypes <> nat ind
+binder 13408:13408 <> n:115
+R13422:13427 Ionia.vector <> vector def
+R13431:13431 Ionia.Opt_ApproxError <> n:115 var
+R13429:13429 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 13416:13416 <> w:116
+binder 13418:13418 <> x:117
+R13556:13561 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R13437:13440 Ionia.Opt_ApproxError <> rsum def
+R13443:13447 Ionia.Opt_ApproxError <> v_pw2 def
+R13537:13541 Ionia.Opt_ApproxError <> v_pw2 def
+R13553:13553 Ionia.Opt_ApproxError <> x:117 var
+R13551:13551 Ionia.Opt_ApproxError <> w:116 var
+R13549:13549 Ionia.Opt_ApproxError <> n:115 var
+R13543:13547 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R13488:13492 Ionia.Opt_ApproxError <> v_pw2 def
+R13523:13523 Ionia.Opt_ApproxError <> x:117 var
+R13521:13521 Ionia.Opt_ApproxError <> w:116 var
+R13519:13519 Ionia.Opt_ApproxError <> n:115 var
+binder 13499:13499 <> a:118
+binder 13501:13501 <> b:119
+R13506:13508 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R13512:13514 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R13511:13511 Ionia.Opt_ApproxError <> a:118 var
+R13515:13515 Ionia.Opt_ApproxError <> b:119 var
+R13475:13475 Ionia.Opt_ApproxError <> n:115 var
+binder 13454:13454 <> p:120
+binder 13456:13456 <> q:121
+R13461:13464 Stdlib.Reals.Rbasic_fun <> Rabs def
+R13468:13470 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R13467:13467 Ionia.Opt_ApproxError <> p:120 var
+R13471:13471 Ionia.Opt_ApproxError <> q:121 var
+R13563:13565 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R13562:13562 Ionia.Opt_ApproxError <> RoundingModel.u var
+R13566:13574 Ionia.Opt_ApproxError <> v_abs_sum def
+R13577:13581 Ionia.Opt_ApproxError <> v_pw2 def
+R13593:13593 Ionia.Opt_ApproxError <> x:117 var
+R13591:13591 Ionia.Opt_ApproxError <> w:116 var
+R13589:13589 Ionia.Opt_ApproxError <> n:115 var
+R13583:13587 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R13679:13687 Ionia.Opt_ApproxError <> v_abs_sum def
+R13690:13693 Ionia.Opt_ApproxError <> rsum def
+R13762:13769 Ionia.Opt_ApproxError <> v_pw2_Sn thm
+R13772:13778 Ionia.Opt_ApproxError <> rsum_Sn thm
+R13781:13792 Ionia.Opt_ApproxError <> v_abs_sum_Sn thm
+R13845:13851 Ionia.Opt_ApproxError <> RoundingModel.rnd_rel var
+R13856:13858 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+prf 13961:13973 <> dot_rnd_error
+R13987:13989 Corelib.Init.Datatypes <> nat ind
+binder 13985:13985 <> n:122
+R13999:14004 Ionia.vector <> vector def
+R14008:14008 Ionia.Opt_ApproxError <> n:122 var
+R14006:14006 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 13993:13993 <> w:123
+binder 13995:13995 <> x:124
+R14048:14053 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R14014:14017 Stdlib.Reals.Rbasic_fun <> Rabs def
+R14031:14033 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14020:14026 Ionia.Opt_ApproxError <> dot_rnd def
+R14030:14030 Ionia.Opt_ApproxError <> x:124 var
+R14028:14028 Ionia.Opt_ApproxError <> w:123 var
+R14034:14042 Ionia.Opt_ApproxError <> dot_exact def
+R14046:14046 Ionia.Opt_ApproxError <> x:124 var
+R14044:14044 Ionia.Opt_ApproxError <> w:123 var
+R14054:14054 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R14074:14077 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R14070:14072 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14055:14055 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R14061:14065 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R14069:14069 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R14057:14059 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14060:14060 Ionia.Opt_ApproxError <> RoundingModel.u var
+R14066:14066 Corelib.Init.Datatypes <> S constr
+R14068:14068 Ionia.Opt_ApproxError <> n:122 var
+R14078:14086 Ionia.Opt_ApproxError <> v_abs_sum def
+R14089:14093 Ionia.Opt_ApproxError <> v_pw2 def
+R14105:14105 Ionia.Opt_ApproxError <> x:124 var
+R14103:14103 Ionia.Opt_ApproxError <> w:123 var
+R14101:14101 Ionia.Opt_ApproxError <> n:122 var
+R14095:14099 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R14139:14145 Ionia.Opt_ApproxError <> dot_rnd def
+R14148:14156 Ionia.Opt_ApproxError <> dot_exact def
+R14173:14186 Ionia.Opt_ApproxError <> rsum_rnd_error thm
+R14191:14195 Ionia.Opt_ApproxError <> v_pw2 def
+binder 14202:14202 <> a:125
+binder 14204:14204 <> b:126
+R14209:14211 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R14215:14217 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R14214:14214 Ionia.Opt_ApproxError <> a:125 var
+R14218:14218 Ionia.Opt_ApproxError <> b:126 var
+binder 14202:14202 <> a:127
+binder 14204:14204 <> b:128
+R14214:14214 Ionia.Opt_ApproxError <> a:127 var
+R14218:14218 Ionia.Opt_ApproxError <> b:128 var
+R14251:14266 Ionia.Opt_ApproxError <> rsum_pw2_sub_abs thm
+R14271:14275 Ionia.Opt_ApproxError <> v_pw2 def
+binder 14282:14282 <> a:129
+binder 14284:14284 <> b:130
+R14289:14291 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R14295:14297 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R14294:14294 Ionia.Opt_ApproxError <> a:129 var
+R14298:14298 Ionia.Opt_ApproxError <> b:130 var
+R14343:14347 Ionia.Opt_ApproxError <> v_pw2 def
+R14349:14353 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+binder 14282:14282 <> a:131
+binder 14284:14284 <> b:132
+R14294:14294 Ionia.Opt_ApproxError <> a:131 var
+R14298:14298 Ionia.Opt_ApproxError <> b:132 var
+R14384:14401 Ionia.Opt_ApproxError <> rsum_pwmul_rnd_sub thm
+R14431:14449 Ionia.Opt_ApproxError <> v_abs_sum_pwmul_rnd thm
+R14479:14490 Ionia.Opt_ApproxError <> pow_1pu_ge_1 thm
+R14628:14641 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R14522:14525 Stdlib.Reals.Rbasic_fun <> Rabs def
+R14575:14602 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14528:14535 Ionia.Opt_ApproxError <> rsum_rnd def
+R14538:14542 Ionia.Opt_ApproxError <> v_pw2 def
+binder 14549:14549 <> a:133
+binder 14551:14551 <> b:134
+R14556:14558 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R14562:14564 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R14561:14561 Ionia.Opt_ApproxError <> a:133 var
+R14565:14565 Ionia.Opt_ApproxError <> b:134 var
+R14603:14606 Ionia.Opt_ApproxError <> rsum def
+R14609:14613 Ionia.Opt_ApproxError <> v_pw2 def
+R14615:14619 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R14761:14776 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14642:14645 Stdlib.Reals.Rbasic_fun <> Rabs def
+R14695:14716 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14648:14655 Ionia.Opt_ApproxError <> rsum_rnd def
+R14658:14662 Ionia.Opt_ApproxError <> v_pw2 def
+binder 14669:14669 <> a:135
+binder 14671:14671 <> b:136
+R14676:14678 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R14682:14684 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R14681:14681 Ionia.Opt_ApproxError <> a:135 var
+R14685:14685 Ionia.Opt_ApproxError <> b:136 var
+R14717:14720 Ionia.Opt_ApproxError <> rsum def
+R14723:14727 Ionia.Opt_ApproxError <> v_pw2 def
+binder 14734:14734 <> a:137
+binder 14736:14736 <> b:138
+R14741:14743 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R14747:14749 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R14746:14746 Ionia.Opt_ApproxError <> a:137 var
+R14750:14750 Ionia.Opt_ApproxError <> b:138 var
+R14777:14780 Stdlib.Reals.Rbasic_fun <> Rabs def
+R14826:14849 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14783:14786 Ionia.Opt_ApproxError <> rsum def
+R14789:14793 Ionia.Opt_ApproxError <> v_pw2 def
+binder 14800:14800 <> a:139
+binder 14802:14802 <> b:140
+R14807:14809 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R14813:14815 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R14812:14812 Ionia.Opt_ApproxError <> a:139 var
+R14816:14816 Ionia.Opt_ApproxError <> b:140 var
+R14850:14853 Ionia.Opt_ApproxError <> rsum def
+R14856:14860 Ionia.Opt_ApproxError <> v_pw2 def
+R14862:14866 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+binder 14549:14549 <> a:141
+binder 14551:14551 <> b:142
+R14561:14561 Ionia.Opt_ApproxError <> a:141 var
+R14565:14565 Ionia.Opt_ApproxError <> b:142 var
+binder 14669:14669 <> a:143
+binder 14671:14671 <> b:144
+R14681:14681 Ionia.Opt_ApproxError <> a:143 var
+R14685:14685 Ionia.Opt_ApproxError <> b:144 var
+binder 14734:14734 <> a:145
+binder 14736:14736 <> b:146
+R14746:14746 Ionia.Opt_ApproxError <> a:145 var
+R14750:14750 Ionia.Opt_ApproxError <> b:146 var
+binder 14800:14800 <> a:147
+binder 14802:14802 <> b:148
+R14812:14812 Ionia.Opt_ApproxError <> a:147 var
+R14816:14816 Ionia.Opt_ApproxError <> b:148 var
+R14938:14953 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14891:14898 Ionia.Opt_ApproxError <> rsum_rnd def
+R14901:14905 Ionia.Opt_ApproxError <> v_pw2 def
+binder 14912:14912 <> a:149
+binder 14914:14914 <> b:150
+R14919:14921 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R14925:14927 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R14924:14924 Ionia.Opt_ApproxError <> a:149 var
+R14928:14928 Ionia.Opt_ApproxError <> b:150 var
+R14954:14957 Ionia.Opt_ApproxError <> rsum def
+R14960:14964 Ionia.Opt_ApproxError <> v_pw2 def
+R14966:14970 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R14992:14992 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R15099:15115 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R15201:15201 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R15040:15055 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14993:15000 Ionia.Opt_ApproxError <> rsum_rnd def
+R15003:15007 Ionia.Opt_ApproxError <> v_pw2 def
+binder 15014:15014 <> a:151
+binder 15016:15016 <> b:152
+R15021:15023 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R15027:15029 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R15026:15026 Ionia.Opt_ApproxError <> a:151 var
+R15030:15030 Ionia.Opt_ApproxError <> b:152 var
+R15056:15059 Ionia.Opt_ApproxError <> rsum def
+R15062:15066 Ionia.Opt_ApproxError <> v_pw2 def
+binder 15073:15073 <> a:153
+binder 15075:15075 <> b:154
+R15080:15082 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R15086:15088 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R15085:15085 Ionia.Opt_ApproxError <> a:153 var
+R15089:15089 Ionia.Opt_ApproxError <> b:154 var
+R15159:15176 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15116:15119 Ionia.Opt_ApproxError <> rsum def
+R15122:15126 Ionia.Opt_ApproxError <> v_pw2 def
+binder 15133:15133 <> a:155
+binder 15135:15135 <> b:156
+R15140:15142 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R15146:15148 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R15145:15145 Ionia.Opt_ApproxError <> a:155 var
+R15149:15149 Ionia.Opt_ApproxError <> b:156 var
+R15177:15180 Ionia.Opt_ApproxError <> rsum def
+R15183:15187 Ionia.Opt_ApproxError <> v_pw2 def
+R15189:15193 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+binder 14912:14912 <> a:157
+binder 14914:14914 <> b:158
+R14924:14924 Ionia.Opt_ApproxError <> a:157 var
+R14928:14928 Ionia.Opt_ApproxError <> b:158 var
+binder 15014:15014 <> a:159
+binder 15016:15016 <> b:160
+R15026:15026 Ionia.Opt_ApproxError <> a:159 var
+R15030:15030 Ionia.Opt_ApproxError <> b:160 var
+binder 15073:15073 <> a:161
+binder 15075:15075 <> b:162
+R15085:15085 Ionia.Opt_ApproxError <> a:161 var
+R15089:15089 Ionia.Opt_ApproxError <> b:162 var
+binder 15133:15133 <> a:163
+binder 15135:15135 <> b:164
+R15145:15145 Ionia.Opt_ApproxError <> a:163 var
+R15149:15149 Ionia.Opt_ApproxError <> b:164 var
+R15223:15233 Stdlib.Reals.Rbasic_fun <> Rabs_triang thm
+R15321:15332 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R15253:15253 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R15269:15272 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R15265:15267 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15254:15254 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R15260:15263 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R15256:15258 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R15259:15259 Ionia.Opt_ApproxError <> RoundingModel.u var
+R15273:15281 Ionia.Opt_ApproxError <> v_abs_sum def
+R15284:15288 Ionia.Opt_ApproxError <> v_pw2 def
+binder 15295:15295 <> a:165
+binder 15297:15297 <> b:166
+R15302:15304 Ionia.Opt_ApproxError <> RoundingModel.rnd var
+R15308:15310 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R15307:15307 Ionia.Opt_ApproxError <> a:165 var
+R15311:15311 Ionia.Opt_ApproxError <> b:166 var
+R15333:15333 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R15349:15353 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R15393:15393 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R15345:15347 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15334:15334 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R15340:15343 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R15336:15338 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R15339:15339 Ionia.Opt_ApproxError <> RoundingModel.u var
+R15354:15354 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R15360:15363 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R15356:15358 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R15359:15359 Ionia.Opt_ApproxError <> RoundingModel.u var
+R15364:15372 Ionia.Opt_ApproxError <> v_abs_sum def
+R15375:15379 Ionia.Opt_ApproxError <> v_pw2 def
+R15381:15385 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+binder 15295:15295 <> a:167
+binder 15297:15297 <> b:168
+R15307:15307 Ionia.Opt_ApproxError <> a:167 var
+R15311:15311 Ionia.Opt_ApproxError <> b:168 var
+R15407:15423 Stdlib.Reals.RIneq <> Rmult_le_compat_l thm
+R15444:15444 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R15450:15453 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R15446:15448 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R15449:15449 Ionia.Opt_ApproxError <> RoundingModel.u var
+R15454:15454 Corelib.Init.Datatypes <> S constr
+R15465:15465 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R15471:15474 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R15467:15469 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R15470:15470 Ionia.Opt_ApproxError <> RoundingModel.u var
+R15475:15475 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R15481:15484 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R15477:15479 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R15480:15480 Ionia.Opt_ApproxError <> RoundingModel.u var
+prf 15682:15695 <> conv_dot_error
+R15713:15715 Corelib.Init.Datatypes <> nat ind
+binder 15707:15707 <> k:169
+binder 15709:15709 <> c:170
+R15725:15730 Ionia.vector <> vector def
+R15736:15738 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R15735:15735 Ionia.Opt_ApproxError <> k:169 var
+R15739:15739 Ionia.Opt_ApproxError <> c:170 var
+R15732:15732 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 15719:15719 <> w:171
+binder 15721:15721 <> x:172
+R15784:15789 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R15750:15753 Stdlib.Reals.Rbasic_fun <> Rabs def
+R15767:15769 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15756:15762 Ionia.Opt_ApproxError <> dot_rnd def
+R15766:15766 Ionia.Opt_ApproxError <> x:172 var
+R15764:15764 Ionia.Opt_ApproxError <> w:171 var
+R15770:15778 Ionia.Opt_ApproxError <> dot_exact def
+R15782:15782 Ionia.Opt_ApproxError <> x:172 var
+R15780:15780 Ionia.Opt_ApproxError <> w:171 var
+R15790:15790 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R15816:15819 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R15812:15814 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15791:15791 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R15797:15801 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R15811:15811 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R15793:15795 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R15796:15796 Ionia.Opt_ApproxError <> RoundingModel.u var
+R15802:15802 Corelib.Init.Datatypes <> S constr
+R15806:15808 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R15805:15805 Ionia.Opt_ApproxError <> k:169 var
+R15809:15809 Ionia.Opt_ApproxError <> c:170 var
+R15820:15828 Ionia.Opt_ApproxError <> v_abs_sum def
+R15831:15835 Ionia.Opt_ApproxError <> v_pw2 def
+R15857:15857 Ionia.Opt_ApproxError <> x:172 var
+R15855:15855 Ionia.Opt_ApproxError <> w:171 var
+R15845:15847 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R15844:15844 Ionia.Opt_ApproxError <> k:169 var
+R15848:15848 Ionia.Opt_ApproxError <> c:170 var
+R15837:15841 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R15882:15894 Ionia.Opt_ApproxError <> dot_rnd_error thm
+prf 16006:16022 <> dot_rnd_rel_error
+R16036:16038 Corelib.Init.Datatypes <> nat ind
+binder 16034:16034 <> n:173
+R16048:16053 Ionia.vector <> vector def
+R16057:16057 Ionia.Opt_ApproxError <> n:173 var
+R16055:16055 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 16042:16042 <> w:174
+binder 16044:16044 <> x:175
+R16069:16069 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 16061:16065 <> kappa:176
+R16085:16090 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16076:16079 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R16080:16084 Ionia.Opt_ApproxError <> kappa:176 var
+R16152:16157 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16120:16123 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R16091:16099 Ionia.Opt_ApproxError <> v_abs_sum def
+R16102:16106 Ionia.Opt_ApproxError <> v_pw2 def
+R16118:16118 Ionia.Opt_ApproxError <> x:175 var
+R16116:16116 Ionia.Opt_ApproxError <> w:174 var
+R16114:16114 Ionia.Opt_ApproxError <> n:173 var
+R16108:16112 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R16129:16131 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R16124:16128 Ionia.Opt_ApproxError <> kappa:176 var
+R16132:16135 Stdlib.Reals.Rbasic_fun <> Rabs def
+R16138:16146 Ionia.Opt_ApproxError <> dot_exact def
+R16150:16150 Ionia.Opt_ApproxError <> x:175 var
+R16148:16148 Ionia.Opt_ApproxError <> w:174 var
+R16192:16197 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R16158:16161 Stdlib.Reals.Rbasic_fun <> Rabs def
+R16175:16177 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R16164:16170 Ionia.Opt_ApproxError <> dot_rnd def
+R16174:16174 Ionia.Opt_ApproxError <> x:175 var
+R16172:16172 Ionia.Opt_ApproxError <> w:174 var
+R16178:16186 Ionia.Opt_ApproxError <> dot_exact def
+R16190:16190 Ionia.Opt_ApproxError <> x:175 var
+R16188:16188 Ionia.Opt_ApproxError <> w:174 var
+R16203:16206 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R16251:16251 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R16198:16202 Ionia.Opt_ApproxError <> kappa:176 var
+R16207:16207 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R16227:16230 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R16223:16225 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R16208:16208 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R16214:16218 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R16222:16222 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R16210:16212 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R16213:16213 Ionia.Opt_ApproxError <> RoundingModel.u var
+R16219:16219 Corelib.Init.Datatypes <> S constr
+R16221:16221 Ionia.Opt_ApproxError <> n:173 var
+R16231:16234 Stdlib.Reals.Rbasic_fun <> Rabs def
+R16237:16245 Ionia.Opt_ApproxError <> dot_exact def
+R16249:16249 Ionia.Opt_ApproxError <> x:175 var
+R16247:16247 Ionia.Opt_ApproxError <> w:174 var
+R16306:16318 Ionia.Opt_ApproxError <> dot_rnd_error thm
+R16347:16358 Ionia.Opt_ApproxError <> gamma_nonneg thm
+R16361:16361 Corelib.Init.Datatypes <> S constr
+R16438:16449 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R16389:16389 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R16405:16408 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R16401:16403 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R16390:16390 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R16394:16396 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R16400:16400 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R16392:16392 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R16393:16393 Ionia.Opt_ApproxError <> RoundingModel.u var
+R16397:16397 Corelib.Init.Datatypes <> S constr
+R16409:16417 Ionia.Opt_ApproxError <> v_abs_sum def
+R16420:16424 Ionia.Opt_ApproxError <> v_pw2 def
+R16426:16430 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R16450:16450 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R16466:16470 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R16499:16499 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R16462:16464 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R16451:16451 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R16455:16457 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R16461:16461 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R16453:16453 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R16454:16454 Ionia.Opt_ApproxError <> RoundingModel.u var
+R16458:16458 Corelib.Init.Datatypes <> S constr
+R16476:16478 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R16479:16482 Stdlib.Reals.Rbasic_fun <> Rabs def
+R16485:16493 Ionia.Opt_ApproxError <> dot_exact def
+R16513:16529 Stdlib.Reals.RIneq <> Rmult_le_compat_l thm
+prf 16711:16727 <> dot_exact_perturb
+R16741:16743 Corelib.Init.Datatypes <> nat ind
+binder 16739:16739 <> n:177
+R16764:16769 Ionia.vector <> vector def
+R16773:16773 Ionia.Opt_ApproxError <> n:177 var
+R16771:16771 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 16747:16747 <> w:178
+binder 16749:16749 <> c:179
+binder 16751:16754 <> chat:180
+binder 16756:16760 <> delta:181
+R16871:16876 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16779:16786 Ionia.Opt_ApproxError <> v_pw_rel def
+R16843:16847 Ionia.Opt_ApproxError <> v_pw2 def
+R16865:16869 Ionia.Opt_ApproxError <> delta:181 var
+R16863:16863 Ionia.Opt_ApproxError <> c:179 var
+R16861:16861 Ionia.Opt_ApproxError <> n:177 var
+R16851:16854 Corelib.Init.Datatypes <> pair constr
+R16856:16856 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R16858:16858 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R16833:16836 Ionia.Opt_ApproxError <> chat:180 var
+R16831:16831 Ionia.Opt_ApproxError <> n:177 var
+binder 16793:16795 <> chi:182
+binder 16797:16797 <> p:183
+R16820:16823 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R16802:16805 Stdlib.Reals.Rbasic_fun <> Rabs def
+R16811:16813 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R16808:16810 Ionia.Opt_ApproxError <> chi:182 var
+R16814:16816 Corelib.Init.Datatypes <> fst def
+R16818:16818 Ionia.Opt_ApproxError <> p:183 var
+R16824:16826 Corelib.Init.Datatypes <> snd def
+R16828:16828 Ionia.Opt_ApproxError <> p:183 var
+R16916:16921 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R16877:16880 Stdlib.Reals.Rbasic_fun <> Rabs def
+R16899:16901 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R16883:16891 Ionia.Opt_ApproxError <> dot_exact def
+R16895:16898 Ionia.Opt_ApproxError <> chat:180 var
+R16893:16893 Ionia.Opt_ApproxError <> w:178 var
+R16902:16910 Ionia.Opt_ApproxError <> dot_exact def
+R16914:16914 Ionia.Opt_ApproxError <> c:179 var
+R16912:16912 Ionia.Opt_ApproxError <> w:178 var
+R16922:16925 Ionia.Opt_ApproxError <> rsum def
+R16928:16932 Ionia.Opt_ApproxError <> v_pw2 def
+R16966:16970 Ionia.Opt_ApproxError <> delta:181 var
+R16964:16964 Ionia.Opt_ApproxError <> w:178 var
+R16962:16962 Ionia.Opt_ApproxError <> n:177 var
+binder 16939:16940 <> wj:184
+binder 16942:16943 <> dj:185
+R16955:16957 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R16948:16951 Stdlib.Reals.Rbasic_fun <> Rabs def
+R16953:16954 Ionia.Opt_ApproxError <> wj:184 var
+R16958:16959 Ionia.Opt_ApproxError <> dj:185 var
+R17082:17090 Ionia.Opt_ApproxError <> dot_exact def
+R17093:17096 Ionia.Opt_ApproxError <> rsum def
+R17120:17122 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R17150:17156 Stdlib.Reals.Rbasic_fun <> Rabs_R0 thm
+R17310:17313 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R17295:17298 Stdlib.Reals.Rbasic_fun <> Rabs def
+R17304:17306 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R17387:17395 Ionia.Opt_ApproxError <> dot_exact def
+R17415:17423 Ionia.Opt_ApproxError <> dot_exact def
+R17435:17442 Ionia.Opt_ApproxError <> v_pw2_Sn thm
+R17446:17452 Ionia.Opt_ApproxError <> rsum_Sn thm
+R17506:17522 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R17559:17559 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R17476:17478 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R17470:17472 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R17479:17482 Ionia.Opt_ApproxError <> rsum def
+R17485:17489 Ionia.Opt_ApproxError <> v_pw2 def
+R17491:17495 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R17530:17532 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R17525:17527 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R17533:17536 Ionia.Opt_ApproxError <> rsum def
+R17539:17543 Ionia.Opt_ApproxError <> v_pw2 def
+R17545:17549 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R17589:17604 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R17661:17661 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R17576:17579 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R17588:17588 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R17583:17585 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R17632:17634 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R17605:17608 Ionia.Opt_ApproxError <> rsum def
+R17611:17615 Ionia.Opt_ApproxError <> v_pw2 def
+R17617:17621 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R17635:17638 Ionia.Opt_ApproxError <> rsum def
+R17641:17645 Ionia.Opt_ApproxError <> v_pw2 def
+R17647:17651 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R17684:17692 Stdlib.Reals.RIneq <> Rle_trans thm
+R17701:17711 Stdlib.Reals.Rbasic_fun <> Rabs_triang thm
+R17726:17734 Stdlib.Reals.Rbasic_fun <> Rabs_mult thm
+R17778:17781 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R17760:17762 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R17753:17756 Stdlib.Reals.Rbasic_fun <> Rabs def
+R17763:17766 Stdlib.Reals.Rbasic_fun <> Rabs def
+R17772:17774 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R17789:17791 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R17782:17785 Stdlib.Reals.Rbasic_fun <> Rabs def
+R17809:17825 Stdlib.Reals.RIneq <> Rmult_le_compat_l thm
+R17834:17841 Stdlib.Reals.Rbasic_fun <> Rabs_pos thm
+prf 17939:17961 <> v_abs_sum_pwmul_perturb
+R17975:17977 Corelib.Init.Datatypes <> nat ind
+binder 17973:17973 <> n:186
+R17998:18003 Ionia.vector <> vector def
+R18007:18007 Ionia.Opt_ApproxError <> n:186 var
+R18005:18005 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 17981:17981 <> w:187
+binder 17983:17983 <> c:188
+binder 17985:17988 <> chat:189
+binder 17990:17994 <> delta:190
+R18105:18110 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18013:18020 Ionia.Opt_ApproxError <> v_pw_rel def
+R18077:18081 Ionia.Opt_ApproxError <> v_pw2 def
+R18099:18103 Ionia.Opt_ApproxError <> delta:190 var
+R18097:18097 Ionia.Opt_ApproxError <> c:188 var
+R18095:18095 Ionia.Opt_ApproxError <> n:186 var
+R18085:18088 Corelib.Init.Datatypes <> pair constr
+R18090:18090 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R18092:18092 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R18067:18070 Ionia.Opt_ApproxError <> chat:189 var
+R18065:18065 Ionia.Opt_ApproxError <> n:186 var
+binder 18027:18029 <> chi:191
+binder 18031:18031 <> p:192
+R18054:18057 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R18036:18039 Stdlib.Reals.Rbasic_fun <> Rabs def
+R18045:18047 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R18042:18044 Ionia.Opt_ApproxError <> chi:191 var
+R18048:18050 Corelib.Init.Datatypes <> fst def
+R18052:18052 Ionia.Opt_ApproxError <> p:192 var
+R18058:18060 Corelib.Init.Datatypes <> snd def
+R18062:18062 Ionia.Opt_ApproxError <> p:192 var
+R18143:18148 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R18111:18119 Ionia.Opt_ApproxError <> v_abs_sum def
+R18122:18126 Ionia.Opt_ApproxError <> v_pw2 def
+R18138:18141 Ionia.Opt_ApproxError <> chat:189 var
+R18136:18136 Ionia.Opt_ApproxError <> w:187 var
+R18134:18134 Ionia.Opt_ApproxError <> n:186 var
+R18128:18132 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R18178:18185 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R18149:18157 Ionia.Opt_ApproxError <> v_abs_sum def
+R18160:18164 Ionia.Opt_ApproxError <> v_pw2 def
+R18176:18176 Ionia.Opt_ApproxError <> c:188 var
+R18174:18174 Ionia.Opt_ApproxError <> w:187 var
+R18172:18172 Ionia.Opt_ApproxError <> n:186 var
+R18166:18170 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R18186:18189 Ionia.Opt_ApproxError <> rsum def
+R18192:18196 Ionia.Opt_ApproxError <> v_pw2 def
+R18230:18234 Ionia.Opt_ApproxError <> delta:190 var
+R18228:18228 Ionia.Opt_ApproxError <> w:187 var
+R18226:18226 Ionia.Opt_ApproxError <> n:186 var
+binder 18203:18204 <> wj:193
+binder 18206:18207 <> dj:194
+R18219:18221 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R18212:18215 Stdlib.Reals.Rbasic_fun <> Rabs def
+R18217:18218 Ionia.Opt_ApproxError <> wj:193 var
+R18222:18223 Ionia.Opt_ApproxError <> dj:194 var
+R18346:18354 Ionia.Opt_ApproxError <> v_abs_sum def
+R18357:18360 Ionia.Opt_ApproxError <> rsum def
+R18521:18524 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R18506:18509 Stdlib.Reals.Rbasic_fun <> Rabs def
+R18515:18517 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R18604:18611 Ionia.Opt_ApproxError <> v_pw2_Sn thm
+R18615:18626 Ionia.Opt_ApproxError <> v_abs_sum_Sn thm
+R18629:18635 Ionia.Opt_ApproxError <> rsum_Sn thm
+R18639:18647 Stdlib.Reals.Rbasic_fun <> Rabs_mult thm
+R18685:18688 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R18674:18676 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R18667:18670 Stdlib.Reals.Rbasic_fun <> Rabs def
+R18677:18680 Stdlib.Reals.Rbasic_fun <> Rabs def
+R18696:18699 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R18725:18725 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R18689:18692 Stdlib.Reals.Rbasic_fun <> Rabs def
+R18707:18709 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R18700:18703 Stdlib.Reals.Rbasic_fun <> Rabs def
+R18710:18713 Stdlib.Reals.Rbasic_fun <> Rabs def
+R18719:18721 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R18741:18757 Stdlib.Reals.RIneq <> Rmult_le_compat_l thm
+R18766:18773 Stdlib.Reals.Rbasic_fun <> Rabs_pos thm
+R18802:18805 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R18814:18814 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R18809:18811 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R18837:18847 Stdlib.Reals.Rbasic_fun <> Rabs_triang thm
+R18894:18897 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R18876:18878 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R18869:18872 Stdlib.Reals.Rbasic_fun <> Rabs def
+R18879:18882 Stdlib.Reals.Rbasic_fun <> Rabs def
+R18888:18890 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R18905:18907 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R18898:18901 Stdlib.Reals.Rbasic_fun <> Rabs def
+R18925:18941 Stdlib.Reals.RIneq <> Rmult_le_compat_l thm
+R18950:18957 Stdlib.Reals.Rbasic_fun <> Rabs_pos thm
+prf 19172:19186 <> two_layer_error
+R19200:19202 Corelib.Init.Datatypes <> nat ind
+binder 19198:19198 <> n:195
+R19223:19228 Ionia.vector <> vector def
+R19232:19232 Ionia.Opt_ApproxError <> n:195 var
+R19230:19230 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 19206:19206 <> w:196
+binder 19208:19208 <> c:197
+binder 19210:19213 <> chat:198
+binder 19215:19219 <> delta:199
+R19330:19335 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19238:19245 Ionia.Opt_ApproxError <> v_pw_rel def
+R19302:19306 Ionia.Opt_ApproxError <> v_pw2 def
+R19324:19328 Ionia.Opt_ApproxError <> delta:199 var
+R19322:19322 Ionia.Opt_ApproxError <> c:197 var
+R19320:19320 Ionia.Opt_ApproxError <> n:195 var
+R19310:19313 Corelib.Init.Datatypes <> pair constr
+R19315:19315 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R19317:19317 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R19292:19295 Ionia.Opt_ApproxError <> chat:198 var
+R19290:19290 Ionia.Opt_ApproxError <> n:195 var
+binder 19252:19254 <> chi:200
+binder 19256:19256 <> p:201
+R19279:19282 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R19261:19264 Stdlib.Reals.Rbasic_fun <> Rabs def
+R19270:19272 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R19267:19269 Ionia.Opt_ApproxError <> chi:200 var
+R19273:19275 Corelib.Init.Datatypes <> fst def
+R19277:19277 Ionia.Opt_ApproxError <> p:201 var
+R19283:19285 Corelib.Init.Datatypes <> snd def
+R19287:19287 Ionia.Opt_ApproxError <> p:201 var
+R19373:19378 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R19336:19339 Stdlib.Reals.Rbasic_fun <> Rabs def
+R19356:19358 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R19342:19348 Ionia.Opt_ApproxError <> dot_rnd def
+R19352:19355 Ionia.Opt_ApproxError <> chat:198 var
+R19350:19350 Ionia.Opt_ApproxError <> w:196 var
+R19359:19367 Ionia.Opt_ApproxError <> dot_exact def
+R19371:19371 Ionia.Opt_ApproxError <> c:197 var
+R19369:19369 Ionia.Opt_ApproxError <> w:196 var
+R19504:19511 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R19379:19379 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R19399:19410 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R19503:19503 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R19395:19397 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R19380:19380 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R19386:19390 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R19394:19394 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R19382:19384 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R19385:19385 Ionia.Opt_ApproxError <> RoundingModel.u var
+R19391:19391 Corelib.Init.Datatypes <> S constr
+R19393:19393 Ionia.Opt_ApproxError <> n:195 var
+R19440:19452 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R19411:19419 Ionia.Opt_ApproxError <> v_abs_sum def
+R19422:19426 Ionia.Opt_ApproxError <> v_pw2 def
+R19438:19438 Ionia.Opt_ApproxError <> c:197 var
+R19436:19436 Ionia.Opt_ApproxError <> w:196 var
+R19434:19434 Ionia.Opt_ApproxError <> n:195 var
+R19428:19432 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R19453:19456 Ionia.Opt_ApproxError <> rsum def
+R19459:19463 Ionia.Opt_ApproxError <> v_pw2 def
+R19497:19501 Ionia.Opt_ApproxError <> delta:199 var
+R19495:19495 Ionia.Opt_ApproxError <> w:196 var
+R19493:19493 Ionia.Opt_ApproxError <> n:195 var
+binder 19470:19471 <> wj:202
+binder 19473:19474 <> dj:203
+R19486:19488 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R19479:19482 Stdlib.Reals.Rbasic_fun <> Rabs def
+R19484:19485 Ionia.Opt_ApproxError <> wj:202 var
+R19489:19490 Ionia.Opt_ApproxError <> dj:203 var
+R19512:19515 Ionia.Opt_ApproxError <> rsum def
+R19518:19522 Ionia.Opt_ApproxError <> v_pw2 def
+R19556:19560 Ionia.Opt_ApproxError <> delta:199 var
+R19554:19554 Ionia.Opt_ApproxError <> w:196 var
+R19552:19552 Ionia.Opt_ApproxError <> n:195 var
+binder 19529:19530 <> wj:204
+binder 19532:19533 <> dj:205
+R19545:19547 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R19538:19541 Stdlib.Reals.Rbasic_fun <> Rabs def
+R19543:19544 Ionia.Opt_ApproxError <> wj:204 var
+R19548:19549 Ionia.Opt_ApproxError <> dj:205 var
+R19614:19626 Ionia.Opt_ApproxError <> dot_rnd_error thm
+R19659:19675 Ionia.Opt_ApproxError <> dot_exact_perturb thm
+R19718:19740 Ionia.Opt_ApproxError <> v_abs_sum_pwmul_perturb thm
+R19783:19794 Ionia.Opt_ApproxError <> gamma_nonneg thm
+R19797:19797 Corelib.Init.Datatypes <> S constr
+R19866:19879 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R19829:19832 Stdlib.Reals.Rbasic_fun <> Rabs def
+R19849:19851 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R19835:19841 Ionia.Opt_ApproxError <> dot_rnd def
+R19852:19860 Ionia.Opt_ApproxError <> dot_exact def
+R19920:19935 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R19880:19883 Stdlib.Reals.Rbasic_fun <> Rabs def
+R19900:19902 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R19886:19892 Ionia.Opt_ApproxError <> dot_rnd def
+R19903:19911 Ionia.Opt_ApproxError <> dot_exact def
+R19936:19939 Stdlib.Reals.Rbasic_fun <> Rabs def
+R19958:19960 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R19942:19950 Ionia.Opt_ApproxError <> dot_exact def
+R19961:19969 Ionia.Opt_ApproxError <> dot_exact def
+R20005:20007 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R19991:19997 Ionia.Opt_ApproxError <> dot_rnd def
+R20008:20016 Ionia.Opt_ApproxError <> dot_exact def
+R20035:20035 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R20069:20085 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R20118:20118 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R20050:20052 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R20036:20042 Ionia.Opt_ApproxError <> dot_rnd def
+R20053:20061 Ionia.Opt_ApproxError <> dot_exact def
+R20102:20104 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R20086:20094 Ionia.Opt_ApproxError <> dot_exact def
+R20105:20113 Ionia.Opt_ApproxError <> dot_exact def
+R20140:20150 Stdlib.Reals.Rbasic_fun <> Rabs_triang thm
+R20222:20233 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R20170:20170 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R20186:20189 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R20182:20184 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R20171:20171 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R20175:20177 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R20181:20181 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R20173:20173 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R20174:20174 Ionia.Opt_ApproxError <> RoundingModel.u var
+R20178:20178 Corelib.Init.Datatypes <> S constr
+R20190:20198 Ionia.Opt_ApproxError <> v_abs_sum def
+R20201:20205 Ionia.Opt_ApproxError <> v_pw2 def
+R20207:20211 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R20234:20234 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R20250:20267 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R20366:20366 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R20246:20248 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R20235:20235 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R20239:20241 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R20245:20245 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R20237:20237 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R20238:20238 Ionia.Opt_ApproxError <> RoundingModel.u var
+R20242:20242 Corelib.Init.Datatypes <> S constr
+R20297:20315 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R20268:20276 Ionia.Opt_ApproxError <> v_abs_sum def
+R20279:20283 Ionia.Opt_ApproxError <> v_pw2 def
+R20285:20289 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R20316:20319 Ionia.Opt_ApproxError <> rsum def
+R20322:20326 Ionia.Opt_ApproxError <> v_pw2 def
+binder 20333:20334 <> wj:206
+binder 20336:20337 <> dj:207
+R20349:20351 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R20342:20345 Stdlib.Reals.Rbasic_fun <> Rabs def
+R20347:20348 Ionia.Opt_ApproxError <> wj:206 var
+R20352:20353 Ionia.Opt_ApproxError <> dj:207 var
+binder 20333:20334 <> wj:208
+binder 20336:20337 <> dj:209
+R20347:20348 Ionia.Opt_ApproxError <> wj:208 var
+R20352:20353 Ionia.Opt_ApproxError <> dj:209 var
+R20380:20396 Stdlib.Reals.RIneq <> Rmult_le_compat_l thm
+prf 20488:20502 <> v_all_map_scale
+R20516:20518 Corelib.Init.Datatypes <> nat ind
+binder 20514:20514 <> n:210
+R20524:20524 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 20522:20522 <> g:211
+R20533:20538 Ionia.vector <> vector def
+R20542:20542 Ionia.Opt_ApproxError <> n:210 var
+R20540:20540 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 20528:20529 <> S0:212
+R20554:20559 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20549:20552 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R20553:20553 Ionia.Opt_ApproxError <> g:211 var
+R20588:20593 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20560:20564 Ionia.Opt_ApproxError <> v_all def
+binder 20571:20571 <> s:213
+R20577:20580 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R20581:20581 Ionia.Opt_ApproxError <> s:213 var
+R20584:20584 Ionia.Opt_ApproxError <> n:210 var
+R20586:20587 Ionia.Opt_ApproxError <> S0:212 var
+R20594:20598 Ionia.Opt_ApproxError <> v_all def
+binder 20605:20605 <> d:214
+R20611:20614 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R20615:20615 Ionia.Opt_ApproxError <> d:214 var
+R20618:20618 Ionia.Opt_ApproxError <> n:210 var
+R20621:20626 Ionia.Opt_ApproxError <> v_map1 def
+R20629:20633 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R20635:20635 Ionia.Opt_ApproxError <> g:211 var
+R20638:20638 Ionia.Opt_ApproxError <> n:210 var
+R20640:20641 Ionia.Opt_ApproxError <> S0:212 var
+R20730:20730 Corelib.Init.Logic <> I constr
+R20827:20838 Stdlib.Reals.RIneq <> Rmult_le_pos thm
+prf 20859:20872 <> v_pw_rel_scale
+R20886:20888 Corelib.Init.Datatypes <> nat ind
+binder 20884:20884 <> n:215
+R20894:20894 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 20892:20892 <> g:216
+R20910:20915 Ionia.vector <> vector def
+R20919:20919 Ionia.Opt_ApproxError <> n:215 var
+R20917:20917 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 20898:20901 <> chat:217
+binder 20903:20903 <> c:218
+binder 20905:20906 <> S0:219
+R21018:21023 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20925:20932 Ionia.Opt_ApproxError <> v_pw_rel def
+R20993:20997 Ionia.Opt_ApproxError <> v_pw2 def
+R21015:21016 Ionia.Opt_ApproxError <> S0:219 var
+R21013:21013 Ionia.Opt_ApproxError <> c:218 var
+R21011:21011 Ionia.Opt_ApproxError <> n:215 var
+R21001:21004 Corelib.Init.Datatypes <> pair constr
+R21006:21006 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R21008:21008 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R20983:20986 Ionia.Opt_ApproxError <> chat:217 var
+R20981:20981 Ionia.Opt_ApproxError <> n:215 var
+binder 20939:20941 <> chi:220
+binder 20943:20943 <> p:221
+R20966:20969 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R20948:20951 Stdlib.Reals.Rbasic_fun <> Rabs def
+R20957:20959 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R20954:20956 Ionia.Opt_ApproxError <> chi:220 var
+R20960:20962 Corelib.Init.Datatypes <> fst def
+R20964:20964 Ionia.Opt_ApproxError <> p:221 var
+R20971:20973 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R20970:20970 Ionia.Opt_ApproxError <> g:216 var
+R20974:20976 Corelib.Init.Datatypes <> snd def
+R20978:20978 Ionia.Opt_ApproxError <> p:221 var
+R21024:21031 Ionia.Opt_ApproxError <> v_pw_rel def
+R21088:21092 Ionia.Opt_ApproxError <> v_pw2 def
+R21111:21116 Ionia.Opt_ApproxError <> v_map1 def
+R21119:21123 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R21125:21125 Ionia.Opt_ApproxError <> g:216 var
+R21128:21128 Ionia.Opt_ApproxError <> n:215 var
+R21130:21131 Ionia.Opt_ApproxError <> S0:219 var
+R21108:21108 Ionia.Opt_ApproxError <> c:218 var
+R21106:21106 Ionia.Opt_ApproxError <> n:215 var
+R21096:21099 Corelib.Init.Datatypes <> pair constr
+R21101:21101 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R21103:21103 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R21078:21081 Ionia.Opt_ApproxError <> chat:217 var
+R21076:21076 Ionia.Opt_ApproxError <> n:215 var
+binder 21038:21040 <> chi:222
+binder 21042:21042 <> p:223
+R21065:21068 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R21047:21050 Stdlib.Reals.Rbasic_fun <> Rabs def
+R21056:21058 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R21053:21055 Ionia.Opt_ApproxError <> chi:222 var
+R21059:21061 Corelib.Init.Datatypes <> fst def
+R21063:21063 Ionia.Opt_ApproxError <> p:223 var
+R21069:21071 Corelib.Init.Datatypes <> snd def
+R21073:21073 Ionia.Opt_ApproxError <> p:223 var
+R21234:21234 Corelib.Init.Logic <> I constr
+prf 21389:21409 <> rsum_absmul_map_scale
+R21423:21425 Corelib.Init.Datatypes <> nat ind
+binder 21421:21421 <> n:224
+R21431:21431 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 21429:21429 <> g:225
+R21442:21447 Ionia.vector <> vector def
+R21451:21451 Ionia.Opt_ApproxError <> n:224 var
+R21449:21449 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 21435:21435 <> w:226
+binder 21437:21438 <> S0:227
+R21525:21529 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21457:21460 Ionia.Opt_ApproxError <> rsum def
+R21463:21467 Ionia.Opt_ApproxError <> v_pw2 def
+R21502:21507 Ionia.Opt_ApproxError <> v_map1 def
+R21510:21514 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R21516:21516 Ionia.Opt_ApproxError <> g:225 var
+R21519:21519 Ionia.Opt_ApproxError <> n:224 var
+R21521:21522 Ionia.Opt_ApproxError <> S0:227 var
+R21499:21499 Ionia.Opt_ApproxError <> w:226 var
+R21497:21497 Ionia.Opt_ApproxError <> n:224 var
+binder 21474:21475 <> wj:228
+binder 21477:21478 <> dj:229
+R21490:21492 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R21483:21486 Stdlib.Reals.Rbasic_fun <> Rabs def
+R21488:21489 Ionia.Opt_ApproxError <> wj:228 var
+R21493:21494 Ionia.Opt_ApproxError <> dj:229 var
+R21531:21533 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R21530:21530 Ionia.Opt_ApproxError <> g:225 var
+R21534:21537 Ionia.Opt_ApproxError <> rsum def
+R21540:21544 Ionia.Opt_ApproxError <> v_pw2 def
+R21578:21579 Ionia.Opt_ApproxError <> S0:227 var
+R21576:21576 Ionia.Opt_ApproxError <> w:226 var
+R21574:21574 Ionia.Opt_ApproxError <> n:224 var
+binder 21551:21552 <> wj:230
+binder 21554:21555 <> sj:231
+R21567:21569 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R21560:21563 Stdlib.Reals.Rbasic_fun <> Rabs def
+R21565:21566 Ionia.Opt_ApproxError <> wj:230 var
+R21570:21571 Ionia.Opt_ApproxError <> sj:231 var
+R21669:21672 Ionia.Opt_ApproxError <> rsum def
+R21742:21750 Ionia.Opt_ApproxError <> v_map1_Sn thm
+R21754:21761 Ionia.Opt_ApproxError <> v_pw2_Sn thm
+R21765:21771 Ionia.Opt_ApproxError <> rsum_Sn thm
+prf 21878:21895 <> lenet5_conv1_error
+R21913:21918 Ionia.vector <> vector def
+R21926:21926 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R21924:21924 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R21920:21920 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 21907:21907 <> w:232
+binder 21909:21909 <> x:233
+R21972:21977 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R21938:21941 Stdlib.Reals.Rbasic_fun <> Rabs def
+R21955:21957 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R21944:21950 Ionia.Opt_ApproxError <> dot_rnd def
+R21954:21954 Ionia.Opt_ApproxError <> x:233 var
+R21952:21952 Ionia.Opt_ApproxError <> w:232 var
+R21958:21966 Ionia.Opt_ApproxError <> dot_exact def
+R21970:21970 Ionia.Opt_ApproxError <> x:233 var
+R21968:21968 Ionia.Opt_ApproxError <> w:232 var
+R21978:21978 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R21999:22002 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R21995:21997 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R21979:21979 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R21985:21988 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R21981:21983 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R21984:21984 Ionia.Opt_ApproxError <> RoundingModel.u var
+R22003:22011 Ionia.Opt_ApproxError <> v_abs_sum def
+R22014:22018 Ionia.Opt_ApproxError <> v_pw2 def
+R22040:22040 Ionia.Opt_ApproxError <> x:233 var
+R22038:22038 Ionia.Opt_ApproxError <> w:232 var
+R22030:22030 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R22028:22028 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R22020:22024 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R22065:22077 Ionia.Opt_ApproxError <> dot_rnd_error thm
+prf 22141:22156 <> lenet5_fc1_error
+R22174:22179 Ionia.vector <> vector def
+R22181:22181 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 22168:22168 <> w:234
+binder 22170:22170 <> x:235
+R22229:22234 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R22195:22198 Stdlib.Reals.Rbasic_fun <> Rabs def
+R22212:22214 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R22201:22207 Ionia.Opt_ApproxError <> dot_rnd def
+R22211:22211 Ionia.Opt_ApproxError <> x:235 var
+R22209:22209 Ionia.Opt_ApproxError <> w:234 var
+R22215:22223 Ionia.Opt_ApproxError <> dot_exact def
+R22227:22227 Ionia.Opt_ApproxError <> x:235 var
+R22225:22225 Ionia.Opt_ApproxError <> w:234 var
+R22235:22235 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R22257:22260 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R22253:22255 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R22236:22236 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R22242:22245 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R22238:22240 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R22241:22241 Ionia.Opt_ApproxError <> RoundingModel.u var
+R22261:22269 Ionia.Opt_ApproxError <> v_abs_sum def
+R22272:22276 Ionia.Opt_ApproxError <> v_pw2 def
+R22294:22294 Ionia.Opt_ApproxError <> x:235 var
+R22292:22292 Ionia.Opt_ApproxError <> w:234 var
+R22278:22282 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R22319:22331 Ionia.Opt_ApproxError <> dot_rnd_error thm
+prf 22554:22578 <> lenet5_conv_fc_end_to_end
+R22605:22610 Ionia.vector <> vector def
+R22612:22612 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 22590:22591 <> w2:236
+binder 22593:22593 <> c:237
+binder 22595:22598 <> chat:238
+binder 22600:22601 <> S0:239
+R22660:22665 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22626:22630 Ionia.Opt_ApproxError <> v_all def
+binder 22637:22637 <> s:240
+R22643:22646 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R22647:22647 Ionia.Opt_ApproxError <> s:240 var
+R22658:22659 Ionia.Opt_ApproxError <> S0:239 var
+R22792:22797 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22666:22673 Ionia.Opt_ApproxError <> v_pw_rel def
+R22761:22765 Ionia.Opt_ApproxError <> v_pw2 def
+R22789:22790 Ionia.Opt_ApproxError <> S0:239 var
+R22787:22787 Ionia.Opt_ApproxError <> c:237 var
+R22769:22772 Corelib.Init.Datatypes <> pair constr
+R22774:22774 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R22776:22776 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R22755:22758 Ionia.Opt_ApproxError <> chat:238 var
+binder 22680:22682 <> chi:241
+binder 22684:22684 <> p:242
+R22707:22710 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R22689:22692 Stdlib.Reals.Rbasic_fun <> Rabs def
+R22698:22700 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R22695:22697 Ionia.Opt_ApproxError <> chi:241 var
+R22701:22703 Corelib.Init.Datatypes <> fst def
+R22705:22705 Ionia.Opt_ApproxError <> p:242 var
+R22711:22711 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R22732:22735 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R22728:22730 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R22712:22712 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R22718:22721 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R22714:22716 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R22717:22717 Ionia.Opt_ApproxError <> RoundingModel.u var
+R22736:22738 Corelib.Init.Datatypes <> snd def
+R22740:22740 Ionia.Opt_ApproxError <> p:242 var
+R22837:22842 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R22798:22801 Stdlib.Reals.Rbasic_fun <> Rabs def
+R22819:22821 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R22804:22810 Ionia.Opt_ApproxError <> dot_rnd def
+R22815:22818 Ionia.Opt_ApproxError <> chat:238 var
+R22812:22813 Ionia.Opt_ApproxError <> w2:236 var
+R22822:22830 Ionia.Opt_ApproxError <> dot_exact def
+R22835:22835 Ionia.Opt_ApproxError <> c:237 var
+R22832:22833 Ionia.Opt_ApproxError <> w2:236 var
+R23020:23027 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R22843:22843 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R22865:22876 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R23019:23019 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R22861:22863 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R22844:22844 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R22850:22853 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R22846:22848 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R22849:22849 Ionia.Opt_ApproxError <> RoundingModel.u var
+R22913:22925 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R22877:22885 Ionia.Opt_ApproxError <> v_abs_sum def
+R22888:22892 Ionia.Opt_ApproxError <> v_pw2 def
+R22911:22911 Ionia.Opt_ApproxError <> c:237 var
+R22908:22909 Ionia.Opt_ApproxError <> w2:236 var
+R22894:22898 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R22926:22926 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R22947:22964 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R22943:22945 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R22927:22927 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R22933:22936 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R22929:22931 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R22932:22932 Ionia.Opt_ApproxError <> RoundingModel.u var
+R22965:22968 Ionia.Opt_ApproxError <> rsum def
+R22971:22975 Ionia.Opt_ApproxError <> v_pw2 def
+R23016:23017 Ionia.Opt_ApproxError <> S0:239 var
+R23013:23014 Ionia.Opt_ApproxError <> w2:236 var
+binder 22982:22983 <> wj:243
+binder 22985:22986 <> sj:244
+R22998:23000 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R22991:22994 Stdlib.Reals.Rbasic_fun <> Rabs def
+R22996:22997 Ionia.Opt_ApproxError <> wj:243 var
+R23001:23002 Ionia.Opt_ApproxError <> sj:244 var
+R23028:23028 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R23049:23061 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R23045:23047 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R23029:23029 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R23035:23038 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R23031:23033 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R23034:23034 Ionia.Opt_ApproxError <> RoundingModel.u var
+R23062:23065 Ionia.Opt_ApproxError <> rsum def
+R23068:23072 Ionia.Opt_ApproxError <> v_pw2 def
+R23113:23114 Ionia.Opt_ApproxError <> S0:239 var
+R23110:23111 Ionia.Opt_ApproxError <> w2:236 var
+binder 23079:23080 <> wj:245
+binder 23082:23083 <> sj:246
+R23095:23097 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R23088:23091 Stdlib.Reals.Rbasic_fun <> Rabs def
+R23093:23094 Ionia.Opt_ApproxError <> wj:245 var
+R23098:23099 Ionia.Opt_ApproxError <> sj:246 var
+R23185:23187 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R23169:23169 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R23175:23178 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R23171:23173 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R23174:23174 Ionia.Opt_ApproxError <> RoundingModel.u var
+R23211:23225 Ionia.Opt_ApproxError <> two_layer_error thm
+R23246:23251 Ionia.Opt_ApproxError <> v_map1 def
+R23254:23258 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R23292:23305 Ionia.Opt_ApproxError <> v_pw_rel_scale thm
+R23352:23372 Ionia.Opt_ApproxError <> rsum_absmul_map_scale thm
+R23403:23415 Ionia.Opt_ApproxError RoundingModel <> sec
+def 23674:23679 <> u_TF32
+R23683:23683 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R23688:23689 Stdlib.Reals.Rdefinitions <> ::R_scope:'/'_x not
+prf 23703:23715 <> u_TF32_nonneg
+R23720:23723 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R23724:23729 Ionia.Opt_ApproxError <> u_TF32 def
+R23746:23751 Ionia.Opt_ApproxError <> u_TF32 def
+R23760:23765 Stdlib.Reals.RIneq <> Rlt_le thm
+R23774:23789 Stdlib.Reals.RIneq <> Rinv_0_lt_compat thm
+def 23930:23952 <> tf32_lenet5_conv1_error
+R23971:23974 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23970:23970 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R23975:23975 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 23964:23966 <> rnd:247
+R23981:23981 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24029:24035 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23991:23991 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 23989:23989 <> x:248
+R24010:24013 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R23994:23997 Stdlib.Reals.Rbasic_fun <> Rabs def
+R24005:24007 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R24000:24002 Ionia.Opt_ApproxError <> rnd:247 var
+R24004:24004 Ionia.Opt_ApproxError <> x:248 var
+R24008:24008 Ionia.Opt_ApproxError <> x:248 var
+R24020:24022 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R24014:24019 Ionia.Opt_ApproxError <> u_TF32 def
+R24023:24026 Stdlib.Reals.Rbasic_fun <> Rabs def
+R24028:24028 Ionia.Opt_ApproxError <> x:248 var
+R24050:24055 Ionia.vector <> vector def
+R24063:24063 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R24061:24061 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R24057:24057 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 24044:24044 <> w:249
+binder 24046:24046 <> x:250
+R24115:24122 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R24077:24080 Stdlib.Reals.Rbasic_fun <> Rabs def
+R24098:24100 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R24083:24089 Ionia.Opt_ApproxError <> dot_rnd def
+R24097:24097 Ionia.Opt_ApproxError <> x:250 var
+R24095:24095 Ionia.Opt_ApproxError <> w:249 var
+R24091:24093 Ionia.Opt_ApproxError <> rnd:247 var
+R24101:24109 Ionia.Opt_ApproxError <> dot_exact def
+R24113:24113 Ionia.Opt_ApproxError <> x:250 var
+R24111:24111 Ionia.Opt_ApproxError <> w:249 var
+R24123:24123 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R24149:24152 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R24145:24147 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R24124:24124 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R24135:24138 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R24126:24128 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R24129:24134 Ionia.Opt_ApproxError <> u_TF32 def
+R24153:24161 Ionia.Opt_ApproxError <> v_abs_sum def
+R24164:24168 Ionia.Opt_ApproxError <> v_pw2 def
+R24190:24190 Ionia.Opt_ApproxError <> x:250 var
+R24188:24188 Ionia.Opt_ApproxError <> w:249 var
+R24180:24180 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R24178:24178 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R24170:24174 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R24234:24246 Ionia.Opt_ApproxError <> dot_rnd_error thm
+R24255:24267 Ionia.Opt_ApproxError <> u_TF32_nonneg thm
+R24248:24253 Ionia.Opt_ApproxError <> u_TF32 def
+R24474:24487 Ionia.Opt_ApproxError <> rsum_rnd_error thm
+R24508:24520 Ionia.Opt_ApproxError <> dot_rnd_error thm
+R24541:24565 Ionia.Opt_ApproxError <> lenet5_conv_fc_end_to_end thm

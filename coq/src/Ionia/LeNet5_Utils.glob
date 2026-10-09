@@ -1,0 +1,119 @@
+DIGEST 3eef3ba710371fcadcbd7701f679ff6c
+FIonia.LeNet5_Utils
+R83:98 Ionia.DPIA_Rules <> <> lib
+R116:134 Ionia.Proof_CodeGen <> <> lib
+R144:156 Ionia.Proof_CodeGen <> <> mod
+R186:188 Stdlib.micromega.Lia <> <> lib
+def 305:314 <> safe_idx2d
+R323:325 Corelib.Init.Datatypes <> nat ind
+binder 317:317 <> h:1
+binder 319:319 <> w:2
+R335:337 Ionia.Proof_CodeGen <> exp def
+R340:342 Ionia.DataExp <> ary constr
+R350:352 Ionia.DataExp <> ary constr
+R359:361 Ionia.DataExp <> num constr
+R354:355 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R357:357 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R356:356 Ionia.LeNet5_Utils <> w:2 var
+R344:345 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R347:347 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R346:346 Ionia.LeNet5_Utils <> h:1 var
+binder 329:331 <> img:3
+R373:375 Corelib.Init.Datatypes <> nat ind
+binder 367:367 <> i:4
+binder 369:369 <> j:5
+R382:384 Ionia.Proof_CodeGen <> exp def
+R386:388 Ionia.DataExp <> num constr
+R401:413 Stdlib.Arith.PeanoNat Nat ltb_spec0 thm
+R415:415 Ionia.LeNet5_Utils <> i:4 var
+R417:417 Ionia.LeNet5_Utils <> h:1 var
+R428:435 Corelib.Init.Datatypes <> ReflectT constr
+R457:469 Stdlib.Arith.PeanoNat Nat ltb_spec0 thm
+R471:471 Ionia.LeNet5_Utils <> j:5 var
+R473:473 Ionia.LeNet5_Utils <> w:2 var
+R488:495 Corelib.Init.Datatypes <> ReflectT constr
+R521:522 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R533:533 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R508:509 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R520:520 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R505:507 Ionia.LeNet5_Utils <> img:3 var
+R510:516 Ionia.finType <> nat2fin def
+R523:529 Ionia.finType <> nat2fin def
+R543:550 Corelib.Init.Datatypes <> ReflectF constr
+R559:562 Ionia.Proof_CodeGen <> zero def
+R578:585 Corelib.Init.Datatypes <> ReflectF constr
+R594:597 Ionia.Proof_CodeGen <> zero def
+prf 613:629 <> conv_flat_c_bound
+R648:650 Corelib.Init.Datatypes <> nat ind
+binder 641:642 <> ic:6
+binder 644:644 <> k:7
+R661:663 Ionia.finType <> fin def
+R672:674 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R668:670 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R666:667 Ionia.LeNet5_Utils <> ic:6 var
+R671:671 Ionia.LeNet5_Utils <> k:7 var
+R675:675 Ionia.LeNet5_Utils <> k:7 var
+binder 654:657 <> flat:8
+R686:688 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R685:685 Ionia.LeNet5_Utils <> k:7 var
+binder 680:681 <> Hk:9
+R725:727 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R695:701 Stdlib.Arith.PeanoNat Nat div def
+R704:710 Ionia.finType <> fin2nat def
+R712:715 Ionia.LeNet5_Utils <> flat:8 var
+R720:722 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R719:719 Ionia.LeNet5_Utils <> k:7 var
+R723:723 Ionia.LeNet5_Utils <> k:7 var
+R728:729 Ionia.LeNet5_Utils <> ic:6 var
+R789:810 Stdlib.Arith.PeanoNat Nat div_lt_upper_bound abbrev
+R828:839 Stdlib.Arith.PeanoNat Nat mul_comm thm
+prf 859:876 <> conv_flat_di_bound
+R895:897 Corelib.Init.Datatypes <> nat ind
+binder 888:889 <> ic:10
+binder 891:891 <> k:11
+R908:910 Ionia.finType <> fin def
+R919:921 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R915:917 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R913:914 Ionia.LeNet5_Utils <> ic:10 var
+R918:918 Ionia.LeNet5_Utils <> k:11 var
+R922:922 Ionia.LeNet5_Utils <> k:11 var
+binder 901:904 <> flat:12
+R933:935 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R932:932 Ionia.LeNet5_Utils <> k:11 var
+binder 927:928 <> Hk:13
+R987:989 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R942:948 Stdlib.Arith.PeanoNat Nat div def
+R951:960 Stdlib.Arith.PeanoNat Nat modulo def
+R963:969 Ionia.finType <> fin2nat def
+R971:974 Ionia.LeNet5_Utils <> flat:12 var
+R979:981 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R978:978 Ionia.LeNet5_Utils <> k:11 var
+R982:982 Ionia.LeNet5_Utils <> k:11 var
+R986:986 Ionia.LeNet5_Utils <> k:11 var
+R990:990 Ionia.LeNet5_Utils <> k:11 var
+R1050:1071 Stdlib.Arith.PeanoNat Nat div_lt_upper_bound abbrev
+R1087:1105 Stdlib.Arith.PeanoNat Nat mod_upper_bound def
+prf 1125:1142 <> conv_flat_dj_bound
+R1161:1163 Corelib.Init.Datatypes <> nat ind
+binder 1154:1155 <> ic:14
+binder 1157:1157 <> k:15
+R1174:1176 Ionia.finType <> fin def
+R1185:1187 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R1181:1183 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R1179:1180 Ionia.LeNet5_Utils <> ic:14 var
+R1184:1184 Ionia.LeNet5_Utils <> k:15 var
+R1188:1188 Ionia.LeNet5_Utils <> k:15 var
+binder 1167:1170 <> flat:16
+R1199:1201 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R1198:1198 Ionia.LeNet5_Utils <> k:15 var
+binder 1193:1194 <> Hk:17
+R1235:1237 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R1208:1217 Stdlib.Arith.PeanoNat Nat modulo def
+R1220:1226 Ionia.finType <> fin2nat def
+R1228:1231 Ionia.LeNet5_Utils <> flat:16 var
+R1234:1234 Ionia.LeNet5_Utils <> k:15 var
+R1238:1238 Ionia.LeNet5_Utils <> k:15 var
+R1298:1316 Stdlib.Arith.PeanoNat Nat mod_upper_bound def
+R1494:1510 Ionia.LeNet5_Utils <> conv_flat_c_bound thm
+R1540:1557 Ionia.LeNet5_Utils <> conv_flat_di_bound thm
+R1587:1604 Ionia.LeNet5_Utils <> conv_flat_dj_bound thm

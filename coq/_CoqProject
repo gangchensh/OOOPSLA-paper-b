@@ -1,0 +1,105 @@
+-R src/Ionia Ionia
+
+# ---- Verification core ----
+src/Ionia/finType.v
+src/Ionia/vector.v
+src/Ionia/easy_logic.v
+src/Ionia/DataExp.v
+src/Ionia/Proof_CodeGen.v
+src/Ionia/DPIA_Rules.v
+src/Ionia/Parallel_Safety.v
+
+# ---- Route B dependencies (required by the A/B bridges) ----
+src/Ionia/CNN_Defs.v
+src/Ionia/CNN_OP.v
+src/Ionia/CNN_Model.v
+src/Ionia/CNN_CodeGen_Core.v
+src/Ionia/CNN_CodeGen_Semantics.v
+src/Ionia/CNN_CodeGen_Combinators.v
+src/Ionia/Operators_Sem_Equiv.v
+src/Ionia/FusionTactics.v
+src/Ionia/CNN_Examples_Base.v
+src/Ionia/CNN_Examples_Base_Ops.v
+src/Ionia/CNN_Examples_LeNet5.v
+src/Ionia/CNN_Examples_ResNet18.v
+src/Ionia/CNN_Examples_VGG16.v
+
+# ---- Printer backend (CG_comm) ----
+src/Ionia/CNN_CodeGen.v
+
+# ---- Operator layer ----
+src/Ionia/LeNet5_Utils.v
+src/Ionia/LeNet5_Functional.v
+src/Ionia/LeNet5_Imperative.v
+src/Ionia/Ops_Elementwise.v
+src/Ionia/Ops_Reduce.v
+src/Ionia/Ops_Conv.v
+src/Ionia/Ops_PoolPad.v
+src/Ionia/Ops_BatchNorm.v
+src/Ionia/Ops_Concat.v
+src/Ionia/Ops_GConv.v
+src/Ionia/Ops_Transformer.v
+src/Ionia/Ops_RNN.v
+src/Ionia/Ops_LLaMA.v
+src/Ionia/LeNet5_DPIA.v
+
+# ---- Optimization rules ----
+src/Ionia/Opt_Tiling.v
+src/Ionia/Opt_Fusion.v
+src/Ionia/Opt_ParGranularity.v
+src/Ionia/Opt_TiledConv.v
+src/Ionia/Opt_BlockFusion.v
+src/Ionia/Opt_HierPar.v
+src/Ionia/Opt_ApproxError.v
+src/Ionia/Opt_ApproxError_Apply.v
+src/Ionia/Opt_OnlineSoftmax.v
+src/Ionia/Opt_OnlineSoftmax_Acc.v
+src/Ionia/Opt_QuantError.v
+
+# ---- End-to-end networks (11 CNNs + MiniTransformer = 12) ----
+src/Ionia/AlexNet_DPIA.v
+src/Ionia/VGG16_DPIA.v
+src/Ionia/ResNet18_DPIA.v
+src/Ionia/ResNet50_DPIA.v
+src/Ionia/GoogLeNet_DPIA.v
+src/Ionia/MobileNetV1_DPIA.v
+src/Ionia/DenseNet121_DPIA.v
+src/Ionia/SqueezeNet_DPIA.v
+src/Ionia/ResNeXt50_DPIA.v
+src/Ionia/EfficientNetB0_DPIA.v
+src/Ionia/Attention_DPIA.v
+src/Ionia/MiniTransformer_DPIA.v
+src/Ionia/MiniTransformer_AST.v
+src/Ionia/MiniTransformer_AST_Faithful.v
+
+# ---- NLP / LLM networks ----
+src/Ionia/TextCNN_DPIA.v
+src/Ionia/Seq2Seq_DPIA.v
+src/Ionia/BiLSTM_DPIA.v
+src/Ionia/BERTMini_DPIA.v
+src/Ionia/GPT2Mini_DPIA.v
+src/Ionia/T5Mini_DPIA.v
+src/Ionia/LLaMAMini_DPIA.v
+src/Ionia/Ops_LLaMA_Variants.v
+src/Ionia/Ops_MoE.v
+src/Ionia/MLA_DPIA.v
+src/Ionia/LLM_Variants_DPIA.v
+src/Ionia/KVCache.v
+src/Ionia/Opt_QuantError_LLaMA.v
+
+# ---- A/B bridges ----
+src/Ionia/Bridge_Pilot.v
+src/Ionia/Bridge_Elementwise.v
+src/Ionia/Bridge_ReduceConv.v
+src/Ionia/Bridge_ReduceConv2.v
+src/Ionia/Bridge_LeNet5.v
+src/Ionia/Bridge_AlexNet.v
+src/Ionia/Bridge_VGG16.v
+src/Ionia/Bridge_ResNet18_Blocks.v
+src/Ionia/Bridge_ResNet18.v
+
+# ---- Parallel versions ----
+src/Ionia/LeNet5_Par.v
+src/Ionia/AlexNet_Par.v
+src/Ionia/VGG16_Par.v
+src/Ionia/ResNet18_Par.v

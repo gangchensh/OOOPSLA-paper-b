@@ -1,0 +1,3165 @@
+DIGEST af92f59e8b764e4176bae69edbbf5f95
+FIonia.Bridge_ReduceConv
+R3712:3716 Stdlib.Reals.Reals <> <> lib
+R3718:3723 Stdlib.Strings.String <> <> lib
+R3725:3729 Stdlib.Arith.Arith <> <> lib
+R3731:3733 Stdlib.micromega.Lia <> <> lib
+R3735:3738 Stdlib.Bool.Bool <> <> lib
+R3768:3797 Stdlib.Logic.FunctionalExtensionality <> <> lib
+R3799:3820 Stdlib.Logic.ProofIrrelevance <> <> lib
+R3838:3850 Ionia.finType <> <> lib
+R3852:3863 Ionia.vector <> <> lib
+R3865:3877 Ionia.DataExp <> <> lib
+R3879:3892 Ionia.CNN_Defs <> <> lib
+R3896:3917 Ionia.CNN_CodeGen_Core <> <> lib
+R3919:3937 Ionia.Proof_CodeGen <> <> lib
+R3939:3954 Ionia.DPIA_Rules <> <> lib
+R3958:3984 Ionia.CNN_CodeGen_Semantics <> <> lib
+R3986:4008 Ionia.CNN_Examples_Base <> <> lib
+R4012:4038 Ionia.CNN_Examples_Base_Ops <> <> lib
+R4040:4051 Ionia.CNN_OP <> <> lib
+R4053:4077 Ionia.Operators_Sem_Equiv <> <> lib
+R4081:4098 Ionia.LeNet5_Utils <> <> lib
+R4100:4122 Ionia.LeNet5_Functional <> <> lib
+R4124:4146 Ionia.LeNet5_Imperative <> <> lib
+R4150:4166 Ionia.LeNet5_DPIA <> <> lib
+R4168:4181 Ionia.Ops_Conv <> <> lib
+R4183:4198 Ionia.Ops_Reduce <> <> lib
+R4200:4216 Ionia.Ops_PoolPad <> <> lib
+R4233:4245 Ionia.DataExp <> <> mod
+mod 4227:4228 <> DE
+R4261:4274 Ionia.CNN_Defs <> <> mod
+mod 4255:4256 <> CD
+R4290:4311 Ionia.CNN_CodeGen_Core <> <> mod
+mod 4284:4285 <> CG
+R4328:4346 Ionia.Proof_CodeGen <> <> mod
+mod 4321:4323 <> PCG
+R4362:4377 Ionia.DPIA_Rules <> <> mod
+mod 4356:4357 <> DR
+R4394:4420 Ionia.CNN_CodeGen_Semantics <> <> mod
+mod 4387:4389 <> SEM
+R4437:4459 Ionia.CNN_Examples_Base <> <> mod
+mod 4430:4432 <> CEB
+R4476:4502 Ionia.CNN_Examples_Base_Ops <> <> mod
+mod 4469:4471 <> CEO
+R4519:4530 Ionia.CNN_OP <> <> mod
+mod 4512:4514 <> COP
+R4547:4571 Ionia.Operators_Sem_Equiv <> <> mod
+mod 4540:4542 <> OSE
+R4587:4604 Ionia.LeNet5_Utils <> <> mod
+mod 4581:4582 <> LU
+R4620:4642 Ionia.LeNet5_Functional <> <> mod
+mod 4614:4615 <> LF
+R4658:4680 Ionia.LeNet5_Imperative <> <> mod
+mod 4652:4653 <> LI
+R4696:4712 Ionia.LeNet5_DPIA <> <> mod
+mod 4690:4691 <> LD
+R4728:4741 Ionia.Ops_Conv <> <> mod
+mod 4722:4723 <> OC
+R4757:4772 Ionia.Ops_Reduce <> <> mod
+mod 4751:4752 <> OR
+R4788:4804 Ionia.Ops_PoolPad <> <> mod
+mod 4782:4783 <> OP
+R4819:4830 Ionia.vector <> <> mod
+mod 4814:4814 <> V
+prf 5147:5163 <> to_pcg_mkvSeq_ext
+R5179:5181 Corelib.Init.Datatypes <> nat ind
+binder 5175:5175 <> n:1
+R5189:5192 Ionia.DataExp <> data ind
+binder 5185:5185 <> d:2
+R5207:5210 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5202:5204 Ionia.finType <> fin def
+R5206:5206 Ionia.Bridge_ReduceConv <> n:1 var
+R5211:5216 Ionia.Bridge_ReduceConv <> exp def
+R5218:5218 Ionia.Bridge_ReduceConv <> d:2 var
+binder 5198:5198 <> f:3
+R5231:5234 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5226:5228 Ionia.finType <> fin def
+R5230:5230 Ionia.Bridge_ReduceConv <> n:1 var
+R5235:5241 Ionia.Bridge_ReduceConv <> exp def
+R5243:5243 Ionia.Bridge_ReduceConv <> d:2 var
+binder 5222:5222 <> g:4
+R5253:5259 Ionia.Bridge_ReduceConv <> env def
+binder 5247:5249 <> rho:5
+R5265:5265 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5306:5312 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 5273:5273 <> i:6
+R5300:5302 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5276:5289 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R5297:5299 Ionia.Bridge_ReduceConv <> rho:5 var
+R5292:5292 Ionia.Bridge_ReduceConv <> f:3 var
+R5294:5294 Ionia.Bridge_ReduceConv <> i:6 var
+R5303:5303 Ionia.Bridge_ReduceConv <> g:4 var
+R5305:5305 Ionia.Bridge_ReduceConv <> i:6 var
+R5345:5347 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5313:5326 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R5342:5344 Ionia.Bridge_ReduceConv <> rho:5 var
+R5329:5337 Ionia.Bridge_ReduceConv <> mkvSeq def
+R5339:5339 Ionia.Bridge_ReduceConv <> f:3 var
+R5348:5357 Ionia.Bridge_ReduceConv <> mkvSeq def
+R5359:5359 Ionia.Bridge_ReduceConv <> g:4 var
+R5403:5423 Ionia.Bridge_ReduceConv <> to_pcg_exp_mkvSeq thm
+R5435:5444 Ionia.Bridge_ReduceConv <> mkvSeq def
+R5455:5466 Ionia.Bridge_ReduceConv <> mk_vec_ext thm
+prf 5807:5822 <> cd_sum_mkvSeq_Sn
+R5838:5840 Corelib.Init.Datatypes <> nat ind
+binder 5834:5834 <> n:7
+R5857:5860 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5848:5850 Ionia.finType <> fin def
+R5853:5853 Corelib.Init.Datatypes <> S constr
+R5855:5855 Ionia.Bridge_ReduceConv <> n:7 var
+R5861:5866 Ionia.Bridge_ReduceConv <> exp def
+R5868:5870 Ionia.DataExp <> num constr
+binder 5844:5844 <> f:8
+R5896:5900 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5876:5881 Ionia.Bridge_ReduceConv <> sum def
+R5884:5892 Ionia.Bridge_ReduceConv <> mkvSeq def
+R5894:5894 Ionia.Bridge_ReduceConv <> f:8 var
+R5901:5906 Ionia.Bridge_ReduceConv <> add def
+R5921:5926 Ionia.Bridge_ReduceConv <> sum def
+R5929:5937 Ionia.Bridge_ReduceConv <> mkvSeq def
+R5948:5950 Ionia.finType <> fin def
+R5952:5952 Ionia.Bridge_ReduceConv <> n:7 var
+binder 5944:5944 <> i:9
+R5957:5957 Ionia.Bridge_ReduceConv <> f:8 var
+R5960:5967 Ionia.finType <> fin2finS def
+R5969:5969 Ionia.Bridge_ReduceConv <> i:9 var
+R5909:5909 Ionia.Bridge_ReduceConv <> f:8 var
+R5912:5914 Ionia.finType <> ltS def
+R5916:5916 Ionia.Bridge_ReduceConv <> n:7 var
+R6004:6009 Ionia.Bridge_ReduceConv <> sum def
+R6012:6020 Ionia.Bridge_ReduceConv <> mkvSeq def
+R6031:6041 Ionia.Bridge_ReduceConv <> mk_vec_Sn thm
+prf 6146:6162 <> pcg_sum_mkvSeq_Sn
+R6178:6180 Corelib.Init.Datatypes <> nat ind
+binder 6174:6174 <> n:10
+R6197:6200 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6188:6190 Ionia.finType <> fin def
+R6193:6193 Corelib.Init.Datatypes <> S constr
+R6195:6195 Ionia.Bridge_ReduceConv <> n:10 var
+R6201:6207 Ionia.Bridge_ReduceConv <> exp def
+R6209:6211 Ionia.DataExp <> num constr
+binder 6184:6184 <> f:11
+R6239:6243 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6217:6223 Ionia.Bridge_ReduceConv <> sum def
+R6226:6235 Ionia.Bridge_ReduceConv <> mkvSeq def
+R6237:6237 Ionia.Bridge_ReduceConv <> f:11 var
+R6244:6248 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rplus defax
+R6251:6251 Ionia.Bridge_ReduceConv <> f:11 var
+R6254:6256 Ionia.finType <> ltS def
+R6258:6258 Ionia.Bridge_ReduceConv <> n:10 var
+R6263:6269 Ionia.Bridge_ReduceConv <> sum def
+R6272:6281 Ionia.Bridge_ReduceConv <> mkvSeq def
+R6292:6294 Ionia.finType <> fin def
+R6296:6296 Ionia.Bridge_ReduceConv <> n:10 var
+binder 6288:6288 <> i:12
+R6301:6301 Ionia.Bridge_ReduceConv <> f:11 var
+R6304:6311 Ionia.finType <> fin2finS def
+R6313:6313 Ionia.Bridge_ReduceConv <> i:12 var
+R6348:6354 Ionia.Bridge_ReduceConv <> sum def
+R6357:6366 Ionia.Bridge_ReduceConv <> mkvSeq def
+R6377:6387 Ionia.Bridge_ReduceConv <> mk_vec_Sn thm
+prf 6501:6517 <> to_pcg_sum_mkvSeq
+R6533:6535 Corelib.Init.Datatypes <> nat ind
+binder 6529:6529 <> n:13
+R6548:6551 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6543:6545 Ionia.finType <> fin def
+R6547:6547 Ionia.Bridge_ReduceConv <> n:13 var
+R6552:6557 Ionia.Bridge_ReduceConv <> exp def
+R6559:6561 Ionia.DataExp <> num constr
+binder 6539:6539 <> f:14
+R6571:6577 Ionia.Bridge_ReduceConv <> env def
+binder 6565:6567 <> rho:15
+R6624:6628 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6583:6596 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R6621:6623 Ionia.Bridge_ReduceConv <> rho:15 var
+R6599:6604 Ionia.Bridge_ReduceConv <> sum def
+R6607:6615 Ionia.Bridge_ReduceConv <> mkvSeq def
+R6617:6617 Ionia.Bridge_ReduceConv <> f:14 var
+R6629:6635 Ionia.Bridge_ReduceConv <> sum def
+R6638:6647 Ionia.Bridge_ReduceConv <> mkvSeq def
+binder 6654:6654 <> i:16
+R6659:6672 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R6680:6682 Ionia.Bridge_ReduceConv <> rho:15 var
+R6675:6675 Ionia.Bridge_ReduceConv <> f:14 var
+R6677:6677 Ionia.Bridge_ReduceConv <> i:16 var
+R6750:6755 Ionia.Bridge_ReduceConv <> sum def
+R6758:6766 Ionia.Bridge_ReduceConv <> mkvSeq def
+R6769:6775 Ionia.Bridge_ReduceConv <> sum def
+R6778:6787 Ionia.Bridge_ReduceConv <> mkvSeq def
+R6809:6827 Ionia.Bridge_ReduceConv <> to_pcg_exp_zero thm
+R6855:6870 Ionia.Bridge_ReduceConv <> cd_sum_mkvSeq_Sn thm
+R6881:6898 Ionia.Bridge_ReduceConv <> to_pcg_exp_add thm
+R6926:6942 Ionia.Bridge_ReduceConv <> pcg_sum_mkvSeq_Sn thm
+prf 7049:7064 <> cd_max_mkvSeq_Sn
+R7080:7082 Corelib.Init.Datatypes <> nat ind
+binder 7076:7076 <> n:17
+R7099:7102 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7090:7092 Ionia.finType <> fin def
+R7095:7095 Corelib.Init.Datatypes <> S constr
+R7097:7097 Ionia.Bridge_ReduceConv <> n:17 var
+R7103:7108 Ionia.Bridge_ReduceConv <> exp def
+R7110:7112 Ionia.DataExp <> num constr
+binder 7086:7086 <> f:18
+R7138:7142 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7118:7123 Ionia.Bridge_ReduceConv <> max def
+R7126:7134 Ionia.Bridge_ReduceConv <> mkvSeq def
+R7136:7136 Ionia.Bridge_ReduceConv <> f:18 var
+R7143:7146 Ionia.DataExp <> REif constr
+R7253:7258 Ionia.Bridge_ReduceConv <> max def
+R7261:7269 Ionia.Bridge_ReduceConv <> mkvSeq def
+R7280:7282 Ionia.finType <> fin def
+R7284:7284 Ionia.Bridge_ReduceConv <> n:17 var
+binder 7276:7276 <> i:19
+R7289:7289 Ionia.Bridge_ReduceConv <> f:18 var
+R7292:7299 Ionia.finType <> fin2finS def
+R7301:7301 Ionia.Bridge_ReduceConv <> i:19 var
+R7234:7234 Ionia.Bridge_ReduceConv <> f:18 var
+R7237:7239 Ionia.finType <> ltS def
+R7241:7241 Ionia.Bridge_ReduceConv <> n:17 var
+R7149:7156 Ionia.Bridge_ReduceConv <> gtExp def
+R7171:7176 Ionia.Bridge_ReduceConv <> max def
+R7179:7187 Ionia.Bridge_ReduceConv <> mkvSeq def
+R7198:7200 Ionia.finType <> fin def
+R7202:7202 Ionia.Bridge_ReduceConv <> n:17 var
+binder 7194:7194 <> i:20
+R7207:7207 Ionia.Bridge_ReduceConv <> f:18 var
+R7210:7217 Ionia.finType <> fin2finS def
+R7219:7219 Ionia.Bridge_ReduceConv <> i:20 var
+R7159:7159 Ionia.Bridge_ReduceConv <> f:18 var
+R7162:7164 Ionia.finType <> ltS def
+R7166:7166 Ionia.Bridge_ReduceConv <> n:17 var
+R7336:7341 Ionia.Bridge_ReduceConv <> max def
+R7344:7352 Ionia.Bridge_ReduceConv <> mkvSeq def
+R7363:7373 Ionia.Bridge_ReduceConv <> mk_vec_Sn thm
+prf 7478:7494 <> pcg_max_mkvSeq_Sn
+R7510:7512 Corelib.Init.Datatypes <> nat ind
+binder 7506:7506 <> n:21
+R7529:7532 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7520:7522 Ionia.finType <> fin def
+R7525:7525 Corelib.Init.Datatypes <> S constr
+R7527:7527 Ionia.Bridge_ReduceConv <> n:21 var
+R7533:7539 Ionia.Bridge_ReduceConv <> exp def
+R7541:7543 Ionia.DataExp <> num constr
+binder 7516:7516 <> f:22
+R7571:7576 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7739:7739 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7549:7555 Ionia.Bridge_ReduceConv <> max def
+R7558:7567 Ionia.Bridge_ReduceConv <> mkvSeq def
+R7569:7569 Ionia.Bridge_ReduceConv <> f:22 var
+R7580:7588 Ionia.Bridge_ReduceConv <> gtExp def
+R7603:7609 Ionia.Bridge_ReduceConv <> max def
+R7612:7621 Ionia.Bridge_ReduceConv <> mkvSeq def
+R7632:7634 Ionia.finType <> fin def
+R7636:7636 Ionia.Bridge_ReduceConv <> n:21 var
+binder 7628:7628 <> i:23
+R7641:7641 Ionia.Bridge_ReduceConv <> f:22 var
+R7644:7651 Ionia.finType <> fin2finS def
+R7653:7653 Ionia.Bridge_ReduceConv <> i:23 var
+R7591:7591 Ionia.Bridge_ReduceConv <> f:22 var
+R7594:7596 Ionia.finType <> ltS def
+R7598:7598 Ionia.Bridge_ReduceConv <> n:21 var
+R7685:7691 Ionia.Bridge_ReduceConv <> max def
+R7694:7703 Ionia.Bridge_ReduceConv <> mkvSeq def
+R7714:7716 Ionia.finType <> fin def
+R7718:7718 Ionia.Bridge_ReduceConv <> n:21 var
+binder 7710:7710 <> i:24
+R7723:7723 Ionia.Bridge_ReduceConv <> f:22 var
+R7726:7733 Ionia.finType <> fin2finS def
+R7735:7735 Ionia.Bridge_ReduceConv <> i:24 var
+R7667:7667 Ionia.Bridge_ReduceConv <> f:22 var
+R7670:7672 Ionia.finType <> ltS def
+R7674:7674 Ionia.Bridge_ReduceConv <> n:21 var
+R7770:7776 Ionia.Bridge_ReduceConv <> max def
+R7779:7788 Ionia.Bridge_ReduceConv <> mkvSeq def
+R7799:7809 Ionia.Bridge_ReduceConv <> mk_vec_Sn thm
+prf 7936:7952 <> to_pcg_max_mkvSeq
+R7968:7970 Corelib.Init.Datatypes <> nat ind
+binder 7964:7964 <> n:25
+R7983:7986 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7978:7980 Ionia.finType <> fin def
+R7982:7982 Ionia.Bridge_ReduceConv <> n:25 var
+R7987:7992 Ionia.Bridge_ReduceConv <> exp def
+R7994:7996 Ionia.DataExp <> num constr
+binder 7974:7974 <> f:26
+R8006:8012 Ionia.Bridge_ReduceConv <> env def
+binder 8000:8002 <> rho:27
+R8059:8063 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8018:8031 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R8056:8058 Ionia.Bridge_ReduceConv <> rho:27 var
+R8034:8039 Ionia.Bridge_ReduceConv <> max def
+R8042:8050 Ionia.Bridge_ReduceConv <> mkvSeq def
+R8052:8052 Ionia.Bridge_ReduceConv <> f:26 var
+R8064:8070 Ionia.Bridge_ReduceConv <> max def
+R8073:8082 Ionia.Bridge_ReduceConv <> mkvSeq def
+binder 8089:8089 <> i:28
+R8094:8107 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R8115:8117 Ionia.Bridge_ReduceConv <> rho:27 var
+R8110:8110 Ionia.Bridge_ReduceConv <> f:26 var
+R8112:8112 Ionia.Bridge_ReduceConv <> i:28 var
+R8185:8190 Ionia.Bridge_ReduceConv <> max def
+R8193:8201 Ionia.Bridge_ReduceConv <> mkvSeq def
+R8204:8210 Ionia.Bridge_ReduceConv <> max def
+R8213:8222 Ionia.Bridge_ReduceConv <> mkvSeq def
+R8244:8262 Ionia.Bridge_ReduceConv <> to_pcg_exp_zero thm
+R8290:8305 Ionia.Bridge_ReduceConv <> cd_max_mkvSeq_Sn thm
+R8320:8338 Ionia.Bridge_ReduceConv <> to_pcg_exp_REif thm
+R8341:8358 Ionia.Bridge_ReduceConv <> to_pcg_exp_BGt thm
+R8378:8394 Ionia.Bridge_ReduceConv <> pcg_max_mkvSeq_Sn thm
+R8404:8412 Ionia.Bridge_ReduceConv <> gtExp def
+prf 8765:8780 <> pcg_sum_mkvSeq_0
+R8801:8804 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8796:8798 Ionia.finType <> fin def
+R8805:8811 Ionia.Bridge_ReduceConv <> exp def
+R8813:8815 Ionia.DataExp <> num constr
+binder 8792:8792 <> f:29
+R8843:8845 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8821:8827 Ionia.Bridge_ReduceConv <> sum def
+R8830:8839 Ionia.Bridge_ReduceConv <> mkvSeq def
+R8841:8841 Ionia.Bridge_ReduceConv <> f:29 var
+R8846:8847 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R0 defax
+R8875:8881 Ionia.Bridge_ReduceConv <> sum def
+R8884:8893 Ionia.Bridge_ReduceConv <> mkvSeq def
+prf 8983:9000 <> pcg_sum_mkvSeq_nat
+R9016:9018 Corelib.Init.Datatypes <> nat ind
+binder 9012:9012 <> n:30
+R9031:9034 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9026:9028 Ionia.finType <> fin def
+R9030:9030 Ionia.Bridge_ReduceConv <> n:30 var
+R9035:9041 Ionia.Bridge_ReduceConv <> exp def
+R9043:9045 Ionia.DataExp <> num constr
+binder 9022:9022 <> f:31
+R9056:9061 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9052:9054 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R9051:9051 Ionia.Bridge_ReduceConv <> n:30 var
+R9084:9086 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9062:9068 Ionia.Bridge_ReduceConv <> sum def
+R9071:9080 Ionia.Bridge_ReduceConv <> mkvSeq def
+R9082:9082 Ionia.Bridge_ReduceConv <> f:31 var
+R9087:9102 Ionia.Bridge_ReduceConv <> sumR_nat_fin def
+binder 9109:9109 <> k:32
+binder 9111:9112 <> Hk:33
+R9117:9117 Ionia.Bridge_ReduceConv <> f:31 var
+R9120:9126 Ionia.finType <> nat2fin def
+R9128:9129 Ionia.Bridge_ReduceConv <> Hk:33 var
+R9245:9261 Ionia.Bridge_ReduceConv <> pcg_sum_mkvSeq_Sn thm
+R9272:9287 Ionia.Bridge_ReduceConv <> pcg_sum_mkvSeq_0 thm
+R9306:9323 Ionia.Bridge_ReduceConv <> sumR_nat_fin_S thm
+binder 9332:9332 <> k:34
+binder 9334:9335 <> Hk:35
+R9343:9349 Ionia.finType <> nat2fin def
+R9351:9352 Ionia.Bridge_ReduceConv <> Hk:35 var
+binder 9332:9332 <> k:36
+binder 9334:9335 <> Hk:37
+R9351:9352 Ionia.Bridge_ReduceConv <> Hk:37 var
+binder 9332:9332 <> k:38
+binder 9334:9335 <> Hk:39
+R9351:9352 Ionia.Bridge_ReduceConv <> Hk:39 var
+R9476:9478 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9377:9392 Ionia.Bridge_ReduceConv <> sumR_nat_fin def
+binder 9420:9420 <> k:40
+R9429:9431 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R9428:9428 Ionia.Bridge_ReduceConv <> k:40 var
+binder 9423:9424 <> Hk:41
+R9441:9447 Ionia.finType <> nat2fin def
+R9450:9465 Stdlib.Arith.PeanoNat Nat lt_lt_succ_r thm
+R9467:9467 Ionia.Bridge_ReduceConv <> k:40 var
+R9471:9472 Ionia.Bridge_ReduceConv <> Hk:41 var
+R9479:9480 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R0 defax
+binder 9420:9420 <> k:42
+R9428:9428 Ionia.Bridge_ReduceConv <> k:42 var
+binder 9423:9424 <> Hk:43
+R9467:9467 Ionia.Bridge_ReduceConv <> k:42 var
+R9471:9472 Ionia.Bridge_ReduceConv <> Hk:43 var
+R9499:9514 Ionia.Bridge_ReduceConv <> sumR_nat_fin def
+R9563:9570 Corelib.Init.Logic <> f_equal2 thm
+R9604:9610 Corelib.Init.Logic <> f_equal thm
+R9619:9625 Ionia.finType <> fin_eq' thm
+R9655:9671 Ionia.Bridge_ReduceConv <> pcg_sum_mkvSeq_Sn thm
+R9710:9727 Ionia.Bridge_ReduceConv <> sumR_nat_fin_S thm
+R9730:9730 Corelib.Init.Datatypes <> S constr
+binder 9742:9742 <> k:44
+binder 9744:9745 <> Hk:45
+R9753:9759 Ionia.finType <> nat2fin def
+R9761:9762 Ionia.Bridge_ReduceConv <> Hk:45 var
+binder 9742:9742 <> k:46
+binder 9744:9745 <> Hk:47
+R9761:9762 Ionia.Bridge_ReduceConv <> Hk:47 var
+binder 9742:9742 <> k:48
+binder 9744:9745 <> Hk:49
+R9761:9762 Ionia.Bridge_ReduceConv <> Hk:49 var
+R9780:9787 Corelib.Init.Logic <> f_equal2 thm
+R9804:9810 Corelib.Init.Logic <> f_equal thm
+R9819:9825 Ionia.finType <> fin_eq' thm
+R9855:9873 Ionia.Bridge_ReduceConv <> sumR_nat_fin_eq thm
+R9903:9909 Corelib.Init.Logic <> f_equal thm
+R9918:9924 Ionia.finType <> fin_eq' thm
+prf 9952:9967 <> pcg_max_mkvSeq_0
+R9988:9991 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9983:9985 Ionia.finType <> fin def
+R9992:9998 Ionia.Bridge_ReduceConv <> exp def
+R10000:10002 Ionia.DataExp <> num constr
+binder 9979:9979 <> f:50
+R10030:10032 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10008:10014 Ionia.Bridge_ReduceConv <> max def
+R10017:10026 Ionia.Bridge_ReduceConv <> mkvSeq def
+R10028:10028 Ionia.Bridge_ReduceConv <> f:50 var
+R10033:10034 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R0 defax
+R10062:10068 Ionia.Bridge_ReduceConv <> max def
+R10071:10080 Ionia.Bridge_ReduceConv <> mkvSeq def
+prf 10161:10178 <> pcg_max_mkvSeq_SnR
+R10194:10196 Corelib.Init.Datatypes <> nat ind
+binder 10190:10190 <> n:51
+R10213:10216 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10204:10206 Ionia.finType <> fin def
+R10209:10209 Corelib.Init.Datatypes <> S constr
+R10211:10211 Ionia.Bridge_ReduceConv <> n:51 var
+R10217:10223 Ionia.Bridge_ReduceConv <> exp def
+R10225:10227 Ionia.DataExp <> num constr
+binder 10200:10200 <> f:52
+R10255:10259 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10233:10239 Ionia.Bridge_ReduceConv <> max def
+R10242:10251 Ionia.Bridge_ReduceConv <> mkvSeq def
+R10253:10253 Ionia.Bridge_ReduceConv <> f:52 var
+R10260:10263 Stdlib.Reals.Rbasic_fun <> Rmax def
+R10266:10266 Ionia.Bridge_ReduceConv <> f:52 var
+R10269:10271 Ionia.finType <> ltS def
+R10273:10273 Ionia.Bridge_ReduceConv <> n:51 var
+R10278:10284 Ionia.Bridge_ReduceConv <> max def
+R10287:10296 Ionia.Bridge_ReduceConv <> mkvSeq def
+R10307:10309 Ionia.finType <> fin def
+R10311:10311 Ionia.Bridge_ReduceConv <> n:51 var
+binder 10303:10303 <> i:53
+R10316:10316 Ionia.Bridge_ReduceConv <> f:52 var
+R10319:10326 Ionia.finType <> fin2finS def
+R10328:10328 Ionia.Bridge_ReduceConv <> i:53 var
+R10364:10380 Ionia.Bridge_ReduceConv <> pcg_max_mkvSeq_Sn thm
+R10390:10398 Ionia.Bridge_ReduceConv <> gtExp def
+R10411:10429 Ionia.Bridge_ReduceConv <> Rgt_dec_if_Rmax thm
+prf 10512:10529 <> pcg_max_mkvSeq_nat
+R10545:10547 Corelib.Init.Datatypes <> nat ind
+binder 10541:10541 <> n:54
+R10560:10563 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10555:10557 Ionia.finType <> fin def
+R10559:10559 Ionia.Bridge_ReduceConv <> n:54 var
+R10564:10570 Ionia.Bridge_ReduceConv <> exp def
+R10572:10574 Ionia.DataExp <> num constr
+binder 10551:10551 <> f:55
+R10585:10590 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10581:10583 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R10580:10580 Ionia.Bridge_ReduceConv <> n:54 var
+R10613:10615 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10591:10597 Ionia.Bridge_ReduceConv <> max def
+R10600:10609 Ionia.Bridge_ReduceConv <> mkvSeq def
+R10611:10611 Ionia.Bridge_ReduceConv <> f:55 var
+R10616:10631 Ionia.Bridge_ReduceConv <> maxR_nat_fin def
+binder 10638:10638 <> k:56
+binder 10640:10641 <> Hk:57
+R10646:10646 Ionia.Bridge_ReduceConv <> f:55 var
+R10649:10655 Ionia.finType <> nat2fin def
+R10657:10658 Ionia.Bridge_ReduceConv <> Hk:57 var
+R10774:10791 Ionia.Bridge_ReduceConv <> pcg_max_mkvSeq_SnR thm
+R10802:10817 Ionia.Bridge_ReduceConv <> pcg_max_mkvSeq_0 thm
+R10836:10853 Ionia.Bridge_ReduceConv <> maxR_nat_fin_S thm
+binder 10862:10862 <> k:58
+binder 10864:10865 <> Hk:59
+R10873:10879 Ionia.finType <> nat2fin def
+R10881:10882 Ionia.Bridge_ReduceConv <> Hk:59 var
+binder 10862:10862 <> k:60
+binder 10864:10865 <> Hk:61
+R10881:10882 Ionia.Bridge_ReduceConv <> Hk:61 var
+binder 10862:10862 <> k:62
+binder 10864:10865 <> Hk:63
+R10881:10882 Ionia.Bridge_ReduceConv <> Hk:63 var
+R11006:11008 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10907:10922 Ionia.Bridge_ReduceConv <> maxR_nat_fin def
+binder 10950:10950 <> k:64
+R10959:10961 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R10958:10958 Ionia.Bridge_ReduceConv <> k:64 var
+binder 10953:10954 <> Hk:65
+R10971:10977 Ionia.finType <> nat2fin def
+R10980:10995 Stdlib.Arith.PeanoNat Nat lt_lt_succ_r thm
+R10997:10997 Ionia.Bridge_ReduceConv <> k:64 var
+R11001:11002 Ionia.Bridge_ReduceConv <> Hk:65 var
+R11009:11010 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R0 defax
+binder 10950:10950 <> k:66
+R10958:10958 Ionia.Bridge_ReduceConv <> k:66 var
+binder 10953:10954 <> Hk:67
+R10997:10997 Ionia.Bridge_ReduceConv <> k:66 var
+R11001:11002 Ionia.Bridge_ReduceConv <> Hk:67 var
+R11029:11044 Ionia.Bridge_ReduceConv <> maxR_nat_fin def
+R11093:11100 Corelib.Init.Logic <> f_equal2 thm
+R11134:11140 Corelib.Init.Logic <> f_equal thm
+R11149:11155 Ionia.finType <> fin_eq' thm
+R11185:11202 Ionia.Bridge_ReduceConv <> pcg_max_mkvSeq_SnR thm
+R11241:11258 Ionia.Bridge_ReduceConv <> maxR_nat_fin_S thm
+R11261:11261 Corelib.Init.Datatypes <> S constr
+binder 11273:11273 <> k:68
+binder 11275:11276 <> Hk:69
+R11284:11290 Ionia.finType <> nat2fin def
+R11292:11293 Ionia.Bridge_ReduceConv <> Hk:69 var
+binder 11273:11273 <> k:70
+binder 11275:11276 <> Hk:71
+R11292:11293 Ionia.Bridge_ReduceConv <> Hk:71 var
+binder 11273:11273 <> k:72
+binder 11275:11276 <> Hk:73
+R11292:11293 Ionia.Bridge_ReduceConv <> Hk:73 var
+R11311:11318 Corelib.Init.Logic <> f_equal2 thm
+R11335:11341 Corelib.Init.Logic <> f_equal thm
+R11350:11356 Ionia.finType <> fin_eq' thm
+R11386:11404 Ionia.Bridge_ReduceConv <> maxR_nat_fin_eq thm
+R11434:11440 Corelib.Init.Logic <> f_equal thm
+R11449:11455 Ionia.finType <> fin_eq' thm
+prf 11551:11574 <> fin2nat_fst_idx_1d_to_2d
+R11592:11594 Corelib.Init.Datatypes <> nat ind
+binder 11586:11586 <> m:74
+binder 11588:11588 <> n:75
+R11604:11606 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R11603:11603 Ionia.Bridge_ReduceConv <> n:75 var
+binder 11598:11599 <> Hn:76
+R11615:11617 Ionia.finType <> fin def
+R11621:11623 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R11620:11620 Ionia.Bridge_ReduceConv <> m:74 var
+R11624:11624 Ionia.Bridge_ReduceConv <> n:75 var
+binder 11611:11611 <> x:77
+R11663:11665 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11631:11637 Ionia.finType <> fin2nat def
+R11640:11642 Corelib.Init.Datatypes <> fst def
+R11645:11658 Ionia.Bridge_ReduceConv <> idx_1d_to_2d def
+R11660:11660 Ionia.Bridge_ReduceConv <> x:77 var
+R11675:11677 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R11666:11672 Ionia.finType <> fin2nat def
+R11674:11674 Ionia.Bridge_ReduceConv <> x:77 var
+R11678:11678 Ionia.Bridge_ReduceConv <> n:75 var
+prf 11795:11818 <> fin2nat_snd_idx_1d_to_2d
+R11836:11838 Corelib.Init.Datatypes <> nat ind
+binder 11830:11830 <> m:78
+binder 11832:11832 <> n:79
+R11848:11850 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R11847:11847 Ionia.Bridge_ReduceConv <> n:79 var
+binder 11842:11843 <> Hn:80
+R11859:11861 Ionia.finType <> fin def
+R11865:11867 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R11864:11864 Ionia.Bridge_ReduceConv <> m:78 var
+R11868:11868 Ionia.Bridge_ReduceConv <> n:79 var
+binder 11855:11855 <> x:81
+R11907:11909 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11875:11881 Ionia.finType <> fin2nat def
+R11884:11886 Corelib.Init.Datatypes <> snd def
+R11889:11902 Ionia.Bridge_ReduceConv <> idx_1d_to_2d def
+R11904:11904 Ionia.Bridge_ReduceConv <> x:81 var
+R11919:11923 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'mod'_x not
+R11910:11916 Ionia.finType <> fin2nat def
+R11918:11918 Ionia.Bridge_ReduceConv <> x:81 var
+R11924:11924 Ionia.Bridge_ReduceConv <> n:79 var
+prf 12285:12299 <> interp_Linear1d
+R12322:12324 Corelib.Init.Datatypes <> nat ind
+binder 12311:12311 <> m:82
+binder 12313:12318 <> outnum:83
+R12334:12339 Ionia.Bridge_ReduceConv <> exp def
+R12342:12344 Ionia.DataExp <> ary constr
+R12357:12359 Ionia.DataExp <> ary constr
+R12366:12368 Ionia.DataExp <> num constr
+R12361:12362 Ionia.DataExp <> :::'''{'_x_'}' not
+R12364:12364 Ionia.DataExp <> :::'''{'_x_'}' not
+R12363:12363 Ionia.Bridge_ReduceConv <> m:82 var
+R12346:12347 Ionia.DataExp <> :::'''{'_x_'}' not
+R12354:12354 Ionia.DataExp <> :::'''{'_x_'}' not
+R12348:12353 Ionia.Bridge_ReduceConv <> outnum:83 var
+binder 12330:12330 <> w:84
+R12380:12385 Ionia.Bridge_ReduceConv <> exp def
+R12388:12390 Ionia.DataExp <> ary constr
+R12402:12404 Ionia.DataExp <> num constr
+R12392:12393 Ionia.DataExp <> :::'''{'_x_'}' not
+R12400:12400 Ionia.DataExp <> :::'''{'_x_'}' not
+R12394:12399 Ionia.Bridge_ReduceConv <> outnum:83 var
+binder 12376:12376 <> b:85
+R12419:12424 Ionia.Bridge_ReduceConv <> exp def
+R12427:12429 Ionia.DataExp <> ary constr
+R12436:12438 Ionia.DataExp <> num constr
+R12431:12432 Ionia.DataExp <> :::'''{'_x_'}' not
+R12434:12434 Ionia.DataExp <> :::'''{'_x_'}' not
+R12433:12433 Ionia.Bridge_ReduceConv <> m:82 var
+binder 12411:12415 <> input:86
+R12449:12455 Ionia.Bridge_ReduceConv <> env def
+binder 12443:12445 <> rho:87
+R12502:12506 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12461:12474 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R12499:12501 Ionia.Bridge_ReduceConv <> rho:87 var
+R12477:12486 Ionia.Bridge_ReduceConv <> Linear def
+R12492:12496 Ionia.Bridge_ReduceConv <> input:86 var
+R12490:12490 Ionia.Bridge_ReduceConv <> b:85 var
+R12488:12488 Ionia.Bridge_ReduceConv <> w:84 var
+R12507:12517 Ionia.Bridge_ReduceConv <> Linear1d def
+R12570:12583 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R12591:12593 Ionia.Bridge_ReduceConv <> rho:87 var
+R12585:12589 Ionia.Bridge_ReduceConv <> input:86 var
+R12543:12556 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R12560:12562 Ionia.Bridge_ReduceConv <> rho:87 var
+R12558:12558 Ionia.Bridge_ReduceConv <> b:85 var
+R12520:12533 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R12537:12539 Ionia.Bridge_ReduceConv <> rho:87 var
+R12535:12535 Ionia.Bridge_ReduceConv <> w:84 var
+R12646:12655 Ionia.Bridge_ReduceConv <> Linear def
+R12658:12668 Ionia.Bridge_ReduceConv <> Linear1d def
+R12679:12695 Ionia.Bridge_ReduceConv <> to_pcg_mkvSeq_ext thm
+R12719:12736 Ionia.Bridge_ReduceConv <> to_pcg_exp_add thm
+R12739:12756 Ionia.Bridge_ReduceConv <> to_pcg_exp_idx thm
+R12759:12775 Ionia.Bridge_ReduceConv <> to_pcg_sum_mkvSeq thm
+R12786:12793 Corelib.Init.Logic <> f_equal2 thm
+R12823:12829 Corelib.Init.Logic <> f_equal thm
+R12838:12849 Ionia.Bridge_ReduceConv <> mk_vec_ext thm
+R12871:12888 Ionia.Bridge_ReduceConv <> to_pcg_exp_mul thm
+R12908:12925 Ionia.Bridge_ReduceConv <> to_pcg_exp_idx thm
+prf 12957:12971 <> Bridge_Linear1d
+R12994:12996 Corelib.Init.Datatypes <> nat ind
+binder 12983:12983 <> m:88
+binder 12985:12990 <> outnum:89
+R13006:13011 Ionia.Bridge_ReduceConv <> exp def
+R13014:13016 Ionia.DataExp <> ary constr
+R13029:13031 Ionia.DataExp <> ary constr
+R13038:13040 Ionia.DataExp <> num constr
+R13033:13034 Ionia.DataExp <> :::'''{'_x_'}' not
+R13036:13036 Ionia.DataExp <> :::'''{'_x_'}' not
+R13035:13035 Ionia.Bridge_ReduceConv <> m:88 var
+R13018:13019 Ionia.DataExp <> :::'''{'_x_'}' not
+R13026:13026 Ionia.DataExp <> :::'''{'_x_'}' not
+R13020:13025 Ionia.Bridge_ReduceConv <> outnum:89 var
+binder 13002:13002 <> w:90
+R13052:13057 Ionia.Bridge_ReduceConv <> exp def
+R13060:13062 Ionia.DataExp <> ary constr
+R13074:13076 Ionia.DataExp <> num constr
+R13064:13065 Ionia.DataExp <> :::'''{'_x_'}' not
+R13072:13072 Ionia.DataExp <> :::'''{'_x_'}' not
+R13066:13071 Ionia.Bridge_ReduceConv <> outnum:89 var
+binder 13048:13048 <> b:91
+R13091:13096 Ionia.Bridge_ReduceConv <> exp def
+R13099:13101 Ionia.DataExp <> ary constr
+R13108:13110 Ionia.DataExp <> num constr
+R13103:13104 Ionia.DataExp <> :::'''{'_x_'}' not
+R13106:13106 Ionia.DataExp <> :::'''{'_x_'}' not
+R13105:13105 Ionia.Bridge_ReduceConv <> m:88 var
+binder 13083:13087 <> input:92
+R13126:13131 Ionia.Bridge_ReduceConv <> acc def
+R13134:13136 Ionia.DataExp <> ary constr
+R13148:13150 Ionia.DataExp <> num constr
+R13138:13139 Ionia.DataExp <> :::'''{'_x_'}' not
+R13146:13146 Ionia.DataExp <> :::'''{'_x_'}' not
+R13140:13145 Ionia.Bridge_ReduceConv <> outnum:89 var
+binder 13117:13122 <> output:93
+R13161:13167 Ionia.Bridge_ReduceConv <> env def
+binder 13155:13157 <> rho:94
+R13224:13229 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13173:13198 Ionia.Bridge_ReduceConv <> exp_independent_of_acc def
+R13206:13223 Ionia.Bridge_ReduceConv <> tmp_scalar_acc def
+R13200:13204 Ionia.Bridge_ReduceConv <> input:92 var
+R13277:13282 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13230:13255 Ionia.Bridge_ReduceConv <> exp_independent_of_acc def
+R13259:13276 Ionia.Bridge_ReduceConv <> tmp_scalar_acc def
+R13257:13257 Ionia.Bridge_ReduceConv <> w:90 var
+R13330:13335 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13283:13308 Ionia.Bridge_ReduceConv <> exp_independent_of_acc def
+R13312:13329 Ionia.Bridge_ReduceConv <> tmp_scalar_acc def
+R13310:13310 Ionia.Bridge_ReduceConv <> b:91 var
+R13336:13336 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13427:13433 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13354:13359 Ionia.Bridge_ReduceConv <> acc def
+R13362:13364 Ionia.DataExp <> ary constr
+R13376:13378 Ionia.DataExp <> num constr
+R13366:13367 Ionia.DataExp <> :::'''{'_x_'}' not
+R13374:13374 Ionia.DataExp <> :::'''{'_x_'}' not
+R13368:13373 Ionia.Bridge_ReduceConv <> outnum:89 var
+binder 13344:13350 <> output':95
+R13387:13412 Ionia.Bridge_ReduceConv <> exp_independent_of_acc def
+R13420:13426 Ionia.Bridge_ReduceConv <> output':95 var
+R13414:13418 Ionia.Bridge_ReduceConv <> input:92 var
+R13434:13434 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13521:13527 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13452:13457 Ionia.Bridge_ReduceConv <> acc def
+R13460:13462 Ionia.DataExp <> ary constr
+R13474:13476 Ionia.DataExp <> num constr
+R13464:13465 Ionia.DataExp <> :::'''{'_x_'}' not
+R13472:13472 Ionia.DataExp <> :::'''{'_x_'}' not
+R13466:13471 Ionia.Bridge_ReduceConv <> outnum:89 var
+binder 13442:13448 <> output':96
+R13485:13510 Ionia.Bridge_ReduceConv <> exp_independent_of_acc def
+R13514:13520 Ionia.Bridge_ReduceConv <> output':96 var
+R13512:13512 Ionia.Bridge_ReduceConv <> w:90 var
+R13528:13528 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13615:13621 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13546:13551 Ionia.Bridge_ReduceConv <> acc def
+R13554:13556 Ionia.DataExp <> ary constr
+R13568:13570 Ionia.DataExp <> num constr
+R13558:13559 Ionia.DataExp <> :::'''{'_x_'}' not
+R13566:13566 Ionia.DataExp <> :::'''{'_x_'}' not
+R13560:13565 Ionia.Bridge_ReduceConv <> outnum:89 var
+binder 13536:13542 <> output':97
+R13579:13604 Ionia.Bridge_ReduceConv <> exp_independent_of_acc def
+R13608:13614 Ionia.Bridge_ReduceConv <> output':97 var
+R13606:13606 Ionia.Bridge_ReduceConv <> b:91 var
+R13664:13669 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13622:13649 Ionia.Bridge_ReduceConv <> tmp_disjoint_from_output def
+R13658:13663 Ionia.Bridge_ReduceConv <> output:93 var
+R13651:13656 Ionia.Bridge_ReduceConv <> outnum:89 var
+R13670:13670 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13723:13729 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13672:13690 Ionia.Bridge_ReduceConv <> StructUndefined def
+R13692:13694 Ionia.DataExp <> num constr
+R13697:13704 Ionia.Bridge_ReduceConv <> acc' def
+R13706:13717 Ionia.Bridge_ReduceConv <> tmp_path def
+R13720:13722 Ionia.Bridge_ReduceConv <> rho:94 var
+R13779:13783 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13730:13737 Ionia.Bridge_ReduceConv <> eval def
+R13776:13778 Ionia.Bridge_ReduceConv <> rho:94 var
+R13740:13756 Ionia.Bridge_ReduceConv <> Linear1d_comm def
+R13768:13773 Ionia.Bridge_ReduceConv <> output:93 var
+R13762:13766 Ionia.Bridge_ReduceConv <> input:92 var
+R13760:13760 Ionia.Bridge_ReduceConv <> b:91 var
+R13758:13758 Ionia.Bridge_ReduceConv <> w:90 var
+R13784:13799 Ionia.Bridge_ReduceConv <> Linear1d_comm def
+R13885:13887 Ionia.Bridge_ReduceConv <> rho:94 var
+R13878:13883 Ionia.Bridge_ReduceConv <> output:93 var
+R13852:13865 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R13873:13875 Ionia.Bridge_ReduceConv <> rho:94 var
+R13867:13871 Ionia.Bridge_ReduceConv <> input:92 var
+R13825:13838 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R13842:13844 Ionia.Bridge_ReduceConv <> rho:94 var
+R13840:13840 Ionia.Bridge_ReduceConv <> b:91 var
+R13802:13815 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R13819:13821 Ionia.Bridge_ReduceConv <> rho:94 var
+R13817:13817 Ionia.Bridge_ReduceConv <> w:90 var
+R13985:14000 Ionia.Bridge_ReduceConv <> Linear1d_sem thm
+R14045:14048 Ionia.Bridge_ReduceConv <> A def
+R14062:14076 Ionia.Bridge_ReduceConv <> eval_assign thm
+R14093:14105 Ionia.Bridge_ReduceConv <> A_Linear1d thm
+R14167:14180 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R14140:14153 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R14117:14130 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R14209:14212 Ionia.Bridge_ReduceConv <> A def
+R14235:14249 Ionia.Bridge_ReduceConv <> interp_Linear1d thm
+prf 14508:14523 <> interp_Softmax1d
+R14539:14541 Corelib.Init.Datatypes <> nat ind
+binder 14535:14535 <> n:98
+R14555:14560 Ionia.Bridge_ReduceConv <> exp def
+R14563:14565 Ionia.DataExp <> ary constr
+R14572:14574 Ionia.DataExp <> num constr
+R14567:14568 Ionia.DataExp <> :::'''{'_x_'}' not
+R14570:14570 Ionia.DataExp <> :::'''{'_x_'}' not
+R14569:14569 Ionia.Bridge_ReduceConv <> n:98 var
+binder 14547:14551 <> input:99
+R14585:14591 Ionia.Bridge_ReduceConv <> env def
+binder 14579:14581 <> rho:100
+R14637:14641 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14597:14610 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R14634:14636 Ionia.Bridge_ReduceConv <> rho:100 var
+R14613:14625 Ionia.Bridge_ReduceConv <> Softmax1d def
+R14627:14631 Ionia.Bridge_ReduceConv <> input:99 var
+R14642:14653 Ionia.Bridge_ReduceConv <> Softmax1d def
+R14656:14669 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R14677:14679 Ionia.Bridge_ReduceConv <> rho:100 var
+R14671:14675 Ionia.Bridge_ReduceConv <> input:99 var
+R14721:14733 Ionia.Bridge_ReduceConv <> Softmax1d def
+R14736:14747 Ionia.Bridge_ReduceConv <> Softmax1d def
+R14755:14768 Ionia.Bridge_ReduceConv <> let_binding def
+R14790:14806 Ionia.Bridge_ReduceConv <> to_pcg_mkvSeq_ext thm
+R14828:14845 Ionia.Bridge_ReduceConv <> to_pcg_exp_div thm
+R14848:14866 Ionia.Bridge_ReduceConv <> to_pcg_exp_pExp thm
+R14869:14886 Ionia.Bridge_ReduceConv <> to_pcg_exp_idx thm
+R14893:14909 Ionia.Bridge_ReduceConv <> to_pcg_sum_mkvSeq thm
+R14920:14927 Corelib.Init.Logic <> f_equal2 thm
+R14957:14963 Corelib.Init.Logic <> f_equal thm
+R14972:14983 Ionia.Bridge_ReduceConv <> mk_vec_ext thm
+R15005:15023 Ionia.Bridge_ReduceConv <> to_pcg_exp_pExp thm
+R15026:15043 Ionia.Bridge_ReduceConv <> to_pcg_exp_idx thm
+prf 15075:15090 <> Bridge_Softmax1d
+R15106:15108 Corelib.Init.Datatypes <> nat ind
+binder 15102:15102 <> n:101
+R15122:15127 Ionia.Bridge_ReduceConv <> exp def
+R15130:15132 Ionia.DataExp <> ary constr
+R15139:15141 Ionia.DataExp <> num constr
+R15134:15135 Ionia.DataExp <> :::'''{'_x_'}' not
+R15137:15137 Ionia.DataExp <> :::'''{'_x_'}' not
+R15136:15136 Ionia.Bridge_ReduceConv <> n:101 var
+binder 15114:15118 <> input:102
+R15157:15162 Ionia.Bridge_ReduceConv <> acc def
+R15165:15167 Ionia.DataExp <> ary constr
+R15174:15176 Ionia.DataExp <> num constr
+R15169:15170 Ionia.DataExp <> :::'''{'_x_'}' not
+R15172:15172 Ionia.DataExp <> :::'''{'_x_'}' not
+R15171:15171 Ionia.Bridge_ReduceConv <> n:101 var
+binder 15148:15153 <> output:103
+R15187:15193 Ionia.Bridge_ReduceConv <> env def
+binder 15181:15183 <> rho:104
+R15250:15255 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15199:15224 Ionia.Bridge_ReduceConv <> exp_independent_of_acc def
+R15232:15249 Ionia.Bridge_ReduceConv <> tmp_scalar_acc def
+R15226:15230 Ionia.Bridge_ReduceConv <> input:102 var
+R15256:15256 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15342:15348 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15274:15279 Ionia.Bridge_ReduceConv <> acc def
+R15282:15284 Ionia.DataExp <> ary constr
+R15291:15293 Ionia.DataExp <> num constr
+R15286:15287 Ionia.DataExp <> :::'''{'_x_'}' not
+R15289:15289 Ionia.DataExp <> :::'''{'_x_'}' not
+R15288:15288 Ionia.Bridge_ReduceConv <> n:101 var
+binder 15264:15270 <> output':105
+R15302:15327 Ionia.Bridge_ReduceConv <> exp_independent_of_acc def
+R15335:15341 Ionia.Bridge_ReduceConv <> output':105 var
+R15329:15333 Ionia.Bridge_ReduceConv <> input:102 var
+R15349:15349 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15460:15466 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15362:15365 Ionia.DataExp <> path ind
+binder 15358:15358 <> p:106
+R15373:15375 Ionia.finType <> fin def
+R15377:15377 Ionia.Bridge_ReduceConv <> n:101 var
+binder 15369:15369 <> j:107
+R15422:15425 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15387:15396 Ionia.Bridge_ReduceConv <> in_acc def
+R15398:15400 Ionia.DataExp <> num constr
+R15402:15402 Ionia.Bridge_ReduceConv <> p:106 var
+R15404:15421 Ionia.Bridge_ReduceConv <> tmp_scalar_acc def
+R15426:15427 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R15429:15438 Ionia.Bridge_ReduceConv <> in_acc def
+R15440:15442 Ionia.DataExp <> num constr
+R15444:15444 Ionia.Bridge_ReduceConv <> p:106 var
+R15453:15456 Ionia.DataExp <> :::x_'|{'_x_'}' not
+R15458:15458 Ionia.DataExp <> :::x_'|{'_x_'}' not
+R15447:15452 Ionia.Bridge_ReduceConv <> output:103 var
+R15457:15457 Ionia.Bridge_ReduceConv <> j:107 var
+R15467:15467 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15520:15526 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15469:15487 Ionia.Bridge_ReduceConv <> StructUndefined def
+R15489:15491 Ionia.DataExp <> num constr
+R15494:15501 Ionia.Bridge_ReduceConv <> acc' def
+R15503:15514 Ionia.Bridge_ReduceConv <> tmp_path def
+R15517:15519 Ionia.Bridge_ReduceConv <> rho:104 var
+R15573:15577 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15527:15534 Ionia.Bridge_ReduceConv <> eval def
+R15570:15572 Ionia.Bridge_ReduceConv <> rho:104 var
+R15537:15554 Ionia.Bridge_ReduceConv <> Softmax1d_comm def
+R15562:15567 Ionia.Bridge_ReduceConv <> output:103 var
+R15556:15560 Ionia.Bridge_ReduceConv <> input:102 var
+R15578:15594 Ionia.Bridge_ReduceConv <> Softmax1d_comm def
+R15630:15632 Ionia.Bridge_ReduceConv <> rho:104 var
+R15623:15628 Ionia.Bridge_ReduceConv <> output:103 var
+R15597:15610 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R15618:15620 Ionia.Bridge_ReduceConv <> rho:104 var
+R15612:15616 Ionia.Bridge_ReduceConv <> input:102 var
+R15705:15721 Ionia.Bridge_ReduceConv <> Softmax1d_sem thm
+R15759:15762 Ionia.Bridge_ReduceConv <> A def
+R15776:15790 Ionia.Bridge_ReduceConv <> eval_assign thm
+R15807:15820 Ionia.Bridge_ReduceConv <> A_Softmax1d thm
+R15825:15838 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R15867:15870 Ionia.Bridge_ReduceConv <> A def
+R15893:15908 Ionia.Bridge_ReduceConv <> interp_Softmax1d thm
+prf 16572:16587 <> interp_Maxpool4d
+R16624:16626 Corelib.Init.Datatypes <> nat ind
+binder 16599:16603 <> batch:108
+binder 16605:16612 <> filernum:109
+binder 16614:16615 <> m1:110
+binder 16617:16618 <> m2:111
+binder 16620:16620 <> k:112
+R16640:16645 Ionia.Bridge_ReduceConv <> exp def
+R16648:16650 Ionia.DataExp <> ary constr
+R16662:16664 Ionia.DataExp <> ary constr
+R16679:16681 Ionia.DataExp <> ary constr
+R16690:16692 Ionia.DataExp <> ary constr
+R16700:16702 Ionia.DataExp <> num constr
+R16694:16695 Ionia.DataExp <> :::'''{'_x_'}' not
+R16698:16698 Ionia.DataExp <> :::'''{'_x_'}' not
+R16696:16697 Ionia.Bridge_ReduceConv <> m2:111 var
+R16683:16684 Ionia.DataExp <> :::'''{'_x_'}' not
+R16687:16687 Ionia.DataExp <> :::'''{'_x_'}' not
+R16685:16686 Ionia.Bridge_ReduceConv <> m1:110 var
+R16666:16667 Ionia.DataExp <> :::'''{'_x_'}' not
+R16676:16676 Ionia.DataExp <> :::'''{'_x_'}' not
+R16668:16675 Ionia.Bridge_ReduceConv <> filernum:109 var
+R16652:16653 Ionia.DataExp <> :::'''{'_x_'}' not
+R16659:16659 Ionia.DataExp <> :::'''{'_x_'}' not
+R16654:16658 Ionia.Bridge_ReduceConv <> batch:108 var
+binder 16632:16636 <> input:113
+R16718:16724 Ionia.Bridge_ReduceConv <> env def
+binder 16712:16714 <> rho:114
+R16772:16776 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16730:16743 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R16769:16771 Ionia.Bridge_ReduceConv <> rho:114 var
+R16746:16758 Ionia.Bridge_ReduceConv <> Maxpool4d def
+R16762:16766 Ionia.Bridge_ReduceConv <> input:113 var
+R16760:16760 Ionia.Bridge_ReduceConv <> k:112 var
+R16777:16788 Ionia.Bridge_ReduceConv <> Maxpool4d def
+R16793:16806 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R16814:16816 Ionia.Bridge_ReduceConv <> rho:114 var
+R16808:16812 Ionia.Bridge_ReduceConv <> input:113 var
+R16790:16790 Ionia.Bridge_ReduceConv <> k:112 var
+R16879:16891 Ionia.Bridge_ReduceConv <> Maxpool4d def
+R16894:16905 Ionia.Bridge_ReduceConv <> Maxpool4d def
+R16916:16932 Ionia.Bridge_ReduceConv <> to_pcg_mkvSeq_ext thm
+R16952:16968 Ionia.Bridge_ReduceConv <> to_pcg_mkvSeq_ext thm
+R16990:17006 Ionia.Bridge_ReduceConv <> to_pcg_mkvSeq_ext thm
+R17027:17043 Ionia.Bridge_ReduceConv <> to_pcg_mkvSeq_ext thm
+R17066:17082 Ionia.Bridge_ReduceConv <> to_pcg_max_mkvSeq thm
+R17093:17099 Corelib.Init.Logic <> f_equal thm
+R17108:17119 Ionia.Bridge_ReduceConv <> mk_vec_ext thm
+R17142:17158 Ionia.Bridge_ReduceConv <> to_pcg_max_mkvSeq thm
+R17169:17175 Corelib.Init.Logic <> f_equal thm
+R17184:17195 Ionia.Bridge_ReduceConv <> mk_vec_ext thm
+R17225:17242 Ionia.Bridge_ReduceConv <> to_pcg_exp_idx thm
+R17253:17260 Corelib.Init.Logic <> f_equal2 thm
+R17273:17279 Ionia.finType <> fin_eq' thm
+R17291:17305 Ionia.finType <> fin2nat_nat2fin thm
+R17331:17338 Corelib.Init.Logic <> f_equal2 thm
+R17363:17369 Ionia.finType <> fin_eq' thm
+R17381:17395 Ionia.finType <> fin2nat_nat2fin thm
+prf 17427:17442 <> Bridge_Maxpool4d
+R17479:17481 Corelib.Init.Datatypes <> nat ind
+binder 17454:17458 <> batch:115
+binder 17460:17467 <> filernum:116
+binder 17469:17470 <> m1:117
+binder 17472:17473 <> m2:118
+binder 17475:17475 <> k:119
+R17497:17499 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R17492:17496 Ionia.Bridge_ReduceConv <> batch:115 var
+binder 17487:17488 <> Hb:120
+R17517:17519 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R17509:17516 Ionia.Bridge_ReduceConv <> filernum:116 var
+binder 17504:17505 <> Hf:121
+R17530:17532 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R17529:17529 Ionia.Bridge_ReduceConv <> k:119 var
+binder 17524:17525 <> Hk:122
+R17547:17552 Ionia.Bridge_ReduceConv <> exp def
+R17555:17557 Ionia.DataExp <> ary constr
+R17569:17571 Ionia.DataExp <> ary constr
+R17586:17588 Ionia.DataExp <> ary constr
+R17597:17599 Ionia.DataExp <> ary constr
+R17607:17609 Ionia.DataExp <> num constr
+R17601:17602 Ionia.DataExp <> :::'''{'_x_'}' not
+R17605:17605 Ionia.DataExp <> :::'''{'_x_'}' not
+R17603:17604 Ionia.Bridge_ReduceConv <> m2:118 var
+R17590:17591 Ionia.DataExp <> :::'''{'_x_'}' not
+R17594:17594 Ionia.DataExp <> :::'''{'_x_'}' not
+R17592:17593 Ionia.Bridge_ReduceConv <> m1:117 var
+R17573:17574 Ionia.DataExp <> :::'''{'_x_'}' not
+R17583:17583 Ionia.DataExp <> :::'''{'_x_'}' not
+R17575:17582 Ionia.Bridge_ReduceConv <> filernum:116 var
+R17559:17560 Ionia.DataExp <> :::'''{'_x_'}' not
+R17566:17566 Ionia.DataExp <> :::'''{'_x_'}' not
+R17561:17565 Ionia.Bridge_ReduceConv <> batch:115 var
+binder 17539:17543 <> input:123
+R17628:17633 Ionia.Bridge_ReduceConv <> acc def
+R17636:17638 Ionia.DataExp <> ary constr
+R17654:17656 Ionia.DataExp <> ary constr
+R17671:17673 Ionia.DataExp <> ary constr
+R17684:17686 Ionia.DataExp <> ary constr
+R17696:17698 Ionia.DataExp <> num constr
+R17688:17689 Ionia.DataExp <> :::'''{'_x_'}' not
+R17694:17694 Ionia.DataExp <> :::'''{'_x_'}' not
+R17692:17692 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R17690:17691 Ionia.Bridge_ReduceConv <> m2:118 var
+R17693:17693 Ionia.Bridge_ReduceConv <> k:119 var
+R17675:17676 Ionia.DataExp <> :::'''{'_x_'}' not
+R17681:17681 Ionia.DataExp <> :::'''{'_x_'}' not
+R17679:17679 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R17677:17678 Ionia.Bridge_ReduceConv <> m1:117 var
+R17680:17680 Ionia.Bridge_ReduceConv <> k:119 var
+R17658:17659 Ionia.DataExp <> :::'''{'_x_'}' not
+R17668:17668 Ionia.DataExp <> :::'''{'_x_'}' not
+R17660:17667 Ionia.Bridge_ReduceConv <> filernum:116 var
+R17640:17641 Ionia.DataExp <> :::'''{'_x_'}' not
+R17647:17647 Ionia.DataExp <> :::'''{'_x_'}' not
+R17642:17646 Ionia.Bridge_ReduceConv <> batch:115 var
+binder 17619:17624 <> output:124
+R17714:17720 Ionia.Bridge_ReduceConv <> env def
+binder 17708:17710 <> rho:125
+R17777:17782 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17726:17751 Ionia.Bridge_ReduceConv <> exp_independent_of_acc def
+R17759:17776 Ionia.Bridge_ReduceConv <> tmp_scalar_acc def
+R17753:17757 Ionia.Bridge_ReduceConv <> input:123 var
+R17783:17783 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17924:17930 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17801:17806 Ionia.Bridge_ReduceConv <> acc def
+R17809:17811 Ionia.DataExp <> ary constr
+R17828:17830 Ionia.DataExp <> ary constr
+R17845:17847 Ionia.DataExp <> ary constr
+R17858:17860 Ionia.DataExp <> ary constr
+R17870:17872 Ionia.DataExp <> num constr
+R17862:17863 Ionia.DataExp <> :::'''{'_x_'}' not
+R17868:17868 Ionia.DataExp <> :::'''{'_x_'}' not
+R17866:17866 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R17864:17865 Ionia.Bridge_ReduceConv <> m2:118 var
+R17867:17867 Ionia.Bridge_ReduceConv <> k:119 var
+R17849:17850 Ionia.DataExp <> :::'''{'_x_'}' not
+R17855:17855 Ionia.DataExp <> :::'''{'_x_'}' not
+R17853:17853 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R17851:17852 Ionia.Bridge_ReduceConv <> m1:117 var
+R17854:17854 Ionia.Bridge_ReduceConv <> k:119 var
+R17832:17833 Ionia.DataExp <> :::'''{'_x_'}' not
+R17842:17842 Ionia.DataExp <> :::'''{'_x_'}' not
+R17834:17841 Ionia.Bridge_ReduceConv <> filernum:116 var
+R17813:17814 Ionia.DataExp <> :::'''{'_x_'}' not
+R17820:17820 Ionia.DataExp <> :::'''{'_x_'}' not
+R17815:17819 Ionia.Bridge_ReduceConv <> batch:115 var
+binder 17791:17797 <> output':126
+R17884:17909 Ionia.Bridge_ReduceConv <> exp_independent_of_acc def
+R17917:17923 Ionia.Bridge_ReduceConv <> output':126 var
+R17911:17915 Ionia.Bridge_ReduceConv <> input:123 var
+R17996:18001 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17931:17965 Ionia.Bridge_ReduceConv <> tmp_disjoint_from_output_maxp4d def
+R17990:17995 Ionia.Bridge_ReduceConv <> output:124 var
+R17988:17988 Ionia.Bridge_ReduceConv <> k:119 var
+R17985:17986 Ionia.Bridge_ReduceConv <> m2:118 var
+R17982:17983 Ionia.Bridge_ReduceConv <> m1:117 var
+R17973:17980 Ionia.Bridge_ReduceConv <> filernum:116 var
+R17967:17971 Ionia.Bridge_ReduceConv <> batch:115 var
+R18002:18002 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18055:18061 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18004:18022 Ionia.Bridge_ReduceConv <> StructUndefined def
+R18024:18026 Ionia.DataExp <> num constr
+R18029:18036 Ionia.Bridge_ReduceConv <> acc' def
+R18038:18049 Ionia.Bridge_ReduceConv <> tmp_path def
+R18052:18054 Ionia.Bridge_ReduceConv <> rho:125 var
+R18110:18114 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18062:18069 Ionia.Bridge_ReduceConv <> eval def
+R18107:18109 Ionia.Bridge_ReduceConv <> rho:125 var
+R18072:18089 Ionia.Bridge_ReduceConv <> Maxpool4d_comm def
+R18099:18104 Ionia.Bridge_ReduceConv <> output:124 var
+R18093:18097 Ionia.Bridge_ReduceConv <> input:123 var
+R18091:18091 Ionia.Bridge_ReduceConv <> k:119 var
+R18115:18131 Ionia.Bridge_ReduceConv <> Maxpool4d_comm def
+R18169:18171 Ionia.Bridge_ReduceConv <> rho:125 var
+R18162:18167 Ionia.Bridge_ReduceConv <> output:124 var
+R18136:18149 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R18157:18159 Ionia.Bridge_ReduceConv <> rho:125 var
+R18151:18155 Ionia.Bridge_ReduceConv <> input:123 var
+R18133:18133 Ionia.Bridge_ReduceConv <> k:119 var
+R18274:18290 Ionia.Bridge_ReduceConv <> Maxpool4d_sem thm
+R18330:18333 Ionia.Bridge_ReduceConv <> A def
+R18347:18361 Ionia.Bridge_ReduceConv <> eval_assign thm
+R18378:18391 Ionia.Bridge_ReduceConv <> A_Maxpool4d thm
+R18417:18430 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R18459:18462 Ionia.Bridge_ReduceConv <> A def
+R18485:18500 Ionia.Bridge_ReduceConv <> interp_Maxpool4d thm
+prf 19293:19314 <> maxpool2_window_bounds
+binder 19325:19325 <> k:127
+R19337:19340 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19329:19331 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R19328:19328 Ionia.Bridge_ReduceConv <> k:127 var
+R19333:19335 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R19341:19341 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R19351:19356 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R19368:19368 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R19347:19349 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R19343:19345 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R19342:19342 Ionia.Bridge_ReduceConv <> k:127 var
+R19364:19366 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R19358:19362 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'mod'_x not
+R19357:19357 Ionia.Bridge_ReduceConv <> k:127 var
+R19410:19431 Stdlib.Arith.PeanoNat Nat div_lt_upper_bound abbrev
+R19449:19467 Stdlib.Arith.PeanoNat Nat mod_upper_bound def
+prf 19487:19502 <> interp_Maxpool3d
+R19526:19528 Corelib.Init.Datatypes <> nat ind
+binder 19514:19520 <> channel:128
+binder 19522:19522 <> m:129
+R19542:19547 Ionia.Bridge_ReduceConv <> exp def
+R19550:19552 Ionia.DataExp <> ary constr
+R19566:19568 Ionia.DataExp <> ary constr
+R19576:19578 Ionia.DataExp <> ary constr
+R19585:19587 Ionia.DataExp <> num constr
+R19580:19581 Ionia.DataExp <> :::'''{'_x_'}' not
+R19583:19583 Ionia.DataExp <> :::'''{'_x_'}' not
+R19582:19582 Ionia.Bridge_ReduceConv <> m:129 var
+R19570:19571 Ionia.DataExp <> :::'''{'_x_'}' not
+R19573:19573 Ionia.DataExp <> :::'''{'_x_'}' not
+R19572:19572 Ionia.Bridge_ReduceConv <> m:129 var
+R19554:19555 Ionia.DataExp <> :::'''{'_x_'}' not
+R19563:19563 Ionia.DataExp <> :::'''{'_x_'}' not
+R19556:19562 Ionia.Bridge_ReduceConv <> channel:128 var
+binder 19534:19538 <> input:130
+R19600:19606 Ionia.Bridge_ReduceConv <> env def
+binder 19594:19596 <> rho:131
+R19654:19658 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19612:19625 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R19651:19653 Ionia.Bridge_ReduceConv <> rho:131 var
+R19628:19640 Ionia.Bridge_ReduceConv <> Maxpool3d def
+R19644:19648 Ionia.Bridge_ReduceConv <> input:130 var
+R19659:19670 Ionia.Bridge_ReduceConv <> Maxpool3d def
+R19673:19686 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R19694:19696 Ionia.Bridge_ReduceConv <> rho:131 var
+R19688:19692 Ionia.Bridge_ReduceConv <> input:130 var
+R19746:19758 Ionia.Bridge_ReduceConv <> Maxpool3d def
+R19761:19772 Ionia.Bridge_ReduceConv <> Maxpool3d def
+R19783:19799 Ionia.Bridge_ReduceConv <> to_pcg_mkvSeq_ext thm
+R19819:19835 Ionia.Bridge_ReduceConv <> to_pcg_mkvSeq_ext thm
+R19856:19872 Ionia.Bridge_ReduceConv <> to_pcg_mkvSeq_ext thm
+R19895:19911 Ionia.Bridge_ReduceConv <> to_pcg_max_mkvSeq thm
+R19925:19942 Ionia.Bridge_ReduceConv <> pcg_max_mkvSeq_nat thm
+R19949:19961 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+R19980:19997 Ionia.Bridge_ReduceConv <> pcg_max_mkvSeq_nat thm
+R20004:20016 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+R20458:20464 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20171:20186 Ionia.Bridge_ReduceConv <> maxR_nat_fin def
+binder 20193:20194 <> k0:132
+R20205:20207 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R20203:20204 Ionia.Bridge_ReduceConv <> k0:132 var
+binder 20197:20199 <> Hk0:133
+R20220:20233 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R20244:20249 Ionia.Bridge_ReduceConv <> max def
+R20252:20260 Ionia.Bridge_ReduceConv <> mkvSeq def
+R20273:20275 Ionia.finType <> fin def
+binder 20267:20269 <> j1':134
+R20292:20297 Ionia.Bridge_ReduceConv <> idx def
+R20406:20412 Ionia.finType <> nat2fin def
+R20415:20436 Ionia.Bridge_ReduceConv <> fin_mul_add_lt_div thm
+R20445:20447 Ionia.Bridge_ReduceConv <> j1':134 var
+R20300:20305 Ionia.Bridge_ReduceConv <> idx def
+R20337:20343 Ionia.finType <> nat2fin def
+R20346:20367 Ionia.Bridge_ReduceConv <> fin_mul_add_lt_div thm
+R20377:20383 Ionia.finType <> nat2fin def
+R20385:20387 Ionia.Bridge_ReduceConv <> Hk0:133 var
+R20308:20313 Ionia.Bridge_ReduceConv <> idx def
+R20465:20480 Ionia.Bridge_ReduceConv <> maxR_nat_fin def
+binder 20487:20488 <> k0:135
+R20499:20501 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R20497:20498 Ionia.Bridge_ReduceConv <> k0:135 var
+binder 20491:20493 <> Hk0:136
+R20514:20529 Ionia.Bridge_ReduceConv <> maxR_nat_fin def
+binder 20536:20537 <> k1:137
+R20548:20550 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R20546:20547 Ionia.Bridge_ReduceConv <> k1:137 var
+binder 20540:20542 <> Hk1:138
+R20565:20578 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R20591:20596 Ionia.Bridge_ReduceConv <> idx def
+R20705:20711 Ionia.finType <> nat2fin def
+R20714:20735 Ionia.Bridge_ReduceConv <> fin_mul_add_lt_div thm
+R20745:20751 Ionia.finType <> nat2fin def
+R20753:20755 Ionia.Bridge_ReduceConv <> Hk1:138 var
+R20599:20604 Ionia.Bridge_ReduceConv <> idx def
+R20636:20642 Ionia.finType <> nat2fin def
+R20645:20666 Ionia.Bridge_ReduceConv <> fin_mul_add_lt_div thm
+R20676:20682 Ionia.finType <> nat2fin def
+R20684:20686 Ionia.Bridge_ReduceConv <> Hk0:136 var
+R20607:20612 Ionia.Bridge_ReduceConv <> idx def
+binder 20193:20194 <> k0:139
+R20203:20204 Ionia.Bridge_ReduceConv <> k0:139 var
+binder 20197:20199 <> Hk0:140
+binder 20267:20269 <> j1':141
+R20445:20447 Ionia.Bridge_ReduceConv <> j1':141 var
+R20385:20387 Ionia.Bridge_ReduceConv <> Hk0:140 var
+binder 20487:20488 <> k0:142
+R20497:20498 Ionia.Bridge_ReduceConv <> k0:142 var
+binder 20491:20493 <> Hk0:143
+binder 20536:20537 <> k1:144
+R20546:20547 Ionia.Bridge_ReduceConv <> k1:144 var
+binder 20540:20542 <> Hk1:145
+R20753:20755 Ionia.Bridge_ReduceConv <> Hk1:145 var
+R20684:20686 Ionia.Bridge_ReduceConv <> Hk0:143 var
+R20779:20797 Ionia.Bridge_ReduceConv <> maxR_nat_fin_eq thm
+R20827:20843 Ionia.Bridge_ReduceConv <> to_pcg_max_mkvSeq thm
+R20859:20876 Ionia.Bridge_ReduceConv <> pcg_max_mkvSeq_nat thm
+R20883:20895 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+R21276:21282 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20975:20990 Ionia.Bridge_ReduceConv <> maxR_nat_fin def
+binder 20997:20998 <> k0:146
+R21009:21011 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R21007:21008 Ionia.Bridge_ReduceConv <> k0:146 var
+binder 21001:21003 <> Hk0:147
+R21024:21039 Ionia.Bridge_ReduceConv <> maxR_nat_fin def
+binder 21046:21047 <> k1:148
+R21058:21060 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R21056:21057 Ionia.Bridge_ReduceConv <> k1:148 var
+binder 21050:21052 <> Hk1:149
+R21075:21088 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R21101:21106 Ionia.Bridge_ReduceConv <> idx def
+R21215:21221 Ionia.finType <> nat2fin def
+R21224:21245 Ionia.Bridge_ReduceConv <> fin_mul_add_lt_div thm
+R21255:21261 Ionia.finType <> nat2fin def
+R21263:21265 Ionia.Bridge_ReduceConv <> Hk1:149 var
+R21109:21114 Ionia.Bridge_ReduceConv <> idx def
+R21146:21152 Ionia.finType <> nat2fin def
+R21155:21176 Ionia.Bridge_ReduceConv <> fin_mul_add_lt_div thm
+R21186:21192 Ionia.finType <> nat2fin def
+R21194:21196 Ionia.Bridge_ReduceConv <> Hk0:147 var
+R21117:21122 Ionia.Bridge_ReduceConv <> idx def
+R21283:21298 Ionia.Bridge_ReduceConv <> maxR_nat_fin def
+binder 21305:21305 <> k:150
+R21314:21316 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R21313:21313 Ionia.Bridge_ReduceConv <> k:150 var
+R21318:21320 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+binder 21308:21309 <> Hk:151
+R21333:21346 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R21357:21362 Ionia.Bridge_ReduceConv <> idx def
+R21513:21519 Ionia.finType <> nat2fin def
+R21522:21543 Ionia.Bridge_ReduceConv <> fin_mul_add_lt_div thm
+R21565:21571 Ionia.finType <> nat2fin def
+R21574:21578 Corelib.Init.Logic <> proj2 thm
+R21581:21602 Ionia.Bridge_ReduceConv <> maxpool2_window_bounds thm
+R21604:21604 Ionia.Bridge_ReduceConv <> k:150 var
+R21606:21607 Ionia.Bridge_ReduceConv <> Hk:151 var
+R21365:21370 Ionia.Bridge_ReduceConv <> idx def
+R21400:21406 Ionia.finType <> nat2fin def
+R21409:21430 Ionia.Bridge_ReduceConv <> fin_mul_add_lt_div thm
+R21452:21458 Ionia.finType <> nat2fin def
+R21461:21465 Corelib.Init.Logic <> proj1 thm
+R21468:21489 Ionia.Bridge_ReduceConv <> maxpool2_window_bounds thm
+R21491:21491 Ionia.Bridge_ReduceConv <> k:150 var
+R21493:21494 Ionia.Bridge_ReduceConv <> Hk:151 var
+R21373:21378 Ionia.Bridge_ReduceConv <> idx def
+binder 20997:20998 <> k0:152
+R21007:21008 Ionia.Bridge_ReduceConv <> k0:152 var
+binder 21001:21003 <> Hk0:153
+binder 21046:21047 <> k1:154
+R21056:21057 Ionia.Bridge_ReduceConv <> k1:154 var
+binder 21050:21052 <> Hk1:155
+R21263:21265 Ionia.Bridge_ReduceConv <> Hk1:155 var
+R21194:21196 Ionia.Bridge_ReduceConv <> Hk0:153 var
+binder 21305:21305 <> k:156
+R21313:21313 Ionia.Bridge_ReduceConv <> k:156 var
+binder 21308:21309 <> Hk:157
+R21604:21604 Ionia.Bridge_ReduceConv <> k:156 var
+R21606:21607 Ionia.Bridge_ReduceConv <> Hk:157 var
+R21491:21491 Ionia.Bridge_ReduceConv <> k:156 var
+R21493:21494 Ionia.Bridge_ReduceConv <> Hk:157 var
+R21633:21661 Ionia.Bridge_ReduceConv <> maxR_nat_fin_nested_flat' thm
+R22260:22281 Ionia.Bridge_ReduceConv <> maxpool2_window_bounds thm
+binder 21941:21941 <> k:158
+binder 21943:21944 <> Hk:159
+R21957:21970 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R21983:21988 Ionia.Bridge_ReduceConv <> idx def
+R22145:22151 Ionia.finType <> nat2fin def
+R22154:22175 Ionia.Bridge_ReduceConv <> fin_mul_add_lt_div thm
+R22199:22205 Ionia.finType <> nat2fin def
+R22208:22212 Corelib.Init.Logic <> proj2 thm
+R22215:22236 Ionia.Bridge_ReduceConv <> maxpool2_window_bounds thm
+R22238:22238 Ionia.Bridge_ReduceConv <> k:158 var
+R22240:22241 Ionia.Bridge_ReduceConv <> Hk:159 var
+R21991:21996 Ionia.Bridge_ReduceConv <> idx def
+R22028:22034 Ionia.finType <> nat2fin def
+R22037:22058 Ionia.Bridge_ReduceConv <> fin_mul_add_lt_div thm
+R22082:22088 Ionia.finType <> nat2fin def
+R22091:22095 Corelib.Init.Logic <> proj1 thm
+R22098:22119 Ionia.Bridge_ReduceConv <> maxpool2_window_bounds thm
+R22121:22121 Ionia.Bridge_ReduceConv <> k:158 var
+R22123:22124 Ionia.Bridge_ReduceConv <> Hk:159 var
+R21999:22004 Ionia.Bridge_ReduceConv <> idx def
+binder 21710:21710 <> i:160
+binder 21712:21712 <> j:161
+binder 21714:21715 <> Hi:162
+binder 21717:21718 <> Hj:163
+R21731:21744 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R21757:21762 Ionia.Bridge_ReduceConv <> idx def
+R21870:21876 Ionia.finType <> nat2fin def
+R21879:21900 Ionia.Bridge_ReduceConv <> fin_mul_add_lt_div thm
+R21910:21916 Ionia.finType <> nat2fin def
+R21918:21919 Ionia.Bridge_ReduceConv <> Hj:163 var
+R21765:21770 Ionia.Bridge_ReduceConv <> idx def
+R21802:21808 Ionia.finType <> nat2fin def
+R21811:21832 Ionia.Bridge_ReduceConv <> fin_mul_add_lt_div thm
+R21842:21848 Ionia.finType <> nat2fin def
+R21850:21851 Ionia.Bridge_ReduceConv <> Hi:162 var
+R21773:21778 Ionia.Bridge_ReduceConv <> idx def
+R21682:21694 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+R21664:21676 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+binder 21941:21941 <> k:164
+binder 21943:21944 <> Hk:165
+R22238:22238 Ionia.Bridge_ReduceConv <> k:164 var
+R22240:22241 Ionia.Bridge_ReduceConv <> Hk:165 var
+R22121:22121 Ionia.Bridge_ReduceConv <> k:164 var
+R22123:22124 Ionia.Bridge_ReduceConv <> Hk:165 var
+binder 21710:21710 <> i:166
+binder 21712:21712 <> j:167
+binder 21714:21715 <> Hi:168
+binder 21717:21718 <> Hj:169
+R21918:21919 Ionia.Bridge_ReduceConv <> Hj:169 var
+R21850:21851 Ionia.Bridge_ReduceConv <> Hi:168 var
+R22331:22338 Corelib.Init.Logic <> f_equal2 thm
+R22372:22379 Corelib.Init.Logic <> f_equal2 thm
+R22396:22403 Corelib.Init.Logic <> f_equal2 thm
+R22439:22445 Ionia.finType <> fin_eq' thm
+R22457:22471 Ionia.finType <> fin2nat_nat2fin thm
+R22501:22507 Ionia.finType <> fin_eq' thm
+R22519:22533 Ionia.finType <> fin2nat_nat2fin thm
+R22578:22599 Ionia.Bridge_ReduceConv <> maxpool2_window_bounds thm
+R22678:22696 Ionia.Bridge_ReduceConv <> maxR_nat_fin_eq thm
+R22729:22746 Ionia.Bridge_ReduceConv <> to_pcg_exp_idx thm
+R22757:22764 Corelib.Init.Logic <> f_equal2 thm
+R22777:22784 Corelib.Init.Logic <> f_equal2 thm
+R22816:22822 Ionia.finType <> fin_eq' thm
+R22834:22848 Ionia.finType <> fin2nat_nat2fin thm
+R22864:22887 Ionia.Bridge_ReduceConv <> fin2nat_fst_idx_1d_to_2d thm
+R22894:22906 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+R22912:22918 Ionia.finType <> nat2fin def
+R22938:22952 Ionia.finType <> fin2nat_nat2fin thm
+R22970:22976 Ionia.finType <> fin_eq' thm
+R22988:23002 Ionia.finType <> fin2nat_nat2fin thm
+R23018:23041 Ionia.Bridge_ReduceConv <> fin2nat_snd_idx_1d_to_2d thm
+R23048:23060 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+R23066:23072 Ionia.finType <> nat2fin def
+R23092:23106 Ionia.finType <> fin2nat_nat2fin thm
+prf 23128:23143 <> Bridge_Maxpool3d
+R23167:23169 Corelib.Init.Datatypes <> nat ind
+binder 23155:23161 <> channel:170
+binder 23163:23163 <> m:171
+R23187:23189 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R23180:23186 Ionia.Bridge_ReduceConv <> channel:170 var
+binder 23175:23176 <> Hf:172
+R23204:23209 Ionia.Bridge_ReduceConv <> exp def
+R23212:23214 Ionia.DataExp <> ary constr
+R23228:23230 Ionia.DataExp <> ary constr
+R23238:23240 Ionia.DataExp <> ary constr
+R23247:23249 Ionia.DataExp <> num constr
+R23242:23243 Ionia.DataExp <> :::'''{'_x_'}' not
+R23245:23245 Ionia.DataExp <> :::'''{'_x_'}' not
+R23244:23244 Ionia.Bridge_ReduceConv <> m:171 var
+R23232:23233 Ionia.DataExp <> :::'''{'_x_'}' not
+R23235:23235 Ionia.DataExp <> :::'''{'_x_'}' not
+R23234:23234 Ionia.Bridge_ReduceConv <> m:171 var
+R23216:23217 Ionia.DataExp <> :::'''{'_x_'}' not
+R23225:23225 Ionia.DataExp <> :::'''{'_x_'}' not
+R23218:23224 Ionia.Bridge_ReduceConv <> channel:170 var
+binder 23196:23200 <> input:173
+R23267:23272 Ionia.Bridge_ReduceConv <> acc def
+R23275:23277 Ionia.DataExp <> ary constr
+R23291:23293 Ionia.DataExp <> ary constr
+R23303:23305 Ionia.DataExp <> ary constr
+R23314:23316 Ionia.DataExp <> num constr
+R23307:23308 Ionia.DataExp <> :::'''{'_x_'}' not
+R23312:23312 Ionia.DataExp <> :::'''{'_x_'}' not
+R23310:23310 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R23309:23309 Ionia.Bridge_ReduceConv <> m:171 var
+R23295:23296 Ionia.DataExp <> :::'''{'_x_'}' not
+R23300:23300 Ionia.DataExp <> :::'''{'_x_'}' not
+R23298:23298 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R23297:23297 Ionia.Bridge_ReduceConv <> m:171 var
+R23279:23280 Ionia.DataExp <> :::'''{'_x_'}' not
+R23288:23288 Ionia.DataExp <> :::'''{'_x_'}' not
+R23281:23287 Ionia.Bridge_ReduceConv <> channel:170 var
+binder 23258:23263 <> output:174
+R23331:23337 Ionia.Bridge_ReduceConv <> env def
+binder 23325:23327 <> rho:175
+R23394:23399 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23343:23368 Ionia.Bridge_ReduceConv <> exp_independent_of_acc def
+R23376:23393 Ionia.Bridge_ReduceConv <> tmp_scalar_acc def
+R23370:23374 Ionia.Bridge_ReduceConv <> input:173 var
+R23400:23400 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23518:23524 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23418:23423 Ionia.Bridge_ReduceConv <> acc def
+R23426:23428 Ionia.DataExp <> ary constr
+R23442:23444 Ionia.DataExp <> ary constr
+R23454:23456 Ionia.DataExp <> ary constr
+R23465:23467 Ionia.DataExp <> num constr
+R23458:23459 Ionia.DataExp <> :::'''{'_x_'}' not
+R23463:23463 Ionia.DataExp <> :::'''{'_x_'}' not
+R23461:23461 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R23460:23460 Ionia.Bridge_ReduceConv <> m:171 var
+R23446:23447 Ionia.DataExp <> :::'''{'_x_'}' not
+R23451:23451 Ionia.DataExp <> :::'''{'_x_'}' not
+R23449:23449 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R23448:23448 Ionia.Bridge_ReduceConv <> m:171 var
+R23430:23431 Ionia.DataExp <> :::'''{'_x_'}' not
+R23439:23439 Ionia.DataExp <> :::'''{'_x_'}' not
+R23432:23438 Ionia.Bridge_ReduceConv <> channel:170 var
+binder 23408:23414 <> output':176
+R23478:23503 Ionia.Bridge_ReduceConv <> exp_independent_of_acc def
+R23511:23517 Ionia.Bridge_ReduceConv <> output':176 var
+R23505:23509 Ionia.Bridge_ReduceConv <> input:173 var
+R23581:23586 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23525:23559 Ionia.Bridge_ReduceConv <> tmp_disjoint_from_output_maxp3d def
+R23575:23580 Ionia.Bridge_ReduceConv <> output:174 var
+R23571:23571 Ionia.Bridge_ReduceConv <> m:171 var
+R23569:23569 Ionia.Bridge_ReduceConv <> m:171 var
+R23561:23567 Ionia.Bridge_ReduceConv <> channel:170 var
+R23587:23587 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23640:23646 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23589:23607 Ionia.Bridge_ReduceConv <> StructUndefined def
+R23609:23611 Ionia.DataExp <> num constr
+R23614:23621 Ionia.Bridge_ReduceConv <> acc' def
+R23623:23634 Ionia.Bridge_ReduceConv <> tmp_path def
+R23637:23639 Ionia.Bridge_ReduceConv <> rho:175 var
+R23695:23699 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23647:23654 Ionia.Bridge_ReduceConv <> eval def
+R23692:23694 Ionia.Bridge_ReduceConv <> rho:175 var
+R23657:23674 Ionia.Bridge_ReduceConv <> Maxpool3d_comm def
+R23684:23689 Ionia.Bridge_ReduceConv <> output:174 var
+R23678:23682 Ionia.Bridge_ReduceConv <> input:173 var
+R23700:23716 Ionia.Bridge_ReduceConv <> Maxpool3d_comm def
+R23752:23754 Ionia.Bridge_ReduceConv <> rho:175 var
+R23745:23750 Ionia.Bridge_ReduceConv <> output:174 var
+R23719:23732 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R23740:23742 Ionia.Bridge_ReduceConv <> rho:175 var
+R23734:23738 Ionia.Bridge_ReduceConv <> input:173 var
+R23838:23854 Ionia.Bridge_ReduceConv <> Maxpool3d_sem thm
+R23860:23872 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+R23906:23909 Ionia.Bridge_ReduceConv <> A def
+R23923:23937 Ionia.Bridge_ReduceConv <> eval_assign thm
+R23954:23967 Ionia.Bridge_ReduceConv <> A_Maxpool3d thm
+R23980:23993 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R24022:24025 Ionia.Bridge_ReduceConv <> A def
+R24048:24063 Ionia.Bridge_ReduceConv <> interp_Maxpool3d thm
+prf 24840:24857 <> to_pcg_exp_vmk_vec
+R24873:24875 Corelib.Init.Datatypes <> nat ind
+binder 24869:24869 <> n:177
+R24883:24886 Ionia.DataExp <> data ind
+binder 24879:24879 <> d:178
+R24901:24904 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R24896:24898 Ionia.finType <> fin def
+R24900:24900 Ionia.Bridge_ReduceConv <> n:177 var
+R24905:24910 Ionia.Bridge_ReduceConv <> exp def
+R24912:24912 Ionia.Bridge_ReduceConv <> d:178 var
+binder 24892:24892 <> f:179
+R24922:24928 Ionia.Bridge_ReduceConv <> env def
+binder 24916:24918 <> rho:180
+R24983:24987 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24934:24947 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R24980:24982 Ionia.Bridge_ReduceConv <> rho:180 var
+R24968:24975 Ionia.Bridge_ReduceConv <> mk_vec def
+R24977:24977 Ionia.Bridge_ReduceConv <> f:179 var
+R24955:24957 Ionia.DataExp <> ary constr
+R24964:24964 Ionia.Bridge_ReduceConv <> d:178 var
+R24959:24960 Ionia.DataExp <> :::'''{'_x_'}' not
+R24962:24962 Ionia.DataExp <> :::'''{'_x_'}' not
+R24961:24961 Ionia.Bridge_ReduceConv <> n:177 var
+R24988:24997 Ionia.Bridge_ReduceConv <> mkvSeq def
+binder 25004:25004 <> i:181
+R25009:25022 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R25030:25032 Ionia.Bridge_ReduceConv <> rho:180 var
+R25025:25025 Ionia.Bridge_ReduceConv <> f:179 var
+R25027:25027 Ionia.Bridge_ReduceConv <> i:181 var
+R25070:25083 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R25094:25103 Ionia.Bridge_ReduceConv <> mkvSeq def
+R25114:25125 Ionia.Bridge_ReduceConv <> mk_vec_ext thm
+R25173:25181 Ionia.finType <> fin_proof def
+R25147:25160 Ionia.Bridge_ReduceConv <> v_nth_mk_vec thm
+R25197:25211 Ionia.finType <> nat2fin_fin2nat thm
+prf 25370:25380 <> to_pcg_join
+R25396:25399 Ionia.DataExp <> data ind
+binder 25392:25392 <> t:182
+R25409:25411 Corelib.Init.Datatypes <> nat ind
+binder 25403:25403 <> m:183
+binder 25405:25405 <> n:184
+R25421:25426 Ionia.Bridge_ReduceConv <> exp def
+R25429:25431 Ionia.DataExp <> ary constr
+R25439:25441 Ionia.DataExp <> ary constr
+R25448:25448 Ionia.Bridge_ReduceConv <> t:182 var
+R25443:25444 Ionia.DataExp <> :::'''{'_x_'}' not
+R25446:25446 Ionia.DataExp <> :::'''{'_x_'}' not
+R25445:25445 Ionia.Bridge_ReduceConv <> n:184 var
+R25433:25434 Ionia.DataExp <> :::'''{'_x_'}' not
+R25436:25436 Ionia.DataExp <> :::'''{'_x_'}' not
+R25435:25435 Ionia.Bridge_ReduceConv <> m:183 var
+binder 25417:25417 <> e:185
+R25460:25466 Ionia.Bridge_ReduceConv <> env def
+binder 25454:25456 <> rho:186
+R25502:25504 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25472:25485 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R25499:25501 Ionia.Bridge_ReduceConv <> rho:186 var
+R25488:25494 Ionia.Bridge_ReduceConv <> join def
+R25496:25496 Ionia.Bridge_ReduceConv <> e:185 var
+R25505:25512 Ionia.Bridge_ReduceConv <> join def
+R25515:25528 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R25532:25534 Ionia.Bridge_ReduceConv <> rho:186 var
+R25530:25530 Ionia.Bridge_ReduceConv <> e:185 var
+R25574:25580 Ionia.Bridge_ReduceConv <> join def
+R25583:25590 Ionia.Bridge_ReduceConv <> v_join def
+R25593:25600 Ionia.Bridge_ReduceConv <> join def
+R25613:25630 Ionia.Bridge_ReduceConv <> to_pcg_exp_vmk_vec thm
+R25641:25652 Ionia.Bridge_ReduceConv <> mk_vec_ext thm
+R25679:25685 Ionia.finType <> fle2nat def
+R25687:25694 Ionia.finType <> fle_self def
+R25710:25723 Ionia.Bridge_ReduceConv <> idx_1d_to_2d def
+R25755:25761 Ionia.Bridge_ReduceConv <> v_idx def
+R25783:25789 Ionia.Bridge_ReduceConv <> v_nth def
+R25792:25804 Ionia.Bridge_ReduceConv <> default_vec def
+R25809:25822 Ionia.Bridge_ReduceConv <> exp_default def
+R25764:25777 Ionia.Bridge_ReduceConv <> exp_default def
+R25846:25851 Ionia.Bridge_ReduceConv <> idx def
+R25854:25859 Ionia.Bridge_ReduceConv <> idx def
+R25887:25904 Ionia.Bridge_ReduceConv <> to_pcg_exp_idx thm
+prf 25934:25949 <> interp_Flatten3d
+R25977:25979 Corelib.Init.Datatypes <> nat ind
+binder 25961:25967 <> channel:187
+binder 25969:25970 <> m1:188
+binder 25972:25973 <> m2:189
+R25997:25999 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R25990:25996 Ionia.Bridge_ReduceConv <> channel:187 var
+binder 25985:25986 <> Hc:190
+R26012:26014 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R26010:26011 Ionia.Bridge_ReduceConv <> m1:188 var
+binder 26004:26006 <> Hm1:191
+R26027:26029 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R26025:26026 Ionia.Bridge_ReduceConv <> m2:189 var
+binder 26019:26021 <> Hm2:192
+R26044:26049 Ionia.Bridge_ReduceConv <> exp def
+R26052:26054 Ionia.DataExp <> ary constr
+R26068:26070 Ionia.DataExp <> ary constr
+R26079:26081 Ionia.DataExp <> ary constr
+R26089:26091 Ionia.DataExp <> num constr
+R26083:26084 Ionia.DataExp <> :::'''{'_x_'}' not
+R26087:26087 Ionia.DataExp <> :::'''{'_x_'}' not
+R26085:26086 Ionia.Bridge_ReduceConv <> m2:189 var
+R26072:26073 Ionia.DataExp <> :::'''{'_x_'}' not
+R26076:26076 Ionia.DataExp <> :::'''{'_x_'}' not
+R26074:26075 Ionia.Bridge_ReduceConv <> m1:188 var
+R26056:26057 Ionia.DataExp <> :::'''{'_x_'}' not
+R26065:26065 Ionia.DataExp <> :::'''{'_x_'}' not
+R26058:26064 Ionia.Bridge_ReduceConv <> channel:187 var
+binder 26036:26040 <> input:193
+R26104:26110 Ionia.Bridge_ReduceConv <> env def
+binder 26098:26100 <> rho:194
+R26156:26160 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26116:26129 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R26153:26155 Ionia.Bridge_ReduceConv <> rho:194 var
+R26132:26144 Ionia.Bridge_ReduceConv <> Flatten3d def
+R26146:26150 Ionia.Bridge_ReduceConv <> input:193 var
+R26161:26172 Ionia.Bridge_ReduceConv <> Flatten3d def
+R26175:26188 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R26196:26198 Ionia.Bridge_ReduceConv <> rho:194 var
+R26190:26194 Ionia.Bridge_ReduceConv <> input:193 var
+R26263:26275 Ionia.Bridge_ReduceConv <> Flatten3d def
+R26278:26289 Ionia.Bridge_ReduceConv <> Flatten3d def
+R26303:26313 Ionia.Bridge_ReduceConv <> to_pcg_join thm
+R26325:26332 Ionia.Bridge_ReduceConv <> join def
+R26343:26354 Ionia.Bridge_ReduceConv <> mk_vec_ext thm
+R26388:26401 Ionia.Bridge_ReduceConv <> idx_1d_to_2d def
+R26451:26453 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R26446:26448 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R26467:26481 Stdlib.Arith.PeanoNat Nat mul_pos_pos thm
+R26508:26521 Ionia.Bridge_ReduceConv <> idx_mkvSeq thm
+R26557:26570 Ionia.Bridge_ReduceConv <> idx_1d_to_2d def
+prf 26623:26638 <> Bridge_Flatten3d
+R26666:26668 Corelib.Init.Datatypes <> nat ind
+binder 26650:26656 <> channel:195
+binder 26658:26659 <> m1:196
+binder 26661:26662 <> m2:197
+R26686:26688 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R26679:26685 Ionia.Bridge_ReduceConv <> channel:195 var
+binder 26674:26675 <> Hc:198
+R26701:26703 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R26699:26700 Ionia.Bridge_ReduceConv <> m1:196 var
+binder 26693:26695 <> Hm1:199
+R26716:26718 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R26714:26715 Ionia.Bridge_ReduceConv <> m2:197 var
+binder 26708:26710 <> Hm2:200
+R26733:26738 Ionia.Bridge_ReduceConv <> exp def
+R26741:26743 Ionia.DataExp <> ary constr
+R26757:26759 Ionia.DataExp <> ary constr
+R26768:26770 Ionia.DataExp <> ary constr
+R26778:26780 Ionia.DataExp <> num constr
+R26772:26773 Ionia.DataExp <> :::'''{'_x_'}' not
+R26776:26776 Ionia.DataExp <> :::'''{'_x_'}' not
+R26774:26775 Ionia.Bridge_ReduceConv <> m2:197 var
+R26761:26762 Ionia.DataExp <> :::'''{'_x_'}' not
+R26765:26765 Ionia.DataExp <> :::'''{'_x_'}' not
+R26763:26764 Ionia.Bridge_ReduceConv <> m1:196 var
+R26745:26746 Ionia.DataExp <> :::'''{'_x_'}' not
+R26754:26754 Ionia.DataExp <> :::'''{'_x_'}' not
+R26747:26753 Ionia.Bridge_ReduceConv <> channel:195 var
+binder 26725:26729 <> input:201
+R26798:26803 Ionia.Bridge_ReduceConv <> acc def
+R26806:26808 Ionia.DataExp <> ary constr
+R26831:26833 Ionia.DataExp <> num constr
+R26810:26811 Ionia.DataExp <> :::'''{'_x_'}' not
+R26829:26829 Ionia.DataExp <> :::'''{'_x_'}' not
+R26824:26826 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R26819:26821 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R26812:26818 Ionia.Bridge_ReduceConv <> channel:195 var
+R26822:26823 Ionia.Bridge_ReduceConv <> m1:196 var
+R26827:26828 Ionia.Bridge_ReduceConv <> m2:197 var
+binder 26789:26794 <> output:202
+R26844:26850 Ionia.Bridge_ReduceConv <> env def
+binder 26838:26840 <> rho:203
+R26856:26856 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26958:26964 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R26874:26879 Ionia.Bridge_ReduceConv <> acc def
+R26882:26884 Ionia.DataExp <> ary constr
+R26907:26909 Ionia.DataExp <> num constr
+R26886:26887 Ionia.DataExp <> :::'''{'_x_'}' not
+R26905:26905 Ionia.DataExp <> :::'''{'_x_'}' not
+R26900:26902 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R26895:26897 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R26888:26894 Ionia.Bridge_ReduceConv <> channel:195 var
+R26898:26899 Ionia.Bridge_ReduceConv <> m1:196 var
+R26903:26904 Ionia.Bridge_ReduceConv <> m2:197 var
+binder 26864:26870 <> output':204
+R26918:26943 Ionia.Bridge_ReduceConv <> exp_independent_of_acc def
+R26951:26957 Ionia.Bridge_ReduceConv <> output':204 var
+R26945:26949 Ionia.Bridge_ReduceConv <> input:201 var
+R27011:27015 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26965:26972 Ionia.Bridge_ReduceConv <> eval def
+R27008:27010 Ionia.Bridge_ReduceConv <> rho:203 var
+R26975:26992 Ionia.Bridge_ReduceConv <> Flatten3d_comm def
+R27000:27005 Ionia.Bridge_ReduceConv <> output:202 var
+R26994:26998 Ionia.Bridge_ReduceConv <> input:201 var
+R27016:27032 Ionia.Bridge_ReduceConv <> Flatten3d_comm def
+R27068:27070 Ionia.Bridge_ReduceConv <> rho:203 var
+R27061:27066 Ionia.Bridge_ReduceConv <> output:202 var
+R27035:27048 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R27056:27058 Ionia.Bridge_ReduceConv <> rho:203 var
+R27050:27054 Ionia.Bridge_ReduceConv <> input:201 var
+R27150:27166 Ionia.Bridge_ReduceConv <> Flatten3d_sem thm
+R27203:27206 Ionia.Bridge_ReduceConv <> A def
+R27220:27234 Ionia.Bridge_ReduceConv <> eval_assign thm
+R27251:27264 Ionia.Bridge_ReduceConv <> A_Flatten3d thm
+R27278:27291 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R27320:27323 Ionia.Bridge_ReduceConv <> A def
+R27346:27361 Ionia.Bridge_ReduceConv <> interp_Flatten3d thm
+prf 28574:28586 <> conv3d_out_eq
+binder 28597:28597 <> m:205
+binder 28599:28599 <> k:206
+binder 28601:28601 <> p:207
+R28610:28613 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R28605:28608 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R28604:28604 Ionia.Bridge_ReduceConv <> k:206 var
+R28609:28609 Ionia.Bridge_ReduceConv <> m:205 var
+R28637:28639 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R28633:28635 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R28614:28614 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R28628:28631 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R28620:28622 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R28616:28618 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R28615:28615 Ionia.Bridge_ReduceConv <> m:205 var
+R28619:28619 Ionia.Bridge_ReduceConv <> k:206 var
+R28624:28626 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R28627:28627 Ionia.Bridge_ReduceConv <> p:207 var
+R28653:28655 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R28649:28651 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R28641:28643 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R28640:28640 Ionia.Bridge_ReduceConv <> m:205 var
+R28645:28647 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R28648:28648 Ionia.Bridge_ReduceConv <> p:207 var
+R28652:28652 Ionia.Bridge_ReduceConv <> k:206 var
+R28690:28700 Stdlib.Arith.PeanoNat Nat div_1_r def
+prf 28776:28789 <> conv3d_type_eq
+R28822:28824 Corelib.Init.Datatypes <> nat ind
+binder 28801:28802 <> oc:208
+binder 28804:28806 <> oh1:209
+binder 28808:28810 <> ow1:210
+binder 28812:28814 <> oh2:211
+binder 28816:28818 <> ow2:212
+R28839:28842 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R28833:28835 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R28830:28832 Ionia.Bridge_ReduceConv <> oh1:209 var
+R28836:28838 Ionia.Bridge_ReduceConv <> oh2:211 var
+R28852:28857 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R28846:28848 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R28843:28845 Ionia.Bridge_ReduceConv <> ow1:210 var
+R28849:28851 Ionia.Bridge_ReduceConv <> ow2:212 var
+R28897:28899 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R28858:28860 Ionia.DataExp <> ary constr
+R28869:28871 Ionia.DataExp <> ary constr
+R28881:28883 Ionia.DataExp <> ary constr
+R28892:28894 Ionia.DataExp <> num constr
+R28885:28886 Ionia.DataExp <> :::'''{'_x_'}' not
+R28890:28890 Ionia.DataExp <> :::'''{'_x_'}' not
+R28887:28889 Ionia.Bridge_ReduceConv <> ow1:210 var
+R28873:28874 Ionia.DataExp <> :::'''{'_x_'}' not
+R28878:28878 Ionia.DataExp <> :::'''{'_x_'}' not
+R28875:28877 Ionia.Bridge_ReduceConv <> oh1:209 var
+R28862:28863 Ionia.DataExp <> :::'''{'_x_'}' not
+R28866:28866 Ionia.DataExp <> :::'''{'_x_'}' not
+R28864:28865 Ionia.Bridge_ReduceConv <> oc:208 var
+R28900:28902 Ionia.DataExp <> ary constr
+R28911:28913 Ionia.DataExp <> ary constr
+R28923:28925 Ionia.DataExp <> ary constr
+R28934:28936 Ionia.DataExp <> num constr
+R28927:28928 Ionia.DataExp <> :::'''{'_x_'}' not
+R28932:28932 Ionia.DataExp <> :::'''{'_x_'}' not
+R28929:28931 Ionia.Bridge_ReduceConv <> ow2:212 var
+R28915:28916 Ionia.DataExp <> :::'''{'_x_'}' not
+R28920:28920 Ionia.DataExp <> :::'''{'_x_'}' not
+R28917:28919 Ionia.Bridge_ReduceConv <> oh2:211 var
+R28904:28905 Ionia.DataExp <> :::'''{'_x_'}' not
+R28908:28908 Ionia.DataExp <> :::'''{'_x_'}' not
+R28906:28907 Ionia.Bridge_ReduceConv <> oc:208 var
+def 29069:29083 <> conv3d_cast_out
+R29107:29109 Corelib.Init.Datatypes <> nat ind
+binder 29086:29087 <> m1:213
+binder 29089:29090 <> m2:214
+binder 29092:29092 <> k:215
+binder 29094:29101 <> filernum:216
+binder 29103:29103 <> p:217
+R29122:29125 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R29121:29121 Ionia.Bridge_ReduceConv <> k:215 var
+R29126:29127 Ionia.Bridge_ReduceConv <> m1:213 var
+binder 29115:29117 <> Hk1:218
+R29138:29141 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R29137:29137 Ionia.Bridge_ReduceConv <> k:215 var
+R29142:29143 Ionia.Bridge_ReduceConv <> m2:214 var
+binder 29131:29133 <> Hk2:219
+R29158:29163 Ionia.Bridge_ReduceConv <> acc def
+R29166:29168 Ionia.DataExp <> ary constr
+R29187:29189 Ionia.DataExp <> ary constr
+R29220:29222 Ionia.DataExp <> ary constr
+R29252:29254 Ionia.DataExp <> num constr
+R29224:29225 Ionia.DataExp <> :::'''{'_x_'}' not
+R29250:29250 Ionia.DataExp <> :::'''{'_x_'}' not
+R29246:29248 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R29226:29226 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R29241:29244 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R29233:29235 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R29229:29231 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R29227:29228 Ionia.Bridge_ReduceConv <> m2:214 var
+R29232:29232 Ionia.Bridge_ReduceConv <> k:215 var
+R29237:29239 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R29240:29240 Ionia.Bridge_ReduceConv <> p:217 var
+R29191:29192 Ionia.DataExp <> :::'''{'_x_'}' not
+R29217:29217 Ionia.DataExp <> :::'''{'_x_'}' not
+R29213:29215 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R29193:29193 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R29208:29211 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R29200:29202 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R29196:29198 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R29194:29195 Ionia.Bridge_ReduceConv <> m1:213 var
+R29199:29199 Ionia.Bridge_ReduceConv <> k:215 var
+R29204:29206 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R29207:29207 Ionia.Bridge_ReduceConv <> p:217 var
+R29170:29171 Ionia.DataExp <> :::'''{'_x_'}' not
+R29180:29180 Ionia.DataExp <> :::'''{'_x_'}' not
+R29172:29179 Ionia.Bridge_ReduceConv <> filernum:216 var
+binder 29149:29154 <> output:220
+R29264:29269 Ionia.Bridge_ReduceConv <> acc def
+R29272:29274 Ionia.DataExp <> ary constr
+R29293:29295 Ionia.DataExp <> ary constr
+R29320:29322 Ionia.DataExp <> ary constr
+R29346:29348 Ionia.DataExp <> num constr
+R29324:29325 Ionia.DataExp <> :::'''{'_x_'}' not
+R29344:29344 Ionia.DataExp <> :::'''{'_x_'}' not
+R29340:29342 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R29336:29338 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R29328:29330 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R29326:29327 Ionia.Bridge_ReduceConv <> m2:214 var
+R29332:29334 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R29335:29335 Ionia.Bridge_ReduceConv <> p:217 var
+R29339:29339 Ionia.Bridge_ReduceConv <> k:215 var
+R29297:29298 Ionia.DataExp <> :::'''{'_x_'}' not
+R29317:29317 Ionia.DataExp <> :::'''{'_x_'}' not
+R29313:29315 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R29309:29311 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R29301:29303 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R29299:29300 Ionia.Bridge_ReduceConv <> m1:213 var
+R29305:29307 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R29308:29308 Ionia.Bridge_ReduceConv <> p:217 var
+R29312:29312 Ionia.Bridge_ReduceConv <> k:215 var
+R29276:29277 Ionia.DataExp <> :::'''{'_x_'}' not
+R29286:29286 Ionia.DataExp <> :::'''{'_x_'}' not
+R29278:29285 Ionia.Bridge_ReduceConv <> filernum:216 var
+R29358:29364 Corelib.Init.Logic <> eq_rect scheme
+R29389:29402 Ionia.Bridge_ReduceConv <> conv3d_type_eq thm
+R29404:29411 Ionia.Bridge_ReduceConv <> filernum:216 var
+R29428:29440 Ionia.Bridge_ReduceConv <> conv3d_out_eq thm
+R29442:29443 Ionia.Bridge_ReduceConv <> m1:213 var
+R29445:29445 Ionia.Bridge_ReduceConv <> k:215 var
+R29447:29447 Ionia.Bridge_ReduceConv <> p:217 var
+R29449:29451 Ionia.Bridge_ReduceConv <> Hk1:218 var
+R29455:29467 Ionia.Bridge_ReduceConv <> conv3d_out_eq thm
+R29469:29470 Ionia.Bridge_ReduceConv <> m2:214 var
+R29472:29472 Ionia.Bridge_ReduceConv <> k:215 var
+R29474:29474 Ionia.Bridge_ReduceConv <> p:217 var
+R29476:29478 Ionia.Bridge_ReduceConv <> Hk2:219 var
+R29375:29380 Ionia.Bridge_ReduceConv <> output:220 var
+R29368:29373 Ionia.Bridge_ReduceConv <> acc def
+prf 29546:29553 <> exp3_ext
+R29573:29575 Corelib.Init.Datatypes <> nat ind
+binder 29565:29565 <> n:221
+binder 29567:29567 <> m:222
+binder 29569:29569 <> l:223
+R29587:29593 Ionia.Bridge_ReduceConv <> exp def
+R29596:29598 Ionia.DataExp <> ary constr
+R29606:29608 Ionia.DataExp <> ary constr
+R29616:29618 Ionia.DataExp <> ary constr
+R29625:29627 Ionia.DataExp <> num constr
+R29620:29621 Ionia.DataExp <> :::'''{'_x_'}' not
+R29623:29623 Ionia.DataExp <> :::'''{'_x_'}' not
+R29622:29622 Ionia.Bridge_ReduceConv <> l:223 var
+R29610:29611 Ionia.DataExp <> :::'''{'_x_'}' not
+R29613:29613 Ionia.DataExp <> :::'''{'_x_'}' not
+R29612:29612 Ionia.Bridge_ReduceConv <> m:222 var
+R29600:29601 Ionia.DataExp <> :::'''{'_x_'}' not
+R29603:29603 Ionia.DataExp <> :::'''{'_x_'}' not
+R29602:29602 Ionia.Bridge_ReduceConv <> n:221 var
+binder 29581:29581 <> v:224
+binder 29583:29583 <> w:225
+R29636:29636 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29758:29764 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29649:29651 Ionia.finType <> fin def
+R29653:29653 Ionia.Bridge_ReduceConv <> n:221 var
+binder 29645:29645 <> i:226
+R29661:29663 Ionia.finType <> fin def
+R29665:29665 Ionia.Bridge_ReduceConv <> m:222 var
+binder 29657:29657 <> j:227
+R29673:29675 Ionia.finType <> fin def
+R29677:29677 Ionia.Bridge_ReduceConv <> l:223 var
+binder 29669:29669 <> k:228
+R29720:29722 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R29685:29691 Ionia.Bridge_ReduceConv <> idx def
+R29719:29719 Ionia.Bridge_ReduceConv <> k:228 var
+R29694:29700 Ionia.Bridge_ReduceConv <> idx def
+R29716:29716 Ionia.Bridge_ReduceConv <> j:227 var
+R29703:29709 Ionia.Bridge_ReduceConv <> idx def
+R29713:29713 Ionia.Bridge_ReduceConv <> i:226 var
+R29711:29711 Ionia.Bridge_ReduceConv <> v:224 var
+R29723:29729 Ionia.Bridge_ReduceConv <> idx def
+R29757:29757 Ionia.Bridge_ReduceConv <> k:228 var
+R29732:29738 Ionia.Bridge_ReduceConv <> idx def
+R29754:29754 Ionia.Bridge_ReduceConv <> j:227 var
+R29741:29747 Ionia.Bridge_ReduceConv <> idx def
+R29751:29751 Ionia.Bridge_ReduceConv <> i:226 var
+R29749:29749 Ionia.Bridge_ReduceConv <> w:225 var
+R29766:29768 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R29765:29765 Ionia.Bridge_ReduceConv <> v:224 var
+R29769:29769 Ionia.Bridge_ReduceConv <> w:225 var
+R29815:29830 Ionia.Bridge_ReduceConv <> mk_vec_bij_fin thm
+R29835:29849 Ionia.Bridge_ReduceConv <> exp_default def
+R29852:29854 Ionia.DataExp <> ary constr
+R29862:29864 Ionia.DataExp <> ary constr
+R29871:29873 Ionia.DataExp <> num constr
+R29866:29867 Ionia.DataExp <> :::'''{'_x_'}' not
+R29869:29869 Ionia.DataExp <> :::'''{'_x_'}' not
+R29856:29857 Ionia.DataExp <> :::'''{'_x_'}' not
+R29859:29859 Ionia.DataExp <> :::'''{'_x_'}' not
+R29896:29911 Ionia.Bridge_ReduceConv <> mk_vec_bij_fin thm
+R29916:29930 Ionia.Bridge_ReduceConv <> exp_default def
+R29933:29935 Ionia.DataExp <> ary constr
+R29943:29945 Ionia.DataExp <> ary constr
+R29952:29954 Ionia.DataExp <> num constr
+R29947:29948 Ionia.DataExp <> :::'''{'_x_'}' not
+R29950:29950 Ionia.DataExp <> :::'''{'_x_'}' not
+R29937:29938 Ionia.DataExp <> :::'''{'_x_'}' not
+R29940:29940 Ionia.DataExp <> :::'''{'_x_'}' not
+R29980:30004 Stdlib.Logic.FunctionalExtensionality <> functional_extensionality thm
+R30037:30039 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R30026:30032 Ionia.Bridge_ReduceConv <> idx def
+R30040:30046 Ionia.Bridge_ReduceConv <> idx def
+R30068:30083 Ionia.Bridge_ReduceConv <> mk_vec_bij_fin thm
+R30121:30127 Ionia.Bridge_ReduceConv <> idx def
+R30088:30102 Ionia.Bridge_ReduceConv <> exp_default def
+R30105:30107 Ionia.DataExp <> ary constr
+R30114:30116 Ionia.DataExp <> num constr
+R30109:30110 Ionia.DataExp <> :::'''{'_x_'}' not
+R30112:30112 Ionia.DataExp <> :::'''{'_x_'}' not
+R30150:30165 Ionia.Bridge_ReduceConv <> mk_vec_bij_fin thm
+R30203:30209 Ionia.Bridge_ReduceConv <> idx def
+R30170:30184 Ionia.Bridge_ReduceConv <> exp_default def
+R30187:30189 Ionia.DataExp <> ary constr
+R30196:30198 Ionia.DataExp <> num constr
+R30191:30192 Ionia.DataExp <> :::'''{'_x_'}' not
+R30194:30194 Ionia.DataExp <> :::'''{'_x_'}' not
+R30235:30259 Stdlib.Logic.FunctionalExtensionality <> functional_extensionality thm
+R30304:30306 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R30281:30287 Ionia.Bridge_ReduceConv <> idx def
+R30290:30296 Ionia.Bridge_ReduceConv <> idx def
+R30307:30313 Ionia.Bridge_ReduceConv <> idx def
+R30316:30322 Ionia.Bridge_ReduceConv <> idx def
+R30347:30362 Ionia.Bridge_ReduceConv <> mk_vec_bij_fin thm
+R30389:30395 Ionia.Bridge_ReduceConv <> idx def
+R30398:30404 Ionia.Bridge_ReduceConv <> idx def
+R30367:30381 Ionia.Bridge_ReduceConv <> exp_default def
+R30383:30385 Ionia.DataExp <> num constr
+R30430:30445 Ionia.Bridge_ReduceConv <> mk_vec_bij_fin thm
+R30472:30478 Ionia.Bridge_ReduceConv <> idx def
+R30481:30487 Ionia.Bridge_ReduceConv <> idx def
+R30450:30464 Ionia.Bridge_ReduceConv <> exp_default def
+R30466:30468 Ionia.DataExp <> num constr
+R30516:30540 Stdlib.Logic.FunctionalExtensionality <> functional_extensionality thm
+prf 30649:30661 <> pcg_idx3_cast
+R30693:30695 Corelib.Init.Datatypes <> nat ind
+binder 30673:30674 <> n1:229
+binder 30676:30677 <> m1:230
+binder 30679:30680 <> l1:231
+binder 30682:30683 <> n2:232
+binder 30685:30686 <> m2:233
+binder 30688:30689 <> l2:234
+R30708:30710 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R30706:30707 Ionia.Bridge_ReduceConv <> n1:229 var
+R30711:30712 Ionia.Bridge_ReduceConv <> n2:232 var
+binder 30701:30702 <> Hn:235
+R30723:30725 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R30721:30722 Ionia.Bridge_ReduceConv <> m1:230 var
+R30726:30727 Ionia.Bridge_ReduceConv <> m2:233 var
+binder 30716:30717 <> Hm:236
+R30738:30740 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R30736:30737 Ionia.Bridge_ReduceConv <> l1:231 var
+R30741:30742 Ionia.Bridge_ReduceConv <> l2:234 var
+binder 30731:30732 <> Hl:237
+R30789:30791 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R30752:30754 Ionia.DataExp <> ary constr
+R30763:30765 Ionia.DataExp <> ary constr
+R30774:30776 Ionia.DataExp <> ary constr
+R30784:30786 Ionia.DataExp <> num constr
+R30778:30779 Ionia.DataExp <> :::'''{'_x_'}' not
+R30782:30782 Ionia.DataExp <> :::'''{'_x_'}' not
+R30780:30781 Ionia.Bridge_ReduceConv <> l1:231 var
+R30767:30768 Ionia.DataExp <> :::'''{'_x_'}' not
+R30771:30771 Ionia.DataExp <> :::'''{'_x_'}' not
+R30769:30770 Ionia.Bridge_ReduceConv <> m1:230 var
+R30756:30757 Ionia.DataExp <> :::'''{'_x_'}' not
+R30760:30760 Ionia.DataExp <> :::'''{'_x_'}' not
+R30758:30759 Ionia.Bridge_ReduceConv <> n1:229 var
+R30792:30794 Ionia.DataExp <> ary constr
+R30803:30805 Ionia.DataExp <> ary constr
+R30814:30816 Ionia.DataExp <> ary constr
+R30824:30826 Ionia.DataExp <> num constr
+R30818:30819 Ionia.DataExp <> :::'''{'_x_'}' not
+R30822:30822 Ionia.DataExp <> :::'''{'_x_'}' not
+R30820:30821 Ionia.Bridge_ReduceConv <> l2:234 var
+R30807:30808 Ionia.DataExp <> :::'''{'_x_'}' not
+R30811:30811 Ionia.DataExp <> :::'''{'_x_'}' not
+R30809:30810 Ionia.Bridge_ReduceConv <> m2:233 var
+R30796:30797 Ionia.DataExp <> :::'''{'_x_'}' not
+R30800:30800 Ionia.DataExp <> :::'''{'_x_'}' not
+R30798:30799 Ionia.Bridge_ReduceConv <> n2:232 var
+binder 30748:30748 <> H:238
+R30838:30844 Ionia.Bridge_ReduceConv <> exp def
+R30847:30849 Ionia.DataExp <> ary constr
+R30858:30860 Ionia.DataExp <> ary constr
+R30869:30871 Ionia.DataExp <> ary constr
+R30879:30881 Ionia.DataExp <> num constr
+R30873:30874 Ionia.DataExp <> :::'''{'_x_'}' not
+R30877:30877 Ionia.DataExp <> :::'''{'_x_'}' not
+R30875:30876 Ionia.Bridge_ReduceConv <> l1:231 var
+R30862:30863 Ionia.DataExp <> :::'''{'_x_'}' not
+R30866:30866 Ionia.DataExp <> :::'''{'_x_'}' not
+R30864:30865 Ionia.Bridge_ReduceConv <> m1:230 var
+R30851:30852 Ionia.DataExp <> :::'''{'_x_'}' not
+R30855:30855 Ionia.DataExp <> :::'''{'_x_'}' not
+R30853:30854 Ionia.Bridge_ReduceConv <> n1:229 var
+binder 30834:30834 <> v:239
+R30895:30897 Ionia.finType <> fin def
+R30899:30900 Ionia.Bridge_ReduceConv <> n2:232 var
+binder 30890:30891 <> i2:240
+R30909:30911 Ionia.finType <> fin def
+R30913:30914 Ionia.Bridge_ReduceConv <> m2:233 var
+binder 30904:30905 <> j2:241
+R30923:30925 Ionia.finType <> fin def
+R30927:30928 Ionia.Bridge_ReduceConv <> l2:234 var
+binder 30918:30919 <> k2:242
+R30939:30941 Ionia.finType <> fin def
+R30943:30944 Ionia.Bridge_ReduceConv <> n1:229 var
+binder 30934:30935 <> i1:243
+R30953:30955 Ionia.finType <> fin def
+R30957:30958 Ionia.Bridge_ReduceConv <> m1:230 var
+binder 30948:30949 <> j1:244
+R30967:30969 Ionia.finType <> fin def
+R30971:30972 Ionia.Bridge_ReduceConv <> l1:231 var
+binder 30962:30963 <> k1:245
+R31001:31004 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R30988:30990 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R30978:30984 Ionia.finType <> fin2nat def
+R30986:30987 Ionia.Bridge_ReduceConv <> i2:240 var
+R30991:30997 Ionia.finType <> fin2nat def
+R30999:31000 Ionia.Bridge_ReduceConv <> i1:243 var
+R31028:31031 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31015:31017 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R31005:31011 Ionia.finType <> fin2nat def
+R31013:31014 Ionia.Bridge_ReduceConv <> j2:241 var
+R31018:31024 Ionia.finType <> fin2nat def
+R31026:31027 Ionia.Bridge_ReduceConv <> j1:244 var
+R31055:31060 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31042:31044 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R31032:31038 Ionia.finType <> fin2nat def
+R31040:31041 Ionia.Bridge_ReduceConv <> k2:242 var
+R31045:31051 Ionia.finType <> fin2nat def
+R31053:31054 Ionia.Bridge_ReduceConv <> k1:245 var
+R31123:31127 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R31061:31067 Ionia.Bridge_ReduceConv <> idx def
+R31121:31122 Ionia.Bridge_ReduceConv <> k2:242 var
+R31070:31076 Ionia.Bridge_ReduceConv <> idx def
+R31117:31118 Ionia.Bridge_ReduceConv <> j2:241 var
+R31079:31085 Ionia.Bridge_ReduceConv <> idx def
+R31113:31114 Ionia.Bridge_ReduceConv <> i2:240 var
+R31088:31094 Corelib.Init.Logic <> eq_rect scheme
+R31110:31110 Ionia.Bridge_ReduceConv <> H:238 var
+R31106:31106 Ionia.Bridge_ReduceConv <> v:239 var
+R31098:31104 Ionia.Bridge_ReduceConv <> exp def
+R31128:31134 Ionia.Bridge_ReduceConv <> idx def
+R31164:31165 Ionia.Bridge_ReduceConv <> k1:245 var
+R31137:31143 Ionia.Bridge_ReduceConv <> idx def
+R31160:31161 Ionia.Bridge_ReduceConv <> j1:244 var
+R31146:31152 Ionia.Bridge_ReduceConv <> idx def
+R31156:31157 Ionia.Bridge_ReduceConv <> i1:243 var
+R31154:31154 Ionia.Bridge_ReduceConv <> v:239 var
+R31286:31288 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R31289:31295 Corelib.Init.Logic <> eq_refl constr
+R31307:31323 Stdlib.Logic.ProofIrrelevance <> proof_irrelevance prfax
+R31342:31348 Corelib.Init.Logic <> eq_rect scheme
+R31364:31366 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R31381:31387 Ionia.finType <> fin_eq' thm
+R31413:31415 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R31430:31436 Ionia.finType <> fin_eq' thm
+R31462:31464 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R31479:31485 Ionia.finType <> fin_eq' thm
+prf 31585:31595 <> assign_cast
+R31615:31618 Ionia.DataExp <> data ind
+binder 31607:31608 <> d1:246
+binder 31610:31611 <> d2:247
+R31628:31630 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R31626:31627 Ionia.Bridge_ReduceConv <> d1:246 var
+R31631:31632 Ionia.Bridge_ReduceConv <> d2:247 var
+binder 31622:31622 <> H:248
+R31642:31648 Ionia.Bridge_ReduceConv <> acc def
+R31650:31651 Ionia.Bridge_ReduceConv <> d1:246 var
+binder 31638:31638 <> o:249
+R31659:31665 Ionia.Bridge_ReduceConv <> exp def
+R31667:31668 Ionia.Bridge_ReduceConv <> d2:247 var
+binder 31655:31655 <> e:250
+R31712:31716 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R31674:31683 Ionia.Bridge_ReduceConv <> assign def
+R31711:31711 Ionia.Bridge_ReduceConv <> e:250 var
+R31686:31692 Corelib.Init.Logic <> eq_rect scheme
+R31708:31708 Ionia.Bridge_ReduceConv <> H:248 var
+R31704:31704 Ionia.Bridge_ReduceConv <> o:249 var
+R31696:31702 Ionia.Bridge_ReduceConv <> acc def
+R31717:31726 Ionia.Bridge_ReduceConv <> assign def
+R31731:31737 Corelib.Init.Logic <> eq_rect scheme
+R31754:31759 Corelib.Init.Logic <> eq_sym scheme
+R31761:31761 Ionia.Bridge_ReduceConv <> H:248 var
+R31749:31749 Ionia.Bridge_ReduceConv <> e:250 var
+R31741:31747 Ionia.Bridge_ReduceConv <> exp def
+R31728:31728 Ionia.Bridge_ReduceConv <> o:249 var
+prf 31965:31975 <> conv3d_body
+R32016:32018 Corelib.Init.Datatypes <> nat ind
+binder 31987:31988 <> m1:251
+binder 31990:31991 <> m2:252
+binder 31993:31993 <> k:253
+binder 31995:32001 <> channel:254
+binder 32003:32010 <> filernum:255
+binder 32012:32012 <> p:256
+R32028:32033 Ionia.Bridge_ReduceConv <> exp def
+R32036:32038 Ionia.DataExp <> ary constr
+R32053:32055 Ionia.DataExp <> ary constr
+R32069:32071 Ionia.DataExp <> ary constr
+R32079:32081 Ionia.DataExp <> ary constr
+R32088:32090 Ionia.DataExp <> num constr
+R32083:32084 Ionia.DataExp <> :::'''{'_x_'}' not
+R32086:32086 Ionia.DataExp <> :::'''{'_x_'}' not
+R32085:32085 Ionia.Bridge_ReduceConv <> k:253 var
+R32073:32074 Ionia.DataExp <> :::'''{'_x_'}' not
+R32076:32076 Ionia.DataExp <> :::'''{'_x_'}' not
+R32075:32075 Ionia.Bridge_ReduceConv <> k:253 var
+R32057:32058 Ionia.DataExp <> :::'''{'_x_'}' not
+R32066:32066 Ionia.DataExp <> :::'''{'_x_'}' not
+R32059:32065 Ionia.Bridge_ReduceConv <> channel:254 var
+R32040:32041 Ionia.DataExp <> :::'''{'_x_'}' not
+R32050:32050 Ionia.DataExp <> :::'''{'_x_'}' not
+R32042:32049 Ionia.Bridge_ReduceConv <> filernum:255 var
+binder 32024:32024 <> w:257
+R32107:32112 Ionia.Bridge_ReduceConv <> exp def
+R32115:32117 Ionia.DataExp <> ary constr
+R32131:32133 Ionia.DataExp <> num constr
+R32119:32120 Ionia.DataExp <> :::'''{'_x_'}' not
+R32129:32129 Ionia.DataExp <> :::'''{'_x_'}' not
+R32121:32128 Ionia.Bridge_ReduceConv <> filernum:255 var
+binder 32100:32103 <> bias:258
+R32148:32153 Ionia.Bridge_ReduceConv <> exp def
+R32156:32158 Ionia.DataExp <> ary constr
+R32172:32174 Ionia.DataExp <> ary constr
+R32183:32185 Ionia.DataExp <> ary constr
+R32193:32195 Ionia.DataExp <> num constr
+R32187:32188 Ionia.DataExp <> :::'''{'_x_'}' not
+R32191:32191 Ionia.DataExp <> :::'''{'_x_'}' not
+R32189:32190 Ionia.Bridge_ReduceConv <> m2:252 var
+R32176:32177 Ionia.DataExp <> :::'''{'_x_'}' not
+R32180:32180 Ionia.DataExp <> :::'''{'_x_'}' not
+R32178:32179 Ionia.Bridge_ReduceConv <> m1:251 var
+R32160:32161 Ionia.DataExp <> :::'''{'_x_'}' not
+R32169:32169 Ionia.DataExp <> :::'''{'_x_'}' not
+R32162:32168 Ionia.Bridge_ReduceConv <> channel:254 var
+binder 32140:32144 <> input:259
+R32231:32235 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R32204:32213 Ionia.Bridge_ReduceConv <> Conv3d def
+R32226:32230 Ionia.Bridge_ReduceConv <> input:259 var
+R32224:32224 Ionia.Bridge_ReduceConv <> w:257 var
+R32219:32222 Ionia.Bridge_ReduceConv <> bias:258 var
+R32215:32215 Ionia.Bridge_ReduceConv <> p:256 var
+R32236:32244 Ionia.Bridge_ReduceConv <> mkvSeq def
+R32257:32259 Ionia.finType <> fin def
+R32261:32268 Ionia.Bridge_ReduceConv <> filernum:255 var
+binder 32251:32253 <> num:260
+R32277:32285 Ionia.Bridge_ReduceConv <> mkvSeq def
+R32297:32299 Ionia.finType <> fin def
+R32322:32324 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R32302:32302 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R32317:32320 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R32309:32311 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R32305:32307 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R32303:32304 Ionia.Bridge_ReduceConv <> m1:251 var
+R32308:32308 Ionia.Bridge_ReduceConv <> k:253 var
+R32313:32315 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R32316:32316 Ionia.Bridge_ReduceConv <> p:256 var
+binder 32292:32293 <> i0:261
+R32337:32345 Ionia.Bridge_ReduceConv <> mkvSeq def
+R32357:32359 Ionia.finType <> fin def
+R32382:32384 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R32362:32362 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R32377:32380 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R32369:32371 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R32365:32367 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R32363:32364 Ionia.Bridge_ReduceConv <> m2:252 var
+R32368:32368 Ionia.Bridge_ReduceConv <> k:253 var
+R32373:32375 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R32376:32376 Ionia.Bridge_ReduceConv <> p:256 var
+binder 32352:32353 <> j0:262
+R32399:32404 Ionia.Bridge_ReduceConv <> add def
+R32649:32654 Ionia.Bridge_ReduceConv <> idx def
+R32661:32663 Ionia.Bridge_ReduceConv <> num:260 var
+R32656:32659 Ionia.Bridge_ReduceConv <> bias:258 var
+R32417:32422 Ionia.Bridge_ReduceConv <> sum def
+R32425:32433 Ionia.Bridge_ReduceConv <> mkvSeq def
+R32444:32446 Ionia.finType <> fin def
+R32448:32454 Ionia.Bridge_ReduceConv <> channel:254 var
+binder 32440:32440 <> c:263
+R32471:32476 Ionia.Bridge_ReduceConv <> sum def
+R32479:32487 Ionia.Bridge_ReduceConv <> mkvSeq def
+R32499:32501 Ionia.finType <> fin def
+R32503:32503 Ionia.Bridge_ReduceConv <> k:253 var
+binder 32494:32495 <> i1:264
+R32522:32527 Ionia.Bridge_ReduceConv <> sum def
+R32530:32538 Ionia.Bridge_ReduceConv <> mkvSeq def
+R32550:32552 Ionia.finType <> fin def
+R32554:32554 Ionia.Bridge_ReduceConv <> k:253 var
+binder 32545:32546 <> j1:265
+R32575:32593 Ionia.Bridge_ReduceConv <> Conv3d_idx_cell def
+R32628:32629 Ionia.Bridge_ReduceConv <> j1:265 var
+R32625:32626 Ionia.Bridge_ReduceConv <> i1:264 var
+R32623:32623 Ionia.Bridge_ReduceConv <> c:263 var
+R32620:32621 Ionia.Bridge_ReduceConv <> j0:262 var
+R32617:32618 Ionia.Bridge_ReduceConv <> i0:261 var
+R32613:32615 Ionia.Bridge_ReduceConv <> num:260 var
+R32607:32611 Ionia.Bridge_ReduceConv <> input:259 var
+R32605:32605 Ionia.Bridge_ReduceConv <> w:257 var
+R32601:32601 Ionia.Bridge_ReduceConv <> p:256 var
+R32598:32599 Ionia.Bridge_ReduceConv <> m2:252 var
+R32595:32596 Ionia.Bridge_ReduceConv <> m1:251 var
+prf 32840:32856 <> interp_pad2d_read
+R32874:32876 Corelib.Init.Datatypes <> nat ind
+binder 32868:32868 <> h:266
+binder 32870:32870 <> w:267
+R32886:32891 Ionia.Bridge_ReduceConv <> exp def
+R32894:32896 Ionia.DataExp <> ary constr
+R32904:32906 Ionia.DataExp <> ary constr
+R32913:32915 Ionia.DataExp <> num constr
+R32908:32909 Ionia.DataExp <> :::'''{'_x_'}' not
+R32911:32911 Ionia.DataExp <> :::'''{'_x_'}' not
+R32910:32910 Ionia.Bridge_ReduceConv <> w:267 var
+R32898:32899 Ionia.DataExp <> :::'''{'_x_'}' not
+R32901:32901 Ionia.DataExp <> :::'''{'_x_'}' not
+R32900:32900 Ionia.Bridge_ReduceConv <> h:266 var
+binder 32882:32882 <> e:268
+R32931:32933 Corelib.Init.Datatypes <> nat ind
+binder 32923:32923 <> p:269
+binder 32925:32925 <> t:270
+binder 32927:32927 <> u:271
+R32943:32945 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R32942:32942 Ionia.Bridge_ReduceConv <> t:270 var
+R32951:32953 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R32947:32949 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R32950:32950 Ionia.Bridge_ReduceConv <> p:269 var
+R32954:32954 Ionia.Bridge_ReduceConv <> h:266 var
+binder 32937:32938 <> Ht:272
+R32964:32966 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R32963:32963 Ionia.Bridge_ReduceConv <> u:271 var
+R32972:32974 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R32968:32970 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R32971:32971 Ionia.Bridge_ReduceConv <> p:269 var
+R32975:32975 Ionia.Bridge_ReduceConv <> w:267 var
+binder 32958:32959 <> Hu:273
+R32985:32991 Ionia.Bridge_ReduceConv <> env def
+binder 32979:32981 <> rho:274
+R33075:33079 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R32997:33010 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R33072:33074 Ionia.Bridge_ReduceConv <> rho:274 var
+R33013:33027 Ionia.Bridge_ReduceConv <> safe_idx_nat def
+R33069:33069 Ionia.Bridge_ReduceConv <> u:271 var
+R33030:33044 Ionia.Bridge_ReduceConv <> safe_idx_nat def
+R33066:33066 Ionia.Bridge_ReduceConv <> t:270 var
+R33047:33059 Ionia.Bridge_ReduceConv <> Padding2d def
+R33063:33063 Ionia.Bridge_ReduceConv <> e:268 var
+R33061:33061 Ionia.Bridge_ReduceConv <> p:269 var
+R33080:33091 Ionia.Bridge_ReduceConv <> pad_idx2d def
+R33120:33120 Ionia.Bridge_ReduceConv <> u:271 var
+R33118:33118 Ionia.Bridge_ReduceConv <> t:270 var
+R33096:33109 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R33113:33115 Ionia.Bridge_ReduceConv <> rho:274 var
+R33111:33111 Ionia.Bridge_ReduceConv <> e:268 var
+R33093:33093 Ionia.Bridge_ReduceConv <> p:269 var
+R33173:33190 Ionia.Bridge_ReduceConv <> safe_idx_nat_lt thm
+R33210:33227 Ionia.Bridge_ReduceConv <> safe_idx_nat_lt thm
+R33245:33257 Ionia.Bridge_ReduceConv <> Padding2d def
+R33277:33294 Ionia.Bridge_ReduceConv <> to_pcg_exp_idx thm
+R33307:33327 Ionia.Bridge_ReduceConv <> to_pcg_exp_mkvSeq thm
+R33357:33359 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R33353:33355 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R33349:33351 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R33382:33395 Ionia.Bridge_ReduceConv <> idx_mkvSeq thm
+R33421:33441 Ionia.Bridge_ReduceConv <> to_pcg_exp_mkvSeq thm
+R33471:33473 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R33467:33469 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R33463:33465 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R33496:33509 Ionia.Bridge_ReduceConv <> idx_mkvSeq thm
+R33546:33560 Ionia.finType <> fin2nat_nat2fin thm
+R33575:33587 Stdlib.Arith.PeanoNat Nat ltb_spec0 thm
+R33657:33670 Ionia.Bridge_ReduceConv <> exp_default def
+R33672:33674 Ionia.DataExp <> num constr
+R33682:33688 Ionia.Bridge_ReduceConv <> zero def
+R33703:33721 Ionia.Bridge_ReduceConv <> to_pcg_exp_zero thm
+R33735:33746 Ionia.Bridge_ReduceConv <> pad_idx2d def
+R33763:33775 Stdlib.Arith.PeanoNat Nat leb_spec0 thm
+R33845:33857 Stdlib.Arith.PeanoNat Nat ltb_spec0 thm
+R33863:33865 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R33908:33920 Stdlib.Arith.PeanoNat Nat ltb_spec0 thm
+R34001:34014 Ionia.Bridge_ReduceConv <> exp_default def
+R34016:34018 Ionia.DataExp <> num constr
+R34026:34032 Ionia.Bridge_ReduceConv <> zero def
+R34051:34069 Ionia.Bridge_ReduceConv <> to_pcg_exp_zero thm
+R34087:34098 Ionia.Bridge_ReduceConv <> pad_idx2d def
+R34119:34131 Stdlib.Arith.PeanoNat Nat leb_spec0 thm
+R34193:34205 Stdlib.Arith.PeanoNat Nat ltb_spec0 thm
+R34209:34211 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R34272:34284 Stdlib.Arith.PeanoNat Nat leb_spec0 thm
+R34357:34369 Stdlib.Arith.PeanoNat Nat ltb_spec0 thm
+R34375:34377 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R34461:34478 Ionia.Bridge_ReduceConv <> to_pcg_exp_idx thm
+R34499:34510 Ionia.Bridge_ReduceConv <> pad_idx2d def
+R34534:34546 Stdlib.Arith.PeanoNat Nat leb_spec0 thm
+R34611:34623 Stdlib.Arith.PeanoNat Nat ltb_spec0 thm
+R34627:34629 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R34693:34705 Stdlib.Arith.PeanoNat Nat leb_spec0 thm
+R34769:34781 Stdlib.Arith.PeanoNat Nat ltb_spec0 thm
+R34785:34787 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R34847:34854 Corelib.Init.Logic <> f_equal2 thm
+R34867:34873 Ionia.finType <> fin_eq' thm
+R34885:34899 Ionia.finType <> fin2nat_nat2fin thm
+R34934:34941 Corelib.Init.Logic <> f_equal2 thm
+R34980:34986 Ionia.finType <> fin_eq' thm
+R34998:35012 Ionia.finType <> fin2nat_nat2fin thm
+R35092:35105 Ionia.Bridge_ReduceConv <> exp_default def
+R35107:35109 Ionia.DataExp <> num constr
+R35117:35123 Ionia.Bridge_ReduceConv <> zero def
+R35145:35163 Ionia.Bridge_ReduceConv <> to_pcg_exp_zero thm
+R35184:35195 Ionia.Bridge_ReduceConv <> pad_idx2d def
+R35219:35231 Stdlib.Arith.PeanoNat Nat leb_spec0 thm
+R35296:35308 Stdlib.Arith.PeanoNat Nat ltb_spec0 thm
+R35312:35314 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R35378:35390 Stdlib.Arith.PeanoNat Nat leb_spec0 thm
+R35454:35466 Stdlib.Arith.PeanoNat Nat ltb_spec0 thm
+R35470:35472 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R35578:35591 Ionia.Bridge_ReduceConv <> exp_default def
+R35593:35595 Ionia.DataExp <> num constr
+R35603:35609 Ionia.Bridge_ReduceConv <> zero def
+R35626:35644 Ionia.Bridge_ReduceConv <> to_pcg_exp_zero thm
+R35660:35671 Ionia.Bridge_ReduceConv <> pad_idx2d def
+R35690:35702 Stdlib.Arith.PeanoNat Nat leb_spec0 thm
+R35762:35774 Stdlib.Arith.PeanoNat Nat ltb_spec0 thm
+R35778:35780 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+prf 35925:35941 <> interp_pad3d_read
+R35967:35969 Corelib.Init.Datatypes <> nat ind
+binder 35953:35953 <> h:275
+binder 35955:35955 <> w:276
+binder 35957:35963 <> channel:277
+R35983:35988 Ionia.Bridge_ReduceConv <> exp def
+R35991:35993 Ionia.DataExp <> ary constr
+R36007:36009 Ionia.DataExp <> ary constr
+R36017:36019 Ionia.DataExp <> ary constr
+R36026:36028 Ionia.DataExp <> num constr
+R36021:36022 Ionia.DataExp <> :::'''{'_x_'}' not
+R36024:36024 Ionia.DataExp <> :::'''{'_x_'}' not
+R36023:36023 Ionia.Bridge_ReduceConv <> w:276 var
+R36011:36012 Ionia.DataExp <> :::'''{'_x_'}' not
+R36014:36014 Ionia.DataExp <> :::'''{'_x_'}' not
+R36013:36013 Ionia.Bridge_ReduceConv <> h:275 var
+R35995:35996 Ionia.DataExp <> :::'''{'_x_'}' not
+R36004:36004 Ionia.DataExp <> :::'''{'_x_'}' not
+R35997:36003 Ionia.Bridge_ReduceConv <> channel:277 var
+binder 35975:35979 <> input:278
+R36041:36043 Corelib.Init.Datatypes <> nat ind
+binder 36037:36037 <> p:279
+R36051:36053 Ionia.finType <> fin def
+R36055:36061 Ionia.Bridge_ReduceConv <> channel:277 var
+binder 36047:36047 <> c:280
+R36077:36079 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R36070:36076 Ionia.Bridge_ReduceConv <> channel:277 var
+binder 36065:36066 <> Hc:281
+R36092:36094 Corelib.Init.Datatypes <> nat ind
+binder 36086:36086 <> t:282
+binder 36088:36088 <> u:283
+R36104:36106 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R36103:36103 Ionia.Bridge_ReduceConv <> t:282 var
+R36112:36114 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R36108:36110 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R36111:36111 Ionia.Bridge_ReduceConv <> p:279 var
+R36115:36115 Ionia.Bridge_ReduceConv <> h:275 var
+binder 36098:36099 <> Ht:284
+R36125:36127 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R36124:36124 Ionia.Bridge_ReduceConv <> u:283 var
+R36133:36135 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R36129:36131 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R36132:36132 Ionia.Bridge_ReduceConv <> p:279 var
+R36136:36136 Ionia.Bridge_ReduceConv <> w:276 var
+binder 36119:36120 <> Hu:285
+R36146:36152 Ionia.Bridge_ReduceConv <> env def
+binder 36140:36142 <> rho:286
+R36250:36254 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R36158:36171 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R36247:36249 Ionia.Bridge_ReduceConv <> rho:286 var
+R36178:36192 Ionia.Bridge_ReduceConv <> safe_idx_nat def
+R36244:36244 Ionia.Bridge_ReduceConv <> u:283 var
+R36195:36209 Ionia.Bridge_ReduceConv <> safe_idx_nat def
+R36241:36241 Ionia.Bridge_ReduceConv <> t:282 var
+R36212:36212 Ionia.DataExp <> :::x_'|['_x_']' not
+R36234:36236 Ionia.DataExp <> :::x_'|['_x_']' not
+R36238:36238 Ionia.DataExp <> :::x_'|['_x_']' not
+R36213:36225 Ionia.Bridge_ReduceConv <> Padding3d def
+R36229:36233 Ionia.Bridge_ReduceConv <> input:278 var
+R36227:36227 Ionia.Bridge_ReduceConv <> p:279 var
+R36237:36237 Ionia.Bridge_ReduceConv <> c:280 var
+R36255:36266 Ionia.Bridge_ReduceConv <> pad_idx2d def
+R36311:36311 Ionia.Bridge_ReduceConv <> u:283 var
+R36309:36309 Ionia.Bridge_ReduceConv <> t:282 var
+R36271:36277 Ionia.Bridge_ReduceConv <> idx def
+R36306:36306 Ionia.Bridge_ReduceConv <> c:280 var
+R36280:36293 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R36301:36303 Ionia.Bridge_ReduceConv <> rho:286 var
+R36295:36299 Ionia.Bridge_ReduceConv <> input:278 var
+R36268:36268 Ionia.Bridge_ReduceConv <> p:279 var
+R36379:36391 Ionia.Bridge_ReduceConv <> Padding3d def
+R36405:36417 Ionia.Bridge_ReduceConv <> idx_mkvSeq thm
+R36441:36457 Ionia.Bridge_ReduceConv <> interp_pad2d_read thm
+R36469:36470 Ionia.DataExp <> :::x_'|['_x_']' not
+R36472:36472 Ionia.DataExp <> :::x_'|['_x_']' not
+R36503:36520 Ionia.Bridge_ReduceConv <> to_pcg_exp_idx thm
+prf 36733:36750 <> interp_Conv3d_cell
+R36791:36793 Corelib.Init.Datatypes <> nat ind
+binder 36762:36763 <> m1:287
+binder 36765:36766 <> m2:288
+binder 36768:36768 <> k:289
+binder 36770:36776 <> channel:290
+binder 36778:36785 <> filernum:291
+binder 36787:36787 <> p:292
+R36805:36807 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R36804:36804 Ionia.Bridge_ReduceConv <> k:289 var
+binder 36799:36800 <> Hk:293
+R36820:36822 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R36818:36819 Ionia.Bridge_ReduceConv <> m1:287 var
+binder 36812:36814 <> Hm1:294
+R36835:36837 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R36833:36834 Ionia.Bridge_ReduceConv <> m2:288 var
+binder 36827:36829 <> Hm2:295
+R36856:36858 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R36849:36855 Ionia.Bridge_ReduceConv <> channel:290 var
+binder 36844:36845 <> Hc:296
+R36876:36878 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R36868:36875 Ionia.Bridge_ReduceConv <> filernum:291 var
+binder 36863:36864 <> Hf:297
+R36892:36895 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R36891:36891 Ionia.Bridge_ReduceConv <> k:289 var
+R36896:36897 Ionia.Bridge_ReduceConv <> m1:287 var
+binder 36885:36887 <> Hk1:298
+R36908:36911 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R36907:36907 Ionia.Bridge_ReduceConv <> k:289 var
+R36912:36913 Ionia.Bridge_ReduceConv <> m2:288 var
+binder 36901:36903 <> Hk2:299
+R36923:36928 Ionia.Bridge_ReduceConv <> exp def
+R36931:36933 Ionia.DataExp <> ary constr
+R36948:36950 Ionia.DataExp <> ary constr
+R36964:36966 Ionia.DataExp <> ary constr
+R36974:36976 Ionia.DataExp <> ary constr
+R36983:36985 Ionia.DataExp <> num constr
+R36978:36979 Ionia.DataExp <> :::'''{'_x_'}' not
+R36981:36981 Ionia.DataExp <> :::'''{'_x_'}' not
+R36980:36980 Ionia.Bridge_ReduceConv <> k:289 var
+R36968:36969 Ionia.DataExp <> :::'''{'_x_'}' not
+R36971:36971 Ionia.DataExp <> :::'''{'_x_'}' not
+R36970:36970 Ionia.Bridge_ReduceConv <> k:289 var
+R36952:36953 Ionia.DataExp <> :::'''{'_x_'}' not
+R36961:36961 Ionia.DataExp <> :::'''{'_x_'}' not
+R36954:36960 Ionia.Bridge_ReduceConv <> channel:290 var
+R36935:36936 Ionia.DataExp <> :::'''{'_x_'}' not
+R36945:36945 Ionia.DataExp <> :::'''{'_x_'}' not
+R36937:36944 Ionia.Bridge_ReduceConv <> filernum:291 var
+binder 36919:36919 <> w:300
+R37002:37007 Ionia.Bridge_ReduceConv <> exp def
+R37010:37012 Ionia.DataExp <> ary constr
+R37026:37028 Ionia.DataExp <> num constr
+R37014:37015 Ionia.DataExp <> :::'''{'_x_'}' not
+R37024:37024 Ionia.DataExp <> :::'''{'_x_'}' not
+R37016:37023 Ionia.Bridge_ReduceConv <> filernum:291 var
+binder 36995:36998 <> bias:301
+R37043:37048 Ionia.Bridge_ReduceConv <> exp def
+R37051:37053 Ionia.DataExp <> ary constr
+R37067:37069 Ionia.DataExp <> ary constr
+R37078:37080 Ionia.DataExp <> ary constr
+R37088:37090 Ionia.DataExp <> num constr
+R37082:37083 Ionia.DataExp <> :::'''{'_x_'}' not
+R37086:37086 Ionia.DataExp <> :::'''{'_x_'}' not
+R37084:37085 Ionia.Bridge_ReduceConv <> m2:288 var
+R37071:37072 Ionia.DataExp <> :::'''{'_x_'}' not
+R37075:37075 Ionia.DataExp <> :::'''{'_x_'}' not
+R37073:37074 Ionia.Bridge_ReduceConv <> m1:287 var
+R37055:37056 Ionia.DataExp <> :::'''{'_x_'}' not
+R37064:37064 Ionia.DataExp <> :::'''{'_x_'}' not
+R37057:37063 Ionia.Bridge_ReduceConv <> channel:290 var
+binder 37035:37039 <> input:302
+R37105:37111 Ionia.Bridge_ReduceConv <> env def
+binder 37099:37101 <> rho:303
+R37121:37123 Ionia.finType <> fin def
+R37125:37132 Ionia.Bridge_ReduceConv <> filernum:291 var
+binder 37115:37117 <> num:304
+R37144:37146 Ionia.finType <> fin def
+R37169:37171 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R37149:37149 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R37164:37167 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R37156:37158 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R37152:37154 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R37150:37151 Ionia.Bridge_ReduceConv <> m1:287 var
+R37155:37155 Ionia.Bridge_ReduceConv <> k:289 var
+R37160:37162 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R37163:37163 Ionia.Bridge_ReduceConv <> p:292 var
+binder 37138:37140 <> i0B:305
+R37183:37185 Ionia.finType <> fin def
+R37208:37210 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R37188:37188 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R37203:37206 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R37195:37197 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R37191:37193 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R37189:37190 Ionia.Bridge_ReduceConv <> m2:288 var
+R37194:37194 Ionia.Bridge_ReduceConv <> k:289 var
+R37199:37201 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R37202:37202 Ionia.Bridge_ReduceConv <> p:292 var
+binder 37177:37179 <> j0B:306
+R37224:37226 Ionia.finType <> fin def
+R37243:37245 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R37239:37241 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R37231:37233 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R37229:37230 Ionia.Bridge_ReduceConv <> m1:287 var
+R37235:37237 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R37238:37238 Ionia.Bridge_ReduceConv <> p:292 var
+R37242:37242 Ionia.Bridge_ReduceConv <> k:289 var
+binder 37218:37220 <> i0A:307
+R37257:37259 Ionia.finType <> fin def
+R37276:37278 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R37272:37274 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R37264:37266 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R37262:37263 Ionia.Bridge_ReduceConv <> m2:288 var
+R37268:37270 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R37271:37271 Ionia.Bridge_ReduceConv <> p:292 var
+R37275:37275 Ionia.Bridge_ReduceConv <> k:289 var
+binder 37251:37253 <> j0A:308
+R37311:37314 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R37297:37299 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R37286:37292 Ionia.finType <> fin2nat def
+R37294:37296 Ionia.Bridge_ReduceConv <> i0B:305 var
+R37300:37306 Ionia.finType <> fin2nat def
+R37308:37310 Ionia.Bridge_ReduceConv <> i0A:307 var
+R37340:37345 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R37326:37328 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R37315:37321 Ionia.finType <> fin2nat def
+R37323:37325 Ionia.Bridge_ReduceConv <> j0B:306 var
+R37329:37335 Ionia.finType <> fin2nat def
+R37337:37339 Ionia.Bridge_ReduceConv <> j0A:308 var
+R37440:37444 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R37346:37352 Ionia.Bridge_ReduceConv <> idx def
+R37437:37439 Ionia.Bridge_ReduceConv <> j0B:306 var
+R37355:37361 Ionia.Bridge_ReduceConv <> idx def
+R37432:37434 Ionia.Bridge_ReduceConv <> i0B:305 var
+R37364:37370 Ionia.Bridge_ReduceConv <> idx def
+R37427:37429 Ionia.Bridge_ReduceConv <> num:304 var
+R37377:37390 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R37422:37424 Ionia.Bridge_ReduceConv <> rho:303 var
+R37393:37402 Ionia.Bridge_ReduceConv <> Conv3d def
+R37415:37419 Ionia.Bridge_ReduceConv <> input:302 var
+R37413:37413 Ionia.Bridge_ReduceConv <> w:300 var
+R37408:37411 Ionia.Bridge_ReduceConv <> bias:301 var
+R37404:37404 Ionia.Bridge_ReduceConv <> p:292 var
+R37445:37451 Ionia.Bridge_ReduceConv <> idx def
+R37582:37584 Ionia.Bridge_ReduceConv <> j0A:308 var
+R37454:37460 Ionia.Bridge_ReduceConv <> idx def
+R37577:37579 Ionia.Bridge_ReduceConv <> i0A:307 var
+R37463:37469 Ionia.Bridge_ReduceConv <> idx def
+R37572:37574 Ionia.Bridge_ReduceConv <> num:304 var
+R37476:37484 Ionia.Bridge_ReduceConv <> Conv3d def
+R37545:37558 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R37566:37568 Ionia.Bridge_ReduceConv <> rho:303 var
+R37560:37564 Ionia.Bridge_ReduceConv <> input:302 var
+R37513:37526 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R37533:37535 Ionia.Bridge_ReduceConv <> rho:303 var
+R37528:37531 Ionia.Bridge_ReduceConv <> bias:301 var
+R37490:37503 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R37507:37509 Ionia.Bridge_ReduceConv <> rho:303 var
+R37505:37505 Ionia.Bridge_ReduceConv <> w:300 var
+R37486:37487 Ionia.Bridge_ReduceConv <> Hk:293 var
+R37715:37725 Ionia.Bridge_ReduceConv <> conv3d_body thm
+R37738:37758 Ionia.Bridge_ReduceConv <> to_pcg_exp_mkvSeq thm
+R37772:37785 Ionia.Bridge_ReduceConv <> idx_mkvSeq thm
+R37808:37828 Ionia.Bridge_ReduceConv <> to_pcg_exp_mkvSeq thm
+R37871:37873 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R37867:37869 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R37847:37847 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R37862:37865 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R37854:37856 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R37850:37852 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R37858:37860 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R37896:37909 Ionia.Bridge_ReduceConv <> idx_mkvSeq thm
+R37933:37953 Ionia.Bridge_ReduceConv <> to_pcg_exp_mkvSeq thm
+R37996:37998 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R37992:37994 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R37972:37972 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R37987:37990 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R37979:37981 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R37975:37977 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R37983:37985 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R38021:38034 Ionia.Bridge_ReduceConv <> idx_mkvSeq thm
+R38057:38065 Ionia.Bridge_ReduceConv <> Conv3d def
+R38079:38092 Ionia.Bridge_ReduceConv <> idx_mkvSeq thm
+R38140:38142 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R38136:38138 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R38132:38134 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R38124:38126 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R38128:38130 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R38165:38178 Ionia.Bridge_ReduceConv <> idx_mkvSeq thm
+R38228:38230 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R38224:38226 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R38220:38222 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R38212:38214 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R38216:38218 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R38253:38266 Ionia.Bridge_ReduceConv <> idx_mkvSeq thm
+R38290:38302 Ionia.Bridge_ReduceConv <> Conv3dCell def
+R38315:38332 Ionia.Bridge_ReduceConv <> to_pcg_exp_add thm
+R38335:38352 Ionia.Bridge_ReduceConv <> to_pcg_exp_idx thm
+R38363:38370 Corelib.Init.Logic <> f_equal2 thm
+R38712:38718 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R38476:38489 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R38498:38503 Ionia.Bridge_ReduceConv <> sum def
+R38506:38514 Ionia.Bridge_ReduceConv <> mkvSeq def
+R38525:38527 Ionia.finType <> fin def
+binder 38521:38521 <> c:309
+R38548:38553 Ionia.Bridge_ReduceConv <> sum def
+R38556:38564 Ionia.Bridge_ReduceConv <> mkvSeq def
+R38576:38578 Ionia.finType <> fin def
+binder 38571:38572 <> i1:310
+R38595:38600 Ionia.Bridge_ReduceConv <> sum def
+R38603:38611 Ionia.Bridge_ReduceConv <> mkvSeq def
+R38623:38625 Ionia.finType <> fin def
+binder 38618:38619 <> j1:311
+R38644:38662 Ionia.Bridge_ReduceConv <> Conv3d_idx_cell def
+R38699:38700 Ionia.Bridge_ReduceConv <> j1:311 var
+R38696:38697 Ionia.Bridge_ReduceConv <> i1:310 var
+R38694:38694 Ionia.Bridge_ReduceConv <> c:309 var
+R38719:38732 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R38741:38746 Ionia.Bridge_ReduceConv <> sum def
+R38749:38757 Ionia.Bridge_ReduceConv <> mkvSeq def
+R38768:38787 Ionia.Bridge_ReduceConv <> Conv3d_flat_cell def
+binder 38521:38521 <> c:312
+binder 38571:38572 <> i1:313
+binder 38618:38619 <> j1:314
+R38699:38700 Ionia.Bridge_ReduceConv <> j1:314 var
+R38696:38697 Ionia.Bridge_ReduceConv <> i1:313 var
+R38694:38694 Ionia.Bridge_ReduceConv <> c:312 var
+R38851:38872 Ionia.Bridge_ReduceConv <> Conv3d_sum_flatten thm
+R38940:38942 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R38936:38938 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R38932:38934 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R38965:38986 Ionia.Bridge_ReduceConv <> to_pcg_exp_sum_nat thm
+R39010:39027 Ionia.Bridge_ReduceConv <> pcg_sum_mkvSeq_nat thm
+R39046:39064 Ionia.Bridge_ReduceConv <> sumR_nat_fin_eq thm
+R39101:39120 Ionia.Bridge_ReduceConv <> Conv3d_flat_cell def
+R39143:39160 Ionia.Bridge_ReduceConv <> to_pcg_exp_mul thm
+R39174:39184 Stdlib.Arith.PeanoNat Nat mul_1_r thm
+R39195:39202 Corelib.Init.Logic <> f_equal2 thm
+R39249:39269 Ionia.Bridge_ReduceConv <> conv_flat_di_bound thm
+R39272:39278 Ionia.finType <> nat2fin def
+R39313:39333 Ionia.Bridge_ReduceConv <> conv_flat_dj_bound thm
+R39336:39342 Ionia.finType <> nat2fin def
+R39373:39387 Ionia.finType <> fin2nat_nat2fin thm
+R39418:39426 Ionia.finType <> fin_proof def
+R39457:39465 Ionia.finType <> fin_proof def
+R39523:39526 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R39519:39521 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R39499:39499 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R39514:39517 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R39506:39508 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R39502:39504 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R39510:39512 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R39541:39543 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R39537:39539 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R39529:39531 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R39533:39535 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R39565:39575 Stdlib.Arith.PeanoNat Nat div_1_r def
+R39627:39630 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R39623:39625 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R39603:39603 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R39618:39621 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R39610:39612 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R39606:39608 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R39614:39616 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R39645:39647 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R39641:39643 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R39633:39635 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R39637:39639 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R39669:39679 Stdlib.Arith.PeanoNat Nat div_1_r def
+R39700:39706 Ionia.finType <> fin2nat def
+R39709:39715 Ionia.finType <> nat2fin def
+R39745:39761 Ionia.Bridge_ReduceConv <> interp_pad3d_read thm
+R39793:39799 Ionia.finType <> nat2fin def
+R39810:39816 Stdlib.Arith.PeanoNat Nat div def
+R39823:39825 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R39831:39853 Ionia.Bridge_ReduceConv <> conv3d_flat_c_bound thm
+R39856:39862 Ionia.finType <> nat2fin def
+R39892:39894 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R39881:39887 Ionia.finType <> fin2nat def
+R39895:39901 Stdlib.Arith.PeanoNat Nat div def
+R39904:39913 Stdlib.Arith.PeanoNat Nat modulo def
+R39920:39922 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R39948:39950 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R39937:39943 Ionia.finType <> fin2nat def
+R39951:39960 Stdlib.Arith.PeanoNat Nat modulo def
+R40121:40143 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R40023:40029 Ionia.finType <> nat2fin def
+R40040:40046 Stdlib.Arith.PeanoNat Nat div def
+R40053:40055 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R40083:40105 Ionia.Bridge_ReduceConv <> conv3d_flat_c_bound thm
+R40108:40114 Ionia.finType <> nat2fin def
+R40144:40150 Ionia.finType <> nat2fin def
+R40153:40172 Ionia.Bridge_ReduceConv <> conv_flat_c_bound thm
+R40175:40181 Ionia.finType <> nat2fin def
+R40206:40212 Ionia.finType <> fin_eq' thm
+R40224:40238 Ionia.finType <> fin2nat_nat2fin thm
+R40343:40360 Ionia.Bridge_ReduceConv <> to_pcg_exp_idx thm
+R40373:40380 Corelib.Init.Logic <> f_equal2 thm
+R40393:40399 Ionia.finType <> fin_eq' thm
+R40411:40425 Ionia.finType <> fin2nat_nat2fin thm
+R40453:40460 Corelib.Init.Logic <> f_equal2 thm
+R40473:40479 Ionia.finType <> fin_eq' thm
+R40491:40505 Ionia.finType <> fin2nat_nat2fin thm
+R40533:40540 Corelib.Init.Logic <> f_equal2 thm
+R40572:40578 Ionia.finType <> fin_eq' thm
+R40590:40604 Ionia.finType <> fin2nat_nat2fin thm
+prf 40691:40703 <> interp_Conv3d
+R40744:40746 Corelib.Init.Datatypes <> nat ind
+binder 40715:40716 <> m1:315
+binder 40718:40719 <> m2:316
+binder 40721:40721 <> k:317
+binder 40723:40729 <> channel:318
+binder 40731:40738 <> filernum:319
+binder 40740:40740 <> p:320
+R40758:40760 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R40757:40757 Ionia.Bridge_ReduceConv <> k:317 var
+binder 40752:40753 <> Hk:321
+R40773:40775 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R40771:40772 Ionia.Bridge_ReduceConv <> m1:315 var
+binder 40765:40767 <> Hm1:322
+R40788:40790 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R40786:40787 Ionia.Bridge_ReduceConv <> m2:316 var
+binder 40780:40782 <> Hm2:323
+R40809:40811 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R40802:40808 Ionia.Bridge_ReduceConv <> channel:318 var
+binder 40797:40798 <> Hc:324
+R40829:40831 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R40821:40828 Ionia.Bridge_ReduceConv <> filernum:319 var
+binder 40816:40817 <> Hf:325
+R40845:40848 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R40844:40844 Ionia.Bridge_ReduceConv <> k:317 var
+R40849:40850 Ionia.Bridge_ReduceConv <> m1:315 var
+binder 40838:40840 <> Hk1:326
+R40861:40864 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R40860:40860 Ionia.Bridge_ReduceConv <> k:317 var
+R40865:40866 Ionia.Bridge_ReduceConv <> m2:316 var
+binder 40854:40856 <> Hk2:327
+R40876:40881 Ionia.Bridge_ReduceConv <> exp def
+R40884:40886 Ionia.DataExp <> ary constr
+R40901:40903 Ionia.DataExp <> ary constr
+R40917:40919 Ionia.DataExp <> ary constr
+R40927:40929 Ionia.DataExp <> ary constr
+R40936:40938 Ionia.DataExp <> num constr
+R40931:40932 Ionia.DataExp <> :::'''{'_x_'}' not
+R40934:40934 Ionia.DataExp <> :::'''{'_x_'}' not
+R40933:40933 Ionia.Bridge_ReduceConv <> k:317 var
+R40921:40922 Ionia.DataExp <> :::'''{'_x_'}' not
+R40924:40924 Ionia.DataExp <> :::'''{'_x_'}' not
+R40923:40923 Ionia.Bridge_ReduceConv <> k:317 var
+R40905:40906 Ionia.DataExp <> :::'''{'_x_'}' not
+R40914:40914 Ionia.DataExp <> :::'''{'_x_'}' not
+R40907:40913 Ionia.Bridge_ReduceConv <> channel:318 var
+R40888:40889 Ionia.DataExp <> :::'''{'_x_'}' not
+R40898:40898 Ionia.DataExp <> :::'''{'_x_'}' not
+R40890:40897 Ionia.Bridge_ReduceConv <> filernum:319 var
+binder 40872:40872 <> w:328
+R40955:40960 Ionia.Bridge_ReduceConv <> exp def
+R40963:40965 Ionia.DataExp <> ary constr
+R40979:40981 Ionia.DataExp <> num constr
+R40967:40968 Ionia.DataExp <> :::'''{'_x_'}' not
+R40977:40977 Ionia.DataExp <> :::'''{'_x_'}' not
+R40969:40976 Ionia.Bridge_ReduceConv <> filernum:319 var
+binder 40948:40951 <> bias:329
+R40996:41001 Ionia.Bridge_ReduceConv <> exp def
+R41004:41006 Ionia.DataExp <> ary constr
+R41020:41022 Ionia.DataExp <> ary constr
+R41031:41033 Ionia.DataExp <> ary constr
+R41041:41043 Ionia.DataExp <> num constr
+R41035:41036 Ionia.DataExp <> :::'''{'_x_'}' not
+R41039:41039 Ionia.DataExp <> :::'''{'_x_'}' not
+R41037:41038 Ionia.Bridge_ReduceConv <> m2:316 var
+R41024:41025 Ionia.DataExp <> :::'''{'_x_'}' not
+R41028:41028 Ionia.DataExp <> :::'''{'_x_'}' not
+R41026:41027 Ionia.Bridge_ReduceConv <> m1:315 var
+R41008:41009 Ionia.DataExp <> :::'''{'_x_'}' not
+R41017:41017 Ionia.DataExp <> :::'''{'_x_'}' not
+R41010:41016 Ionia.Bridge_ReduceConv <> channel:318 var
+binder 40988:40992 <> input:330
+R41058:41064 Ionia.Bridge_ReduceConv <> env def
+binder 41052:41054 <> rho:331
+R41166:41179 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R41078:41080 Ionia.DataExp <> ary constr
+R41108:41110 Ionia.DataExp <> ary constr
+R41135:41137 Ionia.DataExp <> ary constr
+R41161:41163 Ionia.DataExp <> num constr
+R41139:41140 Ionia.DataExp <> :::'''{'_x_'}' not
+R41159:41159 Ionia.DataExp <> :::'''{'_x_'}' not
+R41155:41157 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R41151:41153 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R41143:41145 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R41141:41142 Ionia.Bridge_ReduceConv <> m2:316 var
+R41147:41149 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R41150:41150 Ionia.Bridge_ReduceConv <> p:320 var
+R41154:41154 Ionia.Bridge_ReduceConv <> k:317 var
+R41112:41113 Ionia.DataExp <> :::'''{'_x_'}' not
+R41132:41132 Ionia.DataExp <> :::'''{'_x_'}' not
+R41128:41130 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R41124:41126 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R41116:41118 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R41114:41115 Ionia.Bridge_ReduceConv <> m1:315 var
+R41120:41122 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R41123:41123 Ionia.Bridge_ReduceConv <> p:320 var
+R41127:41127 Ionia.Bridge_ReduceConv <> k:317 var
+R41082:41083 Ionia.DataExp <> :::'''{'_x_'}' not
+R41092:41092 Ionia.DataExp <> :::'''{'_x_'}' not
+R41084:41091 Ionia.Bridge_ReduceConv <> filernum:319 var
+R41180:41182 Ionia.DataExp <> ary constr
+R41210:41212 Ionia.DataExp <> ary constr
+R41243:41245 Ionia.DataExp <> ary constr
+R41275:41277 Ionia.DataExp <> num constr
+R41247:41248 Ionia.DataExp <> :::'''{'_x_'}' not
+R41273:41273 Ionia.DataExp <> :::'''{'_x_'}' not
+R41269:41271 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R41249:41249 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R41264:41267 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R41256:41258 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R41252:41254 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R41250:41251 Ionia.Bridge_ReduceConv <> m2:316 var
+R41255:41255 Ionia.Bridge_ReduceConv <> k:317 var
+R41260:41262 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R41263:41263 Ionia.Bridge_ReduceConv <> p:320 var
+R41214:41215 Ionia.DataExp <> :::'''{'_x_'}' not
+R41240:41240 Ionia.DataExp <> :::'''{'_x_'}' not
+R41236:41238 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R41216:41216 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R41231:41234 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R41223:41225 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R41219:41221 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R41217:41218 Ionia.Bridge_ReduceConv <> m1:315 var
+R41222:41222 Ionia.Bridge_ReduceConv <> k:317 var
+R41227:41229 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R41230:41230 Ionia.Bridge_ReduceConv <> p:320 var
+R41184:41185 Ionia.DataExp <> :::'''{'_x_'}' not
+R41194:41194 Ionia.DataExp <> :::'''{'_x_'}' not
+R41186:41193 Ionia.Bridge_ReduceConv <> filernum:319 var
+binder 41070:41074 <> Hdims:332
+R41411:41415 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R41285:41291 Corelib.Init.Logic <> eq_rect scheme
+R41406:41410 Ionia.Bridge_ReduceConv <> Hdims:332 var
+R41308:41316 Ionia.Bridge_ReduceConv <> Conv3d def
+R41377:41390 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R41398:41400 Ionia.Bridge_ReduceConv <> rho:331 var
+R41392:41396 Ionia.Bridge_ReduceConv <> input:330 var
+R41345:41358 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R41365:41367 Ionia.Bridge_ReduceConv <> rho:331 var
+R41360:41363 Ionia.Bridge_ReduceConv <> bias:329 var
+R41322:41335 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R41339:41341 Ionia.Bridge_ReduceConv <> rho:331 var
+R41337:41337 Ionia.Bridge_ReduceConv <> w:328 var
+R41318:41319 Ionia.Bridge_ReduceConv <> Hk:321 var
+R41295:41301 Ionia.Bridge_ReduceConv <> exp def
+R41416:41429 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R41461:41463 Ionia.Bridge_ReduceConv <> rho:331 var
+R41432:41441 Ionia.Bridge_ReduceConv <> Conv3d def
+R41454:41458 Ionia.Bridge_ReduceConv <> input:330 var
+R41452:41452 Ionia.Bridge_ReduceConv <> w:328 var
+R41447:41450 Ionia.Bridge_ReduceConv <> bias:329 var
+R41443:41443 Ionia.Bridge_ReduceConv <> p:320 var
+R41570:41577 Ionia.Bridge_ReduceConv <> exp3_ext thm
+R41638:41640 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R41634:41636 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R41614:41614 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R41629:41632 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R41621:41623 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R41617:41619 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R41625:41627 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R41655:41657 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R41651:41653 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R41643:41645 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R41647:41649 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R41677:41687 Stdlib.Arith.PeanoNat Nat div_1_r def
+R41736:41738 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R41732:41734 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R41712:41712 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R41727:41730 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R41719:41721 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R41715:41717 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R41723:41725 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R41753:41755 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R41749:41751 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R41741:41743 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R41745:41747 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R41775:41785 Stdlib.Arith.PeanoNat Nat div_1_r def
+R41820:41822 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R41810:41816 Ionia.finType <> fin2nat def
+R41837:41839 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R41833:41835 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R41825:41827 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R41829:41831 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R41860:41868 Ionia.finType <> fin_proof def
+R41914:41916 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R41904:41910 Ionia.finType <> fin2nat def
+R41931:41933 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R41927:41929 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R41919:41921 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R41923:41925 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R41954:41962 Ionia.finType <> fin_proof def
+R41993:42005 Ionia.Bridge_ReduceConv <> pcg_idx3_cast thm
+R42031:42033 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R42027:42029 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R42019:42021 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R42023:42025 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R42052:42054 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R42048:42050 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R42040:42042 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R42044:42046 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R42092:42094 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R42072:42072 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R42087:42090 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R42079:42081 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R42075:42077 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R42083:42085 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R42119:42121 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R42099:42099 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R42114:42117 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R42106:42108 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R42102:42104 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R42110:42112 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R42129:42135 Corelib.Init.Logic <> eq_refl constr
+R42138:42143 Corelib.Init.Logic <> eq_sym scheme
+R42151:42156 Corelib.Init.Logic <> eq_sym scheme
+R42174:42182 Ionia.Bridge_ReduceConv <> Conv3d def
+R42243:42256 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R42211:42224 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R42188:42201 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R42289:42295 Ionia.finType <> nat2fin def
+R42303:42309 Ionia.finType <> nat2fin def
+R42320:42326 Corelib.Init.Logic <> eq_refl constr
+R42329:42334 Corelib.Init.Logic <> eq_sym scheme
+R42337:42351 Ionia.finType <> fin2nat_nat2fin thm
+R42360:42365 Corelib.Init.Logic <> eq_sym scheme
+R42368:42382 Ionia.finType <> fin2nat_nat2fin thm
+R42413:42430 Ionia.Bridge_ReduceConv <> interp_Conv3d_cell thm
+R42516:42522 Ionia.finType <> nat2fin def
+R42530:42536 Ionia.finType <> nat2fin def
+R42548:42553 Corelib.Init.Logic <> eq_sym scheme
+R42556:42570 Ionia.finType <> fin2nat_nat2fin thm
+R42579:42584 Corelib.Init.Logic <> eq_sym scheme
+R42587:42601 Ionia.finType <> fin2nat_nat2fin thm
+prf 42869:42881 <> Bridge_Conv3d
+R42922:42924 Corelib.Init.Datatypes <> nat ind
+binder 42893:42894 <> m1:333
+binder 42896:42897 <> m2:334
+binder 42899:42899 <> k:335
+binder 42901:42907 <> channel:336
+binder 42909:42916 <> filernum:337
+binder 42918:42918 <> p:338
+R42936:42938 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R42935:42935 Ionia.Bridge_ReduceConv <> k:335 var
+binder 42930:42931 <> Hk:339
+R42951:42953 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R42949:42950 Ionia.Bridge_ReduceConv <> m1:333 var
+binder 42943:42945 <> Hm1:340
+R42966:42968 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R42964:42965 Ionia.Bridge_ReduceConv <> m2:334 var
+binder 42958:42960 <> Hm2:341
+R42987:42989 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R42980:42986 Ionia.Bridge_ReduceConv <> channel:336 var
+binder 42975:42976 <> Hc:342
+R43007:43009 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R42999:43006 Ionia.Bridge_ReduceConv <> filernum:337 var
+binder 42994:42995 <> Hf:343
+R43023:43026 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R43022:43022 Ionia.Bridge_ReduceConv <> k:335 var
+R43027:43028 Ionia.Bridge_ReduceConv <> m1:333 var
+binder 43016:43018 <> Hk1:344
+R43039:43042 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R43038:43038 Ionia.Bridge_ReduceConv <> k:335 var
+R43043:43044 Ionia.Bridge_ReduceConv <> m2:334 var
+binder 43032:43034 <> Hk2:345
+R43054:43059 Ionia.Bridge_ReduceConv <> exp def
+R43062:43064 Ionia.DataExp <> ary constr
+R43079:43081 Ionia.DataExp <> ary constr
+R43095:43097 Ionia.DataExp <> ary constr
+R43105:43107 Ionia.DataExp <> ary constr
+R43114:43116 Ionia.DataExp <> num constr
+R43109:43110 Ionia.DataExp <> :::'''{'_x_'}' not
+R43112:43112 Ionia.DataExp <> :::'''{'_x_'}' not
+R43111:43111 Ionia.Bridge_ReduceConv <> k:335 var
+R43099:43100 Ionia.DataExp <> :::'''{'_x_'}' not
+R43102:43102 Ionia.DataExp <> :::'''{'_x_'}' not
+R43101:43101 Ionia.Bridge_ReduceConv <> k:335 var
+R43083:43084 Ionia.DataExp <> :::'''{'_x_'}' not
+R43092:43092 Ionia.DataExp <> :::'''{'_x_'}' not
+R43085:43091 Ionia.Bridge_ReduceConv <> channel:336 var
+R43066:43067 Ionia.DataExp <> :::'''{'_x_'}' not
+R43076:43076 Ionia.DataExp <> :::'''{'_x_'}' not
+R43068:43075 Ionia.Bridge_ReduceConv <> filernum:337 var
+binder 43050:43050 <> w:346
+R43133:43138 Ionia.Bridge_ReduceConv <> exp def
+R43141:43143 Ionia.DataExp <> ary constr
+R43157:43159 Ionia.DataExp <> num constr
+R43145:43146 Ionia.DataExp <> :::'''{'_x_'}' not
+R43155:43155 Ionia.DataExp <> :::'''{'_x_'}' not
+R43147:43154 Ionia.Bridge_ReduceConv <> filernum:337 var
+binder 43126:43129 <> bias:347
+R43174:43179 Ionia.Bridge_ReduceConv <> exp def
+R43182:43184 Ionia.DataExp <> ary constr
+R43198:43200 Ionia.DataExp <> ary constr
+R43209:43211 Ionia.DataExp <> ary constr
+R43219:43221 Ionia.DataExp <> num constr
+R43213:43214 Ionia.DataExp <> :::'''{'_x_'}' not
+R43217:43217 Ionia.DataExp <> :::'''{'_x_'}' not
+R43215:43216 Ionia.Bridge_ReduceConv <> m2:334 var
+R43202:43203 Ionia.DataExp <> :::'''{'_x_'}' not
+R43206:43206 Ionia.DataExp <> :::'''{'_x_'}' not
+R43204:43205 Ionia.Bridge_ReduceConv <> m1:333 var
+R43186:43187 Ionia.DataExp <> :::'''{'_x_'}' not
+R43195:43195 Ionia.DataExp <> :::'''{'_x_'}' not
+R43188:43194 Ionia.Bridge_ReduceConv <> channel:336 var
+binder 43166:43170 <> input:348
+R43239:43244 Ionia.Bridge_ReduceConv <> acc def
+R43247:43249 Ionia.DataExp <> ary constr
+R43268:43270 Ionia.DataExp <> ary constr
+R43301:43303 Ionia.DataExp <> ary constr
+R43333:43335 Ionia.DataExp <> num constr
+R43305:43306 Ionia.DataExp <> :::'''{'_x_'}' not
+R43331:43331 Ionia.DataExp <> :::'''{'_x_'}' not
+R43327:43329 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R43307:43307 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R43322:43325 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R43314:43316 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R43310:43312 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R43308:43309 Ionia.Bridge_ReduceConv <> m2:334 var
+R43313:43313 Ionia.Bridge_ReduceConv <> k:335 var
+R43318:43320 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R43321:43321 Ionia.Bridge_ReduceConv <> p:338 var
+R43272:43273 Ionia.DataExp <> :::'''{'_x_'}' not
+R43298:43298 Ionia.DataExp <> :::'''{'_x_'}' not
+R43294:43296 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R43274:43274 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R43289:43292 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R43281:43283 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R43277:43279 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R43275:43276 Ionia.Bridge_ReduceConv <> m1:333 var
+R43280:43280 Ionia.Bridge_ReduceConv <> k:335 var
+R43285:43287 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R43288:43288 Ionia.Bridge_ReduceConv <> p:338 var
+R43251:43252 Ionia.DataExp <> :::'''{'_x_'}' not
+R43261:43261 Ionia.DataExp <> :::'''{'_x_'}' not
+R43253:43260 Ionia.Bridge_ReduceConv <> filernum:337 var
+binder 43230:43235 <> output:349
+R43350:43356 Ionia.Bridge_ReduceConv <> env def
+binder 43344:43346 <> rho:350
+R43413:43418 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R43362:43387 Ionia.Bridge_ReduceConv <> exp_independent_of_acc def
+R43395:43412 Ionia.Bridge_ReduceConv <> tmp_scalar_acc def
+R43389:43393 Ionia.Bridge_ReduceConv <> input:348 var
+R43466:43471 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R43419:43444 Ionia.Bridge_ReduceConv <> exp_independent_of_acc def
+R43448:43465 Ionia.Bridge_ReduceConv <> tmp_scalar_acc def
+R43446:43446 Ionia.Bridge_ReduceConv <> w:346 var
+R43522:43527 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R43472:43497 Ionia.Bridge_ReduceConv <> exp_independent_of_acc def
+R43504:43521 Ionia.Bridge_ReduceConv <> tmp_scalar_acc def
+R43499:43502 Ionia.Bridge_ReduceConv <> bias:347 var
+R43528:43528 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R43694:43700 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R43546:43551 Ionia.Bridge_ReduceConv <> acc def
+R43554:43556 Ionia.DataExp <> ary constr
+R43576:43578 Ionia.DataExp <> ary constr
+R43609:43611 Ionia.DataExp <> ary constr
+R43641:43643 Ionia.DataExp <> num constr
+R43613:43614 Ionia.DataExp <> :::'''{'_x_'}' not
+R43639:43639 Ionia.DataExp <> :::'''{'_x_'}' not
+R43635:43637 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R43615:43615 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R43630:43633 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R43622:43624 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R43618:43620 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R43616:43617 Ionia.Bridge_ReduceConv <> m2:334 var
+R43621:43621 Ionia.Bridge_ReduceConv <> k:335 var
+R43626:43628 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R43629:43629 Ionia.Bridge_ReduceConv <> p:338 var
+R43580:43581 Ionia.DataExp <> :::'''{'_x_'}' not
+R43606:43606 Ionia.DataExp <> :::'''{'_x_'}' not
+R43602:43604 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R43582:43582 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R43597:43600 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R43589:43591 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R43585:43587 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R43583:43584 Ionia.Bridge_ReduceConv <> m1:333 var
+R43588:43588 Ionia.Bridge_ReduceConv <> k:335 var
+R43593:43595 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R43596:43596 Ionia.Bridge_ReduceConv <> p:338 var
+R43558:43559 Ionia.DataExp <> :::'''{'_x_'}' not
+R43568:43568 Ionia.DataExp <> :::'''{'_x_'}' not
+R43560:43567 Ionia.Bridge_ReduceConv <> filernum:337 var
+binder 43536:43542 <> output':351
+R43654:43679 Ionia.Bridge_ReduceConv <> exp_independent_of_acc def
+R43687:43693 Ionia.Bridge_ReduceConv <> output':351 var
+R43681:43685 Ionia.Bridge_ReduceConv <> input:348 var
+R43701:43701 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R43863:43869 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R43719:43724 Ionia.Bridge_ReduceConv <> acc def
+R43727:43729 Ionia.DataExp <> ary constr
+R43749:43751 Ionia.DataExp <> ary constr
+R43782:43784 Ionia.DataExp <> ary constr
+R43814:43816 Ionia.DataExp <> num constr
+R43786:43787 Ionia.DataExp <> :::'''{'_x_'}' not
+R43812:43812 Ionia.DataExp <> :::'''{'_x_'}' not
+R43808:43810 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R43788:43788 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R43803:43806 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R43795:43797 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R43791:43793 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R43789:43790 Ionia.Bridge_ReduceConv <> m2:334 var
+R43794:43794 Ionia.Bridge_ReduceConv <> k:335 var
+R43799:43801 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R43802:43802 Ionia.Bridge_ReduceConv <> p:338 var
+R43753:43754 Ionia.DataExp <> :::'''{'_x_'}' not
+R43779:43779 Ionia.DataExp <> :::'''{'_x_'}' not
+R43775:43777 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R43755:43755 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R43770:43773 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R43762:43764 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R43758:43760 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R43756:43757 Ionia.Bridge_ReduceConv <> m1:333 var
+R43761:43761 Ionia.Bridge_ReduceConv <> k:335 var
+R43766:43768 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R43769:43769 Ionia.Bridge_ReduceConv <> p:338 var
+R43731:43732 Ionia.DataExp <> :::'''{'_x_'}' not
+R43741:43741 Ionia.DataExp <> :::'''{'_x_'}' not
+R43733:43740 Ionia.Bridge_ReduceConv <> filernum:337 var
+binder 43709:43715 <> output':352
+R43827:43852 Ionia.Bridge_ReduceConv <> exp_independent_of_acc def
+R43856:43862 Ionia.Bridge_ReduceConv <> output':352 var
+R43854:43854 Ionia.Bridge_ReduceConv <> w:346 var
+R43870:43870 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R44035:44041 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R43888:43893 Ionia.Bridge_ReduceConv <> acc def
+R43896:43898 Ionia.DataExp <> ary constr
+R43918:43920 Ionia.DataExp <> ary constr
+R43951:43953 Ionia.DataExp <> ary constr
+R43983:43985 Ionia.DataExp <> num constr
+R43955:43956 Ionia.DataExp <> :::'''{'_x_'}' not
+R43981:43981 Ionia.DataExp <> :::'''{'_x_'}' not
+R43977:43979 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R43957:43957 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R43972:43975 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R43964:43966 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R43960:43962 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R43958:43959 Ionia.Bridge_ReduceConv <> m2:334 var
+R43963:43963 Ionia.Bridge_ReduceConv <> k:335 var
+R43968:43970 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R43971:43971 Ionia.Bridge_ReduceConv <> p:338 var
+R43922:43923 Ionia.DataExp <> :::'''{'_x_'}' not
+R43948:43948 Ionia.DataExp <> :::'''{'_x_'}' not
+R43944:43946 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R43924:43924 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R43939:43942 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R43931:43933 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R43927:43929 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R43925:43926 Ionia.Bridge_ReduceConv <> m1:333 var
+R43930:43930 Ionia.Bridge_ReduceConv <> k:335 var
+R43935:43937 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R43938:43938 Ionia.Bridge_ReduceConv <> p:338 var
+R43900:43901 Ionia.DataExp <> :::'''{'_x_'}' not
+R43910:43910 Ionia.DataExp <> :::'''{'_x_'}' not
+R43902:43909 Ionia.Bridge_ReduceConv <> filernum:337 var
+binder 43878:43884 <> output':353
+R43996:44021 Ionia.Bridge_ReduceConv <> exp_independent_of_acc def
+R44028:44034 Ionia.Bridge_ReduceConv <> output':353 var
+R44023:44026 Ionia.Bridge_ReduceConv <> bias:347 var
+R44107:44112 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R44042:44076 Ionia.Bridge_ReduceConv <> tmp_disjoint_from_output_conv3d def
+R44101:44106 Ionia.Bridge_ReduceConv <> output:349 var
+R44097:44097 Ionia.Bridge_ReduceConv <> p:338 var
+R44088:44095 Ionia.Bridge_ReduceConv <> filernum:337 var
+R44086:44086 Ionia.Bridge_ReduceConv <> k:335 var
+R44084:44084 Ionia.Bridge_ReduceConv <> k:335 var
+R44081:44082 Ionia.Bridge_ReduceConv <> m2:334 var
+R44078:44079 Ionia.Bridge_ReduceConv <> m1:333 var
+R44113:44113 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R44166:44172 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R44115:44133 Ionia.Bridge_ReduceConv <> StructUndefined def
+R44135:44137 Ionia.DataExp <> num constr
+R44140:44147 Ionia.Bridge_ReduceConv <> acc' def
+R44149:44160 Ionia.Bridge_ReduceConv <> tmp_path def
+R44163:44165 Ionia.Bridge_ReduceConv <> rho:350 var
+R44227:44231 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R44173:44180 Ionia.Bridge_ReduceConv <> eval def
+R44224:44226 Ionia.Bridge_ReduceConv <> rho:350 var
+R44183:44197 Ionia.Bridge_ReduceConv <> Conv3d_comm def
+R44216:44221 Ionia.Bridge_ReduceConv <> output:349 var
+R44210:44214 Ionia.Bridge_ReduceConv <> input:348 var
+R44208:44208 Ionia.Bridge_ReduceConv <> w:346 var
+R44203:44206 Ionia.Bridge_ReduceConv <> bias:347 var
+R44199:44199 Ionia.Bridge_ReduceConv <> p:338 var
+R44232:44245 Ionia.Bridge_ReduceConv <> Conv3d_comm def
+R44363:44365 Ionia.Bridge_ReduceConv <> rho:350 var
+R44331:44345 Ionia.Bridge_ReduceConv <> conv3d_cast_out def
+R44355:44360 Ionia.Bridge_ReduceConv <> output:349 var
+R44351:44353 Ionia.Bridge_ReduceConv <> Hk2:345 var
+R44347:44349 Ionia.Bridge_ReduceConv <> Hk1:344 var
+R44304:44317 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R44325:44327 Ionia.Bridge_ReduceConv <> rho:350 var
+R44319:44323 Ionia.Bridge_ReduceConv <> input:348 var
+R44274:44287 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R44294:44296 Ionia.Bridge_ReduceConv <> rho:350 var
+R44289:44292 Ionia.Bridge_ReduceConv <> bias:347 var
+R44251:44264 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R44268:44270 Ionia.Bridge_ReduceConv <> rho:350 var
+R44266:44266 Ionia.Bridge_ReduceConv <> w:346 var
+R44247:44248 Ionia.Bridge_ReduceConv <> Hk:339 var
+R44543:44545 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R44539:44541 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R44519:44519 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R44534:44537 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R44526:44528 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R44522:44524 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R44530:44532 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R44601:44603 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R44597:44599 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R44577:44577 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R44592:44595 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R44584:44586 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R44580:44582 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R44588:44590 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R44629:44642 Ionia.Bridge_ReduceConv <> Conv3d_sem thm
+R44665:44677 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+R44745:44748 Ionia.Bridge_ReduceConv <> A def
+R44762:44776 Ionia.Bridge_ReduceConv <> eval_assign thm
+R44793:44803 Ionia.Bridge_ReduceConv <> A_Conv3d thm
+R44918:44932 Ionia.Bridge_ReduceConv <> conv3d_cast_out def
+R44887:44900 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R44861:44874 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R44838:44851 Ionia.Bridge_ReduceConv <> to_pcg_exp def
+R44959:44962 Ionia.Bridge_ReduceConv <> A def
+R44975:44989 Ionia.Bridge_ReduceConv <> conv3d_cast_out def
+R45002:45012 Ionia.Bridge_ReduceConv <> assign_cast thm
+R45051:45063 Ionia.Bridge_ReduceConv <> interp_Conv3d thm
+R45346:45360 Ionia.Bridge_ReduceConv <> Bridge_Linear1d thm
+R45381:45396 Ionia.Bridge_ReduceConv <> Bridge_Softmax1d thm
+R45417:45432 Ionia.Bridge_ReduceConv <> Bridge_Maxpool4d thm
+R45453:45468 Ionia.Bridge_ReduceConv <> Bridge_Maxpool3d thm
+R45489:45504 Ionia.Bridge_ReduceConv <> Bridge_Flatten3d thm
+R45525:45537 Ionia.Bridge_ReduceConv <> Bridge_Conv3d thm

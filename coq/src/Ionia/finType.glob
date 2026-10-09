@@ -1,0 +1,1332 @@
+DIGEST f72c8b35380ba5d970a7f6649ba1958e
+FIonia.finType
+R1411:1415 Stdlib.Arith.Arith <> <> lib
+R1417:1419 Stdlib.micromega.Lia <> <> lib
+R1421:1425 Stdlib.Reals.Reals <> <> lib
+R1443:1468 Stdlib.Logic.ProofIrrelevance <> <> lib
+prf 1540:1553 <> Req_dec_T_refl
+R1568:1568 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1564:1564 <> r:1
+R1584:1586 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1571:1579 Stdlib.Reals.RIneq <> Req_dec_T thm
+R1581:1581 Ionia.finType <> r:1 var
+R1583:1583 Ionia.finType <> r:1 var
+R1587:1590 Corelib.Init.Specif <> left constr
+R1592:1598 Corelib.Init.Logic <> eq_refl constr
+R1803:1811 Stdlib.Reals.RIneq <> Req_dec_T thm
+R1931:1947 Stdlib.Logic.ProofIrrelevance <> proof_irrelevance prfax
+prf 2152:2160 <> lt_unique
+binder 2171:2171 <> m:2
+binder 2173:2173 <> n:3
+R2184:2186 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R2183:2183 Ionia.finType <> m:2 var
+R2187:2187 Ionia.finType <> n:3 var
+binder 2176:2177 <> p1:4
+binder 2179:2180 <> p2:5
+R2195:2197 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2193:2194 Ionia.finType <> p1:4 var
+R2198:2199 Ionia.finType <> p2:5 var
+R2224:2225 Corelib.Init.Peano <> lt def
+R2243:2251 Stdlib.Arith.Peano_dec <> le_unique thm
+prf 2300:2307 <> exist_eq
+binder 2319:2319 <> B:6
+R2332:2335 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2331:2331 Ionia.finType <> B:6 var
+binder 2327:2327 <> P:7
+R2347:2347 Ionia.finType <> B:6 var
+binder 2343:2343 <> x:8
+R2359:2359 Ionia.finType <> P:7 var
+R2361:2361 Ionia.finType <> x:8 var
+binder 2351:2352 <> p1:9
+binder 2354:2355 <> p2:10
+R2380:2382 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2368:2372 Corelib.Init.Specif <> exist constr
+R2378:2379 Ionia.finType <> p1:9 var
+R2376:2376 Ionia.finType <> x:8 var
+R2374:2374 Ionia.finType <> P:7 var
+R2383:2387 Corelib.Init.Specif <> exist constr
+R2393:2394 Ionia.finType <> p2:10 var
+R2391:2391 Ionia.finType <> x:8 var
+R2389:2389 Ionia.finType <> P:7 var
+R2521:2537 Stdlib.Logic.ProofIrrelevance <> proof_irrelevance prfax
+R2571:2575 Corelib.Init.Specif <> exist constr
+not 2556:2556 <> :::'['_'|'_x_']'
+prf 2592:2606 <> match_Some_None
+binder 2610:2610 <> A:11
+R2629:2634 Corelib.Init.Datatypes <> option ind
+R2636:2636 Ionia.finType <> A:11 var
+binder 2627:2627 <> a:12
+R2642:2642 Ionia.finType <> A:11 var
+binder 2640:2640 <> e:13
+R2658:2661 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R2650:2653 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R2649:2649 Ionia.finType <> a:12 var
+R2654:2657 Corelib.Init.Datatypes <> None constr
+R2710:2712 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2668:2668 Ionia.finType <> a:12 var
+R2675:2678 Corelib.Init.Datatypes <> Some constr
+R2685:2688 Corelib.Init.Datatypes <> Some constr
+R2690:2690 Ionia.finType <> e:13 var
+R2694:2697 Corelib.Init.Datatypes <> None constr
+R2702:2705 Corelib.Init.Datatypes <> None constr
+R2713:2716 Corelib.Init.Datatypes <> Some constr
+R2718:2718 Ionia.finType <> e:13 var
+sec 2790:2800 <> FiniteSetLt
+def 2888:2890 <> fin
+R2897:2899 Corelib.Init.Datatypes <> nat ind
+binder 2893:2893 <> n:15
+R2911:2911 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2913:2915 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2919:2921 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2927:2927 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2916:2918 Corelib.Init.Datatypes <> nat ind
+binder 2912:2912 <> i:16
+R2923:2925 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R2922:2922 Ionia.finType <> i:16 var
+R2926:2926 Ionia.finType <> n:15 var
+def 2972:2978 <> fin2nat
+R2985:2987 Corelib.Init.Datatypes <> nat ind
+binder 2981:2981 <> n:17
+R2995:2997 Ionia.finType <> fin def
+R2999:2999 Ionia.finType <> n:17 var
+binder 2991:2991 <> i:18
+R3004:3006 Corelib.Init.Datatypes <> nat ind
+R3019:3019 Ionia.finType <> i:18 var
+R3030:3034 Corelib.Init.Specif <> exist constr
+R3045:3045 Ionia.finType <> i:18 var
+prf 3061:3071 <> fin_correct
+R3076:3078 Corelib.Init.Datatypes <> nat ind
+binder 3074:3074 <> n:20
+R3093:3095 Ionia.finType <> fin def
+R3097:3097 Ionia.finType <> n:20 var
+binder 3091:3091 <> i:21
+R3110:3112 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R3101:3107 Ionia.finType <> fin2nat def
+R3109:3109 Ionia.finType <> i:21 var
+R3113:3113 Ionia.finType <> n:20 var
+def 3204:3211 <> fin2finS
+R3218:3220 Corelib.Init.Datatypes <> nat ind
+binder 3214:3214 <> n:22
+R3228:3230 Ionia.finType <> fin def
+R3232:3232 Ionia.finType <> n:22 var
+binder 3224:3224 <> i:23
+R3237:3239 Ionia.finType <> fin def
+R3242:3242 Corelib.Init.Datatypes <> S constr
+R3244:3244 Ionia.finType <> n:22 var
+R3252:3256 Corelib.Init.Specif <> exist constr
+R3273:3288 Stdlib.Arith.PeanoNat Nat lt_lt_succ_r thm
+R3295:3303 Corelib.Init.Specif <> proj2_sig def
+R3305:3305 Ionia.finType <> i:23 var
+R3261:3267 Ionia.finType <> fin2nat def
+R3269:3269 Ionia.finType <> i:23 var
+R3334:3341 Ionia.finType <> fin2finS def
+not 3320:3320 FiniteSetLt :::'FS['_x_']'
+prf 3354:3365 <> finS2fin_aux
+R3383:3385 Corelib.Init.Datatypes <> nat ind
+binder 3377:3377 <> i:24
+binder 3379:3379 <> n:25
+R3398:3401 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3392:3394 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R3391:3391 Ionia.finType <> i:24 var
+R3395:3395 Corelib.Init.Datatypes <> S constr
+R3397:3397 Ionia.finType <> n:25 var
+R3408:3411 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3403:3406 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R3402:3402 Ionia.finType <> i:24 var
+R3407:3407 Ionia.finType <> n:25 var
+R3413:3415 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R3412:3412 Ionia.finType <> i:24 var
+R3416:3416 Ionia.finType <> n:25 var
+def 3482:3489 <> finS2fin
+R3496:3498 Corelib.Init.Datatypes <> nat ind
+binder 3492:3492 <> n:26
+R3506:3508 Ionia.finType <> fin def
+R3511:3511 Corelib.Init.Datatypes <> S constr
+R3513:3513 Ionia.finType <> n:26 var
+binder 3502:3502 <> i:27
+R3531:3534 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R3522:3528 Ionia.finType <> fin2nat def
+R3530:3530 Ionia.finType <> i:27 var
+R3535:3535 Ionia.finType <> n:26 var
+binder 3518:3518 <> H:28
+R3540:3542 Ionia.finType <> fin def
+R3544:3544 Ionia.finType <> n:26 var
+R3551:3555 Corelib.Init.Specif <> exist constr
+R3572:3583 Ionia.finType <> finS2fin_aux thm
+R3601:3601 Ionia.finType <> H:28 var
+R3586:3596 Ionia.finType <> fin_correct thm
+R3598:3598 Ionia.finType <> i:27 var
+R3560:3566 Ionia.finType <> fin2nat def
+R3568:3568 Ionia.finType <> i:27 var
+prf 3655:3665 <> fin_finS_eq
+R3681:3683 Corelib.Init.Datatypes <> nat ind
+binder 3677:3677 <> n:29
+R3691:3693 Ionia.finType <> fin def
+R3695:3695 Ionia.finType <> n:29 var
+binder 3687:3687 <> i:30
+R3708:3710 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R3699:3705 Ionia.finType <> fin2nat def
+R3707:3707 Ionia.finType <> i:30 var
+R3711:3711 Corelib.Init.Datatypes <> S constr
+R3713:3713 Ionia.finType <> n:29 var
+R3772:3787 Stdlib.Arith.PeanoNat Nat lt_lt_succ_r thm
+R3808:3837 Ionia.finType <> fin2nat def
+def 3884:3895 <> fin3_example
+R3899:3901 Ionia.finType <> fin def
+R3908:3912 Corelib.Init.Specif <> exist constr
+R3919:3936 Stdlib.Arith.PeanoNat Nat lt_succ_diag_r thm
+def 3992:4006 <> fin2nat_example
+R4030:4032 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4010:4016 Ionia.finType <> fin2nat def
+R4018:4029 Ionia.finType <> fin3_example ex
+def 4111:4126 <> fin2finS_example
+R4151:4153 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4130:4137 Ionia.finType <> fin2finS def
+R4139:4150 Ionia.finType <> fin3_example ex
+R4154:4158 Corelib.Init.Specif <> exist constr
+R4165:4180 Stdlib.Arith.PeanoNat Nat lt_lt_succ_r thm
+R4187:4204 Stdlib.Arith.PeanoNat Nat lt_succ_diag_r thm
+def 4280:4284 <> fin0H
+R4291:4293 Corelib.Init.Datatypes <> nat ind
+binder 4287:4287 <> n:31
+R4302:4304 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R4305:4305 Ionia.finType <> n:31 var
+binder 4297:4297 <> H:32
+R4310:4312 Ionia.finType <> fin def
+R4314:4314 Ionia.finType <> n:31 var
+R4321:4325 Corelib.Init.Specif <> exist constr
+R4331:4331 Ionia.finType <> H:32 var
+def 4343:4351 <> fin3_zero
+R4355:4357 Ionia.finType <> fin def
+R4364:4368 Ionia.finType <> fin0H def
+R4371:4383 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+prf 4425:4434 <> fin0_empty
+R4443:4446 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4438:4440 Ionia.finType <> fin def
+R4447:4451 Corelib.Init.Logic <> False ind
+R4547:4557 Stdlib.Arith.PeanoNat Nat nlt_0_r thm
+prf 4660:4668 <> fin1_elem
+R4686:4688 Ionia.finType <> fin def
+binder 4682:4682 <> i:33
+R4703:4705 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4694:4700 Ionia.finType <> fin2nat def
+R4702:4702 Ionia.finType <> i:33 var
+prf 4815:4825 <> fin1_unique
+R4846:4848 Ionia.finType <> fin def
+binder 4839:4839 <> i:34
+binder 4841:4842 <> i':35
+R4855:4857 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4854:4854 Ionia.finType <> i:34 var
+R4858:4859 Ionia.finType <> i':35 var
+R4943:4945 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4965:4967 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5026:5042 Stdlib.Logic.ProofIrrelevance <> proof_irrelevance prfax
+def 5121:5129 <> fin0_auto
+R5136:5138 Corelib.Init.Datatypes <> nat ind
+binder 5132:5132 <> n:36
+R5143:5148 Corelib.Init.Datatypes <> option ind
+R5151:5153 Ionia.finType <> fin def
+R5155:5155 Ionia.finType <> n:36 var
+R5169:5169 Ionia.finType <> n:36 var
+R5185:5188 Corelib.Init.Datatypes <> None constr
+R5221:5221 Corelib.Init.Datatypes <> S constr
+R5229:5232 Corelib.Init.Datatypes <> Some constr
+R5235:5239 Corelib.Init.Specif <> exist constr
+R5246:5258 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+def 5314:5327 <> fin3_zero_auto
+R5331:5336 Corelib.Init.Datatypes <> option ind
+R5339:5341 Ionia.finType <> fin def
+R5349:5357 Ionia.finType <> fin0_auto def
+def 5463:5467 <> fin_0
+R5472:5474 Corelib.Init.Datatypes <> nat ind
+binder 5470:5470 <> n:38
+R5482:5490 Ionia.finType <> fin0_auto def
+R5492:5492 Ionia.finType <> n:38 var
+def 5507:5511 <> fin0n
+R5516:5518 Corelib.Init.Datatypes <> nat ind
+binder 5514:5514 <> n:39
+R5523:5525 Ionia.finType <> fin def
+R5528:5528 Corelib.Init.Datatypes <> S constr
+R5530:5530 Ionia.finType <> n:39 var
+R5536:5540 Corelib.Init.Specif <> exist constr
+R5547:5559 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+R5561:5561 Ionia.finType <> n:39 var
+def 5577:5583 <> nat2fin
+R5590:5592 Corelib.Init.Datatypes <> nat ind
+binder 5586:5586 <> n:40
+R5600:5602 Corelib.Init.Datatypes <> nat ind
+binder 5596:5596 <> i:41
+R5611:5613 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R5610:5610 Ionia.finType <> i:41 var
+R5614:5614 Ionia.finType <> n:40 var
+binder 5606:5606 <> H:42
+R5619:5621 Ionia.finType <> fin def
+R5623:5623 Ionia.finType <> n:40 var
+R5630:5634 Corelib.Init.Specif <> exist constr
+R5640:5640 Ionia.finType <> H:42 var
+R5638:5638 Ionia.finType <> i:41 var
+def 5655:5662 <> fin_last
+R5667:5669 Corelib.Init.Datatypes <> nat ind
+binder 5665:5665 <> n:43
+R5674:5676 Ionia.finType <> fin def
+R5679:5679 Corelib.Init.Datatypes <> S constr
+R5681:5681 Ionia.finType <> n:43 var
+R5687:5693 Ionia.finType <> nat2fin def
+R5696:5713 Stdlib.Arith.PeanoNat Nat lt_succ_diag_r thm
+R5715:5715 Ionia.finType <> n:43 var
+prf 5874:5888 <> fin2nat_nat2fin
+binder 5899:5899 <> n:44
+binder 5901:5901 <> i:45
+R5907:5909 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R5906:5906 Ionia.finType <> i:45 var
+R5910:5910 Ionia.finType <> n:44 var
+binder 5904:5904 <> H:46
+R5941:5943 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5918:5924 Ionia.finType <> fin2nat def
+R5927:5933 Ionia.finType <> nat2fin def
+R5935:5935 Ionia.finType <> n:44 var
+R5937:5937 Ionia.finType <> i:45 var
+R5939:5939 Ionia.finType <> H:46 var
+R5944:5944 Ionia.finType <> i:45 var
+def 6031:6039 <> fin_proof
+R6046:6048 Corelib.Init.Datatypes <> nat ind
+binder 6042:6042 <> n:47
+R6056:6058 Ionia.finType <> fin def
+R6060:6060 Ionia.finType <> n:47 var
+binder 6052:6052 <> i:48
+R6074:6076 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R6065:6071 Ionia.finType <> fin2nat def
+R6073:6073 Ionia.finType <> i:48 var
+R6077:6077 Ionia.finType <> n:47 var
+R6090:6090 Ionia.finType <> i:48 var
+R6101:6105 Corelib.Init.Specif <> exist constr
+def 6157:6160 <> finS
+R6165:6167 Corelib.Init.Datatypes <> nat ind
+binder 6163:6163 <> n:50
+R6173:6175 Ionia.finType <> fin def
+R6177:6177 Ionia.finType <> n:50 var
+binder 6171:6171 <> i:51
+R6181:6183 Ionia.finType <> fin def
+R6186:6186 Corelib.Init.Datatypes <> S constr
+R6188:6188 Ionia.finType <> n:50 var
+R6197:6203 Ionia.finType <> nat2fin def
+R6206:6206 Corelib.Init.Datatypes <> S constr
+R6208:6208 Ionia.finType <> n:50 var
+R6212:6212 Corelib.Init.Datatypes <> S constr
+R6215:6221 Ionia.finType <> fin2nat def
+R6223:6223 Ionia.finType <> i:51 var
+R6233:6237 Corelib.Init.Logic <> proj1 thm
+R6264:6272 Ionia.finType <> fin_proof def
+R6274:6274 Ionia.finType <> i:51 var
+R6240:6255 Stdlib.Arith.PeanoNat Nat succ_lt_mono thm
+R6258:6258 Ionia.finType <> i:51 var
+R6260:6260 Ionia.finType <> n:50 var
+def 6340:6351 <> fin_not_zero
+R6358:6360 Corelib.Init.Datatypes <> nat ind
+binder 6354:6354 <> n:52
+R6368:6370 Ionia.finType <> fin def
+R6373:6373 Corelib.Init.Datatypes <> S constr
+R6375:6375 Ionia.finType <> n:52 var
+binder 6364:6364 <> i:53
+R6400:6403 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R6391:6397 Ionia.finType <> fin2nat def
+R6399:6399 Ionia.finType <> i:53 var
+prf 6486:6492 <> pred_lt
+R6499:6501 Corelib.Init.Datatypes <> nat ind
+binder 6495:6495 <> n:54
+R6509:6511 Corelib.Init.Datatypes <> nat ind
+binder 6505:6505 <> i:55
+R6520:6522 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R6519:6519 Ionia.finType <> i:55 var
+R6523:6523 Corelib.Init.Datatypes <> S constr
+R6525:6525 Ionia.finType <> n:54 var
+binder 6515:6515 <> H:56
+R6533:6536 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6531:6531 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R6532:6532 Ionia.finType <> i:55 var
+R6543:6545 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R6537:6540 Corelib.Init.Peano <> pred abbrev
+R6542:6542 Ionia.finType <> i:55 var
+R6546:6546 Ionia.finType <> n:54 var
+def 6579:6585 <> finPred
+R6592:6594 Corelib.Init.Datatypes <> nat ind
+binder 6588:6588 <> n:57
+R6602:6604 Ionia.finType <> fin def
+R6607:6607 Corelib.Init.Datatypes <> S constr
+R6609:6609 Ionia.finType <> n:57 var
+binder 6598:6598 <> i:58
+R6617:6619 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R6620:6626 Ionia.finType <> fin2nat def
+R6628:6628 Ionia.finType <> i:58 var
+binder 6614:6614 <> H:59
+R6634:6636 Ionia.finType <> fin def
+R6638:6638 Ionia.finType <> n:57 var
+R6647:6653 Ionia.finType <> nat2fin def
+R6655:6655 Ionia.finType <> n:57 var
+R6658:6661 Corelib.Init.Peano <> pred abbrev
+R6664:6670 Ionia.finType <> fin2nat def
+R6672:6672 Ionia.finType <> i:58 var
+R6677:6683 Ionia.finType <> pred_lt thm
+R6700:6700 Ionia.finType <> H:59 var
+R6687:6695 Ionia.finType <> fin_proof def
+R6697:6697 Ionia.finType <> i:58 var
+prf 6711:6730 <> finPred_type_correct
+R6737:6739 Corelib.Init.Datatypes <> nat ind
+binder 6733:6733 <> n:60
+R6747:6749 Ionia.finType <> fin def
+R6752:6752 Corelib.Init.Datatypes <> S constr
+R6754:6754 Ionia.finType <> n:60 var
+binder 6743:6743 <> i:61
+R6764:6766 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R6767:6773 Ionia.finType <> fin2nat def
+R6775:6775 Ionia.finType <> i:61 var
+binder 6759:6759 <> H:62
+R6803:6805 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R6782:6788 Ionia.finType <> fin2nat def
+R6791:6797 Ionia.finType <> finPred def
+R6801:6801 Ionia.finType <> H:62 var
+R6799:6799 Ionia.finType <> i:61 var
+R6806:6806 Ionia.finType <> n:60 var
+R6822:6832 Ionia.finType <> fin_correct thm
+prf 6864:6878 <> finPred_correct
+R6885:6887 Corelib.Init.Datatypes <> nat ind
+binder 6881:6881 <> n:63
+R6895:6897 Corelib.Init.Datatypes <> nat ind
+binder 6891:6891 <> i:64
+R6905:6907 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R6904:6904 Ionia.finType <> i:64 var
+R6908:6908 Corelib.Init.Datatypes <> S constr
+R6910:6910 Ionia.finType <> n:63 var
+binder 6901:6902 <> H1:65
+R6918:6918 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R6919:6919 Ionia.finType <> i:64 var
+binder 6914:6915 <> H2:66
+R6969:6971 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6927:6933 Ionia.finType <> fin2nat def
+R6936:6942 Ionia.finType <> finPred def
+R6966:6967 Ionia.finType <> H2:66 var
+R6946:6952 Ionia.finType <> nat2fin def
+R6955:6955 Corelib.Init.Datatypes <> S constr
+R6957:6957 Ionia.finType <> n:63 var
+R6960:6960 Ionia.finType <> i:64 var
+R6962:6963 Ionia.finType <> H1:65 var
+R6973:6973 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R6972:6972 Ionia.finType <> i:64 var
+prf 7009:7027 <> finPred_predecessor
+R7034:7036 Corelib.Init.Datatypes <> nat ind
+binder 7030:7030 <> n:67
+R7044:7046 Ionia.finType <> fin def
+R7049:7049 Corelib.Init.Datatypes <> S constr
+R7051:7051 Ionia.finType <> n:67 var
+binder 7040:7040 <> i:68
+R7061:7063 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R7064:7070 Ionia.finType <> fin2nat def
+R7072:7072 Ionia.finType <> i:68 var
+binder 7056:7056 <> H:69
+R7100:7102 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7079:7085 Ionia.finType <> fin2nat def
+R7088:7094 Ionia.finType <> finPred def
+R7098:7098 Ionia.finType <> H:69 var
+R7096:7096 Ionia.finType <> i:68 var
+R7112:7114 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R7103:7109 Ionia.finType <> fin2nat def
+R7111:7111 Ionia.finType <> i:68 var
+prf 7172:7186 <> finPred_inverse
+R7193:7195 Corelib.Init.Datatypes <> nat ind
+binder 7189:7189 <> n:70
+R7203:7205 Ionia.finType <> fin def
+R7207:7207 Ionia.finType <> n:70 var
+binder 7199:7199 <> i:71
+R7258:7260 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7214:7220 Ionia.finType <> finPred def
+R7232:7244 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+R7247:7253 Ionia.finType <> fin2nat def
+R7255:7255 Ionia.finType <> i:71 var
+R7223:7226 Ionia.finType <> finS def
+R7228:7228 Ionia.finType <> i:71 var
+R7261:7261 Ionia.finType <> i:71 var
+R7304:7307 Ionia.finType <> finS def
+R7310:7316 Ionia.finType <> finPred def
+R7335:7341 Ionia.finType <> nat2fin def
+R7352:7359 Ionia.finType <> exist_eq thm
+prf 7374:7389 <> finPred_inverse2
+R7396:7398 Corelib.Init.Datatypes <> nat ind
+binder 7392:7392 <> n:72
+R7406:7408 Ionia.finType <> fin def
+R7411:7411 Corelib.Init.Datatypes <> S constr
+R7413:7413 Ionia.finType <> n:72 var
+binder 7402:7402 <> i:73
+R7423:7425 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R7426:7432 Ionia.finType <> fin2nat def
+R7434:7434 Ionia.finType <> i:73 var
+binder 7418:7418 <> H:74
+R7468:7470 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7443:7443 Corelib.Init.Datatypes <> S constr
+R7446:7452 Ionia.finType <> fin2nat def
+R7455:7461 Ionia.finType <> finPred def
+R7465:7465 Ionia.finType <> H:74 var
+R7463:7463 Ionia.finType <> i:73 var
+R7471:7477 Ionia.finType <> fin2nat def
+R7479:7479 Ionia.finType <> i:73 var
+R7502:7508 Ionia.finType <> finPred def
+R7530:7542 Stdlib.Arith.PeanoNat Nat succ_pred thm
+prf 7570:7585 <> finPred_correct2
+R7592:7594 Corelib.Init.Datatypes <> nat ind
+binder 7588:7588 <> n:75
+R7602:7604 Ionia.finType <> fin def
+R7607:7607 Corelib.Init.Datatypes <> S constr
+R7609:7609 Ionia.finType <> n:75 var
+binder 7598:7598 <> i:76
+R7618:7620 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R7617:7617 Ionia.finType <> i:76 var
+R7621:7621 Corelib.Init.Datatypes <> S constr
+R7623:7623 Ionia.finType <> n:75 var
+binder 7614:7615 <> H1:77
+R7631:7631 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R7632:7632 Ionia.finType <> i:76 var
+binder 7627:7628 <> H2:78
+R7682:7684 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7640:7646 Ionia.finType <> fin2nat def
+R7649:7655 Ionia.finType <> finPred def
+R7679:7680 Ionia.finType <> H2:78 var
+R7659:7665 Ionia.finType <> nat2fin def
+R7668:7668 Corelib.Init.Datatypes <> S constr
+R7670:7670 Ionia.finType <> n:75 var
+R7673:7673 Ionia.finType <> i:76 var
+R7675:7676 Ionia.finType <> H1:77 var
+R7686:7686 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R7685:7685 Ionia.finType <> i:76 var
+prf 7723:7732 <> finPredAux
+R7746:7748 Corelib.Init.Datatypes <> nat ind
+binder 7744:7744 <> n:79
+R7754:7756 Ionia.finType <> fin def
+R7759:7759 Corelib.Init.Datatypes <> S constr
+R7761:7761 Ionia.finType <> n:79 var
+binder 7752:7752 <> i:80
+R7779:7784 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7768:7769 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R7770:7776 Ionia.finType <> fin2nat def
+R7778:7778 Ionia.finType <> i:80 var
+R7801:7803 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R7785:7788 Corelib.Init.Peano <> pred abbrev
+R7791:7797 Ionia.finType <> fin2nat def
+R7799:7799 Ionia.finType <> i:80 var
+R7804:7804 Ionia.finType <> n:79 var
+def 7882:7886 <> finSn
+R7891:7893 Corelib.Init.Datatypes <> nat ind
+binder 7889:7889 <> n:81
+R7899:7901 Ionia.finType <> fin def
+R7903:7903 Ionia.finType <> n:81 var
+binder 7897:7897 <> i:82
+R7909:7911 Corelib.Init.Datatypes <> nat ind
+binder 7907:7907 <> m:83
+R7916:7918 Ionia.finType <> fin def
+R7922:7922 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R7921:7921 Ionia.finType <> n:81 var
+R7923:7923 Ionia.finType <> m:83 var
+R8016:8020 Corelib.Init.Specif <> exist constr
+R8027:8029 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R8098:8114 Stdlib.Arith.PeanoNat Nat add_lt_mono_r thm
+prf 8201:8206 <> fin_eq
+R8220:8222 Corelib.Init.Datatypes <> nat ind
+binder 8218:8218 <> n:84
+R8232:8234 Ionia.finType <> fin def
+R8236:8236 Ionia.finType <> n:84 var
+binder 8226:8227 <> i1:85
+binder 8229:8230 <> i2:86
+R8265:8269 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R8252:8254 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8242:8248 Ionia.finType <> fin2nat def
+R8250:8251 Ionia.finType <> i1:85 var
+R8255:8261 Ionia.finType <> fin2nat def
+R8263:8264 Ionia.finType <> i2:86 var
+R8272:8274 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8270:8271 Ionia.finType <> i1:85 var
+R8275:8276 Ionia.finType <> i2:86 var
+R8687:8703 Stdlib.Logic.ProofIrrelevance <> proof_irrelevance prfax
+prf 8889:8905 <> fin2finS_finS2fin
+R8921:8923 Corelib.Init.Datatypes <> nat ind
+binder 8917:8917 <> n:87
+R8931:8933 Ionia.finType <> fin def
+R8935:8935 Ionia.finType <> n:87 var
+binder 8927:8927 <> i:88
+R8952:8955 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R8943:8949 Ionia.finType <> fin2nat def
+R8951:8951 Ionia.finType <> i:88 var
+R8956:8956 Ionia.finType <> n:87 var
+binder 8939:8939 <> H:89
+R8978:8980 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8962:8969 Ionia.finType <> finS2fin def
+R8977:8977 Ionia.finType <> H:89 var
+R8971:8973 Ionia.finType FiniteSetLt :::'FS['_x_']' not
+R8975:8975 Ionia.finType FiniteSetLt :::'FS['_x_']' not
+R8974:8974 Ionia.finType <> i:88 var
+R8981:8981 Ionia.finType <> i:88 var
+R9007:9012 Ionia.finType <> fin_eq thm
+prf 9040:9056 <> finS2fin_fin2finS
+R9072:9074 Corelib.Init.Datatypes <> nat ind
+binder 9068:9068 <> n:90
+R9082:9084 Ionia.finType <> fin def
+R9087:9087 Corelib.Init.Datatypes <> S constr
+R9089:9089 Ionia.finType <> n:90 var
+binder 9078:9078 <> i:91
+R9107:9110 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R9098:9104 Ionia.finType <> fin2nat def
+R9106:9106 Ionia.finType <> i:91 var
+R9111:9111 Ionia.finType <> n:90 var
+binder 9094:9094 <> H:92
+R9133:9135 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9117:9119 Ionia.finType FiniteSetLt :::'FS['_x_']' not
+R9132:9132 Ionia.finType FiniteSetLt :::'FS['_x_']' not
+R9120:9127 Ionia.finType <> finS2fin def
+R9131:9131 Ionia.finType <> H:92 var
+R9129:9129 Ionia.finType <> i:91 var
+R9136:9136 Ionia.finType <> i:91 var
+R9162:9167 Ionia.finType <> fin_eq thm
+prf 9195:9201 <> fin_eq'
+R9214:9216 Corelib.Init.Datatypes <> nat ind
+binder 9212:9212 <> n:93
+R9226:9228 Ionia.finType <> fin def
+R9230:9230 Ionia.finType <> n:93 var
+binder 9220:9221 <> i1:94
+binder 9223:9224 <> i2:95
+R9259:9262 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9246:9248 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9236:9242 Ionia.finType <> fin2nat def
+R9244:9245 Ionia.finType <> i1:94 var
+R9249:9255 Ionia.finType <> fin2nat def
+R9257:9258 Ionia.finType <> i2:95 var
+R9265:9267 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9263:9264 Ionia.finType <> i1:94 var
+R9268:9269 Ionia.finType <> i2:95 var
+R9287:9292 Ionia.finType <> fin_eq thm
+prf 9307:9313 <> fin_neq
+binder 9324:9324 <> n:96
+R9333:9335 Ionia.finType <> fin def
+R9337:9337 Ionia.finType <> n:96 var
+binder 9327:9328 <> i1:97
+binder 9330:9331 <> i2:98
+R9367:9371 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R9353:9356 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R9343:9349 Ionia.finType <> fin2nat def
+R9351:9352 Ionia.finType <> i1:97 var
+R9357:9363 Ionia.finType <> fin2nat def
+R9365:9366 Ionia.finType <> i2:98 var
+R9374:9377 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R9372:9373 Ionia.finType <> i1:97 var
+R9378:9379 Ionia.finType <> i2:98 var
+R9819:9824 Ionia.finType <> fin_eq thm
+prf 9923:9930 <> fin_neq'
+binder 9941:9941 <> n:99
+R9950:9952 Ionia.finType <> fin def
+R9954:9954 Ionia.finType <> n:99 var
+binder 9944:9945 <> i1:100
+binder 9947:9948 <> i2:101
+R9984:9988 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R9970:9973 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R9960:9966 Ionia.finType <> fin2nat def
+R9968:9969 Ionia.finType <> i1:100 var
+R9974:9980 Ionia.finType <> fin2nat def
+R9982:9983 Ionia.finType <> i2:101 var
+R9991:9993 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R9989:9990 Ionia.finType <> i1:100 var
+R9994:9995 Ionia.finType <> i2:101 var
+R10013:10019 Ionia.finType <> fin_neq thm
+def 10039:10041 <> ltS
+R10046:10048 Corelib.Init.Datatypes <> nat ind
+binder 10044:10044 <> m:102
+R10052:10054 Ionia.finType <> fin def
+R10057:10057 Corelib.Init.Datatypes <> S constr
+R10059:10059 Ionia.finType <> m:102 var
+R10066:10070 Corelib.Init.Specif <> exist constr
+R10077:10094 Stdlib.Arith.PeanoNat Nat lt_succ_diag_r thm
+R10096:10096 Ionia.finType <> m:102 var
+R10074:10074 Ionia.finType <> m:102 var
+prf 10108:10114 <> finltSn
+binder 10124:10124 <> n:103
+R10129:10131 Ionia.finType <> fin def
+R10134:10134 Corelib.Init.Datatypes <> S constr
+R10136:10136 Ionia.finType <> n:103 var
+binder 10127:10127 <> i:104
+R10144:10146 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R10143:10143 Ionia.finType <> i:104 var
+R10147:10147 Corelib.Init.Datatypes <> S constr
+R10149:10149 Ionia.finType <> n:103 var
+prf 10204:10216 <> fin2nat_exist
+binder 10226:10226 <> m:105
+binder 10228:10228 <> x:106
+binder 10230:10230 <> p:107
+R10288:10290 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10236:10242 Ionia.finType <> fin2nat def
+R10245:10245 Corelib.Init.Datatypes <> S constr
+R10247:10247 Ionia.finType <> m:105 var
+R10251:10255 Corelib.Init.Specif <> exist constr
+R10286:10286 Ionia.finType <> p:107 var
+R10284:10284 Ionia.finType <> x:106 var
+R10266:10268 Corelib.Init.Datatypes <> nat ind
+binder 10262:10262 <> i:108
+R10274:10277 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R10281:10281 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R10273:10273 Ionia.finType <> i:108 var
+R10278:10278 Corelib.Init.Datatypes <> S constr
+R10280:10280 Ionia.finType <> m:105 var
+R10291:10291 Ionia.finType <> x:106 var
+prf 10377:10391 <> nat2fin_fin2nat
+R10407:10409 Corelib.Init.Datatypes <> nat ind
+binder 10403:10403 <> n:109
+R10417:10419 Ionia.finType <> fin def
+R10421:10421 Ionia.finType <> n:109 var
+binder 10413:10413 <> i:110
+R10463:10465 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10428:10434 Ionia.finType <> nat2fin def
+R10436:10436 Ionia.finType <> n:109 var
+R10439:10445 Ionia.finType <> fin2nat def
+R10447:10447 Ionia.finType <> i:110 var
+R10451:10459 Ionia.finType <> fin_proof def
+R10461:10461 Ionia.finType <> i:110 var
+R10466:10466 Ionia.finType <> i:110 var
+R10680:10686 Ionia.finType <> nat2fin def
+R10689:10695 Ionia.finType <> fin2nat def
+R10698:10706 Ionia.finType <> fin_proof def
+prf 10756:10762 <> finS_pf
+R10776:10778 Corelib.Init.Datatypes <> nat ind
+binder 10774:10774 <> n:111
+R10784:10786 Ionia.finType <> fin def
+R10788:10788 Ionia.finType <> n:111 var
+binder 10782:10782 <> i:112
+R10793:10795 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R10792:10792 Ionia.finType <> i:112 var
+R10796:10796 Corelib.Init.Datatypes <> S constr
+R10798:10798 Ionia.finType <> n:111 var
+R10829:10844 Stdlib.Arith.PeanoNat Nat lt_lt_succ_r thm
+R10851:10859 Ionia.finType <> fin_proof def
+prf 10882:10889 <> finSS_pf
+R10903:10905 Corelib.Init.Datatypes <> nat ind
+binder 10901:10901 <> n:113
+R10911:10913 Ionia.finType <> fin def
+R10915:10915 Ionia.finType <> n:113 var
+binder 10909:10909 <> i:114
+R10922:10924 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R10919:10919 Corelib.Init.Datatypes <> S constr
+R10921:10921 Ionia.finType <> i:114 var
+R10925:10925 Corelib.Init.Datatypes <> S constr
+R10927:10927 Ionia.finType <> n:113 var
+R10964:10979 Stdlib.Arith.PeanoNat Nat succ_lt_mono thm
+R10991:10999 Ionia.finType <> fin_proof def
+prf 11021:11037 <> nat2finSi_fin2nat
+R11053:11055 Corelib.Init.Datatypes <> nat ind
+binder 11049:11049 <> n:115
+R11063:11065 Ionia.finType <> fin def
+R11067:11067 Ionia.finType <> n:115 var
+binder 11059:11059 <> i:116
+R11116:11118 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11074:11080 Ionia.finType <> nat2fin def
+R11083:11083 Corelib.Init.Datatypes <> S constr
+R11085:11085 Ionia.finType <> n:115 var
+R11089:11089 Corelib.Init.Datatypes <> S constr
+R11092:11098 Ionia.finType <> fin2nat def
+R11100:11100 Ionia.finType <> i:116 var
+R11105:11112 Ionia.finType <> finSS_pf thm
+R11114:11114 Ionia.finType <> i:116 var
+R11119:11122 Ionia.finType <> finS def
+R11124:11124 Ionia.finType <> i:116 var
+R11243:11249 Ionia.finType <> nat2fin def
+R11252:11258 Ionia.finType <> fin2nat def
+R11261:11267 Ionia.finType <> finS_pf thm
+R11270:11278 Ionia.finType <> fin_proof def
+R11281:11284 Ionia.finType <> finS def
+R11318:11324 Ionia.finType <> nat2fin def
+R11359:11366 Ionia.finType <> exist_eq thm
+prf 11381:11386 <> fin_lt
+binder 11396:11396 <> n:117
+R11401:11403 Ionia.finType <> fin def
+R11405:11405 Ionia.finType <> n:117 var
+binder 11399:11399 <> x:118
+R11414:11417 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11410:11412 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R11409:11409 Ionia.finType <> n:117 var
+R11419:11421 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R11418:11418 Ionia.finType <> x:118 var
+R11422:11422 Ionia.finType <> n:117 var
+prf 11497:11512 <> nat2fin_fin2finS
+binder 11523:11523 <> m:119
+binder 11525:11525 <> x:120
+R11531:11533 Ionia.finType <> fin def
+R11535:11535 Ionia.finType <> x:120 var
+binder 11528:11528 <> i:121
+R11549:11552 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11544:11547 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R11541:11541 Corelib.Init.Datatypes <> S constr
+R11543:11543 Ionia.finType <> x:120 var
+R11548:11548 Ionia.finType <> m:119 var
+R11576:11578 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11554:11560 Ionia.finType <> nat2fin def
+R11562:11562 Ionia.finType <> m:119 var
+R11565:11572 Ionia.finType <> fin2finS def
+R11574:11574 Ionia.finType <> i:121 var
+R11580:11586 Ionia.finType <> nat2fin def
+R11588:11588 Ionia.finType <> m:119 var
+R11590:11590 Ionia.finType <> i:121 var
+prf 11633:11648 <> fin2nat_fin2finS
+R11660:11662 Corelib.Init.Datatypes <> nat ind
+binder 11658:11658 <> n:122
+R11668:11670 Ionia.finType <> fin def
+R11672:11672 Ionia.finType <> n:122 var
+binder 11666:11666 <> x:123
+R11698:11700 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11679:11685 Ionia.finType <> fin2nat def
+R11687:11694 Ionia.finType <> fin2finS def
+R11696:11696 Ionia.finType <> x:123 var
+R11701:11707 Ionia.finType <> fin2nat def
+R11709:11709 Ionia.finType <> x:123 var
+R11736:11743 Ionia.finType <> fin2finS def
+R11754:11766 Ionia.finType <> fin2nat_exist thm
+prf 11787:11792 <> fin_le
+binder 11803:11803 <> m:124
+R11810:11812 Ionia.finType <> fin def
+R11814:11814 Ionia.finType <> m:124 var
+binder 11806:11806 <> i:125
+R11819:11822 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R11818:11818 Ionia.finType <> i:125 var
+R11823:11823 Ionia.finType <> m:124 var
+R11977:11990 Stdlib.Arith.PeanoNat Nat lt_le_incl thm
+prf 12116:12122 <> fin_lt'
+binder 12132:12132 <> n:126
+binder 12134:12134 <> m:127
+R12140:12142 Ionia.finType <> fin def
+R12144:12144 Ionia.finType <> n:126 var
+binder 12137:12137 <> i:128
+R12153:12155 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12149:12151 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R12148:12148 Ionia.finType <> n:126 var
+R12152:12152 Ionia.finType <> m:127 var
+R12157:12159 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R12156:12156 Ionia.finType <> i:128 var
+R12160:12160 Ionia.finType <> m:127 var
+def 12263:12266 <> fin0
+R12269:12274 Corelib.Init.Datatypes <> option ind
+R12277:12279 Ionia.finType <> fin def
+R12287:12290 Corelib.Init.Datatypes <> None constr
+def 12305:12314 <> fin_eq_dec
+R12321:12323 Corelib.Init.Datatypes <> nat ind
+binder 12317:12317 <> n:129
+R12333:12335 Ionia.finType <> fin def
+R12337:12337 Ionia.finType <> n:129 var
+binder 12327:12327 <> x:130
+binder 12329:12329 <> y:131
+R12342:12342 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R12348:12352 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R12359:12359 Corelib.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R12344:12346 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12343:12343 Ionia.finType <> x:130 var
+R12347:12347 Ionia.finType <> y:131 var
+R12354:12357 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R12353:12353 Ionia.finType <> x:130 var
+R12358:12358 Ionia.finType <> y:131 var
+R12523:12532 Stdlib.Arith.PeanoNat Nat eq_dec thm
+R12727:12743 Stdlib.Logic.ProofIrrelevance <> proof_irrelevance prfax
+prf 13038:13050 <> finP_monotone
+R13066:13068 Corelib.Init.Datatypes <> nat ind
+binder 13062:13062 <> n:132
+R13085:13088 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13076:13078 Ionia.finType <> fin def
+R13081:13081 Corelib.Init.Datatypes <> S constr
+R13083:13083 Ionia.finType <> n:132 var
+binder 13072:13072 <> P:133
+R13098:13098 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13124:13129 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13162:13162 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13110:13112 Ionia.finType <> fin def
+R13115:13115 Corelib.Init.Datatypes <> S constr
+R13117:13117 Ionia.finType <> n:132 var
+binder 13106:13106 <> i:134
+R13121:13121 Ionia.finType <> P:133 var
+R13123:13123 Ionia.finType <> i:134 var
+R13141:13143 Ionia.finType <> fin def
+R13145:13145 Ionia.finType <> n:132 var
+binder 13137:13137 <> i:135
+R13148:13148 Ionia.finType <> P:133 var
+R13151:13158 Ionia.finType <> fin2finS def
+R13160:13160 Ionia.finType <> i:135 var
+R13190:13197 Ionia.finType <> fin2finS def
+prf 13280:13292 <> finf_monotone
+binder 13295:13295 <> A:136
+R13314:13316 Corelib.Init.Datatypes <> nat ind
+binder 13312:13312 <> n:137
+R13333:13334 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13324:13326 Ionia.finType <> fin def
+R13329:13329 Corelib.Init.Datatypes <> S constr
+R13331:13331 Ionia.finType <> n:137 var
+R13335:13335 Ionia.finType <> A:136 var
+binder 13320:13320 <> f:138
+R13341:13341 Ionia.finType <> A:136 var
+binder 13339:13339 <> v:139
+R13347:13347 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13377:13385 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13426:13426 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13359:13361 Ionia.finType <> fin def
+R13364:13364 Corelib.Init.Datatypes <> S constr
+R13366:13366 Ionia.finType <> n:137 var
+binder 13355:13355 <> i:140
+R13373:13375 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13370:13370 Ionia.finType <> f:138 var
+R13372:13372 Ionia.finType <> i:140 var
+R13376:13376 Ionia.finType <> v:139 var
+R13397:13399 Ionia.finType <> fin def
+R13401:13401 Ionia.finType <> n:137 var
+binder 13393:13393 <> i:141
+R13422:13424 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13408:13408 Ionia.finType <> f:138 var
+R13411:13418 Ionia.finType <> fin2finS def
+R13420:13420 Ionia.finType <> i:141 var
+R13425:13425 Ionia.finType <> v:139 var
+R13454:13461 Ionia.finType <> fin2finS def
+prf 13531:13541 <> fin2nat_inj
+binder 13552:13552 <> n:142
+R13561:13563 Ionia.finType <> fin def
+R13565:13565 Ionia.finType <> n:142 var
+binder 13555:13555 <> i:143
+binder 13557:13557 <> j:144
+R13593:13596 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13581:13583 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13572:13578 Ionia.finType <> fin2nat def
+R13580:13580 Ionia.finType <> i:143 var
+R13584:13590 Ionia.finType <> fin2nat def
+R13592:13592 Ionia.finType <> j:144 var
+R13598:13600 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13597:13597 Ionia.finType <> i:143 var
+R13601:13601 Ionia.finType <> j:144 var
+R13665:13670 Ionia.finType <> fin_eq thm
+prf 13785:13800 <> fin_last_correct
+binder 13811:13811 <> n:145
+R13834:13836 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13814:13820 Ionia.finType <> fin2nat def
+R13823:13830 Ionia.finType <> fin_last def
+R13832:13832 Ionia.finType <> n:145 var
+R13837:13837 Ionia.finType <> n:145 var
+R13865:13872 Ionia.finType <> fin_last def
+R13875:13881 Ionia.finType <> nat2fin def
+R13897:13905 Stdlib.Arith.Compare_dec <> le_lt_dec def
+prf 13980:14005 <> fin_neq_last_implies_neq_n
+binder 14018:14018 <> n:146
+R14025:14027 Ionia.finType <> fin def
+R14030:14030 Corelib.Init.Datatypes <> S constr
+R14032:14032 Ionia.finType <> n:146 var
+binder 14021:14021 <> i:147
+R14056:14059 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14042:14045 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R14041:14041 Ionia.finType <> i:147 var
+R14046:14053 Ionia.finType <> fin_last def
+R14055:14055 Ionia.finType <> n:146 var
+R14069:14072 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R14060:14066 Ionia.finType <> fin2nat def
+R14068:14068 Ionia.finType <> i:147 var
+R14073:14073 Ionia.finType <> n:146 var
+R14137:14139 Corelib.Init.Logic <> not def
+R14226:14228 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14229:14236 Ionia.finType <> fin_last def
+R14256:14261 Ionia.finType <> fin_eq thm
+R14339:14354 Ionia.finType <> fin_last_correct thm
+def 14563:14574 <> fin2finS_inv
+binder 14577:14577 <> n:148
+R14585:14587 Ionia.finType <> fin def
+R14590:14590 Corelib.Init.Datatypes <> S constr
+R14592:14592 Ionia.finType <> n:148 var
+binder 14581:14581 <> i:149
+R14610:14613 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R14601:14607 Ionia.finType <> fin2nat def
+R14609:14609 Ionia.finType <> i:149 var
+R14614:14614 Ionia.finType <> n:148 var
+binder 14597:14597 <> H:150
+R14619:14621 Ionia.finType <> fin def
+R14623:14623 Ionia.finType <> n:148 var
+R14630:14637 Ionia.finType <> finS2fin def
+R14641:14641 Ionia.finType <> H:150 var
+R14639:14639 Ionia.finType <> i:149 var
+prf 14691:14710 <> fin2nat_fin2finS_inv
+binder 14723:14723 <> n:151
+R14730:14732 Ionia.finType <> fin def
+R14735:14735 Corelib.Init.Datatypes <> S constr
+R14737:14737 Ionia.finType <> n:151 var
+binder 14726:14726 <> i:152
+R14755:14758 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R14746:14752 Ionia.finType <> fin2nat def
+R14754:14754 Ionia.finType <> i:152 var
+R14759:14759 Ionia.finType <> n:151 var
+binder 14742:14742 <> H:153
+R14793:14795 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14767:14773 Ionia.finType <> fin2nat def
+R14776:14787 Ionia.finType <> fin2finS_inv def
+R14791:14791 Ionia.finType <> H:153 var
+R14789:14789 Ionia.finType <> i:152 var
+R14796:14802 Ionia.finType <> fin2nat def
+R14804:14804 Ionia.finType <> i:152 var
+R14839:14850 Ionia.finType <> fin2finS_inv def
+R14898:14905 Ionia.finType <> finS2fin def
+prf 15122:15129 <> fin_case
+binder 15143:15143 <> n:154
+R15150:15152 Ionia.finType <> fin def
+R15155:15155 Corelib.Init.Datatypes <> S constr
+R15157:15157 Ionia.finType <> n:154 var
+binder 15146:15146 <> i:155
+R15166:15166 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R15199:15203 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R15167:15173 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R15183:15184 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R15178:15180 Ionia.finType <> fin def
+R15182:15182 Ionia.finType <> n:154 var
+binder 15174:15174 <> j:156
+R15186:15188 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15185:15185 Ionia.finType <> i:155 var
+R15189:15196 Ionia.finType <> fin2finS def
+R15198:15198 Ionia.finType <> j:156 var
+R15205:15207 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15204:15204 Ionia.finType <> i:155 var
+R15208:15214 Ionia.finType <> nat2fin def
+R15217:15234 Stdlib.Arith.PeanoNat Nat lt_succ_diag_r thm
+R15236:15236 Ionia.finType <> n:154 var
+R15276:15279 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R15267:15273 Ionia.finType <> fin2nat def
+R15311:15321 Ionia.finType <> fin2nat_inj thm
+R15332:15346 Ionia.finType <> fin2nat_nat2fin thm
+R15359:15368 Stdlib.Arith.PeanoNat Nat eqb_eq thm
+R15399:15409 Stdlib.Arith.PeanoNat Nat eqb_neq thm
+R15433:15444 Ionia.finType <> fin2finS_inv def
+R15463:15473 Ionia.finType <> fin2nat_inj thm
+R15535:15545 Ionia.finType FiniteSetLt <> sec
+R15573:15587 Ionia.finType <> fin2nat_nat2fin thm
+R15589:15594 Ionia.finType <> fin_eq thm
+R15596:15611 Ionia.finType <> nat2fin_fin2finS thm
+R15615:15630 Ionia.finType <> fin2nat_fin2finS thm
+R15632:15644 Ionia.finType <> fin2nat_exist thm
+R15646:15660 Ionia.finType <> nat2fin_fin2nat thm
+sec 15828:15838 <> FiniteSetLe
+def 15917:15919 <> fle
+R15924:15926 Corelib.Init.Datatypes <> nat ind
+binder 15922:15922 <> n:157
+R15932:15933 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15935:15935 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15939:15941 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15948:15949 Corelib.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15936:15938 Corelib.Init.Datatypes <> nat ind
+binder 15934:15934 <> i:158
+R15943:15946 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R15942:15942 Ionia.finType <> i:158 var
+R15947:15947 Ionia.finType <> n:157 var
+def 15994:16000 <> fle2nat
+R16005:16007 Corelib.Init.Datatypes <> nat ind
+binder 16003:16003 <> n:159
+R16013:16015 Ionia.finType <> fle def
+R16017:16017 Ionia.finType <> n:159 var
+binder 16011:16011 <> i:160
+R16022:16024 Corelib.Init.Datatypes <> nat ind
+R16037:16037 Ionia.finType <> i:160 var
+R16048:16052 Corelib.Init.Specif <> exist constr
+R16063:16063 Ionia.finType <> i:160 var
+prf 16079:16089 <> fle_correct
+R16094:16096 Corelib.Init.Datatypes <> nat ind
+binder 16092:16092 <> n:162
+R16111:16113 Ionia.finType <> fle def
+R16115:16115 Ionia.finType <> n:162 var
+binder 16109:16109 <> i:163
+R16128:16131 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R16119:16125 Ionia.finType <> fle2nat def
+R16127:16127 Ionia.finType <> i:163 var
+R16132:16132 Ionia.finType <> n:162 var
+def 16219:16226 <> fle_self
+R16231:16233 Corelib.Init.Datatypes <> nat ind
+binder 16229:16229 <> n:164
+R16238:16240 Ionia.finType <> fle def
+R16242:16242 Ionia.finType <> n:164 var
+R16249:16253 Corelib.Init.Specif <> exist constr
+R16260:16270 Stdlib.Arith.PeanoNat Nat le_refl thm
+R16272:16272 Ionia.finType <> n:164 var
+R16257:16257 Ionia.finType <> n:164 var
+def 16320:16324 <> fle_0
+R16329:16331 Corelib.Init.Datatypes <> nat ind
+binder 16327:16327 <> n:165
+R16336:16338 Ionia.finType <> fle def
+R16340:16340 Ionia.finType <> n:165 var
+R16347:16351 Corelib.Init.Specif <> exist constr
+R16358:16369 Corelib.Init.Peano <> le_0_n thm
+R16371:16371 Ionia.finType <> n:165 var
+def 16419:16427 <> fle_proof
+R16434:16436 Corelib.Init.Datatypes <> nat ind
+binder 16430:16430 <> n:166
+R16444:16446 Ionia.finType <> fle def
+R16448:16448 Ionia.finType <> n:166 var
+binder 16440:16440 <> i:167
+R16462:16465 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R16453:16459 Ionia.finType <> fle2nat def
+R16461:16461 Ionia.finType <> i:167 var
+R16466:16466 Ionia.finType <> n:166 var
+R16479:16479 Ionia.finType <> i:167 var
+R16490:16494 Corelib.Init.Specif <> exist constr
+prf 16521:16536 <> fle2nat_fle_self
+binder 16546:16546 <> n:169
+R16571:16573 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16551:16557 Ionia.finType <> fle2nat def
+R16560:16567 Ionia.finType <> fle_self def
+R16569:16569 Ionia.finType <> n:169 var
+R16574:16574 Ionia.finType <> n:169 var
+R16593:16600 Ionia.finType <> fle_self def
+prf 16629:16634 <> fle_eq
+R16648:16650 Corelib.Init.Datatypes <> nat ind
+binder 16646:16646 <> n:170
+R16660:16662 Ionia.finType <> fle def
+R16664:16664 Ionia.finType <> n:170 var
+binder 16654:16655 <> i1:171
+binder 16657:16658 <> i2:172
+R16693:16696 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16680:16682 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16670:16676 Ionia.finType <> fle2nat def
+R16678:16679 Ionia.finType <> i1:171 var
+R16683:16689 Ionia.finType <> fle2nat def
+R16691:16692 Ionia.finType <> i2:172 var
+R16699:16701 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16697:16698 Ionia.finType <> i1:171 var
+R16702:16703 Ionia.finType <> i2:172 var
+R16771:16779 Stdlib.Arith.Peano_dec <> le_unique thm
+def 16800:16806 <> nat2fle
+R16811:16813 Corelib.Init.Datatypes <> nat ind
+binder 16809:16809 <> n:173
+R16819:16821 Corelib.Init.Datatypes <> nat ind
+binder 16817:16817 <> i:174
+R16825:16827 Ionia.finType <> fle def
+R16829:16829 Ionia.finType <> n:173 var
+R16843:16851 Stdlib.Arith.Compare_dec <> le_lt_dec def
+R16853:16853 Ionia.finType <> i:174 var
+R16855:16855 Ionia.finType <> n:173 var
+R16867:16870 Corelib.Init.Specif <> left constr
+R16877:16881 Corelib.Init.Specif <> exist constr
+R16885:16885 Ionia.finType <> i:174 var
+R16893:16897 Corelib.Init.Specif <> right constr
+R16904:16908 Ionia.finType <> fle_0 def
+R16910:16910 Ionia.finType <> n:173 var
+R16920:16949 Ionia.finType <> fle2nat def
+prf 16959:16969 <> le_lt_trans
+binder 16979:16979 <> m:175
+binder 16981:16981 <> n:176
+binder 16983:16983 <> p:177
+R16993:16996 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16989:16991 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R16988:16988 Ionia.finType <> m:175 var
+R16992:16992 Ionia.finType <> n:176 var
+R17003:17006 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16998:17001 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R16997:16997 Ionia.finType <> n:176 var
+R17002:17002 Ionia.finType <> p:177 var
+R17008:17010 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R17007:17007 Ionia.finType <> m:175 var
+R17011:17011 Ionia.finType <> p:177 var
+prf 17038:17047 <> flePredAux
+R17061:17063 Corelib.Init.Datatypes <> nat ind
+binder 17059:17059 <> i:178
+R17072:17075 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17068:17070 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R17071:17071 Ionia.finType <> i:178 var
+R17082:17084 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R17076:17079 Corelib.Init.Peano <> pred abbrev
+R17081:17081 Ionia.finType <> i:178 var
+R17085:17085 Ionia.finType <> i:178 var
+def 17145:17151 <> flePred
+R17156:17158 Corelib.Init.Datatypes <> nat ind
+binder 17154:17154 <> m:179
+R17164:17166 Ionia.finType <> fle def
+R17168:17168 Ionia.finType <> m:179 var
+binder 17162:17162 <> i:180
+R17173:17178 Corelib.Init.Datatypes <> option ind
+R17181:17183 Ionia.finType <> fin def
+R17185:17185 Ionia.finType <> i:180 var
+R17200:17206 Ionia.finType <> fle2nat def
+R17208:17208 Ionia.finType <> i:180 var
+R17220:17220 Corelib.Init.Datatypes <> O constr
+R17225:17228 Corelib.Init.Datatypes <> None constr
+R17234:17234 Corelib.Init.Datatypes <> S constr
+R17242:17245 Corelib.Init.Datatypes <> Some constr
+R17248:17252 Corelib.Init.Specif <> exist constr
+R17260:17269 Ionia.finType <> flePredAux thm
+R17272:17284 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+prf 17307:17317 <> flePred'Aux
+binder 17328:17328 <> m:181
+R17333:17335 Ionia.finType <> fle def
+R17337:17337 Ionia.finType <> m:181 var
+binder 17331:17331 <> i:182
+R17347:17350 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R17341:17344 Corelib.Init.Peano <> pred abbrev
+R17346:17346 Ionia.finType <> i:182 var
+R17351:17351 Ionia.finType <> m:181 var
+def 17405:17412 <> flePred'
+R17417:17419 Corelib.Init.Datatypes <> nat ind
+binder 17415:17415 <> m:183
+R17425:17427 Ionia.finType <> fle def
+R17429:17429 Ionia.finType <> m:183 var
+binder 17423:17423 <> i:184
+R17433:17435 Ionia.finType <> fle def
+R17437:17437 Ionia.finType <> m:183 var
+R17444:17448 Corelib.Init.Specif <> exist constr
+R17462:17472 Ionia.finType <> flePred'Aux thm
+R17474:17474 Ionia.finType <> i:184 var
+R17453:17456 Corelib.Init.Peano <> pred abbrev
+R17458:17458 Ionia.finType <> i:184 var
+prf 17485:17497 <> fle2nat_exist
+binder 17507:17507 <> m:185
+binder 17509:17509 <> x:186
+binder 17511:17511 <> p:187
+R17562:17564 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17517:17523 Ionia.finType <> fle2nat def
+R17525:17525 Ionia.finType <> m:185 var
+R17528:17532 Corelib.Init.Specif <> exist constr
+R17560:17560 Ionia.finType <> p:187 var
+R17558:17558 Ionia.finType <> x:186 var
+R17543:17545 Corelib.Init.Datatypes <> nat ind
+binder 17539:17539 <> i:188
+R17551:17554 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R17550:17550 Ionia.finType <> i:188 var
+R17555:17555 Ionia.finType <> m:185 var
+R17565:17565 Ionia.finType <> x:186 var
+R17598:17608 Ionia.finType FiniteSetLe <> sec
+prf 17660:17671 <> fle_0_unique
+R17691:17693 Ionia.finType <> fle def
+binder 17683:17684 <> m1:189
+binder 17686:17687 <> m2:190
+R17701:17703 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17699:17700 Ionia.finType <> m1:189 var
+R17704:17705 Ionia.finType <> m2:190 var
+R17807:17809 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17862:17871 Stdlib.Arith.PeanoNat Nat le_0_r thm
+R17939:17941 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17994:18003 Stdlib.Arith.PeanoNat Nat le_0_r thm
+R18186:18202 Stdlib.Logic.ProofIrrelevance <> proof_irrelevance prfax
+def 18222:18225 <> fle0
+R18229:18231 Ionia.finType <> fle def
+R18238:18242 Corelib.Init.Specif <> exist constr
+R18249:18252 Corelib.Init.Peano <> le_n constr
+prf 18305:18315 <> fle0_unique
+R18329:18331 Ionia.finType <> fle def
+binder 18327:18327 <> m:191
+R18338:18340 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18337:18337 Ionia.finType <> m:191 var
+R18341:18344 Ionia.finType <> fle0 def
+R18426:18429 Ionia.finType <> fle0 def
+R18476:18478 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18530:18539 Stdlib.Arith.PeanoNat Nat le_0_r thm
+R18703:18719 Stdlib.Logic.ProofIrrelevance <> proof_irrelevance prfax
+R18787:18792 Ionia.finType <> fle_eq thm
+R18794:18806 Ionia.finType <> fle2nat_exist thm
+R18808:18823 Ionia.finType <> fle2nat_fle_self thm
+prf 18911:18925 <> fin_exp_fle_aux
+R18945:18947 Corelib.Init.Datatypes <> nat ind
+binder 18937:18937 <> i:192
+binder 18939:18939 <> m:193
+binder 18941:18941 <> n:194
+R18958:18961 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18954:18956 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R18953:18953 Ionia.finType <> i:192 var
+R18957:18957 Ionia.finType <> m:193 var
+R18968:18971 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18963:18966 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R18962:18962 Ionia.finType <> m:193 var
+R18967:18967 Ionia.finType <> n:194 var
+R18973:18975 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R18972:18972 Ionia.finType <> i:192 var
+R18976:18976 Ionia.finType <> n:194 var
+def 19008:19018 <> fin_exp_fle
+binder 19021:19021 <> n:195
+R19029:19031 Ionia.finType <> fle def
+R19033:19033 Ionia.finType <> n:195 var
+binder 19025:19025 <> m:196
+R19041:19043 Ionia.finType <> fin def
+R19045:19045 Ionia.finType <> m:196 var
+binder 19037:19037 <> i:197
+R19054:19060 Ionia.finType <> nat2fin def
+R19063:19077 Ionia.finType <> fin_exp_fle_aux thm
+R19094:19102 Ionia.finType <> fle_proof def
+R19104:19104 Ionia.finType <> m:196 var
+R19080:19088 Ionia.finType <> fin_proof def
+R19090:19090 Ionia.finType <> i:197 var
+prf 19116:19129 <> fin_exp_fle_eq
+binder 19143:19143 <> n:198
+R19155:19157 Ionia.finType <> fle def
+R19159:19159 Ionia.finType <> n:198 var
+binder 19147:19148 <> m1:199
+binder 19150:19151 <> m2:200
+R19168:19170 Ionia.finType <> fin def
+R19172:19173 Ionia.finType <> m1:199 var
+binder 19163:19164 <> i1:201
+R19182:19184 Ionia.finType <> fin def
+R19186:19187 Ionia.finType <> m2:200 var
+binder 19177:19178 <> i2:202
+R19220:19222 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19193:19193 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19204:19208 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19219:19219 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19194:19200 Ionia.finType <> fin2nat def
+R19202:19203 Ionia.finType <> i1:201 var
+R19209:19215 Ionia.finType <> fin2nat def
+R19217:19218 Ionia.finType <> i2:202 var
+R19240:19242 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19223:19233 Ionia.finType <> fin_exp_fle def
+R19238:19239 Ionia.finType <> i1:201 var
+R19235:19236 Ionia.finType <> m1:199 var
+R19243:19253 Ionia.finType <> fin_exp_fle def
+R19258:19259 Ionia.finType <> i2:202 var
+R19255:19256 Ionia.finType <> m2:200 var
+R19285:19290 Ionia.finType <> fin_eq thm
+prf 19311:19329 <> fin2nat_fin_exp_fle
+binder 19341:19341 <> n:203
+R19349:19351 Ionia.finType <> fle def
+R19353:19353 Ionia.finType <> n:203 var
+binder 19345:19345 <> m:204
+R19361:19363 Ionia.finType <> fin def
+R19365:19365 Ionia.finType <> m:204 var
+binder 19357:19357 <> i:205
+R19396:19398 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19371:19377 Ionia.finType <> fin2nat def
+R19380:19390 Ionia.finType <> fin_exp_fle def
+R19394:19394 Ionia.finType <> i:205 var
+R19392:19392 Ionia.finType <> m:204 var
+R19399:19405 Ionia.finType <> fin2nat def
+R19407:19407 Ionia.finType <> i:205 var
+R19434:19444 Ionia.finType <> fin_exp_fle def
+R19453:19467 Ionia.finType <> fin2nat_nat2fin thm
+R19491:19495 Stdlib.Strings.Ascii <> <> lib
+R19497:19502 Stdlib.Strings.String <> <> lib
+sec 19514:19519 <> AuxFun
+def 19534:19543 <> natToDigit
+R19550:19552 Corelib.Init.Datatypes <> nat ind
+binder 19546:19546 <> n:206
+R19557:19561 Stdlib.Strings.Ascii <> ascii ind
+R19574:19574 Ionia.finType <> n:206 var
+def 19750:19760 <> writeNatAux
+R19772:19774 Corelib.Init.Datatypes <> nat ind
+binder 19763:19766 <> time:208
+binder 19768:19768 <> n:209
+R19784:19789 Stdlib.Strings.String <> string ind
+binder 19778:19780 <> acc:210
+R19794:19799 Stdlib.Strings.String <> string ind
+R19818:19823 Stdlib.Strings.String <> String constr
+R19826:19835 Ionia.finType <> natToDigit def
+R19839:19843 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'mod'_x not
+R19838:19838 Ionia.finType <> n:209 var
+R19849:19851 Ionia.finType <> acc:210 var
+binder 19810:19813 <> acc':212
+R19864:19867 Ionia.finType <> time:208 var
+R19885:19888 Ionia.finType <> acc':212 var
+R19896:19896 Corelib.Init.Datatypes <> S constr
+R19920:19922 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R19919:19919 Ionia.finType <> n:209 var
+R19946:19949 Ionia.finType <> acc':212 var
+R19967:19977 Ionia.finType <> writeNatAux:211 def
+R19988:19991 Ionia.finType <> acc':212 var
+def 20022:20029 <> writeNat
+R20036:20038 Corelib.Init.Datatypes <> nat ind
+binder 20032:20032 <> n:214
+R20043:20048 Stdlib.Strings.String <> string ind
+R20055:20065 Ionia.finType <> writeNatAux def
+R20069:20069 Ionia.finType <> n:214 var
+R20067:20067 Ionia.finType <> n:214 var
+R20080:20085 Ionia.finType AuxFun <> sec
+R20111:20113 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20098:20104 Ionia.finType <> nat2fin def
+R20114:20120 Ionia.finType <> nat2fin def

@@ -1,0 +1,9 @@
+/home/chen/torch_env/lib/python3.12/site-packages/torch/_inductor/compile_fx.py:321: UserWarning: TensorFloat32 tensor cores for float32 matrix multiplication available but not enabled. Consider setting `torch.set_float32_matmul_precision('high')` for better performance.
+  warnings.warn(
+W1005 17:17:05.484000 1245389 torch/_inductor/utils.py:1953] [0/0] Not enough SMs to use max_autotune_gemm mode
+W1005 17:17:10.363000 1245389 torch/_inductor/cudagraph_utils.py:380] [__cudagraphs] skipping cudagraphs due to mutated inputs (4 instances)
+W1005 17:17:11.564000 1245389 torch/_inductor/cudagraph_utils.py:380] [__cudagraphs] skipping cudagraphs due to mutated inputs (4 instances). Found from : 
+W1005 17:17:11.564000 1245389 torch/_inductor/cudagraph_utils.py:380] [__cudagraphs]    File "/tmp/torch_llamamini_bench_cg.py", line 124, in torch_dynamo_resume_in_step_at_114
+W1005 17:17:11.564000 1245389 torch/_inductor/cudagraph_utils.py:380] [__cudagraphs]     self.kc[li].index_copy_(1, pos1, kr.unsqueeze(1))
+W1005 17:17:11.564000 1245389 torch/_inductor/cudagraph_utils.py:380] [__cudagraphs] 
+JSON {"device": "NVIDIA RTX PRO 4000 Blackwell Generation Laptop GPU", "torch": "2.13.0+cu130", "eager": {"prefill": {"min_ms": 0.9705280065536499, "median_ms": 1.189344048500061}, "decode": {"min_ms": 5.460319995880127, "median_ms": 6.021952152252197}, "err_prefill": 4.0104354417924704e-07, "err_gen": 3.812212066023335e-07}, "compile": {"prefill": {"min_ms": 0.28547200560569763, "median_ms": 0.37856000661849976}, "decode": {"min_ms": 2.844383955001831, "median_ms": 3.0156800746917725}, "err_prefill": 2.9909700394181726e-07, "err_gen": 3.978623590583652e-07}, "cudagraphs_prefill": {"prefill": {"min_ms": 0.2070080041885376, "median_ms": 0.44627198576927185}, "err_prefill": 2.9909700394181726e-07}, "cudagraphs_decode": {"decode": {"min_ms": 2.3801279067993164, "median_ms": 2.7392959594726562}, "err_gen": 3.978623590583652e-07}}

@@ -1,0 +1,661 @@
+DIGEST 03c48fe10ac2335d7bdb4b60b43af691
+FIonia.FusionTactics
+R1169:1173 Stdlib.Reals.Reals <> <> lib
+R1175:1180 Stdlib.Strings.String <> <> lib
+R1182:1184 Stdlib.Init.Nat <> <> lib
+R1186:1189 Stdlib.Lists.List <> <> lib
+R1191:1194 Stdlib.Bool.Bool <> <> lib
+R1196:1200 Stdlib.Arith.Arith <> <> lib
+R1202:1204 Stdlib.micromega.Lra <> <> lib
+R1206:1208 Stdlib.micromega.Lia <> <> lib
+R1238:1247 Stdlib.extraction.Extraction <> <> lib
+R1265:1287 Ionia.CNN_Examples_Base <> <> lib
+R1305:1331 Ionia.CNN_CodeGen_Semantics <> <> lib
+R1361:1390 Stdlib.Logic.FunctionalExtensionality <> <> lib
+R1400:1412 Stdlib.Lists.List ListNotations <> mod
+R1602:1610 Ionia.DataExp <> bexp2bool def
+prf 1872:1892 <> seqfor_extensionality
+binder 1903:1903 <> n:1
+R1917:1920 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1912:1914 Ionia.finType <> fin def
+R1916:1916 Ionia.FusionTactics <> n:1 var
+R1921:1924 Ionia.CNN_CodeGen_Core <> comm ind
+binder 1906:1906 <> f:2
+binder 1908:1908 <> g:3
+R1930:1930 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R1950:1954 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 1938:1938 <> i:4
+R1944:1946 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1941:1941 Ionia.FusionTactics <> f:2 var
+R1943:1943 Ionia.FusionTactics <> i:4 var
+R1947:1947 Ionia.FusionTactics <> g:3 var
+R1949:1949 Ionia.FusionTactics <> i:4 var
+R1963:1965 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1955:1960 Ionia.CNN_CodeGen_Core <> seqfor constr
+R1962:1962 Ionia.FusionTactics <> f:2 var
+R1966:1971 Ionia.CNN_CodeGen_Core <> seqfor constr
+R1973:1973 Ionia.FusionTactics <> g:3 var
+R2008:2032 Stdlib.Logic.FunctionalExtensionality <> functional_extensionality thm
+R2948:2966 Ionia.Proof_CodeGen <> <> mod
+mod 2941:2943 <> PCG
+R2982:2994 Ionia.DataExp <> <> mod
+mod 2976:2977 <> DE
+prf 3004:3028 <> seqfor_extensionality_sem
+binder 3041:3041 <> n:5
+R3055:3058 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3050:3052 Ionia.finType <> fin def
+R3054:3054 Ionia.FusionTactics <> n:5 var
+R3059:3062 Ionia.CNN_CodeGen_Core <> comm ind
+binder 3044:3044 <> f:6
+binder 3046:3046 <> g:7
+R3072:3078 Ionia.FusionTactics <> env def
+binder 3066:3068 <> rho:8
+R3086:3086 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3132:3140 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 3094:3094 <> i:9
+binder 3096:3098 <> eta:10
+R3115:3117 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3101:3104 Ionia.CNN_CodeGen_Semantics <> eval def
+R3112:3114 Ionia.FusionTactics <> eta:10 var
+R3107:3107 Ionia.FusionTactics <> f:6 var
+R3109:3109 Ionia.FusionTactics <> i:9 var
+R3118:3121 Ionia.CNN_CodeGen_Semantics <> eval def
+R3129:3131 Ionia.FusionTactics <> eta:10 var
+R3124:3124 Ionia.FusionTactics <> g:7 var
+R3126:3126 Ionia.FusionTactics <> i:9 var
+R3160:3162 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3141:3144 Ionia.CNN_CodeGen_Semantics <> eval def
+R3157:3159 Ionia.FusionTactics <> rho:8 var
+R3147:3152 Ionia.CNN_CodeGen_Core <> seqfor constr
+R3154:3154 Ionia.FusionTactics <> f:6 var
+R3163:3166 Ionia.CNN_CodeGen_Semantics <> eval def
+R3179:3181 Ionia.FusionTactics <> rho:8 var
+R3169:3174 Ionia.CNN_CodeGen_Core <> seqfor constr
+R3176:3176 Ionia.FusionTactics <> g:7 var
+R3210:3220 Ionia.CNN_CodeGen_Semantics <> eval_seqfor thm
+R3229:3240 Ionia.CNN_Examples_Base <> seqfor_congr thm
+prf 3278:3297 <> simplify_indices_sem
+binder 3310:3310 <> n:11
+binder 3312:3312 <> d:12
+R3324:3327 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3319:3321 Ionia.finType <> fin def
+R3323:3323 Ionia.FusionTactics <> n:11 var
+R3328:3330 Ionia.DataExp <> exp def
+R3332:3332 Ionia.FusionTactics <> d:12 var
+binder 3315:3315 <> f:13
+R3340:3342 Ionia.DataExp <> acc def
+R3345:3347 Ionia.DataExp <> ary constr
+R3354:3354 Ionia.FusionTactics <> d:12 var
+R3349:3350 Ionia.DataExp <> :::'''{'_x_'}' not
+R3352:3352 Ionia.DataExp <> :::'''{'_x_'}' not
+R3351:3351 Ionia.FusionTactics <> n:11 var
+binder 3336:3336 <> a:14
+R3363:3365 Ionia.finType <> fin def
+R3367:3367 Ionia.FusionTactics <> n:11 var
+binder 3359:3359 <> i:15
+R3377:3383 Ionia.FusionTactics <> env def
+binder 3371:3373 <> rho:16
+R3396:3403 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3392:3394 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R3391:3391 Ionia.FusionTactics <> n:11 var
+R3439:3441 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3404:3407 Ionia.CNN_CodeGen_Semantics <> eval def
+R3436:3438 Ionia.FusionTactics <> rho:16 var
+R3415:3419 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R3411:3412 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R3414:3414 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R3410:3410 Ionia.FusionTactics <> a:14 var
+R3413:3413 Ionia.FusionTactics <> i:15 var
+R3420:3420 Ionia.DataExp <> :::x_'|['_x_']' not
+R3429:3431 Ionia.DataExp <> :::x_'|['_x_']' not
+R3433:3433 Ionia.DataExp <> :::x_'|['_x_']' not
+R3421:3426 Ionia.DataExp <> mkvSeq def
+R3428:3428 Ionia.FusionTactics <> f:13 var
+R3432:3432 Ionia.FusionTactics <> i:15 var
+R3442:3445 Ionia.CNN_CodeGen_Semantics <> eval def
+R3463:3465 Ionia.FusionTactics <> rho:16 var
+R3453:3457 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R3449:3450 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R3452:3452 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R3448:3448 Ionia.FusionTactics <> a:14 var
+R3451:3451 Ionia.FusionTactics <> i:15 var
+R3458:3458 Ionia.FusionTactics <> f:13 var
+R3460:3460 Ionia.FusionTactics <> i:15 var
+R3512:3524 Ionia.FusionTactics <> idx_mkvSeq thm
+prf 3695:3710 <> strip_mkvSeq_sem
+binder 3723:3723 <> n:17
+R3730:3733 Ionia.DataExp <> data ind
+binder 3726:3726 <> d:18
+R3746:3749 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3741:3743 Ionia.finType <> fin def
+R3745:3745 Ionia.FusionTactics <> n:17 var
+R3750:3752 Ionia.DataExp <> exp def
+R3754:3754 Ionia.FusionTactics <> d:18 var
+binder 3737:3737 <> f:19
+R3762:3764 Ionia.DataExp <> acc def
+R3767:3769 Ionia.DataExp <> ary constr
+R3776:3776 Ionia.FusionTactics <> d:18 var
+R3771:3772 Ionia.DataExp <> :::'''{'_x_'}' not
+R3774:3774 Ionia.DataExp <> :::'''{'_x_'}' not
+R3773:3773 Ionia.FusionTactics <> n:17 var
+binder 3758:3758 <> a:20
+R3787:3793 Ionia.FusionTactics <> env def
+binder 3781:3783 <> rho:21
+R3801:3801 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3842:3850 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 3809:3809 <> i:22
+R3812:3833 Ionia.CNN_CodeGen_Semantics <> exp_independent_of_acc def
+R3841:3841 Ionia.FusionTactics <> a:20 var
+R3836:3836 Ionia.FusionTactics <> f:19 var
+R3838:3838 Ionia.FusionTactics <> i:22 var
+R3876:3878 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3851:3854 Ionia.CNN_CodeGen_Semantics <> eval def
+R3873:3875 Ionia.FusionTactics <> rho:21 var
+R3857:3857 Ionia.CNN_CodeGen_Core <> A def
+R3858:3858 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3860:3861 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3870:3870 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3859:3859 Ionia.FusionTactics <> a:20 var
+R3862:3867 Ionia.DataExp <> mkvSeq def
+R3869:3869 Ionia.FusionTactics <> f:19 var
+R3879:3882 Ionia.CNN_CodeGen_Semantics <> eval def
+R3926:3928 Ionia.FusionTactics <> rho:21 var
+R3885:3890 Ionia.CNN_CodeGen_Core <> seqfor constr
+R3901:3903 Ionia.finType <> fin def
+R3905:3905 Ionia.FusionTactics <> n:17 var
+binder 3897:3897 <> i:23
+R3915:3919 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R3911:3912 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R3914:3914 Ionia.CNN_CodeGen_Core <> :::x_'|{'_x_'}' not
+R3910:3910 Ionia.FusionTactics <> a:20 var
+R3913:3913 Ionia.FusionTactics <> i:23 var
+R3920:3920 Ionia.FusionTactics <> f:19 var
+R3922:3922 Ionia.FusionTactics <> i:23 var
+R3956:3966 Ionia.CNN_CodeGen <> AmkvSeq_sem thm
+R3990:3996 Ionia.CNN_CodeGen_Core <> mkvSeql def
+prf 4101:4129 <> eval_assign_depth_independent
+binder 4142:4146 <> depth:24
+binder 4148:4148 <> d:25
+R4155:4157 Ionia.DataExp <> acc def
+R4159:4159 Ionia.FusionTactics <> d:25 var
+binder 4151:4151 <> a:26
+R4167:4169 Ionia.DataExp <> exp def
+R4171:4171 Ionia.FusionTactics <> d:25 var
+binder 4163:4163 <> e:27
+R4181:4187 Ionia.FusionTactics <> env def
+binder 4175:4177 <> rho:28
+R4223:4225 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4195:4202 Ionia.CNN_CodeGen_Semantics <> eval_aux def
+R4220:4222 Ionia.FusionTactics <> rho:28 var
+R4214:4218 Ionia.FusionTactics <> depth:24 var
+R4206:4210 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R4205:4205 Ionia.FusionTactics <> a:26 var
+R4211:4211 Ionia.FusionTactics <> e:27 var
+R4226:4229 Ionia.CNN_CodeGen_Semantics <> eval def
+R4241:4243 Ionia.FusionTactics <> rho:28 var
+R4233:4237 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R4232:4232 Ionia.FusionTactics <> a:26 var
+R4238:4238 Ionia.FusionTactics <> e:27 var
+prf 4429:4442 <> csum_route_sem
+binder 4455:4455 <> n:29
+R4462:4464 Ionia.DataExp <> exp def
+R4467:4469 Ionia.DataExp <> ary constr
+R4476:4478 Ionia.DataExp <> num constr
+R4471:4472 Ionia.DataExp <> :::'''{'_x_'}' not
+R4474:4474 Ionia.DataExp <> :::'''{'_x_'}' not
+R4473:4473 Ionia.FusionTactics <> n:29 var
+binder 4458:4458 <> e:30
+R4494:4497 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4487:4489 Ionia.DataExp <> exp def
+R4491:4493 Ionia.DataExp <> num constr
+R4498:4501 Ionia.CNN_CodeGen_Core <> comm ind
+binder 4483:4483 <> c:31
+R4511:4517 Ionia.FusionTactics <> env def
+binder 4505:4507 <> rho:32
+R4537:4544 Ionia.FusionTactics <> acc' def
+R4547:4552 Ionia.FusionTactics <> Var constr
+binder 4529:4532 <> wtmp:33
+R4603:4610 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4571:4589 Ionia.FusionTactics <> StructUndefined def
+R4591:4593 Ionia.DataExp <> num constr
+R4595:4598 Ionia.FusionTactics <> wtmp:33 var
+R4600:4602 Ionia.FusionTactics <> rho:32 var
+R4660:4667 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4612:4633 Ionia.CNN_CodeGen_Semantics <> exp_independent_of_acc def
+R4636:4638 Ionia.DataExp <> ary constr
+R4645:4647 Ionia.DataExp <> num constr
+R4640:4641 Ionia.DataExp <> :::'''{'_x_'}' not
+R4643:4643 Ionia.DataExp <> :::'''{'_x_'}' not
+R4642:4642 Ionia.FusionTactics <> n:29 var
+R4650:4652 Ionia.DataExp <> num constr
+R4654:4654 Ionia.FusionTactics <> e:30 var
+R4656:4659 Ionia.FusionTactics <> wtmp:33 var
+R4701:4708 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4668:4690 Ionia.CNN_CodeGen_Semantics <> loopacc_continuation_ok def
+R4695:4697 Ionia.CNN_Defs <> sum def
+R4699:4699 Ionia.FusionTactics <> e:30 var
+R4692:4692 Ionia.FusionTactics <> c:31 var
+R4735:4741 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4709:4716 Ionia.CNN_CodeGen_Semantics <> eval_aux def
+R4732:4734 Ionia.FusionTactics <> rho:32 var
+R4719:4719 Ionia.FusionTactics <> c:31 var
+R4722:4724 Ionia.CNN_Defs <> sum def
+R4726:4726 Ionia.FusionTactics <> e:30 var
+R4742:4745 Ionia.CNN_CodeGen_Semantics <> eval def
+R4907:4909 Ionia.FusionTactics <> rho:32 var
+R4749:4755 Ionia.CNN_CodeGen_Core <> loopacc constr
+R4757:4759 Ionia.DataExp <> num constr
+binder 4766:4768 <> tmp:34
+R4788:4790 Ionia.CNN_CodeGen_Core <> vwt def
+R4792:4794 Ionia.FusionTactics <> tmp:34 var
+binder 4783:4783 <> w:35
+R4808:4810 Ionia.CNN_CodeGen_Core <> vrd def
+R4812:4814 Ionia.FusionTactics <> tmp:34 var
+binder 4803:4803 <> v:36
+R4825:4825 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R4836:4846 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R4827:4831 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R4826:4826 Ionia.FusionTactics <> w:35 var
+R4832:4835 Ionia.CNN_Defs <> zero def
+R4891:4900 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R4847:4852 Ionia.CNN_CodeGen_Core <> seqfor constr
+R4863:4865 Ionia.finType <> fin def
+R4867:4867 Ionia.FusionTactics <> n:29 var
+binder 4859:4859 <> i:37
+R4873:4877 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R4872:4872 Ionia.FusionTactics <> w:35 var
+R4878:4880 Ionia.CNN_Defs <> add def
+R4889:4889 Ionia.FusionTactics <> v:36 var
+R4883:4885 Ionia.DataExp <> :::x_'|['_x_']' not
+R4887:4887 Ionia.DataExp <> :::x_'|['_x_']' not
+R4882:4882 Ionia.FusionTactics <> e:30 var
+R4886:4886 Ionia.FusionTactics <> i:37 var
+R4901:4901 Ionia.FusionTactics <> c:31 var
+R4903:4903 Ionia.FusionTactics <> v:36 var
+R4935:4948 Ionia.CNN_CodeGen <> csum_equiv_sem thm
+prf 5048:5065 <> sum_Csum_route_sem
+binder 5078:5078 <> n:38
+R5085:5087 Ionia.DataExp <> exp def
+R5090:5092 Ionia.DataExp <> ary constr
+R5099:5101 Ionia.DataExp <> num constr
+R5094:5095 Ionia.DataExp <> :::'''{'_x_'}' not
+R5097:5097 Ionia.DataExp <> :::'''{'_x_'}' not
+R5096:5096 Ionia.FusionTactics <> n:38 var
+binder 5081:5081 <> e:39
+R5117:5120 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5110:5112 Ionia.DataExp <> exp def
+R5114:5116 Ionia.DataExp <> num constr
+R5121:5124 Ionia.CNN_CodeGen_Core <> comm ind
+binder 5106:5106 <> c:40
+R5134:5140 Ionia.FusionTactics <> env def
+binder 5128:5130 <> rho:41
+R5160:5167 Ionia.FusionTactics <> acc' def
+R5170:5175 Ionia.FusionTactics <> Var constr
+binder 5152:5155 <> wtmp:42
+R5226:5233 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5194:5212 Ionia.FusionTactics <> StructUndefined def
+R5214:5216 Ionia.DataExp <> num constr
+R5218:5221 Ionia.FusionTactics <> wtmp:42 var
+R5223:5225 Ionia.FusionTactics <> rho:41 var
+R5283:5290 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5235:5256 Ionia.CNN_CodeGen_Semantics <> exp_independent_of_acc def
+R5259:5261 Ionia.DataExp <> ary constr
+R5268:5270 Ionia.DataExp <> num constr
+R5263:5264 Ionia.DataExp <> :::'''{'_x_'}' not
+R5266:5266 Ionia.DataExp <> :::'''{'_x_'}' not
+R5265:5265 Ionia.FusionTactics <> n:38 var
+R5273:5275 Ionia.DataExp <> num constr
+R5277:5277 Ionia.FusionTactics <> e:39 var
+R5279:5282 Ionia.FusionTactics <> wtmp:42 var
+R5324:5331 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5291:5313 Ionia.CNN_CodeGen_Semantics <> loopacc_continuation_ok def
+R5318:5320 Ionia.CNN_Defs <> sum def
+R5322:5322 Ionia.FusionTactics <> e:39 var
+R5315:5315 Ionia.FusionTactics <> c:40 var
+R5358:5364 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5332:5339 Ionia.CNN_CodeGen_Semantics <> eval_aux def
+R5355:5357 Ionia.FusionTactics <> rho:41 var
+R5342:5342 Ionia.FusionTactics <> c:40 var
+R5345:5347 Ionia.CNN_Defs <> sum def
+R5349:5349 Ionia.FusionTactics <> e:39 var
+R5365:5368 Ionia.CNN_CodeGen_Semantics <> eval def
+R5419:5421 Ionia.FusionTactics <> rho:41 var
+R5371:5371 Ionia.CNN_CodeGen_Core <> C def
+R5372:5372 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5374:5375 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5416:5416 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5373:5373 Ionia.FusionTactics <> e:39 var
+binder 5380:5380 <> x:43
+R5385:5388 Ionia.CNN_CodeGen_Core <> suml def
+R5415:5415 Ionia.FusionTactics <> c:40 var
+binder 5397:5398 <> x1:44
+binder 5400:5400 <> o:45
+R5405:5405 Ionia.CNN_CodeGen_Core <> A def
+R5406:5406 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5408:5409 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5412:5412 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5407:5407 Ionia.FusionTactics <> o:45 var
+R5410:5411 Ionia.FusionTactics <> x1:44 var
+R5390:5390 Ionia.FusionTactics <> x:43 var
+R5447:5454 Ionia.CNN_CodeGen <> Csum_sem thm
+prf 5612:5629 <> sum_to_loopacc_sem
+binder 5642:5642 <> n:46
+R5649:5651 Ionia.DataExp <> exp def
+R5654:5656 Ionia.DataExp <> ary constr
+R5663:5665 Ionia.DataExp <> num constr
+R5658:5659 Ionia.DataExp <> :::'''{'_x_'}' not
+R5661:5661 Ionia.DataExp <> :::'''{'_x_'}' not
+R5660:5660 Ionia.FusionTactics <> n:46 var
+binder 5645:5645 <> e:47
+R5681:5684 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5674:5676 Ionia.DataExp <> exp def
+R5678:5680 Ionia.DataExp <> num constr
+R5685:5688 Ionia.CNN_CodeGen_Core <> comm ind
+binder 5670:5670 <> c:48
+R5698:5704 Ionia.FusionTactics <> env def
+binder 5692:5694 <> rho:49
+R5761:5768 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5732:5734 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5712:5715 Ionia.CNN_CodeGen_Semantics <> eval def
+R5729:5731 Ionia.FusionTactics <> rho:49 var
+R5718:5718 Ionia.FusionTactics <> c:48 var
+R5721:5723 Ionia.CNN_Defs <> sum def
+R5725:5725 Ionia.FusionTactics <> e:47 var
+R5735:5742 Ionia.CNN_CodeGen_Semantics <> eval_aux def
+R5758:5760 Ionia.FusionTactics <> rho:49 var
+R5745:5745 Ionia.FusionTactics <> c:48 var
+R5748:5750 Ionia.CNN_Defs <> sum def
+R5752:5752 Ionia.FusionTactics <> e:47 var
+R5781:5788 Ionia.FusionTactics <> acc' def
+R5791:5796 Ionia.FusionTactics <> Var constr
+binder 5773:5776 <> wtmp:50
+R5847:5854 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5815:5833 Ionia.FusionTactics <> StructUndefined def
+R5835:5837 Ionia.DataExp <> num constr
+R5839:5842 Ionia.FusionTactics <> wtmp:50 var
+R5844:5846 Ionia.FusionTactics <> rho:49 var
+R5904:5911 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5856:5877 Ionia.CNN_CodeGen_Semantics <> exp_independent_of_acc def
+R5880:5882 Ionia.DataExp <> ary constr
+R5889:5891 Ionia.DataExp <> num constr
+R5884:5885 Ionia.DataExp <> :::'''{'_x_'}' not
+R5887:5887 Ionia.DataExp <> :::'''{'_x_'}' not
+R5886:5886 Ionia.FusionTactics <> n:46 var
+R5894:5896 Ionia.DataExp <> num constr
+R5898:5898 Ionia.FusionTactics <> e:47 var
+R5900:5903 Ionia.FusionTactics <> wtmp:50 var
+R5945:5952 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5912:5934 Ionia.CNN_CodeGen_Semantics <> loopacc_continuation_ok def
+R5939:5941 Ionia.CNN_Defs <> sum def
+R5943:5943 Ionia.FusionTactics <> e:47 var
+R5936:5936 Ionia.FusionTactics <> c:48 var
+R5973:5979 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5953:5956 Ionia.CNN_CodeGen_Semantics <> eval def
+R5970:5972 Ionia.FusionTactics <> rho:49 var
+R5959:5959 Ionia.FusionTactics <> c:48 var
+R5962:5964 Ionia.CNN_Defs <> sum def
+R5966:5966 Ionia.FusionTactics <> e:47 var
+R5980:5983 Ionia.CNN_CodeGen_Semantics <> eval def
+R6145:6147 Ionia.FusionTactics <> rho:49 var
+R5987:5993 Ionia.CNN_CodeGen_Core <> loopacc constr
+R5995:5997 Ionia.DataExp <> num constr
+binder 6004:6006 <> tmp:51
+R6026:6028 Ionia.CNN_CodeGen_Core <> vwt def
+R6030:6032 Ionia.FusionTactics <> tmp:51 var
+binder 6021:6021 <> w:52
+R6046:6048 Ionia.CNN_CodeGen_Core <> vrd def
+R6050:6052 Ionia.FusionTactics <> tmp:51 var
+binder 6041:6041 <> v:53
+R6063:6063 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R6074:6084 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R6065:6069 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R6064:6064 Ionia.FusionTactics <> w:52 var
+R6070:6073 Ionia.CNN_Defs <> zero def
+R6129:6138 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R6085:6090 Ionia.CNN_CodeGen_Core <> seqfor constr
+R6101:6103 Ionia.finType <> fin def
+R6105:6105 Ionia.FusionTactics <> n:46 var
+binder 6097:6097 <> i:54
+R6111:6115 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R6110:6110 Ionia.FusionTactics <> w:52 var
+R6116:6118 Ionia.CNN_Defs <> add def
+R6127:6127 Ionia.FusionTactics <> v:53 var
+R6121:6123 Ionia.DataExp <> :::x_'|['_x_']' not
+R6125:6125 Ionia.DataExp <> :::x_'|['_x_']' not
+R6120:6120 Ionia.FusionTactics <> e:47 var
+R6124:6124 Ionia.FusionTactics <> i:54 var
+R6139:6139 Ionia.FusionTactics <> c:48 var
+R6141:6141 Ionia.FusionTactics <> v:53 var
+R6184:6197 Ionia.FusionTactics <> csum_route_sem thm
+prf 6383:6406 <> reduce_loopacc_named_sem
+binder 6419:6419 <> d:55
+R6434:6437 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6428:6433 Stdlib.Strings.String <> string ind
+R6438:6441 Ionia.CNN_CodeGen_Core <> comm ind
+binder 6422:6422 <> f:56
+binder 6424:6424 <> g:57
+R6451:6457 Ionia.FusionTactics <> env def
+binder 6445:6447 <> rho:58
+R6465:6465 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6525:6533 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 6473:6475 <> tmp:59
+R6500:6502 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6478:6485 Ionia.CNN_CodeGen_Semantics <> eval_aux def
+R6497:6499 Ionia.FusionTactics <> rho:58 var
+R6488:6488 Ionia.FusionTactics <> f:56 var
+R6490:6492 Ionia.FusionTactics <> tmp:59 var
+R6503:6510 Ionia.CNN_CodeGen_Semantics <> eval_aux def
+R6522:6524 Ionia.FusionTactics <> rho:58 var
+R6513:6513 Ionia.FusionTactics <> g:57 var
+R6515:6517 Ionia.FusionTactics <> tmp:59 var
+R6557:6559 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6534:6537 Ionia.CNN_CodeGen_Semantics <> eval def
+R6554:6556 Ionia.FusionTactics <> rho:58 var
+R6541:6547 Ionia.CNN_CodeGen_Core <> loopacc constr
+R6549:6549 Ionia.FusionTactics <> d:55 var
+R6551:6551 Ionia.FusionTactics <> f:56 var
+R6560:6563 Ionia.CNN_CodeGen_Semantics <> eval def
+R6580:6582 Ionia.FusionTactics <> rho:58 var
+R6567:6573 Ionia.CNN_CodeGen_Core <> loopacc constr
+R6575:6575 Ionia.FusionTactics <> d:55 var
+R6577:6577 Ionia.FusionTactics <> g:57 var
+R6609:6612 Ionia.CNN_CodeGen_Semantics <> eval def
+R6624:6639 Ionia.CNN_CodeGen_Semantics <> eval_loopacc_aux thm
+R6649:6655 Ionia.FusionTactics <> seq def
+R6667:6673 Corelib.Init.Logic <> f_equal thm
+binder 6680:6680 <> e:60
+R6686:6692 Ionia.FusionTactics <> vrm def
+R6697:6702 Ionia.CNN_CodeGen_Semantics CG vwt def
+R6705:6712 Ionia.CNN_CodeGen_Semantics <> tmp_name def
+R6718:6718 Ionia.FusionTactics <> e:60 var
+binder 6680:6680 <> e:61
+R6718:6718 Ionia.FusionTactics <> e:61 var
+prf 6800:6822 <> reduce_under_seqfor_sem
+binder 6835:6835 <> d:62
+R6850:6853 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6844:6849 Stdlib.Strings.String <> string ind
+R6854:6857 Ionia.CNN_CodeGen_Core <> comm ind
+binder 6838:6838 <> f:63
+binder 6840:6840 <> g:64
+R6867:6873 Ionia.FusionTactics <> env def
+binder 6861:6863 <> rho:65
+R6881:6881 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6941:6949 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 6889:6891 <> tmp:66
+R6916:6918 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6894:6901 Ionia.CNN_CodeGen_Semantics <> eval_aux def
+R6913:6915 Ionia.FusionTactics <> rho:65 var
+R6904:6904 Ionia.FusionTactics <> f:63 var
+R6906:6908 Ionia.FusionTactics <> tmp:66 var
+R6919:6926 Ionia.CNN_CodeGen_Semantics <> eval_aux def
+R6938:6940 Ionia.FusionTactics <> rho:65 var
+R6929:6929 Ionia.FusionTactics <> g:64 var
+R6931:6933 Ionia.FusionTactics <> tmp:66 var
+R6973:6975 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6950:6953 Ionia.CNN_CodeGen_Semantics <> eval def
+R6970:6972 Ionia.FusionTactics <> rho:65 var
+R6957:6963 Ionia.CNN_CodeGen_Core <> loopacc constr
+R6965:6965 Ionia.FusionTactics <> d:62 var
+R6967:6967 Ionia.FusionTactics <> f:63 var
+R6976:6979 Ionia.CNN_CodeGen_Semantics <> eval def
+R6996:6998 Ionia.FusionTactics <> rho:65 var
+R6983:6989 Ionia.CNN_CodeGen_Core <> loopacc constr
+R6991:6991 Ionia.FusionTactics <> d:62 var
+R6993:6993 Ionia.FusionTactics <> g:64 var
+R7014:7037 Ionia.FusionTactics <> reduce_loopacc_named_sem thm
+prf 7203:7217 <> finish_leaf_sem
+binder 7230:7230 <> n:67
+R7242:7245 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7237:7239 Ionia.finType <> fin def
+R7241:7241 Ionia.FusionTactics <> n:67 var
+R7246:7248 Ionia.DataExp <> exp def
+R7250:7252 Ionia.DataExp <> num constr
+binder 7233:7233 <> f:68
+R7260:7262 Ionia.DataExp <> acc def
+R7264:7266 Ionia.DataExp <> num constr
+binder 7256:7256 <> w:69
+R7274:7276 Ionia.DataExp <> exp def
+R7278:7280 Ionia.DataExp <> num constr
+binder 7270:7270 <> v:70
+R7290:7296 Ionia.FusionTactics <> env def
+binder 7284:7286 <> rho:71
+R7309:7316 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7305:7307 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R7304:7304 Ionia.FusionTactics <> n:67 var
+R7380:7386 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7317:7320 Ionia.CNN_CodeGen_Semantics <> eval def
+R7377:7379 Ionia.FusionTactics <> rho:71 var
+R7323:7328 Ionia.CNN_CodeGen_Core <> seqfor constr
+R7339:7341 Ionia.finType <> fin def
+R7343:7343 Ionia.FusionTactics <> n:67 var
+binder 7335:7335 <> i:72
+R7349:7353 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R7348:7348 Ionia.FusionTactics <> w:69 var
+R7354:7356 Ionia.CNN_Defs <> add def
+R7373:7373 Ionia.FusionTactics <> v:70 var
+R7358:7358 Ionia.DataExp <> :::x_'|['_x_']' not
+R7367:7369 Ionia.DataExp <> :::x_'|['_x_']' not
+R7371:7371 Ionia.DataExp <> :::x_'|['_x_']' not
+R7359:7364 Ionia.DataExp <> mkvSeq def
+R7366:7366 Ionia.FusionTactics <> f:68 var
+R7370:7370 Ionia.FusionTactics <> i:72 var
+R7387:7390 Ionia.CNN_CodeGen_Semantics <> eval def
+R7438:7440 Ionia.FusionTactics <> rho:71 var
+R7393:7398 Ionia.CNN_CodeGen_Core <> seqfor constr
+R7409:7411 Ionia.finType <> fin def
+R7413:7413 Ionia.FusionTactics <> n:67 var
+binder 7405:7405 <> i:73
+R7419:7423 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R7418:7418 Ionia.FusionTactics <> w:69 var
+R7424:7426 Ionia.CNN_Defs <> add def
+R7434:7434 Ionia.FusionTactics <> v:70 var
+R7429:7429 Ionia.FusionTactics <> f:68 var
+R7431:7431 Ionia.FusionTactics <> i:73 var
+R7469:7479 Ionia.CNN_CodeGen_Semantics <> eval_seqfor thm
+R7488:7499 Ionia.CNN_Examples_Base <> seqfor_congr thm
+R7527:7539 Ionia.FusionTactics <> idx_mkvSeq thm
+prf 7709:7725 <> eliminate_new_sem
+binder 7738:7738 <> d:74
+R7746:7748 Ionia.DataExp <> exp def
+R7750:7750 Ionia.FusionTactics <> d:74 var
+binder 7741:7742 <> e1:75
+R7763:7766 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7758:7760 Ionia.DataExp <> exp def
+R7762:7762 Ionia.FusionTactics <> d:74 var
+R7767:7770 Ionia.CNN_CodeGen_Core <> comm ind
+binder 7754:7754 <> c:76
+R7780:7786 Ionia.FusionTactics <> env def
+binder 7774:7776 <> rho:77
+R7818:7825 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7794:7812 Ionia.CNN_CodeGen_Semantics <> new_continuation_ok def
+R7816:7817 Ionia.FusionTactics <> e1:75 var
+R7814:7814 Ionia.FusionTactics <> c:76 var
+R7838:7845 Ionia.FusionTactics <> acc' def
+R7848:7853 Ionia.FusionTactics <> Var constr
+binder 7830:7833 <> wtmp:78
+R7902:7909 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7872:7890 Ionia.FusionTactics <> StructUndefined def
+R7892:7892 Ionia.FusionTactics <> d:74 var
+R7894:7897 Ionia.FusionTactics <> wtmp:78 var
+R7899:7901 Ionia.FusionTactics <> rho:77 var
+R7974:7980 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7910:7913 Ionia.CNN_CodeGen_Semantics <> eval def
+R7971:7973 Ionia.FusionTactics <> rho:77 var
+R7916:7918 Ionia.CNN_CodeGen_Core <> new constr
+binder 7925:7927 <> tmp:79
+R7946:7948 Ionia.FusionTactics <> tmp:79 var
+binder 7937:7937 <> w:80
+binder 7940:7940 <> v:81
+R7961:7964 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R7954:7958 Ionia.CNN_CodeGen_Core <> :::x_'|:='_x not
+R7953:7953 Ionia.FusionTactics <> w:80 var
+R7959:7960 Ionia.FusionTactics <> e1:75 var
+R7965:7965 Ionia.FusionTactics <> c:76 var
+R7967:7967 Ionia.FusionTactics <> v:81 var
+R7981:7988 Ionia.CNN_CodeGen_Semantics <> eval_aux def
+R7999:8001 Ionia.FusionTactics <> rho:77 var
+R7991:7991 Ionia.FusionTactics <> c:76 var
+R7993:7994 Ionia.FusionTactics <> e1:75 var
+R8027:8039 Ionia.CNN_CodeGen <> new_equiv_sem thm
+prf 8159:8181 <> eliminate_new_array_sem
+binder 8194:8194 <> n:82
+binder 8196:8196 <> d:83
+R8208:8211 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8203:8205 Ionia.finType <> fin def
+R8207:8207 Ionia.FusionTactics <> n:82 var
+R8212:8214 Ionia.DataExp <> exp def
+R8216:8216 Ionia.FusionTactics <> d:83 var
+binder 8199:8199 <> f:84
+R8240:8243 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8224:8226 Ionia.DataExp <> exp def
+R8229:8231 Ionia.DataExp <> ary constr
+R8238:8238 Ionia.FusionTactics <> d:83 var
+R8233:8234 Ionia.DataExp <> :::'''{'_x_'}' not
+R8236:8236 Ionia.DataExp <> :::'''{'_x_'}' not
+R8235:8235 Ionia.FusionTactics <> n:82 var
+R8244:8247 Ionia.CNN_CodeGen_Core <> comm ind
+binder 8220:8220 <> c:85
+R8257:8263 Ionia.FusionTactics <> env def
+binder 8251:8253 <> rho:86
+R8303:8310 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8271:8289 Ionia.CNN_CodeGen_Semantics <> new_continuation_ok def
+R8294:8299 Ionia.DataExp <> mkvSeq def
+R8301:8301 Ionia.FusionTactics <> f:84 var
+R8291:8291 Ionia.FusionTactics <> c:85 var
+R8323:8330 Ionia.FusionTactics <> acc' def
+R8333:8338 Ionia.FusionTactics <> Var constr
+binder 8315:8318 <> wtmp:87
+R8398:8405 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8357:8375 Ionia.FusionTactics <> StructUndefined def
+R8378:8380 Ionia.DataExp <> ary constr
+R8387:8387 Ionia.FusionTactics <> d:83 var
+R8382:8383 Ionia.DataExp <> :::'''{'_x_'}' not
+R8385:8385 Ionia.DataExp <> :::'''{'_x_'}' not
+R8384:8384 Ionia.FusionTactics <> n:82 var
+R8390:8393 Ionia.FusionTactics <> wtmp:87 var
+R8395:8397 Ionia.FusionTactics <> rho:86 var
+R8476:8482 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8406:8409 Ionia.CNN_CodeGen_Semantics <> eval def
+R8473:8475 Ionia.FusionTactics <> rho:86 var
+R8412:8414 Ionia.CNN_CodeGen_Core <> new constr
+binder 8421:8423 <> tmp:88
+R8442:8444 Ionia.FusionTactics <> tmp:88 var
+binder 8433:8433 <> w:89
+binder 8436:8436 <> v:90
+R8463:8466 Ionia.CNN_CodeGen_Core <> :::x_''';'_x not
+R8449:8449 Ionia.CNN_CodeGen_Core <> A def
+R8450:8450 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8452:8453 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8462:8462 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8451:8451 Ionia.FusionTactics <> w:89 var
+R8454:8459 Ionia.DataExp <> mkvSeq def
+R8461:8461 Ionia.FusionTactics <> f:84 var
+R8467:8467 Ionia.FusionTactics <> c:85 var
+R8469:8469 Ionia.FusionTactics <> v:90 var
+R8483:8490 Ionia.CNN_CodeGen_Semantics <> eval_aux def
+R8509:8511 Ionia.FusionTactics <> rho:86 var
+R8493:8493 Ionia.FusionTactics <> c:85 var
+R8496:8501 Ionia.DataExp <> mkvSeq def
+R8503:8503 Ionia.FusionTactics <> f:84 var
+R8538:8538 Ionia.CNN_CodeGen_Core <> A def
+R8547:8563 Ionia.FusionTactics <> eliminate_new_sem thm

@@ -1,0 +1,1686 @@
+DIGEST e81616d8d52f62679fe2b9cf19ae1a6f
+FIonia.Opt_OnlineSoftmax
+R2112:2141 Stdlib.Logic.FunctionalExtensionality <> <> lib
+R2159:2162 Stdlib.Lists.List <> <> lib
+R2164:2168 Stdlib.Reals.Reals <> <> lib
+R2170:2175 Stdlib.Strings.String <> <> lib
+R2177:2179 Corelib.Init.Nat <> <> lib
+R2181:2184 Stdlib.Bool.Bool <> <> lib
+R2186:2190 Stdlib.Arith.Arith <> <> lib
+R2192:2194 Stdlib.micromega.Lra <> <> lib
+R2196:2198 Stdlib.micromega.Lia <> <> lib
+R2216:2241 Stdlib.Logic.ProofIrrelevance <> <> lib
+R2259:2277 Ionia.Proof_CodeGen <> <> lib
+R2295:2310 Ionia.DPIA_Rules <> <> lib
+R2320:2332 Ionia.Proof_CodeGen <> <> mod
+R2342:2354 Stdlib.Lists.List ListNotations <> mod
+prf 2987:2995 <> max2_Rmax
+R3012:3012 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3006:3006 <> x:1
+binder 3008:3008 <> y:2
+R3023:3025 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3015:3018 Ionia.DPIA_Rules <> max2 def
+R3022:3022 Ionia.Opt_OnlineSoftmax <> y:2 var
+R3020:3020 Ionia.Opt_OnlineSoftmax <> x:1 var
+R3026:3029 Stdlib.Reals.Rbasic_fun <> Rmax def
+R3031:3031 Ionia.Opt_OnlineSoftmax <> y:2 var
+R3033:3033 Ionia.Opt_OnlineSoftmax <> x:1 var
+R3064:3067 Ionia.DPIA_Rules <> max2 def
+R3070:3074 Ionia.Proof_CodeGen <> gtExp def
+R3077:3080 Stdlib.Reals.Rbasic_fun <> Rmax def
+R3095:3101 Stdlib.Reals.RIneq <> Rgt_dec thm
+R3130:3136 Stdlib.Reals.RIneq <> Rle_dec thm
+prf 3562:3572 <> idx_snoc_fs
+binder 3583:3583 <> n:3
+R3590:3595 Ionia.vector <> vector def
+R3599:3599 Ionia.Opt_OnlineSoftmax <> n:3 var
+R3597:3597 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3586:3586 <> v:4
+R3607:3607 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3603:3603 <> x:5
+R3615:3617 Ionia.finType <> fin def
+R3619:3619 Ionia.Opt_OnlineSoftmax <> n:3 var
+binder 3611:3611 <> i:6
+R3625:3625 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3665:3668 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3626:3626 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R3656:3658 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R3664:3664 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R3636:3638 Ionia.Proof_CodeGen <> exp def
+R3641:3643 Ionia.DataExp <> ary constr
+R3652:3654 Ionia.DataExp <> num constr
+R3645:3646 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3650:3650 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3647:3647 Corelib.Init.Datatypes <> S constr
+R3649:3649 Ionia.Opt_OnlineSoftmax <> n:3 var
+R3627:3627 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3629:3630 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3632:3632 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3628:3628 Ionia.Opt_OnlineSoftmax <> v:4 var
+R3631:3631 Ionia.Opt_OnlineSoftmax <> x:5 var
+R3659:3661 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R3663:3663 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R3662:3662 Ionia.Opt_OnlineSoftmax <> i:6 var
+R3669:3669 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R3692:3694 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R3696:3696 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R3674:3676 Ionia.Proof_CodeGen <> exp def
+R3679:3681 Ionia.DataExp <> ary constr
+R3688:3690 Ionia.DataExp <> num constr
+R3683:3684 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3686:3686 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3685:3685 Ionia.Opt_OnlineSoftmax <> n:3 var
+R3670:3670 Ionia.Opt_OnlineSoftmax <> v:4 var
+R3695:3695 Ionia.Opt_OnlineSoftmax <> i:6 var
+R3721:3723 Ionia.Proof_CodeGen <> idx def
+R3732:3739 Ionia.Proof_CodeGen <> v_idx_Sn thm
+prf 3754:3766 <> idx_snoc_last
+binder 3777:3777 <> n:7
+R3784:3789 Ionia.vector <> vector def
+R3793:3793 Ionia.Opt_OnlineSoftmax <> n:7 var
+R3791:3791 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3780:3780 <> v:8
+R3801:3801 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3797:3797 <> x:9
+R3807:3807 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3852:3855 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3808:3808 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R3838:3840 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R3851:3851 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R3818:3820 Ionia.Proof_CodeGen <> exp def
+R3823:3825 Ionia.DataExp <> ary constr
+R3834:3836 Ionia.DataExp <> num constr
+R3827:3828 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3832:3832 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3829:3829 Corelib.Init.Datatypes <> S constr
+R3831:3831 Ionia.Opt_OnlineSoftmax <> n:7 var
+R3809:3809 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3811:3812 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3814:3814 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3810:3810 Ionia.Opt_OnlineSoftmax <> v:8 var
+R3813:3813 Ionia.Opt_OnlineSoftmax <> x:9 var
+R3841:3848 Ionia.finType <> fin_last def
+R3850:3850 Ionia.Opt_OnlineSoftmax <> n:7 var
+R3856:3856 Ionia.Opt_OnlineSoftmax <> x:9 var
+R3883:3885 Ionia.Proof_CodeGen <> idx def
+R3888:3892 Ionia.vector <> v_idx def
+R3910:3921 Stdlib.Arith.PeanoNat Nat eqb_refl thm
+prf 3949:3960 <> idx_snoc_ltS
+binder 3971:3971 <> n:10
+R3978:3983 Ionia.vector <> vector def
+R3987:3987 Ionia.Opt_OnlineSoftmax <> n:10 var
+R3985:3985 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3974:3974 <> v:11
+R3995:3995 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3991:3991 <> x:12
+R4001:4001 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4040:4043 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4002:4002 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R4032:4034 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R4039:4039 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R4012:4014 Ionia.Proof_CodeGen <> exp def
+R4017:4019 Ionia.DataExp <> ary constr
+R4028:4030 Ionia.DataExp <> num constr
+R4021:4022 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4026:4026 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4023:4023 Corelib.Init.Datatypes <> S constr
+R4025:4025 Ionia.Opt_OnlineSoftmax <> n:10 var
+R4003:4003 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4005:4006 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4008:4008 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4004:4004 Ionia.Opt_OnlineSoftmax <> v:11 var
+R4007:4007 Ionia.Opt_OnlineSoftmax <> x:12 var
+R4035:4036 Ionia.Proof_CodeGen <> :::'''['_x_']' not
+R4038:4038 Ionia.Proof_CodeGen <> :::'''['_x_']' not
+R4037:4037 Ionia.Opt_OnlineSoftmax <> n:10 var
+R4044:4044 Ionia.Opt_OnlineSoftmax <> x:12 var
+R4071:4073 Ionia.Proof_CodeGen <> idx def
+R4076:4080 Ionia.vector <> v_idx def
+R4098:4109 Stdlib.Arith.PeanoNat Nat eqb_refl thm
+prf 4347:4358 <> pExp_sub_add
+R4377:4377 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4369:4369 <> a:13
+binder 4371:4371 <> b:14
+binder 4373:4373 <> c:15
+R4417:4419 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4397:4399 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R4383:4386 Ionia.Proof_CodeGen <> pExp def
+R4389:4391 Ionia.Proof_CodeGen <> sub def
+R4395:4395 Ionia.Opt_OnlineSoftmax <> b:14 var
+R4393:4393 Ionia.Opt_OnlineSoftmax <> a:13 var
+R4400:4403 Ionia.Proof_CodeGen <> pExp def
+R4406:4408 Ionia.Proof_CodeGen <> sub def
+R4412:4412 Ionia.Opt_OnlineSoftmax <> c:15 var
+R4410:4410 Ionia.Opt_OnlineSoftmax <> b:14 var
+R4420:4423 Ionia.Proof_CodeGen <> pExp def
+R4426:4428 Ionia.Proof_CodeGen <> sub def
+R4432:4432 Ionia.Opt_OnlineSoftmax <> c:15 var
+R4430:4430 Ionia.Opt_OnlineSoftmax <> a:13 var
+R4466:4469 Ionia.Proof_CodeGen <> pExp def
+R4472:4474 Ionia.Proof_CodeGen <> sub def
+R4490:4497 Stdlib.Reals.Exp_prop <> exp_plus thm
+def 4849:4852 <> esum
+R4857:4859 Corelib.Init.Datatypes <> nat ind
+binder 4855:4855 <> n:16
+R4867:4867 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4863:4863 <> m:17
+R4876:4881 Ionia.vector <> vector def
+R4885:4885 Ionia.Opt_OnlineSoftmax <> n:16 var
+R4883:4883 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4871:4872 <> xs:18
+R4890:4890 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R4897:4904 Ionia.vector <> v_reduce def
+R4951:4952 Ionia.Opt_OnlineSoftmax <> xs:18 var
+R4946:4949 Ionia.Proof_CodeGen <> zero def
+binder 4911:4911 <> x:19
+binder 4913:4915 <> acc:20
+R4920:4922 Ionia.Proof_CodeGen <> add def
+R4929:4932 Ionia.Proof_CodeGen <> pExp def
+R4935:4937 Ionia.Proof_CodeGen <> sub def
+R4941:4941 Ionia.Opt_OnlineSoftmax <> m:17 var
+R4939:4939 Ionia.Opt_OnlineSoftmax <> x:19 var
+R4924:4926 Ionia.Opt_OnlineSoftmax <> acc:20 var
+prf 4962:4968 <> esum_Sn
+binder 4980:4980 <> n:21
+R4988:4993 Ionia.vector <> vector def
+R4997:4997 Ionia.Opt_OnlineSoftmax <> n:21 var
+R4995:4995 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4984:4984 <> v:22
+R5007:5007 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 5001:5001 <> x:23
+binder 5003:5003 <> m:24
+R5045:5047 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5013:5016 Ionia.Opt_OnlineSoftmax <> esum def
+R5030:5035 Ionia.vector <> vector def
+R5040:5040 Corelib.Init.Datatypes <> S constr
+R5042:5042 Ionia.Opt_OnlineSoftmax <> n:21 var
+R5037:5037 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R5021:5021 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5023:5024 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5026:5026 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5022:5022 Ionia.Opt_OnlineSoftmax <> v:22 var
+R5025:5025 Ionia.Opt_OnlineSoftmax <> x:23 var
+R5018:5018 Ionia.Opt_OnlineSoftmax <> m:24 var
+R5048:5050 Ionia.Proof_CodeGen <> add def
+R5064:5067 Ionia.Proof_CodeGen <> pExp def
+R5070:5072 Ionia.Proof_CodeGen <> sub def
+R5076:5076 Ionia.Opt_OnlineSoftmax <> m:24 var
+R5074:5074 Ionia.Opt_OnlineSoftmax <> x:23 var
+R5053:5056 Ionia.Opt_OnlineSoftmax <> esum def
+R5060:5060 Ionia.Opt_OnlineSoftmax <> v:22 var
+R5058:5058 Ionia.Opt_OnlineSoftmax <> m:24 var
+R5103:5106 Ionia.Opt_OnlineSoftmax <> esum def
+R5117:5127 Ionia.vector <> v_reduce_Sn thm
+prf 5299:5308 <> esum_scale
+binder 5320:5320 <> n:25
+R5329:5334 Ionia.vector <> vector def
+R5338:5338 Ionia.Opt_OnlineSoftmax <> n:25 var
+R5336:5336 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 5324:5325 <> xs:26
+R5349:5349 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 5342:5342 <> m:27
+binder 5344:5345 <> m':28
+R5364:5366 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5355:5358 Ionia.Opt_OnlineSoftmax <> esum def
+R5362:5363 Ionia.Opt_OnlineSoftmax <> xs:26 var
+R5360:5360 Ionia.Opt_OnlineSoftmax <> m:27 var
+R5367:5369 Ionia.Proof_CodeGen <> mul def
+R5385:5388 Ionia.Proof_CodeGen <> pExp def
+R5391:5393 Ionia.Proof_CodeGen <> sub def
+R5398:5398 Ionia.Opt_OnlineSoftmax <> m:27 var
+R5395:5396 Ionia.Opt_OnlineSoftmax <> m':28 var
+R5372:5375 Ionia.Opt_OnlineSoftmax <> esum def
+R5380:5381 Ionia.Opt_OnlineSoftmax <> xs:26 var
+R5377:5378 Ionia.Opt_OnlineSoftmax <> m':28 var
+R5476:5479 Ionia.Opt_OnlineSoftmax <> esum def
+R5482:5484 Ionia.Proof_CodeGen <> mul def
+R5487:5490 Ionia.Proof_CodeGen <> zero def
+R5541:5547 Ionia.Opt_OnlineSoftmax <> esum_Sn thm
+R5582:5584 Ionia.Proof_CodeGen <> add def
+R5587:5589 Ionia.Proof_CodeGen <> mul def
+R5592:5594 Ionia.Proof_CodeGen <> sub def
+R5597:5600 Ionia.Proof_CodeGen <> pExp def
+R5617:5619 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R5631:5631 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R5638:5642 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R5649:5649 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R5633:5635 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R5645:5647 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R5675:5682 Stdlib.Reals.Exp_prop <> exp_plus thm
+prf 5761:5771 <> esum_nonneg
+binder 5783:5783 <> n:29
+R5792:5797 Ionia.vector <> vector def
+R5801:5801 Ionia.Opt_OnlineSoftmax <> n:29 var
+R5799:5799 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 5787:5788 <> xs:30
+R5809:5809 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 5805:5805 <> m:31
+R5818:5821 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R5814:5817 Ionia.Proof_CodeGen <> zero def
+R5822:5825 Ionia.Opt_OnlineSoftmax <> esum def
+R5829:5830 Ionia.Opt_OnlineSoftmax <> xs:30 var
+R5827:5827 Ionia.Opt_OnlineSoftmax <> m:31 var
+R5906:5909 Ionia.Opt_OnlineSoftmax <> esum def
+R5912:5915 Ionia.Proof_CodeGen <> zero def
+R5964:5970 Ionia.Opt_OnlineSoftmax <> esum_Sn thm
+R5980:5982 Ionia.Proof_CodeGen <> add def
+R5985:5988 Ionia.Proof_CodeGen <> pExp def
+R5991:5993 Ionia.Proof_CodeGen <> sub def
+R5996:5999 Ionia.Proof_CodeGen <> zero def
+R6012:6031 Stdlib.Reals.RIneq <> Rplus_le_le_0_compat thm
+R6062:6067 Stdlib.Reals.RIneq <> Rlt_le thm
+R6076:6082 Stdlib.Reals.Exp_prop <> exp_pos thm
+prf 6097:6106 <> esum_pos_S
+binder 6118:6118 <> n:32
+R6127:6132 Ionia.vector <> vector def
+R6137:6137 Corelib.Init.Datatypes <> S constr
+R6139:6139 Ionia.Opt_OnlineSoftmax <> n:32 var
+R6134:6134 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 6122:6123 <> xs:33
+R6148:6148 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 6144:6144 <> m:34
+R6159:6161 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R6155:6158 Ionia.Proof_CodeGen <> zero def
+R6162:6165 Ionia.Opt_OnlineSoftmax <> esum def
+R6169:6170 Ionia.Opt_OnlineSoftmax <> xs:33 var
+R6167:6167 Ionia.Opt_OnlineSoftmax <> m:34 var
+R6230:6236 Ionia.Opt_OnlineSoftmax <> esum_Sn thm
+R6248:6250 Ionia.Proof_CodeGen <> add def
+R6253:6256 Ionia.Proof_CodeGen <> pExp def
+R6259:6261 Ionia.Proof_CodeGen <> sub def
+R6264:6267 Ionia.Proof_CodeGen <> zero def
+R6278:6297 Stdlib.Reals.RIneq <> Rplus_le_lt_0_compat thm
+R6310:6320 Ionia.Opt_OnlineSoftmax <> esum_nonneg thm
+R6333:6339 Stdlib.Reals.Exp_prop <> exp_pos thm
+prf 6405:6410 <> sum_Sn
+binder 6422:6422 <> n:35
+R6430:6435 Ionia.vector <> vector def
+R6439:6439 Ionia.Opt_OnlineSoftmax <> n:35 var
+R6437:6437 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 6426:6426 <> v:36
+R6447:6447 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 6443:6443 <> x:37
+R6488:6490 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6453:6455 Ionia.Proof_CodeGen <> sum def
+R6467:6469 Ionia.Proof_CodeGen <> exp def
+R6472:6474 Ionia.DataExp <> ary constr
+R6483:6485 Ionia.DataExp <> num constr
+R6476:6477 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6481:6481 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6478:6478 Corelib.Init.Datatypes <> S constr
+R6480:6480 Ionia.Opt_OnlineSoftmax <> n:35 var
+R6458:6458 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6460:6461 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6463:6463 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6459:6459 Ionia.Opt_OnlineSoftmax <> v:36 var
+R6462:6462 Ionia.Opt_OnlineSoftmax <> x:37 var
+R6491:6493 Ionia.Proof_CodeGen <> add def
+R6498:6500 Ionia.Proof_CodeGen <> sum def
+R6502:6502 Ionia.Opt_OnlineSoftmax <> v:36 var
+R6495:6495 Ionia.Opt_OnlineSoftmax <> x:37 var
+prf 6673:6680 <> esum_sum
+binder 6692:6692 <> n:38
+R6701:6706 Ionia.vector <> vector def
+R6710:6710 Ionia.Opt_OnlineSoftmax <> n:38 var
+R6708:6708 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 6696:6697 <> xs:39
+R6718:6718 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 6714:6714 <> m:40
+R6800:6804 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6724:6726 Ionia.Proof_CodeGen <> sum def
+R6729:6734 Ionia.Proof_CodeGen <> mkvSeq def
+R6745:6747 Ionia.finType <> fin def
+R6749:6749 Ionia.Opt_OnlineSoftmax <> n:38 var
+binder 6741:6741 <> j:41
+R6754:6757 Ionia.Proof_CodeGen <> pExp def
+R6760:6762 Ionia.Proof_CodeGen <> sub def
+R6796:6796 Ionia.Opt_OnlineSoftmax <> m:40 var
+R6765:6765 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R6789:6791 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R6793:6793 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R6771:6773 Ionia.Proof_CodeGen <> exp def
+R6776:6778 Ionia.DataExp <> ary constr
+R6785:6787 Ionia.DataExp <> num constr
+R6780:6781 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6783:6783 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6782:6782 Ionia.Opt_OnlineSoftmax <> n:38 var
+R6766:6767 Ionia.Opt_OnlineSoftmax <> xs:39 var
+R6792:6792 Ionia.Opt_OnlineSoftmax <> j:41 var
+R6805:6808 Ionia.Opt_OnlineSoftmax <> esum def
+R6812:6813 Ionia.Opt_OnlineSoftmax <> xs:39 var
+R6810:6810 Ionia.Opt_OnlineSoftmax <> m:40 var
+R7045:7066 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6937:6939 Ionia.Proof_CodeGen <> sum def
+R6942:6947 Ionia.vector <> mk_vec def
+R6958:6960 Ionia.finType <> fin def
+binder 6954:6954 <> i:42
+R6991:6994 Ionia.Proof_CodeGen <> pExp def
+R6997:6999 Ionia.Proof_CodeGen <> sub def
+R7002:7002 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R7030:7032 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R7038:7038 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R7010:7012 Ionia.Proof_CodeGen <> exp def
+R7015:7017 Ionia.DataExp <> ary constr
+R7026:7028 Ionia.DataExp <> num constr
+R7019:7020 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7024:7024 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7021:7021 Corelib.Init.Datatypes <> S constr
+R7003:7003 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7005:7006 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7008:7008 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7033:7035 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R7037:7037 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R7036:7036 Ionia.Opt_OnlineSoftmax <> i:42 var
+R7067:7070 Ionia.Opt_OnlineSoftmax <> esum def
+binder 6954:6954 <> i:43
+R7036:7036 Ionia.Opt_OnlineSoftmax <> i:43 var
+R7112:7117 Ionia.Proof_CodeGen <> mkvSeq def
+R7146:7170 Stdlib.Logic.FunctionalExtensionality <> functional_extensionality thm
+R7190:7200 Ionia.Opt_OnlineSoftmax <> idx_snoc_fs thm
+R7230:7236 Ionia.Opt_OnlineSoftmax <> esum_Sn thm
+R7246:7251 Ionia.Proof_CodeGen <> mkvSeq def
+R7262:7270 Ionia.Proof_CodeGen <> mk_vec_S2 thm
+R7295:7300 Ionia.Opt_OnlineSoftmax <> sum_Sn thm
+R7330:7334 Corelib.Init.Specif <> exist constr
+R7372:7389 Stdlib.Arith.PeanoNat Nat lt_succ_diag_r thm
+R7346:7348 Corelib.Init.Datatypes <> nat ind
+binder 7341:7342 <> i0:44
+R7356:7358 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R7354:7355 Ionia.Opt_OnlineSoftmax <> i0:44 var
+R7359:7359 Corelib.Init.Datatypes <> S constr
+R7407:7414 Ionia.finType <> fin_last def
+binder 7341:7342 <> i0:45
+R7354:7355 Ionia.Opt_OnlineSoftmax <> i0:45 var
+R7447:7459 Ionia.Opt_OnlineSoftmax <> idx_snoc_last thm
+R7469:7471 Ionia.Proof_CodeGen <> add def
+R7480:7489 Stdlib.Reals.Raxioms <> Rplus_comm thm
+def 7834:7838 <> rmaxl
+R7843:7845 Corelib.Init.Datatypes <> nat ind
+binder 7841:7841 <> n:46
+R7854:7854 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 7849:7850 <> m0:47
+R7863:7868 Ionia.vector <> vector def
+R7872:7872 Ionia.Opt_OnlineSoftmax <> n:46 var
+R7870:7870 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 7858:7859 <> xs:48
+R7877:7877 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R7884:7891 Ionia.vector <> v_reduce def
+R7922:7923 Ionia.Opt_OnlineSoftmax <> xs:48 var
+R7919:7920 Ionia.Opt_OnlineSoftmax <> m0:47 var
+binder 7898:7898 <> x:49
+binder 7900:7902 <> acc:50
+R7907:7910 Stdlib.Reals.Rbasic_fun <> Rmax def
+R7912:7914 Ionia.Opt_OnlineSoftmax <> acc:50 var
+R7916:7916 Ionia.Opt_OnlineSoftmax <> x:49 var
+prf 7933:7940 <> rmaxl_Sn
+binder 7952:7952 <> n:51
+R7960:7965 Ionia.vector <> vector def
+R7969:7969 Ionia.Opt_OnlineSoftmax <> n:51 var
+R7967:7967 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 7956:7956 <> v:52
+R7980:7980 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 7973:7973 <> x:53
+binder 7975:7976 <> m0:54
+R8020:8022 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7986:7990 Ionia.Opt_OnlineSoftmax <> rmaxl def
+R8005:8010 Ionia.vector <> vector def
+R8015:8015 Corelib.Init.Datatypes <> S constr
+R8017:8017 Ionia.Opt_OnlineSoftmax <> n:51 var
+R8012:8012 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R7996:7996 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7998:7999 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8001:8001 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7997:7997 Ionia.Opt_OnlineSoftmax <> v:52 var
+R8000:8000 Ionia.Opt_OnlineSoftmax <> x:53 var
+R7992:7993 Ionia.Opt_OnlineSoftmax <> m0:54 var
+R8023:8026 Stdlib.Reals.Rbasic_fun <> Rmax def
+R8029:8033 Ionia.Opt_OnlineSoftmax <> rmaxl def
+R8038:8038 Ionia.Opt_OnlineSoftmax <> v:52 var
+R8035:8036 Ionia.Opt_OnlineSoftmax <> m0:54 var
+R8041:8041 Ionia.Opt_OnlineSoftmax <> x:53 var
+R8066:8070 Ionia.Opt_OnlineSoftmax <> rmaxl def
+R8081:8091 Ionia.vector <> v_reduce_Sn thm
+prf 8119:8127 <> max_rmaxl
+binder 8139:8139 <> n:55
+R8148:8153 Ionia.vector <> vector def
+R8157:8157 Ionia.Opt_OnlineSoftmax <> n:55 var
+R8155:8155 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 8143:8144 <> xs:56
+R8167:8169 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8161:8163 Ionia.Proof_CodeGen <> max def
+R8165:8166 Ionia.Opt_OnlineSoftmax <> xs:56 var
+R8170:8174 Ionia.Opt_OnlineSoftmax <> rmaxl def
+R8181:8182 Ionia.Opt_OnlineSoftmax <> xs:56 var
+R8176:8179 Ionia.Proof_CodeGen <> zero def
+R8215:8224 Ionia.DPIA_Rules <> max_reduce thm
+R8234:8238 Ionia.Opt_OnlineSoftmax <> rmaxl def
+R8241:8246 Ionia.Proof_CodeGen <> reduce def
+R8362:8372 Ionia.vector <> v_reduce_Sn thm
+R8404:8412 Ionia.Opt_OnlineSoftmax <> max2_Rmax thm
+def 8676:8687 <> online_merge
+R8701:8703 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R8700:8700 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R8704:8704 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 8690:8692 <> st1:57
+binder 8694:8696 <> st2:58
+R8710:8712 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R8709:8709 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R8713:8713 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R8737:8739 Ionia.Opt_OnlineSoftmax <> st1:57 var
+R8725:8725 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8728:8729 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8732:8732 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8763:8765 Ionia.Opt_OnlineSoftmax <> st2:58 var
+R8751:8751 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8754:8755 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8758:8758 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8781:8784 Stdlib.Reals.Rbasic_fun <> Rmax def
+binder 8776:8776 <> m:61
+R8797:8797 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8799:8800 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8858:8858 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8798:8798 Ionia.Opt_OnlineSoftmax <> m:61 var
+R8801:8803 Ionia.Proof_CodeGen <> add def
+R8833:8835 Ionia.Proof_CodeGen <> mul def
+R8841:8844 Ionia.Proof_CodeGen <> pExp def
+R8847:8849 Ionia.Proof_CodeGen <> sub def
+R8854:8854 Ionia.Opt_OnlineSoftmax <> m:61 var
+R8806:8808 Ionia.Proof_CodeGen <> mul def
+R8814:8817 Ionia.Proof_CodeGen <> pExp def
+R8820:8822 Ionia.Proof_CodeGen <> sub def
+R8827:8827 Ionia.Opt_OnlineSoftmax <> m:61 var
+prf 8868:8883 <> online_merge_fst
+R8905:8907 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R8904:8904 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R8908:8908 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 8894:8896 <> st1:62
+binder 8898:8900 <> st2:63
+R8939:8941 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8913:8915 Corelib.Init.Datatypes <> fst def
+R8918:8929 Ionia.Opt_OnlineSoftmax <> online_merge def
+R8931:8933 Ionia.Opt_OnlineSoftmax <> st1:62 var
+R8935:8937 Ionia.Opt_OnlineSoftmax <> st2:63 var
+R8942:8945 Stdlib.Reals.Rbasic_fun <> Rmax def
+R8948:8950 Corelib.Init.Datatypes <> fst def
+R8952:8954 Ionia.Opt_OnlineSoftmax <> st1:62 var
+R8958:8960 Corelib.Init.Datatypes <> fst def
+R8962:8964 Ionia.Opt_OnlineSoftmax <> st2:63 var
+prf 9251:9271 <> online_merge_snd_esum
+binder 9283:9284 <> n1:64
+binder 9286:9287 <> n2:65
+R9301:9306 Ionia.vector <> vector def
+R9310:9311 Ionia.Opt_OnlineSoftmax <> n1:64 var
+R9308:9308 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 9295:9297 <> xs1:66
+R9321:9326 Ionia.vector <> vector def
+R9330:9331 Ionia.Opt_OnlineSoftmax <> n2:65 var
+R9328:9328 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 9315:9317 <> xs2:67
+R9349:9349 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 9335:9336 <> m1:68
+binder 9338:9339 <> m2:69
+binder 9341:9342 <> s1:70
+binder 9344:9345 <> s2:71
+R9371:9376 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9357:9359 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9355:9356 Ionia.Opt_OnlineSoftmax <> s1:70 var
+R9360:9363 Ionia.Opt_OnlineSoftmax <> esum def
+R9368:9370 Ionia.Opt_OnlineSoftmax <> xs1:66 var
+R9365:9366 Ionia.Opt_OnlineSoftmax <> m1:68 var
+R9393:9398 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9379:9381 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9377:9378 Ionia.Opt_OnlineSoftmax <> s2:71 var
+R9382:9385 Ionia.Opt_OnlineSoftmax <> esum def
+R9390:9392 Ionia.Opt_OnlineSoftmax <> xs2:67 var
+R9387:9388 Ionia.Opt_OnlineSoftmax <> m2:69 var
+R9435:9439 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9399:9401 Corelib.Init.Datatypes <> snd def
+R9404:9415 Ionia.Opt_OnlineSoftmax <> online_merge def
+R9417:9417 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9420:9421 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9424:9424 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9418:9419 Ionia.Opt_OnlineSoftmax <> m1:68 var
+R9422:9423 Ionia.Opt_OnlineSoftmax <> s1:70 var
+R9426:9426 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9429:9430 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9433:9433 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9427:9428 Ionia.Opt_OnlineSoftmax <> m2:69 var
+R9431:9432 Ionia.Opt_OnlineSoftmax <> s2:71 var
+R9440:9442 Ionia.Proof_CodeGen <> add def
+R9469:9472 Ionia.Opt_OnlineSoftmax <> esum def
+R9487:9489 Ionia.Opt_OnlineSoftmax <> xs2:67 var
+R9475:9478 Stdlib.Reals.Rbasic_fun <> Rmax def
+R9480:9481 Ionia.Opt_OnlineSoftmax <> m1:68 var
+R9483:9484 Ionia.Opt_OnlineSoftmax <> m2:69 var
+R9445:9448 Ionia.Opt_OnlineSoftmax <> esum def
+R9463:9465 Ionia.Opt_OnlineSoftmax <> xs1:66 var
+R9451:9454 Stdlib.Reals.Rbasic_fun <> Rmax def
+R9456:9457 Ionia.Opt_OnlineSoftmax <> m1:68 var
+R9459:9460 Ionia.Opt_OnlineSoftmax <> m2:69 var
+R9564:9575 Ionia.Opt_OnlineSoftmax <> online_merge def
+R9603:9605 Corelib.Init.Datatypes <> snd def
+R9623:9632 Ionia.Opt_OnlineSoftmax <> esum_scale thm
+R9639:9642 Stdlib.Reals.Rbasic_fun <> Rmax def
+R9670:9679 Ionia.Opt_OnlineSoftmax <> esum_scale thm
+R9686:9689 Stdlib.Reals.Rbasic_fun <> Rmax def
+prf 9911:9930 <> online_merge_correct
+binder 9942:9943 <> n1:72
+binder 9945:9946 <> n2:73
+R9960:9965 Ionia.vector <> vector def
+R9969:9970 Ionia.Opt_OnlineSoftmax <> n1:72 var
+R9967:9967 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 9954:9956 <> xs1:74
+R9980:9985 Ionia.vector <> vector def
+R9989:9990 Ionia.Opt_OnlineSoftmax <> n2:73 var
+R9987:9987 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 9974:9976 <> xs2:75
+R10068:10072 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9996:10007 Ionia.Opt_OnlineSoftmax <> online_merge def
+R10009:10009 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10017:10018 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10037:10037 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10010:10012 Ionia.Proof_CodeGen <> max def
+R10014:10016 Ionia.Opt_OnlineSoftmax <> xs1:74 var
+R10019:10022 Ionia.Opt_OnlineSoftmax <> esum def
+R10034:10036 Ionia.Opt_OnlineSoftmax <> xs1:74 var
+R10025:10027 Ionia.Proof_CodeGen <> max def
+R10029:10031 Ionia.Opt_OnlineSoftmax <> xs1:74 var
+R10039:10039 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10047:10048 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10067:10067 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10040:10042 Ionia.Proof_CodeGen <> max def
+R10044:10046 Ionia.Opt_OnlineSoftmax <> xs2:75 var
+R10049:10052 Ionia.Opt_OnlineSoftmax <> esum def
+R10064:10066 Ionia.Opt_OnlineSoftmax <> xs2:75 var
+R10055:10057 Ionia.Proof_CodeGen <> max def
+R10059:10061 Ionia.Opt_OnlineSoftmax <> xs2:75 var
+R10073:10073 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10098:10102 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10189:10189 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10074:10077 Stdlib.Reals.Rbasic_fun <> Rmax def
+R10080:10082 Ionia.Proof_CodeGen <> max def
+R10084:10086 Ionia.Opt_OnlineSoftmax <> xs1:74 var
+R10090:10092 Ionia.Proof_CodeGen <> max def
+R10094:10096 Ionia.Opt_OnlineSoftmax <> xs2:75 var
+R10103:10105 Ionia.Proof_CodeGen <> add def
+R10153:10156 Ionia.Opt_OnlineSoftmax <> esum def
+R10185:10187 Ionia.Opt_OnlineSoftmax <> xs2:75 var
+R10159:10162 Stdlib.Reals.Rbasic_fun <> Rmax def
+R10165:10167 Ionia.Proof_CodeGen <> max def
+R10169:10171 Ionia.Opt_OnlineSoftmax <> xs1:74 var
+R10175:10177 Ionia.Proof_CodeGen <> max def
+R10179:10181 Ionia.Opt_OnlineSoftmax <> xs2:75 var
+R10108:10111 Ionia.Opt_OnlineSoftmax <> esum def
+R10140:10142 Ionia.Opt_OnlineSoftmax <> xs1:74 var
+R10114:10117 Stdlib.Reals.Rbasic_fun <> Rmax def
+R10120:10122 Ionia.Proof_CodeGen <> max def
+R10124:10126 Ionia.Opt_OnlineSoftmax <> xs1:74 var
+R10130:10132 Ionia.Proof_CodeGen <> max def
+R10134:10136 Ionia.Opt_OnlineSoftmax <> xs2:75 var
+R10230:10241 Ionia.Opt_OnlineSoftmax <> online_merge def
+R10306:10315 Ionia.Opt_OnlineSoftmax <> esum_scale thm
+R10349:10351 Ionia.Proof_CodeGen <> max def
+R10322:10325 Stdlib.Reals.Rbasic_fun <> Rmax def
+R10328:10330 Ionia.Proof_CodeGen <> max def
+R10338:10340 Ionia.Proof_CodeGen <> max def
+R10374:10383 Ionia.Opt_OnlineSoftmax <> esum_scale thm
+R10417:10419 Ionia.Proof_CodeGen <> max def
+R10390:10393 Stdlib.Reals.Rbasic_fun <> Rmax def
+R10396:10398 Ionia.Proof_CodeGen <> max def
+R10406:10408 Ionia.Proof_CodeGen <> max def
+def 10764:10774 <> online_step
+R10783:10785 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R10782:10782 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R10786:10786 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 10777:10778 <> st:76
+R10794:10794 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 10790:10790 <> x:77
+R10800:10802 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R10799:10799 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R10803:10803 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R10825:10826 Ionia.Opt_OnlineSoftmax <> st:76 var
+R10815:10815 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10817:10818 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10820:10820 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10843:10846 Stdlib.Reals.Rbasic_fun <> Rmax def
+R10850:10850 Ionia.Opt_OnlineSoftmax <> x:77 var
+binder 10837:10838 <> m':79
+R10857:10857 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10860:10861 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10909:10909 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10858:10859 Ionia.Opt_OnlineSoftmax <> m':79 var
+R10862:10864 Ionia.Proof_CodeGen <> add def
+R10893:10896 Ionia.Proof_CodeGen <> pExp def
+R10899:10901 Ionia.Proof_CodeGen <> sub def
+R10905:10906 Ionia.Opt_OnlineSoftmax <> m':79 var
+R10903:10903 Ionia.Opt_OnlineSoftmax <> x:77 var
+R10867:10869 Ionia.Proof_CodeGen <> mul def
+R10874:10877 Ionia.Proof_CodeGen <> pExp def
+R10880:10882 Ionia.Proof_CodeGen <> sub def
+R10886:10887 Ionia.Opt_OnlineSoftmax <> m':79 var
+def 11066:11076 <> online_fold
+R11081:11083 Corelib.Init.Datatypes <> nat ind
+binder 11079:11079 <> n:80
+R11093:11096 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11089:11091 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R11088:11088 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R11092:11092 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R11107:11110 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11097:11102 Ionia.vector <> vector def
+R11106:11106 Ionia.Opt_OnlineSoftmax <> n:80 var
+R11104:11104 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R11112:11114 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R11111:11111 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R11115:11115 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R11128:11128 Ionia.Opt_OnlineSoftmax <> n:80 var
+R11149:11152 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11145:11147 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R11144:11144 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R11148:11148 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R11164:11167 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11153:11158 Ionia.vector <> vector def
+R11162:11163 Ionia.Opt_OnlineSoftmax <> n0:82 var
+R11160:11160 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R11169:11171 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R11168:11168 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R11172:11172 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R11184:11184 Corelib.Init.Datatypes <> O constr
+binder 11193:11194 <> st:83
+R11201:11202 Ionia.Opt_OnlineSoftmax <> st:83 var
+R11208:11208 Corelib.Init.Datatypes <> S constr
+binder 11220:11221 <> st:84
+binder 11223:11224 <> xs:85
+R11229:11239 Ionia.Opt_OnlineSoftmax <> online_step def
+R11242:11252 Ionia.Opt_OnlineSoftmax <> online_fold:81 def
+R11266:11268 Corelib.Init.Datatypes <> fst def
+R11270:11271 Ionia.Opt_OnlineSoftmax <> xs:85 var
+R11262:11263 Ionia.Opt_OnlineSoftmax <> st:84 var
+R11276:11278 Corelib.Init.Datatypes <> snd def
+R11280:11281 Ionia.Opt_OnlineSoftmax <> xs:85 var
+prf 11433:11451 <> online_fold_correct
+binder 11463:11463 <> n:86
+R11472:11477 Ionia.vector <> vector def
+R11481:11481 Ionia.Opt_OnlineSoftmax <> n:86 var
+R11479:11479 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 11467:11468 <> xs:87
+R11493:11493 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 11485:11486 <> m0:88
+binder 11488:11489 <> s0:89
+R11522:11526 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11499:11509 Ionia.Opt_OnlineSoftmax <> online_fold def
+R11520:11521 Ionia.Opt_OnlineSoftmax <> xs:87 var
+R11511:11511 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11514:11515 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11518:11518 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11512:11513 Ionia.Opt_OnlineSoftmax <> m0:88 var
+R11516:11517 Ionia.Opt_OnlineSoftmax <> s0:89 var
+R11527:11527 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11539:11544 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11615:11616 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11528:11532 Ionia.Opt_OnlineSoftmax <> rmaxl def
+R11537:11538 Ionia.Opt_OnlineSoftmax <> xs:87 var
+R11534:11535 Ionia.Opt_OnlineSoftmax <> m0:88 var
+R11614:11614 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R11545:11547 Ionia.Proof_CodeGen <> add def
+R11589:11592 Ionia.Opt_OnlineSoftmax <> esum def
+R11608:11609 Ionia.Opt_OnlineSoftmax <> xs:87 var
+R11595:11599 Ionia.Opt_OnlineSoftmax <> rmaxl def
+R11604:11605 Ionia.Opt_OnlineSoftmax <> xs:87 var
+R11601:11602 Ionia.Opt_OnlineSoftmax <> m0:88 var
+R11550:11552 Ionia.Proof_CodeGen <> mul def
+R11558:11561 Ionia.Proof_CodeGen <> pExp def
+R11564:11566 Ionia.Proof_CodeGen <> sub def
+R11572:11576 Ionia.Opt_OnlineSoftmax <> rmaxl def
+R11581:11582 Ionia.Opt_OnlineSoftmax <> xs:87 var
+R11578:11579 Ionia.Opt_OnlineSoftmax <> m0:88 var
+R11568:11569 Ionia.Opt_OnlineSoftmax <> m0:88 var
+R11554:11555 Ionia.Opt_OnlineSoftmax <> s0:89 var
+R11698:11708 Ionia.Opt_OnlineSoftmax <> online_fold def
+R11725:11730 Ionia.vector <> vector def
+R11732:11732 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R11720:11721 Corelib.Init.Datatypes <> tt constr
+R11710:11710 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11713:11714 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11717:11717 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11743:11743 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11746:11747 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11750:11750 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11765:11769 Ionia.Opt_OnlineSoftmax <> rmaxl def
+R11780:11785 Ionia.vector <> vector def
+R11787:11787 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R11775:11776 Corelib.Init.Datatypes <> tt constr
+R11814:11817 Ionia.Opt_OnlineSoftmax <> esum def
+R11828:11833 Ionia.vector <> vector def
+R11835:11835 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R11823:11824 Corelib.Init.Datatypes <> tt constr
+R11846:11849 Ionia.Proof_CodeGen <> zero def
+R11863:11865 Ionia.Proof_CodeGen <> add def
+R11868:11870 Ionia.Proof_CodeGen <> mul def
+R11873:11875 Ionia.Proof_CodeGen <> sub def
+R11878:11881 Ionia.Proof_CodeGen <> pExp def
+R11884:11887 Ionia.Proof_CodeGen <> zero def
+R11905:11907 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R11940:11944 Stdlib.Reals.Rtrigo_def <> exp_0 thm
+R12000:12010 Ionia.Opt_OnlineSoftmax <> online_fold def
+R12031:12036 Ionia.vector <> vector def
+R12041:12041 Corelib.Init.Datatypes <> S constr
+R12038:12038 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R12022:12022 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12024:12025 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12027:12027 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12012:12012 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12015:12016 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12019:12019 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12060:12070 Ionia.Opt_OnlineSoftmax <> online_step def
+R12073:12083 Ionia.Opt_OnlineSoftmax <> online_fold def
+R12085:12085 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12088:12089 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12092:12092 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12124:12134 Ionia.Opt_OnlineSoftmax <> online_step def
+R12169:12176 Ionia.Opt_OnlineSoftmax <> rmaxl_Sn thm
+R12187:12193 Ionia.Opt_OnlineSoftmax <> esum_Sn thm
+R12210:12214 Ionia.Opt_OnlineSoftmax <> rmaxl def
+R12279:12281 Ionia.Proof_CodeGen <> exp def
+R12283:12285 Ionia.DataExp <> num constr
+R12293:12293 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R12309:12318 Ionia.Opt_OnlineSoftmax <> esum_scale thm
+R12323:12326 Stdlib.Reals.Rbasic_fun <> Rmax def
+R12350:12352 Ionia.Proof_CodeGen <> add def
+R12355:12357 Ionia.Proof_CodeGen <> mul def
+R12372:12389 Stdlib.Reals.RIneq <> Rmult_plus_distr_r thm
+R12426:12428 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12407:12409 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12410:12413 Ionia.Proof_CodeGen <> pExp def
+R12416:12418 Ionia.Proof_CodeGen <> sub def
+R12429:12432 Ionia.Proof_CodeGen <> pExp def
+R12435:12437 Ionia.Proof_CodeGen <> sub def
+R12443:12446 Stdlib.Reals.Rbasic_fun <> Rmax def
+R12472:12474 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12475:12478 Ionia.Proof_CodeGen <> pExp def
+R12481:12483 Ionia.Proof_CodeGen <> sub def
+R12489:12492 Stdlib.Reals.Rbasic_fun <> Rmax def
+R12522:12532 Stdlib.Reals.Raxioms <> Rmult_assoc thm
+R12543:12554 Ionia.Opt_OnlineSoftmax <> pExp_sub_add thm
+def 12676:12688 <> softmax_batch
+R12693:12695 Corelib.Init.Datatypes <> nat ind
+binder 12691:12691 <> n:90
+R12704:12709 Ionia.vector <> vector def
+R12713:12713 Ionia.Opt_OnlineSoftmax <> n:90 var
+R12711:12711 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 12699:12700 <> xs:91
+R12721:12723 Ionia.finType <> fin def
+R12725:12725 Ionia.Opt_OnlineSoftmax <> n:90 var
+binder 12717:12717 <> i:92
+R12730:12730 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R12737:12739 Ionia.Proof_CodeGen <> div def
+R12802:12804 Ionia.Proof_CodeGen <> sum def
+R12807:12812 Ionia.Proof_CodeGen <> mkvSeq def
+R12823:12825 Ionia.finType <> fin def
+R12827:12827 Ionia.Opt_OnlineSoftmax <> n:90 var
+binder 12819:12819 <> j:93
+R12845:12848 Ionia.Proof_CodeGen <> pExp def
+R12851:12853 Ionia.Proof_CodeGen <> sub def
+R12888:12890 Ionia.Proof_CodeGen <> max def
+R12892:12893 Ionia.Opt_OnlineSoftmax <> xs:91 var
+R12856:12856 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R12880:12882 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R12884:12884 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R12862:12864 Ionia.Proof_CodeGen <> exp def
+R12867:12869 Ionia.DataExp <> ary constr
+R12876:12878 Ionia.DataExp <> num constr
+R12871:12872 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12874:12874 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12873:12873 Ionia.Opt_OnlineSoftmax <> n:90 var
+R12857:12858 Ionia.Opt_OnlineSoftmax <> xs:91 var
+R12883:12883 Ionia.Opt_OnlineSoftmax <> j:93 var
+R12742:12745 Ionia.Proof_CodeGen <> pExp def
+R12748:12750 Ionia.Proof_CodeGen <> sub def
+R12785:12787 Ionia.Proof_CodeGen <> max def
+R12789:12790 Ionia.Opt_OnlineSoftmax <> xs:91 var
+R12753:12753 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R12777:12779 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R12781:12781 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R12759:12761 Ionia.Proof_CodeGen <> exp def
+R12764:12766 Ionia.DataExp <> ary constr
+R12773:12775 Ionia.DataExp <> num constr
+R12768:12769 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12771:12771 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12770:12770 Ionia.Opt_OnlineSoftmax <> n:90 var
+R12754:12755 Ionia.Opt_OnlineSoftmax <> xs:91 var
+R12780:12780 Ionia.Opt_OnlineSoftmax <> i:92 var
+def 12984:12997 <> softmax_online
+R13002:13004 Corelib.Init.Datatypes <> nat ind
+binder 13000:13000 <> n:94
+R13013:13018 Ionia.vector <> vector def
+R13022:13022 Ionia.Opt_OnlineSoftmax <> n:94 var
+R13020:13020 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 13008:13009 <> xs:95
+R13030:13032 Ionia.finType <> fin def
+R13034:13034 Ionia.Opt_OnlineSoftmax <> n:94 var
+binder 13026:13026 <> i:96
+R13039:13039 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R13056:13066 Ionia.Opt_OnlineSoftmax <> online_fold def
+R13081:13082 Ionia.Opt_OnlineSoftmax <> xs:95 var
+R13068:13068 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13073:13074 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13079:13079 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13069:13072 Ionia.Proof_CodeGen <> zero def
+R13075:13078 Ionia.Proof_CodeGen <> zero def
+binder 13050:13051 <> st:97
+R13089:13091 Ionia.Proof_CodeGen <> div def
+R13148:13150 Corelib.Init.Datatypes <> snd def
+R13152:13153 Ionia.Opt_OnlineSoftmax <> st:97 var
+R13094:13097 Ionia.Proof_CodeGen <> pExp def
+R13100:13102 Ionia.Proof_CodeGen <> sub def
+R13137:13139 Corelib.Init.Datatypes <> fst def
+R13141:13142 Ionia.Opt_OnlineSoftmax <> st:97 var
+R13105:13105 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R13129:13131 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R13133:13133 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R13111:13113 Ionia.Proof_CodeGen <> exp def
+R13116:13118 Ionia.DataExp <> ary constr
+R13125:13127 Ionia.DataExp <> num constr
+R13120:13121 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13123:13123 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13122:13122 Ionia.Opt_OnlineSoftmax <> n:94 var
+R13106:13107 Ionia.Opt_OnlineSoftmax <> xs:95 var
+R13132:13132 Ionia.Opt_OnlineSoftmax <> i:96 var
+prf 13232:13251 <> online_softmax_equiv
+binder 13263:13263 <> n:98
+R13272:13277 Ionia.vector <> vector def
+R13281:13281 Ionia.Opt_OnlineSoftmax <> n:98 var
+R13279:13279 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 13267:13268 <> xs:99
+R13289:13291 Ionia.finType <> fin def
+R13293:13293 Ionia.Opt_OnlineSoftmax <> n:98 var
+binder 13285:13285 <> i:100
+R13318:13320 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13299:13312 Ionia.Opt_OnlineSoftmax <> softmax_online def
+R13317:13317 Ionia.Opt_OnlineSoftmax <> i:100 var
+R13314:13315 Ionia.Opt_OnlineSoftmax <> xs:99 var
+R13321:13333 Ionia.Opt_OnlineSoftmax <> softmax_batch def
+R13338:13338 Ionia.Opt_OnlineSoftmax <> i:100 var
+R13335:13336 Ionia.Opt_OnlineSoftmax <> xs:99 var
+R13372:13385 Ionia.Opt_OnlineSoftmax <> softmax_online def
+R13388:13400 Ionia.Opt_OnlineSoftmax <> softmax_batch def
+R13413:13431 Ionia.Opt_OnlineSoftmax <> online_fold_correct thm
+R13449:13451 Corelib.Init.Datatypes <> fst def
+R13453:13455 Corelib.Init.Datatypes <> snd def
+R13470:13472 Ionia.Proof_CodeGen <> add def
+R13535:13538 Ionia.Opt_OnlineSoftmax <> esum def
+R13541:13545 Ionia.Opt_OnlineSoftmax <> rmaxl def
+R13547:13550 Ionia.Proof_CodeGen <> zero def
+R13475:13477 Ionia.Proof_CodeGen <> mul def
+R13485:13488 Ionia.Proof_CodeGen <> pExp def
+R13491:13493 Ionia.Proof_CodeGen <> sub def
+R13501:13505 Ionia.Opt_OnlineSoftmax <> rmaxl def
+R13507:13510 Ionia.Proof_CodeGen <> zero def
+R13495:13498 Ionia.Proof_CodeGen <> zero def
+R13479:13482 Ionia.Proof_CodeGen <> zero def
+R13571:13574 Ionia.Opt_OnlineSoftmax <> esum def
+R13577:13581 Ionia.Opt_OnlineSoftmax <> rmaxl def
+R13583:13586 Ionia.Proof_CodeGen <> zero def
+R13607:13609 Ionia.Proof_CodeGen <> add def
+R13612:13614 Ionia.Proof_CodeGen <> mul def
+R13617:13620 Ionia.Proof_CodeGen <> zero def
+R13643:13651 Ionia.Opt_OnlineSoftmax <> max_rmaxl thm
+R13665:13672 Ionia.Opt_OnlineSoftmax <> esum_sum thm
+prf 13827:13843 <> softmax_denom_pos
+binder 13855:13855 <> n:101
+R13864:13869 Ionia.vector <> vector def
+R13874:13874 Corelib.Init.Datatypes <> S constr
+R13876:13876 Ionia.Opt_OnlineSoftmax <> n:101 var
+R13871:13871 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 13859:13860 <> xs:102
+R13888:13890 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R13884:13887 Ionia.Proof_CodeGen <> zero def
+R13891:13893 Ionia.Proof_CodeGen <> sum def
+R13896:13901 Ionia.Proof_CodeGen <> mkvSeq def
+R13912:13914 Ionia.finType <> fin def
+R13917:13917 Corelib.Init.Datatypes <> S constr
+R13919:13919 Ionia.Opt_OnlineSoftmax <> n:101 var
+binder 13908:13908 <> j:103
+R13942:13945 Ionia.Proof_CodeGen <> pExp def
+R13948:13950 Ionia.Proof_CodeGen <> sub def
+R13987:13989 Ionia.Proof_CodeGen <> max def
+R13991:13992 Ionia.Opt_OnlineSoftmax <> xs:102 var
+R13953:13953 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R13979:13981 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R13983:13983 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R13959:13961 Ionia.Proof_CodeGen <> exp def
+R13964:13966 Ionia.DataExp <> ary constr
+R13975:13977 Ionia.DataExp <> num constr
+R13968:13969 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13973:13973 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13970:13970 Corelib.Init.Datatypes <> S constr
+R13972:13972 Ionia.Opt_OnlineSoftmax <> n:101 var
+R13954:13955 Ionia.Opt_OnlineSoftmax <> xs:102 var
+R13982:13982 Ionia.Opt_OnlineSoftmax <> j:103 var
+R14032:14039 Ionia.Opt_OnlineSoftmax <> esum_sum thm
+R14048:14057 Ionia.Opt_OnlineSoftmax <> esum_pos_S thm
+prf 14143:14161 <> online_fold_snd_pos
+binder 14173:14173 <> n:104
+R14182:14187 Ionia.vector <> vector def
+R14192:14192 Corelib.Init.Datatypes <> S constr
+R14194:14194 Ionia.Opt_OnlineSoftmax <> n:104 var
+R14189:14189 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 14177:14178 <> xs:105
+R14206:14208 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R14202:14205 Ionia.Proof_CodeGen <> zero def
+R14209:14211 Corelib.Init.Datatypes <> snd def
+R14214:14224 Ionia.Opt_OnlineSoftmax <> online_fold def
+R14239:14240 Ionia.Opt_OnlineSoftmax <> xs:105 var
+R14226:14226 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14231:14232 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14237:14237 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14227:14230 Ionia.Proof_CodeGen <> zero def
+R14233:14236 Ionia.Proof_CodeGen <> zero def
+R14277:14295 Ionia.Opt_OnlineSoftmax <> online_fold_correct thm
+R14303:14305 Corelib.Init.Datatypes <> snd def
+R14320:14322 Ionia.Proof_CodeGen <> add def
+R14385:14388 Ionia.Opt_OnlineSoftmax <> esum def
+R14391:14395 Ionia.Opt_OnlineSoftmax <> rmaxl def
+R14397:14400 Ionia.Proof_CodeGen <> zero def
+R14325:14327 Ionia.Proof_CodeGen <> mul def
+R14335:14338 Ionia.Proof_CodeGen <> pExp def
+R14341:14343 Ionia.Proof_CodeGen <> sub def
+R14351:14355 Ionia.Opt_OnlineSoftmax <> rmaxl def
+R14357:14360 Ionia.Proof_CodeGen <> zero def
+R14345:14348 Ionia.Proof_CodeGen <> zero def
+R14329:14332 Ionia.Proof_CodeGen <> zero def
+R14421:14424 Ionia.Opt_OnlineSoftmax <> esum def
+R14427:14431 Ionia.Opt_OnlineSoftmax <> rmaxl def
+R14433:14436 Ionia.Proof_CodeGen <> zero def
+R14457:14459 Ionia.Proof_CodeGen <> add def
+R14462:14464 Ionia.Proof_CodeGen <> mul def
+R14467:14470 Ionia.Proof_CodeGen <> zero def
+R14488:14497 Ionia.Opt_OnlineSoftmax <> esum_pos_S thm
+def 14807:14814 <> read_num
+R14823:14825 Ionia.Proof_CodeGen <> env def
+binder 14817:14819 <> rho:106
+R14833:14836 Ionia.DataExp <> path ind
+binder 14829:14829 <> p:107
+R14841:14841 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R14848:14855 Ionia.DPIA_Rules <> read_exp def
+R14871:14873 Ionia.Proof_CodeGen <> acc def
+R14875:14877 Ionia.DataExp <> num constr
+R14862:14865 Ionia.Proof_CodeGen <> acc' def
+R14867:14867 Ionia.Opt_OnlineSoftmax <> p:107 var
+R14857:14859 Ionia.Opt_OnlineSoftmax <> rho:106 var
+prf 14888:14900 <> read_num_Some
+R14918:14920 Ionia.Proof_CodeGen <> env def
+binder 14912:14914 <> rho:108
+R14928:14931 Ionia.DataExp <> path ind
+binder 14924:14924 <> p:109
+R14939:14939 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 14935:14935 <> v:110
+R14959:14962 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14950:14952 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14945:14947 Ionia.Opt_OnlineSoftmax <> rho:108 var
+R14949:14949 Ionia.Opt_OnlineSoftmax <> p:109 var
+R14953:14956 Corelib.Init.Datatypes <> Some constr
+R14958:14958 Ionia.Opt_OnlineSoftmax <> v:110 var
+R14977:14979 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14963:14970 Ionia.Opt_OnlineSoftmax <> read_num def
+R14972:14974 Ionia.Opt_OnlineSoftmax <> rho:108 var
+R14976:14976 Ionia.Opt_OnlineSoftmax <> p:109 var
+R14980:14980 Ionia.Opt_OnlineSoftmax <> v:110 var
+R15017:15024 Ionia.Opt_OnlineSoftmax <> read_num def
+R15027:15034 Ionia.DPIA_Rules <> read_exp def
+R15045:15052 Ionia.Proof_CodeGen <> acc'_num thm
+R15055:15064 Ionia.Proof_CodeGen <> access_num thm
+def 15258:15273 <> online_loop_body
+R15278:15280 Corelib.Init.Datatypes <> nat ind
+binder 15276:15276 <> n:111
+R15289:15291 Ionia.Proof_CodeGen <> exp def
+R15294:15296 Ionia.DataExp <> ary constr
+R15303:15305 Ionia.DataExp <> num constr
+R15298:15299 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R15301:15301 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R15300:15300 Ionia.Opt_OnlineSoftmax <> n:111 var
+binder 15284:15285 <> xs:112
+R15322:15325 Ionia.DataExp <> path ind
+binder 15314:15315 <> pm:113
+binder 15317:15318 <> ps:114
+R15333:15335 Ionia.finType <> fin def
+R15337:15337 Ionia.Opt_OnlineSoftmax <> n:111 var
+binder 15329:15329 <> i:115
+R15342:15345 Ionia.Proof_CodeGen <> comm def
+binder 15356:15358 <> rho:116
+R15367:15368 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R15386:15391 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R15423:15730 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R15379:15381 Ionia.Proof_CodeGen <> acc def
+R15383:15385 Ionia.DataExp <> num constr
+R15369:15372 Ionia.Proof_CodeGen <> acc' def
+R15374:15375 Ionia.Opt_OnlineSoftmax <> pm:113 var
+R15392:15395 Stdlib.Reals.Rbasic_fun <> Rmax def
+R15398:15405 Ionia.Opt_OnlineSoftmax <> read_num def
+R15407:15409 Ionia.Opt_OnlineSoftmax <> rho:116 var
+R15411:15412 Ionia.Opt_OnlineSoftmax <> pm:113 var
+R15418:15419 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R15421:15421 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R15416:15417 Ionia.Opt_OnlineSoftmax <> xs:112 var
+R15420:15420 Ionia.Opt_OnlineSoftmax <> i:115 var
+R15430:15431 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R15449:15454 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R15725:15729 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R15442:15444 Ionia.Proof_CodeGen <> acc def
+R15446:15448 Ionia.DataExp <> num constr
+R15432:15435 Ionia.Proof_CodeGen <> acc' def
+R15437:15438 Ionia.Opt_OnlineSoftmax <> ps:114 var
+R15455:15457 Ionia.Proof_CodeGen <> add def
+R15638:15641 Ionia.Proof_CodeGen <> pExp def
+R15644:15646 Ionia.Proof_CodeGen <> sub def
+R15691:15694 Stdlib.Reals.Rbasic_fun <> Rmax def
+R15697:15704 Ionia.Opt_OnlineSoftmax <> read_num def
+R15706:15708 Ionia.Opt_OnlineSoftmax <> rho:116 var
+R15710:15711 Ionia.Opt_OnlineSoftmax <> pm:113 var
+R15717:15718 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R15720:15720 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R15715:15716 Ionia.Opt_OnlineSoftmax <> xs:112 var
+R15719:15719 Ionia.Opt_OnlineSoftmax <> i:115 var
+R15651:15652 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R15654:15654 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R15649:15650 Ionia.Opt_OnlineSoftmax <> xs:112 var
+R15653:15653 Ionia.Opt_OnlineSoftmax <> i:115 var
+R15460:15462 Ionia.Proof_CodeGen <> mul def
+R15511:15514 Ionia.Proof_CodeGen <> pExp def
+R15517:15519 Ionia.Proof_CodeGen <> sub def
+R15579:15582 Stdlib.Reals.Rbasic_fun <> Rmax def
+R15585:15592 Ionia.Opt_OnlineSoftmax <> read_num def
+R15594:15596 Ionia.Opt_OnlineSoftmax <> rho:116 var
+R15598:15599 Ionia.Opt_OnlineSoftmax <> pm:113 var
+R15605:15606 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R15608:15608 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R15603:15604 Ionia.Opt_OnlineSoftmax <> xs:112 var
+R15607:15607 Ionia.Opt_OnlineSoftmax <> i:115 var
+R15522:15529 Ionia.Opt_OnlineSoftmax <> read_num def
+R15531:15533 Ionia.Opt_OnlineSoftmax <> rho:116 var
+R15535:15536 Ionia.Opt_OnlineSoftmax <> pm:113 var
+R15465:15472 Ionia.Opt_OnlineSoftmax <> read_num def
+R15474:15476 Ionia.Opt_OnlineSoftmax <> rho:116 var
+R15478:15479 Ionia.Opt_OnlineSoftmax <> ps:114 var
+R15727:15729 Ionia.Opt_OnlineSoftmax <> rho:116 var
+def 15815:15825 <> online_loop
+R15830:15832 Corelib.Init.Datatypes <> nat ind
+binder 15828:15828 <> n:117
+R15841:15843 Ionia.Proof_CodeGen <> exp def
+R15846:15848 Ionia.DataExp <> ary constr
+R15855:15857 Ionia.DataExp <> num constr
+R15850:15851 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R15853:15853 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R15852:15852 Ionia.Opt_OnlineSoftmax <> n:117 var
+binder 15836:15837 <> xs:118
+R15870:15873 Ionia.DataExp <> path ind
+binder 15862:15863 <> pm:119
+binder 15865:15866 <> ps:120
+R15878:15881 Ionia.Proof_CodeGen <> comm def
+R15888:15888 Ionia.Proof_CodeGen <> :::x_''';'_x not
+R15905:15912 Ionia.Proof_CodeGen <> :::x_''';'_x not
+R15988:15988 Ionia.Proof_CodeGen <> :::x_''';'_x not
+R15896:15900 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R15889:15892 Ionia.Proof_CodeGen <> acc' def
+R15894:15895 Ionia.Opt_OnlineSoftmax <> pm:119 var
+R15901:15904 Ionia.Proof_CodeGen <> zero def
+R15913:15913 Ionia.Proof_CodeGen <> :::x_''';'_x not
+R15930:15934 Ionia.Proof_CodeGen <> :::x_''';'_x not
+R15921:15925 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R15914:15917 Ionia.Proof_CodeGen <> acc' def
+R15919:15920 Ionia.Opt_OnlineSoftmax <> ps:120 var
+R15926:15929 Ionia.Proof_CodeGen <> zero def
+R15935:15940 Ionia.Proof_CodeGen <> seqfor def
+R15951:15953 Ionia.finType <> fin def
+R15955:15955 Ionia.Opt_OnlineSoftmax <> n:117 var
+binder 15947:15947 <> i:121
+R15960:15975 Ionia.Opt_OnlineSoftmax <> online_loop_body def
+R15986:15986 Ionia.Opt_OnlineSoftmax <> i:121 var
+R15983:15984 Ionia.Opt_OnlineSoftmax <> ps:120 var
+R15980:15981 Ionia.Opt_OnlineSoftmax <> pm:119 var
+R15977:15978 Ionia.Opt_OnlineSoftmax <> xs:118 var
+prf 16072:16086 <> online_loop_aux
+binder 16098:16098 <> n:122
+R16107:16109 Ionia.Proof_CodeGen <> exp def
+R16112:16114 Ionia.DataExp <> ary constr
+R16121:16123 Ionia.DataExp <> num constr
+R16116:16117 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R16119:16119 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R16118:16118 Ionia.Opt_OnlineSoftmax <> n:122 var
+binder 16102:16103 <> xs:123
+R16140:16143 Ionia.DataExp <> path ind
+binder 16132:16133 <> pm:124
+binder 16135:16136 <> ps:125
+R16153:16155 Ionia.Proof_CodeGen <> env def
+binder 16147:16149 <> rho:126
+R16167:16167 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 16159:16160 <> m0:127
+binder 16162:16163 <> s0:128
+R16181:16186 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16175:16178 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R16173:16174 Ionia.Opt_OnlineSoftmax <> pm:124 var
+R16179:16180 Ionia.Opt_OnlineSoftmax <> ps:125 var
+R16203:16208 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16193:16195 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16187:16189 Ionia.Opt_OnlineSoftmax <> rho:126 var
+R16191:16192 Ionia.Opt_OnlineSoftmax <> pm:124 var
+R16196:16199 Corelib.Init.Datatypes <> Some constr
+R16201:16202 Ionia.Opt_OnlineSoftmax <> m0:127 var
+R16225:16230 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16215:16217 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16209:16211 Ionia.Opt_OnlineSoftmax <> rho:126 var
+R16213:16214 Ionia.Opt_OnlineSoftmax <> ps:125 var
+R16218:16221 Corelib.Init.Datatypes <> Some constr
+R16223:16224 Ionia.Opt_OnlineSoftmax <> s0:128 var
+R16334:16339 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R16291:16297 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16231:16236 Ionia.Proof_CodeGen <> seqfor def
+R16289:16290 Ionia.Opt_OnlineSoftmax <> pm:124 var
+R16285:16287 Ionia.Opt_OnlineSoftmax <> rho:126 var
+R16247:16249 Ionia.finType <> fin def
+R16251:16251 Ionia.Opt_OnlineSoftmax <> n:122 var
+binder 16243:16243 <> i:129
+R16256:16271 Ionia.Opt_OnlineSoftmax <> online_loop_body def
+R16282:16282 Ionia.Opt_OnlineSoftmax <> i:129 var
+R16279:16280 Ionia.Opt_OnlineSoftmax <> ps:125 var
+R16276:16277 Ionia.Opt_OnlineSoftmax <> pm:124 var
+R16273:16274 Ionia.Opt_OnlineSoftmax <> xs:123 var
+R16298:16301 Corelib.Init.Datatypes <> Some constr
+R16304:16306 Corelib.Init.Datatypes <> fst def
+R16309:16319 Ionia.Opt_OnlineSoftmax <> online_fold def
+R16330:16331 Ionia.Opt_OnlineSoftmax <> xs:123 var
+R16321:16321 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16324:16325 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16328:16328 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16322:16323 Ionia.Opt_OnlineSoftmax <> m0:127 var
+R16326:16327 Ionia.Opt_OnlineSoftmax <> s0:128 var
+R16400:16406 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16340:16345 Ionia.Proof_CodeGen <> seqfor def
+R16398:16399 Ionia.Opt_OnlineSoftmax <> ps:125 var
+R16394:16396 Ionia.Opt_OnlineSoftmax <> rho:126 var
+R16356:16358 Ionia.finType <> fin def
+R16360:16360 Ionia.Opt_OnlineSoftmax <> n:122 var
+binder 16352:16352 <> i:130
+R16365:16380 Ionia.Opt_OnlineSoftmax <> online_loop_body def
+R16391:16391 Ionia.Opt_OnlineSoftmax <> i:130 var
+R16388:16389 Ionia.Opt_OnlineSoftmax <> ps:125 var
+R16385:16386 Ionia.Opt_OnlineSoftmax <> pm:124 var
+R16382:16383 Ionia.Opt_OnlineSoftmax <> xs:123 var
+R16407:16410 Corelib.Init.Datatypes <> Some constr
+R16413:16415 Corelib.Init.Datatypes <> snd def
+R16418:16428 Ionia.Opt_OnlineSoftmax <> online_fold def
+R16439:16440 Ionia.Opt_OnlineSoftmax <> xs:123 var
+R16430:16430 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16433:16434 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16437:16437 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16431:16432 Ionia.Opt_OnlineSoftmax <> m0:127 var
+R16435:16436 Ionia.Opt_OnlineSoftmax <> s0:128 var
+R16595:16603 Ionia.Proof_CodeGen <> seqfor_Sn thm
+R16613:16615 Ionia.Proof_CodeGen <> seq def
+R16659:16661 Ionia.finType <> fin def
+binder 16655:16655 <> i:131
+R16732:16740 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16672:16687 Ionia.Opt_OnlineSoftmax <> online_loop_body def
+R16727:16729 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R16731:16731 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R16730:16730 Ionia.Opt_OnlineSoftmax <> i:131 var
+R16699:16701 Ionia.Proof_CodeGen <> exp def
+R16704:16706 Ionia.DataExp <> ary constr
+R16715:16717 Ionia.DataExp <> num constr
+R16708:16709 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R16713:16713 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R16710:16710 Corelib.Init.Datatypes <> S constr
+R16690:16690 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16692:16693 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16695:16695 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16741:16756 Ionia.Opt_OnlineSoftmax <> online_loop_body def
+R16766:16766 Ionia.Opt_OnlineSoftmax <> i:131 var
+binder 16655:16655 <> i:132
+R16730:16730 Ionia.Opt_OnlineSoftmax <> i:132 var
+R16766:16766 Ionia.Opt_OnlineSoftmax <> i:132 var
+R16791:16815 Stdlib.Logic.FunctionalExtensionality <> functional_extensionality thm
+R16843:16858 Ionia.Opt_OnlineSoftmax <> online_loop_body def
+R16869:16879 Ionia.Opt_OnlineSoftmax <> idx_snoc_fs thm
+R16910:16930 Ionia.Proof_CodeGen <> seqfor_extensionality thm
+R16961:16966 Ionia.Proof_CodeGen <> seqfor def
+R16977:16979 Ionia.finType <> fin def
+binder 16973:16973 <> i:133
+R16986:17001 Ionia.Opt_OnlineSoftmax <> online_loop_body def
+R17011:17011 Ionia.Opt_OnlineSoftmax <> i:133 var
+binder 16973:16973 <> i:134
+R17011:17011 Ionia.Opt_OnlineSoftmax <> i:134 var
+R17034:17044 Ionia.Opt_OnlineSoftmax <> online_fold def
+R17060:17062 Ionia.Proof_CodeGen <> exp def
+R17065:17067 Ionia.DataExp <> ary constr
+R17074:17076 Ionia.DataExp <> num constr
+R17069:17070 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R17072:17072 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R17046:17046 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17049:17050 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17053:17053 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17206:17208 Corelib.Init.Datatypes <> fst def
+R17210:17212 Corelib.Init.Datatypes <> snd def
+R17271:17281 Ionia.Opt_OnlineSoftmax <> online_fold def
+R17302:17307 Ionia.vector <> vector def
+R17312:17312 Corelib.Init.Datatypes <> S constr
+R17309:17309 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R17293:17293 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17295:17296 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17298:17298 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17283:17283 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17286:17287 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17290:17290 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17331:17341 Ionia.Opt_OnlineSoftmax <> online_step def
+R17344:17354 Ionia.Opt_OnlineSoftmax <> online_fold def
+R17370:17372 Ionia.Proof_CodeGen <> exp def
+R17375:17377 Ionia.DataExp <> ary constr
+R17384:17386 Ionia.DataExp <> num constr
+R17379:17380 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R17382:17382 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R17356:17356 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17359:17360 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17363:17363 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17421:17431 Ionia.Opt_OnlineSoftmax <> online_step def
+R17463:17465 Corelib.Init.Datatypes <> fst def
+R17467:17469 Corelib.Init.Datatypes <> snd def
+R17484:17499 Ionia.Opt_OnlineSoftmax <> online_loop_body def
+R17520:17531 Ionia.Opt_OnlineSoftmax <> idx_snoc_ltS thm
+R17547:17559 Ionia.Opt_OnlineSoftmax <> read_num_Some thm
+R17587:17599 Ionia.Opt_OnlineSoftmax <> read_num_Some thm
+R17639:17648 Ionia.Proof_CodeGen <> assign_num thm
+R17660:17667 Ionia.Proof_CodeGen <> acc'_num thm
+R17678:17686 Ionia.Proof_CodeGen <> update_eq thm
+R17716:17725 Ionia.Proof_CodeGen <> assign_num thm
+R17737:17744 Ionia.Proof_CodeGen <> acc'_num thm
+R17755:17764 Ionia.Proof_CodeGen <> update_neq thm
+R17795:17804 Ionia.Proof_CodeGen <> assign_num thm
+R17815:17823 Ionia.Proof_CodeGen <> update_eq thm
+prf 17921:17936 <> online_loop_spec
+binder 17948:17948 <> n:135
+R17957:17959 Ionia.Proof_CodeGen <> exp def
+R17962:17964 Ionia.DataExp <> ary constr
+R17971:17973 Ionia.DataExp <> num constr
+R17966:17967 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R17969:17969 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R17968:17968 Ionia.Opt_OnlineSoftmax <> n:135 var
+binder 17952:17953 <> xs:136
+R17990:17993 Ionia.DataExp <> path ind
+binder 17982:17983 <> pm:137
+binder 17985:17986 <> ps:138
+R18003:18005 Ionia.Proof_CodeGen <> env def
+binder 17997:17999 <> rho:139
+R18019:18024 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18013:18016 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R18011:18012 Ionia.Opt_OnlineSoftmax <> pm:137 var
+R18017:18018 Ionia.Opt_OnlineSoftmax <> ps:138 var
+R18095:18100 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R18052:18054 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18025:18035 Ionia.Opt_OnlineSoftmax <> online_loop def
+R18050:18051 Ionia.Opt_OnlineSoftmax <> pm:137 var
+R18046:18048 Ionia.Opt_OnlineSoftmax <> rho:139 var
+R18043:18044 Ionia.Opt_OnlineSoftmax <> ps:138 var
+R18040:18041 Ionia.Opt_OnlineSoftmax <> pm:137 var
+R18037:18038 Ionia.Opt_OnlineSoftmax <> xs:136 var
+R18055:18058 Corelib.Init.Datatypes <> Some constr
+R18061:18063 Corelib.Init.Datatypes <> fst def
+R18066:18076 Ionia.Opt_OnlineSoftmax <> online_fold def
+R18091:18092 Ionia.Opt_OnlineSoftmax <> xs:136 var
+R18078:18078 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18083:18084 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18089:18089 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18079:18082 Ionia.Proof_CodeGen <> zero def
+R18085:18088 Ionia.Proof_CodeGen <> zero def
+R18128:18130 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18101:18111 Ionia.Opt_OnlineSoftmax <> online_loop def
+R18126:18127 Ionia.Opt_OnlineSoftmax <> ps:138 var
+R18122:18124 Ionia.Opt_OnlineSoftmax <> rho:139 var
+R18119:18120 Ionia.Opt_OnlineSoftmax <> ps:138 var
+R18116:18117 Ionia.Opt_OnlineSoftmax <> pm:137 var
+R18113:18114 Ionia.Opt_OnlineSoftmax <> xs:136 var
+R18131:18134 Corelib.Init.Datatypes <> Some constr
+R18137:18139 Corelib.Init.Datatypes <> snd def
+R18142:18152 Ionia.Opt_OnlineSoftmax <> online_fold def
+R18167:18168 Ionia.Opt_OnlineSoftmax <> xs:136 var
+R18154:18154 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18159:18160 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18165:18165 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18155:18158 Ionia.Proof_CodeGen <> zero def
+R18161:18164 Ionia.Proof_CodeGen <> zero def
+R18219:18229 Ionia.Opt_OnlineSoftmax <> online_loop def
+R18232:18234 Ionia.Proof_CodeGen <> seq def
+R18258:18267 Ionia.Proof_CodeGen <> assign_num thm
+R18271:18278 Ionia.Proof_CodeGen <> acc'_num thm
+R18317:18320 Ionia.Proof_CodeGen <> zero def
+R18330:18333 Ionia.Proof_CodeGen <> zero def
+R18289:18303 Ionia.Opt_OnlineSoftmax <> online_loop_aux thm
+R18387:18396 Corelib.Init.Logic <> not_eq_sym thm
+R18365:18374 Ionia.Proof_CodeGen <> update_neq thm
+R18412:18420 Ionia.Proof_CodeGen <> update_eq thm
+R18433:18441 Ionia.Proof_CodeGen <> update_eq thm
+prf 18664:18695 <> online_loop_computes_denominator
+binder 18707:18707 <> n:140
+R18716:18718 Ionia.Proof_CodeGen <> exp def
+R18721:18723 Ionia.DataExp <> ary constr
+R18730:18732 Ionia.DataExp <> num constr
+R18725:18726 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18728:18728 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18727:18727 Ionia.Opt_OnlineSoftmax <> n:140 var
+binder 18711:18712 <> xs:141
+R18749:18752 Ionia.DataExp <> path ind
+binder 18741:18742 <> pm:142
+binder 18744:18745 <> ps:143
+R18762:18764 Ionia.Proof_CodeGen <> env def
+binder 18756:18758 <> rho:144
+R18778:18783 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18772:18775 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R18770:18771 Ionia.Opt_OnlineSoftmax <> pm:142 var
+R18776:18777 Ionia.Opt_OnlineSoftmax <> ps:143 var
+R18811:18815 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18784:18794 Ionia.Opt_OnlineSoftmax <> online_loop def
+R18809:18810 Ionia.Opt_OnlineSoftmax <> ps:143 var
+R18805:18807 Ionia.Opt_OnlineSoftmax <> rho:144 var
+R18802:18803 Ionia.Opt_OnlineSoftmax <> ps:143 var
+R18799:18800 Ionia.Opt_OnlineSoftmax <> pm:142 var
+R18796:18797 Ionia.Opt_OnlineSoftmax <> xs:141 var
+R18816:18819 Corelib.Init.Datatypes <> Some constr
+R18822:18824 Ionia.Proof_CodeGen <> sum def
+R18827:18832 Ionia.Proof_CodeGen <> mkvSeq def
+R18843:18845 Ionia.finType <> fin def
+R18847:18847 Ionia.Opt_OnlineSoftmax <> n:140 var
+binder 18839:18839 <> j:145
+R18852:18855 Ionia.Proof_CodeGen <> pExp def
+R18858:18860 Ionia.Proof_CodeGen <> sub def
+R18872:18874 Ionia.Proof_CodeGen <> max def
+R18876:18877 Ionia.Opt_OnlineSoftmax <> xs:141 var
+R18865:18866 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R18868:18868 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R18863:18864 Ionia.Opt_OnlineSoftmax <> xs:141 var
+R18867:18867 Ionia.Opt_OnlineSoftmax <> j:145 var
+R18934:18949 Ionia.Opt_OnlineSoftmax <> online_loop_spec thm
+R19016:19034 Ionia.Opt_OnlineSoftmax <> online_fold_correct thm
+R19042:19044 Corelib.Init.Datatypes <> snd def
+R19059:19061 Ionia.Proof_CodeGen <> add def
+R19124:19127 Ionia.Opt_OnlineSoftmax <> esum def
+R19130:19134 Ionia.Opt_OnlineSoftmax <> rmaxl def
+R19136:19139 Ionia.Proof_CodeGen <> zero def
+R19064:19066 Ionia.Proof_CodeGen <> mul def
+R19074:19077 Ionia.Proof_CodeGen <> pExp def
+R19080:19082 Ionia.Proof_CodeGen <> sub def
+R19090:19094 Ionia.Opt_OnlineSoftmax <> rmaxl def
+R19096:19099 Ionia.Proof_CodeGen <> zero def
+R19084:19087 Ionia.Proof_CodeGen <> zero def
+R19068:19071 Ionia.Proof_CodeGen <> zero def
+R19160:19163 Ionia.Opt_OnlineSoftmax <> esum def
+R19166:19170 Ionia.Opt_OnlineSoftmax <> rmaxl def
+R19172:19175 Ionia.Proof_CodeGen <> zero def
+R19196:19198 Ionia.Proof_CodeGen <> add def
+R19201:19203 Ionia.Proof_CodeGen <> mul def
+R19206:19209 Ionia.Proof_CodeGen <> zero def
+R19232:19240 Ionia.Opt_OnlineSoftmax <> max_rmaxl thm
+R19254:19261 Ionia.Opt_OnlineSoftmax <> esum_sum thm
+def 19585:19588 <> lsum
+R19595:19595 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 19591:19591 <> m:146
+R19603:19606 Corelib.Init.Datatypes <> list ind
+R19608:19608 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 19599:19599 <> l:147
+R19613:19613 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R19626:19626 Ionia.Opt_OnlineSoftmax <> l:147 var
+R19637:19638 Stdlib.Lists.List ListNotations ::list_scope:'['_']' not
+R19643:19646 Ionia.Proof_CodeGen <> zero def
+R19653:19656 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R19662:19664 Ionia.Proof_CodeGen <> add def
+R19684:19687 Ionia.Opt_OnlineSoftmax <> lsum:148 def
+R19689:19689 Ionia.Opt_OnlineSoftmax <> m:146 var
+R19667:19670 Ionia.Proof_CodeGen <> pExp def
+R19673:19675 Ionia.Proof_CodeGen <> sub def
+R19679:19679 Ionia.Opt_OnlineSoftmax <> m:146 var
+def 19711:19714 <> lmax
+R19721:19724 Corelib.Init.Datatypes <> list ind
+R19726:19726 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 19717:19717 <> l:150
+R19731:19731 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R19744:19744 Ionia.Opt_OnlineSoftmax <> l:150 var
+R19755:19756 Stdlib.Lists.List ListNotations ::list_scope:'['_']' not
+R19761:19764 Ionia.Proof_CodeGen <> zero def
+R19771:19774 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R19780:19783 Stdlib.Reals.Rbasic_fun <> Rmax def
+R19788:19791 Ionia.Opt_OnlineSoftmax <> lmax:151 def
+def 19858:19867 <> block_stat
+R19874:19877 Corelib.Init.Datatypes <> list ind
+R19879:19879 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 19870:19870 <> l:153
+R19885:19887 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R19884:19884 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R19888:19888 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R19893:19893 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19900:19901 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19917:19917 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R19894:19897 Ionia.Opt_OnlineSoftmax <> lmax def
+R19899:19899 Ionia.Opt_OnlineSoftmax <> l:153 var
+R19902:19905 Ionia.Opt_OnlineSoftmax <> lsum def
+R19908:19911 Ionia.Opt_OnlineSoftmax <> lmax def
+R19913:19913 Ionia.Opt_OnlineSoftmax <> l:153 var
+R19916:19916 Ionia.Opt_OnlineSoftmax <> l:153 var
+def 20053:20062 <> merge_allr
+R20071:20074 Corelib.Init.Datatypes <> list ind
+R20078:20080 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R20077:20077 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R20081:20081 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 20065:20067 <> sts:154
+R20088:20090 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R20087:20087 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R20091:20091 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R20104:20106 Ionia.Opt_OnlineSoftmax <> sts:154 var
+R20117:20118 Stdlib.Lists.List ListNotations ::list_scope:'['_']' not
+R20123:20123 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20128:20129 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20134:20134 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20124:20127 Ionia.Proof_CodeGen <> zero def
+R20130:20133 Ionia.Proof_CodeGen <> zero def
+R20142:20145 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R20151:20162 Ionia.Opt_OnlineSoftmax <> online_merge def
+R20168:20177 Ionia.Opt_OnlineSoftmax <> merge_allr:155 def
+prf 20196:20205 <> lsum_scale
+R20221:20224 Corelib.Init.Datatypes <> list ind
+R20226:20226 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 20217:20217 <> l:157
+R20237:20237 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 20230:20230 <> m:158
+binder 20232:20233 <> m':159
+R20251:20253 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20243:20246 Ionia.Opt_OnlineSoftmax <> lsum def
+R20248:20248 Ionia.Opt_OnlineSoftmax <> m:158 var
+R20250:20250 Ionia.Opt_OnlineSoftmax <> l:157 var
+R20254:20256 Ionia.Proof_CodeGen <> mul def
+R20271:20274 Ionia.Proof_CodeGen <> pExp def
+R20277:20279 Ionia.Proof_CodeGen <> sub def
+R20284:20284 Ionia.Opt_OnlineSoftmax <> m:158 var
+R20281:20282 Ionia.Opt_OnlineSoftmax <> m':159 var
+R20259:20262 Ionia.Opt_OnlineSoftmax <> lsum def
+R20264:20265 Ionia.Opt_OnlineSoftmax <> m':159 var
+R20267:20267 Ionia.Opt_OnlineSoftmax <> l:157 var
+R20355:20357 Ionia.Proof_CodeGen <> mul def
+R20360:20363 Ionia.Proof_CodeGen <> zero def
+R20409:20411 Ionia.Proof_CodeGen <> add def
+R20414:20416 Ionia.Proof_CodeGen <> mul def
+R20419:20421 Ionia.Proof_CodeGen <> sub def
+R20424:20427 Ionia.Proof_CodeGen <> pExp def
+R20444:20446 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R20458:20458 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R20465:20469 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R20476:20476 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R20460:20462 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R20472:20474 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R20502:20509 Stdlib.Reals.Exp_prop <> exp_plus thm
+prf 20530:20537 <> lsum_app
+R20557:20560 Corelib.Init.Datatypes <> list ind
+R20562:20562 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 20549:20550 <> l1:160
+binder 20552:20553 <> l2:161
+R20570:20570 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 20566:20566 <> m:162
+R20593:20595 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20576:20579 Ionia.Opt_OnlineSoftmax <> lsum def
+R20581:20581 Ionia.Opt_OnlineSoftmax <> m:162 var
+R20586:20589 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R20584:20585 Ionia.Opt_OnlineSoftmax <> l1:160 var
+R20590:20591 Ionia.Opt_OnlineSoftmax <> l2:161 var
+R20596:20598 Ionia.Proof_CodeGen <> add def
+R20613:20616 Ionia.Opt_OnlineSoftmax <> lsum def
+R20618:20618 Ionia.Opt_OnlineSoftmax <> m:162 var
+R20620:20621 Ionia.Opt_OnlineSoftmax <> l2:161 var
+R20601:20604 Ionia.Opt_OnlineSoftmax <> lsum def
+R20606:20606 Ionia.Opt_OnlineSoftmax <> m:162 var
+R20608:20609 Ionia.Opt_OnlineSoftmax <> l1:160 var
+R20692:20694 Ionia.Proof_CodeGen <> add def
+R20697:20700 Ionia.Proof_CodeGen <> zero def
+R20739:20741 Ionia.Proof_CodeGen <> add def
+prf 20762:20772 <> lsum_nonneg
+R20788:20791 Corelib.Init.Datatypes <> list ind
+R20793:20793 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 20784:20784 <> l:163
+R20801:20801 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 20797:20797 <> m:164
+R20810:20813 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R20806:20809 Ionia.Proof_CodeGen <> zero def
+R20814:20817 Ionia.Opt_OnlineSoftmax <> lsum def
+R20819:20819 Ionia.Opt_OnlineSoftmax <> m:164 var
+R20821:20821 Ionia.Opt_OnlineSoftmax <> l:163 var
+R20890:20893 Ionia.Proof_CodeGen <> zero def
+R20919:20921 Ionia.Proof_CodeGen <> add def
+R20924:20927 Ionia.Proof_CodeGen <> pExp def
+R20930:20932 Ionia.Proof_CodeGen <> sub def
+R20935:20938 Ionia.Proof_CodeGen <> zero def
+R20951:20970 Stdlib.Reals.RIneq <> Rplus_le_le_0_compat thm
+R20985:20990 Stdlib.Reals.RIneq <> Rlt_le thm
+R20999:21005 Stdlib.Reals.Exp_prop <> exp_pos thm
+prf 21036:21043 <> lsum_pos
+R21059:21062 Corelib.Init.Datatypes <> list ind
+R21064:21064 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 21055:21055 <> l:165
+R21072:21072 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 21068:21068 <> m:166
+R21083:21086 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21077:21080 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R21076:21076 Ionia.Opt_OnlineSoftmax <> l:165 var
+R21081:21082 Stdlib.Lists.List ListNotations ::list_scope:'['_']' not
+R21092:21094 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R21088:21091 Ionia.Proof_CodeGen <> zero def
+R21095:21098 Ionia.Opt_OnlineSoftmax <> lsum def
+R21100:21100 Ionia.Opt_OnlineSoftmax <> m:166 var
+R21102:21102 Ionia.Opt_OnlineSoftmax <> l:165 var
+R21192:21194 Ionia.Proof_CodeGen <> add def
+R21197:21200 Ionia.Proof_CodeGen <> pExp def
+R21203:21205 Ionia.Proof_CodeGen <> sub def
+R21208:21211 Ionia.Proof_CodeGen <> zero def
+R21224:21243 Stdlib.Reals.RIneq <> Rplus_lt_le_0_compat thm
+R21258:21264 Stdlib.Reals.Exp_prop <> exp_pos thm
+R21279:21289 Ionia.Opt_OnlineSoftmax <> lsum_nonneg thm
+prf 21304:21314 <> lmax_nonneg
+R21329:21332 Corelib.Init.Datatypes <> list ind
+R21334:21334 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 21325:21325 <> l:167
+R21342:21345 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R21338:21341 Ionia.Proof_CodeGen <> zero def
+R21346:21349 Ionia.Opt_OnlineSoftmax <> lmax def
+R21351:21351 Ionia.Opt_OnlineSoftmax <> l:167 var
+R21410:21413 Ionia.Proof_CodeGen <> zero def
+R21439:21447 Stdlib.Reals.RIneq <> Rle_trans thm
+R21466:21471 Stdlib.Reals.Rbasic_fun <> Rmax_r thm
+prf 21486:21493 <> lmax_app
+R21512:21515 Corelib.Init.Datatypes <> list ind
+R21517:21517 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 21504:21505 <> l1:168
+binder 21507:21508 <> l2:169
+R21537:21539 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21522:21525 Ionia.Opt_OnlineSoftmax <> lmax def
+R21530:21533 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R21528:21529 Ionia.Opt_OnlineSoftmax <> l1:168 var
+R21534:21535 Ionia.Opt_OnlineSoftmax <> l2:169 var
+R21540:21543 Stdlib.Reals.Rbasic_fun <> Rmax def
+R21546:21549 Ionia.Opt_OnlineSoftmax <> lmax def
+R21551:21552 Ionia.Opt_OnlineSoftmax <> l1:168 var
+R21556:21559 Ionia.Opt_OnlineSoftmax <> lmax def
+R21561:21562 Ionia.Opt_OnlineSoftmax <> l2:169 var
+R21640:21649 Stdlib.Reals.Rbasic_fun <> Rmax_right thm
+R21658:21668 Ionia.Opt_OnlineSoftmax <> lmax_nonneg thm
+R21702:21711 Stdlib.Reals.Rbasic_fun <> Rmax_assoc thm
+prf 21962:21985 <> online_merge_all_correct
+R22005:22008 Corelib.Init.Datatypes <> list ind
+R22011:22014 Corelib.Init.Datatypes <> list ind
+R22016:22016 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 21996:22001 <> blocks:170
+R22056:22060 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22022:22031 Ionia.Opt_OnlineSoftmax <> merge_allr def
+R22034:22036 Corelib.Lists.ListDef <> map def
+R22049:22054 Ionia.Opt_OnlineSoftmax <> blocks:170 var
+R22038:22047 Ionia.Opt_OnlineSoftmax <> block_stat def
+R22061:22061 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22087:22091 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22145:22145 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22062:22065 Ionia.Opt_OnlineSoftmax <> lmax def
+R22068:22078 Stdlib.Lists.List <> concat def
+R22080:22085 Ionia.Opt_OnlineSoftmax <> blocks:170 var
+R22092:22095 Ionia.Opt_OnlineSoftmax <> lsum def
+R22098:22101 Ionia.Opt_OnlineSoftmax <> lmax def
+R22104:22114 Stdlib.Lists.List <> concat def
+R22116:22121 Ionia.Opt_OnlineSoftmax <> blocks:170 var
+R22126:22136 Stdlib.Lists.List <> concat def
+R22138:22143 Ionia.Opt_OnlineSoftmax <> blocks:170 var
+R22235:22244 Ionia.Opt_OnlineSoftmax <> block_stat def
+R22259:22266 Ionia.Opt_OnlineSoftmax <> lmax_app thm
+R22269:22276 Ionia.Opt_OnlineSoftmax <> lsum_app thm
+R22290:22301 Ionia.Opt_OnlineSoftmax <> online_merge def
+R22370:22379 Ionia.Opt_OnlineSoftmax <> lsum_scale thm
+R22384:22387 Stdlib.Reals.Rbasic_fun <> Rmax def
+R22390:22393 Ionia.Opt_OnlineSoftmax <> lmax def
+R22399:22402 Ionia.Opt_OnlineSoftmax <> lmax def
+R22405:22415 Stdlib.Lists.List <> concat def
+R22423:22426 Ionia.Opt_OnlineSoftmax <> lmax def
+R22449:22458 Ionia.Opt_OnlineSoftmax <> lsum_scale thm
+R22461:22471 Stdlib.Lists.List <> concat def
+R22504:22507 Stdlib.Reals.Rbasic_fun <> Rmax def
+R22510:22513 Ionia.Opt_OnlineSoftmax <> lmax def
+R22519:22522 Ionia.Opt_OnlineSoftmax <> lmax def
+R22525:22535 Stdlib.Lists.List <> concat def
+R22570:22573 Ionia.Opt_OnlineSoftmax <> lmax def
+R22576:22586 Stdlib.Lists.List <> concat def
+prf 22674:22696 <> online_merge_two_blocks
+R22715:22718 Corelib.Init.Datatypes <> list ind
+R22720:22720 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 22707:22708 <> b1:171
+binder 22710:22711 <> b2:172
+R22766:22770 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22725:22734 Ionia.Opt_OnlineSoftmax <> merge_allr def
+R22736:22736 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R22750:22751 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R22765:22765 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R22737:22746 Ionia.Opt_OnlineSoftmax <> block_stat def
+R22748:22749 Ionia.Opt_OnlineSoftmax <> b1:171 var
+R22752:22761 Ionia.Opt_OnlineSoftmax <> block_stat def
+R22763:22764 Ionia.Opt_OnlineSoftmax <> b2:172 var
+R22771:22771 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22787:22788 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22822:22822 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22772:22775 Ionia.Opt_OnlineSoftmax <> lmax def
+R22780:22783 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R22778:22779 Ionia.Opt_OnlineSoftmax <> b1:171 var
+R22784:22785 Ionia.Opt_OnlineSoftmax <> b2:172 var
+R22789:22792 Ionia.Opt_OnlineSoftmax <> lsum def
+R22795:22798 Ionia.Opt_OnlineSoftmax <> lmax def
+R22803:22806 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R22801:22802 Ionia.Opt_OnlineSoftmax <> b1:171 var
+R22807:22808 Ionia.Opt_OnlineSoftmax <> b2:172 var
+R22815:22818 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R22813:22814 Ionia.Opt_OnlineSoftmax <> b1:171 var
+R22819:22820 Ionia.Opt_OnlineSoftmax <> b2:172 var
+R22888:22911 Ionia.Opt_OnlineSoftmax <> online_merge_all_correct thm
+R22913:22913 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R22916:22917 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R22920:22920 Stdlib.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R22951:22959 Stdlib.Lists.List <> app_nil_r thm
+R23245:23264 Ionia.Opt_OnlineSoftmax <> online_merge_correct thm
+R23285:23304 Ionia.Opt_OnlineSoftmax <> online_softmax_equiv thm
+R23325:23340 Ionia.Opt_OnlineSoftmax <> online_loop_spec thm
+R23361:23392 Ionia.Opt_OnlineSoftmax <> online_loop_computes_denominator thm
+R23413:23436 Ionia.Opt_OnlineSoftmax <> online_merge_all_correct thm

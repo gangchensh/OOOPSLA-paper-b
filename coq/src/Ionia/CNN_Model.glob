@@ -1,0 +1,2562 @@
+DIGEST 91d81414328c1a432f14e13f72f89f14
+FIonia.CNN_Model
+R27:31 Stdlib.Reals.Reals <> <> lib
+R33:38 Stdlib.Strings.String <> <> lib
+R40:42 Stdlib.Init.Nat <> <> lib
+R44:47 Stdlib.Lists.List <> <> lib
+R49:52 Stdlib.Bool.Bool <> <> lib
+R54:58 Stdlib.Arith.Arith <> <> lib
+R60:62 Stdlib.micromega.Lra <> <> lib
+R64:66 Stdlib.micromega.Lia <> <> lib
+R84:95 Ionia.CNN_OP <> <> lib
+R105:117 Stdlib.Lists.List ListNotations <> mod
+def 156:162 <> LeNet_5
+R171:177 Ionia.CNN_Defs <> Tensor3 def
+binder 164:168 <> input:1
+R202:208 Ionia.CNN_Defs <> Tensor4 def
+binder 191:199 <> kernel_c1:2
+R228:234 Ionia.CNN_Defs <> Tensor1 def
+binder 219:225 <> bias_c1:3
+R253:259 Ionia.CNN_Defs <> Tensor4 def
+binder 242:250 <> kernel_c2:4
+R281:287 Ionia.CNN_Defs <> Tensor1 def
+binder 272:278 <> bias_c2:5
+R305:311 Ionia.CNN_Defs <> Tensor2 def
+R322:322 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R320:320 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+binder 296:302 <> full_c1:6
+R336:342 Ionia.CNN_Defs <> Tensor1 def
+binder 327:333 <> full_b1:7
+R361:367 Ionia.CNN_Defs <> Tensor2 def
+binder 352:358 <> full_c2:8
+R386:392 Ionia.CNN_Defs <> Tensor1 def
+binder 377:383 <> full_b2:9
+R410:416 Ionia.CNN_Defs <> Tensor2 def
+binder 401:407 <> full_c3:10
+R434:440 Ionia.CNN_Defs <> Tensor1 def
+binder 425:431 <> full_b3:11
+R453:457 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R471:474 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R509:515 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R475:480 Ionia.CNN_OP <> Conv3d def
+R504:508 Ionia.CNN_Model <> input:1 var
+R494:502 Ionia.CNN_Model <> kernel_c1:2 var
+R486:492 Ionia.CNN_Model <> bias_c1:3 var
+binder 458:470 <> feature_map_1:12
+R516:520 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R531:534 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R555:560 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R535:540 Ionia.CNN_OP <> ReLU3d def
+R542:554 Ionia.CNN_Model <> feature_map_1:12 var
+binder 521:530 <> relu_map_1:13
+R561:565 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R576:579 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R602:607 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R580:588 Ionia.CNN_OP <> Maxpool3d def
+R592:601 Ionia.CNN_Model <> relu_map_1:13 var
+binder 566:575 <> pool_map_2:14
+R608:612 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R626:629 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R669:674 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R630:635 Ionia.CNN_OP <> Conv3d def
+R659:668 Ionia.CNN_Model <> pool_map_2:14 var
+R649:657 Ionia.CNN_Model <> kernel_c2:4 var
+R641:647 Ionia.CNN_Model <> bias_c2:5 var
+binder 613:625 <> feature_map_3:15
+R675:679 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R690:693 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R714:719 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R694:699 Ionia.CNN_OP <> ReLU3d def
+R701:713 Ionia.CNN_Model <> feature_map_3:15 var
+binder 680:689 <> relu_map_3:16
+R720:724 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R735:738 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R761:766 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R739:747 Ionia.CNN_OP <> Maxpool3d def
+R751:760 Ionia.CNN_Model <> relu_map_3:16 var
+binder 725:734 <> pool_map_4:17
+R767:771 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R782:785 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R831:836 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R786:791 Ionia.CNN_OP <> Linear def
+R810:818 Ionia.CNN_OP <> Flatten3d def
+R820:829 Ionia.CNN_Model <> pool_map_4:17 var
+R801:807 Ionia.CNN_Model <> full_b1:7 var
+R793:799 Ionia.CNN_Model <> full_c1:6 var
+binder 772:781 <> full_map_5:18
+R837:841 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R852:855 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R873:878 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R856:861 Ionia.CNN_OP <> ReLU1d def
+R863:872 Ionia.CNN_Model <> full_map_5:18 var
+binder 842:851 <> relu_map_5:19
+R879:883 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R894:897 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R931:936 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R898:903 Ionia.CNN_OP <> Linear def
+R921:930 Ionia.CNN_Model <> relu_map_5:19 var
+R913:919 Ionia.CNN_Model <> full_b2:9 var
+R905:911 Ionia.CNN_Model <> full_c2:8 var
+binder 884:893 <> full_map_6:20
+R937:941 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R952:955 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R973:979 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R956:961 Ionia.CNN_OP <> ReLU1d def
+R963:972 Ionia.CNN_Model <> full_map_6:20 var
+binder 942:951 <> relu_map_6:21
+R980:984 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R995:998 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1032:1037 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R999:1004 Ionia.CNN_OP <> Linear def
+R1022:1031 Ionia.CNN_Model <> relu_map_6:21 var
+R1014:1020 Ionia.CNN_Model <> full_b3:11 var
+R1006:1012 Ionia.CNN_Model <> full_c3:10 var
+binder 985:994 <> full_map_7:22
+R1038:1046 Ionia.CNN_OP <> Softmax1d def
+R1048:1057 Ionia.CNN_Model <> full_map_7:22 var
+def 1072:1076 <> mnist
+R1085:1091 Ionia.CNN_Defs <> Tensor4 def
+binder 1078:1082 <> input:23
+R1119:1125 Ionia.CNN_Defs <> Tensor4 def
+binder 1108:1116 <> kernel_c1:24
+R1146:1152 Ionia.CNN_Defs <> Tensor1 def
+binder 1137:1143 <> bias_c1:25
+R1172:1178 Ionia.CNN_Defs <> Tensor4 def
+binder 1161:1169 <> kernel_c2:26
+R1201:1207 Ionia.CNN_Defs <> Tensor1 def
+binder 1192:1198 <> bias_c2:27
+R1225:1231 Ionia.CNN_Defs <> Tensor2 def
+R1243:1243 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R1240:1240 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+binder 1216:1222 <> full_c1:28
+R1258:1264 Ionia.CNN_Defs <> Tensor1 def
+binder 1249:1255 <> full_b1:29
+R1283:1289 Ionia.CNN_Defs <> Tensor2 def
+binder 1274:1280 <> full_c2:30
+R1308:1314 Ionia.CNN_Defs <> Tensor1 def
+binder 1299:1305 <> full_b2:31
+R1338:1341 Corelib.Init.Datatypes <> list ind
+R1343:1345 Corelib.Init.Datatypes <> nat ind
+binder 1323:1334 <> output_label:32
+R1367:1371 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1385:1388 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1423:1429 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1389:1394 Ionia.CNN_OP <> Conv4d def
+R1418:1422 Ionia.CNN_Model <> input:23 var
+R1408:1416 Ionia.CNN_Model <> kernel_c1:24 var
+R1400:1406 Ionia.CNN_Model <> bias_c1:25 var
+binder 1372:1384 <> feature_map_1:33
+R1430:1434 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1445:1448 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1469:1474 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1449:1454 Ionia.CNN_OP <> ReLU4d def
+R1456:1468 Ionia.CNN_Model <> feature_map_1:33 var
+binder 1435:1444 <> relu_map_1:34
+R1475:1479 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1493:1496 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1536:1541 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1497:1502 Ionia.CNN_OP <> Conv4d def
+R1526:1535 Ionia.CNN_Model <> relu_map_1:34 var
+R1516:1524 Ionia.CNN_Model <> kernel_c2:26 var
+R1508:1514 Ionia.CNN_Model <> bias_c2:27 var
+binder 1480:1492 <> feature_map_2:35
+R1542:1546 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1557:1560 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1581:1586 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1561:1566 Ionia.CNN_OP <> ReLU4d def
+R1568:1580 Ionia.CNN_Model <> feature_map_2:35 var
+binder 1547:1556 <> relu_map_2:36
+R1587:1591 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1602:1605 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1628:1633 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1606:1614 Ionia.CNN_OP <> Maxpool4d def
+R1618:1627 Ionia.CNN_Model <> relu_map_2:36 var
+binder 1592:1601 <> pool_map_1:37
+R1634:1638 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1649:1652 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1697:1702 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1653:1661 Ionia.CNN_OP <> Dropout4d def
+R1675:1681 Ionia.DataExp <> REconst constr
+R1663:1672 Ionia.CNN_Model <> pool_map_1:37 var
+binder 1639:1648 <> drop_map_1:38
+R1703:1707 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1719:1722 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1743:1748 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1723:1731 Ionia.CNN_OP <> Flatten4d def
+R1733:1742 Ionia.CNN_Model <> drop_map_1:38 var
+binder 1708:1718 <> flatten_map:39
+R1749:1753 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1762:1765 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1802:1807 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1766:1773 Ionia.CNN_OP <> Linear2d def
+R1791:1801 Ionia.CNN_Model <> flatten_map:39 var
+R1783:1789 Ionia.CNN_Model <> full_b1:29 var
+R1775:1781 Ionia.CNN_Model <> full_c1:28 var
+binder 1754:1761 <> fc_map_1:40
+R1808:1812 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1823:1826 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1842:1847 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1827:1832 Ionia.CNN_OP <> ReLU2d def
+R1834:1841 Ionia.CNN_Model <> fc_map_1:40 var
+binder 1813:1822 <> relu_map_3:41
+R1848:1852 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1863:1866 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1909:1914 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1867:1875 Ionia.CNN_OP <> Dropout2d def
+R1889:1895 Ionia.DataExp <> REconst constr
+R1877:1886 Ionia.CNN_Model <> relu_map_3:41 var
+binder 1853:1862 <> drop_map_2:42
+R1915:1919 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1928:1931 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1967:1972 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1932:1939 Ionia.CNN_OP <> Linear2d def
+R1957:1966 Ionia.CNN_Model <> drop_map_2:42 var
+R1949:1955 Ionia.CNN_Model <> full_b2:31 var
+R1941:1947 Ionia.CNN_Model <> full_c2:30 var
+binder 1920:1927 <> fc_map_2:43
+R1973:1977 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1984:1987 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2010:2016 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R1988:2000 Ionia.CNN_OP <> Log_Softmax2d def
+R2002:2009 Ionia.CNN_Model <> fc_map_2:43 var
+binder 1978:1983 <> output:44
+R2017:2025 Ionia.CNN_OP <> NLLLoss2d def
+R2034:2045 Ionia.CNN_Model <> output_label:32 var
+R2027:2032 Ionia.CNN_Model <> output:44 var
+def 2060:2066 <> AlexNet
+binder 2068:2072 <> batch:45
+binder 2074:2080 <> channel:46
+binder 2082:2083 <> m1:47
+binder 2085:2086 <> m2:48
+R2099:2105 Ionia.CNN_Defs <> Tensor4 def
+R2124:2125 Ionia.CNN_Model <> m2:48 var
+R2121:2122 Ionia.CNN_Model <> m1:47 var
+R2113:2119 Ionia.CNN_Model <> channel:46 var
+R2107:2111 Ionia.CNN_Model <> batch:45 var
+binder 2092:2096 <> input:49
+R2137:2143 Ionia.CNN_Defs <> Tensor4 def
+R2148:2154 Ionia.CNN_Model <> channel:46 var
+binder 2131:2134 <> c1_w:50
+R2169:2175 Ionia.CNN_Defs <> Tensor1 def
+binder 2163:2166 <> c1_b:51
+R2190:2196 Ionia.CNN_Defs <> Tensor4 def
+binder 2184:2187 <> c2_w:52
+R2216:2222 Ionia.CNN_Defs <> Tensor1 def
+binder 2210:2213 <> c2_b:53
+R2238:2244 Ionia.CNN_Defs <> Tensor4 def
+binder 2232:2235 <> c3_w:54
+R2265:2271 Ionia.CNN_Defs <> Tensor1 def
+binder 2259:2262 <> c3_b:55
+R2287:2293 Ionia.CNN_Defs <> Tensor4 def
+binder 2281:2284 <> c4_w:56
+R2314:2320 Ionia.CNN_Defs <> Tensor1 def
+binder 2308:2311 <> c4_b:57
+R2336:2342 Ionia.CNN_Defs <> Tensor4 def
+binder 2330:2333 <> c5_w:58
+R2363:2369 Ionia.CNN_Defs <> Tensor1 def
+binder 2357:2360 <> c5_b:59
+R2385:2391 Ionia.CNN_Defs <> Tensor2 def
+R2404:2404 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R2402:2402 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+binder 2379:2382 <> f1_w:60
+R2415:2421 Ionia.CNN_Defs <> Tensor1 def
+binder 2409:2412 <> f1_b:61
+R2438:2444 Ionia.CNN_Defs <> Tensor2 def
+binder 2432:2435 <> f2_w:62
+R2463:2469 Ionia.CNN_Defs <> Tensor1 def
+binder 2457:2460 <> f2_b:63
+R2486:2492 Ionia.CNN_Defs <> Tensor2 def
+binder 2480:2483 <> f3_w:64
+R2511:2517 Ionia.CNN_Defs <> Tensor1 def
+binder 2505:2508 <> f3_b:65
+R2532:2536 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2542:2545 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2572:2577 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2546:2551 Ionia.CNN_OP <> Conv4d def
+R2567:2571 Ionia.CNN_Model <> input:49 var
+R2562:2565 Ionia.CNN_Model <> c1_w:50 var
+R2557:2560 Ionia.CNN_Model <> c1_b:51 var
+binder 2537:2541 <> conv1:66
+R2578:2582 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2593:2596 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2609:2614 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2597:2602 Ionia.CNN_OP <> ReLU4d def
+R2604:2608 Ionia.CNN_Model <> conv1:66 var
+binder 2583:2592 <> conv1_relu:67
+R2615:2619 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2630:2633 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2664:2669 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2634:2646 Ionia.CNN_OP <> Maxpool4d_pad def
+R2654:2663 Ionia.CNN_Model <> conv1_relu:67 var
+binder 2620:2629 <> conv1_pool:68
+R2670:2674 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2680:2683 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2715:2720 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2684:2689 Ionia.CNN_OP <> Conv4d def
+R2705:2714 Ionia.CNN_Model <> conv1_pool:68 var
+R2700:2703 Ionia.CNN_Model <> c2_w:52 var
+R2695:2698 Ionia.CNN_Model <> c2_b:53 var
+binder 2675:2679 <> conv2:69
+R2721:2725 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2736:2739 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2752:2757 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2740:2745 Ionia.CNN_OP <> ReLU4d def
+R2747:2751 Ionia.CNN_Model <> conv2:69 var
+binder 2726:2735 <> conv2_relu:70
+R2758:2762 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2773:2776 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2807:2812 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2777:2789 Ionia.CNN_OP <> Maxpool4d_pad def
+R2797:2806 Ionia.CNN_Model <> conv2_relu:70 var
+binder 2763:2772 <> conv2_pool:71
+R2813:2817 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2823:2826 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2858:2863 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2827:2832 Ionia.CNN_OP <> Conv4d def
+R2848:2857 Ionia.CNN_Model <> conv2_pool:71 var
+R2843:2846 Ionia.CNN_Model <> c3_w:54 var
+R2838:2841 Ionia.CNN_Model <> c3_b:55 var
+binder 2818:2822 <> conv3:72
+R2864:2868 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2879:2882 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2895:2900 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2883:2888 Ionia.CNN_OP <> ReLU4d def
+R2890:2894 Ionia.CNN_Model <> conv3:72 var
+binder 2869:2878 <> conv3_relu:73
+R2901:2905 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2911:2914 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2946:2951 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2915:2920 Ionia.CNN_OP <> Conv4d def
+R2936:2945 Ionia.CNN_Model <> conv3_relu:73 var
+R2931:2934 Ionia.CNN_Model <> c4_w:56 var
+R2926:2929 Ionia.CNN_Model <> c4_b:57 var
+binder 2906:2910 <> conv4:74
+R2952:2956 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2967:2970 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2983:2988 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2971:2976 Ionia.CNN_OP <> ReLU4d def
+R2978:2982 Ionia.CNN_Model <> conv4:74 var
+binder 2957:2966 <> conv4_relu:75
+R2989:2993 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R2999:3002 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3034:3039 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3003:3008 Ionia.CNN_OP <> Conv4d def
+R3024:3033 Ionia.CNN_Model <> conv4_relu:75 var
+R3019:3022 Ionia.CNN_Model <> c5_w:58 var
+R3014:3017 Ionia.CNN_Model <> c5_b:59 var
+binder 2994:2998 <> conv5:76
+R3040:3044 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3055:3058 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3071:3076 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3059:3064 Ionia.CNN_OP <> ReLU4d def
+R3066:3070 Ionia.CNN_Model <> conv5:76 var
+binder 3045:3054 <> conv5_relu:77
+R3077:3081 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3092:3095 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3126:3134 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3096:3108 Ionia.CNN_OP <> Maxpool4d_pad def
+R3116:3125 Ionia.CNN_Model <> conv5_relu:77 var
+binder 3082:3091 <> conv5_pool:78
+R3135:3139 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3147:3150 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3183:3191 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3151:3167 Ionia.CNN_OP <> AdaptiveAvgPool4d def
+R3173:3182 Ionia.CNN_Model <> conv5_pool:78 var
+binder 3140:3146 <> avgpool:79
+R3192:3196 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3202:3205 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3257:3262 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3206:3214 Ionia.CNN_OP <> Dropout2d def
+R3237:3243 Ionia.DataExp <> REconst constr
+R3217:3225 Ionia.CNN_OP <> Flatten4d def
+R3227:3233 Ionia.CNN_Model <> avgpool:79 var
+binder 3197:3201 <> drop1:80
+R3263:3267 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3271:3274 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3299:3304 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3275:3282 Ionia.CNN_OP <> Linear2d def
+R3294:3298 Ionia.CNN_Model <> drop1:80 var
+R3289:3292 Ionia.CNN_Model <> f1_b:61 var
+R3284:3287 Ionia.CNN_Model <> f1_w:60 var
+binder 3268:3270 <> fc1:81
+R3305:3309 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3318:3321 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3332:3337 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3322:3327 Ionia.CNN_OP <> ReLU2d def
+R3329:3331 Ionia.CNN_Model <> fc1:81 var
+binder 3310:3317 <> fc1_relu:82
+R3338:3342 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3348:3351 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3392:3397 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3352:3360 Ionia.CNN_OP <> Dropout2d def
+R3372:3378 Ionia.DataExp <> REconst constr
+R3362:3369 Ionia.CNN_Model <> fc1_relu:82 var
+binder 3343:3347 <> drop2:83
+R3398:3402 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3406:3409 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3434:3439 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3410:3417 Ionia.CNN_OP <> Linear2d def
+R3429:3433 Ionia.CNN_Model <> drop2:83 var
+R3424:3427 Ionia.CNN_Model <> f2_b:63 var
+R3419:3422 Ionia.CNN_Model <> f2_w:62 var
+binder 3403:3405 <> fc2:84
+R3440:3444 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3453:3456 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3467:3472 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3457:3462 Ionia.CNN_OP <> ReLU2d def
+R3464:3466 Ionia.CNN_Model <> fc2:84 var
+binder 3445:3452 <> fc2_relu:85
+R3473:3480 Ionia.CNN_OP <> Linear2d def
+R3492:3499 Ionia.CNN_Model <> fc2_relu:85 var
+R3487:3490 Ionia.CNN_Model <> f3_b:65 var
+R3482:3485 Ionia.CNN_Model <> f3_w:64 var
+def 3528:3537 <> BasicBlock
+binder 3539:3543 <> batch:86
+binder 3545:3546 <> m1:87
+binder 3548:3549 <> m2:88
+R3585:3587 Corelib.Init.Datatypes <> nat ind
+binder 3555:3564 <> in_channel:89
+binder 3566:3576 <> out_channel:90
+binder 3578:3583 <> stride:91
+R3602:3605 Corelib.Init.Datatypes <> bool ind
+binder 3590:3599 <> downsample:92
+R3619:3625 Ionia.CNN_Defs <> Tensor4 def
+R3647:3648 Ionia.CNN_Model <> m2:88 var
+R3644:3645 Ionia.CNN_Model <> m1:87 var
+R3633:3642 Ionia.CNN_Model <> in_channel:89 var
+R3627:3631 Ionia.CNN_Model <> batch:86 var
+binder 3612:3616 <> input:93
+R3674:3682 Ionia.CNN_Defs <> mkTensor4 def
+R3696:3705 Ionia.CNN_Model <> in_channel:89 var
+R3684:3694 Ionia.CNN_Model <> out_channel:90 var
+binder 3663:3669 <> conv1_w:94
+R3731:3739 Ionia.CNN_Defs <> mkTensor1 def
+R3741:3751 Ionia.CNN_Model <> out_channel:90 var
+binder 3720:3726 <> conv1_b:95
+R3773:3781 Ionia.CNN_Defs <> mkTensor4 def
+R3795:3805 Ionia.CNN_Model <> out_channel:90 var
+R3783:3793 Ionia.CNN_Model <> out_channel:90 var
+binder 3762:3768 <> conv2_w:96
+R3831:3839 Ionia.CNN_Defs <> mkTensor1 def
+R3841:3851 Ionia.CNN_Model <> out_channel:90 var
+binder 3820:3826 <> conv2_b:97
+R3860:3864 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3870:3873 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3911:3916 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3874:3879 Ionia.CNN_OP <> Conv4d def
+R3906:3910 Ionia.CNN_Model <> input:93 var
+R3898:3904 Ionia.CNN_Model <> conv1_w:94 var
+R3890:3896 Ionia.CNN_Model <> conv1_b:95 var
+R3883:3888 Ionia.CNN_Model <> stride:91 var
+binder 3865:3869 <> conv1:98
+R3917:3921 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3925:3928 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3958:3963 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3929:3939 Ionia.CNN_OP <> BatchNorm4d def
+R3953:3957 Ionia.CNN_Model <> conv1:98 var
+R3941:3951 Ionia.CNN_Model <> out_channel:90 var
+binder 3922:3924 <> bn1:99
+R3964:3968 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3974:3977 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3988:3996 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R3978:3983 Ionia.CNN_OP <> ReLU4d def
+R3985:3987 Ionia.CNN_Model <> bn1:99 var
+binder 3969:3973 <> relu1:100
+R3997:4001 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R4007:4010 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R4055:4060 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R4011:4019 Ionia.CNN_OP <> convert_3 def
+R4022:4027 Ionia.CNN_OP <> Conv4d def
+R4049:4053 Ionia.CNN_Model <> relu1:100 var
+R4041:4047 Ionia.CNN_Model <> conv2_w:96 var
+R4033:4039 Ionia.CNN_Model <> conv2_b:97 var
+binder 4002:4006 <> conv2:101
+R4061:4065 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R4069:4072 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R4102:4108 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R4073:4083 Ionia.CNN_OP <> BatchNorm4d def
+R4097:4101 Ionia.CNN_Model <> conv2:101 var
+R4085:4095 Ionia.CNN_Model <> out_channel:90 var
+binder 4066:4068 <> bn2:102
+R4109:4113 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R4122:4125 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R4450:4456 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R4129:4138 Ionia.CNN_Model <> downsample:92 var
+R4427:4436 Ionia.CNN_OP <> convert_in def
+R4445:4449 Ionia.CNN_Model <> input:93 var
+R4438:4443 Ionia.CNN_Model <> stride:91 var
+R4199:4207 Ionia.CNN_Defs <> mkTensor4 def
+R4221:4230 Ionia.CNN_Model <> in_channel:89 var
+R4209:4219 Ionia.CNN_Model <> out_channel:90 var
+binder 4185:4194 <> convdown_w:103
+R4259:4267 Ionia.CNN_Defs <> mkTensor1 def
+R4269:4279 Ionia.CNN_Model <> out_channel:90 var
+binder 4245:4254 <> convdown_b:104
+R4286:4290 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R4300:4303 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R4347:4352 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R4304:4309 Ionia.CNN_OP <> Conv4d def
+R4342:4346 Ionia.CNN_Model <> input:93 var
+R4331:4340 Ionia.CNN_Model <> convdown_w:103 var
+R4320:4329 Ionia.CNN_Model <> convdown_b:104 var
+R4313:4318 Ionia.CNN_Model <> stride:91 var
+binder 4291:4299 <> identity1:105
+R4353:4363 Ionia.CNN_OP <> BatchNorm4d def
+R4377:4385 Ionia.CNN_Model <> identity1:105 var
+R4365:4375 Ionia.CNN_Model <> out_channel:90 var
+binder 4114:4121 <> identity:106
+R4457:4461 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R4466:4469 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R4509:4514 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R4470:4474 Ionia.CNN_OP <> Add4d def
+R4501:4508 Ionia.CNN_Model <> identity:106 var
+R4477:4487 Ionia.CNN_OP <> convert_1_3 def
+R4496:4498 Ionia.CNN_Model <> bn2:102 var
+R4489:4494 Ionia.CNN_Model <> stride:91 var
+binder 4462:4465 <> conn:107
+R4515:4520 Ionia.CNN_OP <> ReLU4d def
+R4522:4525 Ionia.CNN_Model <> conn:107 var
+def 4540:4549 <> BottleNeck
+binder 4551:4555 <> batch:108
+binder 4557:4558 <> m1:109
+binder 4560:4561 <> m2:110
+R4592:4594 Corelib.Init.Datatypes <> nat ind
+binder 4567:4576 <> in_channel:111
+binder 4578:4588 <> out_channel:112
+binder 4590:4590 <> s:113
+R4609:4612 Corelib.Init.Datatypes <> bool ind
+binder 4597:4606 <> downsample:114
+R4626:4632 Ionia.CNN_Defs <> Tensor4 def
+R4654:4655 Ionia.CNN_Model <> m2:110 var
+R4651:4652 Ionia.CNN_Model <> m1:109 var
+R4640:4649 Ionia.CNN_Model <> in_channel:111 var
+R4634:4638 Ionia.CNN_Model <> batch:108 var
+binder 4619:4623 <> input:115
+R4681:4689 Ionia.CNN_Defs <> mkTensor4 def
+R4703:4712 Ionia.CNN_Model <> in_channel:111 var
+R4691:4701 Ionia.CNN_Model <> out_channel:112 var
+binder 4670:4676 <> conv1_w:116
+R4738:4746 Ionia.CNN_Defs <> mkTensor1 def
+R4748:4758 Ionia.CNN_Model <> out_channel:112 var
+binder 4727:4733 <> conv1_b:117
+R4780:4788 Ionia.CNN_Defs <> mkTensor4 def
+R4802:4812 Ionia.CNN_Model <> out_channel:112 var
+R4790:4800 Ionia.CNN_Model <> out_channel:112 var
+binder 4769:4775 <> conv2_w:118
+R4838:4846 Ionia.CNN_Defs <> mkTensor1 def
+R4848:4858 Ionia.CNN_Model <> out_channel:112 var
+binder 4827:4833 <> conv2_b:119
+R4881:4889 Ionia.CNN_Defs <> mkTensor4 def
+R4907:4917 Ionia.CNN_Model <> out_channel:112 var
+R4903:4903 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R4892:4902 Ionia.CNN_Model <> out_channel:112 var
+binder 4870:4876 <> conv3_w:120
+R4943:4951 Ionia.CNN_Defs <> mkTensor1 def
+R4965:4965 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R4954:4964 Ionia.CNN_Model <> out_channel:112 var
+binder 4932:4938 <> conv3_b:121
+R4976:4980 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R4986:4989 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R5034:5039 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R4990:4998 Ionia.CNN_OP <> convert_1 def
+R5001:5006 Ionia.CNN_OP <> Conv4d def
+R5028:5032 Ionia.CNN_Model <> input:115 var
+R5020:5026 Ionia.CNN_Model <> conv1_w:116 var
+R5012:5018 Ionia.CNN_Model <> conv1_b:117 var
+binder 4981:4985 <> conv1:122
+R5040:5044 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R5048:5051 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R5081:5086 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R5052:5062 Ionia.CNN_OP <> BatchNorm4d def
+R5076:5080 Ionia.CNN_Model <> conv1:122 var
+R5064:5074 Ionia.CNN_Model <> out_channel:112 var
+binder 5045:5047 <> bn1:123
+R5087:5091 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R5097:5100 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R5111:5119 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R5101:5106 Ionia.CNN_OP <> ReLU4d def
+R5108:5110 Ionia.CNN_Model <> bn1:123 var
+binder 5092:5096 <> relu1:124
+R5120:5124 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R5130:5133 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R5166:5171 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R5134:5139 Ionia.CNN_OP <> Conv4d def
+R5161:5165 Ionia.CNN_Model <> relu1:124 var
+R5153:5159 Ionia.CNN_Model <> conv2_w:118 var
+R5145:5151 Ionia.CNN_Model <> conv2_b:119 var
+R5143:5143 Ionia.CNN_Model <> s:113 var
+binder 5125:5129 <> conv2:125
+R5172:5176 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R5180:5183 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R5213:5218 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R5184:5194 Ionia.CNN_OP <> BatchNorm4d def
+R5208:5212 Ionia.CNN_Model <> conv2:125 var
+R5196:5206 Ionia.CNN_Model <> out_channel:112 var
+binder 5177:5179 <> bn2:126
+R5219:5223 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R5229:5232 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R5243:5249 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R5233:5238 Ionia.CNN_OP <> ReLU4d def
+R5240:5242 Ionia.CNN_Model <> bn2:126 var
+binder 5224:5228 <> relu2:127
+R5250:5254 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R5260:5263 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R5308:5313 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R5264:5272 Ionia.CNN_OP <> convert_1 def
+R5275:5280 Ionia.CNN_OP <> Conv4d def
+R5302:5306 Ionia.CNN_Model <> relu2:127 var
+R5294:5300 Ionia.CNN_Model <> conv3_w:120 var
+R5286:5292 Ionia.CNN_Model <> conv3_b:121 var
+binder 5255:5259 <> conv3:128
+R5314:5318 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R5322:5325 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R5359:5365 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R5326:5336 Ionia.CNN_OP <> BatchNorm4d def
+R5354:5358 Ionia.CNN_Model <> conv3:128 var
+R5350:5350 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R5339:5349 Ionia.CNN_Model <> out_channel:112 var
+binder 5319:5321 <> bn3:129
+R5366:5370 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R5379:5382 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R5677:5683 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R5386:5395 Ionia.CNN_Model <> downsample:114 var
+R5659:5668 Ionia.CNN_OP <> convert_in def
+R5672:5676 Ionia.CNN_Model <> input:115 var
+R5670:5670 Ionia.CNN_Model <> s:113 var
+R5422:5430 Ionia.CNN_Defs <> mkTensor4 def
+R5448:5457 Ionia.CNN_Model <> in_channel:111 var
+R5444:5444 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R5433:5443 Ionia.CNN_Model <> out_channel:112 var
+binder 5408:5417 <> convdown_w:130
+R5486:5494 Ionia.CNN_Defs <> mkTensor1 def
+R5508:5508 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R5497:5507 Ionia.CNN_Model <> out_channel:112 var
+binder 5472:5481 <> convdown_b:131
+R5517:5521 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R5531:5534 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R5573:5578 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R5535:5540 Ionia.CNN_OP <> Conv4d def
+R5568:5572 Ionia.CNN_Model <> input:115 var
+R5557:5566 Ionia.CNN_Model <> convdown_w:130 var
+R5546:5555 Ionia.CNN_Model <> convdown_b:131 var
+R5544:5544 Ionia.CNN_Model <> s:113 var
+binder 5522:5530 <> identity1:132
+R5579:5589 Ionia.CNN_OP <> BatchNorm4d def
+R5607:5615 Ionia.CNN_Model <> identity1:132 var
+R5603:5603 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R5592:5602 Ionia.CNN_Model <> out_channel:112 var
+binder 5371:5378 <> identity:133
+R5684:5688 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R5693:5696 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R5731:5736 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R5697:5701 Ionia.CNN_OP <> Add4d def
+R5723:5730 Ionia.CNN_Model <> identity:133 var
+R5704:5714 Ionia.CNN_OP <> convert_1_3 def
+R5718:5720 Ionia.CNN_Model <> bn3:129 var
+R5716:5716 Ionia.CNN_Model <> s:113 var
+binder 5689:5692 <> conn:134
+R5737:5742 Ionia.CNN_OP <> ReLU4d def
+R5744:5747 Ionia.CNN_Model <> conn:134 var
+def 5760:5769 <> make_layer
+binder 5772:5776 <> batch:135
+binder 5778:5779 <> m1:136
+binder 5781:5782 <> m2:137
+binder 5784:5793 <> in_channel:138
+binder 5795:5805 <> out_channel:139
+R5819:5821 Corelib.Init.Datatypes <> nat ind
+binder 5808:5816 <> num_block:140
+R5857:5862 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5827:5833 Ionia.CNN_Defs <> Tensor4 def
+R5855:5856 Ionia.CNN_Model <> m2:137 var
+R5852:5853 Ionia.CNN_Model <> m1:136 var
+R5841:5850 Ionia.CNN_Model <> in_channel:138 var
+R5835:5839 Ionia.CNN_Model <> batch:135 var
+R5863:5869 Ionia.CNN_Defs <> Tensor4 def
+R5892:5893 Ionia.CNN_Model <> m2:137 var
+R5889:5890 Ionia.CNN_Model <> m1:136 var
+R5877:5887 Ionia.CNN_Model <> out_channel:139 var
+R5871:5875 Ionia.CNN_Model <> batch:135 var
+R5906:5914 Ionia.CNN_Model <> num_block:140 var
+R5925:5925 Corelib.Init.Datatypes <> O constr
+R5942:5948 Ionia.CNN_Defs <> Tensor4 def
+R5970:5971 Ionia.CNN_Model <> m2:137 var
+R5967:5968 Ionia.CNN_Model <> m1:136 var
+R5956:5965 Ionia.CNN_Model <> in_channel:138 var
+R5950:5954 Ionia.CNN_Model <> batch:135 var
+binder 5935:5939 <> input:143
+R5986:5994 Ionia.CNN_OP <> convert_1 def
+R5997:6006 Ionia.CNN_Model <> BasicBlock def
+R6039:6043 Ionia.CNN_Model <> input:143 var
+R6033:6037 Corelib.Init.Datatypes <> false constr
+R6019:6029 Ionia.CNN_Model <> out_channel:139 var
+R6008:6017 Ionia.CNN_Model <> in_channel:138 var
+R6050:6050 Corelib.Init.Datatypes <> S constr
+R6069:6075 Ionia.CNN_Defs <> Tensor4 def
+R6097:6098 Ionia.CNN_Model <> m2:137 var
+R6094:6095 Ionia.CNN_Model <> m1:136 var
+R6083:6092 Ionia.CNN_Model <> in_channel:138 var
+R6077:6081 Ionia.CNN_Model <> batch:135 var
+binder 6063:6067 <> input:144
+R6113:6121 Ionia.CNN_OP <> convert_1 def
+R6124:6133 Ionia.CNN_Model <> BasicBlock def
+R6167:6176 Ionia.CNN_Model <> make_layer:141 def
+R6181:6185 Ionia.CNN_Model <> input:144 var
+R6160:6164 Corelib.Init.Datatypes <> false constr
+R6146:6156 Ionia.CNN_Model <> out_channel:139 var
+R6135:6144 Ionia.CNN_Model <> in_channel:138 var
+def 6208:6216 <> ResNet_34
+binder 6218:6222 <> batch:145
+binder 6224:6230 <> channel:146
+binder 6232:6233 <> m1:147
+binder 6235:6236 <> m2:148
+R6249:6255 Ionia.CNN_Defs <> Tensor4 def
+R6274:6275 Ionia.CNN_Model <> m2:148 var
+R6271:6272 Ionia.CNN_Model <> m1:147 var
+R6263:6269 Ionia.CNN_Model <> channel:146 var
+R6257:6261 Ionia.CNN_Model <> batch:145 var
+binder 6242:6246 <> input:149
+R6304:6312 Ionia.CNN_Defs <> mkTensor4 def
+R6317:6323 Ionia.CNN_Model <> channel:146 var
+binder 6292:6299 <> b1_cv1_w:150
+R6350:6358 Ionia.CNN_Defs <> mkTensor1 def
+binder 6338:6345 <> b1_cv1_b:151
+R6380:6388 Ionia.CNN_Defs <> mkTensor2 def
+R6399:6399 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R6397:6397 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+binder 6372:6375 <> b6_w:152
+R6420:6428 Ionia.CNN_Defs <> mkTensor1 def
+binder 6412:6415 <> b6_b:153
+R6482:6486 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R6498:6501 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R6536:6541 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R6502:6507 Ionia.CNN_OP <> Conv4d def
+R6531:6535 Ionia.CNN_Model <> input:149 var
+R6522:6529 Ionia.CNN_Model <> b1_cv1_w:150 var
+R6513:6520 Ionia.CNN_Model <> b1_cv1_b:151 var
+binder 6487:6497 <> block1_conv:154
+R6542:6546 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R6556:6559 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R6586:6591 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R6560:6570 Ionia.CNN_OP <> BatchNorm4d def
+R6575:6585 Ionia.CNN_Model <> block1_conv:154 var
+binder 6547:6555 <> block1_bn:155
+R6592:6596 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R6608:6611 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R6628:6633 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R6612:6617 Ionia.CNN_OP <> ReLU4d def
+R6619:6627 Ionia.CNN_Model <> block1_bn:155 var
+binder 6597:6607 <> block1_relu:156
+R6634:6638 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R6645:6648 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R6680:6718 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R6649:6661 Ionia.CNN_OP <> Maxpool4d_pad def
+R6669:6679 Ionia.CNN_Model <> block1_relu:156 var
+binder 6639:6644 <> block1:157
+R6719:6723 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R6730:6733 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R6753:6788 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R6734:6743 Ionia.CNN_Model <> make_layer def
+R6747:6752 Ionia.CNN_Model <> block1:157 var
+binder 6724:6729 <> block2:158
+R6789:6793 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R6802:6805 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R6837:6842 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R6806:6815 Ionia.CNN_Model <> BasicBlock def
+R6831:6836 Ionia.CNN_Model <> block2:158 var
+R6826:6829 Corelib.Init.Datatypes <> true constr
+binder 6794:6801 <> block3_1:159
+R6843:6847 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R6854:6857 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R6879:6917 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R6858:6867 Ionia.CNN_Model <> make_layer def
+R6871:6878 Ionia.CNN_Model <> block3_1:159 var
+binder 6848:6853 <> block3:160
+R6918:6922 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R6931:6934 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R6967:6972 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R6935:6944 Ionia.CNN_Model <> BasicBlock def
+R6961:6966 Ionia.CNN_Model <> block3:160 var
+R6956:6959 Corelib.Init.Datatypes <> true constr
+binder 6923:6930 <> block4_1:161
+R6973:6977 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R6984:6987 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R7009:7045 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R6988:6997 Ionia.CNN_Model <> make_layer def
+R7001:7008 Ionia.CNN_Model <> block4_1:161 var
+binder 6978:6983 <> block4:162
+R7046:7050 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R7059:7062 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R7095:7100 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R7063:7072 Ionia.CNN_Model <> BasicBlock def
+R7089:7094 Ionia.CNN_Model <> block4:162 var
+R7084:7087 Corelib.Init.Datatypes <> true constr
+binder 7051:7058 <> block5_1:163
+R7101:7105 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R7112:7115 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R7137:7188 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R7116:7125 Ionia.CNN_Model <> make_layer def
+R7129:7136 Ionia.CNN_Model <> block5_1:163 var
+binder 7106:7111 <> block5:164
+R7189:7193 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R7205:7208 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R7237:7260 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R7209:7225 Ionia.CNN_OP <> AdaptiveAvgPool4d def
+R7231:7236 Ionia.CNN_Model <> block5:164 var
+binder 7194:7204 <> block6_pool:165
+R7261:7265 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R7278:7281 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R7303:7328 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R7282:7290 Ionia.CNN_OP <> Flatten4d def
+R7292:7302 Ionia.CNN_Model <> block6_pool:165 var
+binder 7266:7277 <> block6_flatt:166
+R7329:7336 Ionia.CNN_OP <> Linear2d def
+R7348:7359 Ionia.CNN_Model <> block6_flatt:166 var
+R7343:7346 Ionia.CNN_Model <> b6_b:153 var
+R7338:7341 Ionia.CNN_Model <> b6_w:152 var
+def 7387:7392 <> VGG_16
+binder 7394:7398 <> batch:167
+R7409:7415 Ionia.CNN_Defs <> Tensor4 def
+R7417:7421 Ionia.CNN_Model <> batch:167 var
+binder 7402:7406 <> input:168
+R7443:7449 Ionia.CNN_Defs <> Tensor4 def
+binder 7437:7440 <> c1_w:169
+R7468:7474 Ionia.CNN_Defs <> Tensor1 def
+binder 7462:7465 <> c1_b:170
+R7489:7495 Ionia.CNN_Defs <> Tensor4 def
+binder 7483:7486 <> c2_w:171
+R7515:7521 Ionia.CNN_Defs <> Tensor1 def
+binder 7509:7512 <> c2_b:172
+R7536:7542 Ionia.CNN_Defs <> Tensor4 def
+binder 7530:7533 <> c3_w:173
+R7563:7569 Ionia.CNN_Defs <> Tensor1 def
+binder 7557:7560 <> c3_b:174
+R7585:7591 Ionia.CNN_Defs <> Tensor4 def
+binder 7579:7582 <> c4_w:175
+R7613:7619 Ionia.CNN_Defs <> Tensor1 def
+binder 7607:7610 <> c4_b:176
+R7635:7641 Ionia.CNN_Defs <> Tensor4 def
+binder 7629:7632 <> c5_w:177
+R7663:7669 Ionia.CNN_Defs <> Tensor1 def
+binder 7657:7660 <> c5_b:178
+R7685:7691 Ionia.CNN_Defs <> Tensor4 def
+binder 7679:7682 <> c6_w:179
+R7713:7719 Ionia.CNN_Defs <> Tensor1 def
+binder 7707:7710 <> c6_b:180
+R7735:7741 Ionia.CNN_Defs <> Tensor4 def
+binder 7729:7732 <> c7_w:181
+R7763:7769 Ionia.CNN_Defs <> Tensor1 def
+binder 7757:7760 <> c7_b:182
+R7785:7791 Ionia.CNN_Defs <> Tensor4 def
+binder 7779:7782 <> c8_w:183
+R7813:7819 Ionia.CNN_Defs <> Tensor1 def
+binder 7807:7810 <> c8_b:184
+R7835:7841 Ionia.CNN_Defs <> Tensor4 def
+binder 7829:7832 <> c9_w:185
+R7863:7869 Ionia.CNN_Defs <> Tensor1 def
+binder 7857:7860 <> c9_b:186
+R7886:7892 Ionia.CNN_Defs <> Tensor4 def
+binder 7879:7883 <> c10_w:187
+R7915:7921 Ionia.CNN_Defs <> Tensor1 def
+binder 7908:7912 <> c10_b:188
+R7938:7944 Ionia.CNN_Defs <> Tensor4 def
+binder 7931:7935 <> c11_w:189
+R7967:7973 Ionia.CNN_Defs <> Tensor1 def
+binder 7960:7964 <> c11_b:190
+R7990:7996 Ionia.CNN_Defs <> Tensor4 def
+binder 7983:7987 <> c12_w:191
+R8019:8025 Ionia.CNN_Defs <> Tensor1 def
+binder 8012:8016 <> c12_b:192
+R8042:8048 Ionia.CNN_Defs <> Tensor4 def
+binder 8035:8039 <> c13_w:193
+R8071:8077 Ionia.CNN_Defs <> Tensor1 def
+binder 8064:8068 <> c13_b:194
+R8093:8099 Ionia.CNN_Defs <> Tensor2 def
+R8112:8112 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R8110:8110 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+binder 8087:8090 <> f1_w:195
+R8124:8130 Ionia.CNN_Defs <> Tensor1 def
+binder 8118:8121 <> f1_b:196
+R8147:8153 Ionia.CNN_Defs <> Tensor2 def
+binder 8141:8144 <> f2_w:197
+R8173:8179 Ionia.CNN_Defs <> Tensor1 def
+binder 8167:8170 <> f2_b:198
+R8196:8202 Ionia.CNN_Defs <> Tensor2 def
+binder 8190:8193 <> f3_w:199
+R8222:8228 Ionia.CNN_Defs <> Tensor1 def
+binder 8216:8219 <> f3_b:200
+R8245:8249 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8255:8258 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8285:8290 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8259:8264 Ionia.CNN_OP <> Conv4d def
+R8280:8284 Ionia.CNN_Model <> input:168 var
+R8275:8278 Ionia.CNN_Model <> c1_w:169 var
+R8270:8273 Ionia.CNN_Model <> c1_b:170 var
+binder 8250:8254 <> conv1:201
+R8291:8295 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8306:8309 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8322:8327 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8310:8315 Ionia.CNN_OP <> ReLU4d def
+R8317:8321 Ionia.CNN_Model <> conv1:201 var
+binder 8296:8305 <> conv1_relu:202
+R8328:8332 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8338:8341 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8373:8378 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8342:8347 Ionia.CNN_OP <> Conv4d def
+R8363:8372 Ionia.CNN_Model <> conv1_relu:202 var
+R8358:8361 Ionia.CNN_Model <> c2_w:171 var
+R8353:8356 Ionia.CNN_Model <> c2_b:172 var
+binder 8333:8337 <> conv2:203
+R8379:8383 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8394:8397 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8410:8416 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8398:8403 Ionia.CNN_OP <> ReLU4d def
+R8405:8409 Ionia.CNN_Model <> conv2:203 var
+binder 8384:8393 <> conv2_relu:204
+R8417:8421 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8427:8430 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8453:8490 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8431:8439 Ionia.CNN_OP <> Maxpool4d def
+R8443:8452 Ionia.CNN_Model <> conv2_relu:204 var
+binder 8422:8426 <> pool1:205
+R8491:8495 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8501:8504 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8531:8536 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8505:8510 Ionia.CNN_OP <> Conv4d def
+R8526:8530 Ionia.CNN_Model <> pool1:205 var
+R8521:8524 Ionia.CNN_Model <> c3_w:173 var
+R8516:8519 Ionia.CNN_Model <> c3_b:174 var
+binder 8496:8500 <> conv3:206
+R8537:8541 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8552:8555 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8568:8573 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8556:8561 Ionia.CNN_OP <> ReLU4d def
+R8563:8567 Ionia.CNN_Model <> conv3:206 var
+binder 8542:8551 <> conv3_relu:207
+R8574:8578 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8584:8587 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8619:8624 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8588:8593 Ionia.CNN_OP <> Conv4d def
+R8609:8618 Ionia.CNN_Model <> conv3_relu:207 var
+R8604:8607 Ionia.CNN_Model <> c4_w:175 var
+R8599:8602 Ionia.CNN_Model <> c4_b:176 var
+binder 8579:8583 <> conv4:208
+R8625:8629 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8640:8643 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8656:8662 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8644:8649 Ionia.CNN_OP <> ReLU4d def
+R8651:8655 Ionia.CNN_Model <> conv4:208 var
+binder 8630:8639 <> conv4_relu:209
+R8663:8667 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8673:8676 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8699:8733 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8677:8685 Ionia.CNN_OP <> Maxpool4d def
+R8689:8698 Ionia.CNN_Model <> conv4_relu:209 var
+binder 8668:8672 <> pool2:210
+R8734:8738 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8744:8747 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8774:8779 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8748:8753 Ionia.CNN_OP <> Conv4d def
+R8769:8773 Ionia.CNN_Model <> pool2:210 var
+R8764:8767 Ionia.CNN_Model <> c5_w:177 var
+R8759:8762 Ionia.CNN_Model <> c5_b:178 var
+binder 8739:8743 <> conv5:211
+R8780:8784 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8795:8798 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8811:8816 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8799:8804 Ionia.CNN_OP <> ReLU4d def
+R8806:8810 Ionia.CNN_Model <> conv5:211 var
+binder 8785:8794 <> conv5_relu:212
+R8817:8821 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8827:8830 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8862:8867 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8831:8836 Ionia.CNN_OP <> Conv4d def
+R8852:8861 Ionia.CNN_Model <> conv5_relu:212 var
+R8847:8850 Ionia.CNN_Model <> c6_w:179 var
+R8842:8845 Ionia.CNN_Model <> c6_b:180 var
+binder 8822:8826 <> conv6:213
+R8868:8872 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8883:8886 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8899:8904 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8887:8892 Ionia.CNN_OP <> ReLU4d def
+R8894:8898 Ionia.CNN_Model <> conv6:213 var
+binder 8873:8882 <> conv6_relu:214
+R8905:8909 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8915:8918 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8950:8955 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8919:8924 Ionia.CNN_OP <> Conv4d def
+R8940:8949 Ionia.CNN_Model <> conv6_relu:214 var
+R8935:8938 Ionia.CNN_Model <> c7_w:181 var
+R8930:8933 Ionia.CNN_Model <> c7_b:182 var
+binder 8910:8914 <> conv7:215
+R8956:8960 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8971:8974 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8987:8993 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R8975:8980 Ionia.CNN_OP <> ReLU4d def
+R8982:8986 Ionia.CNN_Model <> conv7:215 var
+binder 8961:8970 <> conv7_relu:216
+R8994:8998 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9004:9007 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9030:9064 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9008:9016 Ionia.CNN_OP <> Maxpool4d def
+R9020:9029 Ionia.CNN_Model <> conv7_relu:216 var
+binder 8999:9003 <> pool3:217
+R9065:9069 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9075:9078 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9105:9110 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9079:9084 Ionia.CNN_OP <> Conv4d def
+R9100:9104 Ionia.CNN_Model <> pool3:217 var
+R9095:9098 Ionia.CNN_Model <> c8_w:183 var
+R9090:9093 Ionia.CNN_Model <> c8_b:184 var
+binder 9070:9074 <> conv8:218
+R9111:9115 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9126:9129 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9142:9147 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9130:9135 Ionia.CNN_OP <> ReLU4d def
+R9137:9141 Ionia.CNN_Model <> conv8:218 var
+binder 9116:9125 <> conv8_relu:219
+R9148:9152 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9158:9161 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9193:9198 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9162:9167 Ionia.CNN_OP <> Conv4d def
+R9183:9192 Ionia.CNN_Model <> conv8_relu:219 var
+R9178:9181 Ionia.CNN_Model <> c9_w:185 var
+R9173:9176 Ionia.CNN_Model <> c9_b:186 var
+binder 9153:9157 <> conv9:220
+R9199:9203 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9214:9217 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9230:9235 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9218:9223 Ionia.CNN_OP <> ReLU4d def
+R9225:9229 Ionia.CNN_Model <> conv9:220 var
+binder 9204:9213 <> conv9_relu:221
+R9236:9240 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9247:9250 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9284:9289 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9251:9256 Ionia.CNN_OP <> Conv4d def
+R9274:9283 Ionia.CNN_Model <> conv9_relu:221 var
+R9268:9272 Ionia.CNN_Model <> c10_w:187 var
+R9262:9266 Ionia.CNN_Model <> c10_b:188 var
+binder 9241:9246 <> conv10:222
+R9290:9294 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9306:9309 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9323:9329 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9310:9315 Ionia.CNN_OP <> ReLU4d def
+R9317:9322 Ionia.CNN_Model <> conv10:222 var
+binder 9295:9305 <> conv10_relu:223
+R9330:9334 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9340:9343 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9367:9400 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9344:9352 Ionia.CNN_OP <> Maxpool4d def
+R9356:9366 Ionia.CNN_Model <> conv10_relu:223 var
+binder 9335:9339 <> pool4:224
+R9401:9405 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9412:9415 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9444:9449 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9416:9421 Ionia.CNN_OP <> Conv4d def
+R9439:9443 Ionia.CNN_Model <> pool4:224 var
+R9433:9437 Ionia.CNN_Model <> c11_w:189 var
+R9427:9431 Ionia.CNN_Model <> c11_b:190 var
+binder 9406:9411 <> conv11:225
+R9450:9454 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9466:9469 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9483:9488 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9470:9475 Ionia.CNN_OP <> ReLU4d def
+R9477:9482 Ionia.CNN_Model <> conv11:225 var
+binder 9455:9465 <> conv11_relu:226
+R9489:9493 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9500:9503 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9538:9543 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9504:9509 Ionia.CNN_OP <> Conv4d def
+R9527:9537 Ionia.CNN_Model <> conv11_relu:226 var
+R9521:9525 Ionia.CNN_Model <> c12_w:191 var
+R9515:9519 Ionia.CNN_Model <> c12_b:192 var
+binder 9494:9499 <> conv12:227
+R9544:9548 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9560:9563 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9577:9582 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9564:9569 Ionia.CNN_OP <> ReLU4d def
+R9571:9576 Ionia.CNN_Model <> conv12:227 var
+binder 9549:9559 <> conv12_relu:228
+R9583:9587 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9594:9597 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9632:9637 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9598:9603 Ionia.CNN_OP <> Conv4d def
+R9621:9631 Ionia.CNN_Model <> conv12_relu:228 var
+R9615:9619 Ionia.CNN_Model <> c13_w:193 var
+R9609:9613 Ionia.CNN_Model <> c13_b:194 var
+binder 9588:9593 <> conv13:229
+R9638:9642 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9654:9657 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9671:9677 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9658:9663 Ionia.CNN_OP <> ReLU4d def
+R9665:9670 Ionia.CNN_Model <> conv13:229 var
+binder 9643:9653 <> conv13_relu:230
+R9678:9682 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9688:9691 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9715:9747 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9692:9700 Ionia.CNN_OP <> Maxpool4d def
+R9704:9714 Ionia.CNN_Model <> conv13_relu:230 var
+binder 9683:9687 <> pool5:231
+R9748:9752 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9756:9759 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9796:9820 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9760:9767 Ionia.CNN_OP <> Linear2d def
+R9780:9788 Ionia.CNN_OP <> Flatten4d def
+R9790:9794 Ionia.CNN_Model <> pool5:231 var
+R9774:9777 Ionia.CNN_Model <> f1_b:196 var
+R9769:9772 Ionia.CNN_Model <> f1_w:195 var
+binder 9753:9755 <> fc1:232
+R9821:9825 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9834:9837 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9848:9854 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9838:9843 Ionia.CNN_OP <> ReLU2d def
+R9845:9847 Ionia.CNN_Model <> fc1:232 var
+binder 9826:9833 <> fc1_relu:233
+R9855:9859 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9863:9866 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9894:9927 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9867:9874 Ionia.CNN_OP <> Linear2d def
+R9886:9893 Ionia.CNN_Model <> fc1_relu:233 var
+R9881:9884 Ionia.CNN_Model <> f2_b:198 var
+R9876:9879 Ionia.CNN_Model <> f2_w:197 var
+binder 9860:9862 <> fc2:234
+R9928:9932 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9941:9944 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9955:9960 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9945:9950 Ionia.CNN_OP <> ReLU2d def
+R9952:9954 Ionia.CNN_Model <> fc2:234 var
+binder 9933:9940 <> fc2_relu:235
+R9961:9965 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9969:9972 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R10000:10033 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R9973:9980 Ionia.CNN_OP <> Linear2d def
+R9992:9999 Ionia.CNN_Model <> fc2_relu:235 var
+R9987:9990 Ionia.CNN_Model <> f3_b:200 var
+R9982:9985 Ionia.CNN_Model <> f3_w:199 var
+binder 9966:9968 <> fc3:236
+R10034:10042 Ionia.CNN_OP <> Softmax2d def
+R10044:10046 Ionia.CNN_Model <> fc3:236 var
+def 10079:10087 <> Inception
+binder 10089:10093 <> batch:237
+binder 10095:10101 <> channel:238
+binder 10103:10104 <> m1:239
+binder 10106:10107 <> m2:240
+R10156:10158 Corelib.Init.Datatypes <> nat ind
+binder 10113:10118 <> c1_ch1:241
+binder 10120:10125 <> c2_ch1:242
+binder 10127:10132 <> c2_ch3:243
+binder 10134:10139 <> c3_ch1:244
+binder 10141:10146 <> c3_ch5:245
+binder 10148:10153 <> c4_ch1:246
+R10171:10177 Ionia.CNN_Defs <> Tensor4 def
+R10196:10197 Ionia.CNN_Model <> m2:240 var
+R10193:10194 Ionia.CNN_Model <> m1:239 var
+R10185:10191 Ionia.CNN_Model <> channel:238 var
+R10179:10183 Ionia.CNN_Model <> batch:237 var
+binder 10164:10168 <> input:247
+R10220:10228 Ionia.CNN_Defs <> mkTensor4 def
+R10237:10243 Ionia.CNN_Model <> channel:238 var
+R10230:10235 Ionia.CNN_Model <> c1_ch1:241 var
+binder 10212:10215 <> c1_w:248
+R10266:10274 Ionia.CNN_Defs <> mkTensor1 def
+R10276:10281 Ionia.CNN_Model <> c1_ch1:241 var
+binder 10258:10261 <> c1_b:249
+R10301:10309 Ionia.CNN_Defs <> mkTensor4 def
+R10318:10324 Ionia.CNN_Model <> channel:238 var
+R10311:10316 Ionia.CNN_Model <> c2_ch1:242 var
+binder 10292:10296 <> c2_w1:250
+R10348:10356 Ionia.CNN_Defs <> mkTensor1 def
+R10358:10363 Ionia.CNN_Model <> c2_ch1:242 var
+binder 10339:10343 <> c2_b1:251
+R10384:10392 Ionia.CNN_Defs <> mkTensor4 def
+R10401:10406 Ionia.CNN_Model <> c2_ch1:242 var
+R10394:10399 Ionia.CNN_Model <> c2_ch3:243 var
+binder 10375:10379 <> c2_w2:252
+R10430:10438 Ionia.CNN_Defs <> mkTensor1 def
+R10440:10445 Ionia.CNN_Model <> c2_ch3:243 var
+binder 10421:10425 <> c2_b2:253
+R10465:10473 Ionia.CNN_Defs <> mkTensor4 def
+R10482:10488 Ionia.CNN_Model <> channel:238 var
+R10475:10480 Ionia.CNN_Model <> c3_ch1:244 var
+binder 10456:10460 <> c3_w1:254
+R10512:10520 Ionia.CNN_Defs <> mkTensor1 def
+R10522:10527 Ionia.CNN_Model <> c3_ch1:244 var
+binder 10503:10507 <> c3_b1:255
+R10548:10556 Ionia.CNN_Defs <> mkTensor4 def
+R10565:10570 Ionia.CNN_Model <> c3_ch1:244 var
+R10558:10563 Ionia.CNN_Model <> c3_ch5:245 var
+binder 10539:10543 <> c3_w2:256
+R10594:10602 Ionia.CNN_Defs <> mkTensor1 def
+R10604:10609 Ionia.CNN_Model <> c3_ch5:245 var
+binder 10585:10589 <> c3_b2:257
+R10628:10636 Ionia.CNN_Defs <> mkTensor4 def
+R10645:10651 Ionia.CNN_Model <> channel:238 var
+R10638:10643 Ionia.CNN_Model <> c4_ch1:246 var
+binder 10620:10623 <> c4_w:258
+R10674:10682 Ionia.CNN_Defs <> mkTensor1 def
+R10684:10689 Ionia.CNN_Model <> c4_ch1:246 var
+binder 10666:10669 <> c4_b:259
+R10713:10717 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R10722:10725 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R10764:10769 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R10726:10734 Ionia.CNN_OP <> convert_1 def
+R10737:10742 Ionia.CNN_OP <> Conv4d def
+R10758:10762 Ionia.CNN_Model <> input:247 var
+R10753:10756 Ionia.CNN_Model <> c1_w:248 var
+R10748:10751 Ionia.CNN_Model <> c1_b:249 var
+binder 10718:10721 <> p1_1:260
+R10770:10774 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R10779:10782 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R10794:10818 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R10783:10788 Ionia.CNN_OP <> ReLU4d def
+R10790:10793 Ionia.CNN_Model <> p1_1:260 var
+binder 10775:10778 <> p1_2:261
+R10819:10823 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R10828:10831 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R10872:10877 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R10832:10840 Ionia.CNN_OP <> convert_1 def
+R10843:10848 Ionia.CNN_OP <> Conv4d def
+R10866:10870 Ionia.CNN_Model <> input:247 var
+R10860:10864 Ionia.CNN_Model <> c2_w1:250 var
+R10854:10858 Ionia.CNN_Model <> c2_b1:251 var
+binder 10824:10827 <> p2_1:262
+R10878:10882 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R10887:10890 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R10902:10907 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R10891:10896 Ionia.CNN_OP <> ReLU4d def
+R10898:10901 Ionia.CNN_Model <> p2_1:262 var
+binder 10883:10886 <> p2_2:263
+R10908:10912 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R10917:10920 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R10960:10965 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R10921:10929 Ionia.CNN_OP <> convert_3 def
+R10932:10937 Ionia.CNN_OP <> Conv4d def
+R10955:10958 Ionia.CNN_Model <> p2_2:263 var
+R10949:10953 Ionia.CNN_Model <> c2_w2:252 var
+R10943:10947 Ionia.CNN_Model <> c2_b2:253 var
+binder 10913:10916 <> p2_3:264
+R10966:10970 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R10975:10978 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R10990:11012 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R10979:10984 Ionia.CNN_OP <> ReLU4d def
+R10986:10989 Ionia.CNN_Model <> p2_3:264 var
+binder 10971:10974 <> p2_4:265
+R11013:11017 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11022:11025 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11066:11071 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11026:11034 Ionia.CNN_OP <> convert_1 def
+R11037:11042 Ionia.CNN_OP <> Conv4d def
+R11060:11064 Ionia.CNN_Model <> input:247 var
+R11054:11058 Ionia.CNN_Model <> c3_w1:254 var
+R11048:11052 Ionia.CNN_Model <> c3_b1:255 var
+binder 11018:11021 <> p3_1:266
+R11072:11076 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11081:11084 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11096:11101 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11085:11090 Ionia.CNN_OP <> ReLU4d def
+R11092:11095 Ionia.CNN_Model <> p3_1:266 var
+binder 11077:11080 <> p3_2:267
+R11102:11106 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11111:11114 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11154:11159 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11115:11123 Ionia.CNN_OP <> convert_5 def
+R11126:11131 Ionia.CNN_OP <> Conv4d def
+R11149:11152 Ionia.CNN_Model <> p3_2:267 var
+R11143:11147 Ionia.CNN_Model <> c3_w2:256 var
+R11137:11141 Ionia.CNN_Model <> c3_b2:257 var
+binder 11107:11110 <> p3_3:268
+R11160:11164 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11169:11172 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11184:11206 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11173:11178 Ionia.CNN_OP <> ReLU4d def
+R11180:11183 Ionia.CNN_Model <> p3_3:268 var
+binder 11165:11168 <> p3_4:269
+R11207:11211 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11216:11219 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11257:11262 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11220:11228 Ionia.CNN_OP <> convert_3 def
+R11231:11243 Ionia.CNN_OP <> Maxpool4d_pad def
+R11251:11255 Ionia.CNN_Model <> input:247 var
+binder 11212:11215 <> p4_1:270
+R11263:11267 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11272:11275 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11313:11318 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11276:11284 Ionia.CNN_OP <> convert_1 def
+R11287:11292 Ionia.CNN_OP <> Conv4d def
+R11308:11311 Ionia.CNN_Model <> p4_1:270 var
+R11303:11306 Ionia.CNN_Model <> c4_w:258 var
+R11298:11301 Ionia.CNN_Model <> c4_b:259 var
+binder 11268:11271 <> p4_2:271
+R11319:11323 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11328:11331 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11343:11349 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11332:11337 Ionia.CNN_OP <> ReLU4d def
+R11339:11342 Ionia.CNN_Model <> p4_2:271 var
+binder 11324:11327 <> p4_3:272
+R11350:11357 Ionia.CNN_OP <> Concat4d def
+R11396:11399 Ionia.CNN_Model <> p4_3:272 var
+R11360:11367 Ionia.CNN_OP <> Concat4d def
+R11390:11393 Ionia.CNN_Model <> p3_4:269 var
+R11370:11377 Ionia.CNN_OP <> Concat4d def
+R11384:11387 Ionia.CNN_Model <> p2_4:265 var
+R11379:11382 Ionia.CNN_Model <> p1_2:261 var
+def 11417:11425 <> GoogLeNet
+binder 11427:11431 <> batch:273
+binder 11433:11439 <> channel:274
+binder 11441:11442 <> m1:275
+binder 11444:11445 <> m2:276
+R11458:11464 Ionia.CNN_Defs <> Tensor4 def
+R11483:11484 Ionia.CNN_Model <> m2:276 var
+R11480:11481 Ionia.CNN_Model <> m1:275 var
+R11472:11478 Ionia.CNN_Model <> channel:274 var
+R11466:11470 Ionia.CNN_Model <> batch:273 var
+binder 11451:11455 <> input:277
+R11541:11549 Ionia.CNN_Defs <> mkTensor4 def
+R11554:11560 Ionia.CNN_Model <> channel:274 var
+binder 11533:11536 <> b1_w:278
+R11583:11591 Ionia.CNN_Defs <> mkTensor1 def
+binder 11575:11578 <> b1_b:279
+R11615:11623 Ionia.CNN_Defs <> mkTensor4 def
+binder 11606:11610 <> b2_w1:280
+R11653:11661 Ionia.CNN_Defs <> mkTensor1 def
+binder 11644:11648 <> b2_b1:281
+R11684:11692 Ionia.CNN_Defs <> mkTensor4 def
+binder 11675:11679 <> b2_w2:282
+R11723:11731 Ionia.CNN_Defs <> mkTensor1 def
+binder 11714:11718 <> b2_b2:283
+R11756:11764 Ionia.CNN_Defs <> mkTensor2 def
+binder 11749:11751 <> f_w:284
+R11792:11800 Ionia.CNN_Defs <> mkTensor1 def
+binder 11785:11787 <> f_b:285
+R11813:11817 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11825:11828 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11855:11860 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11829:11834 Ionia.CNN_OP <> Conv4d def
+R11850:11854 Ionia.CNN_Model <> input:277 var
+R11845:11848 Ionia.CNN_Model <> b1_w:278 var
+R11840:11843 Ionia.CNN_Model <> b1_b:279 var
+binder 11818:11824 <> b1_conv:286
+R11861:11865 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11873:11876 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11891:11896 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11877:11882 Ionia.CNN_OP <> ReLU4d def
+R11884:11890 Ionia.CNN_Model <> b1_conv:286 var
+binder 11866:11872 <> b1_relu:287
+R11897:11901 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11909:11912 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11940:11967 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11913:11925 Ionia.CNN_OP <> Maxpool4d_pad def
+R11933:11939 Ionia.CNN_Model <> b1_relu:287 var
+binder 11902:11908 <> b1_pool:288
+R11968:11972 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11981:11984 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12015:12020 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R11985:11990 Ionia.CNN_OP <> Conv4d def
+R12008:12014 Ionia.CNN_Model <> b1_pool:288 var
+R12002:12006 Ionia.CNN_Model <> b2_w1:280 var
+R11996:12000 Ionia.CNN_Model <> b2_b1:281 var
+binder 11973:11980 <> b2_conv1:289
+R12021:12025 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12034:12037 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12053:12058 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12038:12043 Ionia.CNN_OP <> ReLU4d def
+R12045:12052 Ionia.CNN_Model <> b2_conv1:289 var
+binder 12026:12033 <> b2_relu1:290
+R12059:12063 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12072:12075 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12107:12112 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12076:12081 Ionia.CNN_OP <> Conv4d def
+R12099:12106 Ionia.CNN_Model <> b2_relu1:290 var
+R12093:12097 Ionia.CNN_Model <> b2_w2:282 var
+R12087:12091 Ionia.CNN_Model <> b2_b2:283 var
+binder 12064:12071 <> b2_conv2:291
+R12113:12117 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12126:12129 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12145:12150 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12130:12135 Ionia.CNN_OP <> ReLU4d def
+R12137:12144 Ionia.CNN_Model <> b2_conv2:291 var
+binder 12118:12125 <> b2_relu2:292
+R12151:12155 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12163:12166 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12195:12223 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12167:12179 Ionia.CNN_OP <> Maxpool4d_pad def
+R12187:12194 Ionia.CNN_Model <> b2_relu2:292 var
+binder 12156:12162 <> b2_pool:293
+R12224:12228 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12233:12236 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12273:12300 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12237:12245 Ionia.CNN_Model <> Inception def
+R12266:12272 Ionia.CNN_Model <> b2_pool:293 var
+binder 12229:12232 <> b3_1:294
+R12301:12305 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12310:12313 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12349:12377 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12314:12322 Ionia.CNN_Model <> Inception def
+R12345:12348 Ionia.CNN_Model <> b3_1:294 var
+binder 12306:12309 <> b3_2:295
+R12378:12382 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12390:12393 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12418:12457 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12394:12406 Ionia.CNN_OP <> Maxpool4d_pad def
+R12414:12417 Ionia.CNN_Model <> b3_2:295 var
+binder 12383:12389 <> b3_pool:296
+R12458:12462 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12467:12470 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12508:12539 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12471:12479 Ionia.CNN_Model <> Inception def
+R12501:12507 Ionia.CNN_Model <> b3_pool:296 var
+binder 12463:12466 <> b4_1:297
+R12540:12544 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12549:12552 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12588:12621 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12553:12561 Ionia.CNN_Model <> Inception def
+R12584:12587 Ionia.CNN_Model <> b3_1:294 var
+binder 12545:12548 <> b4_2:298
+R12622:12626 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12631:12634 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12673:12703 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12635:12643 Ionia.CNN_Model <> Inception def
+R12666:12672 Ionia.CNN_Model <> b3_pool:296 var
+binder 12627:12630 <> b4_3:299
+R12704:12708 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12713:12716 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12752:12785 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12717:12725 Ionia.CNN_Model <> Inception def
+R12748:12751 Ionia.CNN_Model <> b3_1:294 var
+binder 12709:12712 <> b4_4:300
+R12786:12790 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12795:12798 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12839:12867 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12799:12807 Ionia.CNN_Model <> Inception def
+R12832:12838 Ionia.CNN_Model <> b3_pool:296 var
+binder 12791:12794 <> b4_5:301
+R12868:12872 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12880:12883 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12900:12949 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12884:12892 Ionia.CNN_OP <> Maxpool4d def
+R12896:12899 Ionia.CNN_Model <> b4_5:301 var
+binder 12873:12879 <> b4_pool:302
+R12950:12954 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12959:12962 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R13003:13029 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R12963:12971 Ionia.CNN_Model <> Inception def
+R12996:13002 Ionia.CNN_Model <> b4_pool:302 var
+binder 12955:12958 <> b5_1:303
+R13030:13034 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R13039:13042 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R13080:13110 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R13043:13051 Ionia.CNN_Model <> Inception def
+R13076:13079 Ionia.CNN_Model <> b3_1:294 var
+binder 13035:13038 <> b5_2:304
+R13111:13115 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R13120:13123 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R13150:13194 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R13124:13140 Ionia.CNN_OP <> AdaptiveAvgPool4d def
+R13146:13149 Ionia.CNN_Model <> b5_2:304 var
+binder 13116:13119 <> b5_3:305
+R13195:13199 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R13204:13207 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R13222:13275 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R13208:13216 Ionia.CNN_OP <> Flatten4d def
+R13218:13221 Ionia.CNN_Model <> b5_3:305 var
+binder 13200:13203 <> b6_1:306
+R13276:13280 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R13285:13288 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R13325:13372 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R13289:13297 Ionia.CNN_OP <> Dropout2d def
+R13305:13311 Ionia.DataExp <> REconst constr
+R13299:13302 Ionia.CNN_Model <> b6_1:306 var
+binder 13281:13284 <> b6_2:307
+R13373:13380 Ionia.CNN_OP <> Linear2d def
+R13390:13393 Ionia.CNN_Model <> b6_2:307 var
+R13386:13388 Ionia.CNN_Model <> f_b:285 var
+R13382:13384 Ionia.CNN_Model <> f_w:284 var
+def 13481:13490 <> DenseLayer
+binder 13492:13496 <> batch:308
+binder 13498:13504 <> channel:309
+binder 13506:13507 <> m1:310
+binder 13509:13510 <> m2:311
+R13538:13540 Corelib.Init.Datatypes <> nat ind
+binder 13516:13522 <> bn_size:312
+binder 13524:13534 <> growth_rate:313
+R13554:13556 Ionia.DataExp <> exp def
+R13558:13560 Ionia.DataExp <> num constr
+binder 13543:13551 <> drop_rate:314
+R13573:13579 Ionia.CNN_Defs <> Tensor4 def
+R13598:13599 Ionia.CNN_Model <> m2:311 var
+R13595:13596 Ionia.CNN_Model <> m1:310 var
+R13587:13593 Ionia.CNN_Model <> channel:309 var
+R13581:13585 Ionia.CNN_Model <> batch:308 var
+binder 13566:13570 <> input:315
+R13625:13633 Ionia.CNN_Defs <> mkTensor4 def
+R13659:13665 Ionia.CNN_Model <> channel:309 var
+R13643:13645 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R13636:13642 Ionia.CNN_Model <> bn_size:312 var
+R13646:13656 Ionia.CNN_Model <> growth_rate:313 var
+binder 13617:13620 <> c1_w:316
+R13688:13696 Ionia.CNN_Defs <> mkTensor1 def
+R13706:13708 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R13699:13705 Ionia.CNN_Model <> bn_size:312 var
+R13709:13719 Ionia.CNN_Model <> growth_rate:313 var
+binder 13680:13683 <> c1_b:317
+R13739:13747 Ionia.CNN_Defs <> mkTensor4 def
+R13769:13771 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R13762:13768 Ionia.CNN_Model <> bn_size:312 var
+R13772:13782 Ionia.CNN_Model <> growth_rate:313 var
+R13749:13759 Ionia.CNN_Model <> growth_rate:313 var
+binder 13731:13734 <> c2_w:318
+R13806:13814 Ionia.CNN_Defs <> mkTensor1 def
+R13816:13826 Ionia.CNN_Model <> growth_rate:313 var
+binder 13798:13801 <> c2_b:319
+R13834:13838 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R13844:13847 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R13873:13878 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R13848:13858 Ionia.CNN_OP <> BatchNorm4d def
+R13868:13872 Ionia.CNN_Model <> input:315 var
+R13860:13866 Ionia.CNN_Model <> channel:309 var
+binder 13839:13843 <> norm1:320
+R13879:13883 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R13889:13892 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R13905:13910 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R13893:13898 Ionia.CNN_OP <> ReLU4d def
+R13900:13904 Ionia.CNN_Model <> norm1:320 var
+binder 13884:13888 <> relu1:321
+R13911:13915 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R13921:13924 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R13963:13971 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R13925:13933 Ionia.CNN_OP <> convert_1 def
+R13936:13941 Ionia.CNN_OP <> Conv4d def
+R13957:13961 Ionia.CNN_Model <> relu1:321 var
+R13952:13955 Ionia.CNN_Model <> c1_w:316 var
+R13947:13950 Ionia.CNN_Model <> c1_b:317 var
+binder 13916:13920 <> conv1:322
+R13972:13976 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R13982:13985 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R14027:14032 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R13986:13996 Ionia.CNN_OP <> BatchNorm4d def
+R14022:14026 Ionia.CNN_Model <> conv1:322 var
+R14006:14008 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R13999:14005 Ionia.CNN_Model <> bn_size:312 var
+R14009:14019 Ionia.CNN_Model <> growth_rate:313 var
+binder 13977:13981 <> norm2:323
+R14033:14037 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R14043:14046 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R14059:14064 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R14047:14052 Ionia.CNN_OP <> ReLU4d def
+R14054:14058 Ionia.CNN_Model <> norm2:323 var
+binder 14038:14042 <> relu2:324
+R14065:14069 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R14075:14078 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R14117:14123 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R14079:14087 Ionia.CNN_OP <> convert_3 def
+R14090:14095 Ionia.CNN_OP <> Conv4d def
+R14111:14115 Ionia.CNN_Model <> relu2:324 var
+R14106:14109 Ionia.CNN_Model <> c2_w:318 var
+R14101:14104 Ionia.CNN_Model <> c2_b:319 var
+binder 14070:14074 <> conv2:325
+R14124:14128 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R14141:14144 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R14170:14175 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R14145:14153 Ionia.CNN_OP <> Dropout4d def
+R14161:14169 Ionia.CNN_Model <> drop_rate:314 var
+R14155:14159 Ionia.CNN_Model <> conv2:325 var
+binder 14129:14140 <> new_features:326
+R14176:14183 Ionia.CNN_OP <> Concat4d def
+R14191:14202 Ionia.CNN_Model <> new_features:326 var
+R14185:14189 Ionia.CNN_Model <> input:315 var
+def 14216:14225 <> DenseBlock
+binder 14228:14232 <> batch:327
+binder 14234:14240 <> channel:328
+binder 14242:14243 <> m1:329
+binder 14245:14246 <> m2:330
+R14284:14286 Corelib.Init.Datatypes <> nat ind
+binder 14252:14258 <> bn_size:331
+binder 14260:14270 <> growth_rate:332
+binder 14272:14281 <> num_layers:333
+R14301:14303 Ionia.DataExp <> exp def
+R14305:14307 Ionia.DataExp <> num constr
+binder 14290:14298 <> drop_rate:334
+R14340:14345 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14313:14319 Ionia.CNN_Defs <> Tensor4 def
+R14338:14339 Ionia.CNN_Model <> m2:330 var
+R14335:14336 Ionia.CNN_Model <> m1:329 var
+R14327:14333 Ionia.CNN_Model <> channel:328 var
+R14321:14325 Ionia.CNN_Model <> batch:327 var
+R14346:14352 Ionia.CNN_Defs <> Tensor4 def
+R14400:14401 Ionia.CNN_Model <> m2:330 var
+R14397:14398 Ionia.CNN_Model <> m1:329 var
+R14368:14370 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R14361:14367 Ionia.CNN_Model <> channel:328 var
+R14382:14384 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R14371:14381 Ionia.CNN_Model <> growth_rate:332 var
+R14385:14394 Ionia.CNN_Model <> num_layers:333 var
+R14354:14358 Ionia.CNN_Model <> batch:327 var
+R14416:14425 Ionia.CNN_Model <> num_layers:333 var
+R14436:14436 Corelib.Init.Datatypes <> O constr
+R14453:14459 Ionia.CNN_Defs <> Tensor4 def
+R14478:14479 Ionia.CNN_Model <> m2:330 var
+R14475:14476 Ionia.CNN_Model <> m1:329 var
+R14467:14473 Ionia.CNN_Model <> channel:328 var
+R14461:14465 Ionia.CNN_Model <> batch:327 var
+binder 14446:14450 <> input:337
+R14494:14508 Ionia.CNN_OP <> convert_times_1 def
+R14518:14522 Ionia.CNN_Model <> input:337 var
+R14510:14516 Corelib.Init.Logic <> eq_refl constr
+R14528:14528 Corelib.Init.Datatypes <> S constr
+R14547:14553 Ionia.CNN_Defs <> Tensor4 def
+R14572:14573 Ionia.CNN_Model <> m2:330 var
+R14569:14570 Ionia.CNN_Model <> m1:329 var
+R14561:14567 Ionia.CNN_Model <> channel:328 var
+R14555:14559 Ionia.CNN_Model <> batch:327 var
+binder 14541:14545 <> input:338
+R14591:14603 Ionia.CNN_OP <> convert_times def
+R14606:14615 Ionia.CNN_Model <> DenseLayer def
+R14661:14670 Ionia.CNN_Model <> DenseBlock:335 def
+R14705:14709 Ionia.CNN_Model <> input:338 var
+R14695:14703 Ionia.CNN_Model <> drop_rate:334 var
+R14680:14690 Ionia.CNN_Model <> growth_rate:332 var
+R14672:14678 Ionia.CNN_Model <> bn_size:331 var
+R14637:14645 Ionia.CNN_Model <> drop_rate:334 var
+R14625:14635 Ionia.CNN_Model <> growth_rate:332 var
+R14617:14623 Ionia.CNN_Model <> bn_size:331 var
+def 14750:14759 <> Transition
+binder 14761:14765 <> batch:339
+binder 14767:14773 <> channel:340
+binder 14775:14776 <> m1:341
+binder 14778:14779 <> m2:342
+R14797:14799 Corelib.Init.Datatypes <> nat ind
+binder 14785:14795 <> out_channel:343
+R14809:14815 Ionia.CNN_Defs <> Tensor4 def
+R14834:14835 Ionia.CNN_Model <> m2:342 var
+R14831:14832 Ionia.CNN_Model <> m1:341 var
+R14823:14829 Ionia.CNN_Model <> channel:340 var
+R14817:14821 Ionia.CNN_Model <> batch:339 var
+binder 14802:14806 <> input:344
+R14857:14865 Ionia.CNN_Defs <> mkTensor4 def
+R14879:14885 Ionia.CNN_Model <> channel:340 var
+R14867:14877 Ionia.CNN_Model <> out_channel:343 var
+binder 14849:14852 <> c1_w:345
+R14908:14916 Ionia.CNN_Defs <> mkTensor1 def
+R14918:14928 Ionia.CNN_Model <> out_channel:343 var
+binder 14900:14903 <> c1_b:346
+R14936:14940 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R14945:14948 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R14974:14979 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R14949:14959 Ionia.CNN_OP <> BatchNorm4d def
+R14969:14973 Ionia.CNN_Model <> input:344 var
+R14961:14967 Ionia.CNN_Model <> channel:340 var
+binder 14941:14944 <> norm:347
+R14980:14984 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R14989:14992 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15004:15009 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R14993:14998 Ionia.CNN_OP <> ReLU4d def
+R15000:15003 Ionia.CNN_Model <> norm:347 var
+binder 14985:14988 <> relu:348
+R15010:15014 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15019:15022 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15048:15053 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15023:15028 Ionia.CNN_OP <> Conv4d def
+R15044:15047 Ionia.CNN_Model <> relu:348 var
+R15039:15042 Ionia.CNN_Model <> c1_w:345 var
+R15034:15037 Ionia.CNN_Model <> c1_b:346 var
+binder 15015:15018 <> conv:349
+R15054:15062 Ionia.CNN_OP <> Avgpool4d def
+R15066:15069 Ionia.CNN_Model <> conv:349 var
+def 15084:15095 <> DenseNet_121
+binder 15097:15101 <> batch:350
+binder 15103:15109 <> channel:351
+binder 15111:15112 <> m1:352
+binder 15114:15115 <> m2:353
+R15178:15180 Corelib.Init.Datatypes <> nat ind
+binder 15121:15127 <> bn_size:354
+binder 15129:15139 <> growth_rate:355
+binder 15141:15157 <> num_init_features:356
+binder 15159:15174 <> compression_rate:357
+R15197:15199 Ionia.DataExp <> exp def
+R15201:15203 Ionia.DataExp <> num constr
+binder 15186:15194 <> drop_rate:358
+R15216:15222 Ionia.CNN_Defs <> Tensor4 def
+R15241:15242 Ionia.CNN_Model <> m2:353 var
+R15238:15239 Ionia.CNN_Model <> m1:352 var
+R15230:15236 Ionia.CNN_Model <> channel:351 var
+R15224:15228 Ionia.CNN_Model <> batch:350 var
+binder 15209:15213 <> input:359
+R15267:15275 Ionia.CNN_Defs <> mkTensor4 def
+R15280:15286 Ionia.CNN_Model <> channel:351 var
+binder 15259:15262 <> c1_w:360
+R15309:15317 Ionia.CNN_Defs <> mkTensor1 def
+binder 15301:15304 <> c1_b:361
+R15340:15348 Ionia.CNN_Defs <> mkTensor2 def
+binder 15332:15335 <> f1_w:362
+R15377:15385 Ionia.CNN_Defs <> mkTensor1 def
+binder 15369:15372 <> f1_b:363
+R15424:15428 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15434:15437 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15464:15469 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15438:15443 Ionia.CNN_OP <> Conv4d def
+R15459:15463 Ionia.CNN_Model <> input:359 var
+R15454:15457 Ionia.CNN_Model <> c1_w:360 var
+R15449:15452 Ionia.CNN_Model <> c1_b:361 var
+binder 15429:15433 <> conv0:364
+R15470:15474 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15480:15483 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15504:15509 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15484:15494 Ionia.CNN_OP <> BatchNorm4d def
+R15499:15503 Ionia.CNN_Model <> conv0:364 var
+binder 15475:15479 <> norm0:365
+R15510:15514 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15520:15523 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15536:15541 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15524:15529 Ionia.CNN_OP <> ReLU4d def
+R15531:15535 Ionia.CNN_Model <> norm0:365 var
+binder 15515:15519 <> relu0:366
+R15542:15546 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15552:15555 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15581:15606 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15556:15568 Ionia.CNN_OP <> Maxpool4d_pad def
+R15576:15580 Ionia.CNN_Model <> relu0:366 var
+binder 15547:15551 <> pool0:367
+R15607:15611 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15615:15618 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15660:15665 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15619:15628 Ionia.CNN_Model <> DenseBlock def
+R15655:15659 Ionia.CNN_Model <> pool0:367 var
+R15638:15644 Ionia.DataExp <> REconst constr
+binder 15612:15614 <> db1:368
+R15666:15670 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15677:15680 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15699:15704 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15681:15690 Ionia.CNN_Model <> Transition def
+R15696:15698 Ionia.CNN_Model <> db1:368 var
+binder 15671:15676 <> trans1:369
+R15705:15709 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15713:15716 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15760:15765 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15717:15726 Ionia.CNN_Model <> DenseBlock def
+R15754:15759 Ionia.CNN_Model <> trans1:369 var
+R15737:15743 Ionia.DataExp <> REconst constr
+binder 15710:15712 <> db2:370
+R15766:15770 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15777:15780 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15799:15804 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15781:15790 Ionia.CNN_Model <> Transition def
+R15796:15798 Ionia.CNN_Model <> db2:370 var
+binder 15771:15776 <> trans2:371
+R15805:15809 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15813:15816 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15860:15865 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15817:15826 Ionia.CNN_Model <> DenseBlock def
+R15854:15859 Ionia.CNN_Model <> trans2:371 var
+R15837:15843 Ionia.DataExp <> REconst constr
+binder 15810:15812 <> db3:372
+R15866:15870 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15877:15880 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15899:15904 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15881:15890 Ionia.CNN_Model <> Transition def
+R15896:15898 Ionia.CNN_Model <> db3:372 var
+binder 15871:15876 <> trans3:373
+R15905:15909 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15913:15916 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15960:15991 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R15917:15926 Ionia.CNN_Model <> DenseBlock def
+R15954:15959 Ionia.CNN_Model <> trans3:373 var
+R15937:15943 Ionia.DataExp <> REconst constr
+binder 15910:15912 <> db4:374
+R15992:15996 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16002:16005 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16026:16031 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16006:16016 Ionia.CNN_OP <> BatchNorm4d def
+R16023:16025 Ionia.CNN_Model <> db4:374 var
+binder 15997:16001 <> norm5:375
+R16032:16036 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16042:16045 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16058:16063 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16046:16051 Ionia.CNN_OP <> ReLU4d def
+R16053:16057 Ionia.CNN_Model <> norm5:375 var
+binder 16037:16041 <> relu5:376
+R16064:16068 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16074:16077 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16105:16110 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16078:16094 Ionia.CNN_OP <> AdaptiveAvgPool4d def
+R16100:16104 Ionia.CNN_Model <> relu5:376 var
+binder 16069:16073 <> pool5:377
+R16111:16115 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16121:16124 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16140:16145 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16125:16133 Ionia.CNN_OP <> Flatten4d def
+R16135:16139 Ionia.CNN_Model <> pool5:377 var
+binder 16116:16120 <> flatt:378
+R16146:16153 Ionia.CNN_OP <> Linear2d def
+R16165:16169 Ionia.CNN_Model <> flatt:378 var
+R16160:16163 Ionia.CNN_Model <> f1_b:363 var
+R16155:16158 Ionia.CNN_Model <> f1_w:362 var
+def 16197:16199 <> VAE
+R16208:16214 Ionia.CNN_Defs <> Tensor4 def
+binder 16201:16205 <> input:379
+R16239:16245 Ionia.CNN_Defs <> Tensor2 def
+binder 16232:16236 <> fc1_w:380
+R16264:16270 Ionia.CNN_Defs <> Tensor1 def
+binder 16257:16261 <> fc1_b:381
+R16288:16294 Ionia.CNN_Defs <> Tensor2 def
+binder 16280:16285 <> fc21_w:382
+R16313:16319 Ionia.CNN_Defs <> Tensor1 def
+binder 16305:16310 <> fc21_b:383
+R16336:16342 Ionia.CNN_Defs <> Tensor2 def
+binder 16328:16333 <> fc22_w:384
+R16361:16367 Ionia.CNN_Defs <> Tensor1 def
+binder 16353:16358 <> fc22_b:385
+R16383:16389 Ionia.CNN_Defs <> Tensor2 def
+binder 16376:16380 <> fc3_w:386
+R16407:16413 Ionia.CNN_Defs <> Tensor1 def
+binder 16400:16404 <> fc3_b:387
+R16430:16436 Ionia.CNN_Defs <> Tensor2 def
+binder 16423:16427 <> fc4_w:388
+R16455:16461 Ionia.CNN_Defs <> Tensor1 def
+binder 16448:16452 <> fc4_b:389
+R16490:16494 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16506:16509 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16525:16559 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16510:16518 Ionia.CNN_OP <> Flatten4d def
+R16520:16524 Ionia.CNN_Model <> input:379 var
+binder 16495:16505 <> flatten_map:390
+R16560:16564 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16572:16575 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16608:16629 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16576:16583 Ionia.CNN_OP <> Linear2d def
+R16597:16607 Ionia.CNN_Model <> flatten_map:390 var
+R16591:16595 Ionia.CNN_Model <> fc1_b:381 var
+R16585:16589 Ionia.CNN_Model <> fc1_w:380 var
+binder 16565:16571 <> fc1_map:391
+R16630:16634 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16644:16647 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16662:16699 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16648:16653 Ionia.CNN_OP <> ReLU2d def
+R16655:16661 Ionia.CNN_Model <> fc1_map:391 var
+binder 16635:16643 <> relu1_map:392
+R16700:16704 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16707:16710 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16743:16774 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16711:16718 Ionia.CNN_OP <> Linear2d def
+R16734:16742 Ionia.CNN_Model <> relu1_map:392 var
+R16727:16732 Ionia.CNN_Model <> fc21_b:383 var
+R16720:16725 Ionia.CNN_Model <> fc21_w:382 var
+binder 16705:16706 <> mu:393
+R16775:16779 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16786:16789 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16822:16852 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16790:16797 Ionia.CNN_OP <> Linear2d def
+R16813:16821 Ionia.CNN_Model <> relu1_map:392 var
+R16806:16811 Ionia.CNN_Model <> fc22_b:385 var
+R16799:16804 Ionia.CNN_Model <> fc22_w:384 var
+binder 16780:16785 <> logvar:394
+R16853:16857 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16861:16864 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16908:16937 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16865:16869 Ionia.CNN_OP <> Exp2d def
+R16872:16877 Ionia.CNN_OP <> Mulc2d def
+R16901:16906 Ionia.CNN_Model <> logvar:394 var
+R16880:16886 Ionia.DataExp <> REconst constr
+binder 16858:16860 <> std:395
+R16938:16942 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16946:16949 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16961:17006 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R16950:16956 Ionia.CNN_OP <> Randn2d def
+R16958:16960 Ionia.CNN_Model <> std:395 var
+binder 16943:16945 <> eps:396
+R17007:17011 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R17013:17016 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R17041:17093 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R17017:17021 Ionia.CNN_OP <> Add2d def
+R17039:17040 Ionia.CNN_Model <> mu:393 var
+R17024:17028 Ionia.CNN_OP <> Mul2d def
+R17034:17036 Ionia.CNN_Model <> std:395 var
+R17030:17032 Ionia.CNN_Model <> eps:396 var
+binder 17012:17012 <> z:397
+R17094:17098 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R17106:17109 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R17132:17163 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R17110:17117 Ionia.CNN_OP <> Linear2d def
+R17131:17131 Ionia.CNN_Model <> z:397 var
+R17125:17129 Ionia.CNN_Model <> fc3_b:387 var
+R17119:17123 Ionia.CNN_Model <> fc3_w:386 var
+binder 17099:17105 <> fc3_map:398
+R17164:17168 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R17178:17181 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R17196:17233 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R17182:17187 Ionia.CNN_OP <> ReLU2d def
+R17189:17195 Ionia.CNN_Model <> fc3_map:398 var
+binder 17169:17177 <> relu3_map:399
+R17234:17238 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R17246:17249 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R17280:17303 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R17250:17257 Ionia.CNN_OP <> Linear2d def
+R17271:17279 Ionia.CNN_Model <> relu3_map:399 var
+R17265:17269 Ionia.CNN_Model <> fc4_b:389 var
+R17259:17263 Ionia.CNN_Model <> fc4_w:388 var
+binder 17239:17245 <> fc4_map:400
+R17304:17308 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R17315:17318 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R17336:17374 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R17319:17327 Ionia.CNN_OP <> Sigmoid2d def
+R17329:17335 Ionia.CNN_Model <> fc4_map:400 var
+binder 17309:17314 <> output:401
+R17375:17379 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R17383:17386 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R17415:17473 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R17387:17395 Ionia.CNN_OP <> BCELoss2d def
+R17404:17414 Ionia.CNN_Model <> flatten_map:390 var
+R17397:17402 Ionia.CNN_Model <> output:401 var
+binder 17380:17382 <> BCE:402
+R17474:17478 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R17482:17485 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R17609:17614 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R17486:17488 Ionia.CNN_Defs <> mul def
+R17521:17525 Ionia.CNN_OP <> Sum2d def
+R17528:17532 Ionia.CNN_OP <> Sub2d def
+R17594:17598 Ionia.CNN_OP <> Exp2d def
+R17600:17605 Ionia.CNN_Model <> logvar:394 var
+R17535:17539 Ionia.CNN_OP <> Sub2d def
+R17579:17583 Ionia.CNN_OP <> Mul2d def
+R17588:17589 Ionia.CNN_Model <> mu:393 var
+R17585:17586 Ionia.CNN_Model <> mu:393 var
+R17545:17550 Ionia.CNN_OP <> Addc2d def
+R17570:17575 Ionia.CNN_Model <> logvar:394 var
+R17553:17559 Ionia.DataExp <> REconst constr
+R17491:17496 Ionia.CNN_Defs <> negate def
+R17499:17505 Ionia.DataExp <> REconst constr
+binder 17479:17481 <> KLD:403
+R17615:17620 Ionia.CNN_OP <> Addc2d def
+R17626:17628 Ionia.CNN_Model <> BCE:402 var
+R17622:17624 Ionia.CNN_Model <> KLD:403 var
+def 17657:17665 <> Generator
+R17677:17679 Corelib.Init.Datatypes <> nat ind
+binder 17667:17668 <> nz:404
+binder 17670:17672 <> ngf:405
+binder 17674:17675 <> nc:406
+R17689:17695 Ionia.CNN_Defs <> Tensor4 def
+R17700:17701 Ionia.CNN_Model <> nz:404 var
+binder 17682:17686 <> input:407
+R17718:17724 Ionia.CNN_Defs <> Tensor4 def
+R17734:17735 Ionia.CNN_Model <> nz:404 var
+R17730:17730 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R17727:17729 Ionia.CNN_Model <> ngf:405 var
+binder 17711:17715 <> ct1_w:408
+R17750:17756 Ionia.CNN_Defs <> Tensor1 def
+R17762:17762 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R17759:17761 Ionia.CNN_Model <> ngf:405 var
+binder 17743:17747 <> ct1_b:409
+R17778:17784 Ionia.CNN_Defs <> Tensor4 def
+R17798:17798 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R17795:17797 Ionia.CNN_Model <> ngf:405 var
+R17790:17790 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R17787:17789 Ionia.CNN_Model <> ngf:405 var
+binder 17771:17775 <> ct2_w:410
+R17815:17821 Ionia.CNN_Defs <> Tensor1 def
+R17827:17827 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R17824:17826 Ionia.CNN_Model <> ngf:405 var
+binder 17808:17812 <> ct2_b:411
+R17842:17848 Ionia.CNN_Defs <> Tensor4 def
+R17862:17862 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R17859:17861 Ionia.CNN_Model <> ngf:405 var
+R17854:17854 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R17851:17853 Ionia.CNN_Model <> ngf:405 var
+binder 17835:17839 <> ct3_w:412
+R17879:17885 Ionia.CNN_Defs <> Tensor1 def
+R17891:17891 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R17888:17890 Ionia.CNN_Model <> ngf:405 var
+binder 17872:17876 <> ct3_b:413
+R17906:17912 Ionia.CNN_Defs <> Tensor4 def
+R17922:17922 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R17919:17921 Ionia.CNN_Model <> ngf:405 var
+R17914:17916 Ionia.CNN_Model <> ngf:405 var
+binder 17899:17903 <> ct4_w:414
+R17939:17945 Ionia.CNN_Defs <> Tensor1 def
+R17947:17949 Ionia.CNN_Model <> ngf:405 var
+binder 17932:17936 <> ct4_b:415
+R17962:17968 Ionia.CNN_Defs <> Tensor4 def
+R17973:17975 Ionia.CNN_Model <> ngf:405 var
+R17970:17971 Ionia.CNN_Model <> nc:406 var
+binder 17955:17959 <> ct5_w:416
+R17990:17996 Ionia.CNN_Defs <> Tensor1 def
+R17998:17999 Ionia.CNN_Model <> nc:406 var
+binder 17983:17987 <> ct5_b:417
+R18006:18012 Ionia.CNN_Defs <> Tensor4 def
+R18017:18018 Ionia.CNN_Model <> nc:406 var
+R18031:18035 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18049:18052 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18090:18121 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18053:18067 Ionia.CNN_OP <> ConvTranspose4d def
+R18085:18089 Ionia.CNN_Model <> input:407 var
+R18079:18083 Ionia.CNN_Model <> ct1_w:408 var
+R18073:18077 Ionia.CNN_Model <> ct1_b:409 var
+binder 18036:18048 <> feature_map_1:418
+R18122:18126 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18137:18140 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18174:18212 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18141:18151 Ionia.CNN_OP <> BatchNorm4d def
+R18161:18173 Ionia.CNN_Model <> feature_map_1:418 var
+R18157:18157 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R18154:18156 Ionia.CNN_Model <> ngf:405 var
+binder 18127:18136 <> norm_map_1:419
+R18213:18217 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18228:18231 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18249:18303 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18232:18237 Ionia.CNN_OP <> ReLU4d def
+R18239:18248 Ionia.CNN_Model <> norm_map_1:419 var
+binder 18218:18227 <> relu_map_1:420
+R18304:18308 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18322:18325 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18368:18394 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18326:18340 Ionia.CNN_OP <> ConvTranspose4d def
+R18358:18367 Ionia.CNN_Model <> relu_map_1:420 var
+R18352:18356 Ionia.CNN_Model <> ct2_w:410 var
+R18346:18350 Ionia.CNN_Model <> ct2_b:411 var
+binder 18309:18321 <> feature_map_2:421
+R18395:18399 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18410:18413 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18447:18485 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18414:18424 Ionia.CNN_OP <> BatchNorm4d def
+R18434:18446 Ionia.CNN_Model <> feature_map_2:421 var
+R18430:18430 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R18427:18429 Ionia.CNN_Model <> ngf:405 var
+binder 18400:18409 <> norm_map_2:422
+R18486:18490 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18501:18504 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18522:18576 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18505:18510 Ionia.CNN_OP <> ReLU4d def
+R18512:18521 Ionia.CNN_Model <> norm_map_2:422 var
+binder 18491:18500 <> relu_map_2:423
+R18577:18581 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18595:18598 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18641:18669 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18599:18613 Ionia.CNN_OP <> ConvTranspose4d def
+R18631:18640 Ionia.CNN_Model <> relu_map_2:423 var
+R18625:18629 Ionia.CNN_Model <> ct3_w:412 var
+R18619:18623 Ionia.CNN_Model <> ct3_b:413 var
+binder 18582:18594 <> feature_map_3:424
+R18670:18674 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18685:18688 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18722:18762 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18689:18699 Ionia.CNN_OP <> BatchNorm4d def
+R18709:18721 Ionia.CNN_Model <> feature_map_3:424 var
+R18705:18705 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R18702:18704 Ionia.CNN_Model <> ngf:405 var
+binder 18675:18684 <> norm_map_3:425
+R18763:18767 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18778:18781 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18799:18855 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18782:18787 Ionia.CNN_OP <> ReLU4d def
+R18789:18798 Ionia.CNN_Model <> norm_map_3:425 var
+binder 18768:18777 <> relu_map_3:426
+R18856:18860 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18874:18877 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18920:18946 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18878:18892 Ionia.CNN_OP <> ConvTranspose4d def
+R18910:18919 Ionia.CNN_Model <> relu_map_3:426 var
+R18904:18908 Ionia.CNN_Model <> ct4_w:414 var
+R18898:18902 Ionia.CNN_Model <> ct4_b:415 var
+binder 18861:18873 <> feature_map_4:427
+R18947:18951 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18962:18965 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18995:19037 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R18966:18976 Ionia.CNN_OP <> BatchNorm4d def
+R18982:18994 Ionia.CNN_Model <> feature_map_4:427 var
+R18978:18980 Ionia.CNN_Model <> ngf:405 var
+binder 18952:18961 <> norm_map_4:428
+R19038:19042 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R19053:19056 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R19074:19128 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R19057:19062 Ionia.CNN_OP <> ReLU4d def
+R19064:19073 Ionia.CNN_Model <> norm_map_4:428 var
+binder 19043:19052 <> relu_map_4:429
+R19129:19133 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R19147:19150 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R19193:19218 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R19151:19165 Ionia.CNN_OP <> ConvTranspose4d def
+R19183:19192 Ionia.CNN_Model <> relu_map_4:429 var
+R19177:19181 Ionia.CNN_Model <> ct5_w:416 var
+R19171:19175 Ionia.CNN_Model <> ct5_b:417 var
+binder 19134:19146 <> feature_map_5:430
+R19219:19224 Ionia.CNN_OP <> Tanh4d def
+R19226:19238 Ionia.CNN_Model <> feature_map_5:430 var
+def 19323:19335 <> Discriminator
+R19344:19346 Corelib.Init.Datatypes <> nat ind
+binder 19337:19339 <> ndf:431
+binder 19341:19342 <> nc:432
+R19358:19364 Ionia.CNN_Defs <> Tensor4 def
+R19369:19370 Ionia.CNN_Model <> nc:432 var
+binder 19349:19355 <> D_input:433
+R19388:19394 Ionia.CNN_Defs <> Tensor4 def
+R19400:19401 Ionia.CNN_Model <> nc:432 var
+R19396:19398 Ionia.CNN_Model <> ndf:431 var
+binder 19382:19385 <> c1_w:434
+R19415:19421 Ionia.CNN_Defs <> Tensor1 def
+R19423:19425 Ionia.CNN_Model <> ndf:431 var
+binder 19409:19412 <> c1_b:435
+R19448:19454 Ionia.CNN_Defs <> Tensor4 def
+R19464:19466 Ionia.CNN_Model <> ndf:431 var
+R19460:19460 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R19457:19459 Ionia.CNN_Model <> ndf:431 var
+binder 19442:19445 <> c2_w:436
+R19480:19486 Ionia.CNN_Defs <> Tensor1 def
+R19492:19492 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R19489:19491 Ionia.CNN_Model <> ndf:431 var
+binder 19474:19477 <> c2_b:437
+R19506:19512 Ionia.CNN_Defs <> Tensor4 def
+R19526:19526 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R19523:19525 Ionia.CNN_Model <> ndf:431 var
+R19518:19518 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R19515:19517 Ionia.CNN_Model <> ndf:431 var
+binder 19500:19503 <> c3_w:438
+R19542:19548 Ionia.CNN_Defs <> Tensor1 def
+R19554:19554 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R19551:19553 Ionia.CNN_Model <> ndf:431 var
+binder 19536:19539 <> c3_b:439
+R19568:19574 Ionia.CNN_Defs <> Tensor4 def
+R19588:19588 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R19585:19587 Ionia.CNN_Model <> ndf:431 var
+R19580:19580 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R19577:19579 Ionia.CNN_Model <> ndf:431 var
+binder 19562:19565 <> c4_w:440
+R19604:19610 Ionia.CNN_Defs <> Tensor1 def
+R19616:19616 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R19613:19615 Ionia.CNN_Model <> ndf:431 var
+binder 19598:19601 <> c4_b:441
+R19631:19637 Ionia.CNN_Defs <> Tensor4 def
+R19645:19645 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R19642:19644 Ionia.CNN_Model <> ndf:431 var
+binder 19625:19628 <> c5_w:442
+R19661:19667 Ionia.CNN_Defs <> Tensor1 def
+binder 19655:19658 <> c5_b:443
+R19679:19683 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R19693:19696 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R19725:19769 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R19697:19702 Ionia.CNN_OP <> Conv4d def
+R19718:19724 Ionia.CNN_Model <> D_input:433 var
+R19713:19716 Ionia.CNN_Model <> c1_w:434 var
+R19708:19711 Ionia.CNN_Model <> c1_b:435 var
+binder 19684:19692 <> feature_1:444
+R19770:19774 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R19781:19784 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R19828:19876 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R19785:19795 Ionia.CNN_OP <> LeakyReLU4d def
+R19819:19827 Ionia.CNN_Model <> feature_1:444 var
+R19798:19804 Ionia.DataExp <> REconst constr
+binder 19775:19780 <> relu_1:445
+R19877:19881 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R19891:19894 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R19922:19969 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R19895:19900 Ionia.CNN_OP <> Conv4d def
+R19916:19921 Ionia.CNN_Model <> relu_1:445 var
+R19911:19914 Ionia.CNN_Model <> c2_w:436 var
+R19906:19909 Ionia.CNN_Model <> c2_b:437 var
+binder 19882:19890 <> feature_2:446
+R19970:19974 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R19981:19984 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R20014:20062 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R19985:19995 Ionia.CNN_OP <> BatchNorm4d def
+R20005:20013 Ionia.CNN_Model <> feature_2:446 var
+R20001:20001 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R19998:20000 Ionia.CNN_Model <> ndf:431 var
+binder 19975:19980 <> norm_2:447
+R20063:20067 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R20074:20077 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R20118:20171 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R20078:20088 Ionia.CNN_OP <> LeakyReLU4d def
+R20112:20117 Ionia.CNN_Model <> norm_2:447 var
+R20091:20097 Ionia.DataExp <> REconst constr
+binder 20068:20073 <> relu_2:448
+R20172:20176 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R20186:20189 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R20217:20262 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R20190:20195 Ionia.CNN_OP <> Conv4d def
+R20211:20216 Ionia.CNN_Model <> relu_2:448 var
+R20206:20209 Ionia.CNN_Model <> c3_w:438 var
+R20201:20204 Ionia.CNN_Model <> c3_b:439 var
+binder 20177:20185 <> feature_3:449
+R20263:20267 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R20274:20277 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R20307:20353 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R20278:20288 Ionia.CNN_OP <> BatchNorm4d def
+R20298:20306 Ionia.CNN_Model <> feature_3:449 var
+R20294:20294 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R20291:20293 Ionia.CNN_Model <> ndf:431 var
+binder 20268:20273 <> norm_3:450
+R20354:20358 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R20365:20368 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R20409:20460 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R20369:20379 Ionia.CNN_OP <> LeakyReLU4d def
+R20403:20408 Ionia.CNN_Model <> norm_3:450 var
+R20382:20388 Ionia.DataExp <> REconst constr
+binder 20359:20364 <> relu_3:451
+R20461:20465 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R20475:20478 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R20506:20551 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R20479:20484 Ionia.CNN_OP <> Conv4d def
+R20500:20505 Ionia.CNN_Model <> relu_3:451 var
+R20495:20498 Ionia.CNN_Model <> c4_w:440 var
+R20490:20493 Ionia.CNN_Model <> c4_b:441 var
+binder 20466:20474 <> feature_4:452
+R20552:20556 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R20563:20566 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R20596:20642 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R20567:20577 Ionia.CNN_OP <> BatchNorm4d def
+R20587:20595 Ionia.CNN_Model <> feature_4:452 var
+R20583:20583 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R20580:20582 Ionia.CNN_Model <> ndf:431 var
+binder 20557:20562 <> norm_4:453
+R20643:20647 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R20654:20657 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R20698:20749 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R20658:20668 Ionia.CNN_OP <> LeakyReLU4d def
+R20692:20697 Ionia.CNN_Model <> norm_4:453 var
+R20671:20677 Ionia.DataExp <> REconst constr
+binder 20648:20653 <> relu_4:454
+R20750:20754 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R20764:20767 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R20795:20836 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R20768:20773 Ionia.CNN_OP <> Conv4d def
+R20789:20794 Ionia.CNN_Model <> relu_4:454 var
+R20784:20787 Ionia.CNN_Model <> c5_w:442 var
+R20779:20782 Ionia.CNN_Model <> c5_b:443 var
+binder 20755:20763 <> feature_5:455
+R20837:20845 Ionia.CNN_OP <> Flatten4d def
+R20848:20856 Ionia.CNN_OP <> Sigmoid4d def
+R20858:20866 Ionia.CNN_Model <> feature_5:455 var
+def 20934:20938 <> DCGAN
+R20954:20956 Corelib.Init.Datatypes <> nat ind
+binder 20940:20941 <> nz:456
+binder 20943:20945 <> ngf:457
+binder 20947:20949 <> ndf:458
+binder 20951:20952 <> nc:459
+R20971:20977 Ionia.CNN_Defs <> Tensor4 def
+R20982:20983 Ionia.CNN_Model <> nz:456 var
+binder 20962:20968 <> G_input:460
+R21004:21010 Ionia.CNN_Defs <> Tensor4 def
+R21015:21016 Ionia.CNN_Model <> nc:459 var
+binder 20990:21001 <> D_real_input:461
+R21035:21041 Ionia.CNN_Defs <> Tensor4 def
+R21051:21052 Ionia.CNN_Model <> nz:456 var
+R21047:21047 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R21044:21046 Ionia.CNN_Model <> ngf:457 var
+binder 21028:21032 <> ct1_w:462
+R21067:21073 Ionia.CNN_Defs <> Tensor1 def
+R21079:21079 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R21076:21078 Ionia.CNN_Model <> ngf:457 var
+binder 21060:21064 <> ct1_b:463
+R21095:21101 Ionia.CNN_Defs <> Tensor4 def
+R21115:21115 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R21112:21114 Ionia.CNN_Model <> ngf:457 var
+R21107:21107 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R21104:21106 Ionia.CNN_Model <> ngf:457 var
+binder 21088:21092 <> ct2_w:464
+R21132:21138 Ionia.CNN_Defs <> Tensor1 def
+R21144:21144 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R21141:21143 Ionia.CNN_Model <> ngf:457 var
+binder 21125:21129 <> ct2_b:465
+R21159:21165 Ionia.CNN_Defs <> Tensor4 def
+R21179:21179 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R21176:21178 Ionia.CNN_Model <> ngf:457 var
+R21171:21171 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R21168:21170 Ionia.CNN_Model <> ngf:457 var
+binder 21152:21156 <> ct3_w:466
+R21196:21202 Ionia.CNN_Defs <> Tensor1 def
+R21208:21208 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R21205:21207 Ionia.CNN_Model <> ngf:457 var
+binder 21189:21193 <> ct3_b:467
+R21223:21229 Ionia.CNN_Defs <> Tensor4 def
+R21239:21239 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R21236:21238 Ionia.CNN_Model <> ngf:457 var
+R21231:21233 Ionia.CNN_Model <> ngf:457 var
+binder 21216:21220 <> ct4_w:468
+R21256:21262 Ionia.CNN_Defs <> Tensor1 def
+R21264:21266 Ionia.CNN_Model <> ngf:457 var
+binder 21249:21253 <> ct4_b:469
+R21279:21285 Ionia.CNN_Defs <> Tensor4 def
+R21290:21292 Ionia.CNN_Model <> ngf:457 var
+R21287:21288 Ionia.CNN_Model <> nc:459 var
+binder 21272:21276 <> ct5_w:470
+R21307:21313 Ionia.CNN_Defs <> Tensor1 def
+R21315:21316 Ionia.CNN_Model <> nc:459 var
+binder 21300:21304 <> ct5_b:471
+R21328:21334 Ionia.CNN_Defs <> Tensor4 def
+R21340:21341 Ionia.CNN_Model <> nc:459 var
+R21336:21338 Ionia.CNN_Model <> ndf:458 var
+binder 21322:21325 <> c1_w:472
+R21355:21361 Ionia.CNN_Defs <> Tensor1 def
+R21363:21365 Ionia.CNN_Model <> ndf:458 var
+binder 21349:21352 <> c1_b:473
+R21387:21393 Ionia.CNN_Defs <> Tensor4 def
+R21403:21405 Ionia.CNN_Model <> ndf:458 var
+R21399:21399 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R21396:21398 Ionia.CNN_Model <> ndf:458 var
+binder 21381:21384 <> c2_w:474
+R21419:21425 Ionia.CNN_Defs <> Tensor1 def
+R21431:21431 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R21428:21430 Ionia.CNN_Model <> ndf:458 var
+binder 21413:21416 <> c2_b:475
+R21445:21451 Ionia.CNN_Defs <> Tensor4 def
+R21465:21465 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R21462:21464 Ionia.CNN_Model <> ndf:458 var
+R21457:21457 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R21454:21456 Ionia.CNN_Model <> ndf:458 var
+binder 21439:21442 <> c3_w:476
+R21481:21487 Ionia.CNN_Defs <> Tensor1 def
+R21493:21493 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R21490:21492 Ionia.CNN_Model <> ndf:458 var
+binder 21475:21478 <> c3_b:477
+R21507:21513 Ionia.CNN_Defs <> Tensor4 def
+R21527:21527 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R21524:21526 Ionia.CNN_Model <> ndf:458 var
+R21519:21519 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R21516:21518 Ionia.CNN_Model <> ndf:458 var
+binder 21501:21504 <> c4_w:478
+R21543:21549 Ionia.CNN_Defs <> Tensor1 def
+R21555:21555 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R21552:21554 Ionia.CNN_Model <> ndf:458 var
+binder 21537:21540 <> c4_b:479
+R21570:21576 Ionia.CNN_Defs <> Tensor4 def
+R21584:21584 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R21581:21583 Ionia.CNN_Model <> ndf:458 var
+binder 21564:21567 <> c5_w:480
+R21600:21606 Ionia.CNN_Defs <> Tensor1 def
+binder 21594:21597 <> c5_b:481
+R21626:21632 Ionia.CNN_Defs <> Tensor2 def
+binder 21614:21623 <> real_label:482
+R21649:21653 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R21667:21670 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R21752:21758 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R21671:21683 Ionia.CNN_Model <> Discriminator def
+R21748:21751 Ionia.CNN_Model <> c5_b:481 var
+R21743:21746 Ionia.CNN_Model <> c5_w:480 var
+R21738:21741 Ionia.CNN_Model <> c4_b:479 var
+R21733:21736 Ionia.CNN_Model <> c4_w:478 var
+R21728:21731 Ionia.CNN_Model <> c3_b:477 var
+R21723:21726 Ionia.CNN_Model <> c3_w:476 var
+R21718:21721 Ionia.CNN_Model <> c2_b:475 var
+R21713:21716 Ionia.CNN_Model <> c2_w:474 var
+R21708:21711 Ionia.CNN_Model <> c1_b:473 var
+R21703:21706 Ionia.CNN_Model <> c1_w:472 var
+R21685:21696 Ionia.CNN_Model <> D_real_input:461 var
+binder 21654:21666 <> D_real_output:483
+R21759:21763 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R21773:21776 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R21811:21820 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R21777:21785 Ionia.CNN_OP <> BCELoss2d def
+R21801:21810 Ionia.CNN_Model <> real_label:482 var
+R21787:21799 Ionia.CNN_Model <> D_real_output:483 var
+binder 21764:21772 <> errD_real:484
+R21821:21825 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R21830:21833 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R21916:21921 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R21834:21842 Ionia.CNN_Model <> Generator def
+R21911:21915 Ionia.CNN_Model <> ct5_b:471 var
+R21905:21909 Ionia.CNN_Model <> ct5_w:470 var
+R21899:21903 Ionia.CNN_Model <> ct4_b:469 var
+R21893:21897 Ionia.CNN_Model <> ct4_w:468 var
+R21887:21891 Ionia.CNN_Model <> ct3_b:467 var
+R21881:21885 Ionia.CNN_Model <> ct3_w:466 var
+R21875:21879 Ionia.CNN_Model <> ct2_b:465 var
+R21869:21873 Ionia.CNN_Model <> ct2_w:464 var
+R21863:21867 Ionia.CNN_Model <> ct1_b:463 var
+R21857:21861 Ionia.CNN_Model <> ct1_w:462 var
+R21844:21850 Ionia.CNN_Model <> G_input:460 var
+binder 21826:21829 <> fake:485
+R21922:21926 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R21940:21943 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R22017:22022 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R21944:21956 Ionia.CNN_Model <> Discriminator def
+R22013:22016 Ionia.CNN_Model <> c5_b:481 var
+R22008:22011 Ionia.CNN_Model <> c5_w:480 var
+R22003:22006 Ionia.CNN_Model <> c4_b:479 var
+R21998:22001 Ionia.CNN_Model <> c4_w:478 var
+R21993:21996 Ionia.CNN_Model <> c3_b:477 var
+R21988:21991 Ionia.CNN_Model <> c3_w:476 var
+R21983:21986 Ionia.CNN_Model <> c2_b:475 var
+R21978:21981 Ionia.CNN_Model <> c2_w:474 var
+R21973:21976 Ionia.CNN_Model <> c1_b:473 var
+R21968:21971 Ionia.CNN_Model <> c1_w:472 var
+R21958:21961 Ionia.CNN_Model <> fake:485 var
+binder 21927:21939 <> D_fake_output:486
+R22023:22027 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R22038:22041 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R22064:22081 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R22042:22047 Ionia.CNN_OP <> Fill2d def
+R22054:22063 Ionia.CNN_Model <> real_label:482 var
+R22049:22052 Ionia.CNN_Defs <> zero def
+binder 22028:22037 <> fake_label:487
+R22082:22086 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R22096:22099 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R22134:22142 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R22100:22108 Ionia.CNN_OP <> BCELoss2d def
+R22124:22133 Ionia.CNN_Model <> fake_label:487 var
+R22110:22122 Ionia.CNN_Model <> D_fake_output:486 var
+binder 22087:22095 <> errD_fake:488
+R22143:22147 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R22153:22156 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R22178:22183 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R22157:22162 Ionia.CNN_OP <> Fill2d def
+R22168:22177 Ionia.CNN_Model <> fake_label:487 var
+R22164:22166 Ionia.CNN_Defs <> one def
+binder 22148:22152 <> label:489
+R22184:22192 Ionia.CNN_OP <> BCELoss2d def
+R22208:22212 Ionia.CNN_Model <> label:489 var
+R22194:22206 Ionia.CNN_Model <> D_fake_output:486 var
+def 23227:23230 <> LSTM
+R23245:23247 Corelib.Init.Datatypes <> nat ind
+binder 23232:23241 <> seq_length:490
+binder 23243:23243 <> n:491
+R23254:23256 Corelib.Init.Datatypes <> nat ind
+binder 23250:23250 <> d:492
+binder 23252:23252 <> h:493
+R23269:23275 Ionia.CNN_Defs <> Tensor3 def
+R23290:23290 Ionia.CNN_Model <> d:492 var
+R23288:23288 Ionia.CNN_Model <> n:491 var
+R23277:23286 Ionia.CNN_Model <> seq_length:490 var
+binder 23262:23266 <> input:494
+R23299:23305 Ionia.CNN_Defs <> Tensor3 def
+R23311:23311 Ionia.CNN_Model <> h:493 var
+R23309:23309 Ionia.CNN_Model <> n:491 var
+binder 23296:23296 <> H:495
+R23320:23326 Ionia.CNN_Defs <> Tensor3 def
+R23332:23332 Ionia.CNN_Model <> h:493 var
+R23330:23330 Ionia.CNN_Model <> n:491 var
+binder 23317:23317 <> C:496
+R23378:23386 Ionia.CNN_Defs <> mkTensor2 def
+R23390:23390 Ionia.CNN_Model <> h:493 var
+R23388:23388 Ionia.CNN_Model <> d:492 var
+binder 23370:23373 <> W_xi:497
+R23409:23417 Ionia.CNN_Defs <> mkTensor2 def
+R23421:23421 Ionia.CNN_Model <> h:493 var
+R23419:23419 Ionia.CNN_Model <> h:493 var
+binder 23401:23404 <> W_hi:498
+R23439:23447 Ionia.CNN_Defs <> mkTensor1 def
+R23449:23449 Ionia.CNN_Model <> h:493 var
+binder 23432:23434 <> b_i:499
+R23492:23500 Ionia.CNN_Defs <> mkTensor2 def
+R23504:23504 Ionia.CNN_Model <> h:493 var
+R23502:23502 Ionia.CNN_Model <> d:492 var
+binder 23484:23487 <> W_xf:500
+R23523:23531 Ionia.CNN_Defs <> mkTensor2 def
+R23535:23535 Ionia.CNN_Model <> h:493 var
+R23533:23533 Ionia.CNN_Model <> h:493 var
+binder 23515:23518 <> W_hf:501
+R23553:23561 Ionia.CNN_Defs <> mkTensor1 def
+R23563:23563 Ionia.CNN_Model <> h:493 var
+binder 23546:23548 <> b_f:502
+R23606:23614 Ionia.CNN_Defs <> mkTensor2 def
+R23618:23618 Ionia.CNN_Model <> h:493 var
+R23616:23616 Ionia.CNN_Model <> d:492 var
+binder 23598:23601 <> W_xo:503
+R23637:23645 Ionia.CNN_Defs <> mkTensor2 def
+R23649:23649 Ionia.CNN_Model <> h:493 var
+R23647:23647 Ionia.CNN_Model <> h:493 var
+binder 23629:23632 <> W_ho:504
+R23667:23675 Ionia.CNN_Defs <> mkTensor1 def
+R23677:23677 Ionia.CNN_Model <> h:493 var
+binder 23660:23662 <> b_o:505
+R23726:23734 Ionia.CNN_Defs <> mkTensor2 def
+R23738:23738 Ionia.CNN_Model <> h:493 var
+R23736:23736 Ionia.CNN_Model <> d:492 var
+binder 23718:23721 <> W_xc:506
+R23757:23765 Ionia.CNN_Defs <> mkTensor2 def
+R23769:23769 Ionia.CNN_Model <> h:493 var
+R23767:23767 Ionia.CNN_Model <> h:493 var
+binder 23749:23752 <> W_hc:507
+R23787:23795 Ionia.CNN_Defs <> mkTensor1 def
+R23797:23797 Ionia.CNN_Model <> h:493 var
+binder 23780:23782 <> b_c:508
+R23805:23810 Ionia.DataExp <> mkvSeq def
+R23818:23820 Ionia.finType <> fin def
+R23822:23831 Ionia.CNN_Model <> seq_length:490 var
+binder 23816:23816 <> i:509
+R23839:23843 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R23845:23848 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R23924:23929 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R23849:23857 Ionia.CNN_OP <> Sigmoid2d def
+R23860:23865 Ionia.CNN_OP <> mm_mul def
+R23920:23922 Ionia.CNN_Model <> b_i:499 var
+R23915:23918 Ionia.CNN_Model <> W_hi:498 var
+R23882:23882 Ionia.CNN_OP <> :::x_'['_x_']' not
+R23913:23913 Ionia.CNN_OP <> :::x_'['_x_']' not
+R23881:23881 Ionia.CNN_Model <> H:495 var
+R23884:23890 Ionia.finType <> nat2fin def
+R23897:23909 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+R23876:23879 Ionia.CNN_Model <> W_xi:497 var
+R23872:23872 Ionia.CNN_OP <> :::x_'['_x_']' not
+R23874:23874 Ionia.CNN_OP <> :::x_'['_x_']' not
+R23867:23871 Ionia.CNN_Model <> input:494 var
+R23873:23873 Ionia.CNN_Model <> i:509 var
+binder 23844:23844 <> I:510
+R23930:23934 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R23936:23939 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R24015:24020 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R23940:23948 Ionia.CNN_OP <> Sigmoid2d def
+R23951:23956 Ionia.CNN_OP <> mm_mul def
+R24011:24013 Ionia.CNN_Model <> b_f:502 var
+R24006:24009 Ionia.CNN_Model <> W_hf:501 var
+R23973:23973 Ionia.CNN_OP <> :::x_'['_x_']' not
+R24004:24004 Ionia.CNN_OP <> :::x_'['_x_']' not
+R23972:23972 Ionia.CNN_Model <> H:495 var
+R23975:23981 Ionia.finType <> nat2fin def
+R23988:24000 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+R23967:23970 Ionia.CNN_Model <> W_xf:500 var
+R23963:23963 Ionia.CNN_OP <> :::x_'['_x_']' not
+R23965:23965 Ionia.CNN_OP <> :::x_'['_x_']' not
+R23958:23962 Ionia.CNN_Model <> input:494 var
+R23964:23964 Ionia.CNN_Model <> i:509 var
+binder 23935:23935 <> F:511
+R24021:24025 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R24027:24030 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R24106:24111 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R24031:24039 Ionia.CNN_OP <> Sigmoid2d def
+R24042:24047 Ionia.CNN_OP <> mm_mul def
+R24102:24104 Ionia.CNN_Model <> b_o:505 var
+R24097:24100 Ionia.CNN_Model <> W_ho:504 var
+R24064:24064 Ionia.CNN_OP <> :::x_'['_x_']' not
+R24095:24095 Ionia.CNN_OP <> :::x_'['_x_']' not
+R24063:24063 Ionia.CNN_Model <> H:495 var
+R24066:24072 Ionia.finType <> nat2fin def
+R24079:24091 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+R24058:24061 Ionia.CNN_Model <> W_xo:503 var
+R24054:24054 Ionia.CNN_OP <> :::x_'['_x_']' not
+R24056:24056 Ionia.CNN_OP <> :::x_'['_x_']' not
+R24049:24053 Ionia.CNN_Model <> input:494 var
+R24055:24055 Ionia.CNN_Model <> i:509 var
+binder 24026:24026 <> O:512
+R24112:24116 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R24124:24127 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R24203:24208 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R24128:24136 Ionia.CNN_OP <> Sigmoid2d def
+R24139:24144 Ionia.CNN_OP <> mm_mul def
+R24199:24201 Ionia.CNN_Model <> b_c:508 var
+R24194:24197 Ionia.CNN_Model <> W_hc:507 var
+R24161:24161 Ionia.CNN_OP <> :::x_'['_x_']' not
+R24192:24192 Ionia.CNN_OP <> :::x_'['_x_']' not
+R24160:24160 Ionia.CNN_Model <> H:495 var
+R24163:24169 Ionia.finType <> nat2fin def
+R24176:24188 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+R24155:24158 Ionia.CNN_Model <> W_xc:506 var
+R24151:24151 Ionia.CNN_OP <> :::x_'['_x_']' not
+R24153:24153 Ionia.CNN_OP <> :::x_'['_x_']' not
+R24146:24150 Ionia.CNN_Model <> input:494 var
+R24152:24152 Ionia.CNN_Model <> i:509 var
+binder 24117:24123 <> C_tilda:513
+R24209:24213 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R24217:24220 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R24288:24293 Ionia.CNN_Defs <> :::'tlet'_x_':='_x_'in'_x not
+R24221:24225 Ionia.CNN_OP <> Add2d def
+R24272:24276 Ionia.CNN_OP <> Mul2d def
+R24280:24286 Ionia.CNN_Model <> C_tilda:513 var
+R24278:24278 Ionia.CNN_Model <> I:510 var
+R24228:24232 Ionia.CNN_OP <> Mul2d def
+R24237:24237 Ionia.CNN_OP <> :::x_'['_x_']' not
+R24268:24268 Ionia.CNN_OP <> :::x_'['_x_']' not
+R24236:24236 Ionia.CNN_Model <> C:496 var
+R24239:24245 Ionia.finType <> nat2fin def
+R24252:24264 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+R24234:24234 Ionia.CNN_Model <> F:511 var
+binder 24214:24216 <> C_t:514
+R24294:24298 Ionia.CNN_OP <> Mul2d def
+R24303:24308 Ionia.CNN_OP <> Tanh2d def
+R24310:24312 Ionia.CNN_Model <> C_t:514 var
+R24300:24300 Ionia.CNN_Model <> O:512 var

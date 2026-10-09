@@ -1,0 +1,1545 @@
+DIGEST 1d42f83d2cc047616f9389705fcd611f
+FIonia.Opt_ParGranularity
+R3632:3636 Stdlib.Arith.Arith <> <> lib
+R3638:3640 Stdlib.micromega.Lia <> <> lib
+R3658:3687 Stdlib.Logic.FunctionalExtensionality <> <> lib
+R3699:3717 Ionia.Proof_CodeGen <> <> lib
+R3727:3739 Ionia.Proof_CodeGen <> <> mod
+R3750:3765 Ionia.DPIA_Rules <> <> lib
+R3775:3784 Ionia.DPIA_Rules <> <> mod
+R3795:3815 Ionia.Parallel_Safety <> <> lib
+R3825:3839 Ionia.Parallel_Safety <> <> mod
+prf 4093:4104 <> fin_block_lt
+binder 4115:4115 <> n:1
+binder 4117:4117 <> p:2
+R4124:4126 Ionia.finType <> fin def
+R4128:4128 Ionia.Opt_ParGranularity <> n:1 var
+binder 4120:4120 <> b:3
+R4136:4138 Ionia.finType <> fin def
+R4140:4140 Ionia.Opt_ParGranularity <> p:2 var
+binder 4132:4132 <> i:4
+R4171:4173 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R4159:4161 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R4155:4157 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R4146:4152 Ionia.finType <> fin2nat def
+R4154:4154 Ionia.Opt_ParGranularity <> b:3 var
+R4158:4158 Ionia.Opt_ParGranularity <> p:2 var
+R4162:4168 Ionia.finType <> fin2nat def
+R4170:4170 Ionia.Opt_ParGranularity <> i:4 var
+R4175:4177 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R4174:4174 Ionia.Opt_ParGranularity <> n:1 var
+R4178:4178 Ionia.Opt_ParGranularity <> p:2 var
+R4220:4228 Ionia.finType <> fin_proof def
+R4252:4260 Ionia.finType <> fin_proof def
+R4305:4308 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R4301:4303 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R4288:4288 Corelib.Init.Datatypes <> S constr
+R4291:4297 Ionia.finType <> fin2nat def
+R4310:4312 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R4326:4342 Stdlib.Arith.PeanoNat Nat mul_le_mono_r thm
+R4361:4374 Stdlib.Arith.PeanoNat Nat mul_succ_l thm
+def 4482:4490 <> fin_block
+R4499:4501 Corelib.Init.Datatypes <> nat ind
+binder 4493:4493 <> n:5
+binder 4495:4495 <> p:6
+R4509:4511 Ionia.finType <> fin def
+R4513:4513 Ionia.Opt_ParGranularity <> n:5 var
+binder 4505:4505 <> b:7
+R4521:4523 Ionia.finType <> fin def
+R4525:4525 Ionia.Opt_ParGranularity <> p:6 var
+binder 4517:4517 <> i:8
+R4530:4532 Ionia.finType <> fin def
+R4536:4538 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R4535:4535 Ionia.Opt_ParGranularity <> n:5 var
+R4539:4539 Ionia.Opt_ParGranularity <> p:6 var
+R4548:4554 Ionia.finType <> nat2fin def
+R4558:4560 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R4557:4557 Ionia.Opt_ParGranularity <> n:5 var
+R4561:4561 Ionia.Opt_ParGranularity <> p:6 var
+R4578:4580 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R4574:4576 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R4565:4571 Ionia.finType <> fin2nat def
+R4573:4573 Ionia.Opt_ParGranularity <> b:7 var
+R4577:4577 Ionia.Opt_ParGranularity <> p:6 var
+R4581:4587 Ionia.finType <> fin2nat def
+R4589:4589 Ionia.Opt_ParGranularity <> i:8 var
+R4593:4604 Ionia.Opt_ParGranularity <> fin_block_lt thm
+R4606:4606 Ionia.Opt_ParGranularity <> n:5 var
+R4608:4608 Ionia.Opt_ParGranularity <> p:6 var
+R4610:4610 Ionia.Opt_ParGranularity <> b:7 var
+R4612:4612 Ionia.Opt_ParGranularity <> i:8 var
+prf 4623:4639 <> fin2nat_fin_block
+binder 4650:4650 <> n:9
+binder 4652:4652 <> p:10
+R4659:4661 Ionia.finType <> fin def
+R4663:4663 Ionia.Opt_ParGranularity <> n:9 var
+binder 4655:4655 <> b:11
+R4671:4673 Ionia.finType <> fin def
+R4675:4675 Ionia.Opt_ParGranularity <> p:10 var
+binder 4667:4667 <> i:12
+R4709:4711 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4681:4687 Ionia.finType <> fin2nat def
+R4691:4699 Ionia.Opt_ParGranularity <> fin_block def
+R4701:4701 Ionia.Opt_ParGranularity <> n:9 var
+R4703:4703 Ionia.Opt_ParGranularity <> p:10 var
+R4705:4705 Ionia.Opt_ParGranularity <> b:11 var
+R4707:4707 Ionia.Opt_ParGranularity <> i:12 var
+R4725:4727 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R4721:4723 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R4712:4718 Ionia.finType <> fin2nat def
+R4720:4720 Ionia.Opt_ParGranularity <> b:11 var
+R4724:4724 Ionia.Opt_ParGranularity <> p:10 var
+R4728:4734 Ionia.finType <> fin2nat def
+R4736:4736 Ionia.Opt_ParGranularity <> i:12 var
+R4761:4769 Ionia.Opt_ParGranularity <> fin_block def
+R4778:4792 Ionia.finType <> fin2nat_nat2fin thm
+prf 4871:4885 <> fin_block_neq_r
+binder 4896:4896 <> n:13
+binder 4898:4898 <> p:14
+R4905:4907 Ionia.finType <> fin def
+R4909:4909 Ionia.Opt_ParGranularity <> n:13 var
+binder 4901:4901 <> b:15
+R4920:4922 Ionia.finType <> fin def
+R4924:4924 Ionia.Opt_ParGranularity <> p:14 var
+binder 4913:4913 <> i:16
+binder 4915:4916 <> i':17
+R4937:4940 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4931:4934 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R4930:4930 Ionia.Opt_ParGranularity <> i:16 var
+R4935:4936 Ionia.Opt_ParGranularity <> i':17 var
+R4954:4957 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R4941:4949 Ionia.Opt_ParGranularity <> fin_block def
+R4953:4953 Ionia.Opt_ParGranularity <> i:16 var
+R4951:4951 Ionia.Opt_ParGranularity <> b:15 var
+R4958:4966 Ionia.Opt_ParGranularity <> fin_block def
+R4970:4971 Ionia.Opt_ParGranularity <> i':17 var
+R4968:4968 Ionia.Opt_ParGranularity <> b:15 var
+R5029:5039 Ionia.finType <> fin2nat_inj thm
+R5058:5064 Corelib.Init.Logic <> f_equal thm
+R5068:5074 Ionia.finType <> fin2nat def
+R5078:5080 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R5102:5118 Ionia.Opt_ParGranularity <> fin2nat_fin_block thm
+prf 5252:5266 <> fin_block_neq_l
+binder 5277:5277 <> n:18
+binder 5279:5279 <> p:19
+R5289:5291 Ionia.finType <> fin def
+R5293:5293 Ionia.Opt_ParGranularity <> n:18 var
+binder 5282:5282 <> b:20
+binder 5284:5285 <> b':21
+R5304:5306 Ionia.finType <> fin def
+R5308:5308 Ionia.Opt_ParGranularity <> p:19 var
+binder 5297:5297 <> i:22
+binder 5299:5300 <> i':23
+R5321:5324 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5315:5318 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R5314:5314 Ionia.Opt_ParGranularity <> b:20 var
+R5319:5320 Ionia.Opt_ParGranularity <> b':21 var
+R5338:5341 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R5325:5333 Ionia.Opt_ParGranularity <> fin_block def
+R5337:5337 Ionia.Opt_ParGranularity <> i:22 var
+R5335:5335 Ionia.Opt_ParGranularity <> b:20 var
+R5342:5350 Ionia.Opt_ParGranularity <> fin_block def
+R5355:5356 Ionia.Opt_ParGranularity <> i':23 var
+R5352:5353 Ionia.Opt_ParGranularity <> b':21 var
+R5417:5427 Ionia.finType <> fin2nat_inj thm
+R5446:5452 Corelib.Init.Logic <> f_equal thm
+R5456:5462 Ionia.finType <> fin2nat def
+R5466:5468 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R5490:5506 Ionia.Opt_ParGranularity <> fin2nat_fin_block thm
+R5529:5537 Ionia.finType <> fin_proof def
+R5561:5569 Ionia.finType <> fin_proof def
+R5597:5605 Ionia.finType <> fin_proof def
+R5629:5637 Ionia.finType <> fin_proof def
+R5663:5679 Stdlib.Arith.PeanoNat Nat lt_trichotomy thm
+R5682:5688 Ionia.finType <> fin2nat def
+R5694:5700 Ionia.finType <> fin2nat def
+R5780:5783 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R5776:5778 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R5763:5763 Corelib.Init.Datatypes <> S constr
+R5766:5772 Ionia.finType <> fin2nat def
+R5794:5796 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R5784:5790 Ionia.finType <> fin2nat def
+R5816:5832 Stdlib.Arith.PeanoNat Nat mul_le_mono_r thm
+R5853:5866 Stdlib.Arith.PeanoNat Nat mul_succ_l thm
+R5946:5949 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R5942:5944 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R5928:5928 Corelib.Init.Datatypes <> S constr
+R5931:5937 Ionia.finType <> fin2nat def
+R5959:5961 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R5950:5956 Ionia.finType <> fin2nat def
+R5981:5997 Stdlib.Arith.PeanoNat Nat mul_le_mono_r thm
+R6018:6031 Stdlib.Arith.PeanoNat Nat mul_succ_l thm
+def 6466:6476 <> fin_shift_l
+R6485:6487 Corelib.Init.Datatypes <> nat ind
+binder 6479:6479 <> p:24
+binder 6481:6481 <> q:25
+R6495:6497 Ionia.finType <> fin def
+R6499:6499 Ionia.Opt_ParGranularity <> p:24 var
+binder 6491:6491 <> k:26
+R6504:6506 Ionia.finType <> fin def
+R6510:6512 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R6509:6509 Ionia.Opt_ParGranularity <> p:24 var
+R6513:6513 Ionia.Opt_ParGranularity <> q:25 var
+R6522:6528 Ionia.finType <> nat2fin def
+R6532:6534 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R6531:6531 Ionia.Opt_ParGranularity <> p:24 var
+R6535:6535 Ionia.Opt_ParGranularity <> q:25 var
+R6539:6545 Ionia.finType <> fin2nat def
+R6547:6547 Ionia.Opt_ParGranularity <> k:26 var
+R6555:6569 Stdlib.Arith.PeanoNat Nat lt_le_trans thm
+R6578:6586 Ionia.finType <> fin_proof def
+R6588:6588 Ionia.Opt_ParGranularity <> k:26 var
+R6592:6603 Stdlib.Arith.PeanoNat Nat le_add_r thm
+R6605:6605 Ionia.Opt_ParGranularity <> p:24 var
+R6607:6607 Ionia.Opt_ParGranularity <> q:25 var
+def 6624:6634 <> fin_shift_r
+R6643:6645 Corelib.Init.Datatypes <> nat ind
+binder 6637:6637 <> p:27
+binder 6639:6639 <> q:28
+R6653:6655 Ionia.finType <> fin def
+R6657:6657 Ionia.Opt_ParGranularity <> q:28 var
+binder 6649:6649 <> k:29
+R6662:6664 Ionia.finType <> fin def
+R6668:6670 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R6667:6667 Ionia.Opt_ParGranularity <> p:27 var
+R6671:6671 Ionia.Opt_ParGranularity <> q:28 var
+R6680:6686 Ionia.finType <> nat2fin def
+R6690:6692 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R6689:6689 Ionia.Opt_ParGranularity <> p:27 var
+R6693:6693 Ionia.Opt_ParGranularity <> q:28 var
+R6698:6700 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R6697:6697 Ionia.Opt_ParGranularity <> p:27 var
+R6701:6707 Ionia.finType <> fin2nat def
+R6709:6709 Ionia.Opt_ParGranularity <> k:29 var
+R6717:6721 Corelib.Init.Logic <> proj1 thm
+R6750:6758 Ionia.finType <> fin_proof def
+R6760:6760 Ionia.Opt_ParGranularity <> k:29 var
+R6724:6740 Stdlib.Arith.PeanoNat Nat add_lt_mono_l thm
+R6746:6746 Ionia.Opt_ParGranularity <> p:27 var
+def 6777:6784 <> fin_cast
+R6793:6795 Corelib.Init.Datatypes <> nat ind
+binder 6787:6787 <> n:30
+binder 6789:6789 <> m:31
+R6804:6806 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6803:6803 Ionia.Opt_ParGranularity <> n:30 var
+R6807:6807 Ionia.Opt_ParGranularity <> m:31 var
+binder 6799:6799 <> H:32
+R6815:6817 Ionia.finType <> fin def
+R6819:6819 Ionia.Opt_ParGranularity <> n:30 var
+binder 6811:6811 <> k:33
+R6824:6826 Ionia.finType <> fin def
+R6828:6828 Ionia.Opt_ParGranularity <> m:31 var
+R6835:6841 Corelib.Init.Logic <> eq_rect scheme
+R6853:6853 Ionia.Opt_ParGranularity <> H:32 var
+R6851:6851 Ionia.Opt_ParGranularity <> m:31 var
+R6849:6849 Ionia.Opt_ParGranularity <> k:33 var
+R6845:6847 Ionia.finType <> fin def
+R6843:6843 Ionia.Opt_ParGranularity <> n:30 var
+prf 6863:6874 <> fin_cast_nat
+binder 6885:6885 <> n:34
+binder 6887:6887 <> m:35
+R6895:6897 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6894:6894 Ionia.Opt_ParGranularity <> n:34 var
+R6898:6898 Ionia.Opt_ParGranularity <> m:35 var
+binder 6890:6890 <> H:36
+R6906:6908 Ionia.finType <> fin def
+R6910:6910 Ionia.Opt_ParGranularity <> n:34 var
+binder 6902:6902 <> k:37
+R6938:6940 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6916:6922 Ionia.finType <> fin2nat def
+R6925:6932 Ionia.Opt_ParGranularity <> fin_cast def
+R6936:6936 Ionia.Opt_ParGranularity <> k:37 var
+R6934:6934 Ionia.Opt_ParGranularity <> H:36 var
+R6941:6947 Ionia.finType <> fin2nat def
+R6949:6949 Ionia.Opt_ParGranularity <> k:37 var
+R6976:6983 Ionia.Opt_ParGranularity <> fin_cast def
+prf 7023:7037 <> fin2nat_shift_l
+binder 7048:7048 <> p:38
+binder 7050:7050 <> q:39
+R7057:7059 Ionia.finType <> fin def
+R7061:7061 Ionia.Opt_ParGranularity <> p:38 var
+binder 7053:7053 <> k:40
+R7093:7095 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7065:7071 Ionia.finType <> fin2nat def
+R7075:7085 Ionia.Opt_ParGranularity <> fin_shift_l def
+R7087:7087 Ionia.Opt_ParGranularity <> p:38 var
+R7089:7089 Ionia.Opt_ParGranularity <> q:39 var
+R7091:7091 Ionia.Opt_ParGranularity <> k:40 var
+R7096:7102 Ionia.finType <> fin2nat def
+R7104:7104 Ionia.Opt_ParGranularity <> k:40 var
+R7131:7141 Ionia.Opt_ParGranularity <> fin_shift_l def
+prf 7191:7205 <> fin2nat_shift_r
+binder 7216:7216 <> p:41
+binder 7218:7218 <> q:42
+R7225:7227 Ionia.finType <> fin def
+R7229:7229 Ionia.Opt_ParGranularity <> q:42 var
+binder 7221:7221 <> k:43
+R7261:7263 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7233:7239 Ionia.finType <> fin2nat def
+R7243:7253 Ionia.Opt_ParGranularity <> fin_shift_r def
+R7255:7255 Ionia.Opt_ParGranularity <> p:41 var
+R7257:7257 Ionia.Opt_ParGranularity <> q:42 var
+R7259:7259 Ionia.Opt_ParGranularity <> k:43 var
+R7265:7267 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R7264:7264 Ionia.Opt_ParGranularity <> p:41 var
+R7268:7274 Ionia.finType <> fin2nat def
+R7276:7276 Ionia.Opt_ParGranularity <> k:43 var
+R7303:7313 Ionia.Opt_ParGranularity <> fin_shift_r def
+prf 7363:7373 <> seqfor_fin1
+R7394:7397 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7389:7391 Ionia.finType <> fin def
+R7398:7401 Ionia.Proof_CodeGen <> comm def
+binder 7385:7385 <> f:44
+R7413:7415 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7405:7410 Ionia.Proof_CodeGen <> seqfor def
+R7412:7412 Ionia.Opt_ParGranularity <> f:44 var
+R7416:7416 Ionia.Opt_ParGranularity <> f:44 var
+R7418:7419 Ionia.Proof_CodeGen <> :::'''['_x_']' not
+R7421:7421 Ionia.Proof_CodeGen <> :::'''['_x_']' not
+R7449:7457 Ionia.Proof_CodeGen <> seqfor_Sn thm
+R7475:7480 Ionia.Proof_CodeGen <> skip_l thm
+prf 7508:7523 <> seqfor_body_cast
+binder 7536:7536 <> n:45
+binder 7538:7538 <> m:46
+R7546:7548 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7545:7545 Ionia.Opt_ParGranularity <> n:45 var
+R7549:7549 Ionia.Opt_ParGranularity <> m:46 var
+binder 7541:7541 <> H:47
+R7565:7568 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7560:7562 Ionia.finType <> fin def
+R7564:7564 Ionia.Opt_ParGranularity <> n:45 var
+R7569:7572 Ionia.Proof_CodeGen <> comm def
+binder 7553:7556 <> body:48
+R7591:7597 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7580:7585 Ionia.Proof_CodeGen <> seqfor def
+R7587:7590 Ionia.Opt_ParGranularity <> body:48 var
+R7598:7603 Ionia.Proof_CodeGen <> seqfor def
+R7614:7616 Ionia.finType <> fin def
+R7618:7618 Ionia.Opt_ParGranularity <> m:46 var
+binder 7610:7610 <> k:49
+R7623:7626 Ionia.Opt_ParGranularity <> body:48 var
+R7629:7636 Ionia.Opt_ParGranularity <> fin_cast def
+R7649:7649 Ionia.Opt_ParGranularity <> k:49 var
+R7639:7644 Corelib.Init.Logic <> eq_sym scheme
+R7646:7646 Ionia.Opt_ParGranularity <> H:47 var
+R7690:7714 Stdlib.Logic.FunctionalExtensionality <> functional_extensionality thm
+prf 7770:7782 <> seqfor_app_Sn
+binder 7795:7795 <> n:50
+binder 7797:7797 <> p:51
+binder 7799:7799 <> q:52
+R7809:7811 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7806:7806 Corelib.Init.Datatypes <> S constr
+R7808:7808 Ionia.Opt_ParGranularity <> n:50 var
+R7813:7815 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R7812:7812 Ionia.Opt_ParGranularity <> p:51 var
+R7816:7816 Ionia.Opt_ParGranularity <> q:52 var
+binder 7802:7802 <> H:53
+R7836:7839 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7827:7829 Ionia.finType <> fin def
+R7832:7832 Corelib.Init.Datatypes <> S constr
+R7834:7834 Ionia.Opt_ParGranularity <> n:50 var
+R7840:7843 Ionia.Proof_CodeGen <> comm def
+binder 7820:7823 <> body:54
+R7856:7863 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7852:7854 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R7851:7851 Ionia.Opt_ParGranularity <> q:52 var
+R7875:7881 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7864:7869 Ionia.Proof_CodeGen <> seqfor def
+R7871:7874 Ionia.Opt_ParGranularity <> body:54 var
+R7882:7884 Ionia.Proof_CodeGen <> seq def
+R7971:7976 Ionia.Proof_CodeGen <> seqfor def
+R7987:7989 Ionia.finType <> fin def
+R7991:7991 Ionia.Opt_ParGranularity <> q:52 var
+binder 7983:7983 <> k:55
+R7996:7999 Ionia.Opt_ParGranularity <> body:54 var
+R8002:8009 Ionia.Opt_ParGranularity <> fin_cast def
+R8024:8034 Ionia.Opt_ParGranularity <> fin_shift_r def
+R8036:8036 Ionia.Opt_ParGranularity <> p:51 var
+R8038:8038 Ionia.Opt_ParGranularity <> q:52 var
+R8040:8040 Ionia.Opt_ParGranularity <> k:55 var
+R8012:8017 Corelib.Init.Logic <> eq_sym scheme
+R8019:8019 Ionia.Opt_ParGranularity <> H:53 var
+R7887:7892 Ionia.Proof_CodeGen <> seqfor def
+R7903:7905 Ionia.finType <> fin def
+R7907:7907 Ionia.Opt_ParGranularity <> p:51 var
+binder 7899:7899 <> k:56
+R7912:7915 Ionia.Opt_ParGranularity <> body:54 var
+R7918:7925 Ionia.Opt_ParGranularity <> fin_cast def
+R7940:7950 Ionia.Opt_ParGranularity <> fin_shift_l def
+R7952:7952 Ionia.Opt_ParGranularity <> p:51 var
+R7954:7954 Ionia.Opt_ParGranularity <> q:52 var
+R7956:7956 Ionia.Opt_ParGranularity <> k:56 var
+R7928:7933 Corelib.Init.Logic <> eq_sym scheme
+R7935:7935 Ionia.Opt_ParGranularity <> H:53 var
+R8188:8190 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8217:8219 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8281:8283 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8277:8278 Ionia.Proof_CodeGen <> :::'''['_x_']' not
+R8280:8280 Ionia.Proof_CodeGen <> :::'''['_x_']' not
+R8284:8291 Ionia.Opt_ParGranularity <> fin_cast def
+R8306:8316 Ionia.Opt_ParGranularity <> fin_shift_r def
+R8322:8323 Ionia.Proof_CodeGen <> :::'''['_x_']' not
+R8325:8325 Ionia.Proof_CodeGen <> :::'''['_x_']' not
+R8294:8299 Corelib.Init.Logic <> eq_sym scheme
+R8342:8347 Ionia.finType <> fin_eq thm
+R8366:8377 Ionia.Opt_ParGranularity <> fin_cast_nat thm
+R8381:8395 Ionia.Opt_ParGranularity <> fin2nat_shift_l thm
+R8399:8413 Ionia.Opt_ParGranularity <> fin2nat_shift_r thm
+R8417:8432 Ionia.finType <> fin2nat_fin2finS thm
+R8453:8477 Stdlib.Logic.FunctionalExtensionality <> functional_extensionality thm
+R8503:8511 Ionia.Proof_CodeGen <> seqfor_Sn thm
+R8519:8524 Ionia.Proof_CodeGen <> seqfor def
+R8535:8537 Ionia.Proof_CodeGen <> seq def
+R8754:8756 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8757:8757 Corelib.Init.Datatypes <> S constr
+R8794:8818 Stdlib.Logic.FunctionalExtensionality <> functional_extensionality thm
+R8848:8856 Ionia.Proof_CodeGen <> seqfor_Sn thm
+R8923:8948 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8882:8887 Ionia.Proof_CodeGen <> seqfor def
+R8898:8900 Ionia.finType <> fin def
+R8903:8903 Corelib.Init.Datatypes <> S constr
+binder 8894:8894 <> i:57
+R8917:8919 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R8921:8921 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R8920:8920 Ionia.Opt_ParGranularity <> i:57 var
+R8949:8954 Ionia.Proof_CodeGen <> seqfor def
+R8965:8967 Ionia.finType <> fin def
+R8970:8970 Corelib.Init.Datatypes <> S constr
+binder 8961:8961 <> k:58
+R8985:8992 Ionia.Opt_ParGranularity <> fin_cast def
+R9007:9017 Ionia.Opt_ParGranularity <> fin_shift_l def
+R9020:9020 Corelib.Init.Datatypes <> S constr
+R9028:9028 Ionia.Opt_ParGranularity <> k:58 var
+R8995:9000 Corelib.Init.Logic <> eq_sym scheme
+binder 8894:8894 <> i:59
+R8920:8920 Ionia.Opt_ParGranularity <> i:59 var
+binder 8961:8961 <> k:60
+R9028:9028 Ionia.Opt_ParGranularity <> k:60 var
+R9051:9071 Ionia.Proof_CodeGen <> seqfor_extensionality thm
+R9108:9113 Ionia.finType <> fin_eq thm
+R9132:9143 Ionia.Opt_ParGranularity <> fin_cast_nat thm
+R9147:9161 Ionia.Opt_ParGranularity <> fin2nat_shift_l thm
+R9165:9179 Ionia.Opt_ParGranularity <> fin2nat_shift_r thm
+R9183:9198 Ionia.finType <> fin2nat_fin2finS thm
+R9239:9241 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9232:9233 Ionia.Proof_CodeGen <> :::'''['_x_']' not
+R9238:9238 Ionia.Proof_CodeGen <> :::'''['_x_']' not
+R9234:9234 Corelib.Init.Datatypes <> S constr
+R9242:9249 Ionia.Opt_ParGranularity <> fin_cast def
+R9264:9274 Ionia.Opt_ParGranularity <> fin_shift_r def
+R9277:9277 Corelib.Init.Datatypes <> S constr
+R9285:9286 Ionia.Proof_CodeGen <> :::'''['_x_']' not
+R9288:9288 Ionia.Proof_CodeGen <> :::'''['_x_']' not
+R9252:9257 Corelib.Init.Logic <> eq_sym scheme
+R9309:9314 Ionia.finType <> fin_eq thm
+R9333:9344 Ionia.Opt_ParGranularity <> fin_cast_nat thm
+R9348:9362 Ionia.Opt_ParGranularity <> fin2nat_shift_l thm
+R9366:9380 Ionia.Opt_ParGranularity <> fin2nat_shift_r thm
+R9384:9399 Ionia.finType <> fin2nat_fin2finS thm
+R9464:9469 Ionia.Proof_CodeGen <> seqfor def
+R9480:9482 Ionia.Proof_CodeGen <> seq def
+R9580:9582 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9576:9576 Corelib.Init.Datatypes <> S constr
+R9584:9586 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R9587:9587 Corelib.Init.Datatypes <> S constr
+R9616:9640 Stdlib.Logic.FunctionalExtensionality <> functional_extensionality thm
+R9670:9678 Ionia.Proof_CodeGen <> seqfor_Sn thm
+R9735:9737 Ionia.finType <> fin def
+R9740:9740 Corelib.Init.Datatypes <> S constr
+binder 9731:9731 <> i:61
+R9754:9756 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R9758:9758 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R9757:9757 Ionia.Opt_ParGranularity <> i:61 var
+binder 9731:9731 <> i:62
+R9757:9757 Ionia.Opt_ParGranularity <> i:62 var
+binder 9731:9731 <> i:63
+R9757:9757 Ionia.Opt_ParGranularity <> i:63 var
+binder 9731:9731 <> i:64
+R9757:9757 Ionia.Opt_ParGranularity <> i:64 var
+R9889:9914 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9806:9811 Ionia.Proof_CodeGen <> seqfor def
+R9822:9824 Ionia.finType <> fin def
+binder 9818:9818 <> k:65
+R9836:9838 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R9887:9887 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R9839:9846 Ionia.Opt_ParGranularity <> fin_cast def
+R9863:9873 Ionia.Opt_ParGranularity <> fin_shift_l def
+R9878:9878 Corelib.Init.Datatypes <> S constr
+R9885:9885 Ionia.Opt_ParGranularity <> k:65 var
+R9849:9854 Corelib.Init.Logic <> eq_sym scheme
+R9915:9920 Ionia.Proof_CodeGen <> seqfor def
+R9931:9933 Ionia.finType <> fin def
+binder 9927:9927 <> k:66
+R9946:9953 Ionia.Opt_ParGranularity <> fin_cast def
+R9968:9978 Ionia.Opt_ParGranularity <> fin_shift_l def
+R9983:9983 Corelib.Init.Datatypes <> S constr
+R9986:9986 Corelib.Init.Datatypes <> S constr
+R9994:9994 Ionia.Opt_ParGranularity <> k:66 var
+R9956:9961 Corelib.Init.Logic <> eq_sym scheme
+binder 9818:9818 <> k:67
+R9885:9885 Ionia.Opt_ParGranularity <> k:67 var
+binder 9927:9927 <> k:68
+R9994:9994 Ionia.Opt_ParGranularity <> k:68 var
+R10017:10037 Ionia.Proof_CodeGen <> seqfor_extensionality thm
+R10074:10079 Ionia.finType <> fin_eq thm
+R10098:10109 Ionia.Opt_ParGranularity <> fin_cast_nat thm
+R10113:10127 Ionia.Opt_ParGranularity <> fin2nat_shift_l thm
+R10131:10145 Ionia.Opt_ParGranularity <> fin2nat_shift_r thm
+R10149:10164 Ionia.finType <> fin2nat_fin2finS thm
+R10287:10312 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10198:10203 Ionia.Proof_CodeGen <> seqfor def
+R10214:10216 Ionia.finType <> fin def
+R10219:10219 Corelib.Init.Datatypes <> S constr
+binder 10210:10210 <> k:69
+R10234:10236 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R10285:10285 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R10237:10244 Ionia.Opt_ParGranularity <> fin_cast def
+R10261:10271 Ionia.Opt_ParGranularity <> fin_shift_r def
+R10276:10276 Corelib.Init.Datatypes <> S constr
+R10283:10283 Ionia.Opt_ParGranularity <> k:69 var
+R10247:10252 Corelib.Init.Logic <> eq_sym scheme
+R10313:10318 Ionia.Proof_CodeGen <> seqfor def
+R10329:10331 Ionia.finType <> fin def
+R10334:10334 Corelib.Init.Datatypes <> S constr
+binder 10325:10325 <> k:70
+R10350:10357 Ionia.Opt_ParGranularity <> fin_cast def
+R10372:10382 Ionia.Opt_ParGranularity <> fin_shift_r def
+R10387:10387 Corelib.Init.Datatypes <> S constr
+R10390:10390 Corelib.Init.Datatypes <> S constr
+R10398:10400 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R10402:10402 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R10401:10401 Ionia.Opt_ParGranularity <> k:70 var
+R10360:10365 Corelib.Init.Logic <> eq_sym scheme
+binder 10210:10210 <> k:71
+R10283:10283 Ionia.Opt_ParGranularity <> k:71 var
+binder 10325:10325 <> k:72
+R10401:10401 Ionia.Opt_ParGranularity <> k:72 var
+R10425:10445 Ionia.Proof_CodeGen <> seqfor_extensionality thm
+R10482:10487 Ionia.finType <> fin_eq thm
+R10506:10517 Ionia.Opt_ParGranularity <> fin_cast_nat thm
+R10521:10535 Ionia.Opt_ParGranularity <> fin2nat_shift_l thm
+R10539:10553 Ionia.Opt_ParGranularity <> fin2nat_shift_r thm
+R10557:10572 Ionia.finType <> fin2nat_fin2finS thm
+R10613:10615 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10606:10607 Ionia.Proof_CodeGen <> :::'''['_x_']' not
+R10612:10612 Ionia.Proof_CodeGen <> :::'''['_x_']' not
+R10608:10608 Corelib.Init.Datatypes <> S constr
+R10616:10623 Ionia.Opt_ParGranularity <> fin_cast def
+R10638:10648 Ionia.Opt_ParGranularity <> fin_shift_r def
+R10653:10653 Corelib.Init.Datatypes <> S constr
+R10656:10656 Corelib.Init.Datatypes <> S constr
+R10664:10665 Ionia.Proof_CodeGen <> :::'''['_x_']' not
+R10671:10671 Ionia.Proof_CodeGen <> :::'''['_x_']' not
+R10666:10666 Corelib.Init.Datatypes <> S constr
+R10626:10631 Corelib.Init.Logic <> eq_sym scheme
+R10692:10697 Ionia.finType <> fin_eq thm
+R10716:10727 Ionia.Opt_ParGranularity <> fin_cast_nat thm
+R10731:10745 Ionia.Opt_ParGranularity <> fin2nat_shift_l thm
+R10749:10763 Ionia.Opt_ParGranularity <> fin2nat_shift_r thm
+R10767:10782 Ionia.finType <> fin2nat_fin2finS thm
+R10848:10856 Ionia.Proof_CodeGen <> seqfor_Sn thm
+R10872:10877 Ionia.Proof_CodeGen <> seqfor def
+R10888:10890 Ionia.Proof_CodeGen <> seq def
+prf 10925:10934 <> seqfor_app
+binder 10947:10947 <> p:73
+binder 10949:10949 <> q:74
+R10970:10973 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10959:10961 Ionia.finType <> fin def
+R10965:10967 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R10964:10964 Ionia.Opt_ParGranularity <> p:73 var
+R10968:10968 Ionia.Opt_ParGranularity <> q:74 var
+R10974:10977 Ionia.Proof_CodeGen <> comm def
+binder 10952:10955 <> body:75
+R10990:10997 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10986:10988 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R10985:10985 Ionia.Opt_ParGranularity <> q:74 var
+R11009:11015 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10998:11003 Ionia.Proof_CodeGen <> seqfor def
+R11005:11008 Ionia.Opt_ParGranularity <> body:75 var
+R11016:11018 Ionia.Proof_CodeGen <> seq def
+R11078:11083 Ionia.Proof_CodeGen <> seqfor def
+R11094:11096 Ionia.finType <> fin def
+R11098:11098 Ionia.Opt_ParGranularity <> q:74 var
+binder 11090:11090 <> k:76
+R11103:11106 Ionia.Opt_ParGranularity <> body:75 var
+R11109:11119 Ionia.Opt_ParGranularity <> fin_shift_r def
+R11121:11121 Ionia.Opt_ParGranularity <> k:76 var
+R11021:11026 Ionia.Proof_CodeGen <> seqfor def
+R11037:11039 Ionia.finType <> fin def
+R11041:11041 Ionia.Opt_ParGranularity <> p:73 var
+binder 11033:11033 <> k:77
+R11046:11049 Ionia.Opt_ParGranularity <> body:75 var
+R11052:11062 Ionia.Opt_ParGranularity <> fin_shift_l def
+R11064:11064 Ionia.Opt_ParGranularity <> k:77 var
+R11279:11281 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11275:11277 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R11282:11282 Corelib.Init.Datatypes <> S constr
+R11319:11334 Ionia.Opt_ParGranularity <> seqfor_body_cast thm
+R11338:11340 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R11345:11345 Corelib.Init.Datatypes <> S constr
+R11396:11404 Ionia.Proof_CodeGen <> seqfor_Sn thm
+R11422:11432 Ionia.Opt_ParGranularity <> seqfor_fin1 thm
+R11443:11445 Ionia.finType <> fin def
+binder 11439:11439 <> k:78
+R11458:11468 Ionia.Opt_ParGranularity <> fin_shift_r def
+R11470:11470 Ionia.Opt_ParGranularity <> k:78 var
+binder 11439:11439 <> k:79
+R11470:11470 Ionia.Opt_ParGranularity <> k:79 var
+binder 11439:11439 <> k:80
+R11470:11470 Ionia.Opt_ParGranularity <> k:80 var
+R11505:11525 Ionia.Proof_CodeGen <> seqfor_extensionality thm
+R11560:11565 Ionia.finType <> fin_eq thm
+R11584:11595 Ionia.Opt_ParGranularity <> fin_cast_nat thm
+R11599:11613 Ionia.Opt_ParGranularity <> fin2nat_shift_l thm
+R11645:11650 Ionia.finType <> fin_eq thm
+R11669:11680 Ionia.Opt_ParGranularity <> fin_cast_nat thm
+R11684:11698 Ionia.Opt_ParGranularity <> fin2nat_shift_r thm
+R11797:11799 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11785:11787 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R11788:11788 Corelib.Init.Datatypes <> S constr
+R11791:11791 Corelib.Init.Datatypes <> S constr
+R11800:11800 Corelib.Init.Datatypes <> S constr
+R11804:11806 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R11807:11807 Corelib.Init.Datatypes <> S constr
+R11847:11862 Ionia.Opt_ParGranularity <> seqfor_body_cast thm
+R11866:11868 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R11869:11869 Corelib.Init.Datatypes <> S constr
+R11872:11872 Corelib.Init.Datatypes <> S constr
+R11881:11881 Corelib.Init.Datatypes <> S constr
+R11885:11887 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R11888:11888 Corelib.Init.Datatypes <> S constr
+R11942:11950 Ionia.Proof_CodeGen <> seqfor_Sn thm
+R11989:11991 Ionia.finType <> fin def
+R11995:11997 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R11998:11998 Corelib.Init.Datatypes <> S constr
+binder 11985:11985 <> i:81
+R12014:12021 Ionia.Opt_ParGranularity <> fin_cast def
+R12037:12044 Ionia.finType <> fin2finS def
+R12046:12046 Ionia.Opt_ParGranularity <> i:81 var
+R12024:12029 Corelib.Init.Logic <> eq_sym scheme
+binder 11985:11985 <> i:82
+R12046:12046 Ionia.Opt_ParGranularity <> i:82 var
+R12095:12103 Ionia.Proof_CodeGen <> seq_assoc thm
+R12135:12155 Ionia.Proof_CodeGen <> seqfor_extensionality thm
+R12190:12195 Ionia.finType <> fin_eq thm
+R12214:12225 Ionia.Opt_ParGranularity <> fin_cast_nat thm
+R12229:12243 Ionia.Opt_ParGranularity <> fin2nat_shift_l thm
+R12247:12262 Ionia.finType <> fin2nat_fin2finS thm
+R12348:12371 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12292:12297 Ionia.Proof_CodeGen <> seqfor def
+R12308:12310 Ionia.finType <> fin def
+R12313:12313 Corelib.Init.Datatypes <> S constr
+R12316:12316 Corelib.Init.Datatypes <> S constr
+binder 12304:12304 <> k:83
+R12333:12343 Ionia.Opt_ParGranularity <> fin_shift_r def
+R12345:12345 Ionia.Opt_ParGranularity <> k:83 var
+R12372:12374 Ionia.Proof_CodeGen <> seq def
+R12467:12477 Ionia.Opt_ParGranularity <> fin_shift_r def
+R12479:12480 Ionia.Proof_CodeGen <> :::'''['_x_']' not
+R12486:12486 Ionia.Proof_CodeGen <> :::'''['_x_']' not
+R12481:12481 Corelib.Init.Datatypes <> S constr
+R12377:12382 Ionia.Proof_CodeGen <> seqfor def
+R12393:12395 Ionia.finType <> fin def
+R12398:12398 Corelib.Init.Datatypes <> S constr
+binder 12389:12389 <> i:84
+R12414:12424 Ionia.Opt_ParGranularity <> fin_shift_r def
+R12426:12428 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R12430:12430 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R12429:12429 Ionia.Opt_ParGranularity <> i:84 var
+binder 12304:12304 <> k:85
+R12345:12345 Ionia.Opt_ParGranularity <> k:85 var
+binder 12389:12389 <> i:86
+R12429:12429 Ionia.Opt_ParGranularity <> i:86 var
+R12508:12516 Ionia.Proof_CodeGen <> seqfor_Sn thm
+R12575:12595 Ionia.Proof_CodeGen <> seqfor_extensionality thm
+R12633:12638 Ionia.finType <> fin_eq thm
+R12657:12668 Ionia.Opt_ParGranularity <> fin_cast_nat thm
+R12672:12686 Ionia.Opt_ParGranularity <> fin2nat_shift_r thm
+R12690:12705 Ionia.finType <> fin2nat_fin2finS thm
+R12740:12745 Ionia.finType <> fin_eq thm
+R12764:12775 Ionia.Opt_ParGranularity <> fin_cast_nat thm
+R12779:12793 Ionia.Opt_ParGranularity <> fin2nat_shift_r thm
+prf 13286:13302 <> seqfor_strip_mine
+binder 13313:13313 <> n:87
+binder 13315:13315 <> p:88
+R13324:13326 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R13323:13323 Ionia.Opt_ParGranularity <> p:88 var
+binder 13318:13319 <> Hp:89
+R13346:13349 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13335:13337 Ionia.finType <> fin def
+R13341:13343 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R13340:13340 Ionia.Opt_ParGranularity <> n:87 var
+R13344:13344 Ionia.Opt_ParGranularity <> p:88 var
+R13350:13353 Ionia.Proof_CodeGen <> comm def
+binder 13331:13331 <> f:90
+R13367:13369 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13359:13364 Ionia.Proof_CodeGen <> seqfor def
+R13366:13366 Ionia.Opt_ParGranularity <> f:90 var
+R13370:13375 Ionia.Proof_CodeGen <> seqfor def
+R13386:13388 Ionia.finType <> fin def
+R13390:13390 Ionia.Opt_ParGranularity <> n:87 var
+binder 13382:13382 <> b:91
+R13395:13400 Ionia.Proof_CodeGen <> seqfor def
+R13411:13413 Ionia.finType <> fin def
+R13415:13415 Ionia.Opt_ParGranularity <> p:88 var
+binder 13407:13407 <> i:92
+R13420:13420 Ionia.Opt_ParGranularity <> f:90 var
+R13423:13431 Ionia.Opt_ParGranularity <> fin_block def
+R13435:13435 Ionia.Opt_ParGranularity <> i:92 var
+R13433:13433 Ionia.Opt_ParGranularity <> b:91 var
+R13536:13538 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13532:13534 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R13528:13528 Corelib.Init.Datatypes <> S constr
+R13545:13547 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R13541:13543 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R13563:13576 Stdlib.Arith.PeanoNat Nat mul_succ_l thm
+R13607:13622 Ionia.Opt_ParGranularity <> seqfor_body_cast thm
+R13629:13631 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R13625:13625 Corelib.Init.Datatypes <> S constr
+R13642:13644 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R13638:13640 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R13670:13679 Ionia.Opt_ParGranularity <> seqfor_app thm
+R13684:13686 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+binder 13697:13697 <> k:93
+R13705:13712 Ionia.Opt_ParGranularity <> fin_cast def
+R13727:13727 Ionia.Opt_ParGranularity <> k:93 var
+R13715:13720 Corelib.Init.Logic <> eq_sym scheme
+binder 13697:13697 <> k:94
+R13727:13727 Ionia.Opt_ParGranularity <> k:94 var
+binder 13697:13697 <> k:95
+R13727:13727 Ionia.Opt_ParGranularity <> k:95 var
+R13782:13784 Ionia.finType <> fin def
+R13789:13791 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+binder 13778:13778 <> k:96
+R13801:13808 Ionia.Opt_ParGranularity <> fin_cast def
+R13824:13834 Ionia.Opt_ParGranularity <> fin_shift_l def
+R13836:13836 Ionia.Opt_ParGranularity <> k:96 var
+R13811:13816 Corelib.Init.Logic <> eq_sym scheme
+binder 13778:13778 <> k:97
+R13836:13836 Ionia.Opt_ParGranularity <> k:97 var
+binder 13778:13778 <> k:98
+R13836:13836 Ionia.Opt_ParGranularity <> k:98 var
+R13937:13951 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13863:13868 Ionia.Proof_CodeGen <> seqfor def
+R13879:13881 Ionia.finType <> fin def
+R13884:13884 Corelib.Init.Datatypes <> S constr
+binder 13875:13875 <> b:99
+R13893:13898 Ionia.Proof_CodeGen <> seqfor def
+R13909:13911 Ionia.finType <> fin def
+binder 13905:13905 <> i:100
+R13921:13929 Ionia.Opt_ParGranularity <> fin_block def
+R13933:13933 Ionia.Opt_ParGranularity <> i:100 var
+R13931:13931 Ionia.Opt_ParGranularity <> b:99 var
+R13952:13954 Ionia.Proof_CodeGen <> seq def
+R14052:14057 Ionia.Proof_CodeGen <> seqfor def
+R14068:14070 Ionia.finType <> fin def
+binder 14064:14064 <> i:101
+R14080:14088 Ionia.Opt_ParGranularity <> fin_block def
+R14096:14096 Ionia.Opt_ParGranularity <> i:101 var
+R14090:14091 Ionia.Proof_CodeGen <> :::'''['_x_']' not
+R14094:14094 Ionia.Proof_CodeGen <> :::'''['_x_']' not
+R13957:13962 Ionia.Proof_CodeGen <> seqfor def
+R13973:13975 Ionia.finType <> fin def
+binder 13969:13969 <> b:102
+R13983:13988 Ionia.Proof_CodeGen <> seqfor def
+R13999:14001 Ionia.finType <> fin def
+binder 13995:13995 <> i:103
+R14011:14019 Ionia.Opt_ParGranularity <> fin_block def
+R14027:14027 Ionia.Opt_ParGranularity <> i:103 var
+R14021:14023 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R14025:14025 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R14024:14024 Ionia.Opt_ParGranularity <> b:102 var
+binder 13875:13875 <> b:104
+binder 13905:13905 <> i:105
+R13933:13933 Ionia.Opt_ParGranularity <> i:105 var
+R13931:13931 Ionia.Opt_ParGranularity <> b:104 var
+binder 14064:14064 <> i:106
+R14096:14096 Ionia.Opt_ParGranularity <> i:106 var
+binder 13969:13969 <> b:107
+binder 13995:13995 <> i:108
+R14027:14027 Ionia.Opt_ParGranularity <> i:108 var
+R14024:14024 Ionia.Opt_ParGranularity <> b:107 var
+R14117:14125 Ionia.Proof_CodeGen <> seqfor_Sn thm
+R14183:14203 Ionia.Proof_CodeGen <> seqfor_extensionality thm
+R14227:14247 Ionia.Proof_CodeGen <> seqfor_extensionality thm
+R14290:14300 Ionia.finType <> fin2nat_inj thm
+R14317:14328 Ionia.Opt_ParGranularity <> fin_cast_nat thm
+R14331:14345 Ionia.Opt_ParGranularity <> fin2nat_shift_l thm
+R14349:14365 Ionia.Opt_ParGranularity <> fin2nat_fin_block thm
+R14368:14383 Ionia.finType <> fin2nat_fin2finS thm
+R14417:14437 Ionia.Proof_CodeGen <> seqfor_extensionality thm
+R14480:14490 Ionia.finType <> fin2nat_inj thm
+R14507:14518 Ionia.Opt_ParGranularity <> fin_cast_nat thm
+R14521:14535 Ionia.Opt_ParGranularity <> fin2nat_shift_r thm
+R14538:14554 Ionia.Opt_ParGranularity <> fin2nat_fin_block thm
+R14557:14567 Ionia.Parallel_Safety <> fin2nat_ltS thm
+prf 15049:15061 <> block_body_ni
+binder 15072:15072 <> n:109
+binder 15074:15074 <> p:110
+binder 15076:15076 <> d:111
+R15085:15087 Ionia.Proof_CodeGen <> acc def
+R15090:15092 Ionia.DataExp <> ary constr
+R15101:15101 Ionia.Opt_ParGranularity <> d:111 var
+R15094:15095 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R15099:15099 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R15097:15097 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R15096:15096 Ionia.Opt_ParGranularity <> n:109 var
+R15098:15098 Ionia.Opt_ParGranularity <> p:110 var
+binder 15079:15081 <> out:112
+R15123:15126 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15114:15116 Ionia.finType <> fin def
+R15120:15120 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R15119:15119 Ionia.Opt_ParGranularity <> n:109 var
+R15121:15121 Ionia.Opt_ParGranularity <> p:110 var
+R15132:15135 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15127:15129 Ionia.Proof_CodeGen <> acc def
+R15131:15131 Ionia.Opt_ParGranularity <> d:111 var
+R15136:15139 Ionia.Proof_CodeGen <> comm def
+binder 15110:15110 <> g:113
+R15185:15190 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15145:15159 Ionia.Parallel_Safety <> non_interfering def
+binder 15166:15166 <> k:114
+R15171:15171 Ionia.Opt_ParGranularity <> g:113 var
+R15179:15180 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R15182:15182 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R15176:15178 Ionia.Opt_ParGranularity <> out:112 var
+R15181:15181 Ionia.Opt_ParGranularity <> k:114 var
+R15173:15173 Ionia.Opt_ParGranularity <> k:114 var
+R15191:15205 Ionia.Parallel_Safety <> non_interfering def
+R15216:15218 Ionia.finType <> fin def
+R15220:15220 Ionia.Opt_ParGranularity <> n:109 var
+binder 15212:15212 <> b:115
+R15225:15230 Ionia.Proof_CodeGen <> seqfor def
+R15241:15243 Ionia.finType <> fin def
+R15245:15245 Ionia.Opt_ParGranularity <> p:110 var
+binder 15237:15237 <> i:116
+R15250:15250 Ionia.Opt_ParGranularity <> g:113 var
+R15272:15273 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R15287:15287 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R15269:15271 Ionia.Opt_ParGranularity <> out:112 var
+R15274:15282 Ionia.Opt_ParGranularity <> fin_block def
+R15286:15286 Ionia.Opt_ParGranularity <> i:116 var
+R15284:15284 Ionia.Opt_ParGranularity <> b:115 var
+R15253:15261 Ionia.Opt_ParGranularity <> fin_block def
+R15265:15265 Ionia.Opt_ParGranularity <> i:116 var
+R15263:15263 Ionia.Opt_ParGranularity <> b:115 var
+R15347:15360 Ionia.Proof_CodeGen <> seqfor_commute thm
+R15396:15409 Ionia.Proof_CodeGen <> seqfor_commute thm
+R15447:15461 Ionia.Opt_ParGranularity <> fin_block_neq_l thm
+prf 16065:16078 <> parfor_coarsen
+binder 16089:16089 <> n:117
+binder 16091:16091 <> p:118
+binder 16093:16093 <> d:119
+R16102:16104 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R16101:16101 Ionia.Opt_ParGranularity <> p:118 var
+binder 16096:16097 <> Hp:120
+R16119:16121 Ionia.Proof_CodeGen <> acc def
+R16124:16126 Ionia.DataExp <> ary constr
+R16135:16135 Ionia.Opt_ParGranularity <> d:119 var
+R16128:16129 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R16133:16133 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R16131:16131 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R16130:16130 Ionia.Opt_ParGranularity <> n:117 var
+R16132:16132 Ionia.Opt_ParGranularity <> p:118 var
+binder 16113:16115 <> out:121
+R16153:16156 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16144:16146 Ionia.finType <> fin def
+R16150:16150 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R16149:16149 Ionia.Opt_ParGranularity <> n:117 var
+R16151:16151 Ionia.Opt_ParGranularity <> p:118 var
+R16162:16165 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16157:16159 Ionia.Proof_CodeGen <> acc def
+R16161:16161 Ionia.Opt_ParGranularity <> d:119 var
+R16166:16169 Ionia.Proof_CodeGen <> comm def
+binder 16140:16140 <> g:122
+R16215:16220 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16175:16189 Ionia.Parallel_Safety <> non_interfering def
+binder 16196:16196 <> k:123
+R16201:16201 Ionia.Opt_ParGranularity <> g:122 var
+R16209:16210 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R16212:16212 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R16206:16208 Ionia.Opt_ParGranularity <> out:121 var
+R16211:16211 Ionia.Opt_ParGranularity <> k:123 var
+R16203:16203 Ionia.Opt_ParGranularity <> k:123 var
+R16329:16334 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R16233:16237 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16221:16226 Ionia.Proof_CodeGen <> parfor def
+R16232:16232 Ionia.Opt_ParGranularity <> g:122 var
+R16228:16230 Ionia.Opt_ParGranularity <> out:121 var
+R16238:16243 Ionia.Proof_CodeGen <> seqfor def
+R16254:16256 Ionia.finType <> fin def
+R16258:16258 Ionia.Opt_ParGranularity <> n:117 var
+binder 16250:16250 <> b:124
+R16263:16268 Ionia.Proof_CodeGen <> seqfor def
+R16279:16281 Ionia.finType <> fin def
+R16283:16283 Ionia.Opt_ParGranularity <> p:118 var
+binder 16275:16275 <> i:125
+R16288:16288 Ionia.Opt_ParGranularity <> g:122 var
+R16310:16311 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R16325:16325 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R16307:16309 Ionia.Opt_ParGranularity <> out:121 var
+R16312:16320 Ionia.Opt_ParGranularity <> fin_block def
+R16324:16324 Ionia.Opt_ParGranularity <> i:125 var
+R16322:16322 Ionia.Opt_ParGranularity <> b:124 var
+R16291:16299 Ionia.Opt_ParGranularity <> fin_block def
+R16303:16303 Ionia.Opt_ParGranularity <> i:125 var
+R16301:16301 Ionia.Opt_ParGranularity <> b:124 var
+R16335:16335 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R16506:16513 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R16758:16758 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R16357:16360 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16348:16350 Ionia.finType <> fin def
+R16354:16354 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R16353:16353 Ionia.Opt_ParGranularity <> n:117 var
+R16355:16355 Ionia.Opt_ParGranularity <> p:118 var
+R16361:16363 Ionia.finType <> fin def
+R16367:16367 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R16366:16366 Ionia.Opt_ParGranularity <> n:117 var
+R16368:16368 Ionia.Opt_ParGranularity <> p:118 var
+binder 16343:16344 <> σ:126
+R16372:16372 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16405:16415 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 16380:16380 <> i:127
+binder 16382:16382 <> j:128
+R16396:16399 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16389:16391 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16385:16386 Ionia.Opt_ParGranularity <> σ:126 var
+R16388:16388 Ionia.Opt_ParGranularity <> i:127 var
+R16392:16393 Ionia.Opt_ParGranularity <> σ:126 var
+R16395:16395 Ionia.Opt_ParGranularity <> j:128 var
+R16401:16403 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16400:16400 Ionia.Opt_ParGranularity <> i:127 var
+R16404:16404 Ionia.Opt_ParGranularity <> j:128 var
+binder 16423:16425 <> rho:129
+R16444:16462 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16428:16433 Ionia.Proof_CodeGen <> parfor def
+R16441:16443 Ionia.Opt_ParGranularity <> rho:129 var
+R16439:16439 Ionia.Opt_ParGranularity <> g:122 var
+R16435:16437 Ionia.Opt_ParGranularity <> out:121 var
+R16463:16468 Ionia.Proof_CodeGen <> seqfor def
+R16503:16505 Ionia.Opt_ParGranularity <> rho:129 var
+binder 16475:16475 <> k:130
+R16480:16480 Ionia.Opt_ParGranularity <> g:122 var
+R16493:16494 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R16499:16499 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R16490:16492 Ionia.Opt_ParGranularity <> out:121 var
+R16495:16496 Ionia.Opt_ParGranularity <> σ:126 var
+R16498:16498 Ionia.Opt_ParGranularity <> k:130 var
+R16483:16484 Ionia.Opt_ParGranularity <> σ:126 var
+R16486:16486 Ionia.Opt_ParGranularity <> k:130 var
+R16531:16534 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16526:16528 Ionia.finType <> fin def
+R16530:16530 Ionia.Opt_ParGranularity <> n:117 var
+R16535:16537 Ionia.finType <> fin def
+R16539:16539 Ionia.Opt_ParGranularity <> n:117 var
+binder 16521:16522 <> τ:131
+R16542:16542 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16575:16585 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 16550:16550 <> i:132
+binder 16552:16552 <> j:133
+R16566:16569 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16559:16561 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16555:16556 Ionia.Opt_ParGranularity <> τ:131 var
+R16558:16558 Ionia.Opt_ParGranularity <> i:132 var
+R16562:16563 Ionia.Opt_ParGranularity <> τ:131 var
+R16565:16565 Ionia.Opt_ParGranularity <> j:133 var
+R16571:16573 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16570:16570 Ionia.Opt_ParGranularity <> i:132 var
+R16574:16574 Ionia.Opt_ParGranularity <> j:133 var
+binder 16593:16595 <> rho:134
+R16614:16632 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16598:16603 Ionia.Proof_CodeGen <> parfor def
+R16611:16613 Ionia.Opt_ParGranularity <> rho:134 var
+R16609:16609 Ionia.Opt_ParGranularity <> g:122 var
+R16605:16607 Ionia.Opt_ParGranularity <> out:121 var
+R16633:16638 Ionia.Proof_CodeGen <> seqfor def
+R16755:16757 Ionia.Opt_ParGranularity <> rho:134 var
+R16649:16651 Ionia.finType <> fin def
+R16653:16653 Ionia.Opt_ParGranularity <> n:117 var
+binder 16645:16645 <> b:135
+R16658:16663 Ionia.Proof_CodeGen <> seqfor def
+R16674:16676 Ionia.finType <> fin def
+R16678:16678 Ionia.Opt_ParGranularity <> p:118 var
+binder 16670:16670 <> i:136
+R16703:16703 Ionia.Opt_ParGranularity <> g:122 var
+R16730:16731 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R16750:16750 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R16727:16729 Ionia.Opt_ParGranularity <> out:121 var
+R16732:16740 Ionia.Opt_ParGranularity <> fin_block def
+R16749:16749 Ionia.Opt_ParGranularity <> i:136 var
+R16743:16744 Ionia.Opt_ParGranularity <> τ:131 var
+R16746:16746 Ionia.Opt_ParGranularity <> b:135 var
+R16706:16714 Ionia.Opt_ParGranularity <> fin_block def
+R16723:16723 Ionia.Opt_ParGranularity <> i:136 var
+R16717:16718 Ionia.Opt_ParGranularity <> τ:131 var
+R16720:16720 Ionia.Opt_ParGranularity <> b:135 var
+R16827:16839 Ionia.DPIA_Rules <> parfor_seqfor thm
+R16855:16871 Ionia.Opt_ParGranularity <> seqfor_strip_mine thm
+binder 16885:16885 <> k:137
+R16892:16892 Ionia.Opt_ParGranularity <> k:137 var
+R16898:16899 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R16901:16901 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R16900:16900 Ionia.Opt_ParGranularity <> k:137 var
+binder 16885:16885 <> k:138
+R16892:16892 Ionia.Opt_ParGranularity <> k:138 var
+R16900:16900 Ionia.Opt_ParGranularity <> k:138 var
+binder 16885:16885 <> k:139
+R16892:16892 Ionia.Opt_ParGranularity <> k:139 var
+R16900:16900 Ionia.Opt_ParGranularity <> k:139 var
+R16956:16968 Ionia.DPIA_Rules <> parfor_seqfor thm
+R16992:17002 Ionia.Parallel_Safety <> seqfor_perm thm
+R17058:17070 Ionia.DPIA_Rules <> parfor_seqfor thm
+R17086:17102 Ionia.Opt_ParGranularity <> seqfor_strip_mine thm
+binder 17116:17116 <> k:140
+R17123:17123 Ionia.Opt_ParGranularity <> k:140 var
+R17129:17130 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R17132:17132 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R17131:17131 Ionia.Opt_ParGranularity <> k:140 var
+binder 17116:17116 <> k:141
+R17123:17123 Ionia.Opt_ParGranularity <> k:141 var
+R17131:17131 Ionia.Opt_ParGranularity <> k:141 var
+binder 17116:17116 <> k:142
+R17123:17123 Ionia.Opt_ParGranularity <> k:142 var
+R17131:17131 Ionia.Opt_ParGranularity <> k:142 var
+R17163:17173 Ionia.Parallel_Safety <> seqfor_perm thm
+R17199:17201 Ionia.finType <> fin def
+binder 17195:17195 <> b:143
+R17208:17213 Ionia.Proof_CodeGen <> seqfor def
+R17224:17226 Ionia.finType <> fin def
+binder 17220:17220 <> i:144
+R17236:17244 Ionia.Opt_ParGranularity <> fin_block def
+R17248:17248 Ionia.Opt_ParGranularity <> i:144 var
+R17246:17246 Ionia.Opt_ParGranularity <> b:143 var
+R17255:17256 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R17270:17270 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R17257:17265 Ionia.Opt_ParGranularity <> fin_block def
+R17269:17269 Ionia.Opt_ParGranularity <> i:144 var
+R17267:17267 Ionia.Opt_ParGranularity <> b:143 var
+binder 17195:17195 <> b:145
+binder 17220:17220 <> i:146
+R17248:17248 Ionia.Opt_ParGranularity <> i:146 var
+R17246:17246 Ionia.Opt_ParGranularity <> b:145 var
+R17269:17269 Ionia.Opt_ParGranularity <> i:146 var
+R17267:17267 Ionia.Opt_ParGranularity <> b:145 var
+R17305:17317 Ionia.Opt_ParGranularity <> block_body_ni thm
+prf 17838:17858 <> parallel_safe_coarsen
+binder 17869:17869 <> n:147
+binder 17871:17871 <> p:148
+binder 17873:17873 <> d:149
+R17882:17884 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R17881:17881 Ionia.Opt_ParGranularity <> p:148 var
+binder 17876:17877 <> Hp:150
+R17902:17905 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17893:17895 Ionia.finType <> fin def
+R17899:17899 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R17898:17898 Ionia.Opt_ParGranularity <> n:147 var
+R17900:17900 Ionia.Opt_ParGranularity <> p:148 var
+R17906:17908 Ionia.Proof_CodeGen <> exp def
+R17910:17910 Ionia.Opt_ParGranularity <> d:149 var
+binder 17889:17889 <> f:151
+R17924:17926 Ionia.Proof_CodeGen <> acc def
+R17929:17931 Ionia.DataExp <> ary constr
+R17940:17940 Ionia.Opt_ParGranularity <> d:149 var
+R17933:17934 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R17938:17938 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R17936:17936 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R17935:17935 Ionia.Opt_ParGranularity <> n:147 var
+R17937:17937 Ionia.Opt_ParGranularity <> p:148 var
+binder 17918:17920 <> out:152
+R17947:17947 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18014:18020 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17961:17963 Ionia.finType <> fin def
+R17967:17967 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R17966:17966 Ionia.Opt_ParGranularity <> n:147 var
+R17968:17968 Ionia.Opt_ParGranularity <> p:148 var
+binder 17955:17955 <> i:153
+binder 17957:17957 <> j:154
+R17978:17981 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17973:17976 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R17972:17972 Ionia.Opt_ParGranularity <> i:153 var
+R17977:17977 Ionia.Opt_ParGranularity <> j:154 var
+R17982:17993 Ionia.Parallel_Safety <> acc_disjoint def
+R18009:18010 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R18012:18012 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R18006:18008 Ionia.Opt_ParGranularity <> out:152 var
+R18011:18011 Ionia.Opt_ParGranularity <> j:154 var
+R17999:18000 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R18002:18002 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R17996:17998 Ionia.Opt_ParGranularity <> out:152 var
+R18001:18001 Ionia.Opt_ParGranularity <> i:153 var
+R18159:18164 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R18055:18059 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18021:18027 Ionia.DPIA_Rules <> mkvParl def
+R18052:18054 Ionia.Opt_ParGranularity <> out:152 var
+binder 18034:18034 <> k:155
+binder 18036:18036 <> o:156
+R18041:18042 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R18044:18045 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R18049:18049 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R18043:18043 Ionia.Opt_ParGranularity <> o:156 var
+R18046:18046 Ionia.Opt_ParGranularity <> f:151 var
+R18048:18048 Ionia.Opt_ParGranularity <> k:155 var
+R18060:18065 Ionia.Proof_CodeGen <> seqfor def
+R18076:18078 Ionia.finType <> fin def
+R18080:18080 Ionia.Opt_ParGranularity <> n:147 var
+binder 18072:18072 <> b:157
+R18085:18090 Ionia.Proof_CodeGen <> seqfor def
+R18101:18103 Ionia.finType <> fin def
+R18105:18105 Ionia.Opt_ParGranularity <> p:148 var
+binder 18097:18097 <> i:158
+R18116:18117 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R18137:18138 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R18156:18156 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R18121:18122 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R18136:18136 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R18118:18120 Ionia.Opt_ParGranularity <> out:152 var
+R18123:18131 Ionia.Opt_ParGranularity <> fin_block def
+R18135:18135 Ionia.Opt_ParGranularity <> i:158 var
+R18133:18133 Ionia.Opt_ParGranularity <> b:157 var
+R18139:18139 Ionia.Opt_ParGranularity <> f:151 var
+R18142:18150 Ionia.Opt_ParGranularity <> fin_block def
+R18154:18154 Ionia.Opt_ParGranularity <> i:158 var
+R18152:18152 Ionia.Opt_ParGranularity <> b:157 var
+R18165:18165 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R18360:18367 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R18636:18636 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R18187:18190 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18178:18180 Ionia.finType <> fin def
+R18184:18184 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R18183:18183 Ionia.Opt_ParGranularity <> n:147 var
+R18185:18185 Ionia.Opt_ParGranularity <> p:148 var
+R18191:18193 Ionia.finType <> fin def
+R18197:18197 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R18196:18196 Ionia.Opt_ParGranularity <> n:147 var
+R18198:18198 Ionia.Opt_ParGranularity <> p:148 var
+binder 18173:18174 <> σ:159
+R18202:18202 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18235:18245 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 18210:18210 <> i:160
+binder 18212:18212 <> j:161
+R18226:18229 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18219:18221 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18215:18216 Ionia.Opt_ParGranularity <> σ:159 var
+R18218:18218 Ionia.Opt_ParGranularity <> i:160 var
+R18222:18223 Ionia.Opt_ParGranularity <> σ:159 var
+R18225:18225 Ionia.Opt_ParGranularity <> j:161 var
+R18231:18233 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18230:18230 Ionia.Opt_ParGranularity <> i:160 var
+R18234:18234 Ionia.Opt_ParGranularity <> j:161 var
+binder 18253:18255 <> rho:162
+R18296:18314 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18258:18264 Ionia.DPIA_Rules <> mkvParl def
+R18293:18295 Ionia.Opt_ParGranularity <> rho:162 var
+R18289:18291 Ionia.Opt_ParGranularity <> out:152 var
+binder 18271:18271 <> k:163
+binder 18273:18273 <> o:164
+R18278:18279 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R18281:18282 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R18286:18286 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R18280:18280 Ionia.Opt_ParGranularity <> o:164 var
+R18283:18283 Ionia.Opt_ParGranularity <> f:151 var
+R18285:18285 Ionia.Opt_ParGranularity <> k:163 var
+R18315:18320 Ionia.Proof_CodeGen <> seqfor def
+R18357:18359 Ionia.Opt_ParGranularity <> rho:162 var
+binder 18327:18327 <> k:165
+R18332:18333 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R18344:18345 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R18354:18354 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R18337:18338 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R18343:18343 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R18334:18336 Ionia.Opt_ParGranularity <> out:152 var
+R18339:18340 Ionia.Opt_ParGranularity <> σ:159 var
+R18342:18342 Ionia.Opt_ParGranularity <> k:165 var
+R18346:18346 Ionia.Opt_ParGranularity <> f:151 var
+R18349:18350 Ionia.Opt_ParGranularity <> σ:159 var
+R18352:18352 Ionia.Opt_ParGranularity <> k:165 var
+R18385:18388 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18380:18382 Ionia.finType <> fin def
+R18384:18384 Ionia.Opt_ParGranularity <> n:147 var
+R18389:18391 Ionia.finType <> fin def
+R18393:18393 Ionia.Opt_ParGranularity <> n:147 var
+binder 18375:18376 <> τ:166
+R18396:18396 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18429:18439 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 18404:18404 <> i:167
+binder 18406:18406 <> j:168
+R18420:18423 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18413:18415 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18409:18410 Ionia.Opt_ParGranularity <> τ:166 var
+R18412:18412 Ionia.Opt_ParGranularity <> i:167 var
+R18416:18417 Ionia.Opt_ParGranularity <> τ:166 var
+R18419:18419 Ionia.Opt_ParGranularity <> j:168 var
+R18425:18427 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18424:18424 Ionia.Opt_ParGranularity <> i:167 var
+R18428:18428 Ionia.Opt_ParGranularity <> j:168 var
+binder 18447:18449 <> rho:169
+R18490:18508 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18452:18458 Ionia.DPIA_Rules <> mkvParl def
+R18487:18489 Ionia.Opt_ParGranularity <> rho:169 var
+R18483:18485 Ionia.Opt_ParGranularity <> out:152 var
+binder 18465:18465 <> k:170
+binder 18467:18467 <> o:171
+R18472:18473 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R18475:18476 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R18480:18480 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R18474:18474 Ionia.Opt_ParGranularity <> o:171 var
+R18477:18477 Ionia.Opt_ParGranularity <> f:151 var
+R18479:18479 Ionia.Opt_ParGranularity <> k:170 var
+R18509:18514 Ionia.Proof_CodeGen <> seqfor def
+R18633:18635 Ionia.Opt_ParGranularity <> rho:169 var
+R18525:18527 Ionia.finType <> fin def
+R18529:18529 Ionia.Opt_ParGranularity <> n:147 var
+binder 18521:18521 <> b:172
+R18534:18539 Ionia.Proof_CodeGen <> seqfor def
+R18550:18552 Ionia.finType <> fin def
+R18554:18554 Ionia.Opt_ParGranularity <> p:148 var
+binder 18546:18546 <> i:173
+R18579:18580 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R18605:18606 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R18629:18629 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R18584:18585 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R18604:18604 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R18581:18583 Ionia.Opt_ParGranularity <> out:152 var
+R18586:18594 Ionia.Opt_ParGranularity <> fin_block def
+R18603:18603 Ionia.Opt_ParGranularity <> i:173 var
+R18597:18598 Ionia.Opt_ParGranularity <> τ:166 var
+R18600:18600 Ionia.Opt_ParGranularity <> b:172 var
+R18607:18607 Ionia.Opt_ParGranularity <> f:151 var
+R18610:18618 Ionia.Opt_ParGranularity <> fin_block def
+R18627:18627 Ionia.Opt_ParGranularity <> i:173 var
+R18621:18622 Ionia.Opt_ParGranularity <> τ:166 var
+R18624:18624 Ionia.Opt_ParGranularity <> b:172 var
+R18693:18707 Ionia.Parallel_Safety <> non_interfering def
+binder 18714:18714 <> k:174
+R18719:18720 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R18728:18729 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R18733:18733 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R18724:18725 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R18727:18727 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R18726:18726 Ionia.Opt_ParGranularity <> k:174 var
+R18732:18732 Ionia.Opt_ParGranularity <> k:174 var
+binder 18714:18714 <> k:175
+R18726:18726 Ionia.Opt_ParGranularity <> k:175 var
+R18732:18732 Ionia.Opt_ParGranularity <> k:175 var
+R18748:18762 Ionia.Parallel_Safety <> parallel_safe_A thm
+R18792:18805 Ionia.Opt_ParGranularity <> parfor_coarsen thm
+binder 18825:18825 <> k:176
+binder 18827:18827 <> o:177
+R18832:18833 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R18835:18836 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R18840:18840 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R18834:18834 Ionia.Opt_ParGranularity <> o:177 var
+R18839:18839 Ionia.Opt_ParGranularity <> k:176 var
+binder 18825:18825 <> k:178
+binder 18827:18827 <> o:179
+R18834:18834 Ionia.Opt_ParGranularity <> o:179 var
+R18839:18839 Ionia.Opt_ParGranularity <> k:178 var
+R18896:18902 Ionia.DPIA_Rules <> mkvParl def
+R18946:18952 Ionia.DPIA_Rules <> mkvParl def
+R19008:19014 Ionia.DPIA_Rules <> mkvParl def
+prf 19197:19222 <> parallel_safe_coarsen_acc'
+binder 19233:19233 <> n:180
+binder 19235:19235 <> p:181
+binder 19237:19237 <> d:182
+R19246:19248 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R19245:19245 Ionia.Opt_ParGranularity <> p:181 var
+binder 19240:19241 <> Hp:183
+R19266:19269 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19257:19259 Ionia.finType <> fin def
+R19263:19263 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R19262:19262 Ionia.Opt_ParGranularity <> n:180 var
+R19264:19264 Ionia.Opt_ParGranularity <> p:181 var
+R19270:19272 Ionia.Proof_CodeGen <> exp def
+R19274:19274 Ionia.Opt_ParGranularity <> d:182 var
+binder 19253:19253 <> f:184
+R19286:19289 Ionia.DataExp <> path ind
+binder 19282:19282 <> a:185
+R19475:19480 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R19350:19354 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19295:19301 Ionia.DPIA_Rules <> mkvParl def
+R19328:19331 Ionia.Proof_CodeGen <> acc' def
+R19334:19336 Ionia.DataExp <> ary constr
+R19345:19345 Ionia.Opt_ParGranularity <> d:182 var
+R19338:19339 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19343:19343 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19341:19341 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R19340:19340 Ionia.Opt_ParGranularity <> n:180 var
+R19342:19342 Ionia.Opt_ParGranularity <> p:181 var
+R19348:19348 Ionia.Opt_ParGranularity <> a:185 var
+binder 19308:19308 <> k:186
+binder 19310:19310 <> o:187
+R19315:19316 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R19318:19319 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R19323:19323 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R19317:19317 Ionia.Opt_ParGranularity <> o:187 var
+R19320:19320 Ionia.Opt_ParGranularity <> f:184 var
+R19322:19322 Ionia.Opt_ParGranularity <> k:186 var
+R19355:19360 Ionia.Proof_CodeGen <> seqfor def
+R19371:19373 Ionia.finType <> fin def
+R19375:19375 Ionia.Opt_ParGranularity <> n:180 var
+binder 19367:19367 <> b:188
+R19380:19385 Ionia.Proof_CodeGen <> seqfor def
+R19396:19398 Ionia.finType <> fin def
+R19400:19400 Ionia.Opt_ParGranularity <> p:181 var
+binder 19392:19392 <> i:189
+R19411:19412 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R19453:19454 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R19472:19472 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R19413:19413 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R19436:19438 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R19452:19452 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R19415:19418 Ionia.Proof_CodeGen <> acc' def
+R19421:19423 Ionia.DataExp <> ary constr
+R19432:19432 Ionia.Opt_ParGranularity <> d:182 var
+R19425:19426 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19430:19430 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19428:19428 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R19427:19427 Ionia.Opt_ParGranularity <> n:180 var
+R19429:19429 Ionia.Opt_ParGranularity <> p:181 var
+R19435:19435 Ionia.Opt_ParGranularity <> a:185 var
+R19439:19447 Ionia.Opt_ParGranularity <> fin_block def
+R19451:19451 Ionia.Opt_ParGranularity <> i:189 var
+R19449:19449 Ionia.Opt_ParGranularity <> b:188 var
+R19455:19455 Ionia.Opt_ParGranularity <> f:184 var
+R19458:19466 Ionia.Opt_ParGranularity <> fin_block def
+R19470:19470 Ionia.Opt_ParGranularity <> i:189 var
+R19468:19468 Ionia.Opt_ParGranularity <> b:188 var
+R19481:19481 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R19718:19725 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R20058:20058 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R19503:19506 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19494:19496 Ionia.finType <> fin def
+R19500:19500 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R19499:19499 Ionia.Opt_ParGranularity <> n:180 var
+R19501:19501 Ionia.Opt_ParGranularity <> p:181 var
+R19507:19509 Ionia.finType <> fin def
+R19513:19513 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R19512:19512 Ionia.Opt_ParGranularity <> n:180 var
+R19514:19514 Ionia.Opt_ParGranularity <> p:181 var
+binder 19489:19490 <> σ:190
+R19518:19518 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19551:19561 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 19526:19526 <> i:191
+binder 19528:19528 <> j:192
+R19542:19545 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19535:19537 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19531:19532 Ionia.Opt_ParGranularity <> σ:190 var
+R19534:19534 Ionia.Opt_ParGranularity <> i:191 var
+R19538:19539 Ionia.Opt_ParGranularity <> σ:190 var
+R19541:19541 Ionia.Opt_ParGranularity <> j:192 var
+R19547:19549 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19546:19546 Ionia.Opt_ParGranularity <> i:191 var
+R19550:19550 Ionia.Opt_ParGranularity <> j:192 var
+binder 19569:19571 <> rho:193
+R19633:19651 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19574:19580 Ionia.DPIA_Rules <> mkvParl def
+R19630:19632 Ionia.Opt_ParGranularity <> rho:193 var
+R19607:19610 Ionia.Proof_CodeGen <> acc' def
+R19613:19615 Ionia.DataExp <> ary constr
+R19624:19624 Ionia.Opt_ParGranularity <> d:182 var
+R19617:19618 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19622:19622 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19620:19620 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R19619:19619 Ionia.Opt_ParGranularity <> n:180 var
+R19621:19621 Ionia.Opt_ParGranularity <> p:181 var
+R19627:19627 Ionia.Opt_ParGranularity <> a:185 var
+binder 19587:19587 <> k:194
+binder 19589:19589 <> o:195
+R19594:19595 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R19597:19598 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R19602:19602 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R19596:19596 Ionia.Opt_ParGranularity <> o:195 var
+R19599:19599 Ionia.Opt_ParGranularity <> f:184 var
+R19601:19601 Ionia.Opt_ParGranularity <> k:194 var
+R19652:19657 Ionia.Proof_CodeGen <> seqfor def
+R19715:19717 Ionia.Opt_ParGranularity <> rho:193 var
+binder 19664:19664 <> k:196
+R19669:19670 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R19702:19703 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R19712:19712 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R19671:19671 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R19694:19696 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R19701:19701 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R19673:19676 Ionia.Proof_CodeGen <> acc' def
+R19679:19681 Ionia.DataExp <> ary constr
+R19690:19690 Ionia.Opt_ParGranularity <> d:182 var
+R19683:19684 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19688:19688 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19686:19686 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R19685:19685 Ionia.Opt_ParGranularity <> n:180 var
+R19687:19687 Ionia.Opt_ParGranularity <> p:181 var
+R19693:19693 Ionia.Opt_ParGranularity <> a:185 var
+R19697:19698 Ionia.Opt_ParGranularity <> σ:190 var
+R19700:19700 Ionia.Opt_ParGranularity <> k:196 var
+R19704:19704 Ionia.Opt_ParGranularity <> f:184 var
+R19707:19708 Ionia.Opt_ParGranularity <> σ:190 var
+R19710:19710 Ionia.Opt_ParGranularity <> k:196 var
+R19743:19746 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19738:19740 Ionia.finType <> fin def
+R19742:19742 Ionia.Opt_ParGranularity <> n:180 var
+R19747:19749 Ionia.finType <> fin def
+R19751:19751 Ionia.Opt_ParGranularity <> n:180 var
+binder 19733:19734 <> τ:197
+R19754:19754 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19787:19797 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 19762:19762 <> i:198
+binder 19764:19764 <> j:199
+R19778:19781 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19771:19773 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19767:19768 Ionia.Opt_ParGranularity <> τ:197 var
+R19770:19770 Ionia.Opt_ParGranularity <> i:198 var
+R19774:19775 Ionia.Opt_ParGranularity <> τ:197 var
+R19777:19777 Ionia.Opt_ParGranularity <> j:199 var
+R19783:19785 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19782:19782 Ionia.Opt_ParGranularity <> i:198 var
+R19786:19786 Ionia.Opt_ParGranularity <> j:199 var
+binder 19805:19807 <> rho:200
+R19869:19887 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19810:19816 Ionia.DPIA_Rules <> mkvParl def
+R19866:19868 Ionia.Opt_ParGranularity <> rho:200 var
+R19843:19846 Ionia.Proof_CodeGen <> acc' def
+R19849:19851 Ionia.DataExp <> ary constr
+R19860:19860 Ionia.Opt_ParGranularity <> d:182 var
+R19853:19854 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19858:19858 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19856:19856 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R19855:19855 Ionia.Opt_ParGranularity <> n:180 var
+R19857:19857 Ionia.Opt_ParGranularity <> p:181 var
+R19863:19863 Ionia.Opt_ParGranularity <> a:185 var
+binder 19823:19823 <> k:201
+binder 19825:19825 <> o:202
+R19830:19831 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R19833:19834 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R19838:19838 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R19832:19832 Ionia.Opt_ParGranularity <> o:202 var
+R19835:19835 Ionia.Opt_ParGranularity <> f:184 var
+R19837:19837 Ionia.Opt_ParGranularity <> k:201 var
+R19888:19893 Ionia.Proof_CodeGen <> seqfor def
+R20055:20057 Ionia.Opt_ParGranularity <> rho:200 var
+R19904:19906 Ionia.finType <> fin def
+R19908:19908 Ionia.Opt_ParGranularity <> n:180 var
+binder 19900:19900 <> b:203
+R19913:19918 Ionia.Proof_CodeGen <> seqfor def
+R19929:19931 Ionia.finType <> fin def
+R19933:19933 Ionia.Opt_ParGranularity <> p:181 var
+binder 19925:19925 <> i:204
+R19958:19959 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20005:20028 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20051:20051 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R19960:19960 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R19983:19985 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R20004:20004 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R19962:19965 Ionia.Proof_CodeGen <> acc' def
+R19968:19970 Ionia.DataExp <> ary constr
+R19979:19979 Ionia.Opt_ParGranularity <> d:182 var
+R19972:19973 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19977:19977 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19975:19975 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R19974:19974 Ionia.Opt_ParGranularity <> n:180 var
+R19976:19976 Ionia.Opt_ParGranularity <> p:181 var
+R19982:19982 Ionia.Opt_ParGranularity <> a:185 var
+R19986:19994 Ionia.Opt_ParGranularity <> fin_block def
+R20003:20003 Ionia.Opt_ParGranularity <> i:204 var
+R19997:19998 Ionia.Opt_ParGranularity <> τ:197 var
+R20000:20000 Ionia.Opt_ParGranularity <> b:203 var
+R20029:20029 Ionia.Opt_ParGranularity <> f:184 var
+R20032:20040 Ionia.Opt_ParGranularity <> fin_block def
+R20049:20049 Ionia.Opt_ParGranularity <> i:204 var
+R20043:20044 Ionia.Opt_ParGranularity <> τ:197 var
+R20046:20046 Ionia.Opt_ParGranularity <> b:203 var
+R20107:20121 Ionia.Parallel_Safety <> non_interfering def
+binder 20128:20128 <> k:205
+R20133:20134 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20163:20164 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20168:20168 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20135:20135 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R20158:20160 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R20162:20162 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R20137:20140 Ionia.Proof_CodeGen <> acc' def
+R20143:20145 Ionia.DataExp <> ary constr
+R20147:20148 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R20152:20152 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R20150:20150 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R20161:20161 Ionia.Opt_ParGranularity <> k:205 var
+R20167:20167 Ionia.Opt_ParGranularity <> k:205 var
+binder 20128:20128 <> k:206
+R20161:20161 Ionia.Opt_ParGranularity <> k:206 var
+R20167:20167 Ionia.Opt_ParGranularity <> k:206 var
+R20184:20196 Ionia.Parallel_Safety <> ni_assign_mkv thm
+R20200:20200 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R20226:20239 Ionia.Opt_ParGranularity <> parfor_coarsen thm
+R20252:20255 Ionia.Proof_CodeGen <> acc' def
+R20258:20260 Ionia.DataExp <> ary constr
+R20262:20263 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R20267:20267 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R20265:20265 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+binder 20280:20280 <> k:207
+binder 20282:20282 <> o:208
+R20287:20288 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20290:20291 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20295:20295 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20289:20289 Ionia.Opt_ParGranularity <> o:208 var
+R20294:20294 Ionia.Opt_ParGranularity <> k:207 var
+binder 20280:20280 <> k:209
+binder 20282:20282 <> o:210
+R20289:20289 Ionia.Opt_ParGranularity <> o:210 var
+R20294:20294 Ionia.Opt_ParGranularity <> k:209 var
+R20355:20361 Ionia.DPIA_Rules <> mkvParl def
+R20405:20411 Ionia.DPIA_Rules <> mkvParl def
+R20467:20473 Ionia.DPIA_Rules <> mkvParl def
+def 20883:20903 <> lenet5_output_coarsen
+R20925:20928 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20919:20921 Ionia.finType <> fin def
+R20929:20931 Ionia.Proof_CodeGen <> exp def
+R20933:20935 Ionia.DataExp <> num constr
+binder 20915:20915 <> f:211
+R20943:20946 Ionia.DataExp <> path ind
+binder 20939:20939 <> a:212
+R21008:21012 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20952:20958 Ionia.DPIA_Rules <> mkvParl def
+R20985:20988 Ionia.Proof_CodeGen <> acc' def
+R20991:20993 Ionia.DataExp <> ary constr
+R21001:21003 Ionia.DataExp <> num constr
+R20995:20996 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R20999:20999 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R21006:21006 Ionia.Opt_ParGranularity <> a:212 var
+binder 20965:20965 <> k:213
+binder 20967:20967 <> o:214
+R20972:20973 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20975:20976 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20980:20980 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20974:20974 Ionia.Opt_ParGranularity <> o:214 var
+R20977:20977 Ionia.Opt_ParGranularity <> f:211 var
+R20979:20979 Ionia.Opt_ParGranularity <> k:213 var
+R21013:21018 Ionia.Proof_CodeGen <> seqfor def
+R21029:21031 Ionia.finType <> fin def
+binder 21025:21025 <> b:215
+R21038:21043 Ionia.Proof_CodeGen <> seqfor def
+R21054:21056 Ionia.finType <> fin def
+binder 21050:21050 <> i:216
+R21069:21070 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R21112:21113 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R21131:21131 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R21071:21071 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R21095:21097 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R21111:21111 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R21073:21076 Ionia.Proof_CodeGen <> acc' def
+R21079:21081 Ionia.DataExp <> ary constr
+R21089:21091 Ionia.DataExp <> num constr
+R21083:21084 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R21087:21087 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R21094:21094 Ionia.Opt_ParGranularity <> a:212 var
+R21098:21106 Ionia.Opt_ParGranularity <> fin_block def
+R21110:21110 Ionia.Opt_ParGranularity <> i:216 var
+R21108:21108 Ionia.Opt_ParGranularity <> b:215 var
+R21114:21114 Ionia.Opt_ParGranularity <> f:211 var
+R21117:21125 Ionia.Opt_ParGranularity <> fin_block def
+R21129:21129 Ionia.Opt_ParGranularity <> i:216 var
+R21127:21127 Ionia.Opt_ParGranularity <> b:215 var
+R21169:21194 Ionia.Opt_ParGranularity <> parallel_safe_coarsen_acc' thm
+R21200:21202 Ionia.DataExp <> num constr
+R21510:21526 Ionia.Opt_ParGranularity <> seqfor_strip_mine thm
+R21547:21560 Ionia.Opt_ParGranularity <> parfor_coarsen thm
+R21581:21601 Ionia.Opt_ParGranularity <> parallel_safe_coarsen thm
+R21622:21647 Ionia.Opt_ParGranularity <> parallel_safe_coarsen_acc' thm
+R21668:21688 Ionia.Opt_ParGranularity <> lenet5_output_coarsen ex

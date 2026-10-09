@@ -1,0 +1,1455 @@
+DIGEST 46be87cdcfd859354dc32dfd0b4eebe0
+FIonia.GPT2Mini_DPIA
+R2610:2633 Stdlib.Logic.FunctionalExtensionality <> <> lib
+R2651:2666 Ionia.DPIA_Rules <> <> lib
+R2684:2702 Ionia.Proof_CodeGen <> <> lib
+R2812:2816 Stdlib.Reals.Reals <> <> lib
+R2818:2820 Stdlib.micromega.Lia <> <> lib
+R2830:2842 Ionia.Proof_CodeGen <> <> mod
+R2916:2938 Ionia.LeNet5_Imperative <> <> lib
+R2956:2972 Ionia.LeNet5_DPIA <> <> lib
+R3056:3074 Ionia.ResNet18_DPIA <> <> lib
+R3152:3172 Ionia.Ops_Elementwise <> <> lib
+R3252:3272 Ionia.Ops_Transformer <> <> lib
+R3329:3348 Ionia.Attention_DPIA <> <> lib
+R3575:3600 Ionia.MiniTransformer_DPIA <> <> lib
+R3630:3635 Stdlib.Strings.String <> <> lib
+prf 4011:4019 <> seq_assoc
+R4041:4044 Ionia.Proof_CodeGen <> comm def
+binder 4030:4031 <> c1:1
+binder 4033:4034 <> c2:2
+binder 4036:4037 <> c3:3
+R4067:4069 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4049:4051 Ionia.Proof_CodeGen <> seq def
+R4065:4066 Ionia.GPT2Mini_DPIA <> c3:3 var
+R4054:4056 Ionia.Proof_CodeGen <> seq def
+R4061:4062 Ionia.GPT2Mini_DPIA <> c2:2 var
+R4058:4059 Ionia.GPT2Mini_DPIA <> c1:1 var
+R4070:4072 Ionia.Proof_CodeGen <> seq def
+R4078:4080 Ionia.Proof_CodeGen <> seq def
+R4085:4086 Ionia.GPT2Mini_DPIA <> c3:3 var
+R4082:4083 Ionia.GPT2Mini_DPIA <> c2:2 var
+R4074:4075 Ionia.GPT2Mini_DPIA <> c1:1 var
+prf 4215:4227 <> bind_read_seq
+R4243:4246 Ionia.DataExp <> data ind
+binder 4239:4239 <> d:4
+R4254:4257 Ionia.DataExp <> path ind
+binder 4250:4250 <> p:5
+R4270:4273 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4265:4267 Ionia.Proof_CodeGen <> exp def
+R4269:4269 Ionia.GPT2Mini_DPIA <> d:4 var
+R4274:4277 Ionia.Proof_CodeGen <> comm def
+binder 4261:4261 <> k:6
+R4285:4288 Ionia.Proof_CodeGen <> comm def
+binder 4281:4281 <> c:7
+R4322:4324 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4294:4296 Ionia.Proof_CodeGen <> seq def
+R4321:4321 Ionia.GPT2Mini_DPIA <> c:7 var
+R4299:4307 Ionia.LeNet5_Imperative <> bind_read def
+R4318:4318 Ionia.GPT2Mini_DPIA <> k:6 var
+R4310:4313 Ionia.Proof_CodeGen <> acc' def
+R4315:4315 Ionia.GPT2Mini_DPIA <> p:5 var
+R4325:4333 Ionia.LeNet5_Imperative <> bind_read def
+binder 4349:4349 <> e:8
+R4354:4356 Ionia.Proof_CodeGen <> seq def
+R4364:4364 Ionia.GPT2Mini_DPIA <> c:7 var
+R4359:4359 Ionia.GPT2Mini_DPIA <> k:6 var
+R4361:4361 Ionia.GPT2Mini_DPIA <> e:8 var
+R4336:4339 Ionia.Proof_CodeGen <> acc' def
+R4341:4341 Ionia.GPT2Mini_DPIA <> p:5 var
+rec 4646:4656 <> GPT2LParams
+proj 4700:4707 <> gp_ln1_g
+proj 4734:4741 <> gp_ln1_b
+proj 4768:4775 <> gp_ln2_g
+proj 4802:4809 <> gp_ln2_b
+proj 4836:4840 <> gp_wq
+proj 4879:4883 <> gp_wk
+proj 4922:4926 <> gp_wv
+proj 4965:4969 <> gp_wo
+proj 5008:5012 <> gp_w1
+proj 5051:5055 <> gp_w2
+R4667:4669 Corelib.Init.Datatypes <> nat ind
+binder 4659:4660 <> dm:9
+binder 4662:4663 <> df:10
+R4711:4713 Ionia.Proof_CodeGen <> exp def
+R4716:4718 Ionia.DataExp <> ary constr
+R4726:4728 Ionia.DataExp <> num constr
+R4720:4721 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4724:4724 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4722:4723 Ionia.GPT2Mini_DPIA <> dm:9 var
+R4745:4747 Ionia.Proof_CodeGen <> exp def
+R4750:4752 Ionia.DataExp <> ary constr
+R4760:4762 Ionia.DataExp <> num constr
+R4754:4755 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4758:4758 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4756:4757 Ionia.GPT2Mini_DPIA <> dm:9 var
+R4779:4781 Ionia.Proof_CodeGen <> exp def
+R4784:4786 Ionia.DataExp <> ary constr
+R4794:4796 Ionia.DataExp <> num constr
+R4788:4789 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4792:4792 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4790:4791 Ionia.GPT2Mini_DPIA <> dm:9 var
+R4813:4815 Ionia.Proof_CodeGen <> exp def
+R4818:4820 Ionia.DataExp <> ary constr
+R4828:4830 Ionia.DataExp <> num constr
+R4822:4823 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4826:4826 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4824:4825 Ionia.GPT2Mini_DPIA <> dm:9 var
+R4844:4846 Ionia.Proof_CodeGen <> exp def
+R4849:4851 Ionia.DataExp <> ary constr
+R4860:4862 Ionia.DataExp <> ary constr
+R4870:4872 Ionia.DataExp <> num constr
+R4864:4865 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4868:4868 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4866:4867 Ionia.GPT2Mini_DPIA <> dm:9 var
+R4853:4854 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4857:4857 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4855:4856 Ionia.GPT2Mini_DPIA <> dm:9 var
+R4887:4889 Ionia.Proof_CodeGen <> exp def
+R4892:4894 Ionia.DataExp <> ary constr
+R4903:4905 Ionia.DataExp <> ary constr
+R4913:4915 Ionia.DataExp <> num constr
+R4907:4908 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4911:4911 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4909:4910 Ionia.GPT2Mini_DPIA <> dm:9 var
+R4896:4897 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4900:4900 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4898:4899 Ionia.GPT2Mini_DPIA <> dm:9 var
+R4930:4932 Ionia.Proof_CodeGen <> exp def
+R4935:4937 Ionia.DataExp <> ary constr
+R4946:4948 Ionia.DataExp <> ary constr
+R4956:4958 Ionia.DataExp <> num constr
+R4950:4951 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4954:4954 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4952:4953 Ionia.GPT2Mini_DPIA <> dm:9 var
+R4939:4940 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4943:4943 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4941:4942 Ionia.GPT2Mini_DPIA <> dm:9 var
+R4973:4975 Ionia.Proof_CodeGen <> exp def
+R4978:4980 Ionia.DataExp <> ary constr
+R4989:4991 Ionia.DataExp <> ary constr
+R4999:5001 Ionia.DataExp <> num constr
+R4993:4994 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4997:4997 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4995:4996 Ionia.GPT2Mini_DPIA <> dm:9 var
+R4982:4983 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4986:4986 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4984:4985 Ionia.GPT2Mini_DPIA <> dm:9 var
+R5016:5018 Ionia.Proof_CodeGen <> exp def
+R5021:5023 Ionia.DataExp <> ary constr
+R5032:5034 Ionia.DataExp <> ary constr
+R5042:5044 Ionia.DataExp <> num constr
+R5036:5037 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5040:5040 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5038:5039 Ionia.GPT2Mini_DPIA <> df:10 var
+R5025:5026 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5029:5029 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5027:5028 Ionia.GPT2Mini_DPIA <> dm:9 var
+R5059:5061 Ionia.Proof_CodeGen <> exp def
+R5064:5066 Ionia.DataExp <> ary constr
+R5075:5077 Ionia.DataExp <> ary constr
+R5085:5087 Ionia.DataExp <> num constr
+R5079:5080 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5083:5083 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5081:5082 Ionia.GPT2Mini_DPIA <> dm:9 var
+R5068:5069 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5072:5072 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5070:5071 Ionia.GPT2Mini_DPIA <> df:10 var
+sec 5348:5354 <> GPT2Net
+var  5587:5587 GPT2Net b
+var  5589:5589 GPT2Net s
+var  5591:5591 GPT2Net h
+var  5593:5593 GPT2Net d
+var  5595:5595 GPT2Net v
+var  5597:5597 GPT2Net n
+R5601:5603 Corelib.Init.Datatypes <> nat ind
+var  5618:5620 GPT2Net eps
+R5624:5626 Ionia.Proof_CodeGen <> exp def
+R5628:5630 Ionia.DataExp <> num constr
+var  5841:5844 GPT2Net toks
+R5853:5856 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5848:5850 Ionia.finType <> fin def
+R5852:5852 Ionia.GPT2Mini_DPIA <> GPT2Net.s var
+R5857:5859 Ionia.finType <> fin def
+R5861:5861 Ionia.GPT2Mini_DPIA <> GPT2Net.v var
+var  5876:5878 GPT2Net wte
+var  5928:5930 GPT2Net wpe
+R5882:5884 Ionia.Proof_CodeGen <> exp def
+R5887:5889 Ionia.DataExp <> ary constr
+R5897:5899 Ionia.DataExp <> ary constr
+R5910:5912 Ionia.DataExp <> num constr
+R5901:5902 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5908:5908 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5904:5906 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R5903:5903 Ionia.GPT2Mini_DPIA <> GPT2Net.h var
+R5907:5907 Ionia.GPT2Mini_DPIA <> GPT2Net.d var
+R5891:5892 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5894:5894 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5893:5893 Ionia.GPT2Mini_DPIA <> GPT2Net.v var
+R5934:5936 Ionia.Proof_CodeGen <> exp def
+R5939:5941 Ionia.DataExp <> ary constr
+R5949:5951 Ionia.DataExp <> ary constr
+R5962:5964 Ionia.DataExp <> num constr
+R5953:5954 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5960:5960 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5956:5958 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R5955:5955 Ionia.GPT2Mini_DPIA <> GPT2Net.h var
+R5959:5959 Ionia.GPT2Mini_DPIA <> GPT2Net.d var
+R5943:5944 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5946:5946 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5945:5945 Ionia.GPT2Mini_DPIA <> GPT2Net.s var
+var  6007:6011 GPT2Net lnf_g
+var  6013:6017 GPT2Net lnf_b
+R6021:6023 Ionia.Proof_CodeGen <> exp def
+R6026:6028 Ionia.DataExp <> ary constr
+R6039:6041 Ionia.DataExp <> num constr
+R6030:6031 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6037:6037 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6033:6035 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R6032:6032 Ionia.GPT2Mini_DPIA <> GPT2Net.h var
+R6036:6036 Ionia.GPT2Mini_DPIA <> GPT2Net.d var
+var  6113:6115 GPT2Net lps
+R6122:6125 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6119:6121 Corelib.Init.Datatypes <> nat ind
+R6126:6136 Ionia.GPT2Mini_DPIA <> GPT2LParams rec
+R6148:6151 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R6157:6157 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R6153:6155 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R6152:6152 Ionia.GPT2Mini_DPIA <> GPT2Net.h var
+R6156:6156 Ionia.GPT2Mini_DPIA <> GPT2Net.d var
+R6140:6142 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R6139:6139 Ionia.GPT2Mini_DPIA <> GPT2Net.h var
+R6143:6143 Ionia.GPT2Mini_DPIA <> GPT2Net.d var
+abbrev 6180:6180 <> T
+R6186:6188 Ionia.Proof_CodeGen <> exp def
+R6191:6193 Ionia.DataExp <> ary constr
+R6201:6203 Ionia.DataExp <> ary constr
+R6211:6213 Ionia.DataExp <> ary constr
+R6224:6226 Ionia.DataExp <> num constr
+R6215:6216 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6222:6222 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6218:6220 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R6217:6217 Ionia.GPT2Mini_DPIA <> GPT2Net.h var
+R6221:6221 Ionia.GPT2Mini_DPIA <> GPT2Net.d var
+R6205:6206 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6208:6208 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6207:6207 Ionia.GPT2Mini_DPIA <> GPT2Net.s var
+R6195:6196 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6198:6198 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6197:6197 Ionia.GPT2Mini_DPIA <> GPT2Net.b var
+abbrev 6250:6253 <> accT
+R6259:6261 Ionia.Proof_CodeGen <> acc def
+R6264:6266 Ionia.DataExp <> ary constr
+R6274:6276 Ionia.DataExp <> ary constr
+R6284:6286 Ionia.DataExp <> ary constr
+R6297:6299 Ionia.DataExp <> num constr
+R6288:6289 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6295:6295 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6291:6293 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R6290:6290 Ionia.GPT2Mini_DPIA <> GPT2Net.h var
+R6294:6294 Ionia.GPT2Mini_DPIA <> GPT2Net.d var
+R6278:6279 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6281:6281 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6280:6280 Ionia.GPT2Mini_DPIA <> GPT2Net.s var
+R6268:6269 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6271:6271 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6270:6270 Ionia.GPT2Mini_DPIA <> GPT2Net.b var
+abbrev 6323:6326 <> accV
+R6332:6334 Ionia.Proof_CodeGen <> acc def
+R6337:6339 Ionia.DataExp <> ary constr
+R6347:6349 Ionia.DataExp <> ary constr
+R6357:6359 Ionia.DataExp <> ary constr
+R6366:6368 Ionia.DataExp <> num constr
+R6361:6362 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6364:6364 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6363:6363 Ionia.GPT2Mini_DPIA <> GPT2Net.v var
+R6351:6352 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6354:6354 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6353:6353 Ionia.GPT2Mini_DPIA <> GPT2Net.s var
+R6341:6342 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6344:6344 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6343:6343 Ionia.GPT2Mini_DPIA <> GPT2Net.b var
+abbrev 6392:6393 <> LP
+R6399:6409 Ionia.GPT2Mini_DPIA <> GPT2LParams rec
+R6421:6424 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R6430:6430 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R6426:6428 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R6425:6425 Ionia.GPT2Mini_DPIA <> GPT2Net.h var
+R6429:6429 Ionia.GPT2Mini_DPIA <> GPT2Net.d var
+R6413:6415 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R6412:6412 Ionia.GPT2Mini_DPIA <> GPT2Net.h var
+R6416:6416 Ionia.GPT2Mini_DPIA <> GPT2Net.d var
+def 6529:6537 <> GPT2Block
+R6548:6548 Ionia.GPT2Mini_DPIA <> T abbrev
+binder 6540:6544 <> input:35
+R6557:6558 Ionia.GPT2Mini_DPIA <> LP abbrev
+binder 6552:6553 <> lp:36
+R6563:6563 Ionia.GPT2Mini_DPIA <> T abbrev
+R6572:6587 Ionia.MiniTransformer_DPIA <> TransformerBlock def
+R6735:6737 Ionia.GPT2Mini_DPIA <> GPT2Net.eps var
+R6725:6729 Ionia.GPT2Mini_DPIA <> gp_w2 proj
+R6731:6732 Ionia.GPT2Mini_DPIA <> lp:36 var
+R6714:6718 Ionia.GPT2Mini_DPIA <> gp_w1 proj
+R6720:6721 Ionia.GPT2Mini_DPIA <> lp:36 var
+R6697:6701 Ionia.GPT2Mini_DPIA <> gp_wo proj
+R6703:6704 Ionia.GPT2Mini_DPIA <> lp:36 var
+R6686:6690 Ionia.GPT2Mini_DPIA <> gp_wv proj
+R6692:6693 Ionia.GPT2Mini_DPIA <> lp:36 var
+R6675:6679 Ionia.GPT2Mini_DPIA <> gp_wk proj
+R6681:6682 Ionia.GPT2Mini_DPIA <> lp:36 var
+R6664:6668 Ionia.GPT2Mini_DPIA <> gp_wq proj
+R6670:6671 Ionia.GPT2Mini_DPIA <> lp:36 var
+R6644:6651 Ionia.GPT2Mini_DPIA <> gp_ln2_b proj
+R6653:6654 Ionia.GPT2Mini_DPIA <> lp:36 var
+R6630:6637 Ionia.GPT2Mini_DPIA <> gp_ln2_g proj
+R6639:6640 Ionia.GPT2Mini_DPIA <> lp:36 var
+R6616:6623 Ionia.GPT2Mini_DPIA <> gp_ln1_b proj
+R6625:6626 Ionia.GPT2Mini_DPIA <> lp:36 var
+R6602:6609 Ionia.GPT2Mini_DPIA <> gp_ln1_g proj
+R6611:6612 Ionia.GPT2Mini_DPIA <> lp:36 var
+R6589:6593 Ionia.GPT2Mini_DPIA <> input:35 var
+def 6754:6767 <> gpt2block_comm
+R6778:6778 Ionia.GPT2Mini_DPIA <> T abbrev
+binder 6770:6774 <> input:37
+R6787:6788 Ionia.GPT2Mini_DPIA <> LP abbrev
+binder 6782:6783 <> lp:38
+R6801:6804 Ionia.GPT2Mini_DPIA <> accT abbrev
+binder 6792:6797 <> output:39
+R6809:6812 Ionia.Proof_CodeGen <> comm def
+R6821:6841 Ionia.MiniTransformer_DPIA <> transformerblock_comm def
+R6993:6998 Ionia.GPT2Mini_DPIA <> output:39 var
+R6989:6991 Ionia.GPT2Mini_DPIA <> GPT2Net.eps var
+R6979:6983 Ionia.GPT2Mini_DPIA <> gp_w2 proj
+R6985:6986 Ionia.GPT2Mini_DPIA <> lp:38 var
+R6968:6972 Ionia.GPT2Mini_DPIA <> gp_w1 proj
+R6974:6975 Ionia.GPT2Mini_DPIA <> lp:38 var
+R6951:6955 Ionia.GPT2Mini_DPIA <> gp_wo proj
+R6957:6958 Ionia.GPT2Mini_DPIA <> lp:38 var
+R6940:6944 Ionia.GPT2Mini_DPIA <> gp_wv proj
+R6946:6947 Ionia.GPT2Mini_DPIA <> lp:38 var
+R6929:6933 Ionia.GPT2Mini_DPIA <> gp_wk proj
+R6935:6936 Ionia.GPT2Mini_DPIA <> lp:38 var
+R6918:6922 Ionia.GPT2Mini_DPIA <> gp_wq proj
+R6924:6925 Ionia.GPT2Mini_DPIA <> lp:38 var
+R6898:6905 Ionia.GPT2Mini_DPIA <> gp_ln2_b proj
+R6907:6908 Ionia.GPT2Mini_DPIA <> lp:38 var
+R6884:6891 Ionia.GPT2Mini_DPIA <> gp_ln2_g proj
+R6893:6894 Ionia.GPT2Mini_DPIA <> lp:38 var
+R6870:6877 Ionia.GPT2Mini_DPIA <> gp_ln1_b proj
+R6879:6880 Ionia.GPT2Mini_DPIA <> lp:38 var
+R6856:6863 Ionia.GPT2Mini_DPIA <> gp_ln1_g proj
+R6865:6866 Ionia.GPT2Mini_DPIA <> lp:38 var
+R6843:6847 Ionia.GPT2Mini_DPIA <> input:37 var
+def 7015:7030 <> gpt2block_direct
+R7041:7041 Ionia.GPT2Mini_DPIA <> T abbrev
+binder 7033:7037 <> input:40
+R7050:7051 Ionia.GPT2Mini_DPIA <> LP abbrev
+binder 7045:7046 <> lp:41
+R7064:7067 Ionia.GPT2Mini_DPIA <> accT abbrev
+binder 7055:7060 <> output:42
+R7072:7075 Ionia.Proof_CodeGen <> comm def
+R7084:7106 Ionia.MiniTransformer_DPIA <> transformerblock_direct def
+R7258:7263 Ionia.GPT2Mini_DPIA <> output:42 var
+R7254:7256 Ionia.GPT2Mini_DPIA <> GPT2Net.eps var
+R7244:7248 Ionia.GPT2Mini_DPIA <> gp_w2 proj
+R7250:7251 Ionia.GPT2Mini_DPIA <> lp:41 var
+R7233:7237 Ionia.GPT2Mini_DPIA <> gp_w1 proj
+R7239:7240 Ionia.GPT2Mini_DPIA <> lp:41 var
+R7216:7220 Ionia.GPT2Mini_DPIA <> gp_wo proj
+R7222:7223 Ionia.GPT2Mini_DPIA <> lp:41 var
+R7205:7209 Ionia.GPT2Mini_DPIA <> gp_wv proj
+R7211:7212 Ionia.GPT2Mini_DPIA <> lp:41 var
+R7194:7198 Ionia.GPT2Mini_DPIA <> gp_wk proj
+R7200:7201 Ionia.GPT2Mini_DPIA <> lp:41 var
+R7183:7187 Ionia.GPT2Mini_DPIA <> gp_wq proj
+R7189:7190 Ionia.GPT2Mini_DPIA <> lp:41 var
+R7163:7170 Ionia.GPT2Mini_DPIA <> gp_ln2_b proj
+R7172:7173 Ionia.GPT2Mini_DPIA <> lp:41 var
+R7149:7156 Ionia.GPT2Mini_DPIA <> gp_ln2_g proj
+R7158:7159 Ionia.GPT2Mini_DPIA <> lp:41 var
+R7135:7142 Ionia.GPT2Mini_DPIA <> gp_ln1_b proj
+R7144:7145 Ionia.GPT2Mini_DPIA <> lp:41 var
+R7121:7128 Ionia.GPT2Mini_DPIA <> gp_ln1_g proj
+R7130:7131 Ionia.GPT2Mini_DPIA <> lp:41 var
+R7108:7112 Ionia.GPT2Mini_DPIA <> input:40 var
+prf 7419:7442 <> gpt2block_comm_eq_direct
+R7462:7462 Ionia.GPT2Mini_DPIA <> T abbrev
+binder 7454:7458 <> input:43
+R7471:7472 Ionia.GPT2Mini_DPIA <> LP abbrev
+binder 7466:7467 <> lp:44
+R7485:7488 Ionia.GPT2Mini_DPIA <> accT abbrev
+binder 7476:7481 <> output:45
+R7526:7528 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7496:7509 Ionia.GPT2Mini_DPIA <> gpt2block_comm def
+R7520:7525 Ionia.GPT2Mini_DPIA <> output:45 var
+R7517:7518 Ionia.GPT2Mini_DPIA <> lp:44 var
+R7511:7515 Ionia.GPT2Mini_DPIA <> input:43 var
+R7529:7544 Ionia.GPT2Mini_DPIA <> gpt2block_direct def
+R7555:7560 Ionia.GPT2Mini_DPIA <> output:45 var
+R7552:7553 Ionia.GPT2Mini_DPIA <> lp:44 var
+R7546:7550 Ionia.GPT2Mini_DPIA <> input:43 var
+R7592:7622 Ionia.MiniTransformer_DPIA <> transformerblock_comm_eq_direct thm
+R7624:7624 Ionia.GPT2Mini_DPIA <> GPT2Net.b var
+R7626:7626 Ionia.GPT2Mini_DPIA <> GPT2Net.s var
+R7628:7628 Ionia.GPT2Mini_DPIA <> GPT2Net.h var
+R7630:7630 Ionia.GPT2Mini_DPIA <> GPT2Net.d var
+R7634:7637 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R7643:7643 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R7639:7641 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R7638:7638 Ionia.GPT2Mini_DPIA <> GPT2Net.h var
+R7642:7642 Ionia.GPT2Mini_DPIA <> GPT2Net.d var
+R7659:7666 Ionia.GPT2Mini_DPIA <> gp_ln1_g proj
+R7673:7680 Ionia.GPT2Mini_DPIA <> gp_ln1_b proj
+R7687:7694 Ionia.GPT2Mini_DPIA <> gp_ln2_g proj
+R7701:7708 Ionia.GPT2Mini_DPIA <> gp_ln2_b proj
+R7721:7725 Ionia.GPT2Mini_DPIA <> gp_wq proj
+R7732:7736 Ionia.GPT2Mini_DPIA <> gp_wk proj
+R7743:7747 Ionia.GPT2Mini_DPIA <> gp_wv proj
+R7754:7758 Ionia.GPT2Mini_DPIA <> gp_wo proj
+R7771:7775 Ionia.GPT2Mini_DPIA <> gp_w1 proj
+R7782:7786 Ionia.GPT2Mini_DPIA <> gp_w2 proj
+R7792:7794 Ionia.GPT2Mini_DPIA <> GPT2Net.eps var
+prf 7973:7983 <> A_GPT2Block
+R8003:8003 Ionia.GPT2Mini_DPIA <> T abbrev
+binder 7995:7999 <> input:46
+R8012:8013 Ionia.GPT2Mini_DPIA <> LP abbrev
+binder 8007:8008 <> lp:47
+R8026:8029 Ionia.GPT2Mini_DPIA <> accT abbrev
+binder 8017:8022 <> output:48
+R8043:8045 Ionia.Proof_CodeGen <> env def
+binder 8037:8039 <> rho:49
+R8053:8056 Ionia.DataExp <> path ind
+binder 8049:8049 <> p:50
+R8079:8086 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8064:8069 Ionia.Proof_CodeGen <> in_acc def
+R8073:8078 Ionia.GPT2Mini_DPIA <> output:48 var
+R8071:8071 Ionia.GPT2Mini_DPIA <> p:50 var
+R8123:8125 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8087:8100 Ionia.GPT2Mini_DPIA <> gpt2block_comm def
+R8122:8122 Ionia.GPT2Mini_DPIA <> p:50 var
+R8118:8120 Ionia.GPT2Mini_DPIA <> rho:49 var
+R8111:8116 Ionia.GPT2Mini_DPIA <> output:48 var
+R8108:8109 Ionia.GPT2Mini_DPIA <> lp:47 var
+R8102:8106 Ionia.GPT2Mini_DPIA <> input:46 var
+R8126:8127 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R8134:8135 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R8154:8160 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R8128:8133 Ionia.GPT2Mini_DPIA <> output:48 var
+R8136:8144 Ionia.GPT2Mini_DPIA <> GPT2Block def
+R8152:8153 Ionia.GPT2Mini_DPIA <> lp:47 var
+R8146:8150 Ionia.GPT2Mini_DPIA <> input:46 var
+R8160:8160 Ionia.GPT2Mini_DPIA <> p:50 var
+R8156:8158 Ionia.GPT2Mini_DPIA <> rho:49 var
+R8192:8209 Ionia.MiniTransformer_DPIA <> A_TransformerBlock thm
+R8211:8211 Ionia.GPT2Mini_DPIA <> GPT2Net.b var
+R8213:8213 Ionia.GPT2Mini_DPIA <> GPT2Net.s var
+R8215:8215 Ionia.GPT2Mini_DPIA <> GPT2Net.h var
+R8217:8217 Ionia.GPT2Mini_DPIA <> GPT2Net.d var
+R8221:8224 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R8230:8230 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R8226:8228 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R8225:8225 Ionia.GPT2Mini_DPIA <> GPT2Net.h var
+R8229:8229 Ionia.GPT2Mini_DPIA <> GPT2Net.d var
+R8246:8253 Ionia.GPT2Mini_DPIA <> gp_ln1_g proj
+R8260:8267 Ionia.GPT2Mini_DPIA <> gp_ln1_b proj
+R8274:8281 Ionia.GPT2Mini_DPIA <> gp_ln2_g proj
+R8288:8295 Ionia.GPT2Mini_DPIA <> gp_ln2_b proj
+R8308:8312 Ionia.GPT2Mini_DPIA <> gp_wq proj
+R8319:8323 Ionia.GPT2Mini_DPIA <> gp_wk proj
+R8330:8334 Ionia.GPT2Mini_DPIA <> gp_wv proj
+R8341:8345 Ionia.GPT2Mini_DPIA <> gp_wo proj
+R8358:8362 Ionia.GPT2Mini_DPIA <> gp_w1 proj
+R8369:8373 Ionia.GPT2Mini_DPIA <> gp_w2 proj
+R8379:8381 Ionia.GPT2Mini_DPIA <> GPT2Net.eps var
+prf 8637:8658 <> gpt2block_direct_read0
+R8678:8678 Ionia.GPT2Mini_DPIA <> T abbrev
+binder 8670:8674 <> input:51
+R8687:8688 Ionia.GPT2Mini_DPIA <> LP abbrev
+binder 8682:8683 <> lp:52
+R8700:8703 Ionia.DataExp <> path ind
+binder 8696:8696 <> q:53
+R8713:8716 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8712:8712 Ionia.GPT2Mini_DPIA <> T abbrev
+R8717:8720 Ionia.Proof_CodeGen <> comm def
+binder 8707:8708 <> kk:54
+R8792:8798 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8728:8730 Ionia.Proof_CodeGen <> seq def
+R8770:8778 Ionia.LeNet5_Imperative <> bind_read def
+R8789:8790 Ionia.GPT2Mini_DPIA <> kk:54 var
+R8781:8784 Ionia.Proof_CodeGen <> acc' def
+R8786:8786 Ionia.GPT2Mini_DPIA <> q:53 var
+R8733:8748 Ionia.GPT2Mini_DPIA <> gpt2block_direct def
+R8760:8763 Ionia.Proof_CodeGen <> acc' def
+R8765:8765 Ionia.GPT2Mini_DPIA <> q:53 var
+R8756:8757 Ionia.GPT2Mini_DPIA <> lp:52 var
+R8750:8754 Ionia.GPT2Mini_DPIA <> input:51 var
+R8799:8801 Ionia.Proof_CodeGen <> seq def
+R8841:8842 Ionia.GPT2Mini_DPIA <> kk:54 var
+R8845:8853 Ionia.GPT2Mini_DPIA <> GPT2Block def
+R8861:8862 Ionia.GPT2Mini_DPIA <> lp:52 var
+R8855:8859 Ionia.GPT2Mini_DPIA <> input:51 var
+R8804:8819 Ionia.GPT2Mini_DPIA <> gpt2block_direct def
+R8831:8834 Ionia.Proof_CodeGen <> acc' def
+R8836:8836 Ionia.GPT2Mini_DPIA <> q:53 var
+R8827:8828 Ionia.GPT2Mini_DPIA <> lp:52 var
+R8821:8825 Ionia.GPT2Mini_DPIA <> input:51 var
+R8908:8923 Ionia.GPT2Mini_DPIA <> gpt2block_direct def
+R8926:8948 Ionia.MiniTransformer_DPIA <> transformerblock_direct def
+R8951:8959 Ionia.GPT2Mini_DPIA <> GPT2Block def
+R8973:8988 Ionia.MiniTransformer_DPIA <> TransformerBlock def
+R8991:8993 Ionia.MiniTransformer_DPIA <> FFN def
+R8996:8998 Ionia.Proof_CodeGen <> seq def
+R9001:9009 Ionia.LeNet5_Imperative <> bind_read def
+R9012:9012 Ionia.DPIA_Rules <> A def
+R9046:9060 Ionia.DPIA_Rules <> read_exp_assign thm
+def 9254:9264 <> gpt2_layers
+R9271:9273 Corelib.Init.Datatypes <> nat ind
+binder 9267:9267 <> k:55
+R9281:9281 Ionia.GPT2Mini_DPIA <> T abbrev
+binder 9277:9277 <> x:56
+R9286:9286 Ionia.GPT2Mini_DPIA <> T abbrev
+R9301:9301 Ionia.GPT2Mini_DPIA <> k:55 var
+R9314:9314 Corelib.Init.Datatypes <> O constr
+R9319:9319 Ionia.GPT2Mini_DPIA <> x:56 var
+R9327:9327 Corelib.Init.Datatypes <> S constr
+R9335:9343 Ionia.GPT2Mini_DPIA <> GPT2Block def
+R9365:9367 Ionia.GPT2Mini_DPIA <> GPT2Net.lps var
+R9346:9356 Ionia.GPT2Mini_DPIA <> gpt2_layers:57 def
+R9361:9361 Ionia.GPT2Mini_DPIA <> x:56 var
+def 9585:9598 <> gpt2stack_comm
+R9605:9607 Corelib.Init.Datatypes <> nat ind
+binder 9601:9601 <> k:59
+R9619:9619 Ionia.GPT2Mini_DPIA <> T abbrev
+binder 9611:9615 <> input:60
+R9632:9635 Ionia.GPT2Mini_DPIA <> accT abbrev
+binder 9623:9628 <> output:61
+R9640:9643 Ionia.Proof_CodeGen <> comm def
+R9658:9658 Ionia.GPT2Mini_DPIA <> k:59 var
+R9671:9671 Corelib.Init.Datatypes <> O constr
+R9676:9677 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R9684:9685 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R9691:9691 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R9678:9683 Ionia.GPT2Mini_DPIA <> output:61 var
+R9686:9690 Ionia.GPT2Mini_DPIA <> input:60 var
+R9699:9699 Corelib.Init.Datatypes <> S constr
+R9715:9717 Ionia.Proof_CodeGen <> new def
+R9859:9862 Ionia.Proof_CodeGen <> acc' def
+R9865:9867 Ionia.DataExp <> Var constr
+binder 9724:9724 <> t:64
+R9729:9731 Ionia.Proof_CodeGen <> seq def
+R9788:9796 Ionia.LeNet5_Imperative <> bind_read def
+binder 9805:9805 <> e:65
+R9810:9823 Ionia.GPT2Mini_DPIA <> gpt2block_comm def
+R9836:9841 Ionia.GPT2Mini_DPIA <> output:61 var
+R9828:9830 Ionia.GPT2Mini_DPIA <> GPT2Net.lps var
+R9825:9825 Ionia.GPT2Mini_DPIA <> e:65 var
+R9798:9798 Ionia.GPT2Mini_DPIA <> t:64 var
+R9734:9747 Ionia.GPT2Mini_DPIA <> gpt2stack_comm:62 def
+R9758:9758 Ionia.GPT2Mini_DPIA <> t:64 var
+R9752:9756 Ionia.GPT2Mini_DPIA <> input:60 var
+def 10017:10032 <> gpt2stack_direct
+R10039:10041 Corelib.Init.Datatypes <> nat ind
+binder 10035:10035 <> k:66
+R10053:10053 Ionia.GPT2Mini_DPIA <> T abbrev
+binder 10045:10049 <> input:67
+R10066:10069 Ionia.GPT2Mini_DPIA <> accT abbrev
+binder 10057:10062 <> output:68
+R10074:10077 Ionia.Proof_CodeGen <> comm def
+R10092:10092 Ionia.GPT2Mini_DPIA <> k:66 var
+R10105:10105 Corelib.Init.Datatypes <> O constr
+R10110:10111 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R10118:10119 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R10125:10125 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R10112:10117 Ionia.GPT2Mini_DPIA <> output:68 var
+R10120:10124 Ionia.GPT2Mini_DPIA <> input:67 var
+R10133:10133 Corelib.Init.Datatypes <> S constr
+R10149:10151 Ionia.Proof_CodeGen <> seq def
+R10214:10229 Ionia.GPT2Mini_DPIA <> gpt2block_direct def
+R10263:10268 Ionia.GPT2Mini_DPIA <> output:68 var
+R10255:10257 Ionia.GPT2Mini_DPIA <> GPT2Net.lps var
+R10232:10242 Ionia.GPT2Mini_DPIA <> gpt2_layers def
+R10247:10251 Ionia.GPT2Mini_DPIA <> input:67 var
+R10154:10169 Ionia.GPT2Mini_DPIA <> gpt2stack_direct:69 def
+R10181:10184 Ionia.Proof_CodeGen <> acc' def
+R10187:10189 Ionia.DataExp <> Var constr
+R10174:10178 Ionia.GPT2Mini_DPIA <> input:67 var
+prf 10532:10557 <> gpt2stack_comm_direct_read
+R10573:10575 Corelib.Init.Datatypes <> nat ind
+binder 10569:10569 <> k:71
+R10587:10587 Ionia.GPT2Mini_DPIA <> T abbrev
+binder 10579:10583 <> input:72
+R10595:10598 Ionia.DataExp <> path ind
+binder 10591:10591 <> q:73
+R10612:10615 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10611:10611 Ionia.GPT2Mini_DPIA <> T abbrev
+R10616:10619 Ionia.Proof_CodeGen <> comm def
+binder 10606:10607 <> kk:74
+R10688:10694 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10627:10629 Ionia.Proof_CodeGen <> seq def
+R10666:10674 Ionia.LeNet5_Imperative <> bind_read def
+R10685:10686 Ionia.GPT2Mini_DPIA <> kk:74 var
+R10677:10680 Ionia.Proof_CodeGen <> acc' def
+R10682:10682 Ionia.GPT2Mini_DPIA <> q:73 var
+R10632:10645 Ionia.GPT2Mini_DPIA <> gpt2stack_comm def
+R10656:10659 Ionia.Proof_CodeGen <> acc' def
+R10661:10661 Ionia.GPT2Mini_DPIA <> q:73 var
+R10649:10653 Ionia.GPT2Mini_DPIA <> input:72 var
+R10647:10647 Ionia.GPT2Mini_DPIA <> k:71 var
+R10695:10697 Ionia.Proof_CodeGen <> seq def
+R10736:10737 Ionia.GPT2Mini_DPIA <> kk:74 var
+R10740:10750 Ionia.GPT2Mini_DPIA <> gpt2_layers def
+R10754:10758 Ionia.GPT2Mini_DPIA <> input:72 var
+R10752:10752 Ionia.GPT2Mini_DPIA <> k:71 var
+R10700:10715 Ionia.GPT2Mini_DPIA <> gpt2stack_direct def
+R10726:10729 Ionia.Proof_CodeGen <> acc' def
+R10731:10731 Ionia.GPT2Mini_DPIA <> q:73 var
+R10719:10723 Ionia.GPT2Mini_DPIA <> input:72 var
+R10717:10717 Ionia.GPT2Mini_DPIA <> k:71 var
+R10808:10821 Ionia.GPT2Mini_DPIA <> gpt2stack_comm def
+R10823:10838 Ionia.GPT2Mini_DPIA <> gpt2stack_direct def
+R10840:10850 Ionia.GPT2Mini_DPIA <> gpt2_layers def
+R10866:10882 Ionia.LeNet5_DPIA <> bind_read_replace thm
+R10896:10909 Ionia.GPT2Mini_DPIA <> gpt2stack_comm def
+R10911:10926 Ionia.GPT2Mini_DPIA <> gpt2stack_direct def
+R10928:10938 Ionia.GPT2Mini_DPIA <> gpt2_layers def
+R10955:10957 Ionia.Proof_CodeGen <> new def
+R10984:10992 Ionia.GPT2Mini_DPIA <> seq_assoc thm
+R11003:11011 Ionia.GPT2Mini_DPIA <> seq_assoc thm
+R11028:11040 Ionia.GPT2Mini_DPIA <> bind_read_seq thm
+R11086:11109 Ionia.GPT2Mini_DPIA <> gpt2block_comm_eq_direct thm
+R11126:11147 Ionia.GPT2Mini_DPIA <> gpt2block_direct_read0 thm
+def 11432:11437 <> BEmbed
+R11441:11441 Ionia.GPT2Mini_DPIA <> T abbrev
+R11446:11451 Ionia.Proof_CodeGen <> mkvSeq def
+R11463:11465 Ionia.finType <> fin def
+R11467:11467 Ionia.GPT2Mini_DPIA <> GPT2Net.b var
+binder 11458:11459 <> bb:75
+R11472:11479 Ionia.Ops_Transformer <> Gather2d def
+R11486:11488 Ionia.GPT2Mini_DPIA <> GPT2Net.wte var
+R11481:11484 Ionia.GPT2Mini_DPIA <> GPT2Net.toks var
+def 11505:11508 <> BPos
+R11512:11512 Ionia.GPT2Mini_DPIA <> T abbrev
+R11517:11522 Ionia.Proof_CodeGen <> mkvSeq def
+R11534:11536 Ionia.finType <> fin def
+R11538:11538 Ionia.GPT2Mini_DPIA <> GPT2Net.b var
+binder 11529:11530 <> bb:76
+R11543:11545 Ionia.GPT2Mini_DPIA <> GPT2Net.wpe var
+def 11563:11569 <> gpt2_x0
+R11573:11573 Ionia.GPT2Mini_DPIA <> T abbrev
+R11578:11582 Ionia.Ops_Elementwise <> Add3d def
+R11591:11594 Ionia.GPT2Mini_DPIA <> BPos def
+R11584:11589 Ionia.GPT2Mini_DPIA <> BEmbed def
+def 11610:11616 <> gpt2_xN
+R11620:11620 Ionia.GPT2Mini_DPIA <> T abbrev
+R11625:11635 Ionia.GPT2Mini_DPIA <> gpt2_layers def
+R11639:11645 Ionia.GPT2Mini_DPIA <> gpt2_x0 def
+R11637:11637 Ionia.GPT2Mini_DPIA <> GPT2Net.n var
+def 11661:11667 <> gpt2_xf
+R11671:11671 Ionia.GPT2Mini_DPIA <> T abbrev
+R11676:11686 Ionia.Ops_Transformer <> LayerNorm3d def
+R11708:11710 Ionia.GPT2Mini_DPIA <> GPT2Net.eps var
+R11702:11706 Ionia.GPT2Mini_DPIA <> GPT2Net.lnf_b var
+R11696:11700 Ionia.GPT2Mini_DPIA <> GPT2Net.lnf_g var
+R11688:11694 Ionia.GPT2Mini_DPIA <> gpt2_xN def
+prf 11722:11733 <> gpt2_x0_body
+R11744:11746 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11737:11743 Ionia.GPT2Mini_DPIA <> gpt2_x0 def
+R11747:11751 Ionia.Ops_Elementwise <> Add3d def
+R11760:11763 Ionia.GPT2Mini_DPIA <> BPos def
+R11753:11758 Ionia.GPT2Mini_DPIA <> BEmbed def
+prf 11801:11812 <> gpt2_xN_body
+R11823:11825 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11816:11822 Ionia.GPT2Mini_DPIA <> gpt2_xN def
+R11826:11836 Ionia.GPT2Mini_DPIA <> gpt2_layers def
+R11840:11846 Ionia.GPT2Mini_DPIA <> gpt2_x0 def
+R11838:11838 Ionia.GPT2Mini_DPIA <> GPT2Net.n var
+prf 11884:11895 <> gpt2_xf_body
+R11906:11908 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11899:11905 Ionia.GPT2Mini_DPIA <> gpt2_xf def
+R11909:11919 Ionia.Ops_Transformer <> LayerNorm3d def
+R11941:11943 Ionia.GPT2Mini_DPIA <> GPT2Net.eps var
+R11935:11939 Ionia.GPT2Mini_DPIA <> GPT2Net.lnf_b var
+R11929:11933 Ionia.GPT2Mini_DPIA <> GPT2Net.lnf_g var
+R11921:11927 Ionia.GPT2Mini_DPIA <> gpt2_xN def
+R11983:11989 Ionia.GPT2Mini_DPIA <> gpt2_x0 def
+R11991:11997 Ionia.GPT2Mini_DPIA <> gpt2_xN def
+R11999:12005 Ionia.GPT2Mini_DPIA <> gpt2_xf def
+def 12158:12165 <> GPT2Mini
+R12169:12171 Ionia.Proof_CodeGen <> exp def
+R12174:12176 Ionia.DataExp <> ary constr
+R12184:12186 Ionia.DataExp <> ary constr
+R12194:12196 Ionia.DataExp <> ary constr
+R12203:12205 Ionia.DataExp <> num constr
+R12198:12199 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12201:12201 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12200:12200 Ionia.GPT2Mini_DPIA <> GPT2Net.v var
+R12188:12189 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12191:12191 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12190:12190 Ionia.GPT2Mini_DPIA <> GPT2Net.s var
+R12178:12179 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12181:12181 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12180:12180 Ionia.GPT2Mini_DPIA <> GPT2Net.b var
+R12217:12225 Ionia.Attention_DPIA <> BMatMul2d def
+R12236:12246 Ionia.Ops_Transformer <> Transpose2d def
+R12248:12250 Ionia.GPT2Mini_DPIA <> GPT2Net.wte var
+R12227:12233 Ionia.GPT2Mini_DPIA <> gpt2_xf def
+prf 12263:12275 <> GPT2Mini_body
+R12287:12289 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12279:12286 Ionia.GPT2Mini_DPIA <> GPT2Mini def
+R12290:12298 Ionia.Attention_DPIA <> BMatMul2d def
+R12309:12319 Ionia.Ops_Transformer <> Transpose2d def
+R12321:12323 Ionia.GPT2Mini_DPIA <> GPT2Net.wte var
+R12300:12306 Ionia.GPT2Mini_DPIA <> gpt2_xf def
+def 12448:12460 <> gpt2mini_comm
+R12472:12475 Ionia.GPT2Mini_DPIA <> accV abbrev
+binder 12463:12468 <> output:77
+R12480:12483 Ionia.Proof_CodeGen <> comm def
+R12488:12490 Ionia.Proof_CodeGen <> new def
+R12806:12809 Ionia.Proof_CodeGen <> acc' def
+R12812:12814 Ionia.DataExp <> Var constr
+binder 12497:12498 <> t0:78
+R12503:12505 Ionia.Proof_CodeGen <> seq def
+R12536:12544 Ionia.LeNet5_Imperative <> bind_read def
+binder 12554:12555 <> e0:79
+R12560:12562 Ionia.Proof_CodeGen <> new def
+R12784:12787 Ionia.Proof_CodeGen <> acc' def
+R12790:12792 Ionia.DataExp <> Var constr
+binder 12569:12570 <> tN:80
+R12575:12577 Ionia.Proof_CodeGen <> seq def
+R12605:12613 Ionia.LeNet5_Imperative <> bind_read def
+binder 12623:12624 <> eN:81
+R12629:12631 Ionia.Proof_CodeGen <> new def
+R12761:12764 Ionia.Proof_CodeGen <> acc' def
+R12767:12769 Ionia.DataExp <> Var constr
+binder 12638:12639 <> tf:82
+R12644:12646 Ionia.Proof_CodeGen <> seq def
+R12690:12698 Ionia.LeNet5_Imperative <> bind_read def
+binder 12708:12709 <> ef:83
+R12714:12727 Ionia.Attention_DPIA <> BMatMul2d_comm def
+R12750:12755 Ionia.GPT2Mini_DPIA <> output:77 var
+R12733:12743 Ionia.Ops_Transformer <> Transpose2d def
+R12745:12747 Ionia.GPT2Mini_DPIA <> GPT2Net.wte var
+R12729:12730 Ionia.GPT2Mini_DPIA <> ef:83 var
+R12700:12701 Ionia.GPT2Mini_DPIA <> tf:82 var
+R12649:12664 Ionia.Ops_Transformer <> LayerNorm3d_comm def
+R12685:12686 Ionia.GPT2Mini_DPIA <> tf:82 var
+R12681:12683 Ionia.GPT2Mini_DPIA <> GPT2Net.eps var
+R12675:12679 Ionia.GPT2Mini_DPIA <> GPT2Net.lnf_b var
+R12669:12673 Ionia.GPT2Mini_DPIA <> GPT2Net.lnf_g var
+R12666:12667 Ionia.GPT2Mini_DPIA <> eN:81 var
+R12615:12616 Ionia.GPT2Mini_DPIA <> tN:80 var
+R12580:12593 Ionia.GPT2Mini_DPIA <> gpt2stack_comm def
+R12600:12601 Ionia.GPT2Mini_DPIA <> tN:80 var
+R12597:12598 Ionia.GPT2Mini_DPIA <> e0:79 var
+R12595:12595 Ionia.GPT2Mini_DPIA <> GPT2Net.n var
+R12546:12547 Ionia.GPT2Mini_DPIA <> t0:78 var
+R12508:12517 Ionia.Ops_Elementwise <> Add3d_comm def
+R12531:12532 Ionia.GPT2Mini_DPIA <> t0:78 var
+R12526:12529 Ionia.GPT2Mini_DPIA <> BPos def
+R12519:12524 Ionia.GPT2Mini_DPIA <> BEmbed def
+def 12921:12935 <> gpt2mini_direct
+R12947:12950 Ionia.GPT2Mini_DPIA <> accV abbrev
+binder 12938:12943 <> output:84
+R12955:12958 Ionia.Proof_CodeGen <> comm def
+R12967:12969 Ionia.Proof_CodeGen <> seq def
+R13008:13010 Ionia.Proof_CodeGen <> seq def
+R13065:13067 Ionia.Proof_CodeGen <> seq def
+R13111:13112 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R13119:13120 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R13129:13129 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R13113:13118 Ionia.GPT2Mini_DPIA <> output:84 var
+R13121:13128 Ionia.GPT2Mini_DPIA <> GPT2Mini def
+R13070:13071 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R13089:13090 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R13098:13098 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R13072:13075 Ionia.Proof_CodeGen <> acc' def
+R13078:13080 Ionia.DataExp <> Var constr
+R13091:13097 Ionia.GPT2Mini_DPIA <> gpt2_xf def
+R13013:13028 Ionia.GPT2Mini_DPIA <> gpt2stack_direct def
+R13041:13044 Ionia.Proof_CodeGen <> acc' def
+R13047:13049 Ionia.DataExp <> Var constr
+R13032:13038 Ionia.GPT2Mini_DPIA <> gpt2_x0 def
+R13030:13030 Ionia.GPT2Mini_DPIA <> GPT2Net.n var
+R12972:12973 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R12991:12992 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R13000:13000 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R12974:12977 Ionia.Proof_CodeGen <> acc' def
+R12980:12982 Ionia.DataExp <> Var constr
+R12993:12999 Ionia.GPT2Mini_DPIA <> gpt2_x0 def
+def 13229:13236 <> gemb_acc
+R13240:13243 Ionia.GPT2Mini_DPIA <> accT abbrev
+R13248:13251 Ionia.Proof_CodeGen <> acc' def
+R13254:13256 Ionia.DataExp <> Var constr
+def 13280:13286 <> glx_acc
+R13290:13293 Ionia.GPT2Mini_DPIA <> accT abbrev
+R13298:13301 Ionia.Proof_CodeGen <> acc' def
+R13304:13306 Ionia.DataExp <> Var constr
+def 13329:13336 <> glnf_acc
+R13340:13343 Ionia.GPT2Mini_DPIA <> accT abbrev
+R13348:13351 Ionia.Proof_CodeGen <> acc' def
+R13354:13356 Ionia.DataExp <> Var constr
+def 13731:13744 <> gpt2mini_fresh
+R13756:13759 Ionia.GPT2Mini_DPIA <> accV abbrev
+binder 13747:13752 <> output:85
+R13769:13771 Ionia.Proof_CodeGen <> env def
+binder 13763:13765 <> rho:86
+R13816:13823 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R13788:13802 Ionia.Proof_CodeGen <> StructUndefined def
+R13813:13815 Ionia.GPT2Mini_DPIA <> rho:86 var
+R13804:13811 Ionia.GPT2Mini_DPIA <> gemb_acc def
+R13851:13858 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R13824:13838 Ionia.Proof_CodeGen <> StructUndefined def
+R13848:13850 Ionia.GPT2Mini_DPIA <> rho:86 var
+R13840:13846 Ionia.GPT2Mini_DPIA <> glx_acc def
+R13887:13894 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R13859:13873 Ionia.Proof_CodeGen <> StructUndefined def
+R13884:13886 Ionia.GPT2Mini_DPIA <> rho:86 var
+R13875:13882 Ionia.GPT2Mini_DPIA <> glnf_acc def
+R13895:13895 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R13962:13970 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R13908:13911 Ionia.DataExp <> data ind
+binder 13903:13904 <> d0:87
+R13914:13928 Ionia.Proof_CodeGen <> StructUndefined def
+R13959:13961 Ionia.GPT2Mini_DPIA <> rho:86 var
+R13951:13953 Ionia.Proof_CodeGen <> acc def
+R13955:13956 Ionia.GPT2Mini_DPIA <> d0:87 var
+R13931:13934 Ionia.Proof_CodeGen <> acc' def
+R13937:13939 Ionia.DataExp <> Var constr
+R13971:13971 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R14038:14046 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R13984:13987 Ionia.DataExp <> data ind
+binder 13979:13980 <> d0:88
+R13990:14004 Ionia.Proof_CodeGen <> StructUndefined def
+R14035:14037 Ionia.GPT2Mini_DPIA <> rho:86 var
+R14027:14029 Ionia.Proof_CodeGen <> acc def
+R14031:14032 Ionia.GPT2Mini_DPIA <> d0:88 var
+R14007:14010 Ionia.Proof_CodeGen <> acc' def
+R14013:14015 Ionia.DataExp <> Var constr
+R14047:14047 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R14114:14122 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R14060:14063 Ionia.DataExp <> data ind
+binder 14055:14056 <> d0:89
+R14066:14080 Ionia.Proof_CodeGen <> StructUndefined def
+R14111:14113 Ionia.GPT2Mini_DPIA <> rho:86 var
+R14103:14105 Ionia.Proof_CodeGen <> acc def
+R14107:14108 Ionia.GPT2Mini_DPIA <> d0:89 var
+R14083:14086 Ionia.Proof_CodeGen <> acc' def
+R14089:14091 Ionia.DataExp <> Var constr
+R14123:14123 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R14189:14197 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R14136:14139 Ionia.DataExp <> data ind
+binder 14131:14132 <> d0:90
+R14142:14156 Ionia.Proof_CodeGen <> StructUndefined def
+R14186:14188 Ionia.GPT2Mini_DPIA <> rho:86 var
+R14178:14180 Ionia.Proof_CodeGen <> acc def
+R14182:14183 Ionia.GPT2Mini_DPIA <> d0:90 var
+R14159:14162 Ionia.Proof_CodeGen <> acc' def
+R14165:14167 Ionia.DataExp <> Var constr
+R14198:14198 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R14265:14273 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R14211:14214 Ionia.DataExp <> data ind
+binder 14206:14207 <> d0:91
+R14217:14231 Ionia.Proof_CodeGen <> StructUndefined def
+R14262:14264 Ionia.GPT2Mini_DPIA <> rho:86 var
+R14254:14256 Ionia.Proof_CodeGen <> acc def
+R14258:14259 Ionia.GPT2Mini_DPIA <> d0:91 var
+R14234:14237 Ionia.Proof_CodeGen <> acc' def
+R14240:14242 Ionia.DataExp <> Var constr
+R14274:14274 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R14341:14349 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R14287:14290 Ionia.DataExp <> data ind
+binder 14282:14283 <> d0:92
+R14293:14307 Ionia.Proof_CodeGen <> StructUndefined def
+R14338:14340 Ionia.GPT2Mini_DPIA <> rho:86 var
+R14330:14332 Ionia.Proof_CodeGen <> acc def
+R14334:14335 Ionia.GPT2Mini_DPIA <> d0:92 var
+R14310:14313 Ionia.Proof_CodeGen <> acc' def
+R14316:14318 Ionia.DataExp <> Var constr
+R14350:14350 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R14416:14424 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R14363:14366 Ionia.DataExp <> data ind
+binder 14358:14359 <> d0:93
+R14369:14383 Ionia.Proof_CodeGen <> StructUndefined def
+R14413:14415 Ionia.GPT2Mini_DPIA <> rho:86 var
+R14405:14407 Ionia.Proof_CodeGen <> acc def
+R14409:14410 Ionia.GPT2Mini_DPIA <> d0:93 var
+R14386:14389 Ionia.Proof_CodeGen <> acc' def
+R14392:14394 Ionia.DataExp <> Var constr
+R14425:14425 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R14492:14500 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R14438:14441 Ionia.DataExp <> data ind
+binder 14433:14434 <> d0:94
+R14444:14458 Ionia.Proof_CodeGen <> StructUndefined def
+R14489:14491 Ionia.GPT2Mini_DPIA <> rho:86 var
+R14481:14483 Ionia.Proof_CodeGen <> acc def
+R14485:14486 Ionia.GPT2Mini_DPIA <> d0:94 var
+R14461:14464 Ionia.Proof_CodeGen <> acc' def
+R14467:14469 Ionia.DataExp <> Var constr
+R14501:14501 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R14567:14575 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R14514:14517 Ionia.DataExp <> data ind
+binder 14509:14510 <> d0:95
+R14520:14534 Ionia.Proof_CodeGen <> StructUndefined def
+R14564:14566 Ionia.GPT2Mini_DPIA <> rho:86 var
+R14556:14558 Ionia.Proof_CodeGen <> acc def
+R14560:14561 Ionia.GPT2Mini_DPIA <> d0:95 var
+R14537:14540 Ionia.Proof_CodeGen <> acc' def
+R14543:14545 Ionia.DataExp <> Var constr
+R14576:14576 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R14643:14651 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R14589:14592 Ionia.DataExp <> data ind
+binder 14584:14585 <> d0:96
+R14595:14609 Ionia.Proof_CodeGen <> StructUndefined def
+R14640:14642 Ionia.GPT2Mini_DPIA <> rho:86 var
+R14632:14634 Ionia.Proof_CodeGen <> acc def
+R14636:14637 Ionia.GPT2Mini_DPIA <> d0:96 var
+R14612:14615 Ionia.Proof_CodeGen <> acc' def
+R14618:14620 Ionia.DataExp <> Var constr
+R14652:14652 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R14718:14726 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R14665:14668 Ionia.DataExp <> data ind
+binder 14660:14661 <> d0:97
+R14671:14685 Ionia.Proof_CodeGen <> StructUndefined def
+R14715:14717 Ionia.GPT2Mini_DPIA <> rho:86 var
+R14707:14709 Ionia.Proof_CodeGen <> acc def
+R14711:14712 Ionia.GPT2Mini_DPIA <> d0:97 var
+R14688:14691 Ionia.Proof_CodeGen <> acc' def
+R14694:14696 Ionia.DataExp <> Var constr
+R14727:14727 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R14794:14802 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R14740:14743 Ionia.DataExp <> data ind
+binder 14735:14736 <> d0:98
+R14746:14760 Ionia.Proof_CodeGen <> StructUndefined def
+R14791:14793 Ionia.GPT2Mini_DPIA <> rho:86 var
+R14783:14785 Ionia.Proof_CodeGen <> acc def
+R14787:14788 Ionia.GPT2Mini_DPIA <> d0:98 var
+R14763:14766 Ionia.Proof_CodeGen <> acc' def
+R14769:14771 Ionia.DataExp <> Var constr
+R14803:14803 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R14869:14877 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R14816:14819 Ionia.DataExp <> data ind
+binder 14811:14812 <> d0:99
+R14822:14836 Ionia.Proof_CodeGen <> StructUndefined def
+R14866:14868 Ionia.GPT2Mini_DPIA <> rho:86 var
+R14858:14860 Ionia.Proof_CodeGen <> acc def
+R14862:14863 Ionia.GPT2Mini_DPIA <> d0:99 var
+R14839:14842 Ionia.Proof_CodeGen <> acc' def
+R14845:14847 Ionia.DataExp <> Var constr
+R14878:14878 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R14945:14953 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R14891:14894 Ionia.DataExp <> data ind
+binder 14886:14887 <> d0:100
+R14897:14911 Ionia.Proof_CodeGen <> StructUndefined def
+R14942:14944 Ionia.GPT2Mini_DPIA <> rho:86 var
+R14934:14936 Ionia.Proof_CodeGen <> acc def
+R14938:14939 Ionia.GPT2Mini_DPIA <> d0:100 var
+R14914:14917 Ionia.Proof_CodeGen <> acc' def
+R14920:14922 Ionia.DataExp <> Var constr
+R14954:14954 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15022:15030 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R14967:14970 Ionia.DataExp <> data ind
+binder 14962:14963 <> d0:101
+R14973:14987 Ionia.Proof_CodeGen <> StructUndefined def
+R15019:15021 Ionia.GPT2Mini_DPIA <> rho:86 var
+R15011:15013 Ionia.Proof_CodeGen <> acc def
+R15015:15016 Ionia.GPT2Mini_DPIA <> d0:101 var
+R14990:14993 Ionia.Proof_CodeGen <> acc' def
+R14996:14998 Ionia.DataExp <> Var constr
+R15031:15031 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15098:15106 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15044:15047 Ionia.DataExp <> data ind
+binder 15039:15040 <> d0:102
+R15050:15064 Ionia.Proof_CodeGen <> StructUndefined def
+R15095:15097 Ionia.GPT2Mini_DPIA <> rho:86 var
+R15087:15089 Ionia.Proof_CodeGen <> acc def
+R15091:15092 Ionia.GPT2Mini_DPIA <> d0:102 var
+R15067:15070 Ionia.Proof_CodeGen <> acc' def
+R15073:15075 Ionia.DataExp <> Var constr
+R15107:15107 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15156:15164 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 15115:15115 <> p:103
+R15133:15136 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15118:15123 Ionia.Proof_CodeGen <> in_acc def
+R15127:15132 Ionia.GPT2Mini_DPIA <> output:85 var
+R15125:15125 Ionia.GPT2Mini_DPIA <> p:103 var
+R15137:15138 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R15139:15144 Ionia.Proof_CodeGen <> in_acc def
+R15148:15155 Ionia.GPT2Mini_DPIA <> gemb_acc def
+R15146:15146 Ionia.GPT2Mini_DPIA <> p:103 var
+R15165:15165 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15213:15221 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 15173:15173 <> p:104
+R15191:15194 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15176:15181 Ionia.Proof_CodeGen <> in_acc def
+R15185:15190 Ionia.GPT2Mini_DPIA <> output:85 var
+R15183:15183 Ionia.GPT2Mini_DPIA <> p:104 var
+R15195:15196 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R15197:15202 Ionia.Proof_CodeGen <> in_acc def
+R15206:15212 Ionia.GPT2Mini_DPIA <> glx_acc def
+R15204:15204 Ionia.GPT2Mini_DPIA <> p:104 var
+R15222:15222 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15271:15279 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 15230:15230 <> p:105
+R15248:15251 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15233:15238 Ionia.Proof_CodeGen <> in_acc def
+R15242:15247 Ionia.GPT2Mini_DPIA <> output:85 var
+R15240:15240 Ionia.GPT2Mini_DPIA <> p:105 var
+R15252:15253 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R15254:15259 Ionia.Proof_CodeGen <> in_acc def
+R15263:15270 Ionia.GPT2Mini_DPIA <> glnf_acc def
+R15261:15261 Ionia.GPT2Mini_DPIA <> p:105 var
+R15280:15280 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15361:15369 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15294:15297 Ionia.DataExp <> data ind
+binder 15289:15290 <> d0:106
+binder 15300:15300 <> p:107
+R15318:15321 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15303:15308 Ionia.Proof_CodeGen <> in_acc def
+R15312:15317 Ionia.GPT2Mini_DPIA <> output:85 var
+R15310:15310 Ionia.GPT2Mini_DPIA <> p:107 var
+R15322:15323 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R15324:15329 Ionia.Proof_CodeGen <> in_acc def
+R15354:15356 Ionia.Proof_CodeGen <> acc def
+R15358:15359 Ionia.GPT2Mini_DPIA <> d0:106 var
+R15334:15337 Ionia.Proof_CodeGen <> acc' def
+R15340:15342 Ionia.DataExp <> Var constr
+R15331:15331 Ionia.GPT2Mini_DPIA <> p:107 var
+R15370:15370 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15451:15459 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15384:15387 Ionia.DataExp <> data ind
+binder 15379:15380 <> d0:108
+binder 15390:15390 <> p:109
+R15408:15411 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15393:15398 Ionia.Proof_CodeGen <> in_acc def
+R15402:15407 Ionia.GPT2Mini_DPIA <> output:85 var
+R15400:15400 Ionia.GPT2Mini_DPIA <> p:109 var
+R15412:15413 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R15414:15419 Ionia.Proof_CodeGen <> in_acc def
+R15444:15446 Ionia.Proof_CodeGen <> acc def
+R15448:15449 Ionia.GPT2Mini_DPIA <> d0:108 var
+R15424:15427 Ionia.Proof_CodeGen <> acc' def
+R15430:15432 Ionia.DataExp <> Var constr
+R15421:15421 Ionia.GPT2Mini_DPIA <> p:109 var
+R15460:15460 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15541:15549 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15474:15477 Ionia.DataExp <> data ind
+binder 15469:15470 <> d0:110
+binder 15480:15480 <> p:111
+R15498:15501 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15483:15488 Ionia.Proof_CodeGen <> in_acc def
+R15492:15497 Ionia.GPT2Mini_DPIA <> output:85 var
+R15490:15490 Ionia.GPT2Mini_DPIA <> p:111 var
+R15502:15503 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R15504:15509 Ionia.Proof_CodeGen <> in_acc def
+R15534:15536 Ionia.Proof_CodeGen <> acc def
+R15538:15539 Ionia.GPT2Mini_DPIA <> d0:110 var
+R15514:15517 Ionia.Proof_CodeGen <> acc' def
+R15520:15522 Ionia.DataExp <> Var constr
+R15511:15511 Ionia.GPT2Mini_DPIA <> p:111 var
+R15550:15550 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15630:15638 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15564:15567 Ionia.DataExp <> data ind
+binder 15559:15560 <> d0:112
+binder 15570:15570 <> p:113
+R15588:15591 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15573:15578 Ionia.Proof_CodeGen <> in_acc def
+R15582:15587 Ionia.GPT2Mini_DPIA <> output:85 var
+R15580:15580 Ionia.GPT2Mini_DPIA <> p:113 var
+R15592:15593 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R15594:15599 Ionia.Proof_CodeGen <> in_acc def
+R15623:15625 Ionia.Proof_CodeGen <> acc def
+R15627:15628 Ionia.GPT2Mini_DPIA <> d0:112 var
+R15604:15607 Ionia.Proof_CodeGen <> acc' def
+R15610:15612 Ionia.DataExp <> Var constr
+R15601:15601 Ionia.GPT2Mini_DPIA <> p:113 var
+R15639:15639 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15720:15728 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15653:15656 Ionia.DataExp <> data ind
+binder 15648:15649 <> d0:114
+binder 15659:15659 <> p:115
+R15677:15680 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15662:15667 Ionia.Proof_CodeGen <> in_acc def
+R15671:15676 Ionia.GPT2Mini_DPIA <> output:85 var
+R15669:15669 Ionia.GPT2Mini_DPIA <> p:115 var
+R15681:15682 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R15683:15688 Ionia.Proof_CodeGen <> in_acc def
+R15713:15715 Ionia.Proof_CodeGen <> acc def
+R15717:15718 Ionia.GPT2Mini_DPIA <> d0:114 var
+R15693:15696 Ionia.Proof_CodeGen <> acc' def
+R15699:15701 Ionia.DataExp <> Var constr
+R15690:15690 Ionia.GPT2Mini_DPIA <> p:115 var
+R15729:15729 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15810:15818 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15743:15746 Ionia.DataExp <> data ind
+binder 15738:15739 <> d0:116
+binder 15749:15749 <> p:117
+R15767:15770 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15752:15757 Ionia.Proof_CodeGen <> in_acc def
+R15761:15766 Ionia.GPT2Mini_DPIA <> output:85 var
+R15759:15759 Ionia.GPT2Mini_DPIA <> p:117 var
+R15771:15772 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R15773:15778 Ionia.Proof_CodeGen <> in_acc def
+R15803:15805 Ionia.Proof_CodeGen <> acc def
+R15807:15808 Ionia.GPT2Mini_DPIA <> d0:116 var
+R15783:15786 Ionia.Proof_CodeGen <> acc' def
+R15789:15791 Ionia.DataExp <> Var constr
+R15780:15780 Ionia.GPT2Mini_DPIA <> p:117 var
+R15819:15819 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15899:15907 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15833:15836 Ionia.DataExp <> data ind
+binder 15828:15829 <> d0:118
+binder 15839:15839 <> p:119
+R15857:15860 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15842:15847 Ionia.Proof_CodeGen <> in_acc def
+R15851:15856 Ionia.GPT2Mini_DPIA <> output:85 var
+R15849:15849 Ionia.GPT2Mini_DPIA <> p:119 var
+R15861:15862 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R15863:15868 Ionia.Proof_CodeGen <> in_acc def
+R15892:15894 Ionia.Proof_CodeGen <> acc def
+R15896:15897 Ionia.GPT2Mini_DPIA <> d0:118 var
+R15873:15876 Ionia.Proof_CodeGen <> acc' def
+R15879:15881 Ionia.DataExp <> Var constr
+R15870:15870 Ionia.GPT2Mini_DPIA <> p:119 var
+R15908:15908 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15989:15997 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R15922:15925 Ionia.DataExp <> data ind
+binder 15917:15918 <> d0:120
+binder 15928:15928 <> p:121
+R15946:15949 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15931:15936 Ionia.Proof_CodeGen <> in_acc def
+R15940:15945 Ionia.GPT2Mini_DPIA <> output:85 var
+R15938:15938 Ionia.GPT2Mini_DPIA <> p:121 var
+R15950:15951 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R15952:15957 Ionia.Proof_CodeGen <> in_acc def
+R15982:15984 Ionia.Proof_CodeGen <> acc def
+R15986:15987 Ionia.GPT2Mini_DPIA <> d0:120 var
+R15962:15965 Ionia.Proof_CodeGen <> acc' def
+R15968:15970 Ionia.DataExp <> Var constr
+R15959:15959 Ionia.GPT2Mini_DPIA <> p:121 var
+R15998:15998 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R16078:16086 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R16012:16015 Ionia.DataExp <> data ind
+binder 16007:16008 <> d0:122
+binder 16018:16018 <> p:123
+R16036:16039 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16021:16026 Ionia.Proof_CodeGen <> in_acc def
+R16030:16035 Ionia.GPT2Mini_DPIA <> output:85 var
+R16028:16028 Ionia.GPT2Mini_DPIA <> p:123 var
+R16040:16041 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R16042:16047 Ionia.Proof_CodeGen <> in_acc def
+R16071:16073 Ionia.Proof_CodeGen <> acc def
+R16075:16076 Ionia.GPT2Mini_DPIA <> d0:122 var
+R16052:16055 Ionia.Proof_CodeGen <> acc' def
+R16058:16060 Ionia.DataExp <> Var constr
+R16049:16049 Ionia.GPT2Mini_DPIA <> p:123 var
+R16087:16087 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R16168:16176 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R16101:16104 Ionia.DataExp <> data ind
+binder 16096:16097 <> d0:124
+binder 16107:16107 <> p:125
+R16125:16128 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16110:16115 Ionia.Proof_CodeGen <> in_acc def
+R16119:16124 Ionia.GPT2Mini_DPIA <> output:85 var
+R16117:16117 Ionia.GPT2Mini_DPIA <> p:125 var
+R16129:16130 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R16131:16136 Ionia.Proof_CodeGen <> in_acc def
+R16161:16163 Ionia.Proof_CodeGen <> acc def
+R16165:16166 Ionia.GPT2Mini_DPIA <> d0:124 var
+R16141:16144 Ionia.Proof_CodeGen <> acc' def
+R16147:16149 Ionia.DataExp <> Var constr
+R16138:16138 Ionia.GPT2Mini_DPIA <> p:125 var
+R16177:16177 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R16257:16265 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R16191:16194 Ionia.DataExp <> data ind
+binder 16186:16187 <> d0:126
+binder 16197:16197 <> p:127
+R16215:16218 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16200:16205 Ionia.Proof_CodeGen <> in_acc def
+R16209:16214 Ionia.GPT2Mini_DPIA <> output:85 var
+R16207:16207 Ionia.GPT2Mini_DPIA <> p:127 var
+R16219:16220 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R16221:16226 Ionia.Proof_CodeGen <> in_acc def
+R16250:16252 Ionia.Proof_CodeGen <> acc def
+R16254:16255 Ionia.GPT2Mini_DPIA <> d0:126 var
+R16231:16234 Ionia.Proof_CodeGen <> acc' def
+R16237:16239 Ionia.DataExp <> Var constr
+R16228:16228 Ionia.GPT2Mini_DPIA <> p:127 var
+R16266:16266 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R16347:16355 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R16280:16283 Ionia.DataExp <> data ind
+binder 16275:16276 <> d0:128
+binder 16286:16286 <> p:129
+R16304:16307 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16289:16294 Ionia.Proof_CodeGen <> in_acc def
+R16298:16303 Ionia.GPT2Mini_DPIA <> output:85 var
+R16296:16296 Ionia.GPT2Mini_DPIA <> p:129 var
+R16308:16309 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R16310:16315 Ionia.Proof_CodeGen <> in_acc def
+R16340:16342 Ionia.Proof_CodeGen <> acc def
+R16344:16345 Ionia.GPT2Mini_DPIA <> d0:128 var
+R16320:16323 Ionia.Proof_CodeGen <> acc' def
+R16326:16328 Ionia.DataExp <> Var constr
+R16317:16317 Ionia.GPT2Mini_DPIA <> p:129 var
+R16356:16356 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R16436:16444 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R16370:16373 Ionia.DataExp <> data ind
+binder 16365:16366 <> d0:130
+binder 16376:16376 <> p:131
+R16394:16397 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16379:16384 Ionia.Proof_CodeGen <> in_acc def
+R16388:16393 Ionia.GPT2Mini_DPIA <> output:85 var
+R16386:16386 Ionia.GPT2Mini_DPIA <> p:131 var
+R16398:16399 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R16400:16405 Ionia.Proof_CodeGen <> in_acc def
+R16429:16431 Ionia.Proof_CodeGen <> acc def
+R16433:16434 Ionia.GPT2Mini_DPIA <> d0:130 var
+R16410:16413 Ionia.Proof_CodeGen <> acc' def
+R16416:16418 Ionia.DataExp <> Var constr
+R16407:16407 Ionia.GPT2Mini_DPIA <> p:131 var
+R16445:16445 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R16526:16534 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R16459:16462 Ionia.DataExp <> data ind
+binder 16454:16455 <> d0:132
+binder 16465:16465 <> p:133
+R16483:16486 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16468:16473 Ionia.Proof_CodeGen <> in_acc def
+R16477:16482 Ionia.GPT2Mini_DPIA <> output:85 var
+R16475:16475 Ionia.GPT2Mini_DPIA <> p:133 var
+R16487:16488 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R16489:16494 Ionia.Proof_CodeGen <> in_acc def
+R16519:16521 Ionia.Proof_CodeGen <> acc def
+R16523:16524 Ionia.GPT2Mini_DPIA <> d0:132 var
+R16499:16502 Ionia.Proof_CodeGen <> acc' def
+R16505:16507 Ionia.DataExp <> Var constr
+R16496:16496 Ionia.GPT2Mini_DPIA <> p:133 var
+R16535:16535 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R16617:16626 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R16707:16707 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R16549:16552 Ionia.DataExp <> data ind
+binder 16544:16545 <> d0:134
+binder 16555:16555 <> p:135
+R16573:16576 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16558:16563 Ionia.Proof_CodeGen <> in_acc def
+R16567:16572 Ionia.GPT2Mini_DPIA <> output:85 var
+R16565:16565 Ionia.GPT2Mini_DPIA <> p:135 var
+R16577:16578 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R16579:16584 Ionia.Proof_CodeGen <> in_acc def
+R16610:16612 Ionia.Proof_CodeGen <> acc def
+R16614:16615 Ionia.GPT2Mini_DPIA <> d0:134 var
+R16589:16592 Ionia.Proof_CodeGen <> acc' def
+R16595:16597 Ionia.DataExp <> Var constr
+R16586:16586 Ionia.GPT2Mini_DPIA <> p:135 var
+R16640:16643 Ionia.DataExp <> data ind
+binder 16635:16636 <> d0:136
+binder 16646:16646 <> p:137
+R16664:16667 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16649:16654 Ionia.Proof_CodeGen <> in_acc def
+R16658:16663 Ionia.GPT2Mini_DPIA <> output:85 var
+R16656:16656 Ionia.GPT2Mini_DPIA <> p:137 var
+R16668:16669 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R16670:16675 Ionia.Proof_CodeGen <> in_acc def
+R16700:16702 Ionia.Proof_CodeGen <> acc def
+R16704:16705 Ionia.GPT2Mini_DPIA <> d0:136 var
+R16680:16683 Ionia.Proof_CodeGen <> acc' def
+R16686:16688 Ionia.DataExp <> Var constr
+R16677:16677 Ionia.GPT2Mini_DPIA <> p:137 var
+prf 16799:16821 <> gpt2mini_comm_eq_direct
+R16846:16849 Ionia.GPT2Mini_DPIA <> accV abbrev
+binder 16837:16842 <> output:138
+R16877:16879 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16857:16869 Ionia.GPT2Mini_DPIA <> gpt2mini_comm def
+R16871:16876 Ionia.GPT2Mini_DPIA <> output:138 var
+R16880:16894 Ionia.GPT2Mini_DPIA <> gpt2mini_direct def
+R16896:16901 Ionia.GPT2Mini_DPIA <> output:138 var
+R16936:16948 Ionia.GPT2Mini_DPIA <> gpt2mini_comm def
+R16951:16965 Ionia.GPT2Mini_DPIA <> gpt2mini_direct def
+R16968:16970 Ionia.Proof_CodeGen <> new def
+R17002:17008 Ionia.Ops_Elementwise <> A_Add3d thm
+R17026:17037 Ionia.GPT2Mini_DPIA <> gpt2_x0_body thm
+R17052:17068 Ionia.LeNet5_DPIA <> bind_read_replace thm
+R17097:17122 Ionia.GPT2Mini_DPIA <> gpt2stack_comm_direct_read thm
+R17154:17165 Ionia.GPT2Mini_DPIA <> gpt2_xN_body thm
+R17183:17195 Ionia.Ops_Transformer <> A_LayerNorm3d thm
+R17213:17224 Ionia.GPT2Mini_DPIA <> gpt2_xf_body thm
+R17239:17255 Ionia.LeNet5_DPIA <> bind_read_replace thm
+R17287:17297 Ionia.Attention_DPIA <> A_BMatMul2d thm
+R17315:17327 Ionia.GPT2Mini_DPIA <> GPT2Mini_body thm
+prf 17363:17379 <> A_GPT2Mini_direct
+R17404:17407 Ionia.GPT2Mini_DPIA <> accV abbrev
+binder 17395:17400 <> output:139
+R17417:17419 Ionia.Proof_CodeGen <> env def
+binder 17411:17413 <> rho:140
+R17427:17430 Ionia.DataExp <> path ind
+binder 17423:17423 <> p:141
+R17453:17460 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17438:17443 Ionia.Proof_CodeGen <> in_acc def
+R17447:17452 Ionia.GPT2Mini_DPIA <> output:139 var
+R17445:17445 Ionia.GPT2Mini_DPIA <> p:141 var
+R17486:17493 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17461:17474 Ionia.GPT2Mini_DPIA <> gpt2mini_fresh def
+R17483:17485 Ionia.GPT2Mini_DPIA <> rho:140 var
+R17476:17481 Ionia.GPT2Mini_DPIA <> output:139 var
+R17522:17524 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17494:17508 Ionia.GPT2Mini_DPIA <> gpt2mini_direct def
+R17521:17521 Ionia.GPT2Mini_DPIA <> p:141 var
+R17517:17519 Ionia.GPT2Mini_DPIA <> rho:140 var
+R17510:17515 Ionia.GPT2Mini_DPIA <> output:139 var
+R17525:17526 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R17533:17534 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R17543:17549 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R17527:17532 Ionia.GPT2Mini_DPIA <> output:139 var
+R17535:17542 Ionia.GPT2Mini_DPIA <> GPT2Mini def
+R17549:17549 Ionia.GPT2Mini_DPIA <> p:141 var
+R17545:17547 Ionia.GPT2Mini_DPIA <> rho:140 var
+R17584:17598 Ionia.GPT2Mini_DPIA <> gpt2mini_direct def
+R17601:17601 Ionia.DPIA_Rules <> A def
+R17645:17667 Ionia.DPIA_Rules <> assign_pure_independent thm
+prf 17951:17960 <> A_GPT2Mini
+R17985:17988 Ionia.GPT2Mini_DPIA <> accV abbrev
+binder 17976:17981 <> output:142
+R17998:18000 Ionia.Proof_CodeGen <> env def
+binder 17992:17994 <> rho:143
+R18008:18011 Ionia.DataExp <> path ind
+binder 18004:18004 <> p:144
+R18034:18041 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18019:18024 Ionia.Proof_CodeGen <> in_acc def
+R18028:18033 Ionia.GPT2Mini_DPIA <> output:142 var
+R18026:18026 Ionia.GPT2Mini_DPIA <> p:144 var
+R18067:18074 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18042:18055 Ionia.GPT2Mini_DPIA <> gpt2mini_fresh def
+R18064:18066 Ionia.GPT2Mini_DPIA <> rho:143 var
+R18057:18062 Ionia.GPT2Mini_DPIA <> output:142 var
+R18101:18103 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18075:18087 Ionia.GPT2Mini_DPIA <> gpt2mini_comm def
+R18100:18100 Ionia.GPT2Mini_DPIA <> p:144 var
+R18096:18098 Ionia.GPT2Mini_DPIA <> rho:143 var
+R18089:18094 Ionia.GPT2Mini_DPIA <> output:142 var
+R18104:18105 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R18112:18113 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R18122:18128 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R18106:18111 Ionia.GPT2Mini_DPIA <> output:142 var
+R18114:18121 Ionia.GPT2Mini_DPIA <> GPT2Mini def
+R18128:18128 Ionia.GPT2Mini_DPIA <> p:144 var
+R18124:18126 Ionia.GPT2Mini_DPIA <> rho:143 var
+R18160:18182 Ionia.GPT2Mini_DPIA <> gpt2mini_comm_eq_direct thm
+R18195:18211 Ionia.GPT2Mini_DPIA <> A_GPT2Mini_direct thm
+def 18324:18343 <> check_layers_unroll2
+R18358:18358 Ionia.GPT2Mini_DPIA <> T abbrev
+binder 18354:18354 <> x:145
+R18380:18382 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18365:18375 Ionia.GPT2Mini_DPIA <> gpt2_layers def
+R18379:18379 Ionia.GPT2Mini_DPIA <> x:145 var
+R18383:18391 Ionia.GPT2Mini_DPIA <> GPT2Block def
+R18416:18418 Ionia.GPT2Mini_DPIA <> GPT2Net.lps var
+R18394:18402 Ionia.GPT2Mini_DPIA <> GPT2Block def
+R18407:18409 Ionia.GPT2Mini_DPIA <> GPT2Net.lps var
+R18404:18404 Ionia.GPT2Mini_DPIA <> x:145 var
+R18456:18462 Ionia.GPT2Mini_DPIA GPT2Net <> sec
+sec 18798:18814 <> Small_1_8_2_16_L3
+var  18829:18832 Small_1_8_2_16_L3 eps8
+var  18856:18860 Small_1_8_2_16_L3 toks8
+var  18891:18894 Small_1_8_2_16_L3 wte8
+var  18941:18944 Small_1_8_2_16_L3 wpe8
+var  18991:18996 Small_1_8_2_16_L3 lnf_g8
+var  18998:19003 Small_1_8_2_16_L3 lnf_b8
+var  19039:19041 Small_1_8_2_16_L3 lp0
+var  19043:19045 Small_1_8_2_16_L3 lp1
+var  19047:19049 Small_1_8_2_16_L3 lp2
+var  19084:19087 Small_1_8_2_16_L3 out8
+R18836:18838 Ionia.Proof_CodeGen <> exp def
+R18840:18842 Ionia.DataExp <> num constr
+R18869:18872 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18864:18866 Ionia.finType <> fin def
+R18873:18875 Ionia.finType <> fin def
+R18898:18900 Ionia.Proof_CodeGen <> exp def
+R18903:18905 Ionia.DataExp <> ary constr
+R18913:18915 Ionia.DataExp <> ary constr
+R18923:18925 Ionia.DataExp <> num constr
+R18917:18918 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18921:18921 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18907:18908 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18910:18910 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18948:18950 Ionia.Proof_CodeGen <> exp def
+R18953:18955 Ionia.DataExp <> ary constr
+R18963:18965 Ionia.DataExp <> ary constr
+R18973:18975 Ionia.DataExp <> num constr
+R18967:18968 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18971:18971 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18957:18958 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18960:18960 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19007:19009 Ionia.Proof_CodeGen <> exp def
+R19012:19014 Ionia.DataExp <> ary constr
+R19022:19024 Ionia.DataExp <> num constr
+R19016:19017 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19020:19020 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19053:19063 Ionia.GPT2Mini_DPIA <> GPT2LParams rec
+R19091:19093 Ionia.Proof_CodeGen <> acc def
+R19096:19098 Ionia.DataExp <> ary constr
+R19106:19108 Ionia.DataExp <> ary constr
+R19116:19118 Ionia.DataExp <> ary constr
+R19125:19127 Ionia.DataExp <> num constr
+R19120:19121 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19123:19123 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19110:19111 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19113:19113 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19100:19101 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19103:19103 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+def 19193:19196 <> lps8
+R19203:19206 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19200:19202 Corelib.Init.Datatypes <> nat ind
+R19207:19217 Ionia.GPT2Mini_DPIA <> GPT2LParams rec
+R19230:19233 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R19240:19240 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R19235:19237 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R19221:19223 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+binder 19254:19254 <> k:156
+R19265:19265 Ionia.GPT2Mini_DPIA <> k:156 var
+R19277:19279 Ionia.GPT2Mini_DPIA <> Small_1_8_2_16_L3.lp0 var
+R19288:19290 Ionia.GPT2Mini_DPIA <> Small_1_8_2_16_L3.lp1 var
+R19299:19301 Ionia.GPT2Mini_DPIA <> Small_1_8_2_16_L3.lp2 var
+def 19416:19435 <> GPT2Mini_1_8_2_16_L3
+R19439:19441 Ionia.Proof_CodeGen <> exp def
+R19444:19446 Ionia.DataExp <> ary constr
+R19454:19456 Ionia.DataExp <> ary constr
+R19464:19466 Ionia.DataExp <> ary constr
+R19473:19475 Ionia.DataExp <> num constr
+R19468:19469 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19471:19471 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19458:19459 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19461:19461 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19448:19449 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19451:19451 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19488:19495 Ionia.GPT2Mini_DPIA <> GPT2Mini def
+R19510:19513 Ionia.GPT2Mini_DPIA <> Small_1_8_2_16_L3.eps8 var
+R19515:19519 Ionia.GPT2Mini_DPIA <> Small_1_8_2_16_L3.toks8 var
+R19521:19524 Ionia.GPT2Mini_DPIA <> Small_1_8_2_16_L3.wte8 var
+R19526:19529 Ionia.GPT2Mini_DPIA <> Small_1_8_2_16_L3.wpe8 var
+R19531:19536 Ionia.GPT2Mini_DPIA <> Small_1_8_2_16_L3.lnf_g8 var
+R19538:19543 Ionia.GPT2Mini_DPIA <> Small_1_8_2_16_L3.lnf_b8 var
+R19545:19548 Ionia.GPT2Mini_DPIA <> lps8 def
+def 19565:19589 <> gpt2mini_comm_1_8_2_16_L3
+R19593:19596 Ionia.Proof_CodeGen <> comm def
+R19606:19618 Ionia.GPT2Mini_DPIA <> gpt2mini_comm def
+R19633:19636 Ionia.GPT2Mini_DPIA <> Small_1_8_2_16_L3.eps8 var
+R19638:19642 Ionia.GPT2Mini_DPIA <> Small_1_8_2_16_L3.toks8 var
+R19644:19647 Ionia.GPT2Mini_DPIA <> Small_1_8_2_16_L3.wte8 var
+R19649:19652 Ionia.GPT2Mini_DPIA <> Small_1_8_2_16_L3.wpe8 var
+R19654:19659 Ionia.GPT2Mini_DPIA <> Small_1_8_2_16_L3.lnf_g8 var
+R19661:19666 Ionia.GPT2Mini_DPIA <> Small_1_8_2_16_L3.lnf_b8 var
+R19668:19671 Ionia.GPT2Mini_DPIA <> lps8 def
+R19673:19676 Ionia.GPT2Mini_DPIA <> Small_1_8_2_16_L3.out8 var
+R19684:19700 Ionia.GPT2Mini_DPIA Small_1_8_2_16_L3 <> sec
+def 19998:20023 <> check_tied_transpose_entry
+R20067:20069 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20029:20031 Ionia.Proof_CodeGen <> idx def
+R20063:20066 Ionia.MiniTransformer_DPIA <> i3_4 def
+R20034:20036 Ionia.Proof_CodeGen <> idx def
+R20056:20060 Ionia.MiniTransformer_DPIA <> i1_2s def
+R20039:20049 Ionia.Ops_Transformer <> Transpose2d def
+R20051:20053 Ionia.MiniTransformer_DPIA <> T42 def
+R20070:20072 Stdlib.Reals.Raxioms <> INR def
+R20378:20388 Ionia.GPT2Mini_DPIA <> A_GPT2Block thm
+R20409:20430 Ionia.GPT2Mini_DPIA <> gpt2block_direct_read0 thm
+R20451:20476 Ionia.GPT2Mini_DPIA <> gpt2stack_comm_direct_read thm
+R20497:20519 Ionia.GPT2Mini_DPIA <> gpt2mini_comm_eq_direct thm
+R20540:20549 Ionia.GPT2Mini_DPIA <> A_GPT2Mini thm

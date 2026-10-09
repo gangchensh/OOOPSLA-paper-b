@@ -1,0 +1,1495 @@
+DIGEST c2f3a36757c54175ea9356118eb456f5
+FIonia.Parallel_Safety
+R4511:4514 Stdlib.Lists.List <> <> lib
+R4516:4520 Stdlib.Arith.Arith <> <> lib
+R4522:4524 Stdlib.micromega.Lia <> <> lib
+R4526:4544 Stdlib.Sorting.Permutation <> <> lib
+R4546:4551 Stdlib.Vectors.FinFun <> <> lib
+R4561:4573 Stdlib.Lists.List ListNotations <> mod
+R4585:4603 Ionia.Proof_CodeGen <> <> lib
+R4613:4625 Ionia.Proof_CodeGen <> <> mod
+R4636:4651 Ionia.DPIA_Rules <> <> lib
+R4661:4670 Ionia.DPIA_Rules <> <> mod
+def 5155:5169 <> non_interfering
+R5174:5176 Corelib.Init.Datatypes <> nat ind
+binder 5172:5172 <> n:1
+R5189:5192 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5184:5186 Ionia.finType <> fin def
+R5188:5188 Ionia.Parallel_Safety <> n:1 var
+R5193:5196 Ionia.Proof_CodeGen <> comm def
+binder 5180:5180 <> p:2
+binder 5218:5218 <> i:3
+binder 5220:5220 <> j:4
+binder 5222:5224 <> rho:5
+R5233:5236 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5228:5231 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R5227:5227 Ionia.Parallel_Safety <> i:3 var
+R5232:5232 Ionia.Parallel_Safety <> j:4 var
+R5250:5252 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5237:5237 Ionia.Parallel_Safety <> p:2 var
+R5242:5242 Ionia.Parallel_Safety <> p:2 var
+R5246:5248 Ionia.Parallel_Safety <> rho:5 var
+R5244:5244 Ionia.Parallel_Safety <> j:4 var
+R5239:5239 Ionia.Parallel_Safety <> i:3 var
+R5253:5253 Ionia.Parallel_Safety <> p:2 var
+R5258:5258 Ionia.Parallel_Safety <> p:2 var
+R5262:5264 Ionia.Parallel_Safety <> rho:5 var
+R5260:5260 Ionia.Parallel_Safety <> i:3 var
+R5255:5255 Ionia.Parallel_Safety <> j:4 var
+def 5589:5599 <> seqfor_list
+R5604:5606 Corelib.Init.Datatypes <> nat ind
+binder 5602:5602 <> n:6
+R5614:5617 Corelib.Init.Datatypes <> list ind
+R5620:5622 Ionia.finType <> fin def
+R5624:5624 Ionia.Parallel_Safety <> n:6 var
+binder 5610:5610 <> l:7
+R5638:5641 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5633:5635 Ionia.finType <> fin def
+R5637:5637 Ionia.Parallel_Safety <> n:6 var
+R5642:5645 Ionia.Proof_CodeGen <> comm def
+binder 5629:5629 <> p:8
+R5650:5653 Ionia.Proof_CodeGen <> comm def
+R5666:5666 Ionia.Parallel_Safety <> l:7 var
+R5677:5678 Stdlib.Lists.List ListNotations ::list_scope:'['_']' not
+R5683:5686 Ionia.Proof_CodeGen <> skip def
+R5693:5696 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5706:5709 Ionia.Proof_CodeGen <> :::x_''';'_x not
+R5703:5703 Ionia.Parallel_Safety <> p:8 var
+R5710:5720 Ionia.Parallel_Safety <> seqfor_list:9 def
+R5725:5725 Ionia.Parallel_Safety <> p:8 var
+def 5896:5903 <> fin_enum
+R5908:5910 Corelib.Init.Datatypes <> nat ind
+binder 5906:5906 <> n:11
+R5915:5918 Corelib.Init.Datatypes <> list ind
+R5921:5923 Ionia.finType <> fin def
+R5925:5925 Ionia.Parallel_Safety <> n:11 var
+R5939:5939 Ionia.Parallel_Safety <> n:11 var
+R5950:5950 Corelib.Init.Datatypes <> O constr
+R5955:5956 Stdlib.Lists.List ListNotations ::list_scope:'['_']' not
+R5962:5962 Corelib.Init.Datatypes <> S constr
+R5996:6000 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6014:6014 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R5970:5972 Corelib.Lists.ListDef <> map def
+R5984:5991 Ionia.Parallel_Safety <> fin_enum:12 def
+R5974:5981 Ionia.finType <> fin2finS def
+R6007:6010 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6001:6003 Ionia.finType <> ltS def
+R6011:6013 Corelib.Init.Datatypes <> nil constr
+prf 6030:6044 <> fin_enum_length
+binder 6055:6055 <> n:14
+R6077:6079 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6058:6063 Corelib.Init.Datatypes <> length def
+R6066:6073 Ionia.Parallel_Safety <> fin_enum def
+R6075:6075 Ionia.Parallel_Safety <> n:14 var
+R6080:6080 Ionia.Parallel_Safety <> n:14 var
+R6140:6149 Stdlib.Lists.List <> length_app thm
+R6152:6161 Stdlib.Lists.List <> length_map thm
+prf 6193:6203 <> fin2nat_ltS
+binder 6214:6214 <> n:15
+R6232:6234 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6217:6223 Ionia.finType <> fin2nat def
+R6226:6228 Ionia.finType <> ltS def
+R6230:6230 Ionia.Parallel_Safety <> n:15 var
+R6235:6235 Ionia.Parallel_Safety <> n:15 var
+R6264:6266 Ionia.finType <> ltS def
+R6277:6289 Ionia.finType <> fin2nat_exist thm
+prf 6317:6334 <> fin2finS_injective
+binder 6345:6345 <> n:16
+R6354:6356 Ionia.finType <> fin def
+R6358:6358 Ionia.Parallel_Safety <> n:16 var
+binder 6348:6348 <> i:17
+binder 6350:6350 <> j:18
+R6375:6378 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6367:6369 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6362:6364 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R6366:6366 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R6365:6365 Ionia.Parallel_Safety <> i:17 var
+R6370:6372 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R6374:6374 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R6373:6373 Ionia.Parallel_Safety <> j:18 var
+R6380:6382 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6379:6379 Ionia.Parallel_Safety <> i:17 var
+R6383:6383 Ionia.Parallel_Safety <> j:18 var
+R6417:6427 Ionia.finType <> fin2nat_inj thm
+R6460:6462 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6445:6451 Ionia.finType <> fin2nat def
+R6454:6456 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R6458:6458 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R6463:6469 Ionia.finType <> fin2nat def
+R6472:6474 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R6476:6476 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R6520:6535 Ionia.finType <> fin2nat_fin2finS thm
+prf 6566:6576 <> fin_enum_In
+binder 6587:6587 <> n:19
+R6594:6596 Ionia.finType <> fin def
+R6598:6598 Ionia.Parallel_Safety <> n:19 var
+binder 6590:6590 <> i:20
+R6602:6603 Stdlib.Lists.List <> In def
+R6608:6615 Ionia.Parallel_Safety <> fin_enum def
+R6617:6617 Ionia.Parallel_Safety <> n:19 var
+R6605:6605 Ionia.Parallel_Safety <> i:20 var
+R6719:6728 Stdlib.Arith.PeanoNat Nat eq_dec thm
+R6731:6737 Ionia.finType <> fin2nat def
+R6775:6777 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6778:6780 Ionia.finType <> ltS def
+R6800:6810 Ionia.finType <> fin2nat_inj thm
+R6821:6831 Ionia.Parallel_Safety <> fin2nat_ltS thm
+R6876:6884 Stdlib.Lists.List <> in_or_app thm
+R6927:6929 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6930:6932 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R6945:6945 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R6933:6940 Ionia.finType <> finS2fin def
+R6973:6989 Ionia.finType <> finS2fin_fin2finS thm
+R7030:7038 Stdlib.Lists.List <> in_or_app thm
+R7059:7064 Stdlib.Lists.List <> in_map thm
+prf 7090:7103 <> fin_enum_NoDup
+binder 7114:7114 <> n:21
+R7117:7121 Stdlib.Lists.List <> NoDup ind
+R7124:7131 Ionia.Parallel_Safety <> fin_enum def
+R7133:7133 Ionia.Parallel_Safety <> n:21 var
+R7205:7213 Stdlib.Lists.List <> NoDup_app thm
+R7228:7246 Stdlib.Lists.Finite <> Injective_map_NoDup thm
+R7282:7299 Ionia.Parallel_Safety <> fin2finS_injective thm
+R7384:7393 Stdlib.Lists.List <> in_map_iff thm
+R7548:7550 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7533:7539 Ionia.finType <> fin2nat def
+R7542:7544 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R7546:7546 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R7582:7592 Ionia.Parallel_Safety <> fin2nat_ltS thm
+R7611:7626 Ionia.finType <> fin2nat_fin2finS thm
+R7653:7663 Ionia.finType <> fin_correct thm
+prf 7930:7944 <> seqfor_list_app
+binder 7955:7955 <> n:22
+R7963:7966 Corelib.Init.Datatypes <> list ind
+R7969:7971 Ionia.finType <> fin def
+R7973:7973 Ionia.Parallel_Safety <> n:22 var
+binder 7958:7959 <> l1:23
+R7993:7996 Corelib.Init.Datatypes <> list ind
+R7999:8001 Ionia.finType <> fin def
+R8003:8003 Ionia.Parallel_Safety <> n:22 var
+binder 7988:7989 <> l2:24
+R8017:8020 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8012:8014 Ionia.finType <> fin def
+R8016:8016 Ionia.Parallel_Safety <> n:22 var
+R8021:8024 Ionia.Proof_CodeGen <> comm def
+binder 8008:8008 <> p:25
+binder 8027:8029 <> rho:26
+R8062:8064 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8034:8044 Ionia.Parallel_Safety <> seqfor_list def
+R8059:8061 Ionia.Parallel_Safety <> rho:26 var
+R8057:8057 Ionia.Parallel_Safety <> p:25 var
+R8049:8052 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8047:8048 Ionia.Parallel_Safety <> l1:23 var
+R8053:8054 Ionia.Parallel_Safety <> l2:24 var
+R8065:8075 Ionia.Parallel_Safety <> seqfor_list def
+R8083:8093 Ionia.Parallel_Safety <> seqfor_list def
+R8100:8102 Ionia.Parallel_Safety <> rho:26 var
+R8098:8098 Ionia.Parallel_Safety <> p:25 var
+R8095:8096 Ionia.Parallel_Safety <> l1:23 var
+R8080:8080 Ionia.Parallel_Safety <> p:25 var
+R8077:8078 Ionia.Parallel_Safety <> l2:24 var
+R8208:8210 Ionia.Proof_CodeGen <> seq def
+prf 8242:8256 <> seqfor_list_map
+binder 8267:8267 <> m:27
+binder 8269:8269 <> n:28
+R8276:8279 Corelib.Init.Datatypes <> list ind
+R8282:8284 Ionia.finType <> fin def
+R8286:8286 Ionia.Parallel_Safety <> m:27 var
+binder 8272:8272 <> l:29
+R8311:8314 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8306:8308 Ionia.finType <> fin def
+R8310:8310 Ionia.Parallel_Safety <> m:27 var
+R8315:8317 Ionia.finType <> fin def
+R8319:8319 Ionia.Parallel_Safety <> n:28 var
+binder 8301:8302 <> σ:30
+R8332:8335 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8327:8329 Ionia.finType <> fin def
+R8331:8331 Ionia.Parallel_Safety <> n:28 var
+R8336:8339 Ionia.Proof_CodeGen <> comm def
+binder 8323:8323 <> p:31
+binder 8342:8344 <> rho:32
+R8377:8379 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8349:8359 Ionia.Parallel_Safety <> seqfor_list def
+R8374:8376 Ionia.Parallel_Safety <> rho:32 var
+R8372:8372 Ionia.Parallel_Safety <> p:31 var
+R8362:8364 Corelib.Lists.ListDef <> map def
+R8369:8369 Ionia.Parallel_Safety <> l:29 var
+R8366:8367 Ionia.Parallel_Safety <> σ:30 var
+R8380:8390 Ionia.Parallel_Safety <> seqfor_list def
+R8414:8416 Ionia.Parallel_Safety <> rho:32 var
+binder 8399:8399 <> i:33
+R8404:8404 Ionia.Parallel_Safety <> p:31 var
+R8407:8408 Ionia.Parallel_Safety <> σ:30 var
+R8410:8410 Ionia.Parallel_Safety <> i:33 var
+R8392:8392 Ionia.Parallel_Safety <> l:29 var
+R8520:8522 Ionia.Proof_CodeGen <> seq def
+prf 8554:8568 <> seqfor_fin_enum
+binder 8579:8579 <> n:34
+R8591:8594 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8586:8588 Ionia.finType <> fin def
+R8590:8590 Ionia.Parallel_Safety <> n:34 var
+R8595:8598 Ionia.Proof_CodeGen <> comm def
+binder 8582:8582 <> p:35
+binder 8601:8603 <> rho:36
+R8620:8622 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8608:8613 Ionia.Proof_CodeGen <> seqfor def
+R8617:8619 Ionia.Parallel_Safety <> rho:36 var
+R8615:8615 Ionia.Parallel_Safety <> p:35 var
+R8623:8633 Ionia.Parallel_Safety <> seqfor_list def
+R8650:8652 Ionia.Parallel_Safety <> rho:36 var
+R8648:8648 Ionia.Parallel_Safety <> p:35 var
+R8636:8643 Ionia.Parallel_Safety <> fin_enum def
+R8645:8645 Ionia.Parallel_Safety <> n:34 var
+R8732:8740 Ionia.Proof_CodeGen <> seqfor_Sn thm
+R8750:8752 Ionia.Proof_CodeGen <> seq def
+R8772:8779 Ionia.Parallel_Safety <> fin_enum def
+R8782:8782 Corelib.Init.Datatypes <> S constr
+R8819:8823 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8836:8836 Corelib.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8794:8796 Corelib.Lists.ListDef <> map def
+R8808:8815 Ionia.Parallel_Safety <> fin_enum def
+R8798:8805 Ionia.finType <> fin2finS def
+R8829:8832 Corelib.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8824:8826 Ionia.finType <> ltS def
+R8833:8835 Corelib.Init.Datatypes <> nil constr
+R8852:8866 Ionia.Parallel_Safety <> seqfor_list_app thm
+R8881:8895 Ionia.Parallel_Safety <> seqfor_list_map thm
+binder 8923:8923 <> i:37
+R8930:8932 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R8934:8934 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R8933:8933 Ionia.Parallel_Safety <> i:37 var
+binder 8923:8923 <> i:38
+R8933:8933 Ionia.Parallel_Safety <> i:38 var
+binder 8923:8923 <> i:39
+R8933:8933 Ionia.Parallel_Safety <> i:39 var
+prf 9453:9468 <> seqfor_list_perm
+binder 9479:9479 <> n:40
+R9491:9494 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9486:9488 Ionia.finType <> fin def
+R9490:9490 Ionia.Parallel_Safety <> n:40 var
+R9495:9498 Ionia.Proof_CodeGen <> comm def
+binder 9482:9482 <> p:41
+R9521:9526 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9504:9518 Ionia.Parallel_Safety <> non_interfering def
+R9520:9520 Ionia.Parallel_Safety <> p:41 var
+binder 9534:9534 <> l:42
+binder 9536:9537 <> l':43
+R9556:9561 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9540:9550 Stdlib.Sorting.Permutation <> Permutation ind
+R9554:9555 Ionia.Parallel_Safety <> l':43 var
+R9552:9552 Ionia.Parallel_Safety <> l:42 var
+binder 9569:9571 <> rho:44
+R9593:9595 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9574:9584 Ionia.Parallel_Safety <> seqfor_list def
+R9590:9592 Ionia.Parallel_Safety <> rho:44 var
+R9588:9588 Ionia.Parallel_Safety <> p:41 var
+R9586:9586 Ionia.Parallel_Safety <> l:42 var
+R9596:9606 Ionia.Parallel_Safety <> seqfor_list def
+R9613:9615 Ionia.Parallel_Safety <> rho:44 var
+R9611:9611 Ionia.Parallel_Safety <> p:41 var
+R9608:9609 Ionia.Parallel_Safety <> l':43 var
+R9720:9722 Ionia.Proof_CodeGen <> seq def
+R9780:9782 Ionia.Proof_CodeGen <> seq def
+R9806:9815 Ionia.finType <> fin_eq_dec def
+prf 10121:10144 <> map_fin_enum_permutation
+binder 10155:10155 <> n:45
+R10168:10171 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10163:10165 Ionia.finType <> fin def
+R10167:10167 Ionia.Parallel_Safety <> n:45 var
+R10172:10174 Ionia.finType <> fin def
+R10176:10176 Ionia.Parallel_Safety <> n:45 var
+binder 10158:10159 <> σ:46
+R10182:10182 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10215:10221 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 10190:10190 <> i:47
+binder 10192:10192 <> j:48
+R10206:10209 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10199:10201 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10195:10196 Ionia.Parallel_Safety <> σ:46 var
+R10198:10198 Ionia.Parallel_Safety <> i:47 var
+R10202:10203 Ionia.Parallel_Safety <> σ:46 var
+R10205:10205 Ionia.Parallel_Safety <> j:48 var
+R10211:10213 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10210:10210 Ionia.Parallel_Safety <> i:47 var
+R10214:10214 Ionia.Parallel_Safety <> j:48 var
+R10222:10232 Stdlib.Sorting.Permutation <> Permutation ind
+R10257:10264 Ionia.Parallel_Safety <> fin_enum def
+R10266:10266 Ionia.Parallel_Safety <> n:45 var
+R10235:10237 Corelib.Lists.ListDef <> map def
+R10243:10250 Ionia.Parallel_Safety <> fin_enum def
+R10252:10252 Ionia.Parallel_Safety <> n:45 var
+R10239:10240 Ionia.Parallel_Safety <> σ:46 var
+R10305:10321 Stdlib.Sorting.Permutation <> NoDup_Permutation thm
+R10334:10352 Stdlib.Lists.Finite <> Injective_map_NoDup thm
+R10385:10398 Ionia.Parallel_Safety <> fin_enum_NoDup thm
+R10411:10424 Ionia.Parallel_Safety <> fin_enum_NoDup thm
+R10470:10480 Ionia.Parallel_Safety <> fin_enum_In thm
+R10521:10524 Stdlib.Lists.List <> incl def
+R10540:10542 Corelib.Lists.ListDef <> map def
+R10548:10555 Ionia.Parallel_Safety <> fin_enum def
+R10527:10534 Ionia.Parallel_Safety <> fin_enum def
+R10577:10593 Stdlib.Lists.List <> NoDup_length_incl thm
+R10612:10630 Stdlib.Lists.Finite <> Injective_map_NoDup thm
+R10645:10658 Ionia.Parallel_Safety <> fin_enum_NoDup thm
+R10679:10688 Stdlib.Lists.List <> length_map thm
+R10691:10705 Ionia.Parallel_Safety <> fin_enum_length thm
+R10714:10717 Corelib.Init.Peano <> le_n constr
+R10748:10758 Ionia.Parallel_Safety <> fin_enum_In thm
+R10788:10798 Ionia.Parallel_Safety <> fin_enum_In thm
+prf 10942:10952 <> seqfor_perm
+binder 10963:10963 <> n:49
+R10975:10978 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10970:10972 Ionia.finType <> fin def
+R10974:10974 Ionia.Parallel_Safety <> n:49 var
+R10979:10982 Ionia.Proof_CodeGen <> comm def
+binder 10966:10966 <> p:50
+R10996:10999 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10991:10993 Ionia.finType <> fin def
+R10995:10995 Ionia.Parallel_Safety <> n:49 var
+R11000:11002 Ionia.finType <> fin def
+R11004:11004 Ionia.Parallel_Safety <> n:49 var
+binder 10986:10987 <> σ:51
+R11027:11032 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11010:11024 Ionia.Parallel_Safety <> non_interfering def
+R11026:11026 Ionia.Parallel_Safety <> p:50 var
+R11033:11033 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11066:11072 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 11041:11041 <> i:52
+binder 11043:11043 <> j:53
+R11057:11060 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11050:11052 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11046:11047 Ionia.Parallel_Safety <> σ:51 var
+R11049:11049 Ionia.Parallel_Safety <> i:52 var
+R11053:11054 Ionia.Parallel_Safety <> σ:51 var
+R11056:11056 Ionia.Parallel_Safety <> j:53 var
+R11062:11064 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11061:11061 Ionia.Parallel_Safety <> i:52 var
+R11065:11065 Ionia.Parallel_Safety <> j:53 var
+binder 11080:11082 <> rho:54
+R11115:11117 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11085:11090 Ionia.Proof_CodeGen <> seqfor def
+R11112:11114 Ionia.Parallel_Safety <> rho:54 var
+binder 11097:11097 <> i:55
+R11102:11102 Ionia.Parallel_Safety <> p:50 var
+R11105:11106 Ionia.Parallel_Safety <> σ:51 var
+R11108:11108 Ionia.Parallel_Safety <> i:55 var
+R11118:11123 Ionia.Proof_CodeGen <> seqfor def
+R11127:11129 Ionia.Parallel_Safety <> rho:54 var
+R11125:11125 Ionia.Parallel_Safety <> p:50 var
+R11180:11194 Ionia.Parallel_Safety <> seqfor_fin_enum thm
+binder 11203:11203 <> i:56
+R11214:11214 Ionia.Parallel_Safety <> i:56 var
+binder 11203:11203 <> i:57
+R11214:11214 Ionia.Parallel_Safety <> i:57 var
+binder 11203:11203 <> i:58
+R11214:11214 Ionia.Parallel_Safety <> i:58 var
+R11235:11249 Ionia.Parallel_Safety <> seqfor_fin_enum thm
+R11275:11289 Ionia.Parallel_Safety <> seqfor_list_map thm
+R11296:11303 Ionia.Parallel_Safety <> fin_enum def
+R11327:11342 Ionia.Parallel_Safety <> seqfor_list_perm thm
+R11359:11382 Ionia.Parallel_Safety <> map_fin_enum_permutation thm
+prf 11680:11692 <> schedule_safe
+binder 11703:11703 <> n:59
+R11715:11718 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11710:11712 Ionia.finType <> fin def
+R11714:11714 Ionia.Parallel_Safety <> n:59 var
+R11719:11722 Ionia.Proof_CodeGen <> comm def
+binder 11706:11706 <> p:60
+R11730:11733 Corelib.Init.Datatypes <> list ind
+R11736:11738 Ionia.finType <> fin def
+R11740:11740 Ionia.Parallel_Safety <> n:59 var
+binder 11726:11726 <> l:61
+R11764:11769 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11747:11761 Ionia.Parallel_Safety <> non_interfering def
+R11763:11763 Ionia.Parallel_Safety <> p:60 var
+R11796:11801 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11770:11780 Stdlib.Sorting.Permutation <> Permutation ind
+R11785:11792 Ionia.Parallel_Safety <> fin_enum def
+R11794:11794 Ionia.Parallel_Safety <> n:59 var
+R11782:11782 Ionia.Parallel_Safety <> l:61 var
+binder 11809:11811 <> rho:62
+R11833:11835 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11814:11824 Ionia.Parallel_Safety <> seqfor_list def
+R11830:11832 Ionia.Parallel_Safety <> rho:62 var
+R11828:11828 Ionia.Parallel_Safety <> p:60 var
+R11826:11826 Ionia.Parallel_Safety <> l:61 var
+R11836:11841 Ionia.Proof_CodeGen <> seqfor def
+R11845:11847 Ionia.Parallel_Safety <> rho:62 var
+R11843:11843 Ionia.Parallel_Safety <> p:60 var
+R11898:11913 Ionia.Parallel_Safety <> seqfor_list_perm thm
+R11926:11933 Ionia.Parallel_Safety <> fin_enum def
+R11968:11982 Ionia.Parallel_Safety <> seqfor_fin_enum thm
+def 12320:12331 <> acc_disjoint
+R12340:12343 Ionia.DataExp <> data ind
+binder 12334:12335 <> d1:63
+binder 12337:12338 <> d2:64
+R12352:12354 Ionia.Proof_CodeGen <> acc def
+R12356:12357 Ionia.Parallel_Safety <> d1:63 var
+binder 12347:12348 <> a1:65
+R12366:12368 Ionia.Proof_CodeGen <> acc def
+R12370:12371 Ionia.Parallel_Safety <> d2:64 var
+binder 12361:12362 <> a2:66
+binder 12393:12393 <> p:67
+binder 12395:12395 <> q:68
+R12409:12412 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12398:12403 Ionia.Proof_CodeGen <> in_acc def
+R12407:12408 Ionia.Parallel_Safety <> a1:65 var
+R12405:12405 Ionia.Parallel_Safety <> p:67 var
+R12424:12427 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12413:12418 Ionia.Proof_CodeGen <> in_acc def
+R12422:12423 Ionia.Parallel_Safety <> a2:66 var
+R12420:12420 Ionia.Parallel_Safety <> q:68 var
+R12429:12432 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R12428:12428 Ionia.Parallel_Safety <> p:67 var
+R12433:12433 Ionia.Parallel_Safety <> q:68 var
+prf 12443:12452 <> in_acc_idx
+R12466:12468 Corelib.Init.Datatypes <> nat ind
+binder 12464:12464 <> n:69
+R12474:12476 Ionia.finType <> fle def
+R12478:12478 Ionia.Parallel_Safety <> n:69 var
+binder 12472:12472 <> m:70
+R12484:12487 Ionia.DataExp <> data ind
+binder 12482:12482 <> d:71
+R12499:12501 Ionia.Proof_CodeGen <> acc def
+R12505:12507 Ionia.DataExp <> ary constr
+R12509:12509 Ionia.Parallel_Safety <> n:69 var
+R12511:12511 Ionia.Parallel_Safety <> m:70 var
+R12513:12513 Ionia.Parallel_Safety <> d:71 var
+binder 12495:12495 <> a:72
+R12522:12524 Ionia.finType <> fin def
+R12527:12533 Ionia.finType <> fle2nat def
+R12535:12535 Ionia.Parallel_Safety <> m:70 var
+binder 12518:12518 <> i:73
+binder 12539:12539 <> p:74
+R12560:12563 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12544:12549 Ionia.Proof_CodeGen <> in_acc def
+R12555:12556 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R12558:12558 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R12554:12554 Ionia.Parallel_Safety <> a:72 var
+R12557:12557 Ionia.Parallel_Safety <> i:73 var
+R12551:12551 Ionia.Parallel_Safety <> p:74 var
+R12564:12569 Ionia.Proof_CodeGen <> in_acc def
+R12573:12573 Ionia.Parallel_Safety <> a:72 var
+R12571:12571 Ionia.Parallel_Safety <> p:74 var
+R12616:12623 Corelib.Init.Logic <> ex_intro constr
+binder 12630:12631 <> i0:75
+R12636:12641 Ionia.Proof_CodeGen <> in_acc def
+R12647:12648 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R12651:12651 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R12649:12650 Ionia.Parallel_Safety <> i0:75 var
+binder 12630:12631 <> i0:76
+R12649:12650 Ionia.Parallel_Safety <> i0:76 var
+prf 12987:13009 <> assign_disjoint_commute
+binder 13020:13021 <> d1:77
+binder 13023:13024 <> d2:78
+R13032:13034 Ionia.Proof_CodeGen <> acc def
+R13036:13037 Ionia.Parallel_Safety <> d1:77 var
+binder 13027:13028 <> a1:79
+R13046:13048 Ionia.Proof_CodeGen <> acc def
+R13050:13051 Ionia.Parallel_Safety <> d2:78 var
+binder 13041:13042 <> a2:80
+R13064:13066 Ionia.Proof_CodeGen <> exp def
+R13068:13069 Ionia.Parallel_Safety <> d1:77 var
+binder 13059:13060 <> e1:81
+R13078:13080 Ionia.Proof_CodeGen <> exp def
+R13082:13083 Ionia.Parallel_Safety <> d2:78 var
+binder 13073:13074 <> e2:82
+binder 13086:13088 <> rho:83
+R13111:13116 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13093:13104 Ionia.Parallel_Safety <> acc_disjoint def
+R13109:13110 Ionia.Parallel_Safety <> a2:80 var
+R13106:13107 Ionia.Parallel_Safety <> a1:79 var
+R13148:13150 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13117:13122 Ionia.Proof_CodeGen <> assign def
+R13131:13136 Ionia.Proof_CodeGen <> assign def
+R13144:13146 Ionia.Parallel_Safety <> rho:83 var
+R13141:13142 Ionia.Parallel_Safety <> e1:81 var
+R13138:13139 Ionia.Parallel_Safety <> a1:79 var
+R13127:13128 Ionia.Parallel_Safety <> e2:82 var
+R13124:13125 Ionia.Parallel_Safety <> a2:80 var
+R13151:13156 Ionia.Proof_CodeGen <> assign def
+R13165:13170 Ionia.Proof_CodeGen <> assign def
+R13178:13180 Ionia.Parallel_Safety <> rho:83 var
+R13175:13176 Ionia.Parallel_Safety <> e2:82 var
+R13172:13173 Ionia.Parallel_Safety <> a2:80 var
+R13161:13162 Ionia.Parallel_Safety <> e1:81 var
+R13158:13159 Ionia.Parallel_Safety <> a1:79 var
+R13435:13448 Ionia.Proof_CodeGen <> update_permute thm
+R13570:13579 Ionia.Proof_CodeGen <> assign_ary thm
+R13598:13611 Ionia.Proof_CodeGen <> seqfor_commute thm
+R13715:13724 Ionia.Parallel_Safety <> in_acc_idx thm
+R13857:13866 Ionia.Proof_CodeGen <> assign_ary thm
+R13875:13888 Ionia.Proof_CodeGen <> seqfor_commute thm
+R13979:13988 Ionia.Parallel_Safety <> in_acc_idx thm
+prf 14168:14176 <> ni_assign
+binder 14187:14187 <> n:84
+binder 14189:14189 <> d:85
+R14201:14204 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14196:14198 Ionia.finType <> fin def
+R14200:14200 Ionia.Parallel_Safety <> n:84 var
+R14205:14207 Ionia.Proof_CodeGen <> acc def
+R14209:14209 Ionia.Parallel_Safety <> d:85 var
+binder 14192:14192 <> g:86
+R14222:14225 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14217:14219 Ionia.finType <> fin def
+R14221:14221 Ionia.Parallel_Safety <> n:84 var
+R14226:14228 Ionia.Proof_CodeGen <> exp def
+R14230:14230 Ionia.Parallel_Safety <> d:85 var
+binder 14213:14213 <> f:87
+R14236:14236 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14283:14289 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 14244:14244 <> i:88
+binder 14246:14246 <> j:89
+R14255:14258 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14250:14253 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R14249:14249 Ionia.Parallel_Safety <> i:88 var
+R14254:14254 Ionia.Parallel_Safety <> j:89 var
+R14259:14270 Ionia.Parallel_Safety <> acc_disjoint def
+R14279:14279 Ionia.Parallel_Safety <> g:86 var
+R14281:14281 Ionia.Parallel_Safety <> j:89 var
+R14273:14273 Ionia.Parallel_Safety <> g:86 var
+R14275:14275 Ionia.Parallel_Safety <> i:88 var
+R14290:14304 Ionia.Parallel_Safety <> non_interfering def
+binder 14311:14311 <> i:90
+R14316:14321 Ionia.Proof_CodeGen <> assign def
+R14330:14330 Ionia.Parallel_Safety <> f:87 var
+R14332:14332 Ionia.Parallel_Safety <> i:90 var
+R14324:14324 Ionia.Parallel_Safety <> g:86 var
+R14326:14326 Ionia.Parallel_Safety <> i:90 var
+R14388:14410 Ionia.Parallel_Safety <> assign_disjoint_commute thm
+def 14727:14735 <> path_size
+R14742:14745 Ionia.DataExp <> path ind
+binder 14738:14738 <> p:91
+R14750:14752 Corelib.Init.Datatypes <> nat ind
+R14765:14765 Ionia.Parallel_Safety <> p:91 var
+R14776:14778 Ionia.DataExp <> Var constr
+R14791:14796 Ionia.DataExp <> AryIdx constr
+R14805:14805 Corelib.Init.Datatypes <> S constr
+R14808:14816 Ionia.Parallel_Safety <> path_size:92 def
+ind 15038:15042 <> wraps
+constr 15077:15086 <> wraps_refl
+constr 15104:15113 <> wraps_cons
+R15049:15052 Ionia.DataExp <> path ind
+binder 15045:15045 <> a:94
+R15061:15064 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15057:15060 Ionia.DataExp <> path ind
+R15090:15094 Ionia.Parallel_Safety <> wraps:95 ind
+R15098:15098 Ionia.Parallel_Safety <> a:94 var
+R15096:15096 Ionia.Parallel_Safety <> a:94 var
+R15127:15129 Corelib.Init.Datatypes <> nat ind
+binder 15125:15125 <> n:97
+R15135:15137 Ionia.finType <> fin def
+R15139:15139 Ionia.Parallel_Safety <> n:97 var
+binder 15133:15133 <> i:98
+R15145:15148 Ionia.DataExp <> path ind
+binder 15143:15143 <> q:99
+R15167:15170 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15158:15162 Ionia.Parallel_Safety <> wraps:95 ind
+R15166:15166 Ionia.Parallel_Safety <> q:99 var
+R15164:15164 Ionia.Parallel_Safety <> a:94 var
+R15171:15175 Ionia.Parallel_Safety <> wraps:95 ind
+R15181:15186 Ionia.DataExp <> AryIdx constr
+R15188:15188 Ionia.Parallel_Safety <> n:97 var
+R15190:15190 Ionia.Parallel_Safety <> i:98 var
+R15192:15192 Ionia.Parallel_Safety <> q:99 var
+R15177:15177 Ionia.Parallel_Safety <> a:94 var
+scheme 15038:15042 <> wraps_ind
+scheme 15038:15042 <> wraps_sind
+prf 15203:15213 <> wraps_trans
+binder 15224:15224 <> a:100
+binder 15226:15226 <> b:101
+R15238:15241 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15229:15233 Ionia.Parallel_Safety <> wraps ind
+R15235:15235 Ionia.Parallel_Safety <> a:100 var
+R15237:15237 Ionia.Parallel_Safety <> b:101 var
+binder 15249:15249 <> c:102
+R15261:15264 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15252:15256 Ionia.Parallel_Safety <> wraps ind
+R15258:15258 Ionia.Parallel_Safety <> b:101 var
+R15260:15260 Ionia.Parallel_Safety <> c:102 var
+R15265:15269 Ionia.Parallel_Safety <> wraps ind
+R15271:15271 Ionia.Parallel_Safety <> a:100 var
+R15273:15273 Ionia.Parallel_Safety <> c:102 var
+prf 15357:15366 <> wraps_size
+binder 15377:15377 <> a:103
+binder 15379:15379 <> b:104
+R15391:15394 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15382:15386 Ionia.Parallel_Safety <> wraps ind
+R15388:15388 Ionia.Parallel_Safety <> a:103 var
+R15390:15390 Ionia.Parallel_Safety <> b:104 var
+R15406:15409 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R15395:15403 Ionia.Parallel_Safety <> path_size def
+R15405:15405 Ionia.Parallel_Safety <> a:103 var
+R15410:15418 Ionia.Parallel_Safety <> path_size def
+R15420:15420 Ionia.Parallel_Safety <> b:104 var
+prf 15483:15495 <> wraps_size_eq
+binder 15506:15506 <> a:105
+binder 15508:15508 <> b:106
+R15520:15523 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15511:15515 Ionia.Parallel_Safety <> wraps ind
+R15517:15517 Ionia.Parallel_Safety <> a:105 var
+R15519:15519 Ionia.Parallel_Safety <> b:106 var
+R15549:15552 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15535:15537 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15524:15532 Ionia.Parallel_Safety <> path_size def
+R15534:15534 Ionia.Parallel_Safety <> a:105 var
+R15538:15546 Ionia.Parallel_Safety <> path_size def
+R15548:15548 Ionia.Parallel_Safety <> b:106 var
+R15554:15556 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15553:15553 Ionia.Parallel_Safety <> a:105 var
+R15557:15557 Ionia.Parallel_Safety <> b:106 var
+R15639:15648 Ionia.Parallel_Safety <> wraps_size thm
+prf 15754:15769 <> wraps_comparable
+binder 15780:15780 <> a:107
+binder 15782:15782 <> p:108
+R15794:15799 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15785:15789 Ionia.Parallel_Safety <> wraps ind
+R15791:15791 Ionia.Parallel_Safety <> a:107 var
+R15793:15793 Ionia.Parallel_Safety <> p:108 var
+binder 15807:15807 <> b:109
+R15819:15822 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15810:15814 Ionia.Parallel_Safety <> wraps ind
+R15816:15816 Ionia.Parallel_Safety <> b:109 var
+R15818:15818 Ionia.Parallel_Safety <> p:108 var
+R15832:15835 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R15823:15827 Ionia.Parallel_Safety <> wraps ind
+R15829:15829 Ionia.Parallel_Safety <> a:107 var
+R15831:15831 Ionia.Parallel_Safety <> b:109 var
+R15836:15840 Ionia.Parallel_Safety <> wraps ind
+R15842:15842 Ionia.Parallel_Safety <> b:109 var
+R15844:15844 Ionia.Parallel_Safety <> a:107 var
+R15986:15995 Ionia.Parallel_Safety <> wraps_cons constr
+prf 16113:16127 <> acc'_leaf_wraps
+binder 16138:16138 <> d:110
+R16146:16149 Ionia.DataExp <> path ind
+binder 16141:16142 <> pa:111
+binder 16152:16152 <> p:112
+R16178:16181 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16157:16162 Ionia.Proof_CodeGen <> in_acc def
+R16168:16171 Ionia.Proof_CodeGen <> acc' def
+R16173:16173 Ionia.Parallel_Safety <> d:110 var
+R16175:16176 Ionia.Parallel_Safety <> pa:111 var
+R16164:16164 Ionia.Parallel_Safety <> p:112 var
+R16182:16186 Ionia.Parallel_Safety <> wraps ind
+R16188:16189 Ionia.Parallel_Safety <> pa:111 var
+R16191:16191 Ionia.Parallel_Safety <> p:112 var
+R16267:16269 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16332:16338 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R16340:16341 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 16339:16339 <> i:113
+R16342:16347 Ionia.Proof_CodeGen <> in_acc def
+R16352:16352 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R16374:16376 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R16378:16378 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R16354:16357 Ionia.Proof_CodeGen <> acc' def
+R16361:16363 Ionia.DataExp <> ary constr
+R16377:16377 Ionia.Parallel_Safety <> i:113 var
+binder 16339:16339 <> i:114
+R16377:16377 Ionia.Parallel_Safety <> i:114 var
+R16474:16476 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16447:16447 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R16469:16471 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R16473:16473 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R16449:16452 Ionia.Proof_CodeGen <> acc' def
+R16456:16458 Ionia.DataExp <> ary constr
+R16478:16481 Ionia.Proof_CodeGen <> acc' def
+R16486:16491 Ionia.DataExp <> AryIdx constr
+R16514:16519 Ionia.Proof_CodeGen <> idxAcc def
+R16537:16548 Ionia.vector <> v_idx_mk_vec thm
+R16627:16637 Ionia.Parallel_Safety <> wraps_trans thm
+R16666:16675 Ionia.Parallel_Safety <> wraps_cons constr
+prf 16958:16977 <> acc'_AryIdx_disjoint
+binder 16988:16989 <> d1:115
+binder 16991:16992 <> d2:116
+binder 16994:16994 <> n:117
+R17003:17005 Ionia.finType <> fin def
+R17007:17007 Ionia.Parallel_Safety <> n:117 var
+binder 16997:16997 <> i:118
+binder 16999:16999 <> j:119
+R17015:17018 Ionia.DataExp <> path ind
+binder 17011:17011 <> a:120
+R17030:17035 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17025:17028 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R17024:17024 Ionia.Parallel_Safety <> i:118 var
+R17029:17029 Ionia.Parallel_Safety <> j:119 var
+R17036:17047 Ionia.Parallel_Safety <> acc_disjoint def
+R17078:17081 Ionia.Proof_CodeGen <> acc' def
+R17083:17084 Ionia.Parallel_Safety <> d2:116 var
+R17088:17093 Ionia.DataExp <> AryIdx constr
+R17095:17095 Ionia.Parallel_Safety <> n:117 var
+R17097:17097 Ionia.Parallel_Safety <> j:119 var
+R17099:17099 Ionia.Parallel_Safety <> a:120 var
+R17051:17054 Ionia.Proof_CodeGen <> acc' def
+R17056:17057 Ionia.Parallel_Safety <> d1:115 var
+R17061:17066 Ionia.DataExp <> AryIdx constr
+R17068:17068 Ionia.Parallel_Safety <> n:117 var
+R17070:17070 Ionia.Parallel_Safety <> i:118 var
+R17072:17072 Ionia.Parallel_Safety <> a:120 var
+R17161:17175 Ionia.Parallel_Safety <> acc'_leaf_wraps thm
+R17190:17204 Ionia.Parallel_Safety <> acc'_leaf_wraps thm
+R17236:17251 Ionia.Parallel_Safety <> wraps_comparable thm
+R17286:17298 Ionia.Parallel_Safety <> wraps_size_eq thm
+R17341:17349 Ionia.DataExp <> AryIdx_eq thm
+R17406:17416 Ionia.finType <> fin2nat_inj thm
+R17441:17453 Ionia.Parallel_Safety <> wraps_size_eq thm
+R17496:17504 Ionia.DataExp <> AryIdx_eq thm
+R17561:17571 Ionia.finType <> fin2nat_inj thm
+prf 17708:17720 <> ni_assign_mkv
+binder 17731:17731 <> n:121
+binder 17733:17733 <> d:122
+R17740:17743 Ionia.DataExp <> path ind
+binder 17736:17736 <> a:123
+R17756:17759 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17751:17753 Ionia.finType <> fin def
+R17755:17755 Ionia.Parallel_Safety <> n:121 var
+R17760:17762 Ionia.Proof_CodeGen <> exp def
+R17764:17764 Ionia.Parallel_Safety <> d:122 var
+binder 17747:17747 <> f:124
+R17770:17784 Ionia.Parallel_Safety <> non_interfering def
+binder 17791:17791 <> i:125
+R17797:17802 Ionia.Proof_CodeGen <> assign def
+R17804:17804 Ionia.Parallel_Safety <> d:122 var
+R17807:17807 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R17828:17830 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R17832:17832 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R17809:17812 Ionia.Proof_CodeGen <> acc' def
+R17815:17817 Ionia.DataExp <> ary constr
+R17824:17824 Ionia.Parallel_Safety <> d:122 var
+R17819:17820 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R17822:17822 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R17821:17821 Ionia.Parallel_Safety <> n:121 var
+R17827:17827 Ionia.Parallel_Safety <> a:123 var
+R17831:17831 Ionia.Parallel_Safety <> i:125 var
+R17836:17836 Ionia.Parallel_Safety <> f:124 var
+R17838:17838 Ionia.Parallel_Safety <> i:125 var
+binder 17905:17905 <> k:126
+R17934:17936 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17908:17908 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R17929:17931 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R17933:17933 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R17910:17913 Ionia.Proof_CodeGen <> acc' def
+R17916:17918 Ionia.DataExp <> ary constr
+R17920:17921 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R17923:17923 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R17932:17932 Ionia.Parallel_Safety <> k:126 var
+R17938:17941 Ionia.Proof_CodeGen <> acc' def
+R17947:17952 Ionia.DataExp <> AryIdx constr
+R17956:17956 Ionia.Parallel_Safety <> k:126 var
+binder 17905:17905 <> k:127
+R17932:17932 Ionia.Parallel_Safety <> k:127 var
+R17956:17956 Ionia.Parallel_Safety <> k:127 var
+R17983:17988 Ionia.Proof_CodeGen <> idxAcc def
+R18006:18017 Ionia.vector <> v_idx_mk_vec thm
+R18061:18083 Ionia.Parallel_Safety <> assign_disjoint_commute thm
+R18094:18113 Ionia.Parallel_Safety <> acc'_AryIdx_disjoint thm
+prf 18601:18613 <> parallel_safe
+binder 18624:18624 <> n:128
+binder 18626:18626 <> d:129
+R18638:18641 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18633:18635 Ionia.finType <> fin def
+R18637:18637 Ionia.Parallel_Safety <> n:128 var
+R18647:18650 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18642:18644 Ionia.Proof_CodeGen <> acc def
+R18646:18646 Ionia.Parallel_Safety <> d:129 var
+R18651:18654 Ionia.Proof_CodeGen <> comm def
+binder 18629:18629 <> f:130
+R18668:18670 Ionia.Proof_CodeGen <> acc def
+R18673:18675 Ionia.DataExp <> ary constr
+R18682:18682 Ionia.Parallel_Safety <> d:129 var
+R18677:18678 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18680:18680 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18679:18679 Ionia.Parallel_Safety <> n:128 var
+binder 18662:18664 <> out:131
+R18729:18734 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18689:18703 Ionia.Parallel_Safety <> non_interfering def
+binder 18710:18710 <> i:132
+R18715:18715 Ionia.Parallel_Safety <> f:130 var
+R18723:18724 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R18726:18726 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R18720:18722 Ionia.Parallel_Safety <> out:131 var
+R18725:18725 Ionia.Parallel_Safety <> i:132 var
+R18717:18717 Ionia.Parallel_Safety <> i:132 var
+R18735:18735 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R18765:18771 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R18749:18751 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18736:18742 Ionia.DPIA_Rules <> mkvParl def
+R18746:18748 Ionia.Parallel_Safety <> out:131 var
+R18744:18744 Ionia.Parallel_Safety <> f:130 var
+R18752:18758 Ionia.DPIA_Rules <> mkvSeql def
+R18762:18764 Ionia.Parallel_Safety <> out:131 var
+R18760:18760 Ionia.Parallel_Safety <> f:130 var
+R18772:18772 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R18920:18927 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R19063:19063 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R18790:18793 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18785:18787 Ionia.finType <> fin def
+R18789:18789 Ionia.Parallel_Safety <> n:128 var
+R18794:18796 Ionia.finType <> fin def
+R18798:18798 Ionia.Parallel_Safety <> n:128 var
+binder 18780:18781 <> σ:133
+R18801:18801 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18834:18844 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 18809:18809 <> i:134
+binder 18811:18811 <> j:135
+R18825:18828 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18818:18820 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18814:18815 Ionia.Parallel_Safety <> σ:133 var
+R18817:18817 Ionia.Parallel_Safety <> i:134 var
+R18821:18822 Ionia.Parallel_Safety <> σ:133 var
+R18824:18824 Ionia.Parallel_Safety <> j:135 var
+R18830:18832 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18829:18829 Ionia.Parallel_Safety <> i:134 var
+R18833:18833 Ionia.Parallel_Safety <> j:135 var
+binder 18852:18854 <> rho:136
+R18874:18876 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18857:18863 Ionia.DPIA_Rules <> mkvParl def
+R18871:18873 Ionia.Parallel_Safety <> rho:136 var
+R18867:18869 Ionia.Parallel_Safety <> out:131 var
+R18865:18865 Ionia.Parallel_Safety <> f:130 var
+R18877:18882 Ionia.Proof_CodeGen <> seqfor def
+R18917:18919 Ionia.Parallel_Safety <> rho:136 var
+binder 18889:18889 <> i:137
+R18894:18894 Ionia.Parallel_Safety <> f:130 var
+R18907:18908 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R18913:18913 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R18904:18906 Ionia.Parallel_Safety <> out:131 var
+R18909:18910 Ionia.Parallel_Safety <> σ:133 var
+R18912:18912 Ionia.Parallel_Safety <> i:137 var
+R18897:18898 Ionia.Parallel_Safety <> σ:133 var
+R18900:18900 Ionia.Parallel_Safety <> i:137 var
+R18939:18942 Corelib.Init.Datatypes <> list ind
+R18945:18947 Ionia.finType <> fin def
+R18949:18949 Ionia.Parallel_Safety <> n:128 var
+binder 18935:18935 <> l:138
+R18979:18988 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R18953:18963 Stdlib.Sorting.Permutation <> Permutation ind
+R18968:18975 Ionia.Parallel_Safety <> fin_enum def
+R18977:18977 Ionia.Parallel_Safety <> n:128 var
+R18965:18965 Ionia.Parallel_Safety <> l:138 var
+binder 18996:18998 <> rho:139
+R19018:19020 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19001:19007 Ionia.DPIA_Rules <> mkvParl def
+R19015:19017 Ionia.Parallel_Safety <> rho:139 var
+R19011:19013 Ionia.Parallel_Safety <> out:131 var
+R19009:19009 Ionia.Parallel_Safety <> f:130 var
+R19021:19031 Ionia.Parallel_Safety <> seqfor_list def
+R19060:19062 Ionia.Parallel_Safety <> rho:139 var
+binder 19040:19040 <> i:140
+R19045:19045 Ionia.Parallel_Safety <> f:130 var
+R19053:19054 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R19056:19056 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R19050:19052 Ionia.Parallel_Safety <> out:131 var
+R19055:19055 Ionia.Parallel_Safety <> i:140 var
+R19047:19047 Ionia.Parallel_Safety <> i:140 var
+R19033:19033 Ionia.Parallel_Safety <> l:138 var
+R19126:19132 Ionia.DPIA_Rules <> mkvParl def
+R19135:19141 Ionia.DPIA_Rules <> mkvSeql def
+R19150:19162 Ionia.DPIA_Rules <> parfor_seqfor thm
+R19196:19202 Ionia.DPIA_Rules <> mkvParl def
+R19213:19225 Ionia.DPIA_Rules <> parfor_seqfor thm
+R19249:19259 Ionia.Parallel_Safety <> seqfor_perm thm
+binder 19268:19268 <> i:141
+R19275:19275 Ionia.Parallel_Safety <> i:141 var
+R19281:19282 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R19284:19284 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R19283:19283 Ionia.Parallel_Safety <> i:141 var
+binder 19268:19268 <> i:142
+R19275:19275 Ionia.Parallel_Safety <> i:142 var
+R19283:19283 Ionia.Parallel_Safety <> i:142 var
+R19337:19343 Ionia.DPIA_Rules <> mkvParl def
+R19354:19366 Ionia.DPIA_Rules <> parfor_seqfor thm
+R19390:19402 Ionia.Parallel_Safety <> schedule_safe thm
+binder 19411:19411 <> i:143
+R19418:19418 Ionia.Parallel_Safety <> i:143 var
+R19424:19425 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R19427:19427 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R19426:19426 Ionia.Parallel_Safety <> i:143 var
+binder 19411:19411 <> i:144
+R19418:19418 Ionia.Parallel_Safety <> i:144 var
+R19426:19426 Ionia.Parallel_Safety <> i:144 var
+prf 19847:19861 <> parallel_safe_A
+binder 19872:19872 <> n:145
+binder 19874:19874 <> d:146
+R19886:19889 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19881:19883 Ionia.finType <> fin def
+R19885:19885 Ionia.Parallel_Safety <> n:145 var
+R19890:19892 Ionia.Proof_CodeGen <> exp def
+R19894:19894 Ionia.Parallel_Safety <> d:146 var
+binder 19877:19877 <> f:147
+R19904:19906 Ionia.Proof_CodeGen <> acc def
+R19909:19911 Ionia.DataExp <> ary constr
+R19918:19918 Ionia.Parallel_Safety <> d:146 var
+R19913:19914 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19916:19916 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19915:19915 Ionia.Parallel_Safety <> n:145 var
+binder 19898:19900 <> out:148
+R19925:19925 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19980:19986 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 19933:19933 <> i:149
+binder 19935:19935 <> j:150
+R19944:19947 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19939:19942 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R19938:19938 Ionia.Parallel_Safety <> i:149 var
+R19943:19943 Ionia.Parallel_Safety <> j:150 var
+R19948:19959 Ionia.Parallel_Safety <> acc_disjoint def
+R19975:19976 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R19978:19978 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R19972:19974 Ionia.Parallel_Safety <> out:148 var
+R19977:19977 Ionia.Parallel_Safety <> j:150 var
+R19965:19966 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R19968:19968 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R19962:19964 Ionia.Parallel_Safety <> out:148 var
+R19967:19967 Ionia.Parallel_Safety <> i:149 var
+R19987:20001 Ionia.Parallel_Safety <> non_interfering def
+binder 20008:20008 <> i:151
+R20013:20014 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20022:20023 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20027:20027 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20018:20019 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R20021:20021 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R20015:20017 Ionia.Parallel_Safety <> out:148 var
+R20020:20020 Ionia.Parallel_Safety <> i:151 var
+R20024:20024 Ionia.Parallel_Safety <> f:147 var
+R20026:20026 Ionia.Parallel_Safety <> i:151 var
+R20072:20080 Ionia.Parallel_Safety <> ni_assign thm
+prf 20185:20202 <> parallel_safe_acc'
+binder 20213:20213 <> n:152
+binder 20215:20215 <> d:153
+R20227:20230 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20222:20224 Ionia.finType <> fin def
+R20226:20226 Ionia.Parallel_Safety <> n:152 var
+R20231:20233 Ionia.Proof_CodeGen <> exp def
+R20235:20235 Ionia.Parallel_Safety <> d:153 var
+binder 20218:20218 <> f:154
+R20243:20246 Ionia.DataExp <> path ind
+binder 20239:20239 <> a:155
+R20252:20252 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R20365:20371 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R20306:20311 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20253:20259 Ionia.DPIA_Rules <> mkvParl def
+R20286:20289 Ionia.Proof_CodeGen <> acc' def
+R20292:20294 Ionia.DataExp <> ary constr
+R20301:20301 Ionia.Parallel_Safety <> d:153 var
+R20296:20297 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R20299:20299 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R20298:20298 Ionia.Parallel_Safety <> n:152 var
+R20304:20304 Ionia.Parallel_Safety <> a:155 var
+binder 20266:20266 <> i:156
+binder 20268:20268 <> o:157
+R20273:20274 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20276:20277 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20281:20281 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20275:20275 Ionia.Parallel_Safety <> o:157 var
+R20278:20278 Ionia.Parallel_Safety <> f:154 var
+R20280:20280 Ionia.Parallel_Safety <> i:156 var
+R20312:20318 Ionia.DPIA_Rules <> mkvSeql def
+R20345:20348 Ionia.Proof_CodeGen <> acc' def
+R20351:20353 Ionia.DataExp <> ary constr
+R20360:20360 Ionia.Parallel_Safety <> d:153 var
+R20355:20356 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R20358:20358 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R20357:20357 Ionia.Parallel_Safety <> n:152 var
+R20363:20363 Ionia.Parallel_Safety <> a:155 var
+binder 20325:20325 <> i:158
+binder 20327:20327 <> o:159
+R20332:20333 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20335:20336 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20340:20340 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20334:20334 Ionia.Parallel_Safety <> o:159 var
+R20337:20337 Ionia.Parallel_Safety <> f:154 var
+R20339:20339 Ionia.Parallel_Safety <> i:158 var
+R20372:20372 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R20597:20604 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R20817:20817 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R20390:20393 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20385:20387 Ionia.finType <> fin def
+R20389:20389 Ionia.Parallel_Safety <> n:152 var
+R20394:20396 Ionia.finType <> fin def
+R20398:20398 Ionia.Parallel_Safety <> n:152 var
+binder 20380:20381 <> σ:160
+R20401:20401 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20434:20444 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 20409:20409 <> i:161
+binder 20411:20411 <> j:162
+R20425:20428 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20418:20420 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20414:20415 Ionia.Parallel_Safety <> σ:160 var
+R20417:20417 Ionia.Parallel_Safety <> i:161 var
+R20421:20422 Ionia.Parallel_Safety <> σ:160 var
+R20424:20424 Ionia.Parallel_Safety <> j:162 var
+R20430:20432 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20429:20429 Ionia.Parallel_Safety <> i:161 var
+R20433:20433 Ionia.Parallel_Safety <> j:162 var
+binder 20452:20454 <> rho:163
+R20514:20532 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20457:20463 Ionia.DPIA_Rules <> mkvParl def
+R20511:20513 Ionia.Parallel_Safety <> rho:163 var
+R20490:20493 Ionia.Proof_CodeGen <> acc' def
+R20496:20498 Ionia.DataExp <> ary constr
+R20505:20505 Ionia.Parallel_Safety <> d:153 var
+R20500:20501 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R20503:20503 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R20502:20502 Ionia.Parallel_Safety <> n:152 var
+R20508:20508 Ionia.Parallel_Safety <> a:155 var
+binder 20470:20470 <> i:164
+binder 20472:20472 <> o:165
+R20477:20478 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20480:20481 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20485:20485 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20479:20479 Ionia.Parallel_Safety <> o:165 var
+R20482:20482 Ionia.Parallel_Safety <> f:154 var
+R20484:20484 Ionia.Parallel_Safety <> i:164 var
+R20533:20538 Ionia.Proof_CodeGen <> seqfor def
+R20594:20596 Ionia.Parallel_Safety <> rho:163 var
+binder 20545:20545 <> i:166
+R20550:20551 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20581:20582 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20591:20591 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20552:20552 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R20573:20575 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R20580:20580 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R20554:20557 Ionia.Proof_CodeGen <> acc' def
+R20560:20562 Ionia.DataExp <> ary constr
+R20569:20569 Ionia.Parallel_Safety <> d:153 var
+R20564:20565 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R20567:20567 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R20566:20566 Ionia.Parallel_Safety <> n:152 var
+R20572:20572 Ionia.Parallel_Safety <> a:155 var
+R20576:20577 Ionia.Parallel_Safety <> σ:160 var
+R20579:20579 Ionia.Parallel_Safety <> i:166 var
+R20583:20583 Ionia.Parallel_Safety <> f:154 var
+R20586:20587 Ionia.Parallel_Safety <> σ:160 var
+R20589:20589 Ionia.Parallel_Safety <> i:166 var
+R20616:20619 Corelib.Init.Datatypes <> list ind
+R20622:20624 Ionia.finType <> fin def
+R20626:20626 Ionia.Parallel_Safety <> n:152 var
+binder 20612:20612 <> l:167
+R20656:20665 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20630:20640 Stdlib.Sorting.Permutation <> Permutation ind
+R20645:20652 Ionia.Parallel_Safety <> fin_enum def
+R20654:20654 Ionia.Parallel_Safety <> n:152 var
+R20642:20642 Ionia.Parallel_Safety <> l:167 var
+binder 20673:20675 <> rho:168
+R20735:20753 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20678:20684 Ionia.DPIA_Rules <> mkvParl def
+R20732:20734 Ionia.Parallel_Safety <> rho:168 var
+R20711:20714 Ionia.Proof_CodeGen <> acc' def
+R20717:20719 Ionia.DataExp <> ary constr
+R20726:20726 Ionia.Parallel_Safety <> d:153 var
+R20721:20722 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R20724:20724 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R20723:20723 Ionia.Parallel_Safety <> n:152 var
+R20729:20729 Ionia.Parallel_Safety <> a:155 var
+binder 20691:20691 <> i:169
+binder 20693:20693 <> o:170
+R20698:20699 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20701:20702 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20706:20706 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20700:20700 Ionia.Parallel_Safety <> o:170 var
+R20703:20703 Ionia.Parallel_Safety <> f:154 var
+R20705:20705 Ionia.Parallel_Safety <> i:169 var
+R20754:20764 Ionia.Parallel_Safety <> seqfor_list def
+R20814:20816 Ionia.Parallel_Safety <> rho:168 var
+binder 20773:20773 <> i:171
+R20778:20779 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20806:20807 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20811:20811 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20780:20780 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R20801:20803 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R20805:20805 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R20782:20785 Ionia.Proof_CodeGen <> acc' def
+R20788:20790 Ionia.DataExp <> ary constr
+R20797:20797 Ionia.Parallel_Safety <> d:153 var
+R20792:20793 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R20795:20795 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R20794:20794 Ionia.Parallel_Safety <> n:152 var
+R20800:20800 Ionia.Parallel_Safety <> a:155 var
+R20804:20804 Ionia.Parallel_Safety <> i:171 var
+R20808:20808 Ionia.Parallel_Safety <> f:154 var
+R20810:20810 Ionia.Parallel_Safety <> i:171 var
+R20766:20766 Ionia.Parallel_Safety <> l:167 var
+R20861:20875 Ionia.Parallel_Safety <> non_interfering def
+binder 20882:20882 <> i:172
+R20887:20888 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20915:20916 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20920:20920 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20889:20889 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R20910:20912 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R20914:20914 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R20891:20894 Ionia.Proof_CodeGen <> acc' def
+R20897:20899 Ionia.DataExp <> ary constr
+R20901:20902 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R20904:20904 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R20913:20913 Ionia.Parallel_Safety <> i:172 var
+R20919:20919 Ionia.Parallel_Safety <> i:172 var
+binder 20882:20882 <> i:173
+R20913:20913 Ionia.Parallel_Safety <> i:173 var
+R20919:20919 Ionia.Parallel_Safety <> i:173 var
+R20935:20949 Ionia.Parallel_Safety <> parallel_safe_A thm
+binder 20999:20999 <> k:174
+R21028:21030 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21002:21002 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R21023:21025 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R21027:21027 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R21004:21007 Ionia.Proof_CodeGen <> acc' def
+R21010:21012 Ionia.DataExp <> ary constr
+R21014:21015 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R21017:21017 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R21026:21026 Ionia.Parallel_Safety <> k:174 var
+R21032:21035 Ionia.Proof_CodeGen <> acc' def
+R21041:21046 Ionia.DataExp <> AryIdx constr
+R21050:21050 Ionia.Parallel_Safety <> k:174 var
+binder 20999:20999 <> k:175
+R21026:21026 Ionia.Parallel_Safety <> k:175 var
+R21050:21050 Ionia.Parallel_Safety <> k:175 var
+R21079:21084 Ionia.Proof_CodeGen <> idxAcc def
+R21102:21113 Ionia.vector <> v_idx_mk_vec thm
+R21157:21176 Ionia.Parallel_Safety <> acc'_AryIdx_disjoint thm
+R21206:21218 Ionia.Parallel_Safety <> parallel_safe thm
+binder 21229:21229 <> i:176
+binder 21231:21231 <> o:177
+R21236:21237 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R21239:21240 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R21244:21244 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R21238:21238 Ionia.Parallel_Safety <> o:177 var
+R21243:21243 Ionia.Parallel_Safety <> i:176 var
+R21249:21252 Ionia.Proof_CodeGen <> acc' def
+R21255:21257 Ionia.DataExp <> ary constr
+R21259:21260 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R21262:21262 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+binder 21229:21229 <> i:178
+binder 21231:21231 <> o:179
+R21238:21238 Ionia.Parallel_Safety <> o:179 var
+R21243:21243 Ionia.Parallel_Safety <> i:178 var
+prf 21908:21923 <> ni_If_assign_num
+binder 21934:21934 <> n:180
+R21943:21945 Ionia.Proof_CodeGen <> acc def
+R21948:21950 Ionia.DataExp <> ary constr
+R21957:21959 Ionia.DataExp <> num constr
+R21952:21953 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R21955:21955 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R21954:21954 Ionia.Parallel_Safety <> n:180 var
+binder 21937:21939 <> out:181
+R21977:21980 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21972:21974 Ionia.finType <> fin def
+R21976:21976 Ionia.Parallel_Safety <> n:180 var
+R21981:21984 Corelib.Init.Datatypes <> bool ind
+binder 21968:21968 <> b:182
+R22001:22004 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21996:21998 Ionia.finType <> fin def
+R22000:22000 Ionia.Parallel_Safety <> n:180 var
+R22005:22007 Ionia.Proof_CodeGen <> exp def
+R22009:22011 Ionia.DataExp <> num constr
+binder 21988:21989 <> e1:183
+binder 21991:21992 <> e2:184
+R22017:22017 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22066:22072 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22031:22033 Ionia.finType <> fin def
+R22035:22035 Ionia.Parallel_Safety <> n:180 var
+binder 22025:22025 <> i:185
+binder 22027:22027 <> j:186
+R22044:22047 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22039:22042 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R22038:22038 Ionia.Parallel_Safety <> i:185 var
+R22043:22043 Ionia.Parallel_Safety <> j:186 var
+R22055:22058 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R22051:22052 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R22054:22054 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R22048:22050 Ionia.Parallel_Safety <> out:181 var
+R22053:22053 Ionia.Parallel_Safety <> i:185 var
+R22062:22063 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R22065:22065 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R22059:22061 Ionia.Parallel_Safety <> out:181 var
+R22064:22064 Ionia.Parallel_Safety <> j:186 var
+R22073:22087 Ionia.Parallel_Safety <> non_interfering def
+binder 22094:22094 <> i:187
+R22099:22100 Ionia.Proof_CodeGen <> If def
+R22135:22139 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R22131:22132 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R22134:22134 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R22128:22130 Ionia.Parallel_Safety <> out:181 var
+R22133:22133 Ionia.Parallel_Safety <> i:187 var
+R22140:22141 Ionia.Parallel_Safety <> e2:184 var
+R22143:22143 Ionia.Parallel_Safety <> i:187 var
+R22116:22120 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R22112:22113 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R22115:22115 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R22109:22111 Ionia.Parallel_Safety <> out:181 var
+R22114:22114 Ionia.Parallel_Safety <> i:187 var
+R22121:22122 Ionia.Parallel_Safety <> e1:183 var
+R22124:22124 Ionia.Parallel_Safety <> i:187 var
+R22103:22103 Ionia.Parallel_Safety <> b:182 var
+R22105:22105 Ionia.Parallel_Safety <> i:187 var
+R22205:22206 Ionia.Proof_CodeGen <> If def
+R22256:22269 Ionia.Proof_CodeGen <> update_permute thm
+prf 22480:22498 <> relu1d_pattern_safe
+binder 22509:22509 <> n:188
+R22518:22520 Ionia.Proof_CodeGen <> acc def
+R22523:22525 Ionia.DataExp <> ary constr
+R22532:22534 Ionia.DataExp <> num constr
+R22527:22528 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R22530:22530 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R22529:22529 Ionia.Parallel_Safety <> n:188 var
+binder 22512:22514 <> out:189
+R22552:22555 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22547:22549 Ionia.finType <> fin def
+R22551:22551 Ionia.Parallel_Safety <> n:188 var
+R22556:22559 Corelib.Init.Datatypes <> bool ind
+binder 22543:22543 <> b:190
+R22576:22579 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22571:22573 Ionia.finType <> fin def
+R22575:22575 Ionia.Parallel_Safety <> n:188 var
+R22580:22582 Ionia.Proof_CodeGen <> exp def
+R22584:22586 Ionia.DataExp <> num constr
+binder 22563:22564 <> e1:191
+binder 22566:22567 <> e2:192
+R22592:22592 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22641:22647 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22606:22608 Ionia.finType <> fin def
+R22610:22610 Ionia.Parallel_Safety <> n:188 var
+binder 22600:22600 <> i:193
+binder 22602:22602 <> j:194
+R22619:22622 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22614:22617 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R22613:22613 Ionia.Parallel_Safety <> i:193 var
+R22618:22618 Ionia.Parallel_Safety <> j:194 var
+R22630:22633 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R22626:22627 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R22629:22629 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R22623:22625 Ionia.Parallel_Safety <> out:189 var
+R22628:22628 Ionia.Parallel_Safety <> i:193 var
+R22637:22638 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R22640:22640 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R22634:22636 Ionia.Parallel_Safety <> out:189 var
+R22639:22639 Ionia.Parallel_Safety <> j:194 var
+R22666:22669 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22661:22663 Ionia.finType <> fin def
+R22665:22665 Ionia.Parallel_Safety <> n:188 var
+R22670:22672 Ionia.finType <> fin def
+R22674:22674 Ionia.Parallel_Safety <> n:188 var
+binder 22656:22657 <> σ:195
+R22678:22678 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22711:22717 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 22686:22686 <> i:196
+binder 22688:22688 <> j:197
+R22702:22705 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22695:22697 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22691:22692 Ionia.Parallel_Safety <> σ:195 var
+R22694:22694 Ionia.Parallel_Safety <> i:196 var
+R22698:22699 Ionia.Parallel_Safety <> σ:195 var
+R22701:22701 Ionia.Parallel_Safety <> j:197 var
+R22707:22709 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22706:22706 Ionia.Parallel_Safety <> i:196 var
+R22710:22710 Ionia.Parallel_Safety <> j:197 var
+binder 22725:22727 <> rho:198
+R22796:22802 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22734:22739 Ionia.Proof_CodeGen <> parfor def
+R22793:22795 Ionia.Parallel_Safety <> rho:198 var
+binder 22750:22750 <> i:199
+binder 22752:22752 <> o:200
+R22757:22758 Ionia.Proof_CodeGen <> If def
+R22781:22785 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R22780:22780 Ionia.Parallel_Safety <> o:200 var
+R22786:22787 Ionia.Parallel_Safety <> e2:192 var
+R22789:22789 Ionia.Parallel_Safety <> i:199 var
+R22768:22772 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R22767:22767 Ionia.Parallel_Safety <> o:200 var
+R22773:22774 Ionia.Parallel_Safety <> e1:191 var
+R22776:22776 Ionia.Parallel_Safety <> i:199 var
+R22761:22761 Ionia.Parallel_Safety <> b:190 var
+R22763:22763 Ionia.Parallel_Safety <> i:199 var
+R22741:22743 Ionia.Parallel_Safety <> out:189 var
+R22803:22808 Ionia.Proof_CodeGen <> seqfor def
+R22889:22891 Ionia.Parallel_Safety <> rho:198 var
+binder 22815:22815 <> i:201
+R22820:22821 Ionia.Proof_CodeGen <> If def
+R22872:22876 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R22865:22866 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R22871:22871 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R22862:22864 Ionia.Parallel_Safety <> out:189 var
+R22867:22868 Ionia.Parallel_Safety <> σ:195 var
+R22870:22870 Ionia.Parallel_Safety <> i:201 var
+R22877:22878 Ionia.Parallel_Safety <> e2:192 var
+R22881:22882 Ionia.Parallel_Safety <> σ:195 var
+R22884:22884 Ionia.Parallel_Safety <> i:201 var
+R22845:22849 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R22838:22839 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R22844:22844 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R22835:22837 Ionia.Parallel_Safety <> out:189 var
+R22840:22841 Ionia.Parallel_Safety <> σ:195 var
+R22843:22843 Ionia.Parallel_Safety <> i:201 var
+R22850:22851 Ionia.Parallel_Safety <> e1:191 var
+R22854:22855 Ionia.Parallel_Safety <> σ:195 var
+R22857:22857 Ionia.Parallel_Safety <> i:201 var
+R22824:22824 Ionia.Parallel_Safety <> b:190 var
+R22827:22828 Ionia.Parallel_Safety <> σ:195 var
+R22830:22830 Ionia.Parallel_Safety <> i:201 var
+R22952:22964 Ionia.DPIA_Rules <> parfor_seqfor thm
+R22986:22996 Ionia.Parallel_Safety <> seqfor_perm thm
+binder 23005:23005 <> i:202
+R23010:23011 Ionia.Proof_CodeGen <> If def
+R23046:23050 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R23042:23043 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R23045:23045 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R23044:23044 Ionia.Parallel_Safety <> i:202 var
+R23054:23054 Ionia.Parallel_Safety <> i:202 var
+R23027:23031 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R23023:23024 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R23026:23026 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R23025:23025 Ionia.Parallel_Safety <> i:202 var
+R23035:23035 Ionia.Parallel_Safety <> i:202 var
+R23016:23016 Ionia.Parallel_Safety <> i:202 var
+binder 23005:23005 <> i:203
+R23044:23044 Ionia.Parallel_Safety <> i:203 var
+R23054:23054 Ionia.Parallel_Safety <> i:203 var
+R23025:23025 Ionia.Parallel_Safety <> i:203 var
+R23035:23035 Ionia.Parallel_Safety <> i:203 var
+R23016:23016 Ionia.Parallel_Safety <> i:203 var
+R23079:23094 Ionia.Parallel_Safety <> ni_If_assign_num thm
+prf 23115:23124 <> AryIdx_neq
+binder 23135:23135 <> n:204
+R23144:23146 Ionia.finType <> fin def
+R23148:23148 Ionia.Parallel_Safety <> n:204 var
+binder 23138:23138 <> i:205
+binder 23140:23140 <> j:206
+R23156:23159 Ionia.DataExp <> path ind
+binder 23152:23152 <> a:207
+R23171:23174 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23166:23169 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R23165:23165 Ionia.Parallel_Safety <> i:205 var
+R23170:23170 Ionia.Parallel_Safety <> j:206 var
+R23188:23191 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R23176:23181 Ionia.DataExp <> AryIdx constr
+R23183:23183 Ionia.Parallel_Safety <> n:204 var
+R23185:23185 Ionia.Parallel_Safety <> i:205 var
+R23187:23187 Ionia.Parallel_Safety <> a:207 var
+R23193:23198 Ionia.DataExp <> AryIdx constr
+R23200:23200 Ionia.Parallel_Safety <> n:204 var
+R23202:23202 Ionia.Parallel_Safety <> j:206 var
+R23204:23204 Ionia.Parallel_Safety <> a:207 var
+R23248:23256 Ionia.DataExp <> AryIdx_eq thm
+R23315:23325 Ionia.finType <> fin2nat_inj thm
+prf 23423:23446 <> relu1d_pattern_safe_acc'
+binder 23457:23457 <> n:208
+R23464:23467 Ionia.DataExp <> path ind
+binder 23460:23460 <> a:209
+R23484:23487 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23479:23481 Ionia.finType <> fin def
+R23483:23483 Ionia.Parallel_Safety <> n:208 var
+R23488:23491 Corelib.Init.Datatypes <> bool ind
+binder 23475:23475 <> b:210
+R23508:23511 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23503:23505 Ionia.finType <> fin def
+R23507:23507 Ionia.Parallel_Safety <> n:208 var
+R23512:23514 Ionia.Proof_CodeGen <> exp def
+R23516:23518 Ionia.DataExp <> num constr
+binder 23495:23496 <> e1:211
+binder 23498:23499 <> e2:212
+R23532:23535 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23527:23529 Ionia.finType <> fin def
+R23531:23531 Ionia.Parallel_Safety <> n:208 var
+R23536:23538 Ionia.finType <> fin def
+R23540:23540 Ionia.Parallel_Safety <> n:208 var
+binder 23522:23523 <> σ:213
+R23546:23546 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23579:23585 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 23554:23554 <> i:214
+binder 23556:23556 <> j:215
+R23570:23573 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R23563:23565 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23559:23560 Ionia.Parallel_Safety <> σ:213 var
+R23562:23562 Ionia.Parallel_Safety <> i:214 var
+R23566:23567 Ionia.Parallel_Safety <> σ:213 var
+R23569:23569 Ionia.Parallel_Safety <> j:215 var
+R23575:23577 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23574:23574 Ionia.Parallel_Safety <> i:214 var
+R23578:23578 Ionia.Parallel_Safety <> j:215 var
+binder 23593:23595 <> rho:216
+R23685:23691 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23602:23607 Ionia.Proof_CodeGen <> parfor def
+R23682:23684 Ionia.Parallel_Safety <> rho:216 var
+binder 23639:23639 <> i:217
+binder 23641:23641 <> o:218
+R23646:23647 Ionia.Proof_CodeGen <> If def
+R23670:23674 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R23669:23669 Ionia.Parallel_Safety <> o:218 var
+R23675:23676 Ionia.Parallel_Safety <> e2:212 var
+R23678:23678 Ionia.Parallel_Safety <> i:217 var
+R23657:23661 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R23656:23656 Ionia.Parallel_Safety <> o:218 var
+R23662:23663 Ionia.Parallel_Safety <> e1:211 var
+R23665:23665 Ionia.Parallel_Safety <> i:217 var
+R23650:23650 Ionia.Parallel_Safety <> b:210 var
+R23652:23652 Ionia.Parallel_Safety <> i:217 var
+R23611:23614 Ionia.Proof_CodeGen <> acc' def
+R23617:23619 Ionia.DataExp <> ary constr
+R23626:23628 Ionia.DataExp <> num constr
+R23621:23622 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R23624:23624 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R23623:23623 Ionia.Parallel_Safety <> n:208 var
+R23631:23631 Ionia.Parallel_Safety <> a:209 var
+R23692:23697 Ionia.Proof_CodeGen <> seqfor def
+R23836:23838 Ionia.Parallel_Safety <> rho:216 var
+binder 23704:23704 <> i:219
+R23709:23710 Ionia.Proof_CodeGen <> If def
+R23819:23823 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R23788:23788 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R23811:23813 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R23818:23818 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R23790:23793 Ionia.Proof_CodeGen <> acc' def
+R23796:23798 Ionia.DataExp <> ary constr
+R23805:23807 Ionia.DataExp <> num constr
+R23800:23801 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R23803:23803 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R23802:23802 Ionia.Parallel_Safety <> n:208 var
+R23810:23810 Ionia.Parallel_Safety <> a:209 var
+R23814:23815 Ionia.Parallel_Safety <> σ:213 var
+R23817:23817 Ionia.Parallel_Safety <> i:219 var
+R23824:23825 Ionia.Parallel_Safety <> e2:212 var
+R23828:23829 Ionia.Parallel_Safety <> σ:213 var
+R23831:23831 Ionia.Parallel_Safety <> i:219 var
+R23763:23767 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R23732:23732 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R23755:23757 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R23762:23762 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R23734:23737 Ionia.Proof_CodeGen <> acc' def
+R23740:23742 Ionia.DataExp <> ary constr
+R23749:23751 Ionia.DataExp <> num constr
+R23744:23745 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R23747:23747 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R23746:23746 Ionia.Parallel_Safety <> n:208 var
+R23754:23754 Ionia.Parallel_Safety <> a:209 var
+R23758:23759 Ionia.Parallel_Safety <> σ:213 var
+R23761:23761 Ionia.Parallel_Safety <> i:219 var
+R23768:23769 Ionia.Parallel_Safety <> e1:211 var
+R23772:23773 Ionia.Parallel_Safety <> σ:213 var
+R23775:23775 Ionia.Parallel_Safety <> i:219 var
+R23713:23713 Ionia.Parallel_Safety <> b:210 var
+R23716:23717 Ionia.Parallel_Safety <> σ:213 var
+R23719:23719 Ionia.Parallel_Safety <> i:219 var
+R23890:23908 Ionia.Parallel_Safety <> relu1d_pattern_safe thm
+binder 23960:23960 <> k:220
+R23991:23993 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23963:23963 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R23986:23988 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R23990:23990 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R23965:23968 Ionia.Proof_CodeGen <> acc' def
+R23971:23973 Ionia.DataExp <> ary constr
+R23980:23982 Ionia.DataExp <> num constr
+R23975:23976 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R23978:23978 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R23989:23989 Ionia.Parallel_Safety <> k:220 var
+R23995:24000 Ionia.DataExp <> AryIdx constr
+R24004:24004 Ionia.Parallel_Safety <> k:220 var
+binder 23960:23960 <> k:221
+R23989:23989 Ionia.Parallel_Safety <> k:221 var
+R24004:24004 Ionia.Parallel_Safety <> k:221 var
+R24030:24035 Ionia.Proof_CodeGen <> idxAcc def
+R24053:24064 Ionia.vector <> v_idx_mk_vec thm
+R24106:24115 Ionia.Parallel_Safety <> AryIdx_neq thm
+R24397:24407 Ionia.Parallel_Safety <> seqfor_perm thm
+R24428:24440 Ionia.Parallel_Safety <> schedule_safe thm
+R24461:24483 Ionia.Parallel_Safety <> assign_disjoint_commute thm
+R24504:24516 Ionia.Parallel_Safety <> parallel_safe thm
+R24537:24554 Ionia.Parallel_Safety <> parallel_safe_acc' thm
+R24575:24598 Ionia.Parallel_Safety <> relu1d_pattern_safe_acc' thm

@@ -1,0 +1,1031 @@
+DIGEST 9a3c68ee41aa17d50fd5064462af3442
+FIonia.Bridge_Pilot
+R2715:2719 Stdlib.Reals.Reals <> <> lib
+R2721:2726 Stdlib.Strings.String <> <> lib
+R2728:2732 Stdlib.Arith.Arith <> <> lib
+R2734:2736 Stdlib.micromega.Lia <> <> lib
+R2738:2741 Stdlib.Bool.Bool <> <> lib
+R2759:2771 Ionia.finType <> <> lib
+R2773:2784 Ionia.vector <> <> lib
+R2786:2798 Ionia.DataExp <> <> lib
+R2800:2813 Ionia.CNN_Defs <> <> lib
+R2817:2838 Ionia.CNN_CodeGen_Core <> <> lib
+R2840:2858 Ionia.Proof_CodeGen <> <> lib
+R2860:2875 Ionia.DPIA_Rules <> <> lib
+R2879:2905 Ionia.CNN_CodeGen_Semantics <> <> lib
+R2907:2929 Ionia.CNN_Examples_Base <> <> lib
+R2933:2959 Ionia.CNN_Examples_Base_Ops <> <> lib
+R2961:2972 Ionia.CNN_OP <> <> lib
+R2974:2998 Ionia.Operators_Sem_Equiv <> <> lib
+R3002:3019 Ionia.LeNet5_Utils <> <> lib
+R3021:3043 Ionia.LeNet5_Functional <> <> lib
+R3045:3067 Ionia.LeNet5_Imperative <> <> lib
+R3071:3087 Ionia.LeNet5_DPIA <> <> lib
+R3104:3116 Ionia.DataExp <> <> mod
+mod 3098:3099 <> DE
+R3132:3145 Ionia.CNN_Defs <> <> mod
+mod 3126:3127 <> CD
+R3161:3182 Ionia.CNN_CodeGen_Core <> <> mod
+mod 3155:3156 <> CG
+R3199:3217 Ionia.Proof_CodeGen <> <> mod
+mod 3192:3194 <> PCG
+R3233:3248 Ionia.DPIA_Rules <> <> mod
+mod 3227:3228 <> DR
+R3265:3291 Ionia.CNN_CodeGen_Semantics <> <> mod
+mod 3258:3260 <> SEM
+R3308:3330 Ionia.CNN_Examples_Base <> <> mod
+mod 3301:3303 <> CEB
+R3347:3373 Ionia.CNN_Examples_Base_Ops <> <> mod
+mod 3340:3342 <> CEO
+R3390:3401 Ionia.CNN_OP <> <> mod
+mod 3383:3385 <> COP
+R3418:3442 Ionia.Operators_Sem_Equiv <> <> mod
+mod 3411:3413 <> OSE
+R3458:3475 Ionia.LeNet5_Utils <> <> mod
+mod 3452:3453 <> LU
+R3491:3513 Ionia.LeNet5_Functional <> <> mod
+mod 3485:3486 <> LF
+R3529:3551 Ionia.LeNet5_Imperative <> <> mod
+mod 3523:3524 <> LI
+R3567:3583 Ionia.LeNet5_DPIA <> <> mod
+mod 3561:3562 <> LD
+R3599:3612 Ionia.Ops_Conv <> <> mod
+mod 3593:3594 <> OC
+R3627:3638 Ionia.vector <> <> mod
+mod 3622:3622 <> V
+def 3716:3722 <> env_val
+R3731:3737 Ionia.Bridge_Pilot <> env def
+binder 3725:3727 <> rho:1
+R3745:3750 Stdlib.Strings.String <> string ind
+binder 3741:3741 <> s:2
+R3755:3755 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R3768:3770 Ionia.Bridge_Pilot <> rho:1 var
+R3773:3778 Ionia.Bridge_Pilot <> Var constr
+R3780:3780 Ionia.Bridge_Pilot <> s:2 var
+R3788:3791 Corelib.Init.Datatypes <> Some constr
+R3802:3805 Corelib.Init.Datatypes <> None constr
+R3810:3811 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R0 defax
+prf 4214:4227 <> to_pcg_exp_BLe
+R4245:4250 Ionia.Bridge_Pilot <> exp def
+R4252:4254 Ionia.DataExp <> num constr
+binder 4239:4239 <> x:3
+binder 4241:4241 <> y:4
+R4264:4270 Ionia.Bridge_Pilot <> env def
+binder 4258:4260 <> rho:5
+R4317:4321 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4276:4287 Ionia.Bridge_Pilot <> eval_bexp def
+R4304:4311 Ionia.Bridge_Pilot <> leExp def
+R4315:4315 Ionia.Bridge_Pilot <> y:4 var
+R4313:4313 Ionia.Bridge_Pilot <> x:3 var
+R4290:4296 Ionia.Bridge_Pilot <> env_val def
+R4298:4300 Ionia.Bridge_Pilot <> rho:5 var
+R4322:4330 Ionia.Bridge_Pilot <> leExp def
+R4356:4369 Ionia.Bridge_Pilot <> to_pcg_exp def
+R4373:4375 Ionia.Bridge_Pilot <> rho:5 var
+R4371:4371 Ionia.Bridge_Pilot <> y:4 var
+R4333:4346 Ionia.Bridge_Pilot <> to_pcg_exp def
+R4350:4352 Ionia.Bridge_Pilot <> rho:5 var
+R4348:4348 Ionia.Bridge_Pilot <> x:3 var
+R4409:4422 Ionia.Bridge_Pilot <> to_pcg_exp def
+R4424:4431 Ionia.Bridge_Pilot <> leExp def
+R4433:4439 Ionia.Bridge_Pilot <> env_val def
+R4441:4449 Ionia.Bridge_Pilot <> leExp def
+prf 4550:4566 <> to_pcg_mkvSeq_ext
+R4582:4584 Corelib.Init.Datatypes <> nat ind
+binder 4578:4578 <> n:6
+R4592:4595 Ionia.DataExp <> data ind
+binder 4588:4588 <> d:7
+R4610:4613 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4605:4607 Ionia.finType <> fin def
+R4609:4609 Ionia.Bridge_Pilot <> n:6 var
+R4614:4619 Ionia.Bridge_Pilot <> exp def
+R4621:4621 Ionia.Bridge_Pilot <> d:7 var
+binder 4601:4601 <> f:8
+R4634:4637 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4629:4631 Ionia.finType <> fin def
+R4633:4633 Ionia.Bridge_Pilot <> n:6 var
+R4638:4644 Ionia.Bridge_Pilot <> exp def
+R4646:4646 Ionia.Bridge_Pilot <> d:7 var
+binder 4625:4625 <> g:9
+R4656:4662 Ionia.Bridge_Pilot <> env def
+binder 4650:4652 <> rho:10
+R4668:4668 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4709:4715 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 4676:4676 <> i:11
+R4703:4705 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4679:4692 Ionia.Bridge_Pilot <> to_pcg_exp def
+R4700:4702 Ionia.Bridge_Pilot <> rho:10 var
+R4695:4695 Ionia.Bridge_Pilot <> f:8 var
+R4697:4697 Ionia.Bridge_Pilot <> i:11 var
+R4706:4706 Ionia.Bridge_Pilot <> g:9 var
+R4708:4708 Ionia.Bridge_Pilot <> i:11 var
+R4748:4750 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4716:4729 Ionia.Bridge_Pilot <> to_pcg_exp def
+R4745:4747 Ionia.Bridge_Pilot <> rho:10 var
+R4732:4740 Ionia.Bridge_Pilot <> mkvSeq def
+R4742:4742 Ionia.Bridge_Pilot <> f:8 var
+R4751:4760 Ionia.Bridge_Pilot <> mkvSeq def
+R4762:4762 Ionia.Bridge_Pilot <> g:9 var
+R4806:4826 Ionia.Bridge_Pilot <> to_pcg_exp_mkvSeq thm
+R4838:4847 Ionia.Bridge_Pilot <> mkvSeq def
+R4858:4869 Ionia.Bridge_Pilot <> mk_vec_ext thm
+prf 5139:5151 <> interp_ReLU3d
+R5180:5182 Corelib.Init.Datatypes <> nat ind
+binder 5163:5170 <> filernum:12
+binder 5172:5173 <> m1:13
+binder 5175:5176 <> m2:14
+R5196:5201 Ionia.Bridge_Pilot <> exp def
+R5204:5206 Ionia.DataExp <> ary constr
+R5221:5223 Ionia.DataExp <> ary constr
+R5232:5234 Ionia.DataExp <> ary constr
+R5242:5244 Ionia.DataExp <> num constr
+R5236:5237 Ionia.DataExp <> :::'''{'_x_'}' not
+R5240:5240 Ionia.DataExp <> :::'''{'_x_'}' not
+R5238:5239 Ionia.Bridge_Pilot <> m2:14 var
+R5225:5226 Ionia.DataExp <> :::'''{'_x_'}' not
+R5229:5229 Ionia.DataExp <> :::'''{'_x_'}' not
+R5227:5228 Ionia.Bridge_Pilot <> m1:13 var
+R5208:5209 Ionia.DataExp <> :::'''{'_x_'}' not
+R5218:5218 Ionia.DataExp <> :::'''{'_x_'}' not
+R5210:5217 Ionia.Bridge_Pilot <> filernum:12 var
+binder 5188:5192 <> input:15
+R5257:5263 Ionia.Bridge_Pilot <> env def
+binder 5251:5253 <> rho:16
+R5269:5269 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5510:5516 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5282:5284 Ionia.finType <> fin def
+R5286:5293 Ionia.Bridge_Pilot <> filernum:12 var
+binder 5278:5278 <> c:17
+R5302:5304 Ionia.finType <> fin def
+R5306:5307 Ionia.Bridge_Pilot <> m1:13 var
+binder 5297:5298 <> i0:18
+R5316:5318 Ionia.finType <> fin def
+R5320:5321 Ionia.Bridge_Pilot <> m2:14 var
+binder 5311:5312 <> i1:19
+R5423:5430 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5330:5341 Ionia.Bridge_Pilot <> eval_bexp def
+R5365:5372 Ionia.Bridge_Pilot <> leExp def
+R5415:5421 Ionia.Bridge_Pilot <> zero def
+R5375:5380 Ionia.Bridge_Pilot <> idx def
+R5411:5412 Ionia.Bridge_Pilot <> i1:19 var
+R5383:5388 Ionia.Bridge_Pilot <> idx def
+R5407:5408 Ionia.Bridge_Pilot <> i0:18 var
+R5391:5396 Ionia.Bridge_Pilot <> idx def
+R5404:5404 Ionia.Bridge_Pilot <> c:17 var
+R5398:5402 Ionia.Bridge_Pilot <> input:15 var
+R5344:5350 Ionia.Bridge_Pilot <> env_val def
+R5352:5354 Ionia.Bridge_Pilot <> rho:16 var
+R5431:5442 Ionia.Bridge_Pilot <> bexp2bool def
+R5452:5459 Ionia.Bridge_Pilot <> leExp def
+R5502:5508 Ionia.Bridge_Pilot <> zero def
+R5462:5467 Ionia.Bridge_Pilot <> idx def
+R5498:5499 Ionia.Bridge_Pilot <> i1:19 var
+R5470:5475 Ionia.Bridge_Pilot <> idx def
+R5494:5495 Ionia.Bridge_Pilot <> i0:18 var
+R5478:5483 Ionia.Bridge_Pilot <> idx def
+R5491:5491 Ionia.Bridge_Pilot <> c:17 var
+R5485:5489 Ionia.Bridge_Pilot <> input:15 var
+R5554:5558 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5517:5530 Ionia.Bridge_Pilot <> to_pcg_exp def
+R5551:5553 Ionia.Bridge_Pilot <> rho:16 var
+R5533:5542 Ionia.Bridge_Pilot <> ReLU3d def
+R5544:5548 Ionia.Bridge_Pilot <> input:15 var
+R5559:5567 Ionia.Bridge_Pilot <> ReLU3d def
+R5570:5583 Ionia.Bridge_Pilot <> to_pcg_exp def
+R5591:5593 Ionia.Bridge_Pilot <> rho:16 var
+R5585:5589 Ionia.Bridge_Pilot <> input:15 var
+R5651:5660 Ionia.Bridge_Pilot <> ReLU3d def
+R5663:5671 Ionia.Bridge_Pilot <> ReLU3d def
+R5682:5698 Ionia.Bridge_Pilot <> to_pcg_mkvSeq_ext thm
+R5718:5734 Ionia.Bridge_Pilot <> to_pcg_mkvSeq_ext thm
+R5755:5771 Ionia.Bridge_Pilot <> to_pcg_mkvSeq_ext thm
+R5823:5834 Ionia.Bridge_Pilot <> eval_bexp def
+R5865:5872 Ionia.Bridge_Pilot <> leExp def
+R5915:5921 Ionia.Bridge_Pilot <> zero def
+R5875:5880 Ionia.Bridge_Pilot <> idx def
+R5883:5888 Ionia.Bridge_Pilot <> idx def
+R5891:5896 Ionia.Bridge_Pilot <> idx def
+R5837:5843 Ionia.Bridge_Pilot <> env_val def
+R5947:5960 Ionia.Bridge_Pilot <> to_pcg_exp_BLe thm
+R5978:5996 Ionia.Bridge_Pilot <> to_pcg_exp_zero thm
+R6021:6038 Ionia.Bridge_Pilot <> to_pcg_exp_idx thm
+R6055:6062 Ionia.Bridge_Pilot <> zero def
+R6129:6146 Ionia.Bridge_Pilot <> to_pcg_exp_idx thm
+prf 6825:6837 <> Bridge_ReLU3d
+R6866:6868 Corelib.Init.Datatypes <> nat ind
+binder 6849:6856 <> filernum:20
+binder 6858:6859 <> m1:21
+binder 6861:6862 <> m2:22
+R6882:6887 Ionia.Bridge_Pilot <> exp def
+R6890:6892 Ionia.DataExp <> ary constr
+R6907:6909 Ionia.DataExp <> ary constr
+R6918:6920 Ionia.DataExp <> ary constr
+R6928:6930 Ionia.DataExp <> num constr
+R6922:6923 Ionia.DataExp <> :::'''{'_x_'}' not
+R6926:6926 Ionia.DataExp <> :::'''{'_x_'}' not
+R6924:6925 Ionia.Bridge_Pilot <> m2:22 var
+R6911:6912 Ionia.DataExp <> :::'''{'_x_'}' not
+R6915:6915 Ionia.DataExp <> :::'''{'_x_'}' not
+R6913:6914 Ionia.Bridge_Pilot <> m1:21 var
+R6894:6895 Ionia.DataExp <> :::'''{'_x_'}' not
+R6904:6904 Ionia.DataExp <> :::'''{'_x_'}' not
+R6896:6903 Ionia.Bridge_Pilot <> filernum:20 var
+binder 6874:6878 <> input:23
+R6948:6953 Ionia.Bridge_Pilot <> acc def
+R6956:6958 Ionia.DataExp <> ary constr
+R6973:6975 Ionia.DataExp <> ary constr
+R6984:6986 Ionia.DataExp <> ary constr
+R6994:6996 Ionia.DataExp <> num constr
+R6988:6989 Ionia.DataExp <> :::'''{'_x_'}' not
+R6992:6992 Ionia.DataExp <> :::'''{'_x_'}' not
+R6990:6991 Ionia.Bridge_Pilot <> m2:22 var
+R6977:6978 Ionia.DataExp <> :::'''{'_x_'}' not
+R6981:6981 Ionia.DataExp <> :::'''{'_x_'}' not
+R6979:6980 Ionia.Bridge_Pilot <> m1:21 var
+R6960:6961 Ionia.DataExp <> :::'''{'_x_'}' not
+R6970:6970 Ionia.DataExp <> :::'''{'_x_'}' not
+R6962:6969 Ionia.Bridge_Pilot <> filernum:20 var
+binder 6939:6944 <> output:24
+R7011:7017 Ionia.Bridge_Pilot <> env def
+binder 7005:7007 <> rho:25
+R7062:7067 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7023:7048 Ionia.Bridge_Pilot <> exp_independent_of_acc def
+R7056:7061 Ionia.Bridge_Pilot <> output:24 var
+R7050:7054 Ionia.Bridge_Pilot <> input:23 var
+R7068:7068 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7309:7315 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7081:7083 Ionia.finType <> fin def
+R7085:7092 Ionia.Bridge_Pilot <> filernum:20 var
+binder 7077:7077 <> c:26
+R7101:7103 Ionia.finType <> fin def
+R7105:7106 Ionia.Bridge_Pilot <> m1:21 var
+binder 7096:7097 <> i0:27
+R7115:7117 Ionia.finType <> fin def
+R7119:7120 Ionia.Bridge_Pilot <> m2:22 var
+binder 7110:7111 <> i1:28
+R7222:7229 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7129:7140 Ionia.Bridge_Pilot <> eval_bexp def
+R7164:7171 Ionia.Bridge_Pilot <> leExp def
+R7214:7220 Ionia.Bridge_Pilot <> zero def
+R7174:7179 Ionia.Bridge_Pilot <> idx def
+R7210:7211 Ionia.Bridge_Pilot <> i1:28 var
+R7182:7187 Ionia.Bridge_Pilot <> idx def
+R7206:7207 Ionia.Bridge_Pilot <> i0:27 var
+R7190:7195 Ionia.Bridge_Pilot <> idx def
+R7203:7203 Ionia.Bridge_Pilot <> c:26 var
+R7197:7201 Ionia.Bridge_Pilot <> input:23 var
+R7143:7149 Ionia.Bridge_Pilot <> env_val def
+R7151:7153 Ionia.Bridge_Pilot <> rho:25 var
+R7230:7241 Ionia.Bridge_Pilot <> bexp2bool def
+R7251:7258 Ionia.Bridge_Pilot <> leExp def
+R7301:7307 Ionia.Bridge_Pilot <> zero def
+R7261:7266 Ionia.Bridge_Pilot <> idx def
+R7297:7298 Ionia.Bridge_Pilot <> i1:28 var
+R7269:7274 Ionia.Bridge_Pilot <> idx def
+R7293:7294 Ionia.Bridge_Pilot <> i0:27 var
+R7277:7282 Ionia.Bridge_Pilot <> idx def
+R7290:7290 Ionia.Bridge_Pilot <> c:26 var
+R7284:7288 Ionia.Bridge_Pilot <> input:23 var
+R7359:7363 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7316:7323 Ionia.Bridge_Pilot <> eval def
+R7356:7358 Ionia.Bridge_Pilot <> rho:25 var
+R7326:7340 Ionia.Bridge_Pilot <> ReLU3d_comm def
+R7348:7353 Ionia.Bridge_Pilot <> output:24 var
+R7342:7346 Ionia.Bridge_Pilot <> input:23 var
+R7364:7377 Ionia.Bridge_Pilot <> ReLU3d_comm def
+R7413:7415 Ionia.Bridge_Pilot <> rho:25 var
+R7406:7411 Ionia.Bridge_Pilot <> output:24 var
+R7380:7393 Ionia.Bridge_Pilot <> to_pcg_exp def
+R7401:7403 Ionia.Bridge_Pilot <> rho:25 var
+R7395:7399 Ionia.Bridge_Pilot <> input:23 var
+R7491:7510 Ionia.Bridge_Pilot <> ReLU3d_equiv_sem thm
+R7535:7538 Ionia.Bridge_Pilot <> A def
+R7552:7566 Ionia.Bridge_Pilot <> eval_assign thm
+R7583:7593 Ionia.Bridge_Pilot <> A_ReLU3d thm
+R7611:7624 Ionia.Bridge_Pilot <> to_pcg_exp def
+R7653:7656 Ionia.Bridge_Pilot <> A def
+R7679:7691 Ionia.Bridge_Pilot <> interp_ReLU3d thm
+prf 7962:7977 <> pcg_sum_mkvSeq_0
+R7998:8001 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7993:7995 Ionia.finType <> fin def
+R8002:8008 Ionia.Bridge_Pilot <> exp def
+R8010:8012 Ionia.DataExp <> num constr
+binder 7989:7989 <> f:29
+R8040:8042 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8018:8024 Ionia.Bridge_Pilot <> sum def
+R8027:8036 Ionia.Bridge_Pilot <> mkvSeq def
+R8038:8038 Ionia.Bridge_Pilot <> f:29 var
+R8043:8044 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R0 defax
+R8072:8078 Ionia.Bridge_Pilot <> sum def
+R8081:8090 Ionia.Bridge_Pilot <> mkvSeq def
+prf 8125:8141 <> pcg_sum_mkvSeq_Sn
+R8157:8159 Corelib.Init.Datatypes <> nat ind
+binder 8153:8153 <> n:30
+R8176:8179 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8167:8169 Ionia.finType <> fin def
+R8172:8172 Corelib.Init.Datatypes <> S constr
+R8174:8174 Ionia.Bridge_Pilot <> n:30 var
+R8180:8186 Ionia.Bridge_Pilot <> exp def
+R8188:8190 Ionia.DataExp <> num constr
+binder 8163:8163 <> f:31
+R8218:8222 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8196:8202 Ionia.Bridge_Pilot <> sum def
+R8205:8214 Ionia.Bridge_Pilot <> mkvSeq def
+R8216:8216 Ionia.Bridge_Pilot <> f:31 var
+R8223:8227 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rplus defax
+R8230:8230 Ionia.Bridge_Pilot <> f:31 var
+R8233:8235 Ionia.finType <> ltS def
+R8237:8237 Ionia.Bridge_Pilot <> n:30 var
+R8242:8248 Ionia.Bridge_Pilot <> sum def
+R8251:8260 Ionia.Bridge_Pilot <> mkvSeq def
+R8271:8273 Ionia.finType <> fin def
+R8275:8275 Ionia.Bridge_Pilot <> n:30 var
+binder 8267:8267 <> i:32
+R8280:8280 Ionia.Bridge_Pilot <> f:31 var
+R8283:8290 Ionia.finType <> fin2finS def
+R8292:8292 Ionia.Bridge_Pilot <> i:32 var
+R8327:8333 Ionia.Bridge_Pilot <> sum def
+R8336:8345 Ionia.Bridge_Pilot <> mkvSeq def
+R8356:8366 Ionia.Bridge_Pilot <> mk_vec_Sn thm
+prf 8456:8473 <> pcg_sum_mkvSeq_nat
+R8489:8491 Corelib.Init.Datatypes <> nat ind
+binder 8485:8485 <> n:33
+R8504:8507 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8499:8501 Ionia.finType <> fin def
+R8503:8503 Ionia.Bridge_Pilot <> n:33 var
+R8508:8514 Ionia.Bridge_Pilot <> exp def
+R8516:8518 Ionia.DataExp <> num constr
+binder 8495:8495 <> f:34
+R8529:8534 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8525:8527 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R8524:8524 Ionia.Bridge_Pilot <> n:33 var
+R8557:8559 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8535:8541 Ionia.Bridge_Pilot <> sum def
+R8544:8553 Ionia.Bridge_Pilot <> mkvSeq def
+R8555:8555 Ionia.Bridge_Pilot <> f:34 var
+R8560:8575 Ionia.Bridge_Pilot <> sumR_nat_fin def
+binder 8582:8582 <> k:35
+binder 8584:8585 <> Hk:36
+R8590:8590 Ionia.Bridge_Pilot <> f:34 var
+R8593:8599 Ionia.finType <> nat2fin def
+R8601:8602 Ionia.Bridge_Pilot <> Hk:36 var
+R8718:8734 Ionia.Bridge_Pilot <> pcg_sum_mkvSeq_Sn thm
+R8745:8760 Ionia.Bridge_Pilot <> pcg_sum_mkvSeq_0 thm
+R8779:8796 Ionia.Bridge_Pilot <> sumR_nat_fin_S thm
+binder 8805:8805 <> k:37
+binder 8807:8808 <> Hk:38
+R8816:8822 Ionia.finType <> nat2fin def
+R8824:8825 Ionia.Bridge_Pilot <> Hk:38 var
+binder 8805:8805 <> k:39
+binder 8807:8808 <> Hk:40
+R8824:8825 Ionia.Bridge_Pilot <> Hk:40 var
+binder 8805:8805 <> k:41
+binder 8807:8808 <> Hk:42
+R8824:8825 Ionia.Bridge_Pilot <> Hk:42 var
+R8949:8951 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8850:8865 Ionia.Bridge_Pilot <> sumR_nat_fin def
+binder 8893:8893 <> k:43
+R8902:8904 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R8901:8901 Ionia.Bridge_Pilot <> k:43 var
+binder 8896:8897 <> Hk:44
+R8914:8920 Ionia.finType <> nat2fin def
+R8923:8938 Stdlib.Arith.PeanoNat Nat lt_lt_succ_r thm
+R8940:8940 Ionia.Bridge_Pilot <> k:43 var
+R8944:8945 Ionia.Bridge_Pilot <> Hk:44 var
+R8952:8953 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R0 defax
+binder 8893:8893 <> k:45
+R8901:8901 Ionia.Bridge_Pilot <> k:45 var
+binder 8896:8897 <> Hk:46
+R8940:8940 Ionia.Bridge_Pilot <> k:45 var
+R8944:8945 Ionia.Bridge_Pilot <> Hk:46 var
+R8972:8987 Ionia.Bridge_Pilot <> sumR_nat_fin def
+R9036:9043 Corelib.Init.Logic <> f_equal2 thm
+R9077:9083 Corelib.Init.Logic <> f_equal thm
+R9092:9098 Ionia.finType <> fin_eq' thm
+R9128:9144 Ionia.Bridge_Pilot <> pcg_sum_mkvSeq_Sn thm
+R9183:9200 Ionia.Bridge_Pilot <> sumR_nat_fin_S thm
+R9203:9203 Corelib.Init.Datatypes <> S constr
+binder 9215:9215 <> k:47
+binder 9217:9218 <> Hk:48
+R9226:9232 Ionia.finType <> nat2fin def
+R9234:9235 Ionia.Bridge_Pilot <> Hk:48 var
+binder 9215:9215 <> k:49
+binder 9217:9218 <> Hk:50
+R9234:9235 Ionia.Bridge_Pilot <> Hk:50 var
+binder 9215:9215 <> k:51
+binder 9217:9218 <> Hk:52
+R9234:9235 Ionia.Bridge_Pilot <> Hk:52 var
+R9253:9260 Corelib.Init.Logic <> f_equal2 thm
+R9277:9283 Corelib.Init.Logic <> f_equal thm
+R9292:9298 Ionia.finType <> fin_eq' thm
+R9328:9346 Ionia.Bridge_Pilot <> sumR_nat_fin_eq thm
+R9376:9382 Corelib.Init.Logic <> f_equal thm
+R9391:9397 Ionia.finType <> fin_eq' thm
+prf 9835:9848 <> conv3d_C3_body
+R9866:9871 Ionia.Bridge_Pilot <> exp def
+R9874:9876 Ionia.DataExp <> ary constr
+R9885:9887 Ionia.DataExp <> ary constr
+R9895:9897 Ionia.DataExp <> ary constr
+R9905:9907 Ionia.DataExp <> ary constr
+R9914:9916 Ionia.DataExp <> num constr
+R9909:9910 Ionia.DataExp <> :::'''{'_x_'}' not
+R9912:9912 Ionia.DataExp <> :::'''{'_x_'}' not
+R9899:9900 Ionia.DataExp <> :::'''{'_x_'}' not
+R9902:9902 Ionia.DataExp <> :::'''{'_x_'}' not
+R9889:9890 Ionia.DataExp <> :::'''{'_x_'}' not
+R9892:9892 Ionia.DataExp <> :::'''{'_x_'}' not
+R9878:9879 Ionia.DataExp <> :::'''{'_x_'}' not
+R9882:9882 Ionia.DataExp <> :::'''{'_x_'}' not
+binder 9862:9862 <> w:53
+R9933:9938 Ionia.Bridge_Pilot <> exp def
+R9941:9943 Ionia.DataExp <> ary constr
+R9951:9953 Ionia.DataExp <> num constr
+R9945:9946 Ionia.DataExp <> :::'''{'_x_'}' not
+R9949:9949 Ionia.DataExp <> :::'''{'_x_'}' not
+binder 9926:9929 <> bias:54
+R9968:9973 Ionia.Bridge_Pilot <> exp def
+R9976:9978 Ionia.DataExp <> ary constr
+R9986:9988 Ionia.DataExp <> ary constr
+R9997:9999 Ionia.DataExp <> ary constr
+R10007:10009 Ionia.DataExp <> num constr
+R10001:10002 Ionia.DataExp <> :::'''{'_x_'}' not
+R10005:10005 Ionia.DataExp <> :::'''{'_x_'}' not
+R9990:9991 Ionia.DataExp <> :::'''{'_x_'}' not
+R9994:9994 Ionia.DataExp <> :::'''{'_x_'}' not
+R9980:9981 Ionia.DataExp <> :::'''{'_x_'}' not
+R9983:9983 Ionia.DataExp <> :::'''{'_x_'}' not
+binder 9960:9964 <> input:55
+R10045:10049 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10018:10027 Ionia.Bridge_Pilot <> Conv3d def
+R10040:10044 Ionia.Bridge_Pilot <> input:55 var
+R10038:10038 Ionia.Bridge_Pilot <> w:53 var
+R10033:10036 Ionia.Bridge_Pilot <> bias:54 var
+R10050:10058 Ionia.Bridge_Pilot <> mkvSeq def
+R10071:10073 Ionia.finType <> fin def
+binder 10065:10067 <> num:56
+R10085:10093 Ionia.Bridge_Pilot <> mkvSeq def
+R10105:10107 Ionia.finType <> fin def
+binder 10100:10101 <> i0:57
+R10121:10129 Ionia.Bridge_Pilot <> mkvSeq def
+R10141:10143 Ionia.finType <> fin def
+binder 10136:10137 <> j0:58
+R10159:10164 Ionia.Bridge_Pilot <> add def
+R10403:10408 Ionia.Bridge_Pilot <> idx def
+R10415:10417 Ionia.Bridge_Pilot <> num:56 var
+R10410:10413 Ionia.Bridge_Pilot <> bias:54 var
+R10177:10182 Ionia.Bridge_Pilot <> sum def
+R10185:10193 Ionia.Bridge_Pilot <> mkvSeq def
+R10204:10206 Ionia.finType <> fin def
+binder 10200:10200 <> c:59
+R10225:10230 Ionia.Bridge_Pilot <> sum def
+R10233:10241 Ionia.Bridge_Pilot <> mkvSeq def
+R10253:10255 Ionia.finType <> fin def
+binder 10248:10249 <> i1:60
+R10276:10281 Ionia.Bridge_Pilot <> sum def
+R10284:10292 Ionia.Bridge_Pilot <> mkvSeq def
+R10304:10306 Ionia.finType <> fin def
+binder 10299:10300 <> j1:61
+R10329:10347 Ionia.Bridge_Pilot <> Conv3d_idx_cell def
+R10382:10383 Ionia.Bridge_Pilot <> j1:61 var
+R10379:10380 Ionia.Bridge_Pilot <> i1:60 var
+R10377:10377 Ionia.Bridge_Pilot <> c:59 var
+R10374:10375 Ionia.Bridge_Pilot <> j0:58 var
+R10371:10372 Ionia.Bridge_Pilot <> i0:57 var
+R10367:10369 Ionia.Bridge_Pilot <> num:56 var
+R10361:10365 Ionia.Bridge_Pilot <> input:55 var
+R10359:10359 Ionia.Bridge_Pilot <> w:53 var
+prf 10581:10596 <> interp_pad0_cell
+R10618:10623 Ionia.Bridge_Pilot <> exp def
+R10626:10628 Ionia.DataExp <> ary constr
+R10636:10638 Ionia.DataExp <> ary constr
+R10647:10649 Ionia.DataExp <> ary constr
+R10657:10659 Ionia.DataExp <> num constr
+R10651:10652 Ionia.DataExp <> :::'''{'_x_'}' not
+R10655:10655 Ionia.DataExp <> :::'''{'_x_'}' not
+R10640:10641 Ionia.DataExp <> :::'''{'_x_'}' not
+R10644:10644 Ionia.DataExp <> :::'''{'_x_'}' not
+R10630:10631 Ionia.DataExp <> :::'''{'_x_'}' not
+R10633:10633 Ionia.DataExp <> :::'''{'_x_'}' not
+binder 10610:10614 <> input:62
+R10673:10675 Corelib.Init.Datatypes <> nat ind
+binder 10668:10669 <> ci:63
+R10686:10688 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R10684:10685 Ionia.Bridge_Pilot <> ci:63 var
+binder 10679:10680 <> Hc:64
+R10699:10701 Corelib.Init.Datatypes <> nat ind
+binder 10693:10693 <> t:65
+binder 10695:10695 <> u:66
+R10711:10713 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R10710:10710 Ionia.Bridge_Pilot <> t:65 var
+binder 10705:10706 <> Ht:67
+R10725:10727 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R10724:10724 Ionia.Bridge_Pilot <> u:66 var
+binder 10719:10720 <> Hu:68
+R10739:10745 Ionia.Bridge_Pilot <> env def
+binder 10733:10735 <> rho:69
+R10865:10869 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10751:10764 Ionia.Bridge_Pilot <> to_pcg_exp def
+R10862:10864 Ionia.Bridge_Pilot <> rho:69 var
+R10771:10785 Ionia.Bridge_Pilot <> safe_idx_nat def
+R10859:10859 Ionia.Bridge_Pilot <> u:66 var
+R10794:10808 Ionia.Bridge_Pilot <> safe_idx_nat def
+R10856:10856 Ionia.Bridge_Pilot <> t:65 var
+R10811:10816 Ionia.Bridge_Pilot <> idx def
+R10843:10849 Ionia.finType <> nat2fin def
+R10851:10852 Ionia.Bridge_Pilot <> Hc:64 var
+R10819:10831 Ionia.Bridge_Pilot <> Padding3d def
+R10835:10839 Ionia.Bridge_Pilot <> input:62 var
+R10870:10882 Ionia.Bridge_Pilot <> safe_idx2d def
+R10936:10936 Ionia.Bridge_Pilot <> u:66 var
+R10934:10934 Ionia.Bridge_Pilot <> t:65 var
+R10885:10891 Ionia.Bridge_Pilot <> idx def
+R10921:10927 Ionia.finType <> nat2fin def
+R10929:10930 Ionia.Bridge_Pilot <> Hc:64 var
+R10894:10907 Ionia.Bridge_Pilot <> to_pcg_exp def
+R10915:10917 Ionia.Bridge_Pilot <> rho:69 var
+R10909:10913 Ionia.Bridge_Pilot <> input:62 var
+R10993:11010 Ionia.Bridge_Pilot <> safe_idx_nat_lt thm
+R11030:11047 Ionia.Bridge_Pilot <> safe_idx_nat_lt thm
+R11073:11090 Ionia.Bridge_Pilot <> to_pcg_exp_idx thm
+R11102:11114 Ionia.Bridge_Pilot <> Padding3d def
+R11127:11147 Ionia.Bridge_Pilot <> to_pcg_exp_mkvSeq thm
+R11161:11174 Ionia.Bridge_Pilot <> idx_mkvSeq thm
+R11183:11195 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+R11211:11223 Ionia.Bridge_Pilot <> Padding2d def
+R11236:11256 Ionia.Bridge_Pilot <> to_pcg_exp_mkvSeq thm
+R11270:11283 Ionia.Bridge_Pilot <> idx_mkvSeq thm
+R11292:11304 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+R11322:11342 Ionia.Bridge_Pilot <> to_pcg_exp_mkvSeq thm
+R11356:11369 Ionia.Bridge_Pilot <> idx_mkvSeq thm
+R11378:11390 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+R11421:11435 Ionia.finType <> fin2nat_nat2fin thm
+R11450:11462 Stdlib.Arith.PeanoNat Nat ltb_spec0 thm
+R11518:11530 Stdlib.Arith.PeanoNat Nat ltb_spec0 thm
+R11536:11538 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R11594:11606 Stdlib.Arith.PeanoNat Nat ltb_spec0 thm
+R11662:11674 Stdlib.Arith.PeanoNat Nat ltb_spec0 thm
+R11680:11682 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R11743:11760 Ionia.Bridge_Pilot <> to_pcg_exp_idx thm
+R11772:11784 Ionia.Bridge_Pilot <> safe_idx2d def
+R11799:11811 Stdlib.Arith.PeanoNat Nat ltb_spec0 thm
+R11866:11878 Stdlib.Arith.PeanoNat Nat ltb_spec0 thm
+R11942:11948 Ionia.finType <> fin_eq' thm
+R11960:11974 Ionia.finType <> fin2nat_nat2fin thm
+R11977:11987 Stdlib.Arith.PeanoNat Nat sub_0_r thm
+R12022:12028 Ionia.finType <> fin_eq' thm
+R12040:12054 Ionia.finType <> fin2nat_nat2fin thm
+R12057:12067 Stdlib.Arith.PeanoNat Nat sub_0_r thm
+prf 12207:12231 <> safe_idx2d_eq_pad_idx2d_0
+R12249:12251 Corelib.Init.Datatypes <> nat ind
+binder 12243:12243 <> h:70
+binder 12245:12245 <> w:71
+R12263:12269 Ionia.Bridge_Pilot <> exp def
+R12272:12274 Ionia.DataExp <> ary constr
+R12282:12284 Ionia.DataExp <> ary constr
+R12291:12293 Ionia.DataExp <> num constr
+R12286:12287 Ionia.DataExp <> :::'''{'_x_'}' not
+R12289:12289 Ionia.DataExp <> :::'''{'_x_'}' not
+R12288:12288 Ionia.Bridge_Pilot <> w:71 var
+R12276:12277 Ionia.DataExp <> :::'''{'_x_'}' not
+R12279:12279 Ionia.DataExp <> :::'''{'_x_'}' not
+R12278:12278 Ionia.Bridge_Pilot <> h:70 var
+binder 12257:12259 <> img:72
+R12305:12307 Corelib.Init.Datatypes <> nat ind
+binder 12299:12299 <> t:73
+binder 12301:12301 <> u:74
+R12334:12336 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12313:12325 Ionia.Bridge_Pilot <> safe_idx2d def
+R12333:12333 Ionia.Bridge_Pilot <> u:74 var
+R12331:12331 Ionia.Bridge_Pilot <> t:73 var
+R12327:12329 Ionia.Bridge_Pilot <> img:72 var
+R12337:12348 Ionia.Bridge_Pilot <> pad_idx2d def
+R12358:12358 Ionia.Bridge_Pilot <> u:74 var
+R12356:12356 Ionia.Bridge_Pilot <> t:73 var
+R12352:12354 Ionia.Bridge_Pilot <> img:72 var
+R12397:12409 Ionia.Bridge_Pilot <> safe_idx2d def
+R12412:12423 Ionia.Bridge_Pilot <> pad_idx2d def
+R12437:12447 Stdlib.Arith.PeanoNat Nat sub_0_r thm
+R12462:12474 Stdlib.Arith.PeanoNat Nat leb_spec0 thm
+R12527:12539 Stdlib.Arith.PeanoNat Nat leb_spec0 thm
+R12592:12604 Stdlib.Arith.PeanoNat Nat ltb_spec0 thm
+R12637:12649 Stdlib.Arith.PeanoNat Nat ltb_spec0 thm
+R12706:12712 Ionia.finType <> fin_eq' thm
+prf 12806:12821 <> interp_Conv3d_C3
+R12839:12844 Ionia.Bridge_Pilot <> exp def
+R12847:12849 Ionia.DataExp <> ary constr
+R12858:12860 Ionia.DataExp <> ary constr
+R12868:12870 Ionia.DataExp <> ary constr
+R12878:12880 Ionia.DataExp <> ary constr
+R12887:12889 Ionia.DataExp <> num constr
+R12882:12883 Ionia.DataExp <> :::'''{'_x_'}' not
+R12885:12885 Ionia.DataExp <> :::'''{'_x_'}' not
+R12872:12873 Ionia.DataExp <> :::'''{'_x_'}' not
+R12875:12875 Ionia.DataExp <> :::'''{'_x_'}' not
+R12862:12863 Ionia.DataExp <> :::'''{'_x_'}' not
+R12865:12865 Ionia.DataExp <> :::'''{'_x_'}' not
+R12851:12852 Ionia.DataExp <> :::'''{'_x_'}' not
+R12855:12855 Ionia.DataExp <> :::'''{'_x_'}' not
+binder 12835:12835 <> w:75
+R12906:12911 Ionia.Bridge_Pilot <> exp def
+R12914:12916 Ionia.DataExp <> ary constr
+R12924:12926 Ionia.DataExp <> num constr
+R12918:12919 Ionia.DataExp <> :::'''{'_x_'}' not
+R12922:12922 Ionia.DataExp <> :::'''{'_x_'}' not
+binder 12899:12902 <> bias:76
+R12941:12946 Ionia.Bridge_Pilot <> exp def
+R12949:12951 Ionia.DataExp <> ary constr
+R12959:12961 Ionia.DataExp <> ary constr
+R12970:12972 Ionia.DataExp <> ary constr
+R12980:12982 Ionia.DataExp <> num constr
+R12974:12975 Ionia.DataExp <> :::'''{'_x_'}' not
+R12978:12978 Ionia.DataExp <> :::'''{'_x_'}' not
+R12963:12964 Ionia.DataExp <> :::'''{'_x_'}' not
+R12967:12967 Ionia.DataExp <> :::'''{'_x_'}' not
+R12953:12954 Ionia.DataExp <> :::'''{'_x_'}' not
+R12956:12956 Ionia.DataExp <> :::'''{'_x_'}' not
+binder 12933:12937 <> input:77
+R12997:13003 Ionia.Bridge_Pilot <> env def
+binder 12991:12993 <> rho:78
+R13057:13061 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13009:13022 Ionia.Bridge_Pilot <> to_pcg_exp def
+R13054:13056 Ionia.Bridge_Pilot <> rho:78 var
+R13025:13034 Ionia.Bridge_Pilot <> Conv3d def
+R13047:13051 Ionia.Bridge_Pilot <> input:77 var
+R13045:13045 Ionia.Bridge_Pilot <> w:75 var
+R13040:13043 Ionia.Bridge_Pilot <> bias:76 var
+R13062:13070 Ionia.Bridge_Pilot <> Conv3d def
+R13139:13152 Ionia.Bridge_Pilot <> to_pcg_exp def
+R13160:13162 Ionia.Bridge_Pilot <> rho:78 var
+R13154:13158 Ionia.Bridge_Pilot <> input:77 var
+R13109:13122 Ionia.Bridge_Pilot <> to_pcg_exp def
+R13129:13131 Ionia.Bridge_Pilot <> rho:78 var
+R13124:13127 Ionia.Bridge_Pilot <> bias:76 var
+R13086:13099 Ionia.Bridge_Pilot <> to_pcg_exp def
+R13103:13105 Ionia.Bridge_Pilot <> rho:78 var
+R13101:13101 Ionia.Bridge_Pilot <> w:75 var
+R13079:13083 Ionia.Bridge_Pilot <> H5 def
+R13210:13223 Ionia.Bridge_Pilot <> conv3d_C3_body thm
+R13235:13243 Ionia.Bridge_Pilot <> Conv3d def
+R13246:13258 Ionia.Bridge_Pilot <> Conv3dCell def
+R13269:13285 Ionia.Bridge_Pilot <> to_pcg_mkvSeq_ext thm
+R13308:13324 Ionia.Bridge_Pilot <> to_pcg_mkvSeq_ext thm
+R13345:13361 Ionia.Bridge_Pilot <> to_pcg_mkvSeq_ext thm
+R13384:13401 Ionia.Bridge_Pilot <> to_pcg_exp_add thm
+R13414:13431 Ionia.Bridge_Pilot <> to_pcg_exp_idx thm
+R13443:13449 Ionia.Bridge_Pilot <> add def
+R13460:13467 Corelib.Init.Logic <> f_equal2 thm
+R13823:13831 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13586:13599 Ionia.Bridge_Pilot <> to_pcg_exp def
+R13610:13615 Ionia.Bridge_Pilot <> sum def
+R13618:13626 Ionia.Bridge_Pilot <> mkvSeq def
+R13637:13639 Ionia.finType <> fin def
+binder 13633:13633 <> c:79
+R13656:13661 Ionia.Bridge_Pilot <> sum def
+R13664:13672 Ionia.Bridge_Pilot <> mkvSeq def
+R13684:13686 Ionia.finType <> fin def
+binder 13679:13680 <> i1:80
+R13705:13710 Ionia.Bridge_Pilot <> sum def
+R13713:13721 Ionia.Bridge_Pilot <> mkvSeq def
+R13733:13735 Ionia.finType <> fin def
+binder 13728:13729 <> j1:81
+R13756:13774 Ionia.Bridge_Pilot <> Conv3d_idx_cell def
+R13810:13811 Ionia.Bridge_Pilot <> j1:81 var
+R13807:13808 Ionia.Bridge_Pilot <> i1:80 var
+R13805:13805 Ionia.Bridge_Pilot <> c:79 var
+R13832:13845 Ionia.Bridge_Pilot <> to_pcg_exp def
+R13856:13861 Ionia.Bridge_Pilot <> sum def
+R13864:13872 Ionia.Bridge_Pilot <> mkvSeq def
+R13885:13904 Ionia.Bridge_Pilot <> Conv3d_flat_cell def
+binder 13633:13633 <> c:82
+binder 13679:13680 <> i1:83
+binder 13728:13729 <> j1:84
+R13810:13811 Ionia.Bridge_Pilot <> j1:84 var
+R13807:13808 Ionia.Bridge_Pilot <> i1:83 var
+R13805:13805 Ionia.Bridge_Pilot <> c:82 var
+R13963:13984 Ionia.Bridge_Pilot <> Conv3d_sum_flatten thm
+R14052:14054 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R14048:14050 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R14044:14046 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R14079:14100 Ionia.Bridge_Pilot <> to_pcg_exp_sum_nat thm
+R14128:14145 Ionia.Bridge_Pilot <> pcg_sum_mkvSeq_nat thm
+R14168:14186 Ionia.Bridge_Pilot <> sumR_nat_fin_eq thm
+R14213:14232 Ionia.Bridge_Pilot <> Conv3d_flat_cell def
+R14257:14274 Ionia.Bridge_Pilot <> to_pcg_exp_mul thm
+R14290:14300 Stdlib.Arith.PeanoNat Nat mul_1_r thm
+R14314:14320 Ionia.Bridge_Pilot <> mul def
+R14333:14340 Corelib.Init.Logic <> f_equal2 thm
+R14460:14462 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R14407:14413 Stdlib.Arith.PeanoNat Nat div def
+R14416:14425 Stdlib.Arith.PeanoNat Nat modulo def
+R14428:14434 Ionia.finType <> fin2nat def
+R14437:14443 Ionia.finType <> nat2fin def
+R14452:14454 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R14484:14504 Ionia.Bridge_Pilot <> conv_flat_di_bound thm
+R14519:14523 Ionia.Bridge_Pilot <> H5 def
+R14507:14513 Ionia.finType <> nat2fin def
+R14582:14584 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R14547:14556 Stdlib.Arith.PeanoNat Nat modulo def
+R14559:14565 Ionia.finType <> fin2nat def
+R14568:14574 Ionia.finType <> nat2fin def
+R14606:14626 Ionia.Bridge_Pilot <> conv_flat_dj_bound thm
+R14641:14645 Ionia.Bridge_Pilot <> H5 def
+R14629:14635 Ionia.finType <> nat2fin def
+R14734:14736 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R14678:14680 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R14668:14674 Ionia.finType <> fin2nat def
+R14681:14687 Stdlib.Arith.PeanoNat Nat div def
+R14690:14699 Stdlib.Arith.PeanoNat Nat modulo def
+R14702:14708 Ionia.finType <> fin2nat def
+R14711:14717 Ionia.finType <> nat2fin def
+R14726:14728 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R14765:14773 Ionia.finType <> fin_proof def
+R14853:14855 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R14815:14817 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R14805:14811 Ionia.finType <> fin2nat def
+R14818:14827 Stdlib.Arith.PeanoNat Nat modulo def
+R14830:14836 Ionia.finType <> fin2nat def
+R14839:14845 Ionia.finType <> nat2fin def
+R14884:14892 Ionia.finType <> fin_proof def
+R14933:14945 Ionia.Bridge_Pilot <> safe_idx2d def
+R15155:15157 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R15145:15151 Ionia.finType <> fin2nat def
+R15158:15167 Stdlib.Arith.PeanoNat Nat modulo def
+R15170:15176 Ionia.finType <> fin2nat def
+R15179:15185 Ionia.finType <> nat2fin def
+R15076:15078 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R15066:15072 Ionia.finType <> fin2nat def
+R15079:15085 Stdlib.Arith.PeanoNat Nat div def
+R15088:15097 Stdlib.Arith.PeanoNat Nat modulo def
+R15100:15106 Ionia.finType <> fin2nat def
+R15109:15115 Ionia.finType <> nat2fin def
+R15124:15126 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R14958:14964 Ionia.Bridge_Pilot <> idx def
+R15006:15012 Ionia.finType <> nat2fin def
+R15015:15037 Ionia.Bridge_Pilot <> conv3d_flat_c_bound thm
+R15040:15046 Ionia.finType <> nat2fin def
+R14967:14980 Ionia.Bridge_Pilot <> to_pcg_exp def
+R15212:15227 Ionia.Bridge_Pilot <> interp_pad0_cell thm
+R15238:15260 Ionia.Bridge_Pilot <> conv3d_flat_c_bound thm
+R15263:15269 Ionia.finType <> nat2fin def
+R15362:15388 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15316:15322 Ionia.finType <> nat2fin def
+R15325:15347 Ionia.Bridge_Pilot <> conv3d_flat_c_bound thm
+R15350:15356 Ionia.finType <> nat2fin def
+R15389:15395 Ionia.finType <> nat2fin def
+R15398:15417 Ionia.Bridge_Pilot <> conv_flat_c_bound thm
+R15432:15436 Ionia.Bridge_Pilot <> H5 def
+R15420:15426 Ionia.finType <> nat2fin def
+R15457:15463 Ionia.finType <> fin_eq' thm
+R15475:15489 Ionia.finType <> fin2nat_nat2fin thm
+R15536:15560 Ionia.Bridge_Pilot <> safe_idx2d_eq_pad_idx2d_0 thm
+R15608:15625 Ionia.Bridge_Pilot <> to_pcg_exp_idx thm
+R15694:15716 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15648:15654 Ionia.finType <> nat2fin def
+R15657:15679 Ionia.Bridge_Pilot <> conv3d_flat_c_bound thm
+R15682:15688 Ionia.finType <> nat2fin def
+R15717:15723 Ionia.finType <> nat2fin def
+R15726:15745 Ionia.Bridge_Pilot <> conv_flat_c_bound thm
+R15760:15764 Ionia.Bridge_Pilot <> H5 def
+R15748:15754 Ionia.finType <> nat2fin def
+R15783:15789 Ionia.finType <> fin_eq' thm
+R15801:15815 Ionia.finType <> fin2nat_nat2fin thm
+R15900:15922 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15853:15859 Ionia.finType <> nat2fin def
+R15862:15885 Ionia.Bridge_Pilot <> conv3d_flat_i1_bound thm
+R15888:15894 Ionia.finType <> nat2fin def
+R15923:15929 Ionia.finType <> nat2fin def
+R15932:15952 Ionia.Bridge_Pilot <> conv_flat_di_bound thm
+R15967:15971 Ionia.Bridge_Pilot <> H5 def
+R15955:15961 Ionia.finType <> nat2fin def
+R15990:15996 Ionia.finType <> fin_eq' thm
+R16008:16022 Ionia.finType <> fin2nat_nat2fin thm
+R16107:16129 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16060:16066 Ionia.finType <> nat2fin def
+R16069:16092 Ionia.Bridge_Pilot <> conv3d_flat_j1_bound thm
+R16095:16101 Ionia.finType <> nat2fin def
+R16130:16136 Ionia.finType <> nat2fin def
+R16139:16159 Ionia.Bridge_Pilot <> conv_flat_dj_bound thm
+R16174:16178 Ionia.Bridge_Pilot <> H5 def
+R16162:16168 Ionia.finType <> nat2fin def
+R16197:16203 Ionia.finType <> fin_eq' thm
+R16215:16229 Ionia.finType <> fin2nat_nat2fin thm
+prf 16547:16562 <> Bridge_Conv3d_C3
+R16580:16585 Ionia.Bridge_Pilot <> exp def
+R16588:16590 Ionia.DataExp <> ary constr
+R16599:16601 Ionia.DataExp <> ary constr
+R16609:16611 Ionia.DataExp <> ary constr
+R16619:16621 Ionia.DataExp <> ary constr
+R16628:16630 Ionia.DataExp <> num constr
+R16623:16624 Ionia.DataExp <> :::'''{'_x_'}' not
+R16626:16626 Ionia.DataExp <> :::'''{'_x_'}' not
+R16613:16614 Ionia.DataExp <> :::'''{'_x_'}' not
+R16616:16616 Ionia.DataExp <> :::'''{'_x_'}' not
+R16603:16604 Ionia.DataExp <> :::'''{'_x_'}' not
+R16606:16606 Ionia.DataExp <> :::'''{'_x_'}' not
+R16592:16593 Ionia.DataExp <> :::'''{'_x_'}' not
+R16596:16596 Ionia.DataExp <> :::'''{'_x_'}' not
+binder 16576:16576 <> w:85
+R16647:16652 Ionia.Bridge_Pilot <> exp def
+R16655:16657 Ionia.DataExp <> ary constr
+R16665:16667 Ionia.DataExp <> num constr
+R16659:16660 Ionia.DataExp <> :::'''{'_x_'}' not
+R16663:16663 Ionia.DataExp <> :::'''{'_x_'}' not
+binder 16640:16643 <> bias:86
+R16682:16687 Ionia.Bridge_Pilot <> exp def
+R16690:16692 Ionia.DataExp <> ary constr
+R16700:16702 Ionia.DataExp <> ary constr
+R16711:16713 Ionia.DataExp <> ary constr
+R16721:16723 Ionia.DataExp <> num constr
+R16715:16716 Ionia.DataExp <> :::'''{'_x_'}' not
+R16719:16719 Ionia.DataExp <> :::'''{'_x_'}' not
+R16704:16705 Ionia.DataExp <> :::'''{'_x_'}' not
+R16708:16708 Ionia.DataExp <> :::'''{'_x_'}' not
+R16694:16695 Ionia.DataExp <> :::'''{'_x_'}' not
+R16697:16697 Ionia.DataExp <> :::'''{'_x_'}' not
+binder 16674:16678 <> input:87
+R16741:16746 Ionia.Bridge_Pilot <> acc def
+R16749:16751 Ionia.DataExp <> ary constr
+R16760:16762 Ionia.DataExp <> ary constr
+R16771:16773 Ionia.DataExp <> ary constr
+R16781:16783 Ionia.DataExp <> num constr
+R16775:16776 Ionia.DataExp <> :::'''{'_x_'}' not
+R16779:16779 Ionia.DataExp <> :::'''{'_x_'}' not
+R16764:16765 Ionia.DataExp <> :::'''{'_x_'}' not
+R16768:16768 Ionia.DataExp <> :::'''{'_x_'}' not
+R16753:16754 Ionia.DataExp <> :::'''{'_x_'}' not
+R16757:16757 Ionia.DataExp <> :::'''{'_x_'}' not
+binder 16732:16737 <> output:88
+R16798:16804 Ionia.Bridge_Pilot <> env def
+binder 16792:16794 <> rho:89
+R16861:16866 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16810:16835 Ionia.Bridge_Pilot <> exp_independent_of_acc def
+R16843:16860 Ionia.Bridge_Pilot <> tmp_scalar_acc def
+R16837:16841 Ionia.Bridge_Pilot <> input:87 var
+R16914:16919 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16867:16892 Ionia.Bridge_Pilot <> exp_independent_of_acc def
+R16896:16913 Ionia.Bridge_Pilot <> tmp_scalar_acc def
+R16894:16894 Ionia.Bridge_Pilot <> w:85 var
+R16970:16975 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16920:16945 Ionia.Bridge_Pilot <> exp_independent_of_acc def
+R16952:16969 Ionia.Bridge_Pilot <> tmp_scalar_acc def
+R16947:16950 Ionia.Bridge_Pilot <> bias:86 var
+R16976:16976 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17087:17093 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R16994:16999 Ionia.Bridge_Pilot <> acc def
+R17002:17004 Ionia.DataExp <> ary constr
+R17013:17015 Ionia.DataExp <> ary constr
+R17024:17026 Ionia.DataExp <> ary constr
+R17034:17036 Ionia.DataExp <> num constr
+R17028:17029 Ionia.DataExp <> :::'''{'_x_'}' not
+R17032:17032 Ionia.DataExp <> :::'''{'_x_'}' not
+R17017:17018 Ionia.DataExp <> :::'''{'_x_'}' not
+R17021:17021 Ionia.DataExp <> :::'''{'_x_'}' not
+R17006:17007 Ionia.DataExp <> :::'''{'_x_'}' not
+R17010:17010 Ionia.DataExp <> :::'''{'_x_'}' not
+binder 16984:16990 <> output':90
+R17047:17072 Ionia.Bridge_Pilot <> exp_independent_of_acc def
+R17080:17086 Ionia.Bridge_Pilot <> output':90 var
+R17074:17078 Ionia.Bridge_Pilot <> input:87 var
+R17094:17094 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17201:17207 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17112:17117 Ionia.Bridge_Pilot <> acc def
+R17120:17122 Ionia.DataExp <> ary constr
+R17131:17133 Ionia.DataExp <> ary constr
+R17142:17144 Ionia.DataExp <> ary constr
+R17152:17154 Ionia.DataExp <> num constr
+R17146:17147 Ionia.DataExp <> :::'''{'_x_'}' not
+R17150:17150 Ionia.DataExp <> :::'''{'_x_'}' not
+R17135:17136 Ionia.DataExp <> :::'''{'_x_'}' not
+R17139:17139 Ionia.DataExp <> :::'''{'_x_'}' not
+R17124:17125 Ionia.DataExp <> :::'''{'_x_'}' not
+R17128:17128 Ionia.DataExp <> :::'''{'_x_'}' not
+binder 17102:17108 <> output':91
+R17165:17190 Ionia.Bridge_Pilot <> exp_independent_of_acc def
+R17194:17200 Ionia.Bridge_Pilot <> output':91 var
+R17192:17192 Ionia.Bridge_Pilot <> w:85 var
+R17208:17208 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17318:17324 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17226:17231 Ionia.Bridge_Pilot <> acc def
+R17234:17236 Ionia.DataExp <> ary constr
+R17245:17247 Ionia.DataExp <> ary constr
+R17256:17258 Ionia.DataExp <> ary constr
+R17266:17268 Ionia.DataExp <> num constr
+R17260:17261 Ionia.DataExp <> :::'''{'_x_'}' not
+R17264:17264 Ionia.DataExp <> :::'''{'_x_'}' not
+R17249:17250 Ionia.DataExp <> :::'''{'_x_'}' not
+R17253:17253 Ionia.DataExp <> :::'''{'_x_'}' not
+R17238:17239 Ionia.DataExp <> :::'''{'_x_'}' not
+R17242:17242 Ionia.DataExp <> :::'''{'_x_'}' not
+binder 17216:17222 <> output':92
+R17279:17304 Ionia.Bridge_Pilot <> exp_independent_of_acc def
+R17311:17317 Ionia.Bridge_Pilot <> output':92 var
+R17306:17309 Ionia.Bridge_Pilot <> bias:86 var
+R17384:17389 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17325:17359 Ionia.Bridge_Pilot <> tmp_disjoint_from_output_conv3d def
+R17378:17383 Ionia.Bridge_Pilot <> output:88 var
+R17390:17390 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17443:17449 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R17392:17410 Ionia.Bridge_Pilot <> StructUndefined def
+R17412:17414 Ionia.DataExp <> num constr
+R17417:17424 Ionia.Bridge_Pilot <> acc' def
+R17426:17437 Ionia.Bridge_Pilot <> tmp_path def
+R17440:17442 Ionia.Bridge_Pilot <> rho:89 var
+R17504:17508 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17450:17457 Ionia.Bridge_Pilot <> eval def
+R17501:17503 Ionia.Bridge_Pilot <> rho:89 var
+R17460:17474 Ionia.Bridge_Pilot <> Conv3d_comm def
+R17493:17498 Ionia.Bridge_Pilot <> output:88 var
+R17487:17491 Ionia.Bridge_Pilot <> input:87 var
+R17485:17485 Ionia.Bridge_Pilot <> w:85 var
+R17480:17483 Ionia.Bridge_Pilot <> bias:86 var
+R17509:17522 Ionia.Bridge_Pilot <> Conv3d_comm def
+R17624:17626 Ionia.Bridge_Pilot <> rho:89 var
+R17617:17622 Ionia.Bridge_Pilot <> output:88 var
+R17591:17604 Ionia.Bridge_Pilot <> to_pcg_exp def
+R17612:17614 Ionia.Bridge_Pilot <> rho:89 var
+R17606:17610 Ionia.Bridge_Pilot <> input:87 var
+R17561:17574 Ionia.Bridge_Pilot <> to_pcg_exp def
+R17581:17583 Ionia.Bridge_Pilot <> rho:89 var
+R17576:17579 Ionia.Bridge_Pilot <> bias:86 var
+R17538:17551 Ionia.Bridge_Pilot <> to_pcg_exp def
+R17555:17557 Ionia.Bridge_Pilot <> rho:89 var
+R17553:17553 Ionia.Bridge_Pilot <> w:85 var
+R17531:17535 Ionia.Bridge_Pilot <> H5 def
+R17718:17731 Ionia.Bridge_Pilot <> Conv3d_sem thm
+R18040:18052 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+R18022:18034 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+R18000:18012 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+R17981:17993 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+R17963:17975 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+R17941:17953 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+R17923:17935 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+R17904:17916 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+R17885:17897 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+R18104:18107 Ionia.Bridge_Pilot <> A def
+R18121:18135 Ionia.Bridge_Pilot <> eval_assign thm
+R18152:18162 Ionia.Bridge_Pilot <> A_Conv3d thm
+R18237:18250 Ionia.Bridge_Pilot <> to_pcg_exp def
+R18211:18224 Ionia.Bridge_Pilot <> to_pcg_exp def
+R18188:18201 Ionia.Bridge_Pilot <> to_pcg_exp def
+R18177:18181 Ionia.Bridge_Pilot <> H5 def
+R18279:18282 Ionia.Bridge_Pilot <> A def
+R18305:18320 Ionia.Bridge_Pilot <> interp_Conv3d_C3 thm
+prf 19069:19083 <> routeA_pad_zero
+R19101:19107 Ionia.Bridge_Pilot <> exp def
+R19110:19112 Ionia.DataExp <> ary constr
+R19121:19123 Ionia.DataExp <> ary constr
+R19131:19133 Ionia.DataExp <> num constr
+R19125:19126 Ionia.DataExp <> :::'''{'_x_'}' not
+R19129:19129 Ionia.DataExp <> :::'''{'_x_'}' not
+R19114:19115 Ionia.DataExp <> :::'''{'_x_'}' not
+R19118:19118 Ionia.DataExp <> :::'''{'_x_'}' not
+binder 19095:19097 <> img:93
+R19175:19177 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19141:19152 Ionia.Bridge_Pilot <> pad_idx2d def
+R19170:19172 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R19162:19164 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R19156:19158 Ionia.Bridge_Pilot <> img:93 var
+R19178:19185 Ionia.Bridge_Pilot <> zero def
+R19215:19226 Ionia.Bridge_Pilot <> pad_idx2d def
+R19241:19253 Stdlib.Arith.PeanoNat Nat leb_spec0 thm
+R19259:19261 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+prf 19404:19418 <> routeB_pad_zero
+R19434:19439 Ionia.Bridge_Pilot <> exp def
+R19442:19444 Ionia.DataExp <> ary constr
+R19453:19455 Ionia.DataExp <> ary constr
+R19463:19465 Ionia.DataExp <> num constr
+R19457:19458 Ionia.DataExp <> :::'''{'_x_'}' not
+R19461:19461 Ionia.DataExp <> :::'''{'_x_'}' not
+R19446:19447 Ionia.DataExp <> :::'''{'_x_'}' not
+R19450:19450 Ionia.DataExp <> :::'''{'_x_'}' not
+binder 19430:19430 <> e:94
+R19479:19481 Ionia.finType <> fin def
+R19489:19491 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R19485:19487 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+binder 19473:19473 <> i:95
+binder 19475:19475 <> j:96
+R19513:19516 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19509:19511 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19500:19506 Ionia.finType <> fin2nat def
+R19508:19508 Ionia.Bridge_Pilot <> i:95 var
+R19530:19535 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R19526:19528 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19517:19523 Ionia.finType <> fin2nat def
+R19525:19525 Ionia.Bridge_Pilot <> j:96 var
+R19575:19577 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19536:19541 Ionia.Bridge_Pilot <> idx def
+R19574:19574 Ionia.Bridge_Pilot <> j:96 var
+R19544:19549 Ionia.Bridge_Pilot <> idx def
+R19571:19571 Ionia.Bridge_Pilot <> i:95 var
+R19552:19564 Ionia.Bridge_Pilot <> Padding2d def
+R19568:19568 Ionia.Bridge_Pilot <> e:94 var
+R19578:19591 Ionia.Bridge_Pilot <> exp_default def
+R19593:19595 Ionia.DataExp <> num constr
+R19636:19648 Ionia.Bridge_Pilot <> Padding2d def
+R19662:19674 Ionia.Bridge_Pilot <> idx_mkvSeq thm
+R19683:19695 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+R19714:19726 Ionia.Bridge_Pilot <> idx_mkvSeq thm
+R19735:19747 Stdlib.Arith.PeanoNat Nat lt_0_succ thm
+R19797:19809 Stdlib.Arith.PeanoNat Nat ltb_spec0 thm
+R19889:19901 Ionia.Bridge_Pilot <> Bridge_ReLU3d thm
+R19922:19937 Ionia.Bridge_Pilot <> Bridge_Conv3d_C3 thm

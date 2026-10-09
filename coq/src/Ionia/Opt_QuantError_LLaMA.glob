@@ -1,0 +1,1104 @@
+DIGEST 0a2c9f96bccece54d03e8313be9112a6
+FIonia.Opt_QuantError_LLaMA
+R3702:3706 Stdlib.Reals.Reals <> <> lib
+R3708:3710 Stdlib.micromega.Lra <> <> lib
+R3712:3716 Stdlib.micromega.Psatz <> <> lib
+R3718:3722 Stdlib.Arith.Arith <> <> lib
+R3724:3729 Stdlib.QArith.QArith <> <> lib
+R3731:3736 Stdlib.Reals.Qreals <> <> lib
+R3766:3789 Stdlib.Logic.FunctionalExtensionality <> <> lib
+R3807:3825 Ionia.Proof_CodeGen <> <> lib
+R3843:3863 Ionia.Opt_ApproxError <> <> lib
+R3881:3907 Ionia.Opt_ApproxError_Apply <> <> lib
+R3925:3944 Ionia.Opt_QuantError <> <> lib
+R3962:3984 Ionia.LeNet5_Functional <> <> lib
+R4002:4022 Ionia.Ops_Transformer <> <> lib
+R4040:4059 Ionia.Attention_DPIA <> <> lib
+R4077:4089 Ionia.KVCache <> <> lib
+R4107:4126 Ionia.LLaMAMini_DPIA <> <> lib
+prf 4606:4615 <> idx_pred_R
+R4629:4631 Corelib.Init.Datatypes <> nat ind
+binder 4627:4627 <> n:1
+R4639:4644 Ionia.vector <> vector def
+R4648:4648 Ionia.Opt_QuantError_LLaMA <> n:1 var
+R4646:4646 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4635:4635 <> v:2
+R4656:4656 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4652:4652 <> e:3
+R4664:4666 Ionia.finType <> fin def
+R4668:4668 Ionia.Opt_QuantError_LLaMA <> n:1 var
+binder 4660:4660 <> i:4
+R4708:4710 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4675:4677 Ionia.Proof_CodeGen <> idx def
+R4680:4680 Corelib.Init.Datatypes <> S constr
+R4682:4682 Ionia.Opt_QuantError_LLaMA <> n:1 var
+R4685:4687 Ionia.DataExp <> num constr
+R4689:4689 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4691:4692 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4694:4694 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4690:4690 Ionia.Opt_QuantError_LLaMA <> v:2 var
+R4693:4693 Ionia.Opt_QuantError_LLaMA <> e:3 var
+R4697:4704 Ionia.finType <> fin2finS def
+R4706:4706 Ionia.Opt_QuantError_LLaMA <> i:4 var
+R4712:4714 Ionia.Proof_CodeGen <> idx def
+R4716:4716 Ionia.Opt_QuantError_LLaMA <> n:1 var
+R4718:4720 Ionia.DataExp <> num constr
+R4722:4722 Ionia.Opt_QuantError_LLaMA <> v:2 var
+R4724:4724 Ionia.Opt_QuantError_LLaMA <> i:4 var
+R4758:4765 Ionia.Proof_CodeGen <> idx_pred thm
+R4769:4771 Ionia.DataExp <> num constr
+prf 4793:4802 <> idx_last_R
+R4816:4818 Corelib.Init.Datatypes <> nat ind
+binder 4814:4814 <> n:5
+R4826:4831 Ionia.vector <> vector def
+R4835:4835 Ionia.Opt_QuantError_LLaMA <> n:5 var
+R4833:4833 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4822:4822 <> v:6
+R4843:4843 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4839:4839 <> e:7
+R4883:4885 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4850:4852 Ionia.Proof_CodeGen <> idx def
+R4855:4855 Corelib.Init.Datatypes <> S constr
+R4857:4857 Ionia.Opt_QuantError_LLaMA <> n:5 var
+R4860:4862 Ionia.DataExp <> num constr
+R4864:4864 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4866:4867 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4869:4869 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4865:4865 Ionia.Opt_QuantError_LLaMA <> v:6 var
+R4868:4868 Ionia.Opt_QuantError_LLaMA <> e:7 var
+R4872:4879 Ionia.finType <> fin_last def
+R4881:4881 Ionia.Opt_QuantError_LLaMA <> n:5 var
+R4886:4886 Ionia.Opt_QuantError_LLaMA <> e:7 var
+R4918:4925 Ionia.Proof_CodeGen <> idx_last thm
+R4929:4931 Ionia.DataExp <> num constr
+prf 5092:5101 <> mkvSeq_pw2
+R5115:5117 Corelib.Init.Datatypes <> nat ind
+binder 5113:5113 <> n:8
+R5127:5129 Ionia.Proof_CodeGen <> exp def
+R5132:5134 Ionia.DataExp <> ary constr
+R5141:5143 Ionia.DataExp <> num constr
+R5136:5137 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5139:5139 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5138:5138 Ionia.Opt_QuantError_LLaMA <> n:8 var
+binder 5121:5121 <> u:9
+binder 5123:5123 <> v:10
+R5199:5203 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5150:5155 Ionia.Proof_CodeGen <> mkvSeq def
+R5166:5168 Ionia.finType <> fin def
+R5170:5170 Ionia.Opt_QuantError_LLaMA <> n:8 var
+binder 5162:5162 <> k:11
+R5175:5177 Ionia.Proof_CodeGen <> mul def
+R5190:5192 Ionia.Proof_CodeGen <> idx def
+R5196:5196 Ionia.Opt_QuantError_LLaMA <> k:11 var
+R5194:5194 Ionia.Opt_QuantError_LLaMA <> v:10 var
+R5180:5182 Ionia.Proof_CodeGen <> idx def
+R5186:5186 Ionia.Opt_QuantError_LLaMA <> k:11 var
+R5184:5184 Ionia.Opt_QuantError_LLaMA <> u:9 var
+R5204:5208 Ionia.Opt_ApproxError <> v_pw2 def
+R5220:5220 Ionia.Opt_QuantError_LLaMA <> v:10 var
+R5218:5218 Ionia.Opt_QuantError_LLaMA <> u:9 var
+R5216:5216 Ionia.Opt_QuantError_LLaMA <> n:8 var
+R5210:5214 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R5354:5361 Ionia.Opt_ApproxError <> v_pw2_Sn thm
+R5371:5376 Ionia.Proof_CodeGen <> mkvSeq def
+R5384:5389 Ionia.vector <> mk_vec def
+R5472:5472 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5619:5640 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5697:5697 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5481:5483 Ionia.finType <> fin def
+binder 5477:5477 <> i:12
+R5512:5514 Ionia.Proof_CodeGen <> mul def
+R5583:5585 Ionia.Proof_CodeGen <> idx def
+R5588:5588 Corelib.Init.Datatypes <> S constr
+R5593:5595 Ionia.DataExp <> num constr
+R5597:5597 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5600:5601 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5604:5604 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5607:5614 Ionia.finType <> fin2finS def
+R5616:5616 Ionia.Opt_QuantError_LLaMA <> i:12 var
+R5518:5520 Ionia.Proof_CodeGen <> idx def
+R5523:5523 Corelib.Init.Datatypes <> S constr
+R5528:5530 Ionia.DataExp <> num constr
+R5532:5532 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5535:5536 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5539:5539 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5542:5549 Ionia.finType <> fin2finS def
+R5551:5551 Ionia.Opt_QuantError_LLaMA <> i:12 var
+R5649:5651 Ionia.finType <> fin def
+binder 5645:5645 <> i:13
+R5658:5660 Ionia.Proof_CodeGen <> mul def
+R5682:5684 Ionia.Proof_CodeGen <> idx def
+R5688:5690 Ionia.DataExp <> num constr
+R5695:5695 Ionia.Opt_QuantError_LLaMA <> i:13 var
+R5664:5666 Ionia.Proof_CodeGen <> idx def
+R5670:5672 Ionia.DataExp <> num constr
+R5677:5677 Ionia.Opt_QuantError_LLaMA <> i:13 var
+binder 5477:5477 <> i:14
+R5616:5616 Ionia.Opt_QuantError_LLaMA <> i:14 var
+R5551:5551 Ionia.Opt_QuantError_LLaMA <> i:14 var
+binder 5645:5645 <> i:15
+R5695:5695 Ionia.Opt_QuantError_LLaMA <> i:15 var
+R5677:5677 Ionia.Opt_QuantError_LLaMA <> i:15 var
+R5715:5739 Stdlib.Logic.FunctionalExtensionality <> functional_extensionality thm
+R5768:5777 Ionia.Opt_QuantError_LLaMA <> idx_pred_R thm
+R5923:5925 Ionia.Proof_CodeGen <> idx def
+R5927:5927 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5930:5931 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5934:5934 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5969:5976 Ionia.finType <> fin_last def
+R6022:6031 Ionia.Opt_QuantError_LLaMA <> idx_last_R thm
+prf 6183:6199 <> dotr_eq_dot_exact
+R6214:6216 Corelib.Init.Datatypes <> nat ind
+binder 6211:6212 <> dk:16
+R6226:6228 Ionia.Proof_CodeGen <> exp def
+R6231:6233 Ionia.DataExp <> ary constr
+R6241:6243 Ionia.DataExp <> num constr
+R6235:6236 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6239:6239 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6237:6238 Ionia.Opt_QuantError_LLaMA <> dk:16 var
+binder 6220:6220 <> u:17
+binder 6222:6222 <> v:18
+R6258:6260 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6250:6253 Ionia.KVCache <> dotr def
+R6257:6257 Ionia.Opt_QuantError_LLaMA <> v:18 var
+R6255:6255 Ionia.Opt_QuantError_LLaMA <> u:17 var
+R6261:6269 Ionia.Opt_ApproxError <> dot_exact def
+R6273:6273 Ionia.Opt_QuantError_LLaMA <> v:18 var
+R6271:6271 Ionia.Opt_QuantError_LLaMA <> u:17 var
+R6307:6310 Ionia.KVCache <> dotr def
+R6313:6321 Ionia.Opt_ApproxError <> dot_exact def
+R6334:6343 Ionia.Opt_QuantError_LLaMA <> mkvSeq_pw2 thm
+R6362:6372 Ionia.Opt_ApproxError <> rsum_eq_sum thm
+def 6460:6471 <> attn_out_col
+R6481:6483 Corelib.Init.Datatypes <> nat ind
+binder 6474:6475 <> dk:19
+binder 6477:6477 <> n:20
+R6493:6495 Ionia.Proof_CodeGen <> exp def
+R6498:6500 Ionia.DataExp <> ary constr
+R6508:6510 Ionia.DataExp <> ary constr
+R6518:6520 Ionia.DataExp <> num constr
+R6512:6513 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6516:6516 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6514:6515 Ionia.Opt_QuantError_LLaMA <> dk:19 var
+R6502:6503 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6505:6505 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6504:6504 Ionia.Opt_QuantError_LLaMA <> n:20 var
+binder 6489:6489 <> V:21
+R6531:6533 Ionia.finType <> fin def
+R6535:6536 Ionia.Opt_QuantError_LLaMA <> dk:19 var
+binder 6526:6527 <> dd:22
+R6543:6545 Ionia.Proof_CodeGen <> exp def
+R6548:6550 Ionia.DataExp <> ary constr
+R6557:6559 Ionia.DataExp <> num constr
+R6552:6553 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6555:6555 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6554:6554 Ionia.Opt_QuantError_LLaMA <> n:20 var
+R6567:6572 Ionia.Proof_CodeGen <> mkvSeq def
+R6583:6585 Ionia.finType <> fin def
+R6587:6587 Ionia.Opt_QuantError_LLaMA <> n:20 var
+binder 6579:6579 <> j:23
+R6592:6594 Ionia.Proof_CodeGen <> idx def
+R6606:6607 Ionia.Opt_QuantError_LLaMA <> dd:22 var
+R6597:6599 Ionia.Proof_CodeGen <> idx def
+R6603:6603 Ionia.Opt_QuantError_LLaMA <> j:23 var
+R6601:6601 Ionia.Opt_QuantError_LLaMA <> V:21 var
+prf 6767:6790 <> attnQ_entry_eq_dot_exact
+R6809:6811 Corelib.Init.Datatypes <> nat ind
+binder 6802:6803 <> dk:24
+binder 6805:6805 <> n:25
+R6828:6830 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R6826:6827 Ionia.Opt_QuantError_LLaMA <> dk:24 var
+binder 6819:6821 <> Hdk:26
+R6847:6849 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R6846:6846 Ionia.Opt_QuantError_LLaMA <> n:25 var
+binder 6840:6841 <> Hn:27
+R6867:6869 Ionia.Proof_CodeGen <> exp def
+R6872:6874 Ionia.DataExp <> ary constr
+R6882:6884 Ionia.DataExp <> num constr
+R6876:6877 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6880:6880 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6878:6879 Ionia.Opt_QuantError_LLaMA <> dk:24 var
+binder 6863:6863 <> q:28
+R6899:6901 Ionia.Proof_CodeGen <> exp def
+R6904:6906 Ionia.DataExp <> ary constr
+R6914:6916 Ionia.DataExp <> ary constr
+R6924:6926 Ionia.DataExp <> num constr
+R6918:6919 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6922:6922 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6920:6921 Ionia.Opt_QuantError_LLaMA <> dk:24 var
+R6908:6909 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6911:6911 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6910:6910 Ionia.Opt_QuantError_LLaMA <> n:25 var
+binder 6893:6893 <> K:29
+binder 6895:6895 <> V:30
+R6937:6939 Ionia.finType <> fin def
+R6941:6942 Ionia.Opt_QuantError_LLaMA <> dk:24 var
+binder 6932:6933 <> dd:31
+R6968:6972 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6948:6950 Ionia.Proof_CodeGen <> idx def
+R6966:6967 Ionia.Opt_QuantError_LLaMA <> dd:31 var
+R6953:6957 Ionia.KVCache <> AttnQ def
+R6963:6963 Ionia.Opt_QuantError_LLaMA <> V:30 var
+R6961:6961 Ionia.Opt_QuantError_LLaMA <> K:29 var
+R6959:6959 Ionia.Opt_QuantError_LLaMA <> q:28 var
+R6973:6981 Ionia.Opt_ApproxError <> dot_exact def
+R7014:7025 Ionia.Opt_QuantError_LLaMA <> attn_out_col def
+R7029:7030 Ionia.Opt_QuantError_LLaMA <> dd:31 var
+R7027:7027 Ionia.Opt_QuantError_LLaMA <> V:30 var
+R6984:6992 Ionia.LeNet5_Functional <> Softmax1d def
+R6995:7005 Ionia.KVCache <> attn_scores def
+R7009:7009 Ionia.Opt_QuantError_LLaMA <> K:29 var
+R7007:7007 Ionia.Opt_QuantError_LLaMA <> q:28 var
+R7081:7085 Ionia.KVCache <> AttnQ def
+R7096:7105 Ionia.Proof_CodeGen <> idx_mkvSeq thm
+R7130:7138 Ionia.Opt_ApproxError <> dot_exact def
+R7141:7152 Ionia.Opt_QuantError_LLaMA <> attn_out_col def
+R7171:7173 Ionia.Proof_CodeGen <> sum def
+R7176:7180 Ionia.Opt_ApproxError <> v_pw2 def
+R7243:7248 Ionia.Proof_CodeGen <> mkvSeq def
+R7259:7261 Ionia.finType <> fin def
+binder 7255:7255 <> j:32
+R7268:7270 Ionia.Proof_CodeGen <> idx def
+R7273:7275 Ionia.Proof_CodeGen <> idx def
+R7279:7279 Ionia.Opt_QuantError_LLaMA <> j:32 var
+R7191:7199 Ionia.LeNet5_Functional <> Softmax1d def
+R7202:7212 Ionia.KVCache <> attn_scores def
+R7182:7186 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+binder 7255:7255 <> j:33
+R7279:7279 Ionia.Opt_QuantError_LLaMA <> j:33 var
+R7324:7333 Ionia.Opt_QuantError_LLaMA <> mkvSeq_pw2 thm
+R7355:7379 Stdlib.Logic.FunctionalExtensionality <> functional_extensionality thm
+R7403:7412 Ionia.Proof_CodeGen <> idx_mkvSeq thm
+R7460:7470 Ionia.Opt_ApproxError <> rsum_eq_sum thm
+prf 7639:7663 <> matmul_entry_eq_dot_exact
+R7683:7685 Corelib.Init.Datatypes <> nat ind
+binder 7675:7675 <> m:34
+binder 7677:7677 <> n:35
+binder 7679:7679 <> p:36
+R7696:7698 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R7695:7695 Ionia.Opt_QuantError_LLaMA <> n:35 var
+binder 7689:7690 <> Hn:37
+R7716:7718 Ionia.Proof_CodeGen <> exp def
+R7721:7723 Ionia.DataExp <> ary constr
+R7731:7733 Ionia.DataExp <> ary constr
+R7740:7742 Ionia.DataExp <> num constr
+R7735:7736 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7738:7738 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7737:7737 Ionia.Opt_QuantError_LLaMA <> n:35 var
+R7725:7726 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7728:7728 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7727:7727 Ionia.Opt_QuantError_LLaMA <> m:34 var
+binder 7712:7712 <> a:38
+R7756:7758 Ionia.Proof_CodeGen <> exp def
+R7761:7763 Ionia.DataExp <> ary constr
+R7771:7773 Ionia.DataExp <> ary constr
+R7780:7782 Ionia.DataExp <> num constr
+R7775:7776 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7778:7778 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7777:7777 Ionia.Opt_QuantError_LLaMA <> p:36 var
+R7765:7766 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7768:7768 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7767:7767 Ionia.Opt_QuantError_LLaMA <> n:35 var
+binder 7752:7752 <> w:39
+R7796:7798 Ionia.finType <> fin def
+R7800:7800 Ionia.Opt_QuantError_LLaMA <> m:34 var
+binder 7792:7792 <> i:40
+R7808:7810 Ionia.finType <> fin def
+R7812:7812 Ionia.Opt_QuantError_LLaMA <> p:36 var
+binder 7804:7804 <> j:41
+R7846:7850 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7818:7820 Ionia.Proof_CodeGen <> idx def
+R7845:7845 Ionia.Opt_QuantError_LLaMA <> j:41 var
+R7823:7825 Ionia.Proof_CodeGen <> idx def
+R7842:7842 Ionia.Opt_QuantError_LLaMA <> i:40 var
+R7828:7835 Ionia.Ops_Transformer <> MatMul2d def
+R7839:7839 Ionia.Opt_QuantError_LLaMA <> w:39 var
+R7837:7837 Ionia.Opt_QuantError_LLaMA <> a:38 var
+R7851:7859 Ionia.Opt_ApproxError <> dot_exact def
+R7872:7877 Ionia.Proof_CodeGen <> mkvSeq def
+R7888:7890 Ionia.finType <> fin def
+R7892:7892 Ionia.Opt_QuantError_LLaMA <> n:35 var
+binder 7884:7884 <> k:42
+R7897:7899 Ionia.Proof_CodeGen <> idx def
+R7911:7911 Ionia.Opt_QuantError_LLaMA <> j:41 var
+R7902:7904 Ionia.Proof_CodeGen <> idx def
+R7908:7908 Ionia.Opt_QuantError_LLaMA <> k:42 var
+R7906:7906 Ionia.Opt_QuantError_LLaMA <> w:39 var
+R7862:7864 Ionia.Proof_CodeGen <> idx def
+R7868:7868 Ionia.Opt_QuantError_LLaMA <> i:40 var
+R7866:7866 Ionia.Opt_QuantError_LLaMA <> a:38 var
+R7967:7969 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R8027:8029 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R8079:8086 Ionia.Ops_Transformer <> MatMul2d def
+R8099:8108 Ionia.Proof_CodeGen <> idx_mkvSeq thm
+R8133:8142 Ionia.Proof_CodeGen <> idx_mkvSeq thm
+R8166:8174 Ionia.Opt_ApproxError <> dot_exact def
+R8193:8195 Ionia.Proof_CodeGen <> sum def
+R8198:8202 Ionia.Opt_ApproxError <> v_pw2 def
+R8245:8250 Ionia.Proof_CodeGen <> mkvSeq def
+R8261:8263 Ionia.finType <> fin def
+binder 8257:8257 <> k:43
+R8270:8272 Ionia.Proof_CodeGen <> idx def
+R8275:8277 Ionia.Proof_CodeGen <> idx def
+R8281:8281 Ionia.Opt_QuantError_LLaMA <> k:43 var
+R8213:8215 Ionia.Proof_CodeGen <> idx def
+R8204:8208 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+binder 8257:8257 <> k:44
+R8281:8281 Ionia.Opt_QuantError_LLaMA <> k:44 var
+R8325:8334 Ionia.Opt_QuantError_LLaMA <> mkvSeq_pw2 thm
+R8356:8380 Stdlib.Logic.FunctionalExtensionality <> functional_extensionality thm
+R8404:8413 Ionia.Proof_CodeGen <> idx_mkvSeq thm
+R8461:8471 Ionia.Opt_ApproxError <> rsum_eq_sum thm
+prf 8669:8694 <> bmatmul_entry_eq_dot_exact
+R8716:8718 Corelib.Init.Datatypes <> nat ind
+binder 8706:8706 <> b:45
+binder 8708:8708 <> m:46
+binder 8710:8710 <> n:47
+binder 8712:8712 <> p:48
+R8729:8731 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R8728:8728 Ionia.Opt_QuantError_LLaMA <> n:47 var
+binder 8722:8723 <> Hn:49
+R8749:8751 Ionia.Proof_CodeGen <> exp def
+R8754:8756 Ionia.DataExp <> ary constr
+R8764:8766 Ionia.DataExp <> ary constr
+R8774:8776 Ionia.DataExp <> ary constr
+R8783:8785 Ionia.DataExp <> num constr
+R8778:8779 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R8781:8781 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R8780:8780 Ionia.Opt_QuantError_LLaMA <> n:47 var
+R8768:8769 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R8771:8771 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R8770:8770 Ionia.Opt_QuantError_LLaMA <> m:46 var
+R8758:8759 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R8761:8761 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R8760:8760 Ionia.Opt_QuantError_LLaMA <> b:45 var
+binder 8745:8745 <> a:50
+R8800:8802 Ionia.Proof_CodeGen <> exp def
+R8805:8807 Ionia.DataExp <> ary constr
+R8815:8817 Ionia.DataExp <> ary constr
+R8824:8826 Ionia.DataExp <> num constr
+R8819:8820 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R8822:8822 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R8821:8821 Ionia.Opt_QuantError_LLaMA <> p:48 var
+R8809:8810 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R8812:8812 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R8811:8811 Ionia.Opt_QuantError_LLaMA <> n:47 var
+binder 8796:8796 <> w:51
+R8841:8843 Ionia.finType <> fin def
+R8845:8845 Ionia.Opt_QuantError_LLaMA <> b:45 var
+binder 8836:8837 <> bb:52
+R8853:8855 Ionia.finType <> fin def
+R8857:8857 Ionia.Opt_QuantError_LLaMA <> m:46 var
+binder 8849:8849 <> i:53
+R8865:8867 Ionia.finType <> fin def
+R8869:8869 Ionia.Opt_QuantError_LLaMA <> p:48 var
+binder 8861:8861 <> j:54
+R8913:8917 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8875:8877 Ionia.Proof_CodeGen <> idx def
+R8912:8912 Ionia.Opt_QuantError_LLaMA <> j:54 var
+R8880:8882 Ionia.Proof_CodeGen <> idx def
+R8909:8909 Ionia.Opt_QuantError_LLaMA <> i:53 var
+R8885:8887 Ionia.Proof_CodeGen <> idx def
+R8905:8906 Ionia.Opt_QuantError_LLaMA <> bb:52 var
+R8890:8898 Ionia.Attention_DPIA <> BMatMul2d def
+R8902:8902 Ionia.Opt_QuantError_LLaMA <> w:51 var
+R8900:8900 Ionia.Opt_QuantError_LLaMA <> a:50 var
+R8918:8926 Ionia.Opt_ApproxError <> dot_exact def
+R8948:8953 Ionia.Proof_CodeGen <> mkvSeq def
+R8964:8966 Ionia.finType <> fin def
+R8968:8968 Ionia.Opt_QuantError_LLaMA <> n:47 var
+binder 8960:8960 <> k:55
+R8973:8975 Ionia.Proof_CodeGen <> idx def
+R8987:8987 Ionia.Opt_QuantError_LLaMA <> j:54 var
+R8978:8980 Ionia.Proof_CodeGen <> idx def
+R8984:8984 Ionia.Opt_QuantError_LLaMA <> k:55 var
+R8982:8982 Ionia.Opt_QuantError_LLaMA <> w:51 var
+R8929:8931 Ionia.Proof_CodeGen <> idx def
+R8944:8944 Ionia.Opt_QuantError_LLaMA <> i:53 var
+R8934:8936 Ionia.Proof_CodeGen <> idx def
+R8940:8941 Ionia.Opt_QuantError_LLaMA <> bb:52 var
+R8938:8938 Ionia.Opt_QuantError_LLaMA <> a:50 var
+R9048:9050 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R9101:9109 Ionia.Attention_DPIA <> BMatMul2d def
+R9120:9129 Ionia.Proof_CodeGen <> idx_mkvSeq thm
+R9152:9176 Ionia.Opt_QuantError_LLaMA <> matmul_entry_eq_dot_exact thm
+prf 9510:9535 <> llama_attn_score_rnd_error
+R9551:9551 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 9547:9547 <> u:56
+R9561:9564 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R9565:9565 Ionia.Opt_QuantError_LLaMA <> u:56 var
+binder 9555:9556 <> Hu:57
+R9580:9583 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9579:9579 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R9584:9584 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 9573:9575 <> rnd:58
+R9604:9604 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 9602:9602 <> x:59
+R9623:9626 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R9607:9610 Stdlib.Reals.Rbasic_fun <> Rabs def
+R9618:9620 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R9613:9615 Ionia.Opt_QuantError_LLaMA <> rnd:58 var
+R9617:9617 Ionia.Opt_QuantError_LLaMA <> x:59 var
+R9621:9621 Ionia.Opt_QuantError_LLaMA <> x:59 var
+R9628:9630 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R9627:9627 Ionia.Opt_QuantError_LLaMA <> u:56 var
+R9631:9634 Stdlib.Reals.Rbasic_fun <> Rabs def
+R9636:9636 Ionia.Opt_QuantError_LLaMA <> x:59 var
+binder 9588:9591 <> Hrnd:60
+R9649:9651 Corelib.Init.Datatypes <> nat ind
+binder 9644:9645 <> dk:61
+R9662:9664 Ionia.Proof_CodeGen <> exp def
+R9667:9669 Ionia.DataExp <> ary constr
+R9677:9679 Ionia.DataExp <> num constr
+R9671:9672 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9675:9675 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9673:9674 Ionia.Opt_QuantError_LLaMA <> dk:61 var
+binder 9655:9655 <> q:62
+binder 9657:9658 <> kj:63
+R9721:9726 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R9686:9689 Stdlib.Reals.Rbasic_fun <> Rabs def
+R9708:9710 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R9692:9698 Ionia.Opt_ApproxError <> dot_rnd def
+R9706:9707 Ionia.Opt_QuantError_LLaMA <> kj:63 var
+R9704:9704 Ionia.Opt_QuantError_LLaMA <> q:62 var
+R9700:9702 Ionia.Opt_QuantError_LLaMA <> rnd:58 var
+R9711:9714 Ionia.KVCache <> dotr def
+R9718:9719 Ionia.Opt_QuantError_LLaMA <> kj:63 var
+R9716:9716 Ionia.Opt_QuantError_LLaMA <> q:62 var
+R9727:9727 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R9746:9749 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R9742:9744 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R9728:9728 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R9734:9737 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R9730:9732 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R9733:9733 Ionia.Opt_QuantError_LLaMA <> u:56 var
+R9738:9738 Corelib.Init.Datatypes <> S constr
+R9740:9741 Ionia.Opt_QuantError_LLaMA <> dk:61 var
+R9750:9758 Ionia.Opt_ApproxError <> v_abs_sum def
+R9761:9765 Ionia.Opt_ApproxError <> v_pw2 def
+R9778:9779 Ionia.Opt_QuantError_LLaMA <> kj:63 var
+R9776:9776 Ionia.Opt_QuantError_LLaMA <> q:62 var
+R9773:9774 Ionia.Opt_QuantError_LLaMA <> dk:61 var
+R9767:9771 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R9832:9848 Ionia.Opt_QuantError_LLaMA <> dotr_eq_dot_exact thm
+R9860:9872 Ionia.Opt_ApproxError <> dot_rnd_error thm
+prf 10020:10043 <> llama_attn_out_rnd_error
+R10059:10059 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 10055:10055 <> u:64
+R10069:10072 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R10073:10073 Ionia.Opt_QuantError_LLaMA <> u:64 var
+binder 10063:10064 <> Hu:65
+R10088:10091 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10087:10087 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R10092:10092 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 10081:10083 <> rnd:66
+R10112:10112 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 10110:10110 <> x:67
+R10131:10134 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R10115:10118 Stdlib.Reals.Rbasic_fun <> Rabs def
+R10126:10128 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R10121:10123 Ionia.Opt_QuantError_LLaMA <> rnd:66 var
+R10125:10125 Ionia.Opt_QuantError_LLaMA <> x:67 var
+R10129:10129 Ionia.Opt_QuantError_LLaMA <> x:67 var
+R10136:10138 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R10135:10135 Ionia.Opt_QuantError_LLaMA <> u:64 var
+R10139:10142 Stdlib.Reals.Rbasic_fun <> Rabs def
+R10144:10144 Ionia.Opt_QuantError_LLaMA <> x:67 var
+binder 10096:10099 <> Hrnd:68
+R10159:10161 Corelib.Init.Datatypes <> nat ind
+binder 10152:10153 <> dk:69
+binder 10155:10155 <> n:70
+R10174:10176 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R10172:10173 Ionia.Opt_QuantError_LLaMA <> dk:69 var
+binder 10165:10167 <> Hdk:71
+R10193:10195 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R10192:10192 Ionia.Opt_QuantError_LLaMA <> n:70 var
+binder 10186:10187 <> Hn:72
+R10213:10215 Ionia.Proof_CodeGen <> exp def
+R10218:10220 Ionia.DataExp <> ary constr
+R10228:10230 Ionia.DataExp <> num constr
+R10222:10223 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10226:10226 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10224:10225 Ionia.Opt_QuantError_LLaMA <> dk:69 var
+binder 10209:10209 <> q:73
+R10245:10247 Ionia.Proof_CodeGen <> exp def
+R10250:10252 Ionia.DataExp <> ary constr
+R10260:10262 Ionia.DataExp <> ary constr
+R10270:10272 Ionia.DataExp <> num constr
+R10264:10265 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10268:10268 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10266:10267 Ionia.Opt_QuantError_LLaMA <> dk:69 var
+R10254:10255 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10257:10257 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10256:10256 Ionia.Opt_QuantError_LLaMA <> n:70 var
+binder 10239:10239 <> K:74
+binder 10241:10241 <> V:75
+R10283:10285 Ionia.finType <> fin def
+R10287:10288 Ionia.Opt_QuantError_LLaMA <> dk:69 var
+binder 10278:10279 <> dd:76
+R10393:10398 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R10294:10297 Stdlib.Reals.Rbasic_fun <> Rabs def
+R10361:10371 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R10300:10306 Ionia.Opt_ApproxError <> dot_rnd def
+R10343:10354 Ionia.Opt_QuantError_LLaMA <> attn_out_col def
+R10358:10359 Ionia.Opt_QuantError_LLaMA <> dd:76 var
+R10356:10356 Ionia.Opt_QuantError_LLaMA <> V:75 var
+R10313:10321 Ionia.LeNet5_Functional <> Softmax1d def
+R10324:10334 Ionia.KVCache <> attn_scores def
+R10338:10338 Ionia.Opt_QuantError_LLaMA <> K:74 var
+R10336:10336 Ionia.Opt_QuantError_LLaMA <> q:73 var
+R10308:10310 Ionia.Opt_QuantError_LLaMA <> rnd:66 var
+R10372:10374 Ionia.Proof_CodeGen <> idx def
+R10390:10391 Ionia.Opt_QuantError_LLaMA <> dd:76 var
+R10377:10381 Ionia.KVCache <> AttnQ def
+R10387:10387 Ionia.Opt_QuantError_LLaMA <> V:75 var
+R10385:10385 Ionia.Opt_QuantError_LLaMA <> K:74 var
+R10383:10383 Ionia.Opt_QuantError_LLaMA <> q:73 var
+R10399:10399 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R10417:10425 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R10413:10415 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R10400:10400 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R10406:10409 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R10402:10404 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R10405:10405 Ionia.Opt_QuantError_LLaMA <> u:64 var
+R10410:10410 Corelib.Init.Datatypes <> S constr
+R10412:10412 Ionia.Opt_QuantError_LLaMA <> n:70 var
+R10426:10434 Ionia.Opt_ApproxError <> v_abs_sum def
+R10437:10441 Ionia.Opt_ApproxError <> v_pw2 def
+R10502:10513 Ionia.Opt_QuantError_LLaMA <> attn_out_col def
+R10517:10518 Ionia.Opt_QuantError_LLaMA <> dd:76 var
+R10515:10515 Ionia.Opt_QuantError_LLaMA <> V:75 var
+R10452:10460 Ionia.LeNet5_Functional <> Softmax1d def
+R10463:10473 Ionia.KVCache <> attn_scores def
+R10477:10477 Ionia.Opt_QuantError_LLaMA <> K:74 var
+R10475:10475 Ionia.Opt_QuantError_LLaMA <> q:73 var
+R10449:10449 Ionia.Opt_QuantError_LLaMA <> n:70 var
+R10443:10447 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R10585:10608 Ionia.Opt_QuantError_LLaMA <> attnQ_entry_eq_dot_exact thm
+R10634:10646 Ionia.Opt_ApproxError <> dot_rnd_error thm
+prf 10753:10772 <> llama_gemv_rnd_error
+R10788:10788 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 10784:10784 <> u:77
+R10798:10801 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R10802:10802 Ionia.Opt_QuantError_LLaMA <> u:77 var
+binder 10792:10793 <> Hu:78
+R10817:10820 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10816:10816 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R10821:10821 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 10810:10812 <> rnd:79
+R10841:10841 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 10839:10839 <> x:80
+R10860:10863 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R10844:10847 Stdlib.Reals.Rbasic_fun <> Rabs def
+R10855:10857 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R10850:10852 Ionia.Opt_QuantError_LLaMA <> rnd:79 var
+R10854:10854 Ionia.Opt_QuantError_LLaMA <> x:80 var
+R10858:10858 Ionia.Opt_QuantError_LLaMA <> x:80 var
+R10865:10867 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R10864:10864 Ionia.Opt_QuantError_LLaMA <> u:77 var
+R10868:10871 Stdlib.Reals.Rbasic_fun <> Rabs def
+R10873:10873 Ionia.Opt_QuantError_LLaMA <> x:80 var
+binder 10825:10828 <> Hrnd:81
+R10889:10891 Corelib.Init.Datatypes <> nat ind
+binder 10881:10881 <> m:82
+binder 10883:10883 <> n:83
+binder 10885:10885 <> p:84
+R10902:10904 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R10901:10901 Ionia.Opt_QuantError_LLaMA <> n:83 var
+binder 10895:10896 <> Hn:85
+R10922:10924 Ionia.Proof_CodeGen <> exp def
+R10927:10929 Ionia.DataExp <> ary constr
+R10937:10939 Ionia.DataExp <> ary constr
+R10946:10948 Ionia.DataExp <> num constr
+R10941:10942 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10944:10944 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10943:10943 Ionia.Opt_QuantError_LLaMA <> n:83 var
+R10931:10932 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10934:10934 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10933:10933 Ionia.Opt_QuantError_LLaMA <> m:82 var
+binder 10918:10918 <> a:86
+R10962:10964 Ionia.Proof_CodeGen <> exp def
+R10967:10969 Ionia.DataExp <> ary constr
+R10977:10979 Ionia.DataExp <> ary constr
+R10986:10988 Ionia.DataExp <> num constr
+R10981:10982 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10984:10984 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10983:10983 Ionia.Opt_QuantError_LLaMA <> p:84 var
+R10971:10972 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10974:10974 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10973:10973 Ionia.Opt_QuantError_LLaMA <> n:83 var
+binder 10958:10958 <> w:87
+R11002:11004 Ionia.finType <> fin def
+R11006:11006 Ionia.Opt_QuantError_LLaMA <> m:82 var
+binder 10998:10998 <> i:88
+R11014:11016 Ionia.finType <> fin def
+R11018:11018 Ionia.Opt_QuantError_LLaMA <> p:84 var
+binder 11010:11010 <> j:89
+R11135:11140 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R11024:11027 Stdlib.Reals.Rbasic_fun <> Rabs def
+R11095:11105 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R11030:11036 Ionia.Opt_ApproxError <> dot_rnd def
+R11053:11058 Ionia.Proof_CodeGen <> mkvSeq def
+R11069:11071 Ionia.finType <> fin def
+R11073:11073 Ionia.Opt_QuantError_LLaMA <> n:83 var
+binder 11065:11065 <> k:90
+R11078:11080 Ionia.Proof_CodeGen <> idx def
+R11092:11092 Ionia.Opt_QuantError_LLaMA <> j:89 var
+R11083:11085 Ionia.Proof_CodeGen <> idx def
+R11089:11089 Ionia.Opt_QuantError_LLaMA <> k:90 var
+R11087:11087 Ionia.Opt_QuantError_LLaMA <> w:87 var
+R11043:11045 Ionia.Proof_CodeGen <> idx def
+R11049:11049 Ionia.Opt_QuantError_LLaMA <> i:88 var
+R11047:11047 Ionia.Opt_QuantError_LLaMA <> a:86 var
+R11038:11040 Ionia.Opt_QuantError_LLaMA <> rnd:79 var
+R11106:11108 Ionia.Proof_CodeGen <> idx def
+R11133:11133 Ionia.Opt_QuantError_LLaMA <> j:89 var
+R11111:11113 Ionia.Proof_CodeGen <> idx def
+R11130:11130 Ionia.Opt_QuantError_LLaMA <> i:88 var
+R11116:11123 Ionia.Ops_Transformer <> MatMul2d def
+R11127:11127 Ionia.Opt_QuantError_LLaMA <> w:87 var
+R11125:11125 Ionia.Opt_QuantError_LLaMA <> a:86 var
+R11141:11141 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R11159:11167 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R11155:11157 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R11142:11142 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R11148:11151 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R11144:11146 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11147:11147 Ionia.Opt_QuantError_LLaMA <> u:77 var
+R11152:11152 Corelib.Init.Datatypes <> S constr
+R11154:11154 Ionia.Opt_QuantError_LLaMA <> n:83 var
+R11168:11176 Ionia.Opt_ApproxError <> v_abs_sum def
+R11179:11183 Ionia.Opt_ApproxError <> v_pw2 def
+R11224:11229 Ionia.Proof_CodeGen <> mkvSeq def
+R11240:11242 Ionia.finType <> fin def
+R11244:11244 Ionia.Opt_QuantError_LLaMA <> n:83 var
+binder 11236:11236 <> k:91
+R11249:11251 Ionia.Proof_CodeGen <> idx def
+R11263:11263 Ionia.Opt_QuantError_LLaMA <> j:89 var
+R11254:11256 Ionia.Proof_CodeGen <> idx def
+R11260:11260 Ionia.Opt_QuantError_LLaMA <> k:91 var
+R11258:11258 Ionia.Opt_QuantError_LLaMA <> w:87 var
+R11194:11196 Ionia.Proof_CodeGen <> idx def
+R11200:11200 Ionia.Opt_QuantError_LLaMA <> i:88 var
+R11198:11198 Ionia.Opt_QuantError_LLaMA <> a:86 var
+R11191:11191 Ionia.Opt_QuantError_LLaMA <> n:83 var
+R11185:11189 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R11327:11351 Ionia.Opt_QuantError_LLaMA <> matmul_entry_eq_dot_exact thm
+R11375:11387 Ionia.Opt_ApproxError <> dot_rnd_error thm
+prf 11736:11762 <> llama_attn_score_int8_error
+R11779:11781 Corelib.Init.Datatypes <> nat ind
+binder 11774:11775 <> dk:92
+R11803:11805 Ionia.Proof_CodeGen <> exp def
+R11808:11810 Ionia.DataExp <> ary constr
+R11818:11820 Ionia.DataExp <> num constr
+R11812:11813 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11816:11816 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11814:11815 Ionia.Opt_QuantError_LLaMA <> dk:92 var
+binder 11789:11789 <> q:93
+binder 11791:11792 <> kj:94
+binder 11794:11795 <> qq:95
+binder 11797:11799 <> qkj:96
+R11833:11833 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 11825:11826 <> sq:97
+binder 11828:11829 <> sk:98
+R11846:11849 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11840:11843 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R11844:11845 Ionia.Opt_QuantError_LLaMA <> sq:97 var
+R11857:11862 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11851:11854 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R11855:11856 Ionia.Opt_QuantError_LLaMA <> sk:98 var
+R11922:11927 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11863:11870 Ionia.Opt_ApproxError <> v_pw_rel def
+R11921:11921 Ionia.Opt_QuantError_LLaMA <> q:93 var
+R11918:11919 Ionia.Opt_QuantError_LLaMA <> qq:95 var
+R11915:11916 Ionia.Opt_QuantError_LLaMA <> dk:92 var
+binder 11877:11877 <> t:99
+binder 11879:11880 <> qi:100
+R11903:11906 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R11885:11888 Stdlib.Reals.Rbasic_fun <> Rabs def
+R11897:11899 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R11893:11895 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R11891:11892 Ionia.Opt_QuantError_LLaMA <> sq:97 var
+R11896:11896 Ionia.Opt_QuantError_LLaMA <> t:99 var
+R11900:11901 Ionia.Opt_QuantError_LLaMA <> qi:100 var
+R11909:11911 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R11907:11908 Ionia.Opt_QuantError_LLaMA <> sq:97 var
+R11989:11994 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11928:11935 Ionia.Opt_ApproxError <> v_pw_rel def
+R11987:11988 Ionia.Opt_QuantError_LLaMA <> kj:94 var
+R11983:11985 Ionia.Opt_QuantError_LLaMA <> qkj:96 var
+R11980:11981 Ionia.Opt_QuantError_LLaMA <> dk:92 var
+binder 11942:11942 <> t:101
+binder 11944:11945 <> ki:102
+R11968:11971 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R11950:11953 Stdlib.Reals.Rbasic_fun <> Rabs def
+R11962:11964 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R11958:11960 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R11956:11957 Ionia.Opt_QuantError_LLaMA <> sk:98 var
+R11961:11961 Ionia.Opt_QuantError_LLaMA <> t:101 var
+R11965:11966 Ionia.Opt_QuantError_LLaMA <> ki:102 var
+R11974:11976 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R11972:11973 Ionia.Opt_QuantError_LLaMA <> sk:98 var
+R12031:12036 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11995:11999 Ionia.Opt_ApproxError <> v_all def
+binder 12006:12006 <> t:103
+R12017:12020 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R12011:12014 Stdlib.Reals.Rbasic_fun <> Rabs def
+R12016:12016 Ionia.Opt_QuantError_LLaMA <> t:103 var
+R12026:12027 Ionia.Opt_QuantError_LLaMA <> dk:92 var
+R12029:12030 Ionia.Opt_QuantError_LLaMA <> qq:95 var
+R12074:12079 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12037:12041 Ionia.Opt_ApproxError <> v_all def
+binder 12048:12048 <> t:104
+R12059:12062 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R12053:12056 Stdlib.Reals.Rbasic_fun <> Rabs def
+R12058:12058 Ionia.Opt_QuantError_LLaMA <> t:104 var
+R12068:12069 Ionia.Opt_QuantError_LLaMA <> dk:92 var
+R12071:12073 Ionia.Opt_QuantError_LLaMA <> qkj:96 var
+R12120:12125 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R12080:12083 Stdlib.Reals.Rbasic_fun <> Rabs def
+R12107:12109 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R12086:12093 Ionia.Opt_QuantError <> dot_int8 def
+R12104:12106 Ionia.Opt_QuantError_LLaMA <> qkj:96 var
+R12101:12102 Ionia.Opt_QuantError_LLaMA <> qq:95 var
+R12098:12099 Ionia.Opt_QuantError_LLaMA <> sk:98 var
+R12095:12096 Ionia.Opt_QuantError_LLaMA <> sq:97 var
+R12110:12113 Ionia.KVCache <> dotr def
+R12117:12118 Ionia.Opt_QuantError_LLaMA <> kj:94 var
+R12115:12115 Ionia.Opt_QuantError_LLaMA <> q:93 var
+R12142:12145 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12153:12153 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12133:12135 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12128:12130 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12126:12127 Ionia.Opt_QuantError_LLaMA <> sq:97 var
+R12131:12132 Ionia.Opt_QuantError_LLaMA <> sk:98 var
+R12136:12138 Stdlib.Reals.Raxioms <> INR def
+R12140:12141 Ionia.Opt_QuantError_LLaMA <> dk:92 var
+R12149:12151 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R12230:12246 Ionia.Opt_QuantError_LLaMA <> dotr_eq_dot_exact thm
+R12258:12276 Ionia.Opt_QuantError <> dot_int8_error_int8 thm
+prf 12421:12441 <> llama_gemv_int8_error
+R12461:12463 Corelib.Init.Datatypes <> nat ind
+binder 12453:12453 <> m:105
+binder 12455:12455 <> n:106
+binder 12457:12457 <> p:107
+R12474:12476 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R12473:12473 Ionia.Opt_QuantError_LLaMA <> n:106 var
+binder 12467:12468 <> Hn:108
+R12494:12496 Ionia.Proof_CodeGen <> exp def
+R12499:12501 Ionia.DataExp <> ary constr
+R12509:12511 Ionia.DataExp <> ary constr
+R12518:12520 Ionia.DataExp <> num constr
+R12513:12514 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12516:12516 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12515:12515 Ionia.Opt_QuantError_LLaMA <> n:106 var
+R12503:12504 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12506:12506 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12505:12505 Ionia.Opt_QuantError_LLaMA <> m:105 var
+binder 12490:12490 <> a:109
+R12534:12536 Ionia.Proof_CodeGen <> exp def
+R12539:12541 Ionia.DataExp <> ary constr
+R12549:12551 Ionia.DataExp <> ary constr
+R12558:12560 Ionia.DataExp <> num constr
+R12553:12554 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12556:12556 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12555:12555 Ionia.Opt_QuantError_LLaMA <> p:107 var
+R12543:12544 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12546:12546 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12545:12545 Ionia.Opt_QuantError_LLaMA <> n:106 var
+binder 12530:12530 <> w:110
+R12578:12580 Ionia.Proof_CodeGen <> exp def
+R12583:12585 Ionia.DataExp <> ary constr
+R12592:12594 Ionia.DataExp <> num constr
+R12587:12588 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12590:12590 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12589:12589 Ionia.Opt_QuantError_LLaMA <> n:106 var
+binder 12570:12571 <> qa:111
+binder 12573:12574 <> qw:112
+R12607:12607 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 12599:12600 <> sa:113
+binder 12602:12603 <> sw:114
+R12619:12621 Ionia.finType <> fin def
+R12623:12623 Ionia.Opt_QuantError_LLaMA <> m:105 var
+binder 12615:12615 <> i:115
+R12631:12633 Ionia.finType <> fin def
+R12635:12635 Ionia.Opt_QuantError_LLaMA <> p:107 var
+binder 12627:12627 <> j:116
+R12648:12651 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12642:12645 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R12646:12647 Ionia.Opt_QuantError_LLaMA <> sa:113 var
+R12659:12664 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12653:12656 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R12657:12658 Ionia.Opt_QuantError_LLaMA <> sw:114 var
+R12731:12736 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12665:12672 Ionia.Opt_ApproxError <> v_pw_rel def
+R12723:12725 Ionia.Proof_CodeGen <> idx def
+R12729:12729 Ionia.Opt_QuantError_LLaMA <> i:115 var
+R12727:12727 Ionia.Opt_QuantError_LLaMA <> a:109 var
+R12719:12720 Ionia.Opt_QuantError_LLaMA <> qa:111 var
+R12717:12717 Ionia.Opt_QuantError_LLaMA <> n:106 var
+binder 12679:12679 <> t:117
+binder 12681:12682 <> ai:118
+R12705:12708 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R12687:12690 Stdlib.Reals.Rbasic_fun <> Rabs def
+R12699:12701 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R12695:12697 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12693:12694 Ionia.Opt_QuantError_LLaMA <> sa:113 var
+R12698:12698 Ionia.Opt_QuantError_LLaMA <> t:117 var
+R12702:12703 Ionia.Opt_QuantError_LLaMA <> ai:118 var
+R12711:12713 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R12709:12710 Ionia.Opt_QuantError_LLaMA <> sa:113 var
+R12841:12846 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12737:12744 Ionia.Opt_ApproxError <> v_pw_rel def
+R12799:12804 Ionia.Proof_CodeGen <> mkvSeq def
+R12815:12817 Ionia.finType <> fin def
+R12819:12819 Ionia.Opt_QuantError_LLaMA <> n:106 var
+binder 12811:12811 <> k:119
+R12824:12826 Ionia.Proof_CodeGen <> idx def
+R12838:12838 Ionia.Opt_QuantError_LLaMA <> j:116 var
+R12829:12831 Ionia.Proof_CodeGen <> idx def
+R12835:12835 Ionia.Opt_QuantError_LLaMA <> k:119 var
+R12833:12833 Ionia.Opt_QuantError_LLaMA <> w:110 var
+R12791:12792 Ionia.Opt_QuantError_LLaMA <> qw:112 var
+R12789:12789 Ionia.Opt_QuantError_LLaMA <> n:106 var
+binder 12751:12751 <> t:120
+binder 12753:12754 <> wi:121
+R12777:12780 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R12759:12762 Stdlib.Reals.Rbasic_fun <> Rabs def
+R12771:12773 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R12767:12769 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12765:12766 Ionia.Opt_QuantError_LLaMA <> sw:114 var
+R12770:12770 Ionia.Opt_QuantError_LLaMA <> t:120 var
+R12774:12775 Ionia.Opt_QuantError_LLaMA <> wi:121 var
+R12783:12785 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R12781:12782 Ionia.Opt_QuantError_LLaMA <> sw:114 var
+R12882:12887 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12847:12851 Ionia.Opt_ApproxError <> v_all def
+binder 12858:12858 <> t:122
+R12869:12872 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R12863:12866 Stdlib.Reals.Rbasic_fun <> Rabs def
+R12868:12868 Ionia.Opt_QuantError_LLaMA <> t:122 var
+R12878:12878 Ionia.Opt_QuantError_LLaMA <> n:106 var
+R12880:12881 Ionia.Opt_QuantError_LLaMA <> qa:111 var
+R12923:12928 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12888:12892 Ionia.Opt_ApproxError <> v_all def
+binder 12899:12899 <> t:123
+R12910:12913 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R12904:12907 Stdlib.Reals.Rbasic_fun <> Rabs def
+R12909:12909 Ionia.Opt_QuantError_LLaMA <> t:123 var
+R12919:12919 Ionia.Opt_QuantError_LLaMA <> n:106 var
+R12921:12922 Ionia.Opt_QuantError_LLaMA <> qw:112 var
+R12987:12992 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R12929:12932 Stdlib.Reals.Rbasic_fun <> Rabs def
+R12955:12957 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R12935:12942 Ionia.Opt_QuantError <> dot_int8 def
+R12953:12954 Ionia.Opt_QuantError_LLaMA <> qw:112 var
+R12950:12951 Ionia.Opt_QuantError_LLaMA <> qa:111 var
+R12947:12948 Ionia.Opt_QuantError_LLaMA <> sw:114 var
+R12944:12945 Ionia.Opt_QuantError_LLaMA <> sa:113 var
+R12958:12960 Ionia.Proof_CodeGen <> idx def
+R12985:12985 Ionia.Opt_QuantError_LLaMA <> j:116 var
+R12963:12965 Ionia.Proof_CodeGen <> idx def
+R12982:12982 Ionia.Opt_QuantError_LLaMA <> i:115 var
+R12968:12975 Ionia.Ops_Transformer <> MatMul2d def
+R12979:12979 Ionia.Opt_QuantError_LLaMA <> w:110 var
+R12977:12977 Ionia.Opt_QuantError_LLaMA <> a:109 var
+R13008:13011 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R13019:13019 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R13000:13002 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12995:12997 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R12993:12994 Ionia.Opt_QuantError_LLaMA <> sa:113 var
+R12998:12999 Ionia.Opt_QuantError_LLaMA <> sw:114 var
+R13003:13005 Stdlib.Reals.Raxioms <> INR def
+R13007:13007 Ionia.Opt_QuantError_LLaMA <> n:106 var
+R13015:13017 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R13104:13128 Ionia.Opt_QuantError_LLaMA <> matmul_entry_eq_dot_exact thm
+R13152:13170 Ionia.Opt_QuantError <> dot_int8_error_int8 thm
+R13175:13177 Ionia.Proof_CodeGen <> idx def
+R13196:13201 Ionia.Proof_CodeGen <> mkvSeq def
+R13212:13214 Ionia.finType <> fin def
+binder 13208:13208 <> k:124
+R13221:13223 Ionia.Proof_CodeGen <> idx def
+R13226:13228 Ionia.Proof_CodeGen <> idx def
+R13232:13232 Ionia.Opt_QuantError_LLaMA <> k:124 var
+binder 13208:13208 <> k:125
+R13232:13232 Ionia.Opt_QuantError_LLaMA <> k:125 var
+prf 13582:13612 <> llama_mini_attn_score_rnd_error
+R13628:13628 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 13624:13624 <> u:126
+R13638:13641 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R13642:13642 Ionia.Opt_QuantError_LLaMA <> u:126 var
+binder 13632:13633 <> Hu:127
+R13657:13660 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13656:13656 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R13661:13661 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 13650:13652 <> rnd:128
+R13681:13681 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 13679:13679 <> x:129
+R13700:13703 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R13684:13687 Stdlib.Reals.Rbasic_fun <> Rabs def
+R13695:13697 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R13690:13692 Ionia.Opt_QuantError_LLaMA <> rnd:128 var
+R13694:13694 Ionia.Opt_QuantError_LLaMA <> x:129 var
+R13698:13698 Ionia.Opt_QuantError_LLaMA <> x:129 var
+R13705:13707 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R13704:13704 Ionia.Opt_QuantError_LLaMA <> u:126 var
+R13708:13711 Stdlib.Reals.Rbasic_fun <> Rabs def
+R13713:13713 Ionia.Opt_QuantError_LLaMA <> x:129 var
+binder 13665:13668 <> Hrnd:130
+R13728:13730 Ionia.Proof_CodeGen <> exp def
+R13733:13735 Ionia.DataExp <> ary constr
+R13743:13745 Ionia.DataExp <> num constr
+R13737:13738 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13741:13741 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+binder 13721:13721 <> q:131
+binder 13723:13724 <> kj:132
+R13787:13792 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R13752:13755 Stdlib.Reals.Rbasic_fun <> Rabs def
+R13774:13776 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R13758:13764 Ionia.Opt_ApproxError <> dot_rnd def
+R13772:13773 Ionia.Opt_QuantError_LLaMA <> kj:132 var
+R13770:13770 Ionia.Opt_QuantError_LLaMA <> q:131 var
+R13766:13768 Ionia.Opt_QuantError_LLaMA <> rnd:128 var
+R13777:13780 Ionia.KVCache <> dotr def
+R13784:13785 Ionia.Opt_QuantError_LLaMA <> kj:132 var
+R13782:13782 Ionia.Opt_QuantError_LLaMA <> q:131 var
+R13793:13793 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R13810:13813 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R13806:13808 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R13794:13794 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R13800:13803 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R13796:13798 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R13799:13799 Ionia.Opt_QuantError_LLaMA <> u:126 var
+R13814:13822 Ionia.Opt_ApproxError <> v_abs_sum def
+R13825:13829 Ionia.Opt_ApproxError <> v_pw2 def
+R13842:13843 Ionia.Opt_QuantError_LLaMA <> kj:132 var
+R13840:13840 Ionia.Opt_QuantError_LLaMA <> q:131 var
+R13831:13835 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R13871:13896 Ionia.Opt_QuantError_LLaMA <> llama_attn_score_rnd_error thm
+prf 14120:14150 <> llama_mini_ffn_decode_rnd_error
+R14166:14166 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 14162:14162 <> u:133
+R14176:14179 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R14180:14180 Ionia.Opt_QuantError_LLaMA <> u:133 var
+binder 14170:14171 <> Hu:134
+R14195:14198 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14194:14194 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R14199:14199 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 14188:14190 <> rnd:135
+R14219:14219 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 14217:14217 <> x:136
+R14238:14241 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R14222:14225 Stdlib.Reals.Rbasic_fun <> Rabs def
+R14233:14235 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14228:14230 Ionia.Opt_QuantError_LLaMA <> rnd:135 var
+R14232:14232 Ionia.Opt_QuantError_LLaMA <> x:136 var
+R14236:14236 Ionia.Opt_QuantError_LLaMA <> x:136 var
+R14243:14245 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R14242:14242 Ionia.Opt_QuantError_LLaMA <> u:133 var
+R14246:14249 Stdlib.Reals.Rbasic_fun <> Rabs def
+R14251:14251 Ionia.Opt_QuantError_LLaMA <> x:136 var
+binder 14203:14206 <> Hrnd:137
+R14264:14266 Ionia.Proof_CodeGen <> exp def
+R14269:14271 Ionia.DataExp <> ary constr
+R14279:14281 Ionia.DataExp <> ary constr
+R14289:14291 Ionia.DataExp <> ary constr
+R14299:14301 Ionia.DataExp <> num constr
+R14293:14294 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14297:14297 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14283:14284 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14286:14286 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14273:14274 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14276:14276 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+binder 14259:14260 <> x1:138
+R14317:14319 Ionia.Proof_CodeGen <> exp def
+R14322:14324 Ionia.DataExp <> ary constr
+R14333:14335 Ionia.DataExp <> ary constr
+R14343:14345 Ionia.DataExp <> num constr
+R14337:14338 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14341:14341 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14326:14327 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14330:14330 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+binder 14312:14313 <> w1:139
+R14360:14362 Ionia.finType <> fin def
+binder 14355:14356 <> bb:140
+R14372:14374 Ionia.finType <> fin def
+binder 14368:14368 <> i:141
+R14384:14386 Ionia.finType <> fin def
+binder 14380:14380 <> j:142
+R14540:14545 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R14395:14398 Stdlib.Reals.Rbasic_fun <> Rabs def
+R14488:14498 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14401:14407 Ionia.Opt_ApproxError <> dot_rnd def
+R14444:14449 Ionia.Proof_CodeGen <> mkvSeq def
+R14460:14462 Ionia.finType <> fin def
+binder 14456:14456 <> k:143
+R14470:14472 Ionia.Proof_CodeGen <> idx def
+R14485:14485 Ionia.Opt_QuantError_LLaMA <> j:142 var
+R14475:14477 Ionia.Proof_CodeGen <> idx def
+R14482:14482 Ionia.Opt_QuantError_LLaMA <> k:143 var
+R14479:14480 Ionia.Opt_QuantError_LLaMA <> w1:139 var
+R14414:14416 Ionia.Proof_CodeGen <> idx def
+R14430:14430 Ionia.Opt_QuantError_LLaMA <> i:141 var
+R14419:14421 Ionia.Proof_CodeGen <> idx def
+R14426:14427 Ionia.Opt_QuantError_LLaMA <> bb:140 var
+R14423:14424 Ionia.Opt_QuantError_LLaMA <> x1:138 var
+R14409:14411 Ionia.Opt_QuantError_LLaMA <> rnd:135 var
+R14499:14501 Ionia.Proof_CodeGen <> idx def
+R14538:14538 Ionia.Opt_QuantError_LLaMA <> j:142 var
+R14504:14506 Ionia.Proof_CodeGen <> idx def
+R14535:14535 Ionia.Opt_QuantError_LLaMA <> i:141 var
+R14509:14511 Ionia.Proof_CodeGen <> idx def
+R14531:14532 Ionia.Opt_QuantError_LLaMA <> bb:140 var
+R14514:14522 Ionia.Attention_DPIA <> BMatMul2d def
+R14527:14528 Ionia.Opt_QuantError_LLaMA <> w1:139 var
+R14524:14525 Ionia.Opt_QuantError_LLaMA <> x1:138 var
+R14546:14546 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R14563:14571 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R14559:14561 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R14547:14547 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R14553:14556 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R14549:14551 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R14552:14552 Ionia.Opt_QuantError_LLaMA <> u:133 var
+R14572:14580 Ionia.Opt_ApproxError <> v_abs_sum def
+R14583:14587 Ionia.Opt_ApproxError <> v_pw2 def
+R14639:14644 Ionia.Proof_CodeGen <> mkvSeq def
+R14655:14657 Ionia.finType <> fin def
+binder 14651:14651 <> k:144
+R14665:14667 Ionia.Proof_CodeGen <> idx def
+R14680:14680 Ionia.Opt_QuantError_LLaMA <> j:142 var
+R14670:14672 Ionia.Proof_CodeGen <> idx def
+R14677:14677 Ionia.Opt_QuantError_LLaMA <> k:144 var
+R14674:14675 Ionia.Opt_QuantError_LLaMA <> w1:139 var
+R14599:14601 Ionia.Proof_CodeGen <> idx def
+R14615:14615 Ionia.Opt_QuantError_LLaMA <> i:141 var
+R14604:14606 Ionia.Proof_CodeGen <> idx def
+R14611:14612 Ionia.Opt_QuantError_LLaMA <> bb:140 var
+R14608:14609 Ionia.Opt_QuantError_LLaMA <> x1:138 var
+R14589:14593 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl Rmult defax
+R14740:14765 Ionia.Opt_QuantError_LLaMA <> bmatmul_entry_eq_dot_exact thm
+R14784:14796 Ionia.Opt_ApproxError <> dot_rnd_error thm
+prf 15149:15168 <> tf32_gamma_attn_dk16
+R15195:15198 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R15191:15193 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15172:15172 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R15183:15184 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R15174:15176 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R15177:15182 Ionia.Opt_ApproxError <> u_TF32 def
+R15199:15201 Stdlib.Reals.Rdefinitions <> Q2R def
+R15207:15209 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R15239:15246 Ionia.Opt_ApproxError_Apply <> gammaQ_R thm
+R15255:15261 Stdlib.Reals.Qreals <> Qle_Rle thm
+R15270:15281 Stdlib.QArith.QArith_base <> Qle_bool_iff thm
+prf 15405:15423 <> tf32_gamma_ffn_dm32
+R15450:15453 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R15446:15448 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R15427:15427 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R15438:15439 Stdlib.Reals.Rfunctions <> ::R_scope:x_'^'_x not
+R15429:15431 Stdlib.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R15432:15437 Ionia.Opt_ApproxError <> u_TF32 def
+R15454:15456 Stdlib.Reals.Rdefinitions <> Q2R def
+R15463:15465 Stdlib.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R15495:15502 Ionia.Opt_ApproxError_Apply <> gammaQ_R thm
+R15511:15517 Stdlib.Reals.Qreals <> Qle_Rle thm
+R15526:15537 Stdlib.QArith.QArith_base <> Qle_bool_iff thm

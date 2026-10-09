@@ -1,0 +1,3635 @@
+DIGEST dfbc2833ab1232171f28af67c6867bcf
+FIonia.KVCache
+R2960:2983 Stdlib.Logic.FunctionalExtensionality <> <> lib
+R3001:3016 Ionia.DPIA_Rules <> <> lib
+R3034:3052 Ionia.Proof_CodeGen <> <> lib
+R3162:3166 Stdlib.Reals.Reals <> <> lib
+R3168:3170 Stdlib.micromega.Lia <> <> lib
+R3200:3213 Stdlib.Logic.Classical_Prop <> <> lib
+R3223:3235 Ionia.Proof_CodeGen <> <> mod
+R3272:3294 Ionia.LeNet5_Functional <> <> lib
+R3435:3454 Ionia.Attention_DPIA <> <> lib
+R3572:3592 Ionia.Ops_Transformer <> <> lib
+R3610:3630 Ionia.Ops_Elementwise <> <> lib
+R3667:3682 Ionia.Ops_Reduce <> <> lib
+R3724:3741 Ionia.Seq2Seq_DPIA <> <> lib
+R3771:3776 Stdlib.Strings.String <> <> lib
+prf 4138:4151 <> aryidx_neq_idx
+R4167:4169 Corelib.Init.Datatypes <> nat ind
+binder 4163:4163 <> n:1
+R4179:4181 Ionia.finType <> fin def
+R4183:4183 Ionia.KVCache <> n:1 var
+binder 4173:4173 <> i:2
+binder 4175:4175 <> j:3
+R4191:4194 Ionia.DataExp <> path ind
+binder 4187:4187 <> a:4
+R4222:4225 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4209:4212 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R4200:4206 Ionia.finType <> fin2nat def
+R4208:4208 Ionia.KVCache <> i:2 var
+R4213:4219 Ionia.finType <> fin2nat def
+R4221:4221 Ionia.KVCache <> j:3 var
+R4236:4239 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R4226:4231 Ionia.DataExp <> AryIdx constr
+R4235:4235 Ionia.KVCache <> a:4 var
+R4233:4233 Ionia.KVCache <> i:2 var
+R4240:4245 Ionia.DataExp <> AryIdx constr
+R4249:4249 Ionia.KVCache <> a:4 var
+R4247:4247 Ionia.KVCache <> j:3 var
+R4288:4296 Ionia.DataExp <> AryIdx_eq thm
+prf 4407:4421 <> aryidx_neq_base
+R4439:4441 Corelib.Init.Datatypes <> nat ind
+binder 4433:4433 <> n:5
+binder 4435:4435 <> m:6
+R4449:4451 Ionia.finType <> fin def
+R4453:4453 Ionia.KVCache <> n:5 var
+binder 4445:4445 <> i:7
+R4461:4463 Ionia.finType <> fin def
+R4465:4465 Ionia.KVCache <> m:6 var
+binder 4457:4457 <> j:8
+R4475:4478 Ionia.DataExp <> path ind
+binder 4469:4469 <> a:9
+binder 4471:4471 <> b:10
+R4490:4493 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4485:4488 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R4484:4484 Ionia.KVCache <> a:9 var
+R4489:4489 Ionia.KVCache <> b:10 var
+R4504:4507 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R4494:4499 Ionia.DataExp <> AryIdx constr
+R4503:4503 Ionia.KVCache <> a:9 var
+R4501:4501 Ionia.KVCache <> i:7 var
+R4508:4513 Ionia.DataExp <> AryIdx constr
+R4517:4517 Ionia.KVCache <> b:10 var
+R4515:4515 Ionia.KVCache <> j:8 var
+R4560:4568 Ionia.DataExp <> AryIdx_eq thm
+prf 4694:4704 <> read_exp_eq
+R4720:4723 Ionia.DataExp <> data ind
+binder 4716:4716 <> d:11
+R4733:4735 Ionia.Proof_CodeGen <> env def
+binder 4727:4729 <> rho:12
+R4743:4745 Ionia.Proof_CodeGen <> acc def
+R4747:4747 Ionia.KVCache <> d:11 var
+binder 4739:4739 <> a:13
+R4755:4757 Ionia.Proof_CodeGen <> exp def
+R4759:4759 Ionia.KVCache <> d:11 var
+binder 4751:4751 <> e:14
+R4786:4789 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4777:4779 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4765:4770 Ionia.Proof_CodeGen <> access def
+R4776:4776 Ionia.KVCache <> a:13 var
+R4772:4774 Ionia.KVCache <> rho:12 var
+R4780:4783 Corelib.Init.Datatypes <> Some constr
+R4785:4785 Ionia.KVCache <> e:14 var
+R4804:4806 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4790:4797 Ionia.DPIA_Rules <> read_exp def
+R4803:4803 Ionia.KVCache <> a:13 var
+R4799:4801 Ionia.KVCache <> rho:12 var
+R4807:4807 Ionia.KVCache <> e:14 var
+prf 5021:5035 <> If_assign_merge
+R5051:5054 Ionia.DataExp <> data ind
+binder 5047:5047 <> d:15
+R5062:5064 Ionia.Proof_CodeGen <> acc def
+R5066:5066 Ionia.KVCache <> d:15 var
+binder 5058:5058 <> a:16
+R5074:5077 Corelib.Init.Datatypes <> bool ind
+binder 5070:5070 <> b:17
+R5089:5091 Ionia.Proof_CodeGen <> exp def
+R5093:5093 Ionia.KVCache <> d:15 var
+binder 5081:5082 <> e1:18
+binder 5084:5085 <> e2:19
+R5125:5127 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5099:5100 Ionia.Proof_CodeGen <> If def
+R5117:5121 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R5116:5116 Ionia.KVCache <> a:16 var
+R5122:5123 Ionia.KVCache <> e2:19 var
+R5106:5110 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R5105:5105 Ionia.KVCache <> a:16 var
+R5111:5112 Ionia.KVCache <> e1:18 var
+R5102:5102 Ionia.KVCache <> b:17 var
+R5129:5134 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R5155:5155 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R5128:5128 Ionia.KVCache <> a:16 var
+R5138:5138 Ionia.KVCache <> b:17 var
+R5153:5154 Ionia.KVCache <> e2:19 var
+R5145:5146 Ionia.KVCache <> e1:18 var
+R5186:5191 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R5212:5212 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R5221:5222 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R5224:5225 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R5246:5246 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R5261:5265 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R5276:5277 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R5279:5280 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R5283:5283 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R5298:5302 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R5313:5314 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R5316:5317 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R5320:5320 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R5342:5345 Ionia.DPIA_Rules <> Aif1 thm
+prf 5398:5408 <> fin2nat_ltS
+R5424:5426 Corelib.Init.Datatypes <> nat ind
+binder 5420:5420 <> m:20
+R5444:5446 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5430:5436 Ionia.finType <> fin2nat def
+R5439:5440 Ionia.Proof_CodeGen <> :::'''['_x_']' not
+R5442:5442 Ionia.Proof_CodeGen <> :::'''['_x_']' not
+R5441:5441 Ionia.KVCache <> m:20 var
+R5447:5447 Ionia.KVCache <> m:20 var
+R5473:5475 Ionia.finType <> ltS def
+R5486:5498 Ionia.finType <> fin2nat_exist thm
+prf 5747:5759 <> slot_path_raw
+R5775:5777 Corelib.Init.Datatypes <> nat ind
+binder 5771:5771 <> n:21
+R5785:5788 Ionia.DataExp <> data ind
+binder 5781:5781 <> d:22
+R5796:5799 Ionia.DataExp <> path ind
+binder 5792:5792 <> p:23
+R5811:5813 Ionia.finType <> fin def
+R5816:5822 Ionia.finType <> fle2nat def
+R5825:5832 Ionia.finType <> fle_self def
+R5834:5834 Ionia.KVCache <> n:21 var
+binder 5807:5807 <> i:24
+R5910:5914 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5843:5848 Ionia.Proof_CodeGen <> idxAcc def
+R5851:5857 Ionia.finType <> fle2nat def
+R5860:5867 Ionia.finType <> fle_self def
+R5869:5869 Ionia.KVCache <> n:21 var
+R5873:5873 Ionia.KVCache <> d:22 var
+R5877:5880 Ionia.Proof_CodeGen <> acc' def
+R5884:5886 Ionia.DataExp <> ary constr
+R5888:5888 Ionia.KVCache <> n:21 var
+R5891:5898 Ionia.finType <> fle_self def
+R5900:5900 Ionia.KVCache <> n:21 var
+R5903:5903 Ionia.KVCache <> d:22 var
+R5906:5906 Ionia.KVCache <> p:23 var
+R5909:5909 Ionia.KVCache <> i:24 var
+R5916:5919 Ionia.Proof_CodeGen <> acc' def
+R5921:5921 Ionia.KVCache <> d:22 var
+R5925:5930 Ionia.DataExp <> AryIdx constr
+R5933:5939 Ionia.finType <> fle2nat def
+R5942:5949 Ionia.finType <> fle_self def
+R5951:5951 Ionia.KVCache <> n:21 var
+R5955:5955 Ionia.KVCache <> i:24 var
+R5957:5957 Ionia.KVCache <> p:23 var
+R5985:5990 Ionia.Proof_CodeGen <> idxAcc def
+R6001:6008 Ionia.Proof_CodeGen <> acc'_ary thm
+R6017:6028 Ionia.vector <> v_idx_mk_vec thm
+prf 6122:6135 <> c_idx_acc'_raw
+R6151:6153 Corelib.Init.Datatypes <> nat ind
+binder 6147:6147 <> n:25
+R6161:6164 Ionia.DataExp <> data ind
+binder 6157:6157 <> d:26
+R6172:6175 Ionia.DataExp <> path ind
+binder 6168:6168 <> p:27
+R6187:6189 Ionia.finType <> fin def
+R6192:6198 Ionia.finType <> fle2nat def
+R6201:6208 Ionia.finType <> fle_self def
+R6210:6210 Ionia.KVCache <> n:25 var
+binder 6183:6183 <> i:28
+R6285:6289 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6219:6223 Ionia.Proof_CodeGen <> c_idx def
+R6226:6232 Ionia.finType <> fle2nat def
+R6235:6242 Ionia.finType <> fle_self def
+R6244:6244 Ionia.KVCache <> n:25 var
+R6248:6248 Ionia.KVCache <> d:26 var
+R6252:6255 Ionia.Proof_CodeGen <> acc' def
+R6259:6261 Ionia.DataExp <> ary constr
+R6263:6263 Ionia.KVCache <> n:25 var
+R6266:6273 Ionia.finType <> fle_self def
+R6275:6275 Ionia.KVCache <> n:25 var
+R6278:6278 Ionia.KVCache <> d:26 var
+R6281:6281 Ionia.KVCache <> p:27 var
+R6284:6284 Ionia.KVCache <> i:28 var
+R6291:6294 Ionia.Proof_CodeGen <> acc' def
+R6296:6296 Ionia.KVCache <> d:26 var
+R6300:6305 Ionia.DataExp <> AryIdx constr
+R6308:6314 Ionia.finType <> fle2nat def
+R6317:6324 Ionia.finType <> fle_self def
+R6326:6326 Ionia.KVCache <> n:25 var
+R6330:6330 Ionia.KVCache <> i:28 var
+R6332:6332 Ionia.KVCache <> p:27 var
+R6357:6369 Ionia.KVCache <> slot_path_raw thm
+prf 6512:6528 <> access_acc'_level
+R6544:6546 Corelib.Init.Datatypes <> nat ind
+binder 6540:6540 <> n:29
+R6554:6557 Ionia.DataExp <> data ind
+binder 6550:6550 <> d:30
+R6568:6571 Ionia.DataExp <> path ind
+binder 6561:6564 <> base:31
+R6581:6583 Ionia.Proof_CodeGen <> env def
+binder 6575:6577 <> rho:32
+R6595:6597 Ionia.Proof_CodeGen <> exp def
+R6600:6602 Ionia.DataExp <> ary constr
+R6609:6609 Ionia.KVCache <> d:30 var
+R6604:6605 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6607:6607 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6606:6606 Ionia.KVCache <> n:29 var
+binder 6591:6591 <> G:33
+R6618:6620 Ionia.finType <> fin def
+R6622:6622 Ionia.KVCache <> n:29 var
+binder 6614:6614 <> i:34
+R6678:6683 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R6669:6671 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6628:6633 Ionia.Proof_CodeGen <> access def
+R6652:6654 Ionia.Proof_CodeGen <> acc def
+R6657:6659 Ionia.DataExp <> ary constr
+R6666:6666 Ionia.KVCache <> d:30 var
+R6661:6662 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6664:6664 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6663:6663 Ionia.KVCache <> n:29 var
+R6640:6643 Ionia.Proof_CodeGen <> acc' def
+R6645:6648 Ionia.KVCache <> base:31 var
+R6635:6637 Ionia.KVCache <> rho:32 var
+R6672:6675 Corelib.Init.Datatypes <> Some constr
+R6677:6677 Ionia.KVCache <> G:33 var
+R6725:6727 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6684:6689 Ionia.Proof_CodeGen <> access def
+R6719:6721 Ionia.Proof_CodeGen <> acc def
+R6723:6723 Ionia.KVCache <> d:30 var
+R6696:6699 Ionia.Proof_CodeGen <> acc' def
+R6702:6707 Ionia.DataExp <> AryIdx constr
+R6711:6714 Ionia.KVCache <> base:31 var
+R6709:6709 Ionia.KVCache <> i:34 var
+R6691:6693 Ionia.KVCache <> rho:32 var
+R6728:6731 Corelib.Init.Datatypes <> Some constr
+R6734:6736 Ionia.Proof_CodeGen <> idx def
+R6740:6740 Ionia.KVCache <> i:34 var
+R6738:6738 Ionia.KVCache <> G:33 var
+R6788:6797 Ionia.Proof_CodeGen <> access_ary thm
+R7043:7045 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6950:6957 Ionia.Proof_CodeGen <> mkoptvec def
+R6969:6971 Ionia.finType <> fin def
+binder 6964:6965 <> i0:35
+R6990:6995 Ionia.Proof_CodeGen <> access def
+R7002:7006 Ionia.Proof_CodeGen <> c_idx def
+R7039:7040 Ionia.KVCache <> i0:35 var
+R7021:7023 Ionia.Proof_CodeGen <> acc def
+R7026:7028 Ionia.DataExp <> ary constr
+R7030:7031 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7033:7033 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7009:7012 Ionia.Proof_CodeGen <> acc' def
+R7046:7049 Corelib.Init.Datatypes <> Some constr
+binder 6964:6965 <> i0:36
+R7039:7040 Ionia.KVCache <> i0:36 var
+R7175:7178 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R7076:7083 Ionia.Proof_CodeGen <> mkoptvec def
+R7095:7097 Ionia.finType <> fin def
+binder 7090:7091 <> i0:37
+R7122:7127 Ionia.Proof_CodeGen <> access def
+R7134:7138 Ionia.Proof_CodeGen <> c_idx def
+R7171:7172 Ionia.KVCache <> i0:37 var
+R7153:7155 Ionia.Proof_CodeGen <> acc def
+R7158:7160 Ionia.DataExp <> ary constr
+R7162:7163 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7165:7165 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7141:7144 Ionia.Proof_CodeGen <> acc' def
+R7179:7182 Corelib.Init.Datatypes <> None constr
+binder 7090:7091 <> i0:38
+R7171:7172 Ionia.KVCache <> i0:38 var
+R7231:7246 Ionia.Proof_CodeGen <> idx_opt_mkoptvec thm
+R7293:7308 Ionia.Proof_CodeGen <> idx_opt_Some_idx thm
+R7370:7372 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7332:7336 Ionia.Proof_CodeGen <> c_idx def
+R7351:7353 Ionia.Proof_CodeGen <> acc def
+R7356:7358 Ionia.DataExp <> ary constr
+R7360:7361 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7363:7363 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7339:7342 Ionia.Proof_CodeGen <> acc' def
+R7373:7376 Ionia.Proof_CodeGen <> acc' def
+R7379:7384 Ionia.DataExp <> AryIdx constr
+R7407:7411 Ionia.Proof_CodeGen <> c_idx def
+R7422:7429 Ionia.Proof_CodeGen <> acc'_ary thm
+R7438:7449 Ionia.vector <> v_idx_mk_vec thm
+prf 7581:7597 <> mkoptvec_some_all
+R7613:7615 Corelib.Init.Datatypes <> nat ind
+binder 7609:7609 <> n:39
+R7623:7626 Ionia.DataExp <> data ind
+binder 7619:7619 <> d:40
+R7639:7642 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7634:7636 Ionia.finType <> fin def
+R7638:7638 Ionia.KVCache <> n:39 var
+R7643:7645 Ionia.Proof_CodeGen <> exp def
+R7647:7647 Ionia.KVCache <> d:40 var
+binder 7630:7630 <> f:41
+R7691:7693 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7653:7660 Ionia.Proof_CodeGen <> mkoptvec def
+R7671:7673 Ionia.finType <> fin def
+R7675:7675 Ionia.KVCache <> n:39 var
+binder 7667:7667 <> i:42
+R7680:7683 Corelib.Init.Datatypes <> Some constr
+R7686:7686 Ionia.KVCache <> f:41 var
+R7688:7688 Ionia.KVCache <> i:42 var
+R7694:7697 Corelib.Init.Datatypes <> Some constr
+R7700:7705 Ionia.vector <> mk_vec def
+R7707:7707 Ionia.KVCache <> f:41 var
+R7782:7796 Ionia.Proof_CodeGen <> mkoptvec_mk_vec thm
+prf 7890:7899 <> exp_ary_eq
+R7916:7918 Corelib.Init.Datatypes <> nat ind
+binder 7911:7912 <> dk:43
+R7928:7930 Ionia.Proof_CodeGen <> exp def
+R7933:7935 Ionia.DataExp <> ary constr
+R7943:7945 Ionia.DataExp <> num constr
+R7937:7938 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7941:7941 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7939:7940 Ionia.KVCache <> dk:43 var
+binder 7922:7922 <> a:44
+binder 7924:7924 <> b:45
+R7952:7952 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7989:7993 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7964:7966 Ionia.finType <> fin def
+R7968:7969 Ionia.KVCache <> dk:43 var
+binder 7960:7960 <> i:46
+R7979:7981 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7972:7974 Ionia.Proof_CodeGen <> idx def
+R7978:7978 Ionia.KVCache <> i:46 var
+R7976:7976 Ionia.KVCache <> a:44 var
+R7982:7984 Ionia.Proof_CodeGen <> idx def
+R7988:7988 Ionia.KVCache <> i:46 var
+R7986:7986 Ionia.KVCache <> b:45 var
+R7995:7997 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7994:7994 Ionia.KVCache <> a:44 var
+R7998:7998 Ionia.KVCache <> b:45 var
+R8036:8040 Corelib.Init.Logic <> proj2 thm
+R8044:8058 Ionia.vector <> vector_eq_v_idx thm
+R8061:8063 Ionia.Proof_CodeGen <> exp def
+R8065:8067 Ionia.DataExp <> num constr
+R8078:8088 Ionia.Proof_CodeGen <> exp_default def
+R8090:8092 Ionia.DataExp <> num constr
+def 8420:8423 <> dotr
+R8431:8433 Corelib.Init.Datatypes <> nat ind
+binder 8426:8427 <> dk:47
+R8443:8445 Ionia.Proof_CodeGen <> exp def
+R8448:8450 Ionia.DataExp <> ary constr
+R8458:8460 Ionia.DataExp <> num constr
+R8452:8453 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R8456:8456 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R8454:8455 Ionia.KVCache <> dk:47 var
+binder 8437:8437 <> u:48
+binder 8439:8439 <> v:49
+R8466:8468 Ionia.Proof_CodeGen <> exp def
+R8470:8472 Ionia.DataExp <> num constr
+R8479:8481 Ionia.Proof_CodeGen <> sum def
+R8484:8489 Ionia.Proof_CodeGen <> mkvSeq def
+R8501:8503 Ionia.finType <> fin def
+R8505:8506 Ionia.KVCache <> dk:47 var
+binder 8496:8497 <> dd:50
+R8511:8513 Ionia.Proof_CodeGen <> mul def
+R8527:8529 Ionia.Proof_CodeGen <> idx def
+R8533:8534 Ionia.KVCache <> dd:50 var
+R8531:8531 Ionia.KVCache <> v:49 var
+R8516:8518 Ionia.Proof_CodeGen <> idx def
+R8522:8523 Ionia.KVCache <> dd:50 var
+R8520:8520 Ionia.KVCache <> u:48 var
+def 8672:8682 <> attn_scores
+R8692:8694 Corelib.Init.Datatypes <> nat ind
+binder 8685:8686 <> dk:51
+binder 8688:8688 <> n:52
+R8704:8706 Ionia.Proof_CodeGen <> exp def
+R8709:8711 Ionia.DataExp <> ary constr
+R8719:8721 Ionia.DataExp <> num constr
+R8713:8714 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R8717:8717 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R8715:8716 Ionia.KVCache <> dk:51 var
+binder 8700:8700 <> q:53
+R8730:8732 Ionia.Proof_CodeGen <> exp def
+R8735:8737 Ionia.DataExp <> ary constr
+R8745:8747 Ionia.DataExp <> ary constr
+R8755:8757 Ionia.DataExp <> num constr
+R8749:8750 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R8753:8753 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R8751:8752 Ionia.KVCache <> dk:51 var
+R8739:8740 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R8742:8742 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R8741:8741 Ionia.KVCache <> n:52 var
+binder 8726:8726 <> K:54
+R8766:8768 Ionia.Proof_CodeGen <> exp def
+R8771:8773 Ionia.DataExp <> ary constr
+R8780:8782 Ionia.DataExp <> num constr
+R8775:8776 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R8778:8778 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R8777:8777 Ionia.KVCache <> n:52 var
+R8790:8795 Ionia.Proof_CodeGen <> mkvSeq def
+R8806:8808 Ionia.finType <> fin def
+R8810:8810 Ionia.KVCache <> n:52 var
+binder 8802:8802 <> j:55
+R8815:8817 Ionia.Proof_CodeGen <> mul def
+R8839:8848 Ionia.Attention_DPIA <> attn_scale def
+R8850:8851 Ionia.KVCache <> dk:51 var
+R8820:8823 Ionia.KVCache <> dotr def
+R8828:8830 Ionia.Proof_CodeGen <> idx def
+R8834:8834 Ionia.KVCache <> j:55 var
+R8832:8832 Ionia.KVCache <> K:54 var
+R8825:8825 Ionia.KVCache <> q:53 var
+def 9068:9072 <> AttnQ
+R9082:9084 Corelib.Init.Datatypes <> nat ind
+binder 9075:9076 <> dk:56
+binder 9078:9078 <> n:57
+R9094:9096 Ionia.Proof_CodeGen <> exp def
+R9099:9101 Ionia.DataExp <> ary constr
+R9109:9111 Ionia.DataExp <> num constr
+R9103:9104 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9107:9107 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9105:9106 Ionia.KVCache <> dk:56 var
+binder 9090:9090 <> q:58
+R9124:9126 Ionia.Proof_CodeGen <> exp def
+R9129:9131 Ionia.DataExp <> ary constr
+R9139:9141 Ionia.DataExp <> ary constr
+R9149:9151 Ionia.DataExp <> num constr
+R9143:9144 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9147:9147 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9145:9146 Ionia.KVCache <> dk:56 var
+R9133:9134 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9136:9136 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9135:9135 Ionia.KVCache <> n:57 var
+binder 9118:9118 <> K:59
+binder 9120:9120 <> V:60
+R9158:9160 Ionia.Proof_CodeGen <> exp def
+R9163:9165 Ionia.DataExp <> ary constr
+R9173:9175 Ionia.DataExp <> num constr
+R9167:9168 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9171:9171 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9169:9170 Ionia.KVCache <> dk:56 var
+R9183:9188 Ionia.Proof_CodeGen <> mkvSeq def
+R9200:9202 Ionia.finType <> fin def
+R9204:9205 Ionia.KVCache <> dk:56 var
+binder 9195:9196 <> dd:61
+R9214:9216 Ionia.Proof_CodeGen <> sum def
+R9219:9224 Ionia.Proof_CodeGen <> mkvSeq def
+R9235:9237 Ionia.finType <> fin def
+R9239:9239 Ionia.KVCache <> n:57 var
+binder 9231:9231 <> j:62
+R9250:9252 Ionia.Proof_CodeGen <> mul def
+R9293:9295 Ionia.Proof_CodeGen <> idx def
+R9307:9308 Ionia.KVCache <> dd:61 var
+R9298:9300 Ionia.Proof_CodeGen <> idx def
+R9304:9304 Ionia.KVCache <> j:62 var
+R9302:9302 Ionia.KVCache <> V:60 var
+R9255:9257 Ionia.Proof_CodeGen <> idx def
+R9289:9289 Ionia.KVCache <> j:62 var
+R9260:9268 Ionia.LeNet5_Functional <> Softmax1d def
+R9271:9281 Ionia.KVCache <> attn_scores def
+R9285:9285 Ionia.KVCache <> K:59 var
+R9283:9283 Ionia.KVCache <> q:58 var
+def 9398:9407 <> AttnQ_comm
+R9417:9419 Corelib.Init.Datatypes <> nat ind
+binder 9410:9411 <> dk:63
+binder 9413:9413 <> n:64
+R9429:9431 Ionia.Proof_CodeGen <> exp def
+R9434:9436 Ionia.DataExp <> ary constr
+R9444:9446 Ionia.DataExp <> num constr
+R9438:9439 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9442:9442 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9440:9441 Ionia.KVCache <> dk:63 var
+binder 9425:9425 <> q:65
+R9459:9461 Ionia.Proof_CodeGen <> exp def
+R9464:9466 Ionia.DataExp <> ary constr
+R9474:9476 Ionia.DataExp <> ary constr
+R9484:9486 Ionia.DataExp <> num constr
+R9478:9479 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9482:9482 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9480:9481 Ionia.KVCache <> dk:63 var
+R9468:9469 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9471:9471 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9470:9470 Ionia.KVCache <> n:64 var
+binder 9453:9453 <> K:66
+binder 9455:9455 <> V:67
+R9500:9502 Ionia.Proof_CodeGen <> acc def
+R9505:9507 Ionia.DataExp <> ary constr
+R9515:9517 Ionia.DataExp <> num constr
+R9509:9510 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9513:9513 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9511:9512 Ionia.KVCache <> dk:63 var
+binder 9494:9496 <> out:68
+R9523:9526 Ionia.Proof_CodeGen <> comm def
+R9533:9539 Ionia.DPIA_Rules <> mkvSeql def
+R9699:9701 Ionia.KVCache <> out:68 var
+binder 9546:9547 <> dd:69
+binder 9549:9550 <> od:70
+R9559:9562 Ionia.DPIA_Rules <> suml def
+R9695:9696 Ionia.KVCache <> od:70 var
+binder 9680:9680 <> r:71
+R9687:9691 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R9685:9686 Ionia.KVCache <> od:70 var
+R9692:9692 Ionia.KVCache <> r:71 var
+R9565:9570 Ionia.Proof_CodeGen <> mkvSeq def
+R9581:9583 Ionia.finType <> fin def
+R9585:9585 Ionia.KVCache <> n:64 var
+binder 9577:9577 <> j:72
+R9603:9605 Ionia.Proof_CodeGen <> mul def
+R9646:9648 Ionia.Proof_CodeGen <> idx def
+R9660:9661 Ionia.KVCache <> dd:69 var
+R9651:9653 Ionia.Proof_CodeGen <> idx def
+R9657:9657 Ionia.KVCache <> j:72 var
+R9655:9655 Ionia.KVCache <> V:67 var
+R9608:9610 Ionia.Proof_CodeGen <> idx def
+R9642:9642 Ionia.KVCache <> j:72 var
+R9613:9621 Ionia.LeNet5_Functional <> Softmax1d def
+R9624:9634 Ionia.KVCache <> attn_scores def
+R9638:9638 Ionia.KVCache <> K:66 var
+R9636:9636 Ionia.KVCache <> q:65 var
+prf 9711:9717 <> A_AttnQ
+R9736:9738 Corelib.Init.Datatypes <> nat ind
+binder 9729:9730 <> dk:73
+binder 9732:9732 <> n:74
+R9748:9750 Ionia.Proof_CodeGen <> exp def
+R9753:9755 Ionia.DataExp <> ary constr
+R9763:9765 Ionia.DataExp <> num constr
+R9757:9758 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9761:9761 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9759:9760 Ionia.KVCache <> dk:73 var
+binder 9744:9744 <> q:75
+R9778:9780 Ionia.Proof_CodeGen <> exp def
+R9783:9785 Ionia.DataExp <> ary constr
+R9793:9795 Ionia.DataExp <> ary constr
+R9803:9805 Ionia.DataExp <> num constr
+R9797:9798 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9801:9801 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9799:9800 Ionia.KVCache <> dk:73 var
+R9787:9788 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9790:9790 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9789:9789 Ionia.KVCache <> n:74 var
+binder 9772:9772 <> K:76
+binder 9774:9774 <> V:77
+R9819:9821 Ionia.Proof_CodeGen <> acc def
+R9824:9826 Ionia.DataExp <> ary constr
+R9834:9836 Ionia.DataExp <> num constr
+R9828:9829 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9832:9832 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9830:9831 Ionia.KVCache <> dk:73 var
+binder 9813:9815 <> out:78
+R9862:9864 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9843:9844 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R9848:9849 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R9861:9861 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R9845:9847 Ionia.KVCache <> out:78 var
+R9850:9854 Ionia.KVCache <> AttnQ def
+R9860:9860 Ionia.KVCache <> V:77 var
+R9858:9858 Ionia.KVCache <> K:76 var
+R9856:9856 Ionia.KVCache <> q:75 var
+R9865:9874 Ionia.KVCache <> AttnQ_comm def
+R9882:9884 Ionia.KVCache <> out:78 var
+R9880:9880 Ionia.KVCache <> V:77 var
+R9878:9878 Ionia.KVCache <> K:76 var
+R9876:9876 Ionia.KVCache <> q:75 var
+R9911:9915 Ionia.KVCache <> AttnQ def
+R9918:9927 Ionia.KVCache <> AttnQ_comm def
+R9940:9946 Ionia.DPIA_Rules <> AmkvSeq thm
+R9957:9977 Ionia.Proof_CodeGen <> seqfor_extensionality thm
+R10000:10008 Ionia.DPIA_Rules <> A_sum_acc thm
+prf 10165:10179 <> AttnQ_cell_last
+R10196:10198 Corelib.Init.Datatypes <> nat ind
+binder 10191:10192 <> dk:79
+R10210:10212 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R10208:10209 Ionia.KVCache <> dk:79 var
+binder 10202:10204 <> Hdk:80
+R10221:10223 Corelib.Init.Datatypes <> nat ind
+binder 10217:10217 <> n:81
+R10237:10239 Ionia.Proof_CodeGen <> exp def
+R10242:10244 Ionia.DataExp <> ary constr
+R10254:10256 Ionia.DataExp <> ary constr
+R10264:10266 Ionia.DataExp <> num constr
+R10258:10259 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10262:10262 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10260:10261 Ionia.KVCache <> dk:79 var
+R10246:10247 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10251:10251 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10248:10248 Corelib.Init.Datatypes <> S constr
+R10250:10250 Ionia.KVCache <> n:81 var
+binder 10229:10229 <> Q:82
+binder 10231:10231 <> K:83
+binder 10233:10233 <> V:84
+R10313:10315 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10274:10276 Ionia.Proof_CodeGen <> idx def
+R10302:10309 Ionia.finType <> fin_last def
+R10311:10311 Ionia.KVCache <> n:81 var
+R10279:10292 Ionia.Attention_DPIA <> Attention_cell def
+R10298:10298 Ionia.KVCache <> V:84 var
+R10296:10296 Ionia.KVCache <> K:83 var
+R10294:10294 Ionia.KVCache <> Q:82 var
+R10316:10320 Ionia.KVCache <> AttnQ def
+R10345:10345 Ionia.KVCache <> V:84 var
+R10343:10343 Ionia.KVCache <> K:83 var
+R10323:10325 Ionia.Proof_CodeGen <> idx def
+R10330:10337 Ionia.finType <> fin_last def
+R10339:10339 Ionia.KVCache <> n:81 var
+R10327:10327 Ionia.KVCache <> Q:82 var
+R10475:10477 Ionia.finType <> fin def
+R10480:10480 Corelib.Init.Datatypes <> S constr
+binder 10471:10471 <> k:85
+R10530:10532 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10500:10504 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'<=?'_x not
+R10491:10497 Ionia.finType <> fin2nat def
+R10499:10499 Ionia.KVCache <> k:85 var
+R10505:10511 Ionia.finType <> fin2nat def
+R10514:10521 Ionia.finType <> fin_last def
+R10533:10536 Corelib.Init.Datatypes <> true constr
+binder 10471:10471 <> k:86
+R10499:10499 Ionia.KVCache <> k:86 var
+R10561:10576 Ionia.finType <> fin_last_correct thm
+R10585:10594 Stdlib.Arith.PeanoNat Nat leb_le thm
+R10613:10621 Ionia.finType <> fin_proof def
+R10718:10720 Ionia.finType <> fin def
+R10723:10723 Corelib.Init.Datatypes <> S constr
+binder 10714:10714 <> k:87
+R10839:10845 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10733:10735 Ionia.Proof_CodeGen <> idx def
+R10838:10838 Ionia.KVCache <> k:87 var
+R10738:10740 Ionia.Proof_CodeGen <> idx def
+R10825:10832 Ionia.finType <> fin_last def
+R10743:10754 Ionia.Ops_Transformer <> CausalMask2d def
+R10757:10762 Ionia.Ops_Elementwise <> Mulc2d def
+R10781:10788 Ionia.Ops_Transformer <> MatMul2d def
+R10793:10803 Ionia.Ops_Transformer <> Transpose2d def
+R10765:10774 Ionia.Attention_DPIA <> attn_scale def
+R10846:10848 Ionia.Proof_CodeGen <> idx def
+R10887:10887 Ionia.KVCache <> k:87 var
+R10851:10861 Ionia.KVCache <> attn_scores def
+R10864:10866 Ionia.Proof_CodeGen <> idx def
+R10871:10878 Ionia.finType <> fin_last def
+binder 10714:10714 <> k:88
+R10838:10838 Ionia.KVCache <> k:88 var
+R10887:10887 Ionia.KVCache <> k:88 var
+R10915:10926 Ionia.Ops_Transformer <> CausalMask2d def
+R10938:10947 Ionia.Proof_CodeGen <> idx_mkvSeq thm
+R10991:10996 Ionia.Ops_Elementwise <> Mulc2d def
+R11008:11017 Ionia.Proof_CodeGen <> idx_mkvSeq thm
+R11038:11045 Ionia.Ops_Transformer <> MatMul2d def
+R11057:11066 Ionia.Proof_CodeGen <> idx_mkvSeq thm
+R11087:11097 Ionia.KVCache <> attn_scores def
+R11108:11117 Ionia.Proof_CodeGen <> idx_mkvSeq thm
+R11138:11141 Ionia.KVCache <> dotr def
+R11181:11205 Stdlib.Logic.FunctionalExtensionality <> functional_extensionality thm
+R11229:11239 Ionia.Ops_Transformer <> Transpose2d def
+R11251:11260 Ionia.Proof_CodeGen <> idx_mkvSeq thm
+R11297:11306 Ionia.KVCache <> exp_ary_eq thm
+R11328:11341 Ionia.Attention_DPIA <> Attention_cell def
+R11371:11382 Ionia.Ops_Transformer <> CausalMask2d def
+R11385:11390 Ionia.Ops_Elementwise <> Mulc2d def
+R11409:11416 Ionia.Ops_Transformer <> MatMul2d def
+R11421:11431 Ionia.Ops_Transformer <> Transpose2d def
+R11393:11402 Ionia.Attention_DPIA <> attn_scale def
+R11451:11458 Ionia.Ops_Transformer <> MatMul2d def
+R11461:11469 Ionia.Ops_Reduce <> Softmax2d def
+R11487:11492 Ionia.Proof_CodeGen <> mkvSeq def
+R11503:11505 Ionia.finType <> fin def
+R11508:11508 Corelib.Init.Datatypes <> S constr
+binder 11499:11499 <> i:89
+R11516:11521 Ionia.Proof_CodeGen <> mkvSeq def
+R11532:11534 Ionia.finType <> fin def
+binder 11528:11528 <> j:90
+R11548:11550 Ionia.Proof_CodeGen <> sum def
+R11553:11558 Ionia.Proof_CodeGen <> mkvSeq def
+R11569:11571 Ionia.finType <> fin def
+R11574:11574 Corelib.Init.Datatypes <> S constr
+binder 11565:11565 <> k:91
+R11590:11592 Ionia.Proof_CodeGen <> mul def
+R11625:11627 Ionia.Proof_CodeGen <> idx def
+R11639:11639 Ionia.KVCache <> j:90 var
+R11630:11632 Ionia.Proof_CodeGen <> idx def
+R11636:11636 Ionia.KVCache <> k:91 var
+R11595:11597 Ionia.Proof_CodeGen <> idx def
+R11621:11621 Ionia.KVCache <> k:91 var
+R11600:11602 Ionia.Proof_CodeGen <> idx def
+R11618:11618 Ionia.KVCache <> i:89 var
+R11605:11613 Ionia.Ops_Reduce <> Softmax2d def
+binder 11499:11499 <> i:92
+binder 11528:11528 <> j:93
+binder 11565:11565 <> k:94
+R11639:11639 Ionia.KVCache <> j:93 var
+R11636:11636 Ionia.KVCache <> k:94 var
+R11621:11621 Ionia.KVCache <> k:94 var
+R11618:11618 Ionia.KVCache <> i:92 var
+R11673:11682 Ionia.Proof_CodeGen <> idx_mkvSeq thm
+R11700:11709 Ionia.Proof_CodeGen <> idx_mkvSeq thm
+R11728:11732 Ionia.KVCache <> AttnQ def
+R11743:11752 Ionia.Proof_CodeGen <> idx_mkvSeq thm
+R11788:11812 Stdlib.Logic.FunctionalExtensionality <> functional_extensionality thm
+R11844:11852 Ionia.Ops_Reduce <> Softmax2d def
+R11867:11872 Ionia.Proof_CodeGen <> mkvSeq def
+R11883:11885 Ionia.finType <> fin def
+R11888:11888 Corelib.Init.Datatypes <> S constr
+binder 11879:11879 <> b:95
+R11896:11901 Ionia.Proof_CodeGen <> mkvSeq def
+R11912:11914 Ionia.finType <> fin def
+R11917:11917 Corelib.Init.Datatypes <> S constr
+binder 11908:11908 <> j:96
+R11931:11933 Ionia.Proof_CodeGen <> div def
+R11971:11973 Ionia.Proof_CodeGen <> sum def
+R11976:11981 Ionia.Proof_CodeGen <> mkvSeq def
+R11992:11994 Ionia.finType <> fin def
+R11997:11997 Corelib.Init.Datatypes <> S constr
+binder 11988:11988 <> i:97
+R12005:12008 Ionia.Proof_CodeGen <> pExp def
+R12011:12013 Ionia.Proof_CodeGen <> idx def
+R12025:12025 Ionia.KVCache <> i:97 var
+R12016:12018 Ionia.Proof_CodeGen <> idx def
+R12022:12022 Ionia.KVCache <> b:95 var
+R11936:11939 Ionia.Proof_CodeGen <> pExp def
+R11942:11944 Ionia.Proof_CodeGen <> idx def
+R11956:11956 Ionia.KVCache <> j:96 var
+R11947:11949 Ionia.Proof_CodeGen <> idx def
+R11953:11953 Ionia.KVCache <> b:95 var
+binder 11879:11879 <> b:98
+binder 11908:11908 <> j:99
+binder 11988:11988 <> i:100
+R12025:12025 Ionia.KVCache <> i:100 var
+R12022:12022 Ionia.KVCache <> b:98 var
+R11956:11956 Ionia.KVCache <> j:99 var
+R11953:11953 Ionia.KVCache <> b:98 var
+R12064:12073 Ionia.Proof_CodeGen <> idx_mkvSeq thm
+R12091:12100 Ionia.Proof_CodeGen <> idx_mkvSeq thm
+R12121:12129 Ionia.LeNet5_Functional <> Softmax1d def
+R12132:12142 Ionia.KVCache <> attn_scores def
+R12145:12147 Ionia.Proof_CodeGen <> idx def
+R12152:12159 Ionia.finType <> fin_last def
+R12179:12184 Ionia.Proof_CodeGen <> mkvSeq def
+R12195:12197 Ionia.finType <> fin def
+R12200:12200 Corelib.Init.Datatypes <> S constr
+binder 12191:12191 <> i:101
+R12214:12216 Ionia.Proof_CodeGen <> div def
+R12281:12283 Ionia.Proof_CodeGen <> sum def
+R12286:12291 Ionia.Proof_CodeGen <> mkvSeq def
+R12302:12304 Ionia.finType <> fin def
+R12307:12307 Corelib.Init.Datatypes <> S constr
+binder 12298:12298 <> j:102
+R12327:12330 Ionia.Proof_CodeGen <> pExp def
+R12333:12335 Ionia.Proof_CodeGen <> idx def
+R12374:12374 Ionia.KVCache <> j:102 var
+R12338:12348 Ionia.KVCache <> attn_scores def
+R12351:12353 Ionia.Proof_CodeGen <> idx def
+R12358:12365 Ionia.finType <> fin_last def
+R12219:12222 Ionia.Proof_CodeGen <> pExp def
+R12225:12227 Ionia.Proof_CodeGen <> idx def
+R12266:12266 Ionia.KVCache <> i:101 var
+R12230:12240 Ionia.KVCache <> attn_scores def
+R12243:12245 Ionia.Proof_CodeGen <> idx def
+R12250:12257 Ionia.finType <> fin_last def
+binder 12191:12191 <> i:103
+binder 12298:12298 <> j:104
+R12374:12374 Ionia.KVCache <> j:104 var
+R12266:12266 Ionia.KVCache <> i:103 var
+R12412:12421 Ionia.Proof_CodeGen <> idx_mkvSeq thm
+R12495:12519 Stdlib.Logic.FunctionalExtensionality <> functional_extensionality thm
+sec 12814:12820 <> KVCache
+var  12989:12989 KVCache L
+var  12991:12992 KVCache dk
+R12996:12998 Corelib.Init.Datatypes <> nat ind
+var  13013:13015 KVCache fkv
+var  13017:13019 KVCache fvv
+R13028:13031 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13023:13025 Ionia.finType <> fin def
+R13027:13027 Ionia.KVCache <> KVCache.L var
+R13032:13034 Ionia.Proof_CodeGen <> exp def
+R13037:13039 Ionia.DataExp <> ary constr
+R13047:13049 Ionia.DataExp <> num constr
+R13041:13042 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13045:13045 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13043:13044 Ionia.KVCache <> KVCache.dk var
+var  13065:13067 KVCache kcp
+var  13069:13071 KVCache vcp
+R13075:13078 Ionia.DataExp <> path ind
+var  13093:13095 KVCache Hkv
+R13102:13105 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R13099:13101 Ionia.KVCache <> KVCache.kcp var
+R13106:13108 Ionia.KVCache <> KVCache.vcp var
+def 13194:13198 <> kfill
+R13202:13205 Ionia.Proof_CodeGen <> comm def
+R13214:13214 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R13256:13261 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R13226:13228 Ionia.Proof_CodeGen <> acc def
+R13231:13233 Ionia.DataExp <> ary constr
+R13241:13243 Ionia.DataExp <> ary constr
+R13251:13253 Ionia.DataExp <> num constr
+R13245:13246 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13249:13249 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13247:13248 Ionia.KVCache <> KVCache.dk var
+R13235:13236 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13238:13238 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13237:13237 Ionia.KVCache <> KVCache.L var
+R13215:13218 Ionia.Proof_CodeGen <> acc' def
+R13220:13222 Ionia.KVCache <> KVCache.kcp var
+R13262:13267 Ionia.Proof_CodeGen <> mkvSeq def
+R13269:13271 Ionia.KVCache <> KVCache.fkv var
+def 13287:13291 <> vfill
+R13295:13298 Ionia.Proof_CodeGen <> comm def
+R13307:13307 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R13349:13354 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R13319:13321 Ionia.Proof_CodeGen <> acc def
+R13324:13326 Ionia.DataExp <> ary constr
+R13334:13336 Ionia.DataExp <> ary constr
+R13344:13346 Ionia.DataExp <> num constr
+R13338:13339 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13342:13342 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13340:13341 Ionia.KVCache <> KVCache.dk var
+R13328:13329 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13331:13331 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13330:13330 Ionia.KVCache <> KVCache.L var
+R13308:13311 Ionia.Proof_CodeGen <> acc' def
+R13313:13315 Ionia.KVCache <> KVCache.vcp var
+R13355:13360 Ionia.Proof_CodeGen <> mkvSeq def
+R13362:13364 Ionia.KVCache <> KVCache.fvv var
+def 13380:13388 <> cachefill
+R13392:13395 Ionia.Proof_CodeGen <> comm def
+R13405:13408 Ionia.Proof_CodeGen <> :::x_''';'_x not
+R13400:13404 Ionia.KVCache <> kfill def
+R13409:13413 Ionia.KVCache <> vfill def
+prf 13536:13550 <> cachefill_loops
+R13567:13573 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13558:13566 Ionia.KVCache <> cachefill def
+R13659:13666 Ionia.Proof_CodeGen <> :::x_''';'_x not
+R13574:13579 Ionia.Proof_CodeGen <> seqfor def
+R13590:13592 Ionia.finType <> fin def
+R13594:13594 Ionia.KVCache <> KVCache.L var
+binder 13586:13586 <> i:112
+R13647:13651 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R13600:13600 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R13642:13644 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R13646:13646 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R13612:13614 Ionia.Proof_CodeGen <> acc def
+R13617:13619 Ionia.DataExp <> ary constr
+R13627:13629 Ionia.DataExp <> ary constr
+R13637:13639 Ionia.DataExp <> num constr
+R13631:13632 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13635:13635 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13633:13634 Ionia.KVCache <> KVCache.dk var
+R13621:13622 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13624:13624 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13623:13623 Ionia.KVCache <> KVCache.L var
+R13601:13604 Ionia.Proof_CodeGen <> acc' def
+R13606:13608 Ionia.KVCache <> KVCache.kcp var
+R13645:13645 Ionia.KVCache <> i:112 var
+R13652:13654 Ionia.KVCache <> KVCache.fkv var
+R13656:13656 Ionia.KVCache <> i:112 var
+R13667:13672 Ionia.Proof_CodeGen <> seqfor def
+R13683:13685 Ionia.finType <> fin def
+R13687:13687 Ionia.KVCache <> KVCache.L var
+binder 13679:13679 <> i:113
+R13740:13744 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R13693:13693 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R13735:13737 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R13739:13739 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R13705:13707 Ionia.Proof_CodeGen <> acc def
+R13710:13712 Ionia.DataExp <> ary constr
+R13720:13722 Ionia.DataExp <> ary constr
+R13730:13732 Ionia.DataExp <> num constr
+R13724:13725 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13728:13728 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13726:13727 Ionia.KVCache <> KVCache.dk var
+R13714:13715 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13717:13717 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13716:13716 Ionia.KVCache <> KVCache.L var
+R13694:13697 Ionia.Proof_CodeGen <> acc' def
+R13699:13701 Ionia.KVCache <> KVCache.vcp var
+R13738:13738 Ionia.KVCache <> i:113 var
+R13745:13747 Ionia.KVCache <> KVCache.fvv var
+R13749:13749 Ionia.KVCache <> i:113 var
+R13774:13782 Ionia.KVCache <> cachefill def
+R13785:13789 Ionia.KVCache <> kfill def
+R13792:13796 Ionia.KVCache <> vfill def
+R13823:13823 Ionia.KVCache <> KVCache.L var
+R13851:13860 Ionia.Proof_CodeGen <> assign_ary thm
+R13892:13901 Ionia.Proof_CodeGen <> assign_ary thm
+R13910:13930 Ionia.Proof_CodeGen <> seqfor_extensionality thm
+R13958:13967 Ionia.Proof_CodeGen <> idx_mkvSeq thm
+R14005:14005 Ionia.KVCache <> KVCache.L var
+R14033:14042 Ionia.Proof_CodeGen <> assign_ary thm
+R14074:14083 Ionia.Proof_CodeGen <> assign_ary thm
+R14092:14112 Ionia.Proof_CodeGen <> seqfor_extensionality thm
+R14140:14149 Ionia.Proof_CodeGen <> idx_mkvSeq thm
+prf 14401:14409 <> fill_read
+R14428:14431 Ionia.DataExp <> path ind
+binder 14421:14424 <> base:114
+R14447:14450 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14442:14444 Ionia.finType <> fin def
+R14446:14446 Ionia.KVCache <> KVCache.L var
+R14451:14453 Ionia.Proof_CodeGen <> exp def
+R14456:14458 Ionia.DataExp <> ary constr
+R14466:14468 Ionia.DataExp <> num constr
+R14460:14461 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14464:14464 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14462:14463 Ionia.KVCache <> KVCache.dk var
+binder 14435:14438 <> vals:115
+R14481:14483 Ionia.finType <> fin def
+R14485:14485 Ionia.KVCache <> KVCache.L var
+binder 14477:14477 <> m:116
+R14495:14497 Ionia.Proof_CodeGen <> env def
+binder 14489:14491 <> rho:117
+R14642:14648 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14505:14510 Ionia.Proof_CodeGen <> access def
+R14593:14593 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R14636:14638 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R14640:14640 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R14606:14608 Ionia.Proof_CodeGen <> acc def
+R14611:14613 Ionia.DataExp <> ary constr
+R14621:14623 Ionia.DataExp <> ary constr
+R14631:14633 Ionia.DataExp <> num constr
+R14625:14626 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14629:14629 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14627:14628 Ionia.KVCache <> KVCache.dk var
+R14615:14616 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14618:14618 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14617:14617 Ionia.KVCache <> KVCache.L var
+R14594:14597 Ionia.Proof_CodeGen <> acc' def
+R14599:14602 Ionia.KVCache <> base:114 var
+R14639:14639 Ionia.KVCache <> m:116 var
+R14513:14514 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R14557:14562 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R14574:14578 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R14527:14529 Ionia.Proof_CodeGen <> acc def
+R14532:14534 Ionia.DataExp <> ary constr
+R14542:14544 Ionia.DataExp <> ary constr
+R14552:14554 Ionia.DataExp <> num constr
+R14546:14547 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14550:14550 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14548:14549 Ionia.KVCache <> KVCache.dk var
+R14536:14537 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14539:14539 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14538:14538 Ionia.KVCache <> KVCache.L var
+R14515:14518 Ionia.Proof_CodeGen <> acc' def
+R14520:14523 Ionia.KVCache <> base:114 var
+R14563:14568 Ionia.Proof_CodeGen <> mkvSeq def
+R14570:14573 Ionia.KVCache <> vals:115 var
+R14576:14578 Ionia.KVCache <> rho:117 var
+R14649:14652 Corelib.Init.Datatypes <> Some constr
+R14655:14658 Ionia.KVCache <> vals:115 var
+R14660:14660 Ionia.KVCache <> m:116 var
+R14710:14710 Ionia.KVCache <> KVCache.L var
+R14770:14783 Ionia.Seq2Seq_DPIA <> idxAcc_acc'_at thm
+R14786:14788 Ionia.DataExp <> ary constr
+R14796:14798 Ionia.DataExp <> num constr
+R14790:14791 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14794:14794 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14792:14793 Ionia.KVCache <> KVCache.dk var
+R14824:14833 Ionia.Proof_CodeGen <> assign_ary thm
+R14856:14861 Ionia.Proof_CodeGen <> access def
+R15031:15033 Ionia.Proof_CodeGen <> acc def
+R15036:15038 Ionia.DataExp <> ary constr
+R15046:15048 Ionia.DataExp <> num constr
+R15040:15041 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R15044:15044 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R15042:15043 Ionia.KVCache <> KVCache.dk var
+R15008:15011 Ionia.Proof_CodeGen <> acc' def
+R15014:15019 Ionia.DataExp <> AryIdx constr
+R14864:14869 Ionia.Proof_CodeGen <> seqfor def
+R14880:14882 Ionia.finType <> fin def
+R14885:14885 Corelib.Init.Datatypes <> S constr
+binder 14876:14876 <> j:118
+R14924:14929 Ionia.Proof_CodeGen <> assign def
+R14955:14955 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R14967:14969 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R14971:14971 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R14956:14961 Ionia.Proof_CodeGen <> mkvSeq def
+R14970:14970 Ionia.KVCache <> j:118 var
+R14932:14935 Ionia.Proof_CodeGen <> acc' def
+R14938:14943 Ionia.DataExp <> AryIdx constr
+R14945:14945 Ionia.KVCache <> j:118 var
+binder 14876:14876 <> j:119
+R14970:14970 Ionia.KVCache <> j:119 var
+R14945:14945 Ionia.KVCache <> j:119 var
+R15075:15102 Ionia.Proof_CodeGen <> access_seqfor_ary_eq_general thm
+R15127:15129 Ionia.DataExp <> ary constr
+R15137:15139 Ionia.DataExp <> num constr
+R15131:15132 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R15135:15135 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R15133:15134 Ionia.KVCache <> KVCache.dk var
+R15152:15152 Corelib.Init.Datatypes <> S constr
+R15159:15159 Corelib.Init.Datatypes <> S constr
+R15196:15198 Ionia.finType <> fin def
+R15201:15201 Corelib.Init.Datatypes <> S constr
+binder 15192:15192 <> j:120
+R15210:15210 Ionia.KVCache <> j:120 var
+R15214:15219 Ionia.Proof_CodeGen <> mkvSeq def
+binder 15254:15254 <> j:121
+binder 15256:15256 <> k:122
+binder 15258:15258 <> H:123
+R15263:15263 Ionia.KVCache <> H:123 var
+binder 15293:15294 <> p1:124
+binder 15296:15297 <> p2:125
+binder 15299:15300 <> e':126
+binder 15302:15303 <> x':127
+binder 15305:15305 <> H:128
+R15310:15326 Ionia.Proof_CodeGen <> access_assign_neq thm
+R15350:15350 Ionia.KVCache <> H:128 var
+R15347:15348 Ionia.KVCache <> x':127 var
+R15344:15345 Ionia.KVCache <> e':126 var
+R15329:15331 Ionia.DataExp <> ary constr
+R15339:15341 Ionia.DataExp <> num constr
+R15333:15334 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R15337:15337 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R15335:15336 Ionia.KVCache <> KVCache.dk var
+binder 15380:15381 <> p1:129
+binder 15383:15384 <> e':130
+binder 15386:15387 <> x':131
+R15392:15407 Ionia.Proof_CodeGen <> access_assign_eq thm
+R15431:15437 Corelib.Init.Logic <> eq_refl constr
+R15428:15429 Ionia.KVCache <> x':131 var
+R15425:15426 Ionia.KVCache <> e':130 var
+R15410:15412 Ionia.DataExp <> ary constr
+R15420:15422 Ionia.DataExp <> num constr
+R15414:15415 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R15418:15418 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R15416:15417 Ionia.KVCache <> KVCache.dk var
+binder 15192:15192 <> j:132
+R15210:15210 Ionia.KVCache <> j:132 var
+binder 15254:15254 <> j:133
+binder 15256:15256 <> k:134
+binder 15258:15258 <> H:135
+R15263:15263 Ionia.KVCache <> H:135 var
+binder 15293:15294 <> p1:136
+binder 15296:15297 <> p2:137
+binder 15299:15300 <> e':138
+binder 15302:15303 <> x':139
+binder 15305:15305 <> H:140
+R15350:15350 Ionia.KVCache <> H:140 var
+R15347:15348 Ionia.KVCache <> x':139 var
+R15344:15345 Ionia.KVCache <> e':138 var
+binder 15380:15381 <> p1:141
+binder 15383:15384 <> e':142
+binder 15386:15387 <> x':143
+R15428:15429 Ionia.KVCache <> x':143 var
+R15425:15426 Ionia.KVCache <> e':142 var
+binder 15192:15192 <> j:144
+R15210:15210 Ionia.KVCache <> j:144 var
+binder 15254:15254 <> j:145
+binder 15256:15256 <> k:146
+binder 15258:15258 <> H:147
+R15263:15263 Ionia.KVCache <> H:147 var
+binder 15293:15294 <> p1:148
+binder 15296:15297 <> p2:149
+binder 15299:15300 <> e':150
+binder 15302:15303 <> x':151
+binder 15305:15305 <> H:152
+R15350:15350 Ionia.KVCache <> H:152 var
+R15347:15348 Ionia.KVCache <> x':151 var
+R15344:15345 Ionia.KVCache <> e':150 var
+binder 15380:15381 <> p1:153
+binder 15383:15384 <> e':154
+binder 15386:15387 <> x':155
+R15428:15429 Ionia.KVCache <> x':155 var
+R15425:15426 Ionia.KVCache <> e':154 var
+R15485:15494 Ionia.Proof_CodeGen <> idx_mkvSeq thm
+R15555:15579 Stdlib.Logic.FunctionalExtensionality <> functional_extensionality thm
+R15613:15626 Ionia.Seq2Seq_DPIA <> idxAcc_acc'_at thm
+R15629:15631 Ionia.DataExp <> ary constr
+R15639:15641 Ionia.DataExp <> num constr
+R15633:15634 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R15637:15637 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R15635:15636 Ionia.KVCache <> KVCache.dk var
+prf 15824:15833 <> fill_other
+R15858:15861 Ionia.DataExp <> path ind
+binder 15845:15848 <> base:156
+binder 15850:15854 <> other:157
+R15878:15885 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15869:15872 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R15865:15868 Ionia.KVCache <> base:156 var
+R15873:15877 Ionia.KVCache <> other:157 var
+R15906:15909 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15901:15903 Ionia.finType <> fin def
+R15905:15905 Ionia.KVCache <> KVCache.L var
+R15910:15912 Ionia.Proof_CodeGen <> exp def
+R15915:15917 Ionia.DataExp <> ary constr
+R15925:15927 Ionia.DataExp <> num constr
+R15919:15920 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R15923:15923 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R15921:15922 Ionia.KVCache <> KVCache.dk var
+binder 15894:15897 <> vals:158
+R15936:15938 Ionia.finType <> fin def
+R15940:15940 Ionia.KVCache <> KVCache.L var
+binder 15932:15932 <> m:159
+R15950:15952 Ionia.Proof_CodeGen <> env def
+binder 15944:15946 <> rho:160
+R16098:16104 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15960:15965 Ionia.Proof_CodeGen <> access def
+R16048:16048 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R16092:16094 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R16096:16096 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R16062:16064 Ionia.Proof_CodeGen <> acc def
+R16067:16069 Ionia.DataExp <> ary constr
+R16077:16079 Ionia.DataExp <> ary constr
+R16087:16089 Ionia.DataExp <> num constr
+R16081:16082 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R16085:16085 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R16083:16084 Ionia.KVCache <> KVCache.dk var
+R16071:16072 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R16074:16074 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R16073:16073 Ionia.KVCache <> KVCache.L var
+R16049:16052 Ionia.Proof_CodeGen <> acc' def
+R16054:16058 Ionia.KVCache <> other:157 var
+R16095:16095 Ionia.KVCache <> m:159 var
+R15968:15969 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R16012:16017 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R16029:16033 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R15982:15984 Ionia.Proof_CodeGen <> acc def
+R15987:15989 Ionia.DataExp <> ary constr
+R15997:15999 Ionia.DataExp <> ary constr
+R16007:16009 Ionia.DataExp <> num constr
+R16001:16002 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R16005:16005 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R16003:16004 Ionia.KVCache <> KVCache.dk var
+R15991:15992 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R15994:15994 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R15993:15993 Ionia.KVCache <> KVCache.L var
+R15970:15973 Ionia.Proof_CodeGen <> acc' def
+R15975:15978 Ionia.KVCache <> base:156 var
+R16018:16023 Ionia.Proof_CodeGen <> mkvSeq def
+R16025:16028 Ionia.KVCache <> vals:158 var
+R16031:16033 Ionia.KVCache <> rho:160 var
+R16105:16110 Ionia.Proof_CodeGen <> access def
+R16117:16117 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R16161:16163 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R16165:16165 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R16131:16133 Ionia.Proof_CodeGen <> acc def
+R16136:16138 Ionia.DataExp <> ary constr
+R16146:16148 Ionia.DataExp <> ary constr
+R16156:16158 Ionia.DataExp <> num constr
+R16150:16151 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R16154:16154 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R16152:16153 Ionia.KVCache <> KVCache.dk var
+R16140:16141 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R16143:16143 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R16142:16142 Ionia.KVCache <> KVCache.L var
+R16118:16121 Ionia.Proof_CodeGen <> acc' def
+R16123:16127 Ionia.KVCache <> other:157 var
+R16164:16164 Ionia.KVCache <> m:159 var
+R16112:16114 Ionia.KVCache <> rho:160 var
+R16225:16225 Ionia.KVCache <> KVCache.L var
+R16285:16298 Ionia.Seq2Seq_DPIA <> idxAcc_acc'_at thm
+R16301:16303 Ionia.DataExp <> ary constr
+R16311:16313 Ionia.DataExp <> num constr
+R16305:16306 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R16309:16309 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R16307:16308 Ionia.KVCache <> KVCache.dk var
+R16340:16349 Ionia.Proof_CodeGen <> assign_ary thm
+R16372:16377 Ionia.Proof_CodeGen <> access def
+R16548:16550 Ionia.Proof_CodeGen <> acc def
+R16553:16555 Ionia.DataExp <> ary constr
+R16563:16565 Ionia.DataExp <> num constr
+R16557:16558 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R16561:16561 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R16559:16560 Ionia.KVCache <> KVCache.dk var
+R16524:16527 Ionia.Proof_CodeGen <> acc' def
+R16530:16535 Ionia.DataExp <> AryIdx constr
+R16380:16385 Ionia.Proof_CodeGen <> seqfor def
+R16396:16398 Ionia.finType <> fin def
+R16401:16401 Corelib.Init.Datatypes <> S constr
+binder 16392:16392 <> j:161
+R16440:16445 Ionia.Proof_CodeGen <> assign def
+R16471:16471 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R16483:16485 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R16487:16487 Ionia.Proof_CodeGen <> :::x_'|['_x_']' not
+R16472:16477 Ionia.Proof_CodeGen <> mkvSeq def
+R16486:16486 Ionia.KVCache <> j:161 var
+R16448:16451 Ionia.Proof_CodeGen <> acc' def
+R16454:16459 Ionia.DataExp <> AryIdx constr
+R16461:16461 Ionia.KVCache <> j:161 var
+binder 16392:16392 <> j:162
+R16486:16486 Ionia.KVCache <> j:162 var
+R16461:16461 Ionia.KVCache <> j:162 var
+R16590:16618 Ionia.Proof_CodeGen <> access_seqfor_ary_neq_general thm
+R16641:16643 Ionia.DataExp <> ary constr
+R16651:16653 Ionia.DataExp <> num constr
+R16645:16646 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R16649:16649 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R16647:16648 Ionia.KVCache <> KVCache.dk var
+R16672:16672 Corelib.Init.Datatypes <> S constr
+R16679:16679 Corelib.Init.Datatypes <> S constr
+R16714:16716 Ionia.finType <> fin def
+R16719:16719 Corelib.Init.Datatypes <> S constr
+binder 16710:16710 <> j:163
+R16728:16728 Ionia.KVCache <> j:163 var
+R16732:16737 Ionia.Proof_CodeGen <> mkvSeq def
+binder 16774:16774 <> j:164
+binder 16776:16776 <> k:165
+binder 16778:16778 <> H:166
+R16783:16783 Ionia.KVCache <> H:166 var
+binder 16811:16812 <> p1:167
+binder 16814:16815 <> p2:168
+binder 16817:16818 <> e':169
+binder 16820:16821 <> x':170
+binder 16823:16823 <> H:171
+R16828:16844 Ionia.Proof_CodeGen <> access_assign_neq thm
+R16868:16868 Ionia.KVCache <> H:171 var
+R16865:16866 Ionia.KVCache <> x':170 var
+R16862:16863 Ionia.KVCache <> e':169 var
+R16847:16849 Ionia.DataExp <> ary constr
+R16857:16859 Ionia.DataExp <> num constr
+R16851:16852 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R16855:16855 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R16853:16854 Ionia.KVCache <> KVCache.dk var
+binder 16710:16710 <> j:172
+R16728:16728 Ionia.KVCache <> j:172 var
+binder 16774:16774 <> j:173
+binder 16776:16776 <> k:174
+binder 16778:16778 <> H:175
+R16783:16783 Ionia.KVCache <> H:175 var
+binder 16811:16812 <> p1:176
+binder 16814:16815 <> p2:177
+binder 16817:16818 <> e':178
+binder 16820:16821 <> x':179
+binder 16823:16823 <> H:180
+R16868:16868 Ionia.KVCache <> H:180 var
+R16865:16866 Ionia.KVCache <> x':179 var
+R16862:16863 Ionia.KVCache <> e':178 var
+R16911:16935 Stdlib.Logic.FunctionalExtensionality <> functional_extensionality thm
+R16969:16982 Ionia.Seq2Seq_DPIA <> idxAcc_acc'_at thm
+R16985:16987 Ionia.DataExp <> ary constr
+R16995:16997 Ionia.DataExp <> num constr
+R16989:16990 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R16993:16993 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R16991:16992 Ionia.KVCache <> KVCache.dk var
+prf 17087:17093 <> cache_k
+R17109:17111 Ionia.finType <> fin def
+R17113:17113 Ionia.KVCache <> KVCache.L var
+binder 17105:17105 <> m:181
+R17123:17125 Ionia.Proof_CodeGen <> env def
+binder 17117:17119 <> rho:182
+R17205:17211 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17133:17138 Ionia.Proof_CodeGen <> access def
+R17157:17157 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R17199:17201 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R17203:17203 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R17169:17171 Ionia.Proof_CodeGen <> acc def
+R17174:17176 Ionia.DataExp <> ary constr
+R17184:17186 Ionia.DataExp <> ary constr
+R17194:17196 Ionia.DataExp <> num constr
+R17188:17189 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R17192:17192 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R17190:17191 Ionia.KVCache <> KVCache.dk var
+R17178:17179 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R17181:17181 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R17180:17180 Ionia.KVCache <> KVCache.L var
+R17158:17161 Ionia.Proof_CodeGen <> acc' def
+R17163:17165 Ionia.KVCache <> KVCache.kcp var
+R17202:17202 Ionia.KVCache <> m:181 var
+R17141:17149 Ionia.KVCache <> cachefill def
+R17151:17153 Ionia.KVCache <> rho:182 var
+R17212:17215 Corelib.Init.Datatypes <> Some constr
+R17218:17220 Ionia.KVCache <> KVCache.fkv var
+R17222:17222 Ionia.KVCache <> m:181 var
+R17260:17268 Ionia.KVCache <> cachefill def
+R17271:17275 Ionia.KVCache <> vfill def
+R17285:17287 Ionia.Proof_CodeGen <> seq def
+R17303:17312 Ionia.KVCache <> fill_other thm
+R17384:17388 Ionia.KVCache <> kfill def
+R17377:17379 Ionia.KVCache <> KVCache.fvv var
+R17351:17353 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17348:17350 Ionia.KVCache <> KVCache.vcp var
+R17354:17356 Ionia.KVCache <> KVCache.kcp var
+binder 17344:17344 <> H:183
+R17361:17363 Ionia.KVCache <> KVCache.Hkv var
+R17366:17371 Corelib.Init.Logic <> eq_sym scheme
+R17373:17373 Ionia.KVCache <> H:183 var
+R17334:17336 Ionia.KVCache <> KVCache.kcp var
+R17321:17323 Ionia.KVCache <> KVCache.vcp var
+binder 17344:17344 <> H:184
+R17373:17373 Ionia.KVCache <> H:184 var
+binder 17344:17344 <> H:185
+R17373:17373 Ionia.KVCache <> H:185 var
+R17407:17415 Ionia.KVCache <> fill_read thm
+prf 17472:17478 <> cache_v
+R17494:17496 Ionia.finType <> fin def
+R17498:17498 Ionia.KVCache <> KVCache.L var
+binder 17490:17490 <> m:186
+R17508:17510 Ionia.Proof_CodeGen <> env def
+binder 17502:17504 <> rho:187
+R17590:17596 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R17518:17523 Ionia.Proof_CodeGen <> access def
+R17542:17542 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R17584:17586 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R17588:17588 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R17554:17556 Ionia.Proof_CodeGen <> acc def
+R17559:17561 Ionia.DataExp <> ary constr
+R17569:17571 Ionia.DataExp <> ary constr
+R17579:17581 Ionia.DataExp <> num constr
+R17573:17574 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R17577:17577 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R17575:17576 Ionia.KVCache <> KVCache.dk var
+R17563:17564 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R17566:17566 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R17565:17565 Ionia.KVCache <> KVCache.L var
+R17543:17546 Ionia.Proof_CodeGen <> acc' def
+R17548:17550 Ionia.KVCache <> KVCache.vcp var
+R17587:17587 Ionia.KVCache <> m:186 var
+R17526:17534 Ionia.KVCache <> cachefill def
+R17536:17538 Ionia.KVCache <> rho:187 var
+R17597:17600 Corelib.Init.Datatypes <> Some constr
+R17603:17605 Ionia.KVCache <> KVCache.fvv var
+R17607:17607 Ionia.KVCache <> m:186 var
+R17645:17653 Ionia.KVCache <> cachefill def
+R17663:17665 Ionia.Proof_CodeGen <> seq def
+R17678:17686 Ionia.KVCache <> fill_read thm
+def 17785:17789 <> liftL
+R17796:17798 Corelib.Init.Datatypes <> nat ind
+binder 17792:17792 <> t:188
+R17809:17811 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R17808:17808 Ionia.KVCache <> t:188 var
+R17812:17812 Ionia.KVCache <> KVCache.L var
+binder 17802:17803 <> Ht:189
+R17825:17827 Ionia.finType <> fin def
+R17830:17830 Corelib.Init.Datatypes <> S constr
+R17832:17832 Ionia.KVCache <> t:188 var
+binder 17821:17821 <> j:190
+R17838:17840 Ionia.finType <> fin def
+R17842:17842 Ionia.KVCache <> KVCache.L var
+R17851:17857 Ionia.finType <> nat2fin def
+R17860:17874 Stdlib.Arith.PeanoNat Nat le_lt_trans thm
+R17898:17902 Corelib.Init.Logic <> proj1 thm
+R17925:17933 Ionia.finType <> fin_proof def
+R17935:17935 Ionia.KVCache <> j:190 var
+R17905:17917 Stdlib.Arith.PeanoNat Nat lt_succ_r thm
+R17939:17940 Ionia.KVCache <> Ht:189 var
+def 18035:18039 <> kread
+R18046:18048 Corelib.Init.Datatypes <> nat ind
+binder 18042:18042 <> t:191
+R18059:18061 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R18058:18058 Ionia.KVCache <> t:191 var
+R18062:18062 Ionia.KVCache <> KVCache.L var
+binder 18052:18053 <> Ht:192
+R18077:18079 Ionia.Proof_CodeGen <> env def
+binder 18071:18073 <> rho:193
+R18088:18090 Ionia.Proof_CodeGen <> exp def
+R18093:18095 Ionia.DataExp <> ary constr
+R18105:18107 Ionia.DataExp <> ary constr
+R18115:18117 Ionia.DataExp <> num constr
+R18109:18110 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18113:18113 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18111:18112 Ionia.KVCache <> KVCache.dk var
+R18097:18098 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18102:18102 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18099:18099 Corelib.Init.Datatypes <> S constr
+R18101:18101 Ionia.KVCache <> t:191 var
+R18128:18133 Ionia.Proof_CodeGen <> mkvSeq def
+R18144:18146 Ionia.finType <> fin def
+R18149:18149 Corelib.Init.Datatypes <> S constr
+R18151:18151 Ionia.KVCache <> t:191 var
+binder 18140:18140 <> j:194
+R18163:18170 Ionia.DPIA_Rules <> read_exp def
+R18177:18177 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R18219:18221 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R18232:18232 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R18189:18191 Ionia.Proof_CodeGen <> acc def
+R18194:18196 Ionia.DataExp <> ary constr
+R18204:18206 Ionia.DataExp <> ary constr
+R18214:18216 Ionia.DataExp <> num constr
+R18208:18209 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18212:18212 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18210:18211 Ionia.KVCache <> KVCache.dk var
+R18198:18199 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18201:18201 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18200:18200 Ionia.KVCache <> KVCache.L var
+R18178:18181 Ionia.Proof_CodeGen <> acc' def
+R18183:18185 Ionia.KVCache <> KVCache.kcp var
+R18222:18226 Ionia.KVCache <> liftL def
+R18231:18231 Ionia.KVCache <> j:194 var
+R18228:18229 Ionia.KVCache <> Ht:192 var
+R18172:18174 Ionia.KVCache <> rho:193 var
+def 18250:18254 <> vread
+R18261:18263 Corelib.Init.Datatypes <> nat ind
+binder 18257:18257 <> t:195
+R18274:18276 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R18273:18273 Ionia.KVCache <> t:195 var
+R18277:18277 Ionia.KVCache <> KVCache.L var
+binder 18267:18268 <> Ht:196
+R18292:18294 Ionia.Proof_CodeGen <> env def
+binder 18286:18288 <> rho:197
+R18303:18305 Ionia.Proof_CodeGen <> exp def
+R18308:18310 Ionia.DataExp <> ary constr
+R18320:18322 Ionia.DataExp <> ary constr
+R18330:18332 Ionia.DataExp <> num constr
+R18324:18325 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18328:18328 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18326:18327 Ionia.KVCache <> KVCache.dk var
+R18312:18313 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18317:18317 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18314:18314 Corelib.Init.Datatypes <> S constr
+R18316:18316 Ionia.KVCache <> t:195 var
+R18343:18348 Ionia.Proof_CodeGen <> mkvSeq def
+R18359:18361 Ionia.finType <> fin def
+R18364:18364 Corelib.Init.Datatypes <> S constr
+R18366:18366 Ionia.KVCache <> t:195 var
+binder 18355:18355 <> j:198
+R18378:18385 Ionia.DPIA_Rules <> read_exp def
+R18392:18392 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R18434:18436 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R18447:18447 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R18404:18406 Ionia.Proof_CodeGen <> acc def
+R18409:18411 Ionia.DataExp <> ary constr
+R18419:18421 Ionia.DataExp <> ary constr
+R18429:18431 Ionia.DataExp <> num constr
+R18423:18424 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18427:18427 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18425:18426 Ionia.KVCache <> KVCache.dk var
+R18413:18414 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18416:18416 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18415:18415 Ionia.KVCache <> KVCache.L var
+R18393:18396 Ionia.Proof_CodeGen <> acc' def
+R18398:18400 Ionia.KVCache <> KVCache.vcp var
+R18437:18441 Ionia.KVCache <> liftL def
+R18446:18446 Ionia.KVCache <> j:198 var
+R18443:18444 Ionia.KVCache <> Ht:196 var
+R18387:18389 Ionia.KVCache <> rho:197 var
+def 18530:18534 <> kpref
+R18541:18543 Corelib.Init.Datatypes <> nat ind
+binder 18537:18537 <> t:199
+R18554:18556 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R18553:18553 Ionia.KVCache <> t:199 var
+R18557:18557 Ionia.KVCache <> KVCache.L var
+binder 18547:18548 <> Ht:200
+R18571:18573 Ionia.Proof_CodeGen <> exp def
+R18576:18578 Ionia.DataExp <> ary constr
+R18588:18590 Ionia.DataExp <> ary constr
+R18598:18600 Ionia.DataExp <> num constr
+R18592:18593 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18596:18596 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18594:18595 Ionia.KVCache <> KVCache.dk var
+R18580:18581 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18585:18585 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18582:18582 Corelib.Init.Datatypes <> S constr
+R18584:18584 Ionia.KVCache <> t:199 var
+R18611:18616 Ionia.Proof_CodeGen <> mkvSeq def
+R18627:18629 Ionia.finType <> fin def
+R18632:18632 Corelib.Init.Datatypes <> S constr
+R18634:18634 Ionia.KVCache <> t:199 var
+binder 18623:18623 <> j:201
+R18640:18642 Ionia.KVCache <> KVCache.fkv var
+R18645:18649 Ionia.KVCache <> liftL def
+R18654:18654 Ionia.KVCache <> j:201 var
+R18651:18652 Ionia.KVCache <> Ht:200 var
+def 18672:18676 <> vpref
+R18683:18685 Corelib.Init.Datatypes <> nat ind
+binder 18679:18679 <> t:202
+R18696:18698 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R18695:18695 Ionia.KVCache <> t:202 var
+R18699:18699 Ionia.KVCache <> KVCache.L var
+binder 18689:18690 <> Ht:203
+R18713:18715 Ionia.Proof_CodeGen <> exp def
+R18718:18720 Ionia.DataExp <> ary constr
+R18730:18732 Ionia.DataExp <> ary constr
+R18740:18742 Ionia.DataExp <> num constr
+R18734:18735 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18738:18738 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18736:18737 Ionia.KVCache <> KVCache.dk var
+R18722:18723 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18727:18727 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R18724:18724 Corelib.Init.Datatypes <> S constr
+R18726:18726 Ionia.KVCache <> t:202 var
+R18753:18758 Ionia.Proof_CodeGen <> mkvSeq def
+R18769:18771 Ionia.finType <> fin def
+R18774:18774 Corelib.Init.Datatypes <> S constr
+R18776:18776 Ionia.KVCache <> t:202 var
+binder 18765:18765 <> j:204
+R18782:18784 Ionia.KVCache <> KVCache.fvv var
+R18787:18791 Ionia.KVCache <> liftL def
+R18796:18796 Ionia.KVCache <> j:204 var
+R18793:18794 Ionia.KVCache <> Ht:203 var
+prf 18810:18817 <> kread_eq
+R18833:18835 Corelib.Init.Datatypes <> nat ind
+binder 18829:18829 <> t:205
+R18846:18848 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R18845:18845 Ionia.KVCache <> t:205 var
+R18849:18849 Ionia.KVCache <> KVCache.L var
+binder 18839:18840 <> Ht:206
+R18864:18866 Ionia.Proof_CodeGen <> env def
+binder 18858:18860 <> rho:207
+R18898:18900 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R18874:18878 Ionia.KVCache <> kread def
+R18884:18892 Ionia.KVCache <> cachefill def
+R18894:18896 Ionia.KVCache <> rho:207 var
+R18880:18881 Ionia.KVCache <> Ht:206 var
+R18901:18905 Ionia.KVCache <> kpref def
+R18907:18908 Ionia.KVCache <> Ht:206 var
+R18948:18952 Ionia.KVCache <> kread def
+R18955:18959 Ionia.KVCache <> kpref def
+R18981:19005 Stdlib.Logic.FunctionalExtensionality <> functional_extensionality thm
+R19027:19037 Ionia.KVCache <> read_exp_eq thm
+R19046:19052 Ionia.KVCache <> cache_k thm
+prf 19071:19078 <> vread_eq
+R19094:19096 Corelib.Init.Datatypes <> nat ind
+binder 19090:19090 <> t:208
+R19107:19109 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R19106:19106 Ionia.KVCache <> t:208 var
+R19110:19110 Ionia.KVCache <> KVCache.L var
+binder 19100:19101 <> Ht:209
+R19125:19127 Ionia.Proof_CodeGen <> env def
+binder 19119:19121 <> rho:210
+R19159:19161 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19135:19139 Ionia.KVCache <> vread def
+R19145:19153 Ionia.KVCache <> cachefill def
+R19155:19157 Ionia.KVCache <> rho:210 var
+R19141:19142 Ionia.KVCache <> Ht:209 var
+R19162:19166 Ionia.KVCache <> vpref def
+R19168:19169 Ionia.KVCache <> Ht:209 var
+R19209:19213 Ionia.KVCache <> vread def
+R19216:19220 Ionia.KVCache <> vpref def
+R19242:19266 Stdlib.Logic.FunctionalExtensionality <> functional_extensionality thm
+R19288:19298 Ionia.KVCache <> read_exp_eq thm
+R19307:19313 Ionia.KVCache <> cache_v thm
+prf 19468:19481 <> kv_cache_equiv
+R19497:19499 Corelib.Init.Datatypes <> nat ind
+binder 19493:19493 <> t:211
+R19510:19512 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R19509:19509 Ionia.KVCache <> t:211 var
+R19513:19513 Ionia.KVCache <> KVCache.L var
+binder 19503:19504 <> Ht:212
+R19528:19530 Ionia.Proof_CodeGen <> env def
+binder 19522:19524 <> rho:213
+R19542:19544 Ionia.Proof_CodeGen <> exp def
+R19547:19549 Ionia.DataExp <> ary constr
+R19557:19559 Ionia.DataExp <> num constr
+R19551:19552 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19555:19555 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19553:19554 Ionia.KVCache <> KVCache.dk var
+binder 19538:19538 <> q:214
+R19629:19635 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19568:19572 Ionia.KVCache <> AttnQ def
+R19604:19608 Ionia.KVCache <> vread def
+R19614:19622 Ionia.KVCache <> cachefill def
+R19624:19626 Ionia.KVCache <> rho:213 var
+R19610:19611 Ionia.KVCache <> Ht:212 var
+R19577:19581 Ionia.KVCache <> kread def
+R19587:19595 Ionia.KVCache <> cachefill def
+R19597:19599 Ionia.KVCache <> rho:213 var
+R19583:19584 Ionia.KVCache <> Ht:212 var
+R19574:19574 Ionia.KVCache <> q:214 var
+R19636:19640 Ionia.KVCache <> AttnQ def
+R19656:19660 Ionia.KVCache <> vpref def
+R19662:19663 Ionia.KVCache <> Ht:212 var
+R19645:19649 Ionia.KVCache <> kpref def
+R19651:19652 Ionia.KVCache <> Ht:212 var
+R19642:19642 Ionia.KVCache <> q:214 var
+R19696:19703 Ionia.KVCache <> kread_eq thm
+R19706:19713 Ionia.KVCache <> vread_eq thm
+prf 19891:19909 <> kv_cache_equiv_cell
+R19925:19927 Corelib.Init.Datatypes <> nat ind
+binder 19921:19921 <> t:215
+R19938:19940 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R19937:19937 Ionia.KVCache <> t:215 var
+R19941:19941 Ionia.KVCache <> KVCache.L var
+binder 19931:19932 <> Ht:216
+R19962:19964 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R19960:19961 Ionia.KVCache <> KVCache.dk var
+binder 19954:19956 <> Hdk:217
+R19975:19977 Ionia.Proof_CodeGen <> env def
+binder 19969:19971 <> rho:218
+R19985:19987 Ionia.Proof_CodeGen <> exp def
+R19990:19992 Ionia.DataExp <> ary constr
+R20002:20004 Ionia.DataExp <> ary constr
+R20012:20014 Ionia.DataExp <> num constr
+R20006:20007 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R20010:20010 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R20008:20009 Ionia.KVCache <> KVCache.dk var
+R19994:19995 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19999:19999 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R19996:19996 Corelib.Init.Datatypes <> S constr
+R19998:19998 Ionia.KVCache <> t:215 var
+binder 19981:19981 <> Q:219
+R20121:20127 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20024:20026 Ionia.Proof_CodeGen <> idx def
+R20110:20117 Ionia.finType <> fin_last def
+R20119:20119 Ionia.KVCache <> t:215 var
+R20029:20042 Ionia.Attention_DPIA <> Attention_cell def
+R20074:20078 Ionia.KVCache <> vread def
+R20084:20092 Ionia.KVCache <> cachefill def
+R20094:20096 Ionia.KVCache <> rho:218 var
+R20080:20081 Ionia.KVCache <> Ht:216 var
+R20047:20051 Ionia.KVCache <> kread def
+R20057:20065 Ionia.KVCache <> cachefill def
+R20067:20069 Ionia.KVCache <> rho:218 var
+R20053:20054 Ionia.KVCache <> Ht:216 var
+R20044:20044 Ionia.KVCache <> Q:219 var
+R20128:20130 Ionia.Proof_CodeGen <> idx def
+R20174:20181 Ionia.finType <> fin_last def
+R20183:20183 Ionia.KVCache <> t:215 var
+R20133:20146 Ionia.Attention_DPIA <> Attention_cell def
+R20162:20166 Ionia.KVCache <> vpref def
+R20168:20169 Ionia.KVCache <> Ht:216 var
+R20151:20155 Ionia.KVCache <> kpref def
+R20157:20158 Ionia.KVCache <> Ht:216 var
+R20148:20148 Ionia.KVCache <> Q:219 var
+R20216:20223 Ionia.KVCache <> kread_eq thm
+R20226:20233 Ionia.KVCache <> vread_eq thm
+def 20413:20428 <> attn_cached_comm
+R20435:20437 Corelib.Init.Datatypes <> nat ind
+binder 20431:20431 <> t:220
+R20448:20450 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R20447:20447 Ionia.KVCache <> t:220 var
+R20451:20451 Ionia.KVCache <> KVCache.L var
+binder 20441:20442 <> Ht:221
+R20468:20470 Ionia.Proof_CodeGen <> exp def
+R20473:20475 Ionia.DataExp <> ary constr
+R20483:20485 Ionia.DataExp <> num constr
+R20477:20478 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R20481:20481 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R20479:20480 Ionia.KVCache <> KVCache.dk var
+binder 20464:20464 <> q:222
+R20496:20498 Ionia.Proof_CodeGen <> acc def
+R20501:20503 Ionia.DataExp <> ary constr
+R20511:20513 Ionia.DataExp <> num constr
+R20505:20506 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R20509:20509 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R20507:20508 Ionia.KVCache <> KVCache.dk var
+binder 20490:20492 <> out:223
+R20519:20522 Ionia.Proof_CodeGen <> comm def
+binder 20535:20537 <> rho:224
+R20542:20551 Ionia.KVCache <> AttnQ_comm def
+R20589:20591 Ionia.KVCache <> rho:224 var
+R20585:20587 Ionia.KVCache <> out:223 var
+R20571:20575 Ionia.KVCache <> vread def
+R20580:20582 Ionia.KVCache <> rho:224 var
+R20577:20578 Ionia.KVCache <> Ht:221 var
+R20556:20560 Ionia.KVCache <> kread def
+R20565:20567 Ionia.KVCache <> rho:224 var
+R20562:20563 Ionia.KVCache <> Ht:221 var
+R20553:20553 Ionia.KVCache <> q:222 var
+prf 20740:20753 <> A_AttnQ_cached
+R20769:20771 Corelib.Init.Datatypes <> nat ind
+binder 20765:20765 <> t:225
+R20782:20784 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R20781:20781 Ionia.KVCache <> t:225 var
+R20785:20785 Ionia.KVCache <> KVCache.L var
+binder 20775:20776 <> Ht:226
+R20802:20804 Ionia.Proof_CodeGen <> exp def
+R20807:20809 Ionia.DataExp <> ary constr
+R20817:20819 Ionia.DataExp <> num constr
+R20811:20812 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R20815:20815 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R20813:20814 Ionia.KVCache <> KVCache.dk var
+binder 20798:20798 <> q:227
+R20830:20832 Ionia.Proof_CodeGen <> acc def
+R20835:20837 Ionia.DataExp <> ary constr
+R20845:20847 Ionia.DataExp <> num constr
+R20839:20840 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R20843:20843 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R20841:20842 Ionia.KVCache <> KVCache.dk var
+binder 20824:20826 <> out:228
+R20862:20864 Ionia.Proof_CodeGen <> env def
+binder 20856:20858 <> rho:229
+R20872:20875 Ionia.DataExp <> path ind
+binder 20868:20868 <> p:230
+R20895:20902 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R20883:20888 Ionia.Proof_CodeGen <> in_acc def
+R20892:20894 Ionia.KVCache <> out:228 var
+R20890:20890 Ionia.KVCache <> p:230 var
+R20946:20952 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R20903:20918 Ionia.KVCache <> attn_cached_comm def
+R20945:20945 Ionia.KVCache <> p:230 var
+R20930:20938 Ionia.KVCache <> cachefill def
+R20940:20942 Ionia.KVCache <> rho:229 var
+R20925:20927 Ionia.KVCache <> out:228 var
+R20923:20923 Ionia.KVCache <> q:227 var
+R20920:20921 Ionia.KVCache <> Ht:226 var
+R20953:20954 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20958:20959 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20989:20995 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R20955:20957 Ionia.KVCache <> out:228 var
+R20960:20964 Ionia.KVCache <> AttnQ def
+R20980:20984 Ionia.KVCache <> vpref def
+R20986:20987 Ionia.KVCache <> Ht:226 var
+R20969:20973 Ionia.KVCache <> kpref def
+R20975:20976 Ionia.KVCache <> Ht:226 var
+R20966:20966 Ionia.KVCache <> q:227 var
+R20995:20995 Ionia.KVCache <> p:230 var
+R20991:20993 Ionia.KVCache <> rho:229 var
+R21046:21061 Ionia.KVCache <> attn_cached_comm def
+R21080:21086 Ionia.KVCache <> A_AttnQ thm
+R21145:21149 Ionia.KVCache <> vread def
+R21155:21163 Ionia.KVCache <> cachefill def
+R21118:21122 Ionia.KVCache <> kread def
+R21128:21136 Ionia.KVCache <> cachefill def
+R21092:21092 Corelib.Init.Datatypes <> S constr
+R21088:21089 Ionia.KVCache <> KVCache.dk var
+R21190:21203 Ionia.KVCache <> kv_cache_equiv thm
+R21234:21234 Ionia.DPIA_Rules <> A def
+R21243:21265 Ionia.DPIA_Rules <> assign_pure_independent thm
+R21290:21296 Ionia.KVCache KVCache <> sec
+sec 21552:21566 <> BoundedGenerate
+var  21581:21581 BoundedGenerate T
+var  21583:21584 BoundedGenerate dk
+R21588:21590 Corelib.Init.Datatypes <> nat ind
+var  21677:21678 BoundedGenerate x0
+R21682:21684 Ionia.Proof_CodeGen <> exp def
+R21687:21689 Ionia.DataExp <> ary constr
+R21697:21699 Ionia.DataExp <> num constr
+R21691:21692 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R21695:21695 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R21693:21694 Ionia.KVCache <> BoundedGenerate.dk var
+var  21849:21853 BoundedGenerate qproj
+var  21855:21859 BoundedGenerate kproj
+var  21861:21865 BoundedGenerate vproj
+var  21867:21870 BoundedGenerate emit
+R21893:21896 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R21874:21876 Ionia.Proof_CodeGen <> exp def
+R21879:21881 Ionia.DataExp <> ary constr
+R21889:21891 Ionia.DataExp <> num constr
+R21883:21884 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R21887:21887 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R21885:21886 Ionia.KVCache <> BoundedGenerate.dk var
+R21897:21899 Ionia.Proof_CodeGen <> exp def
+R21902:21904 Ionia.DataExp <> ary constr
+R21912:21914 Ionia.DataExp <> num constr
+R21906:21907 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R21910:21910 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R21908:21909 Ionia.KVCache <> BoundedGenerate.dk var
+var  21992:21997 BoundedGenerate isdone
+R22020:22023 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R22001:22003 Ionia.Proof_CodeGen <> exp def
+R22006:22008 Ionia.DataExp <> ary constr
+R22016:22018 Ionia.DataExp <> num constr
+R22010:22011 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R22014:22014 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R22012:22013 Ionia.KVCache <> BoundedGenerate.dk var
+R22024:22027 Corelib.Init.Datatypes <> bool ind
+var  22042:22046 BoundedGenerate sentk
+var  22048:22052 BoundedGenerate sentv
+var  22054:22058 BoundedGenerate sento
+R22062:22064 Ionia.Proof_CodeGen <> exp def
+R22067:22069 Ionia.DataExp <> ary constr
+R22077:22079 Ionia.DataExp <> num constr
+R22071:22072 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R22075:22075 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R22073:22074 Ionia.KVCache <> BoundedGenerate.dk var
+var  22145:22146 BoundedGenerate sp
+var  22148:22150 BoundedGenerate kcp
+var  22152:22154 BoundedGenerate vcp
+var  22156:22159 BoundedGenerate outp
+R22163:22166 Ionia.DataExp <> path ind
+def 22184:22186 <> stD
+R22190:22193 Ionia.DataExp <> data ind
+R22198:22200 Ionia.DataExp <> ary constr
+R22208:22210 Ionia.DataExp <> num constr
+R22202:22203 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R22206:22206 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R22204:22205 Ionia.KVCache <> BoundedGenerate.dk var
+def 22324:22340 <> kv_paths_distinct
+R22356:22356 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R22393:22401 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R22368:22370 Ionia.finType <> fin def
+R22372:22372 Ionia.KVCache <> BoundedGenerate.T var
+binder 22364:22364 <> j:246
+R22377:22380 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R22375:22376 Ionia.KVCache <> BoundedGenerate.sp var
+R22381:22386 Ionia.DataExp <> AryIdx constr
+R22390:22392 Ionia.KVCache <> BoundedGenerate.kcp var
+R22388:22388 Ionia.KVCache <> j:246 var
+R22402:22402 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R22439:22447 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R22414:22416 Ionia.finType <> fin def
+R22418:22418 Ionia.KVCache <> BoundedGenerate.T var
+binder 22410:22410 <> j:247
+R22423:22426 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R22421:22422 Ionia.KVCache <> BoundedGenerate.sp var
+R22427:22432 Ionia.DataExp <> AryIdx constr
+R22436:22438 Ionia.KVCache <> BoundedGenerate.vcp var
+R22434:22434 Ionia.KVCache <> j:247 var
+R22448:22448 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R22486:22494 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R22460:22462 Ionia.finType <> fin def
+R22464:22464 Ionia.KVCache <> BoundedGenerate.T var
+binder 22456:22456 <> j:248
+R22469:22472 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R22467:22468 Ionia.KVCache <> BoundedGenerate.sp var
+R22473:22478 Ionia.DataExp <> AryIdx constr
+R22482:22485 Ionia.KVCache <> BoundedGenerate.outp var
+R22480:22480 Ionia.KVCache <> j:248 var
+R22495:22495 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R22544:22552 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R22509:22511 Ionia.finType <> fin def
+R22513:22513 Ionia.KVCache <> BoundedGenerate.T var
+binder 22503:22503 <> i:249
+binder 22505:22505 <> j:250
+R22528:22531 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R22516:22521 Ionia.DataExp <> AryIdx constr
+R22525:22527 Ionia.KVCache <> BoundedGenerate.kcp var
+R22523:22523 Ionia.KVCache <> i:249 var
+R22532:22537 Ionia.DataExp <> AryIdx constr
+R22541:22543 Ionia.KVCache <> BoundedGenerate.vcp var
+R22539:22539 Ionia.KVCache <> j:250 var
+R22553:22553 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R22603:22612 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R22662:22662 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R22567:22569 Ionia.finType <> fin def
+R22571:22571 Ionia.KVCache <> BoundedGenerate.T var
+binder 22561:22561 <> i:251
+binder 22563:22563 <> j:252
+R22586:22589 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R22574:22579 Ionia.DataExp <> AryIdx constr
+R22583:22585 Ionia.KVCache <> BoundedGenerate.kcp var
+R22581:22581 Ionia.KVCache <> i:251 var
+R22590:22595 Ionia.DataExp <> AryIdx constr
+R22599:22602 Ionia.KVCache <> BoundedGenerate.outp var
+R22597:22597 Ionia.KVCache <> j:252 var
+R22626:22628 Ionia.finType <> fin def
+R22630:22630 Ionia.KVCache <> BoundedGenerate.T var
+binder 22620:22620 <> i:253
+binder 22622:22622 <> j:254
+R22645:22648 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R22633:22638 Ionia.DataExp <> AryIdx constr
+R22642:22644 Ionia.KVCache <> BoundedGenerate.vcp var
+R22640:22640 Ionia.KVCache <> i:253 var
+R22649:22654 Ionia.DataExp <> AryIdx constr
+R22658:22661 Ionia.KVCache <> BoundedGenerate.outp var
+R22656:22656 Ionia.KVCache <> j:254 var
+var  22677:22681 BoundedGenerate Hdist
+R22685:22701 Ionia.KVCache <> kv_paths_distinct def
+def 22798:22806 <> gen_trace
+R22813:22815 Corelib.Init.Datatypes <> nat ind
+binder 22809:22809 <> n:256
+R22820:22822 Ionia.Proof_CodeGen <> exp def
+R22825:22827 Ionia.DataExp <> ary constr
+R22836:22838 Ionia.KVCache <> stD def
+R22829:22830 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R22834:22834 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R22831:22831 Corelib.Init.Datatypes <> S constr
+R22833:22833 Ionia.KVCache <> n:256 var
+R22854:22854 Ionia.KVCache <> n:256 var
+R22872:22877 Ionia.Proof_CodeGen <> mkvSeq def
+R22888:22890 Ionia.finType <> fin def
+R22897:22898 Ionia.KVCache <> BoundedGenerate.x0 var
+R22907:22907 Corelib.Init.Datatypes <> S constr
+R22933:22941 Ionia.KVCache <> gen_trace:257 def
+binder 22925:22928 <> prev:259
+R22965:22967 Ionia.Proof_CodeGen <> idx def
+R22975:22982 Ionia.finType <> fin_last def
+R22969:22972 Ionia.KVCache <> prev:259 var
+binder 22959:22960 <> xl:260
+R22997:22997 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23002:23003 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23414:23414 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R22998:23001 Ionia.KVCache <> prev:259 var
+R23007:23012 Ionia.KVCache <> BoundedGenerate.isdone var
+R23014:23015 Ionia.KVCache <> xl:260 var
+R23043:23046 Ionia.KVCache <> BoundedGenerate.emit var
+R23049:23053 Ionia.KVCache <> AttnQ def
+R23266:23271 Ionia.Proof_CodeGen <> mkvSeq def
+R23282:23284 Ionia.finType <> fin def
+R23287:23287 Corelib.Init.Datatypes <> S constr
+binder 23278:23278 <> j:261
+R23333:23335 Ionia.Proof_CodeGen <> idx def
+R23342:23342 Ionia.KVCache <> j:261 var
+R23337:23340 Ionia.KVCache <> prev:259 var
+binder 23327:23328 <> xj:262
+R23377:23382 Ionia.KVCache <> BoundedGenerate.isdone var
+R23384:23385 Ionia.KVCache <> xj:262 var
+R23403:23407 Ionia.KVCache <> BoundedGenerate.vproj var
+R23409:23410 Ionia.KVCache <> xj:262 var
+R23392:23396 Ionia.KVCache <> BoundedGenerate.sentv var
+R23092:23097 Ionia.Proof_CodeGen <> mkvSeq def
+R23108:23110 Ionia.finType <> fin def
+R23113:23113 Corelib.Init.Datatypes <> S constr
+binder 23104:23104 <> j:263
+R23159:23161 Ionia.Proof_CodeGen <> idx def
+R23168:23168 Ionia.KVCache <> j:263 var
+R23163:23166 Ionia.KVCache <> prev:259 var
+binder 23153:23154 <> xj:264
+R23203:23208 Ionia.KVCache <> BoundedGenerate.isdone var
+R23210:23211 Ionia.KVCache <> xj:264 var
+R23229:23233 Ionia.KVCache <> BoundedGenerate.kproj var
+R23235:23236 Ionia.KVCache <> xj:264 var
+R23218:23222 Ionia.KVCache <> BoundedGenerate.sentk var
+R23056:23060 Ionia.KVCache <> BoundedGenerate.qproj var
+R23062:23063 Ionia.KVCache <> xl:260 var
+R23022:23023 Ionia.KVCache <> xl:260 var
+def 23481:23486 <> gen_at
+R23493:23495 Corelib.Init.Datatypes <> nat ind
+binder 23489:23489 <> n:265
+R23500:23502 Ionia.Proof_CodeGen <> exp def
+R23504:23506 Ionia.KVCache <> stD def
+R23511:23513 Ionia.Proof_CodeGen <> idx def
+R23530:23537 Ionia.finType <> fin_last def
+R23539:23539 Ionia.KVCache <> n:265 var
+R23516:23524 Ionia.KVCache <> gen_trace def
+R23526:23526 Ionia.KVCache <> n:265 var
+def 23608:23609 <> gk
+R23616:23618 Corelib.Init.Datatypes <> nat ind
+binder 23612:23612 <> n:266
+R23623:23625 Ionia.Proof_CodeGen <> exp def
+R23627:23629 Ionia.KVCache <> stD def
+R23641:23646 Ionia.KVCache <> BoundedGenerate.isdone var
+R23649:23654 Ionia.KVCache <> gen_at def
+R23656:23656 Ionia.KVCache <> n:266 var
+R23675:23679 Ionia.KVCache <> BoundedGenerate.kproj var
+R23682:23687 Ionia.KVCache <> gen_at def
+R23689:23689 Ionia.KVCache <> n:266 var
+R23664:23668 Ionia.KVCache <> BoundedGenerate.sentk var
+def 23706:23707 <> gv
+R23714:23716 Corelib.Init.Datatypes <> nat ind
+binder 23710:23710 <> n:267
+R23721:23723 Ionia.Proof_CodeGen <> exp def
+R23725:23727 Ionia.KVCache <> stD def
+R23739:23744 Ionia.KVCache <> BoundedGenerate.isdone var
+R23747:23752 Ionia.KVCache <> gen_at def
+R23754:23754 Ionia.KVCache <> n:267 var
+R23773:23777 Ionia.KVCache <> BoundedGenerate.vproj var
+R23780:23785 Ionia.KVCache <> gen_at def
+R23787:23787 Ionia.KVCache <> n:267 var
+R23762:23766 Ionia.KVCache <> BoundedGenerate.sentv var
+def 23856:23860 <> gpreK
+R23867:23869 Corelib.Init.Datatypes <> nat ind
+binder 23863:23863 <> n:268
+R23874:23876 Ionia.Proof_CodeGen <> exp def
+R23879:23881 Ionia.DataExp <> ary constr
+R23890:23892 Ionia.KVCache <> stD def
+R23883:23884 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R23888:23888 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R23885:23885 Corelib.Init.Datatypes <> S constr
+R23887:23887 Ionia.KVCache <> n:268 var
+R23902:23907 Ionia.Proof_CodeGen <> mkvSeq def
+R23918:23920 Ionia.finType <> fin def
+R23923:23923 Corelib.Init.Datatypes <> S constr
+R23925:23925 Ionia.KVCache <> n:268 var
+binder 23914:23914 <> j:269
+R23931:23932 Ionia.KVCache <> gk def
+R23935:23941 Ionia.finType <> fin2nat def
+R23943:23943 Ionia.KVCache <> j:269 var
+def 23961:23965 <> gpreV
+R23972:23974 Corelib.Init.Datatypes <> nat ind
+binder 23968:23968 <> n:270
+R23979:23981 Ionia.Proof_CodeGen <> exp def
+R23984:23986 Ionia.DataExp <> ary constr
+R23995:23997 Ionia.KVCache <> stD def
+R23988:23989 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R23993:23993 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R23990:23990 Corelib.Init.Datatypes <> S constr
+R23992:23992 Ionia.KVCache <> n:270 var
+R24007:24012 Ionia.Proof_CodeGen <> mkvSeq def
+R24023:24025 Ionia.finType <> fin def
+R24028:24028 Corelib.Init.Datatypes <> S constr
+R24030:24030 Ionia.KVCache <> n:270 var
+binder 24019:24019 <> j:271
+R24036:24037 Ionia.KVCache <> gv def
+R24040:24046 Ionia.finType <> fin2nat def
+R24048:24048 Ionia.KVCache <> j:271 var
+def 24128:24132 <> attnF
+R24139:24141 Corelib.Init.Datatypes <> nat ind
+binder 24135:24135 <> n:272
+R24146:24148 Ionia.Proof_CodeGen <> exp def
+R24150:24152 Ionia.KVCache <> stD def
+R24161:24165 Ionia.KVCache <> AttnQ def
+R24197:24201 Ionia.KVCache <> gpreV def
+R24203:24203 Ionia.KVCache <> n:272 var
+R24187:24191 Ionia.KVCache <> gpreK def
+R24193:24193 Ionia.KVCache <> n:272 var
+R24168:24172 Ionia.KVCache <> BoundedGenerate.qproj var
+R24175:24180 Ionia.KVCache <> gen_at def
+R24182:24182 Ionia.KVCache <> n:272 var
+def 24220:24223 <> gout
+R24230:24232 Corelib.Init.Datatypes <> nat ind
+binder 24226:24226 <> n:273
+R24237:24239 Ionia.Proof_CodeGen <> exp def
+R24241:24243 Ionia.KVCache <> stD def
+R24255:24260 Ionia.KVCache <> BoundedGenerate.isdone var
+R24263:24268 Ionia.KVCache <> gen_at def
+R24270:24270 Ionia.KVCache <> n:273 var
+R24289:24293 Ionia.KVCache <> attnF def
+R24295:24295 Ionia.KVCache <> n:273 var
+R24278:24282 Ionia.KVCache <> BoundedGenerate.sento var
+def 24346:24356 <> gen_outputs
+R24360:24362 Ionia.Proof_CodeGen <> exp def
+R24365:24367 Ionia.DataExp <> ary constr
+R24374:24376 Ionia.KVCache <> stD def
+R24369:24370 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R24372:24372 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R24371:24371 Ionia.KVCache <> BoundedGenerate.T var
+R24386:24391 Ionia.Proof_CodeGen <> mkvSeq def
+R24402:24404 Ionia.finType <> fin def
+R24406:24406 Ionia.KVCache <> BoundedGenerate.T var
+binder 24398:24398 <> t:274
+R24411:24414 Ionia.KVCache <> gout def
+R24417:24423 Ionia.finType <> fin2nat def
+R24425:24425 Ionia.KVCache <> t:274 var
+prf 24520:24527 <> gen_at_0
+R24539:24541 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24531:24536 Ionia.KVCache <> gen_at def
+R24542:24543 Ionia.KVCache <> BoundedGenerate.x0 var
+R24562:24567 Ionia.KVCache <> gen_at def
+R24575:24583 Ionia.KVCache <> gen_trace def
+R24595:24604 Ionia.Proof_CodeGen <> idx_mkvSeq thm
+prf 24716:24723 <> trace_at
+R24739:24741 Corelib.Init.Datatypes <> nat ind
+binder 24735:24735 <> n:275
+R24749:24751 Ionia.finType <> fin def
+R24754:24754 Corelib.Init.Datatypes <> S constr
+R24756:24756 Ionia.KVCache <> n:275 var
+binder 24745:24745 <> j:276
+R24784:24786 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24765:24767 Ionia.Proof_CodeGen <> idx def
+R24783:24783 Ionia.KVCache <> j:276 var
+R24770:24778 Ionia.KVCache <> gen_trace def
+R24780:24780 Ionia.KVCache <> n:275 var
+R24787:24792 Ionia.KVCache <> gen_at def
+R24795:24801 Ionia.finType <> fin2nat def
+R24803:24803 Ionia.KVCache <> j:276 var
+R24883:24885 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24874:24880 Ionia.finType <> fin2nat def
+R24972:24979 Ionia.KVCache <> gen_at_0 thm
+R24993:25001 Ionia.KVCache <> gen_trace def
+R25013:25022 Ionia.Proof_CodeGen <> idx_mkvSeq thm
+R25061:25068 Ionia.finType <> fin_case thm
+R25113:25121 Ionia.KVCache <> gen_trace def
+R25133:25140 Ionia.Proof_CodeGen <> idx_pred thm
+R25172:25187 Ionia.finType <> fin2nat_fin2finS thm
+R25227:25229 Ionia.finType <> ltS def
+R25240:25254 Ionia.finType <> fin2nat_nat2fin thm
+R25272:25277 Ionia.KVCache <> gen_at def
+prf 25309:25319 <> gpreK_trace
+R25335:25337 Corelib.Init.Datatypes <> nat ind
+binder 25331:25331 <> n:277
+R25453:25459 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25345:25350 Ionia.Proof_CodeGen <> mkvSeq def
+R25361:25363 Ionia.finType <> fin def
+R25366:25366 Corelib.Init.Datatypes <> S constr
+R25368:25368 Ionia.KVCache <> n:277 var
+binder 25357:25357 <> j:278
+R25391:25393 Ionia.Proof_CodeGen <> idx def
+R25409:25409 Ionia.KVCache <> j:278 var
+R25396:25404 Ionia.KVCache <> gen_trace def
+R25406:25406 Ionia.KVCache <> n:277 var
+binder 25385:25386 <> xj:279
+R25417:25422 Ionia.KVCache <> BoundedGenerate.isdone var
+R25424:25425 Ionia.KVCache <> xj:279 var
+R25443:25447 Ionia.KVCache <> BoundedGenerate.kproj var
+R25449:25450 Ionia.KVCache <> xj:279 var
+R25432:25436 Ionia.KVCache <> BoundedGenerate.sentk var
+R25460:25464 Ionia.KVCache <> gpreK def
+R25466:25466 Ionia.KVCache <> n:277 var
+R25498:25502 Ionia.KVCache <> gpreK def
+R25505:25506 Ionia.KVCache <> gk def
+R25528:25552 Stdlib.Logic.FunctionalExtensionality <> functional_extensionality thm
+R25586:25593 Ionia.KVCache <> trace_at thm
+prf 25625:25635 <> gpreV_trace
+R25651:25653 Corelib.Init.Datatypes <> nat ind
+binder 25647:25647 <> n:280
+R25769:25775 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25661:25666 Ionia.Proof_CodeGen <> mkvSeq def
+R25677:25679 Ionia.finType <> fin def
+R25682:25682 Corelib.Init.Datatypes <> S constr
+R25684:25684 Ionia.KVCache <> n:280 var
+binder 25673:25673 <> j:281
+R25707:25709 Ionia.Proof_CodeGen <> idx def
+R25725:25725 Ionia.KVCache <> j:281 var
+R25712:25720 Ionia.KVCache <> gen_trace def
+R25722:25722 Ionia.KVCache <> n:280 var
+binder 25701:25702 <> xj:282
+R25733:25738 Ionia.KVCache <> BoundedGenerate.isdone var
+R25740:25741 Ionia.KVCache <> xj:282 var
+R25759:25763 Ionia.KVCache <> BoundedGenerate.vproj var
+R25765:25766 Ionia.KVCache <> xj:282 var
+R25748:25752 Ionia.KVCache <> BoundedGenerate.sentv var
+R25776:25780 Ionia.KVCache <> gpreV def
+R25782:25782 Ionia.KVCache <> n:280 var
+R25814:25818 Ionia.KVCache <> gpreV def
+R25821:25822 Ionia.KVCache <> gv def
+R25844:25868 Stdlib.Logic.FunctionalExtensionality <> functional_extensionality thm
+R25902:25909 Ionia.KVCache <> trace_at thm
+prf 25998:26005 <> gen_at_S
+R26021:26023 Corelib.Init.Datatypes <> nat ind
+binder 26017:26017 <> n:283
+R26043:26045 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26031:26036 Ionia.KVCache <> gen_at def
+R26039:26039 Corelib.Init.Datatypes <> S constr
+R26041:26041 Ionia.KVCache <> n:283 var
+R26049:26054 Ionia.KVCache <> BoundedGenerate.isdone var
+R26057:26062 Ionia.KVCache <> gen_at def
+R26064:26064 Ionia.KVCache <> n:283 var
+R26086:26089 Ionia.KVCache <> BoundedGenerate.emit var
+R26092:26096 Ionia.KVCache <> attnF def
+R26098:26098 Ionia.KVCache <> n:283 var
+R26072:26077 Ionia.KVCache <> gen_at def
+R26079:26079 Ionia.KVCache <> n:283 var
+R26131:26136 Ionia.KVCache <> gen_at def
+R26139:26143 Ionia.KVCache <> attnF def
+R26151:26159 Ionia.KVCache <> gen_trace def
+R26175:26182 Ionia.Proof_CodeGen <> idx_last thm
+R26207:26217 Ionia.KVCache <> gpreK_trace thm
+R26220:26230 Ionia.KVCache <> gpreV_trace thm
+prf 26262:26268 <> gk_body
+binder 26279:26279 <> n:284
+R26286:26288 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26282:26283 Ionia.KVCache <> gk def
+R26285:26285 Ionia.KVCache <> n:284 var
+R26292:26297 Ionia.KVCache <> BoundedGenerate.isdone var
+R26300:26305 Ionia.KVCache <> gen_at def
+R26307:26307 Ionia.KVCache <> n:284 var
+R26326:26330 Ionia.KVCache <> BoundedGenerate.kproj var
+R26333:26338 Ionia.KVCache <> gen_at def
+R26340:26340 Ionia.KVCache <> n:284 var
+R26315:26319 Ionia.KVCache <> BoundedGenerate.sentk var
+prf 26379:26385 <> gv_body
+binder 26396:26396 <> n:285
+R26403:26405 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26399:26400 Ionia.KVCache <> gv def
+R26402:26402 Ionia.KVCache <> n:285 var
+R26409:26414 Ionia.KVCache <> BoundedGenerate.isdone var
+R26417:26422 Ionia.KVCache <> gen_at def
+R26424:26424 Ionia.KVCache <> n:285 var
+R26443:26447 Ionia.KVCache <> BoundedGenerate.vproj var
+R26450:26455 Ionia.KVCache <> gen_at def
+R26457:26457 Ionia.KVCache <> n:285 var
+R26432:26436 Ionia.KVCache <> BoundedGenerate.sentv var
+prf 26496:26505 <> gpreK_body
+binder 26516:26516 <> n:286
+R26526:26528 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26519:26523 Ionia.KVCache <> gpreK def
+R26525:26525 Ionia.KVCache <> n:286 var
+R26529:26534 Ionia.Proof_CodeGen <> mkvSeq def
+R26545:26547 Ionia.finType <> fin def
+R26550:26550 Corelib.Init.Datatypes <> S constr
+R26552:26552 Ionia.KVCache <> n:286 var
+binder 26541:26541 <> j:287
+R26558:26559 Ionia.KVCache <> gk def
+R26562:26568 Ionia.finType <> fin2nat def
+R26570:26570 Ionia.KVCache <> j:287 var
+prf 26610:26619 <> gpreV_body
+binder 26630:26630 <> n:288
+R26640:26642 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26633:26637 Ionia.KVCache <> gpreV def
+R26639:26639 Ionia.KVCache <> n:288 var
+R26643:26648 Ionia.Proof_CodeGen <> mkvSeq def
+R26659:26661 Ionia.finType <> fin def
+R26664:26664 Corelib.Init.Datatypes <> S constr
+R26666:26666 Ionia.KVCache <> n:288 var
+binder 26655:26655 <> j:289
+R26672:26673 Ionia.KVCache <> gv def
+R26676:26682 Ionia.finType <> fin2nat def
+R26684:26684 Ionia.KVCache <> j:289 var
+prf 26724:26733 <> attnF_body
+binder 26744:26744 <> n:290
+R26758:26760 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26751:26755 Ionia.KVCache <> attnF def
+R26757:26757 Ionia.KVCache <> n:290 var
+R26761:26765 Ionia.KVCache <> AttnQ def
+R26797:26801 Ionia.KVCache <> gpreV def
+R26803:26803 Ionia.KVCache <> n:290 var
+R26787:26791 Ionia.KVCache <> gpreK def
+R26793:26793 Ionia.KVCache <> n:290 var
+R26768:26772 Ionia.KVCache <> BoundedGenerate.qproj var
+R26775:26780 Ionia.KVCache <> gen_at def
+R26782:26782 Ionia.KVCache <> n:290 var
+prf 26842:26850 <> gout_body
+binder 26861:26861 <> n:291
+R26874:26876 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26868:26871 Ionia.KVCache <> gout def
+R26873:26873 Ionia.KVCache <> n:291 var
+R26880:26885 Ionia.KVCache <> BoundedGenerate.isdone var
+R26888:26893 Ionia.KVCache <> gen_at def
+R26895:26895 Ionia.KVCache <> n:291 var
+R26914:26918 Ionia.KVCache <> attnF def
+R26920:26920 Ionia.KVCache <> n:291 var
+R26903:26907 Ionia.KVCache <> BoundedGenerate.sento var
+prf 26958:26973 <> gen_outputs_body
+R26992:26994 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R26981:26991 Ionia.KVCache <> gen_outputs def
+R26995:27000 Ionia.Proof_CodeGen <> mkvSeq def
+R27011:27013 Ionia.finType <> fin def
+R27015:27015 Ionia.KVCache <> BoundedGenerate.T var
+binder 27007:27007 <> t:292
+R27020:27023 Ionia.KVCache <> gout def
+R27026:27032 Ionia.finType <> fin2nat def
+R27034:27034 Ionia.KVCache <> t:292 var
+R27076:27084 Ionia.KVCache <> gen_trace def
+R27086:27091 Ionia.KVCache <> gen_at def
+R27093:27094 Ionia.KVCache <> gk def
+R27096:27097 Ionia.KVCache <> gv def
+R27099:27103 Ionia.KVCache <> gpreK def
+R27105:27109 Ionia.KVCache <> gpreV def
+R27111:27115 Ionia.KVCache <> attnF def
+R27117:27120 Ionia.KVCache <> gout def
+R27122:27132 Ionia.KVCache <> gen_outputs def
+def 27277:27281 <> liftT
+R27288:27290 Ionia.finType <> fin def
+R27292:27292 Ionia.KVCache <> BoundedGenerate.T var
+binder 27284:27284 <> t:293
+R27300:27302 Ionia.finType <> fin def
+R27305:27305 Corelib.Init.Datatypes <> S constr
+R27308:27314 Ionia.finType <> fin2nat def
+R27316:27316 Ionia.KVCache <> t:293 var
+binder 27296:27296 <> j:294
+R27323:27325 Ionia.finType <> fin def
+R27327:27327 Ionia.KVCache <> BoundedGenerate.T var
+R27336:27342 Ionia.finType <> nat2fin def
+R27345:27359 Stdlib.Arith.PeanoNat Nat le_lt_trans thm
+R27383:27387 Corelib.Init.Logic <> proj1 thm
+R27410:27418 Ionia.finType <> fin_proof def
+R27420:27420 Ionia.KVCache <> j:294 var
+R27390:27402 Stdlib.Arith.PeanoNat Nat lt_succ_r thm
+R27425:27433 Ionia.finType <> fin_proof def
+R27435:27435 Ionia.KVCache <> t:293 var
+prf 27449:27461 <> liftT_fin2nat
+R27477:27479 Ionia.finType <> fin def
+R27481:27481 Ionia.KVCache <> BoundedGenerate.T var
+binder 27473:27473 <> t:295
+R27489:27491 Ionia.finType <> fin def
+R27494:27494 Corelib.Init.Datatypes <> S constr
+R27497:27503 Ionia.finType <> fin2nat def
+R27505:27505 Ionia.KVCache <> t:295 var
+binder 27485:27485 <> j:296
+R27534:27536 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R27515:27521 Ionia.finType <> fin2nat def
+R27524:27528 Ionia.KVCache <> liftT def
+R27532:27532 Ionia.KVCache <> j:296 var
+R27530:27530 Ionia.KVCache <> t:295 var
+R27537:27543 Ionia.finType <> fin2nat def
+R27545:27545 Ionia.KVCache <> j:296 var
+R27572:27576 Ionia.KVCache <> liftT def
+R27585:27599 Ionia.finType <> fin2nat_nat2fin thm
+def 27845:27851 <> genstep
+R27858:27860 Ionia.finType <> fin def
+R27862:27862 Ionia.KVCache <> BoundedGenerate.T var
+binder 27854:27854 <> t:297
+R27867:27870 Ionia.Proof_CodeGen <> comm def
+binder 27879:27881 <> rho:298
+R27900:27907 Ionia.DPIA_Rules <> read_exp def
+R27924:27926 Ionia.Proof_CodeGen <> acc def
+R27928:27930 Ionia.KVCache <> stD def
+R27914:27917 Ionia.Proof_CodeGen <> acc' def
+R27919:27920 Ionia.KVCache <> BoundedGenerate.sp var
+R27909:27911 Ionia.KVCache <> rho:298 var
+binder 27894:27895 <> st:299
+R27949:27954 Ionia.KVCache <> BoundedGenerate.isdone var
+R27956:27957 Ionia.KVCache <> st:299 var
+binder 27944:27944 <> g:300
+R27979:27980 Ionia.Proof_CodeGen <> If def
+R28058:28062 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R28039:28042 Ionia.Proof_CodeGen <> acc' def
+R28045:28050 Ionia.DataExp <> AryIdx constr
+R28054:28056 Ionia.KVCache <> BoundedGenerate.kcp var
+R28052:28052 Ionia.KVCache <> t:297 var
+R28063:28067 Ionia.KVCache <> BoundedGenerate.kproj var
+R28069:28070 Ionia.KVCache <> st:299 var
+R28004:28008 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R27985:27988 Ionia.Proof_CodeGen <> acc' def
+R27991:27996 Ionia.DataExp <> AryIdx constr
+R28000:28002 Ionia.KVCache <> BoundedGenerate.kcp var
+R27998:27998 Ionia.KVCache <> t:297 var
+R28009:28013 Ionia.KVCache <> BoundedGenerate.sentk var
+R27982:27982 Ionia.KVCache <> g:300 var
+R28074:28076 Ionia.KVCache <> rho:298 var
+binder 27970:27973 <> rho1:301
+R28098:28099 Ionia.Proof_CodeGen <> If def
+R28177:28181 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R28158:28161 Ionia.Proof_CodeGen <> acc' def
+R28164:28169 Ionia.DataExp <> AryIdx constr
+R28173:28175 Ionia.KVCache <> BoundedGenerate.vcp var
+R28171:28171 Ionia.KVCache <> t:297 var
+R28182:28186 Ionia.KVCache <> BoundedGenerate.vproj var
+R28188:28189 Ionia.KVCache <> st:299 var
+R28123:28127 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R28104:28107 Ionia.Proof_CodeGen <> acc' def
+R28110:28115 Ionia.DataExp <> AryIdx constr
+R28119:28121 Ionia.KVCache <> BoundedGenerate.vcp var
+R28117:28117 Ionia.KVCache <> t:297 var
+R28128:28132 Ionia.KVCache <> BoundedGenerate.sentv var
+R28101:28101 Ionia.KVCache <> g:300 var
+R28193:28196 Ionia.KVCache <> rho1:301 var
+binder 28089:28092 <> rho2:302
+R28215:28220 Ionia.Proof_CodeGen <> mkvSeq def
+R28231:28233 Ionia.finType <> fin def
+R28236:28236 Corelib.Init.Datatypes <> S constr
+R28239:28245 Ionia.finType <> fin2nat def
+R28247:28247 Ionia.KVCache <> t:297 var
+binder 28227:28227 <> j:303
+R28270:28277 Ionia.DPIA_Rules <> read_exp def
+R28285:28288 Ionia.Proof_CodeGen <> acc' def
+R28291:28296 Ionia.DataExp <> AryIdx constr
+R28310:28312 Ionia.KVCache <> BoundedGenerate.kcp var
+R28299:28303 Ionia.KVCache <> liftT def
+R28307:28307 Ionia.KVCache <> j:303 var
+R28305:28305 Ionia.KVCache <> t:297 var
+R28279:28282 Ionia.KVCache <> rho2:302 var
+binder 28209:28210 <> kr:304
+R28334:28339 Ionia.Proof_CodeGen <> mkvSeq def
+R28350:28352 Ionia.finType <> fin def
+R28355:28355 Corelib.Init.Datatypes <> S constr
+R28358:28364 Ionia.finType <> fin2nat def
+R28366:28366 Ionia.KVCache <> t:297 var
+binder 28346:28346 <> j:305
+R28389:28396 Ionia.DPIA_Rules <> read_exp def
+R28404:28407 Ionia.Proof_CodeGen <> acc' def
+R28410:28415 Ionia.DataExp <> AryIdx constr
+R28429:28431 Ionia.KVCache <> BoundedGenerate.vcp var
+R28418:28422 Ionia.KVCache <> liftT def
+R28426:28426 Ionia.KVCache <> j:305 var
+R28424:28424 Ionia.KVCache <> t:297 var
+R28398:28401 Ionia.KVCache <> rho2:302 var
+binder 28328:28329 <> vr:306
+R28456:28457 Ionia.Proof_CodeGen <> If def
+R28537:28541 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R28517:28520 Ionia.Proof_CodeGen <> acc' def
+R28523:28528 Ionia.DataExp <> AryIdx constr
+R28532:28535 Ionia.KVCache <> BoundedGenerate.outp var
+R28530:28530 Ionia.KVCache <> t:297 var
+R28542:28546 Ionia.KVCache <> AttnQ def
+R28562:28563 Ionia.KVCache <> vr:306 var
+R28559:28560 Ionia.KVCache <> kr:304 var
+R28549:28553 Ionia.KVCache <> BoundedGenerate.qproj var
+R28555:28556 Ionia.KVCache <> st:299 var
+R28482:28486 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R28462:28465 Ionia.Proof_CodeGen <> acc' def
+R28468:28473 Ionia.DataExp <> AryIdx constr
+R28477:28480 Ionia.KVCache <> BoundedGenerate.outp var
+R28475:28475 Ionia.KVCache <> t:297 var
+R28487:28491 Ionia.KVCache <> BoundedGenerate.sento var
+R28459:28459 Ionia.KVCache <> g:300 var
+R28567:28570 Ionia.KVCache <> rho2:302 var
+binder 28447:28450 <> rho3:307
+R28579:28580 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R28598:28604 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R28652:28658 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R28591:28593 Ionia.Proof_CodeGen <> acc def
+R28595:28597 Ionia.KVCache <> stD def
+R28581:28584 Ionia.Proof_CodeGen <> acc' def
+R28586:28587 Ionia.KVCache <> BoundedGenerate.sp var
+R28608:28608 Ionia.KVCache <> g:300 var
+R28623:28626 Ionia.KVCache <> BoundedGenerate.emit var
+R28629:28633 Ionia.KVCache <> AttnQ def
+R28649:28650 Ionia.KVCache <> vr:306 var
+R28646:28647 Ionia.KVCache <> kr:304 var
+R28636:28640 Ionia.KVCache <> BoundedGenerate.qproj var
+R28642:28643 Ionia.KVCache <> st:299 var
+R28615:28616 Ionia.KVCache <> st:299 var
+R28655:28658 Ionia.KVCache <> rho3:307 var
+def 28675:28682 <> gen_init
+R28686:28689 Ionia.Proof_CodeGen <> comm def
+R28694:28694 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R28712:28717 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R28705:28707 Ionia.Proof_CodeGen <> acc def
+R28709:28711 Ionia.KVCache <> stD def
+R28695:28698 Ionia.Proof_CodeGen <> acc' def
+R28700:28701 Ionia.KVCache <> BoundedGenerate.sp var
+R28718:28719 Ionia.KVCache <> BoundedGenerate.x0 var
+def 28735:28741 <> genloop
+R28745:28748 Ionia.Proof_CodeGen <> comm def
+R28753:28758 Ionia.Proof_CodeGen <> seqfor def
+R28769:28771 Ionia.finType <> fin def
+R28773:28773 Ionia.KVCache <> BoundedGenerate.T var
+binder 28765:28765 <> t:308
+R28778:28784 Ionia.KVCache <> genstep def
+R28786:28786 Ionia.KVCache <> t:308 var
+def 28803:28818 <> bounded_gen_comm
+R28822:28825 Ionia.Proof_CodeGen <> comm def
+R28838:28841 Ionia.Proof_CodeGen <> :::x_''';'_x not
+R28830:28837 Ionia.KVCache <> gen_init def
+R28842:28848 Ionia.KVCache <> genloop def
+def 28946:28952 <> gen_inv
+R28959:28961 Corelib.Init.Datatypes <> nat ind
+binder 28955:28955 <> n:309
+R28971:28973 Ionia.Proof_CodeGen <> env def
+binder 28965:28967 <> rho:310
+R29038:29045 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R29020:29022 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R28990:28995 Ionia.Proof_CodeGen <> access def
+R29012:29014 Ionia.Proof_CodeGen <> acc def
+R29016:29018 Ionia.KVCache <> stD def
+R29002:29005 Ionia.Proof_CodeGen <> acc' def
+R29007:29008 Ionia.KVCache <> BoundedGenerate.sp var
+R28997:28999 Ionia.KVCache <> rho:310 var
+R29023:29026 Corelib.Init.Datatypes <> Some constr
+R29029:29034 Ionia.KVCache <> gen_at def
+R29036:29036 Ionia.KVCache <> n:309 var
+R29046:29046 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R29150:29158 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R29058:29060 Ionia.finType <> fin def
+R29062:29062 Ionia.KVCache <> BoundedGenerate.T var
+binder 29054:29054 <> j:311
+R29084:29093 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29075:29077 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R29066:29072 Ionia.finType <> fin2nat def
+R29074:29074 Ionia.KVCache <> j:311 var
+R29078:29078 Ionia.KVCache <> n:309 var
+R29126:29128 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R29094:29099 Ionia.Proof_CodeGen <> access def
+R29106:29109 Ionia.Proof_CodeGen <> acc' def
+R29112:29117 Ionia.DataExp <> AryIdx constr
+R29121:29123 Ionia.KVCache <> BoundedGenerate.kcp var
+R29119:29119 Ionia.KVCache <> j:311 var
+R29101:29103 Ionia.KVCache <> rho:310 var
+R29129:29132 Corelib.Init.Datatypes <> Some constr
+R29135:29136 Ionia.KVCache <> gk def
+R29139:29145 Ionia.finType <> fin2nat def
+R29147:29147 Ionia.KVCache <> j:311 var
+R29159:29159 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R29263:29272 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R29379:29379 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R29171:29173 Ionia.finType <> fin def
+R29175:29175 Ionia.KVCache <> BoundedGenerate.T var
+binder 29167:29167 <> j:312
+R29197:29206 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29188:29190 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R29179:29185 Ionia.finType <> fin2nat def
+R29187:29187 Ionia.KVCache <> j:312 var
+R29191:29191 Ionia.KVCache <> n:309 var
+R29239:29241 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R29207:29212 Ionia.Proof_CodeGen <> access def
+R29219:29222 Ionia.Proof_CodeGen <> acc' def
+R29225:29230 Ionia.DataExp <> AryIdx constr
+R29234:29236 Ionia.KVCache <> BoundedGenerate.vcp var
+R29232:29232 Ionia.KVCache <> j:312 var
+R29214:29216 Ionia.KVCache <> rho:310 var
+R29242:29245 Corelib.Init.Datatypes <> Some constr
+R29248:29249 Ionia.KVCache <> gv def
+R29252:29258 Ionia.finType <> fin2nat def
+R29260:29260 Ionia.KVCache <> j:312 var
+R29284:29286 Ionia.finType <> fin def
+R29288:29288 Ionia.KVCache <> BoundedGenerate.T var
+binder 29280:29280 <> j:313
+R29310:29319 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29301:29303 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R29292:29298 Ionia.finType <> fin2nat def
+R29300:29300 Ionia.KVCache <> j:313 var
+R29304:29304 Ionia.KVCache <> n:309 var
+R29353:29355 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R29320:29325 Ionia.Proof_CodeGen <> access def
+R29332:29335 Ionia.Proof_CodeGen <> acc' def
+R29338:29343 Ionia.DataExp <> AryIdx constr
+R29347:29350 Ionia.KVCache <> BoundedGenerate.outp var
+R29345:29345 Ionia.KVCache <> j:313 var
+R29327:29329 Ionia.KVCache <> rho:310 var
+R29356:29359 Corelib.Init.Datatypes <> Some constr
+R29362:29365 Ionia.KVCache <> gout def
+R29368:29374 Ionia.finType <> fin2nat def
+R29376:29376 Ionia.KVCache <> j:313 var
+prf 29541:29556 <> kslot_read_after
+R29572:29574 Ionia.finType <> fin def
+R29576:29576 Ionia.KVCache <> BoundedGenerate.T var
+binder 29568:29568 <> t:314
+R29586:29588 Ionia.Proof_CodeGen <> env def
+binder 29580:29582 <> rho:315
+R29600:29602 Ionia.Proof_CodeGen <> exp def
+R29604:29606 Ionia.KVCache <> stD def
+binder 29592:29593 <> ek:316
+binder 29595:29596 <> ev:317
+R29637:29644 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R29614:29620 Ionia.KVCache <> gen_inv def
+R29634:29636 Ionia.KVCache <> rho:315 var
+R29623:29629 Ionia.finType <> fin2nat def
+R29631:29631 Ionia.KVCache <> t:314 var
+R29657:29659 Ionia.finType <> fin def
+R29662:29662 Corelib.Init.Datatypes <> S constr
+R29665:29671 Ionia.finType <> fin2nat def
+R29673:29673 Ionia.KVCache <> t:314 var
+binder 29653:29653 <> j:318
+R29802:29809 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R29869:29869 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R29683:29690 Ionia.DPIA_Rules <> read_exp def
+R29772:29775 Ionia.Proof_CodeGen <> acc' def
+R29778:29783 Ionia.DataExp <> AryIdx constr
+R29797:29799 Ionia.KVCache <> BoundedGenerate.kcp var
+R29786:29790 Ionia.KVCache <> liftT def
+R29794:29794 Ionia.KVCache <> j:318 var
+R29792:29792 Ionia.KVCache <> t:314 var
+R29693:29693 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R29713:29717 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R29720:29755 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R29694:29697 Ionia.Proof_CodeGen <> acc' def
+R29700:29705 Ionia.DataExp <> AryIdx constr
+R29709:29711 Ionia.KVCache <> BoundedGenerate.vcp var
+R29707:29707 Ionia.KVCache <> t:314 var
+R29718:29719 Ionia.KVCache <> ev:317 var
+R29723:29723 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R29743:29747 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R29750:29754 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R29724:29727 Ionia.Proof_CodeGen <> acc' def
+R29730:29735 Ionia.DataExp <> AryIdx constr
+R29739:29741 Ionia.KVCache <> BoundedGenerate.kcp var
+R29737:29737 Ionia.KVCache <> t:314 var
+R29748:29749 Ionia.KVCache <> ek:316 var
+R29752:29754 Ionia.KVCache <> rho:315 var
+R29823:29826 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R29814:29820 Ionia.finType <> fin2nat def
+R29822:29822 Ionia.KVCache <> j:318 var
+R29827:29833 Ionia.finType <> fin2nat def
+R29835:29835 Ionia.KVCache <> t:314 var
+R29855:29856 Ionia.KVCache <> gk def
+R29859:29865 Ionia.finType <> fin2nat def
+R29867:29867 Ionia.KVCache <> j:318 var
+R29847:29848 Ionia.KVCache <> ek:316 var
+R29939:29943 Ionia.KVCache <> BoundedGenerate.Hdist var
+R29994:29996 Ionia.KVCache <> stD def
+R30011:30018 Ionia.DPIA_Rules <> read_exp def
+R30053:30056 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R30041:30046 Ionia.DataExp <> AryIdx constr
+R30050:30052 Ionia.KVCache <> BoundedGenerate.vcp var
+R30057:30062 Ionia.DataExp <> AryIdx constr
+R30076:30078 Ionia.KVCache <> BoundedGenerate.kcp var
+R30065:30069 Ionia.KVCache <> liftT def
+R30111:30115 Ionia.KVCache <> liftT def
+R30161:30177 Ionia.Proof_CodeGen <> access_assign_neq thm
+R30205:30217 Ionia.Proof_CodeGen <> access_assign thm
+R30243:30246 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R30234:30240 Ionia.finType <> fin2nat def
+R30247:30253 Ionia.finType <> fin2nat def
+R30281:30290 Stdlib.Arith.PeanoNat Nat eqb_eq thm
+R30329:30331 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R30317:30322 Ionia.DataExp <> AryIdx constr
+R30326:30328 Ionia.KVCache <> BoundedGenerate.kcp var
+R30332:30337 Ionia.DataExp <> AryIdx constr
+R30351:30353 Ionia.KVCache <> BoundedGenerate.kcp var
+R30340:30344 Ionia.KVCache <> liftT def
+R30371:30382 Ionia.DataExp <> AryIdx_eq_l2 thm
+R30417:30421 Corelib.Init.Logic <> proj1 thm
+R30424:30429 Ionia.finType <> fin_eq thm
+R30446:30458 Ionia.KVCache <> liftT_fin2nat thm
+R30516:30528 Ionia.DataExp <> path_eqb_refl thm
+R30556:30566 Stdlib.Arith.PeanoNat Nat eqb_neq thm
+R30641:30643 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R30593:30600 Ionia.DataExp <> path_eqb def
+R30618:30623 Ionia.DataExp <> AryIdx constr
+R30637:30639 Ionia.KVCache <> BoundedGenerate.kcp var
+R30626:30630 Ionia.KVCache <> liftT def
+R30603:30608 Ionia.DataExp <> AryIdx constr
+R30612:30614 Ionia.KVCache <> BoundedGenerate.kcp var
+R30644:30648 Corelib.Init.Datatypes <> false constr
+R30666:30677 Ionia.DataExp <> path_eqb_neq thm
+R30705:30713 Ionia.DataExp <> AryIdx_eq thm
+R30765:30777 Ionia.KVCache <> liftT_fin2nat thm
+R30875:30877 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R30856:30862 Ionia.finType <> fin2nat def
+R30865:30869 Ionia.KVCache <> liftT def
+R30878:30884 Ionia.finType <> fin2nat def
+R30911:30923 Ionia.KVCache <> liftT_fin2nat thm
+R30938:30946 Ionia.finType <> fin_proof def
+R30978:30982 Ionia.KVCache <> liftT def
+R31009:31021 Ionia.KVCache <> liftT_fin2nat thm
+prf 31084:31099 <> vslot_read_after
+R31115:31117 Ionia.finType <> fin def
+R31119:31119 Ionia.KVCache <> BoundedGenerate.T var
+binder 31111:31111 <> t:319
+R31129:31131 Ionia.Proof_CodeGen <> env def
+binder 31123:31125 <> rho:320
+R31143:31145 Ionia.Proof_CodeGen <> exp def
+R31147:31149 Ionia.KVCache <> stD def
+binder 31135:31136 <> ek:321
+binder 31138:31139 <> ev:322
+R31180:31187 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R31157:31163 Ionia.KVCache <> gen_inv def
+R31177:31179 Ionia.KVCache <> rho:320 var
+R31166:31172 Ionia.finType <> fin2nat def
+R31174:31174 Ionia.KVCache <> t:319 var
+R31200:31202 Ionia.finType <> fin def
+R31205:31205 Corelib.Init.Datatypes <> S constr
+R31208:31214 Ionia.finType <> fin2nat def
+R31216:31216 Ionia.KVCache <> t:319 var
+binder 31196:31196 <> j:323
+R31345:31352 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R31412:31412 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R31226:31233 Ionia.DPIA_Rules <> read_exp def
+R31315:31318 Ionia.Proof_CodeGen <> acc' def
+R31321:31326 Ionia.DataExp <> AryIdx constr
+R31340:31342 Ionia.KVCache <> BoundedGenerate.vcp var
+R31329:31333 Ionia.KVCache <> liftT def
+R31337:31337 Ionia.KVCache <> j:323 var
+R31335:31335 Ionia.KVCache <> t:319 var
+R31236:31236 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R31256:31260 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R31263:31298 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R31237:31240 Ionia.Proof_CodeGen <> acc' def
+R31243:31248 Ionia.DataExp <> AryIdx constr
+R31252:31254 Ionia.KVCache <> BoundedGenerate.vcp var
+R31250:31250 Ionia.KVCache <> t:319 var
+R31261:31262 Ionia.KVCache <> ev:322 var
+R31266:31266 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R31286:31290 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R31293:31297 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R31267:31270 Ionia.Proof_CodeGen <> acc' def
+R31273:31278 Ionia.DataExp <> AryIdx constr
+R31282:31284 Ionia.KVCache <> BoundedGenerate.kcp var
+R31280:31280 Ionia.KVCache <> t:319 var
+R31291:31292 Ionia.KVCache <> ek:321 var
+R31295:31297 Ionia.KVCache <> rho:320 var
+R31366:31369 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R31357:31363 Ionia.finType <> fin2nat def
+R31365:31365 Ionia.KVCache <> j:323 var
+R31370:31376 Ionia.finType <> fin2nat def
+R31378:31378 Ionia.KVCache <> t:319 var
+R31398:31399 Ionia.KVCache <> gv def
+R31402:31408 Ionia.finType <> fin2nat def
+R31410:31410 Ionia.KVCache <> j:323 var
+R31390:31391 Ionia.KVCache <> ev:322 var
+R31482:31486 Ionia.KVCache <> BoundedGenerate.Hdist var
+R31537:31539 Ionia.KVCache <> stD def
+R31554:31561 Ionia.DPIA_Rules <> read_exp def
+R31576:31588 Ionia.Proof_CodeGen <> access_assign thm
+R31614:31617 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R31605:31611 Ionia.finType <> fin2nat def
+R31618:31624 Ionia.finType <> fin2nat def
+R31652:31661 Stdlib.Arith.PeanoNat Nat eqb_eq thm
+R31700:31702 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R31688:31693 Ionia.DataExp <> AryIdx constr
+R31697:31699 Ionia.KVCache <> BoundedGenerate.vcp var
+R31703:31708 Ionia.DataExp <> AryIdx constr
+R31722:31724 Ionia.KVCache <> BoundedGenerate.vcp var
+R31711:31715 Ionia.KVCache <> liftT def
+R31742:31753 Ionia.DataExp <> AryIdx_eq_l2 thm
+R31788:31792 Corelib.Init.Logic <> proj1 thm
+R31795:31800 Ionia.finType <> fin_eq thm
+R31817:31829 Ionia.KVCache <> liftT_fin2nat thm
+R31887:31899 Ionia.DataExp <> path_eqb_refl thm
+R31927:31937 Stdlib.Arith.PeanoNat Nat eqb_neq thm
+R32012:32014 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R31964:31971 Ionia.DataExp <> path_eqb def
+R31989:31994 Ionia.DataExp <> AryIdx constr
+R32008:32010 Ionia.KVCache <> BoundedGenerate.vcp var
+R31997:32001 Ionia.KVCache <> liftT def
+R31974:31979 Ionia.DataExp <> AryIdx constr
+R31983:31985 Ionia.KVCache <> BoundedGenerate.vcp var
+R32015:32019 Corelib.Init.Datatypes <> false constr
+R32037:32048 Ionia.DataExp <> path_eqb_neq thm
+R32076:32084 Ionia.DataExp <> AryIdx_eq thm
+R32136:32148 Ionia.KVCache <> liftT_fin2nat thm
+R32240:32243 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R32228:32233 Ionia.DataExp <> AryIdx constr
+R32237:32239 Ionia.KVCache <> BoundedGenerate.kcp var
+R32244:32249 Ionia.DataExp <> AryIdx constr
+R32263:32265 Ionia.KVCache <> BoundedGenerate.vcp var
+R32252:32256 Ionia.KVCache <> liftT def
+R32302:32306 Ionia.KVCache <> liftT def
+R32342:32358 Ionia.Proof_CodeGen <> access_assign_neq thm
+R32414:32416 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R32395:32401 Ionia.finType <> fin2nat def
+R32404:32408 Ionia.KVCache <> liftT def
+R32417:32423 Ionia.finType <> fin2nat def
+R32450:32462 Ionia.KVCache <> liftT_fin2nat thm
+R32477:32485 Ionia.finType <> fin_proof def
+R32517:32521 Ionia.KVCache <> liftT def
+R32548:32560 Ionia.KVCache <> liftT_fin2nat thm
+prf 32656:32670 <> genstep_correct
+R32686:32688 Ionia.finType <> fin def
+R32690:32690 Ionia.KVCache <> BoundedGenerate.T var
+binder 32682:32682 <> t:324
+R32700:32702 Ionia.Proof_CodeGen <> env def
+binder 32694:32696 <> rho:325
+R32733:32736 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R32710:32716 Ionia.KVCache <> gen_inv def
+R32730:32732 Ionia.KVCache <> rho:325 var
+R32719:32725 Ionia.finType <> fin2nat def
+R32727:32727 Ionia.KVCache <> t:324 var
+R32737:32743 Ionia.KVCache <> gen_inv def
+R32762:32768 Ionia.KVCache <> genstep def
+R32772:32774 Ionia.KVCache <> rho:325 var
+R32770:32770 Ionia.KVCache <> t:324 var
+R32746:32746 Corelib.Init.Datatypes <> S constr
+R32749:32755 Ionia.finType <> fin2nat def
+R32757:32757 Ionia.KVCache <> t:324 var
+R32860:32864 Ionia.KVCache <> BoundedGenerate.Hdist var
+R32915:32917 Ionia.KVCache <> stD def
+R32956:32958 Ionia.finType <> fin def
+R32960:32960 Ionia.KVCache <> BoundedGenerate.T var
+binder 32950:32950 <> i:326
+binder 32952:32952 <> j:327
+R32976:32979 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R32963:32968 Ionia.DataExp <> AryIdx constr
+R32972:32975 Ionia.KVCache <> BoundedGenerate.outp var
+R32970:32970 Ionia.KVCache <> i:326 var
+R32980:32985 Ionia.DataExp <> AryIdx constr
+R32989:32991 Ionia.KVCache <> BoundedGenerate.kcp var
+R32987:32987 Ionia.KVCache <> j:327 var
+binder 32950:32950 <> i:328
+binder 32952:32952 <> j:329
+R32970:32970 Ionia.KVCache <> i:328 var
+R32987:32987 Ionia.KVCache <> j:329 var
+R33090:33092 Ionia.finType <> fin def
+R33094:33094 Ionia.KVCache <> BoundedGenerate.T var
+binder 33084:33084 <> i:330
+binder 33086:33086 <> j:331
+R33109:33112 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R33097:33102 Ionia.DataExp <> AryIdx constr
+R33106:33108 Ionia.KVCache <> BoundedGenerate.vcp var
+R33104:33104 Ionia.KVCache <> i:330 var
+R33113:33118 Ionia.DataExp <> AryIdx constr
+R33122:33124 Ionia.KVCache <> BoundedGenerate.kcp var
+R33120:33120 Ionia.KVCache <> j:331 var
+binder 33084:33084 <> i:332
+binder 33086:33086 <> j:333
+R33104:33104 Ionia.KVCache <> i:332 var
+R33120:33120 Ionia.KVCache <> j:333 var
+R33223:33225 Ionia.finType <> fin def
+R33227:33227 Ionia.KVCache <> BoundedGenerate.T var
+binder 33217:33217 <> i:334
+binder 33219:33219 <> j:335
+R33243:33246 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R33230:33235 Ionia.DataExp <> AryIdx constr
+R33239:33242 Ionia.KVCache <> BoundedGenerate.outp var
+R33237:33237 Ionia.KVCache <> i:334 var
+R33247:33252 Ionia.DataExp <> AryIdx constr
+R33256:33258 Ionia.KVCache <> BoundedGenerate.vcp var
+R33254:33254 Ionia.KVCache <> j:335 var
+binder 33217:33217 <> i:336
+binder 33219:33219 <> j:337
+R33237:33237 Ionia.KVCache <> i:336 var
+R33254:33254 Ionia.KVCache <> j:337 var
+R33337:33343 Ionia.KVCache <> genstep def
+R33411:33413 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R33379:33386 Ionia.DPIA_Rules <> read_exp def
+R33403:33405 Ionia.Proof_CodeGen <> acc def
+R33407:33409 Ionia.KVCache <> stD def
+R33393:33396 Ionia.Proof_CodeGen <> acc' def
+R33398:33399 Ionia.KVCache <> BoundedGenerate.sp var
+R33414:33419 Ionia.KVCache <> gen_at def
+R33422:33428 Ionia.finType <> fin2nat def
+R33447:33457 Ionia.KVCache <> read_exp_eq thm
+R33504:33518 Ionia.KVCache <> If_assign_merge thm
+R34107:34127 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R33606:33611 Ionia.Proof_CodeGen <> mkvSeq def
+R33622:33624 Ionia.finType <> fin def
+R33627:33627 Corelib.Init.Datatypes <> S constr
+R33630:33636 Ionia.finType <> fin2nat def
+binder 33618:33618 <> j:338
+R33665:33672 Ionia.DPIA_Rules <> read_exp def
+R34076:34079 Ionia.Proof_CodeGen <> acc' def
+R34082:34087 Ionia.DataExp <> AryIdx constr
+R34101:34103 Ionia.KVCache <> BoundedGenerate.kcp var
+R34090:34094 Ionia.KVCache <> liftT def
+R34098:34098 Ionia.KVCache <> j:338 var
+R33675:33675 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R33695:33732 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R33839:34043 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R33676:33679 Ionia.Proof_CodeGen <> acc' def
+R33682:33687 Ionia.DataExp <> AryIdx constr
+R33691:33693 Ionia.KVCache <> BoundedGenerate.vcp var
+R33736:33741 Ionia.KVCache <> BoundedGenerate.isdone var
+R33744:33749 Ionia.KVCache <> gen_at def
+R33752:33758 Ionia.finType <> fin2nat def
+R33813:33817 Ionia.KVCache <> BoundedGenerate.vproj var
+R33820:33825 Ionia.KVCache <> gen_at def
+R33828:33834 Ionia.finType <> fin2nat def
+R33769:33773 Ionia.KVCache <> BoundedGenerate.sentv var
+R33873:33873 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R33893:33930 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R34037:34042 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R33874:33877 Ionia.Proof_CodeGen <> acc' def
+R33880:33885 Ionia.DataExp <> AryIdx constr
+R33889:33891 Ionia.KVCache <> BoundedGenerate.kcp var
+R33934:33939 Ionia.KVCache <> BoundedGenerate.isdone var
+R33942:33947 Ionia.KVCache <> gen_at def
+R33950:33956 Ionia.finType <> fin2nat def
+R34011:34015 Ionia.KVCache <> BoundedGenerate.kproj var
+R34018:34023 Ionia.KVCache <> gen_at def
+R34026:34032 Ionia.finType <> fin2nat def
+R33967:33971 Ionia.KVCache <> BoundedGenerate.sentk var
+R34128:34132 Ionia.KVCache <> gpreK def
+R34135:34141 Ionia.finType <> fin2nat def
+binder 33618:33618 <> j:339
+R34098:34098 Ionia.KVCache <> j:339 var
+R34162:34171 Ionia.KVCache <> gpreK_body thm
+R34189:34213 Stdlib.Logic.FunctionalExtensionality <> functional_extensionality thm
+R34240:34255 Ionia.KVCache <> kslot_read_after thm
+R34264:34267 Corelib.Init.Logic <> conj constr
+R34274:34277 Corelib.Init.Logic <> conj constr
+R34283:34286 Corelib.Init.Logic <> conj constr
+R34326:34329 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R34317:34323 Ionia.finType <> fin2nat def
+R34330:34336 Ionia.finType <> fin2nat def
+R34366:34375 Stdlib.Arith.PeanoNat Nat eqb_eq thm
+R34402:34408 Ionia.KVCache <> gk_body thm
+R34966:34986 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R34465:34470 Ionia.Proof_CodeGen <> mkvSeq def
+R34481:34483 Ionia.finType <> fin def
+R34486:34486 Corelib.Init.Datatypes <> S constr
+R34489:34495 Ionia.finType <> fin2nat def
+binder 34477:34477 <> j:340
+R34524:34531 Ionia.DPIA_Rules <> read_exp def
+R34935:34938 Ionia.Proof_CodeGen <> acc' def
+R34941:34946 Ionia.DataExp <> AryIdx constr
+R34960:34962 Ionia.KVCache <> BoundedGenerate.vcp var
+R34949:34953 Ionia.KVCache <> liftT def
+R34957:34957 Ionia.KVCache <> j:340 var
+R34534:34534 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R34554:34591 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R34698:34902 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R34535:34538 Ionia.Proof_CodeGen <> acc' def
+R34541:34546 Ionia.DataExp <> AryIdx constr
+R34550:34552 Ionia.KVCache <> BoundedGenerate.vcp var
+R34595:34600 Ionia.KVCache <> BoundedGenerate.isdone var
+R34603:34608 Ionia.KVCache <> gen_at def
+R34611:34617 Ionia.finType <> fin2nat def
+R34672:34676 Ionia.KVCache <> BoundedGenerate.vproj var
+R34679:34684 Ionia.KVCache <> gen_at def
+R34687:34693 Ionia.finType <> fin2nat def
+R34628:34632 Ionia.KVCache <> BoundedGenerate.sentv var
+R34732:34732 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R34752:34789 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R34896:34901 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R34733:34736 Ionia.Proof_CodeGen <> acc' def
+R34739:34744 Ionia.DataExp <> AryIdx constr
+R34748:34750 Ionia.KVCache <> BoundedGenerate.kcp var
+R34793:34798 Ionia.KVCache <> BoundedGenerate.isdone var
+R34801:34806 Ionia.KVCache <> gen_at def
+R34809:34815 Ionia.finType <> fin2nat def
+R34870:34874 Ionia.KVCache <> BoundedGenerate.kproj var
+R34877:34882 Ionia.KVCache <> gen_at def
+R34885:34891 Ionia.finType <> fin2nat def
+R34826:34830 Ionia.KVCache <> BoundedGenerate.sentk var
+R34987:34991 Ionia.KVCache <> gpreV def
+R34994:35000 Ionia.finType <> fin2nat def
+binder 34477:34477 <> j:341
+R34957:34957 Ionia.KVCache <> j:341 var
+R35021:35030 Ionia.KVCache <> gpreV_body thm
+R35048:35072 Stdlib.Logic.FunctionalExtensionality <> functional_extensionality thm
+R35099:35114 Ionia.KVCache <> vslot_read_after thm
+R35123:35126 Corelib.Init.Logic <> conj constr
+R35133:35136 Corelib.Init.Logic <> conj constr
+R35142:35145 Corelib.Init.Logic <> conj constr
+R35185:35188 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R35176:35182 Ionia.finType <> fin2nat def
+R35189:35195 Ionia.finType <> fin2nat def
+R35225:35234 Stdlib.Arith.PeanoNat Nat eqb_eq thm
+R35261:35267 Ionia.KVCache <> gv_body thm
+R35317:35319 Ionia.KVCache <> stD def
+R35371:35377 Ionia.KVCache <> gk_body thm
+R35383:35389 Ionia.KVCache <> gv_body thm
+R35395:35404 Ionia.KVCache <> attnF_body thm
+R35410:35418 Ionia.KVCache <> gout_body thm
+R35424:35431 Ionia.KVCache <> gen_at_S thm
+R35513:35519 Ionia.KVCache <> gen_inv def
+R35566:35581 Ionia.Proof_CodeGen <> access_assign_eq thm
+R35589:35595 Corelib.Init.Logic <> eq_refl constr
+R35646:35662 Ionia.Proof_CodeGen <> access_assign_neq thm
+R35695:35711 Ionia.Proof_CodeGen <> access_assign_neq thm
+R35746:35762 Ionia.Proof_CodeGen <> access_assign_neq thm
+R35798:35807 Stdlib.Arith.PeanoNat Nat eq_dec thm
+R35810:35816 Ionia.finType <> fin2nat def
+R35822:35828 Ionia.finType <> fin2nat def
+R35863:35865 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R35880:35884 Corelib.Init.Logic <> proj1 thm
+R35887:35892 Ionia.finType <> fin_eq thm
+R35937:35952 Ionia.Proof_CodeGen <> access_assign_eq thm
+R35960:35966 Corelib.Init.Logic <> eq_refl constr
+R36018:36021 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R36006:36011 Ionia.DataExp <> AryIdx constr
+R36015:36017 Ionia.KVCache <> BoundedGenerate.kcp var
+R36022:36027 Ionia.DataExp <> AryIdx constr
+R36031:36033 Ionia.KVCache <> BoundedGenerate.kcp var
+R36053:36066 Ionia.KVCache <> aryidx_neq_idx thm
+R36093:36109 Ionia.Proof_CodeGen <> access_assign_neq thm
+R36154:36162 Ionia.finType <> fin_proof def
+R36207:36223 Ionia.Proof_CodeGen <> access_assign_neq thm
+R36256:36272 Ionia.Proof_CodeGen <> access_assign_neq thm
+R36308:36317 Stdlib.Arith.PeanoNat Nat eq_dec thm
+R36320:36326 Ionia.finType <> fin2nat def
+R36332:36338 Ionia.finType <> fin2nat def
+R36373:36375 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R36390:36394 Corelib.Init.Logic <> proj1 thm
+R36397:36402 Ionia.finType <> fin_eq thm
+R36447:36462 Ionia.Proof_CodeGen <> access_assign_eq thm
+R36470:36476 Corelib.Init.Logic <> eq_refl constr
+R36528:36531 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R36516:36521 Ionia.DataExp <> AryIdx constr
+R36525:36527 Ionia.KVCache <> BoundedGenerate.vcp var
+R36532:36537 Ionia.DataExp <> AryIdx constr
+R36541:36543 Ionia.KVCache <> BoundedGenerate.vcp var
+R36563:36576 Ionia.KVCache <> aryidx_neq_idx thm
+R36603:36619 Ionia.Proof_CodeGen <> access_assign_neq thm
+R36651:36667 Ionia.Proof_CodeGen <> access_assign_neq thm
+R36717:36725 Ionia.finType <> fin_proof def
+R36770:36786 Ionia.Proof_CodeGen <> access_assign_neq thm
+R36820:36829 Stdlib.Arith.PeanoNat Nat eq_dec thm
+R36832:36838 Ionia.finType <> fin2nat def
+R36844:36850 Ionia.finType <> fin2nat def
+R36885:36887 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R36902:36906 Corelib.Init.Logic <> proj1 thm
+R36909:36914 Ionia.finType <> fin_eq thm
+R36959:36974 Ionia.Proof_CodeGen <> access_assign_eq thm
+R36982:36988 Corelib.Init.Logic <> eq_refl constr
+R37041:37044 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R37028:37033 Ionia.DataExp <> AryIdx constr
+R37037:37040 Ionia.KVCache <> BoundedGenerate.outp var
+R37045:37050 Ionia.DataExp <> AryIdx constr
+R37054:37057 Ionia.KVCache <> BoundedGenerate.outp var
+R37077:37090 Ionia.KVCache <> aryidx_neq_idx thm
+R37117:37133 Ionia.Proof_CodeGen <> access_assign_neq thm
+R37165:37181 Ionia.Proof_CodeGen <> access_assign_neq thm
+R37218:37234 Ionia.Proof_CodeGen <> access_assign_neq thm
+R37284:37292 Ionia.finType <> fin_proof def
+prf 37377:37388 <> gen_inv_init
+binder 37399:37401 <> rho:342
+R37404:37410 Ionia.KVCache <> gen_inv def
+R37415:37422 Ionia.KVCache <> gen_init def
+R37424:37426 Ionia.KVCache <> rho:342 var
+R37461:37467 Ionia.KVCache <> gen_inv def
+R37470:37477 Ionia.KVCache <> gen_init def
+R37524:37539 Ionia.Proof_CodeGen <> access_assign_eq thm
+R37550:37556 Corelib.Init.Logic <> eq_refl constr
+R37543:37544 Ionia.KVCache <> BoundedGenerate.x0 var
+R37574:37581 Ionia.KVCache <> gen_at_0 thm
+prf 37782:37792 <> genloop_inv
+R37808:37810 Corelib.Init.Datatypes <> nat ind
+binder 37804:37804 <> n:343
+R37821:37824 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R37820:37820 Ionia.KVCache <> n:343 var
+R37825:37825 Ionia.KVCache <> BoundedGenerate.T var
+binder 37814:37815 <> Hn:344
+R37840:37842 Ionia.Proof_CodeGen <> env def
+binder 37834:37836 <> rho:345
+R37863:37870 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R37850:37856 Ionia.KVCache <> gen_inv def
+R37860:37862 Ionia.KVCache <> rho:345 var
+R37871:37877 Ionia.KVCache <> gen_inv def
+R37882:37887 Ionia.Proof_CodeGen <> seqfor def
+R37984:37986 Ionia.KVCache <> rho:345 var
+R37898:37900 Ionia.finType <> fin def
+R37902:37902 Ionia.KVCache <> n:343 var
+binder 37894:37894 <> s:346
+R37924:37930 Ionia.KVCache <> genstep def
+R37933:37939 Ionia.finType <> nat2fin def
+R37942:37956 Stdlib.Arith.PeanoNat Nat lt_le_trans thm
+R37965:37973 Ionia.finType <> fin_proof def
+R37975:37975 Ionia.KVCache <> s:346 var
+R37978:37979 Ionia.KVCache <> Hn:344 var
+R37879:37879 Ionia.KVCache <> n:343 var
+R38077:38085 Ionia.Proof_CodeGen <> seqfor_Sn thm
+R38095:38097 Ionia.Proof_CodeGen <> seq def
+R38124:38126 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R38127:38127 Ionia.KVCache <> BoundedGenerate.T var
+R38221:38246 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R38166:38172 Ionia.finType <> nat2fin def
+R38175:38189 Stdlib.Arith.PeanoNat Nat lt_le_trans thm
+R38198:38206 Ionia.finType <> fin_proof def
+R38209:38211 Ionia.finType <> ltS def
+R38247:38253 Ionia.finType <> nat2fin def
+R38277:38281 Corelib.Init.Logic <> proj1 thm
+R38284:38289 Ionia.finType <> fin_eq thm
+R38307:38321 Ionia.finType <> fin2nat_nat2fin thm
+R38338:38348 Ionia.KVCache <> fin2nat_ltS thm
+R38387:38401 Ionia.KVCache <> genstep_correct thm
+R38427:38430 Corelib.Init.Peano <> ::nat_scope:x_'<='_x not
+R38431:38431 Ionia.KVCache <> BoundedGenerate.T var
+R38503:38508 Ionia.Proof_CodeGen <> seqfor def
+R38519:38521 Ionia.finType <> fin def
+binder 38515:38515 <> i:347
+R38546:38552 Ionia.KVCache <> genstep def
+R38555:38561 Ionia.finType <> nat2fin def
+R38564:38578 Stdlib.Arith.PeanoNat Nat lt_le_trans thm
+R38587:38595 Ionia.finType <> fin_proof def
+R38597:38599 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R38601:38601 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R38600:38600 Ionia.KVCache <> i:347 var
+R38625:38630 Ionia.Proof_CodeGen <> seqfor def
+R38641:38643 Ionia.finType <> fin def
+binder 38637:38637 <> i:348
+R38668:38674 Ionia.KVCache <> genstep def
+R38677:38683 Ionia.finType <> nat2fin def
+R38686:38700 Stdlib.Arith.PeanoNat Nat lt_le_trans thm
+R38709:38717 Ionia.finType <> fin_proof def
+R38719:38719 Ionia.KVCache <> i:348 var
+binder 38515:38515 <> i:349
+R38600:38600 Ionia.KVCache <> i:349 var
+binder 38637:38637 <> i:350
+R38719:38719 Ionia.KVCache <> i:350 var
+R38748:38768 Ionia.Proof_CodeGen <> seqfor_extensionality thm
+R38807:38811 Corelib.Init.Logic <> proj1 thm
+R38814:38819 Ionia.finType <> fin_eq thm
+R38848:38862 Ionia.finType <> fin2nat_nat2fin thm
+R38889:38904 Ionia.finType <> fin2nat_fin2finS thm
+R38924:38939 Ionia.finType <> fin2nat_fin2finS thm
+prf 39107:39118 <> in_acc_acc'2
+R39137:39140 Ionia.DataExp <> path ind
+binder 39130:39133 <> base:351
+R39148:39151 Ionia.DataExp <> path ind
+binder 39144:39144 <> p:352
+R39200:39207 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R39159:39164 Ionia.Proof_CodeGen <> in_acc def
+R39181:39183 Ionia.Proof_CodeGen <> acc def
+R39186:39188 Ionia.DataExp <> ary constr
+R39195:39197 Ionia.KVCache <> stD def
+R39190:39191 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R39193:39193 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R39192:39192 Ionia.KVCache <> BoundedGenerate.T var
+R39169:39172 Ionia.Proof_CodeGen <> acc' def
+R39174:39177 Ionia.KVCache <> base:351 var
+R39166:39166 Ionia.KVCache <> p:352 var
+R39208:39215 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R39239:39241 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R39220:39222 Ionia.finType <> fin def
+R39224:39224 Ionia.KVCache <> BoundedGenerate.T var
+binder 39216:39216 <> t:353
+R39233:39235 Ionia.finType <> fin def
+R39237:39238 Ionia.KVCache <> BoundedGenerate.dk var
+binder 39228:39229 <> dd:354
+R39243:39245 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R39242:39242 Ionia.KVCache <> p:352 var
+R39246:39251 Ionia.DataExp <> AryIdx constr
+R39257:39262 Ionia.DataExp <> AryIdx constr
+R39266:39269 Ionia.KVCache <> base:351 var
+R39264:39264 Ionia.KVCache <> t:353 var
+R39253:39254 Ionia.KVCache <> dd:354 var
+R39308:39313 Ionia.Proof_CodeGen <> in_acc def
+R39357:39369 Ionia.KVCache <> slot_path_raw thm
+R39371:39373 Ionia.KVCache <> stD def
+R39399:39404 Ionia.Proof_CodeGen <> in_acc def
+R39450:39452 Ionia.KVCache <> stD def
+R39475:39487 Ionia.KVCache <> slot_path_raw thm
+R39494:39499 Ionia.DataExp <> AryIdx constr
+R39489:39491 Ionia.DataExp <> num constr
+R39530:39535 Ionia.Proof_CodeGen <> in_acc def
+prf 39662:39673 <> access_leaf2
+R39692:39695 Ionia.DataExp <> path ind
+binder 39685:39688 <> base:355
+R39705:39707 Ionia.Proof_CodeGen <> env def
+binder 39699:39701 <> rho:356
+R39719:39721 Ionia.Proof_CodeGen <> exp def
+R39724:39726 Ionia.DataExp <> ary constr
+R39733:39735 Ionia.KVCache <> stD def
+R39728:39729 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R39731:39731 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R39730:39730 Ionia.KVCache <> BoundedGenerate.T var
+binder 39715:39715 <> G:357
+R39744:39746 Ionia.finType <> fin def
+R39748:39748 Ionia.KVCache <> BoundedGenerate.T var
+binder 39740:39740 <> t:358
+R39757:39759 Ionia.finType <> fin def
+R39761:39762 Ionia.KVCache <> BoundedGenerate.dk var
+binder 39752:39753 <> dd:359
+R39822:39829 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R39813:39815 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R39770:39775 Ionia.Proof_CodeGen <> access def
+R39794:39796 Ionia.Proof_CodeGen <> acc def
+R39799:39801 Ionia.DataExp <> ary constr
+R39808:39810 Ionia.KVCache <> stD def
+R39803:39804 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R39806:39806 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R39805:39805 Ionia.KVCache <> BoundedGenerate.T var
+R39782:39785 Ionia.Proof_CodeGen <> acc' def
+R39787:39790 Ionia.KVCache <> base:355 var
+R39777:39779 Ionia.KVCache <> rho:356 var
+R39816:39819 Corelib.Init.Datatypes <> Some constr
+R39821:39821 Ionia.KVCache <> G:357 var
+R39861:39863 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R39830:39832 Ionia.KVCache <> rho:356 var
+R39835:39840 Ionia.DataExp <> AryIdx constr
+R39846:39851 Ionia.DataExp <> AryIdx constr
+R39855:39858 Ionia.KVCache <> base:355 var
+R39853:39853 Ionia.KVCache <> t:358 var
+R39842:39843 Ionia.KVCache <> dd:359 var
+R39864:39867 Corelib.Init.Datatypes <> Some constr
+R39870:39872 Ionia.Proof_CodeGen <> idx def
+R39884:39885 Ionia.KVCache <> dd:359 var
+R39875:39877 Ionia.Proof_CodeGen <> idx def
+R39881:39881 Ionia.KVCache <> t:358 var
+R39879:39879 Ionia.KVCache <> G:357 var
+R39944:39960 Ionia.KVCache <> access_acc'_level thm
+R39962:39964 Ionia.KVCache <> stD def
+R40003:40019 Ionia.KVCache <> access_acc'_level thm
+R40026:40031 Ionia.DataExp <> AryIdx constr
+R40021:40023 Ionia.DataExp <> num constr
+prf 40162:40179 <> bounded_gen_access
+R40197:40199 Ionia.Proof_CodeGen <> env def
+binder 40191:40193 <> rho:360
+R40269:40275 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R40207:40212 Ionia.Proof_CodeGen <> access def
+R40250:40252 Ionia.Proof_CodeGen <> acc def
+R40255:40257 Ionia.DataExp <> ary constr
+R40264:40266 Ionia.KVCache <> stD def
+R40259:40260 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R40262:40262 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R40261:40261 Ionia.KVCache <> BoundedGenerate.T var
+R40238:40241 Ionia.Proof_CodeGen <> acc' def
+R40243:40246 Ionia.KVCache <> BoundedGenerate.outp var
+R40215:40230 Ionia.KVCache <> bounded_gen_comm def
+R40232:40234 Ionia.KVCache <> rho:360 var
+R40276:40279 Corelib.Init.Datatypes <> Some constr
+R40281:40291 Ionia.KVCache <> gen_outputs def
+R40343:40357 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R40336:40342 Ionia.KVCache <> genloop def
+R40358:40363 Ionia.Proof_CodeGen <> seqfor def
+R40374:40376 Ionia.finType <> fin def
+R40378:40378 Ionia.KVCache <> BoundedGenerate.T var
+binder 40370:40370 <> s:361
+R40399:40405 Ionia.KVCache <> genstep def
+R40408:40414 Ionia.finType <> nat2fin def
+R40417:40431 Stdlib.Arith.PeanoNat Nat lt_le_trans thm
+R40440:40448 Ionia.finType <> fin_proof def
+R40450:40450 Ionia.KVCache <> s:361 var
+R40454:40457 Corelib.Init.Peano <> le_n constr
+R40459:40459 Ionia.KVCache <> BoundedGenerate.T var
+binder 40370:40370 <> s:362
+R40450:40450 Ionia.KVCache <> s:362 var
+R40480:40486 Ionia.KVCache <> genloop def
+R40495:40515 Ionia.Proof_CodeGen <> seqfor_extensionality thm
+R40549:40553 Corelib.Init.Logic <> proj1 thm
+R40556:40561 Ionia.finType <> fin_eq thm
+R40578:40592 Ionia.finType <> fin2nat_nat2fin thm
+R40621:40636 Ionia.KVCache <> bounded_gen_comm def
+R40646:40648 Ionia.Proof_CodeGen <> seq def
+R40680:40690 Ionia.KVCache <> genloop_inv thm
+R40702:40713 Ionia.KVCache <> gen_inv_init thm
+R40693:40696 Corelib.Init.Peano <> le_n constr
+R40698:40698 Ionia.KVCache <> BoundedGenerate.T var
+R40762:40771 Ionia.Proof_CodeGen <> access_ary thm
+R40787:40805 Ionia.Proof_CodeGen <> mkoptvec_dependence thm
+R40820:40822 Ionia.finType <> fin def
+R40824:40824 Ionia.KVCache <> BoundedGenerate.T var
+binder 40816:40816 <> t:363
+R40829:40832 Corelib.Init.Datatypes <> Some constr
+R40835:40838 Ionia.KVCache <> gout def
+R40841:40847 Ionia.finType <> fin2nat def
+R40849:40849 Ionia.KVCache <> t:363 var
+binder 40816:40816 <> t:364
+R40849:40849 Ionia.KVCache <> t:364 var
+binder 40816:40816 <> t:365
+R40849:40849 Ionia.KVCache <> t:365 var
+binder 40816:40816 <> t:366
+R40849:40849 Ionia.KVCache <> t:366 var
+R40892:40905 Ionia.KVCache <> c_idx_acc'_raw thm
+R40911:40914 Ionia.KVCache <> BoundedGenerate.outp var
+R40907:40909 Ionia.KVCache <> stD def
+R40945:40953 Ionia.finType <> fin_proof def
+R40970:40986 Ionia.KVCache <> mkoptvec_some_all thm
+R40997:41012 Ionia.KVCache <> gen_outputs_body thm
+prf 41191:41207 <> A_BoundedGenerate
+R41225:41227 Ionia.Proof_CodeGen <> env def
+binder 41219:41221 <> rho:367
+R41235:41238 Ionia.DataExp <> path ind
+binder 41231:41231 <> p:368
+R41287:41294 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R41246:41251 Ionia.Proof_CodeGen <> in_acc def
+R41268:41270 Ionia.Proof_CodeGen <> acc def
+R41273:41275 Ionia.DataExp <> ary constr
+R41282:41284 Ionia.KVCache <> stD def
+R41277:41278 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R41280:41280 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R41279:41279 Ionia.KVCache <> BoundedGenerate.T var
+R41256:41259 Ionia.Proof_CodeGen <> acc' def
+R41261:41264 Ionia.KVCache <> BoundedGenerate.outp var
+R41253:41253 Ionia.KVCache <> p:368 var
+R41317:41319 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R41295:41310 Ionia.KVCache <> bounded_gen_comm def
+R41316:41316 Ionia.KVCache <> p:368 var
+R41312:41314 Ionia.KVCache <> rho:367 var
+R41320:41321 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R41352:41353 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R41365:41371 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R41334:41336 Ionia.Proof_CodeGen <> acc def
+R41339:41341 Ionia.DataExp <> ary constr
+R41348:41350 Ionia.KVCache <> stD def
+R41343:41344 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R41346:41346 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R41345:41345 Ionia.KVCache <> BoundedGenerate.T var
+R41322:41325 Ionia.Proof_CodeGen <> acc' def
+R41327:41330 Ionia.KVCache <> BoundedGenerate.outp var
+R41354:41364 Ionia.KVCache <> gen_outputs def
+R41371:41371 Ionia.KVCache <> p:368 var
+R41367:41369 Ionia.KVCache <> rho:367 var
+R41418:41429 Ionia.KVCache <> in_acc_acc'2 thm
+R41431:41434 Ionia.KVCache <> BoundedGenerate.outp var
+R41480:41491 Ionia.KVCache <> access_leaf2 thm
+R41502:41519 Ionia.KVCache <> bounded_gen_access thm
+R41539:41539 Ionia.DPIA_Rules <> A def
+R41659:41661 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R41559:41564 Ionia.Proof_CodeGen <> access def
+R41649:41652 Ionia.Proof_CodeGen <> acc' def
+R41654:41657 Ionia.KVCache <> BoundedGenerate.outp var
+R41567:41572 Ionia.Proof_CodeGen <> assign def
+R41607:41617 Ionia.KVCache <> gen_outputs def
+R41587:41589 Ionia.Proof_CodeGen <> acc def
+R41592:41594 Ionia.DataExp <> ary constr
+R41601:41603 Ionia.KVCache <> stD def
+R41596:41597 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R41599:41599 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R41598:41598 Ionia.KVCache <> BoundedGenerate.T var
+R41575:41578 Ionia.Proof_CodeGen <> acc' def
+R41580:41583 Ionia.KVCache <> BoundedGenerate.outp var
+R41662:41665 Corelib.Init.Datatypes <> Some constr
+R41667:41677 Ionia.KVCache <> gen_outputs def
+R41693:41708 Ionia.Proof_CodeGen <> access_assign_eq thm
+R41739:41750 Ionia.KVCache <> access_leaf2 thm
+def 41934:41947 <> gen_at_unroll2
+R41963:41965 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R41955:41960 Ionia.KVCache <> gen_at def
+R41969:41974 Ionia.KVCache <> BoundedGenerate.isdone var
+R41977:41982 Ionia.KVCache <> gen_at def
+R42006:42009 Ionia.KVCache <> BoundedGenerate.emit var
+R42012:42016 Ionia.KVCache <> attnF def
+R41992:41997 Ionia.KVCache <> gen_at def
+R42038:42045 Ionia.KVCache <> gen_at_S thm
+def 42067:42080 <> gen_at_unroll4
+R42096:42098 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R42088:42093 Ionia.KVCache <> gen_at def
+R42102:42107 Ionia.KVCache <> BoundedGenerate.isdone var
+R42110:42115 Ionia.KVCache <> gen_at def
+R42139:42142 Ionia.KVCache <> BoundedGenerate.emit var
+R42145:42149 Ionia.KVCache <> attnF def
+R42125:42130 Ionia.KVCache <> gen_at def
+R42171:42178 Ionia.KVCache <> gen_at_S thm
+def 42253:42266 <> gen_outputs_at
+R42281:42283 Ionia.finType <> fin def
+R42285:42285 Ionia.KVCache <> BoundedGenerate.T var
+binder 42277:42277 <> t:369
+R42309:42311 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R42292:42294 Ionia.Proof_CodeGen <> idx def
+R42308:42308 Ionia.KVCache <> t:369 var
+R42296:42306 Ionia.KVCache <> gen_outputs def
+R42312:42315 Ionia.KVCache <> gout def
+R42318:42324 Ionia.finType <> fin2nat def
+R42326:42326 Ionia.KVCache <> t:369 var
+R42360:42375 Ionia.KVCache <> gen_outputs_body thm
+R42384:42393 Ionia.Proof_CodeGen <> idx_mkvSeq thm
+R42412:42420 Ionia.finType <> fin_proof def
+R42443:42457 Ionia.KVCache BoundedGenerate <> sec
+sec 42713:42720 <> Small_T4
+var  42735:42737 Small_T4 dk4
+var  42747:42748 Small_T4 x4
+var  42785:42786 Small_T4 q4
+var  42788:42789 Small_T4 k4
+var  42791:42792 Small_T4 v4
+var  42794:42795 Small_T4 e4
+var  42856:42857 Small_T4 d4
+var  42902:42904 Small_T4 sk4
+var  42906:42908 Small_T4 sv4
+var  42910:42912 Small_T4 so4
+var  42949:42951 Small_T4 sp4
+var  42953:42955 Small_T4 kc4
+var  42957:42959 Small_T4 vc4
+var  42961:42963 Small_T4 ou4
+R42741:42743 Corelib.Init.Datatypes <> nat ind
+R42752:42754 Ionia.Proof_CodeGen <> exp def
+R42757:42759 Ionia.DataExp <> ary constr
+R42768:42770 Ionia.DataExp <> num constr
+R42761:42762 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R42766:42766 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R42763:42765 Ionia.KVCache <> dk4:370 var
+R42819:42822 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R42799:42801 Ionia.Proof_CodeGen <> exp def
+R42804:42806 Ionia.DataExp <> ary constr
+R42815:42817 Ionia.DataExp <> num constr
+R42808:42809 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R42813:42813 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R42810:42812 Ionia.KVCache <> dk4:370 var
+R42823:42825 Ionia.Proof_CodeGen <> exp def
+R42828:42830 Ionia.DataExp <> ary constr
+R42839:42841 Ionia.DataExp <> num constr
+R42832:42833 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R42837:42837 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R42834:42836 Ionia.KVCache <> dk4:370 var
+R42881:42884 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R42861:42863 Ionia.Proof_CodeGen <> exp def
+R42866:42868 Ionia.DataExp <> ary constr
+R42877:42879 Ionia.DataExp <> num constr
+R42870:42871 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R42875:42875 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R42872:42874 Ionia.KVCache <> dk4:370 var
+R42885:42888 Corelib.Init.Datatypes <> bool ind
+R42916:42918 Ionia.Proof_CodeGen <> exp def
+R42921:42923 Ionia.DataExp <> ary constr
+R42932:42934 Ionia.DataExp <> num constr
+R42925:42926 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R42930:42930 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R42927:42929 Ionia.KVCache <> dk4:370 var
+R42967:42970 Ionia.DataExp <> path ind
+def 43098:43105 <> genstep4
+R43114:43117 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R43109:43111 Ionia.finType <> fin def
+R43118:43121 Ionia.Proof_CodeGen <> comm def
+R43130:43136 Ionia.KVCache <> genstep def
+R43188:43190 Ionia.KVCache <> Small_T4.ou4 var
+R43184:43186 Ionia.KVCache <> Small_T4.vc4 var
+R43180:43182 Ionia.KVCache <> Small_T4.kc4 var
+R43176:43178 Ionia.KVCache <> Small_T4.sp4 var
+R43172:43174 Ionia.KVCache <> Small_T4.so4 var
+R43168:43170 Ionia.KVCache <> Small_T4.sv4 var
+R43164:43166 Ionia.KVCache <> Small_T4.sk4 var
+R43161:43162 Ionia.KVCache <> Small_T4.d4 var
+R43158:43159 Ionia.KVCache <> Small_T4.e4 var
+R43155:43156 Ionia.KVCache <> Small_T4.v4 var
+R43152:43153 Ionia.KVCache <> Small_T4.k4 var
+R43149:43150 Ionia.KVCache <> Small_T4.q4 var
+R43145:43147 Ionia.KVCache <> Small_T4.dk4 var
+def 43206:43217 <> bounded_gen4
+R43221:43224 Ionia.Proof_CodeGen <> comm def
+R43233:43248 Ionia.KVCache <> bounded_gen_comm def
+R43298:43300 Ionia.KVCache <> Small_T4.ou4 var
+R43294:43296 Ionia.KVCache <> Small_T4.vc4 var
+R43290:43292 Ionia.KVCache <> Small_T4.kc4 var
+R43286:43288 Ionia.KVCache <> Small_T4.sp4 var
+R43282:43284 Ionia.KVCache <> Small_T4.so4 var
+R43278:43280 Ionia.KVCache <> Small_T4.sv4 var
+R43274:43276 Ionia.KVCache <> Small_T4.sk4 var
+R43271:43272 Ionia.KVCache <> Small_T4.d4 var
+R43268:43269 Ionia.KVCache <> Small_T4.e4 var
+R43265:43266 Ionia.KVCache <> Small_T4.v4 var
+R43262:43263 Ionia.KVCache <> Small_T4.k4 var
+R43259:43260 Ionia.KVCache <> Small_T4.q4 var
+R43256:43257 Ionia.KVCache <> Small_T4.x4 var
+R43252:43254 Ionia.KVCache <> Small_T4.dk4 var
+def 43316:43327 <> gen_outputs4
+R43331:43333 Ionia.Proof_CodeGen <> exp def
+R43336:43338 Ionia.DataExp <> ary constr
+R43346:43348 Ionia.DataExp <> ary constr
+R43357:43359 Ionia.DataExp <> num constr
+R43350:43351 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R43355:43355 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R43352:43354 Ionia.KVCache <> Small_T4.dk4 var
+R43340:43341 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R43343:43343 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R43370:43380 Ionia.KVCache <> gen_outputs def
+R43414:43416 Ionia.KVCache <> Small_T4.so4 var
+R43410:43412 Ionia.KVCache <> Small_T4.sv4 var
+R43406:43408 Ionia.KVCache <> Small_T4.sk4 var
+R43403:43404 Ionia.KVCache <> Small_T4.d4 var
+R43400:43401 Ionia.KVCache <> Small_T4.e4 var
+R43397:43398 Ionia.KVCache <> Small_T4.v4 var
+R43394:43395 Ionia.KVCache <> Small_T4.k4 var
+R43391:43392 Ionia.KVCache <> Small_T4.q4 var
+R43388:43389 Ionia.KVCache <> Small_T4.x4 var
+R43384:43386 Ionia.KVCache <> Small_T4.dk4 var
+def 43483:43497 <> genloop4_unroll
+R43541:43547 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R43505:43510 Ionia.Proof_CodeGen <> seqfor def
+R43521:43523 Ionia.finType <> fin def
+binder 43517:43517 <> t:384
+R43530:43537 Ionia.KVCache <> genstep4 def
+R43539:43539 Ionia.KVCache <> t:384 var
+R43588:43591 Ionia.Proof_CodeGen <> :::x_''';'_x not
+R43548:43553 Ionia.Proof_CodeGen <> seqfor def
+R43564:43566 Ionia.finType <> fin def
+binder 43560:43560 <> i:385
+R43573:43580 Ionia.KVCache <> genstep4 def
+R43582:43584 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R43586:43586 Ionia.Proof_CodeGen <> :::'FS['_x_']' not
+R43585:43585 Ionia.KVCache <> i:385 var
+R43592:43599 Ionia.KVCache <> genstep4 def
+R43601:43602 Ionia.Proof_CodeGen <> :::'''['_x_']' not
+R43604:43604 Ionia.Proof_CodeGen <> :::'''['_x_']' not
+R43623:43631 Ionia.Proof_CodeGen <> seqfor_Sn thm
+R43642:43644 Ionia.finType <> fin def
+binder 43638:43638 <> t:386
+R43651:43658 Ionia.KVCache <> genstep4 def
+R43660:43660 Ionia.KVCache <> t:386 var
+binder 43638:43638 <> t:387
+R43660:43660 Ionia.KVCache <> t:387 var
+def 43734:43753 <> A_BoundedGenerate_T4
+R43796:43803 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R43761:43777 Ionia.KVCache <> kv_paths_distinct def
+R43793:43795 Ionia.KVCache <> Small_T4.ou4 var
+R43789:43791 Ionia.KVCache <> Small_T4.vc4 var
+R43785:43787 Ionia.KVCache <> Small_T4.kc4 var
+R43781:43783 Ionia.KVCache <> Small_T4.sp4 var
+R43818:43820 Ionia.Proof_CodeGen <> env def
+binder 43812:43814 <> rho:388
+R43828:43831 Ionia.DataExp <> path ind
+binder 43824:43824 <> p:389
+R43892:43899 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R43839:43844 Ionia.Proof_CodeGen <> in_acc def
+R43860:43862 Ionia.Proof_CodeGen <> acc def
+R43865:43867 Ionia.DataExp <> ary constr
+R43875:43877 Ionia.DataExp <> ary constr
+R43886:43888 Ionia.DataExp <> num constr
+R43879:43880 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R43884:43884 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R43881:43883 Ionia.KVCache <> Small_T4.dk4 var
+R43869:43870 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R43872:43872 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R43849:43852 Ionia.Proof_CodeGen <> acc' def
+R43854:43856 Ionia.KVCache <> Small_T4.ou4 var
+R43846:43846 Ionia.KVCache <> p:389 var
+R43918:43924 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R43900:43911 Ionia.KVCache <> bounded_gen4 def
+R43917:43917 Ionia.KVCache <> p:389 var
+R43913:43915 Ionia.KVCache <> rho:388 var
+R43925:43926 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R43969:43970 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R43983:43989 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R43938:43940 Ionia.Proof_CodeGen <> acc def
+R43943:43945 Ionia.DataExp <> ary constr
+R43953:43955 Ionia.DataExp <> ary constr
+R43964:43966 Ionia.DataExp <> num constr
+R43957:43958 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R43962:43962 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R43959:43961 Ionia.KVCache <> Small_T4.dk4 var
+R43947:43948 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R43950:43950 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R43927:43930 Ionia.Proof_CodeGen <> acc' def
+R43932:43934 Ionia.KVCache <> Small_T4.ou4 var
+R43971:43982 Ionia.KVCache <> gen_outputs4 def
+R43989:43989 Ionia.KVCache <> p:389 var
+R43985:43987 Ionia.KVCache <> rho:388 var
+R44035:44051 Ionia.KVCache <> A_BoundedGenerate thm
+R44109:44111 Ionia.KVCache <> Small_T4.so4 var
+R44105:44107 Ionia.KVCache <> Small_T4.sv4 var
+R44101:44103 Ionia.KVCache <> Small_T4.sk4 var
+R44098:44099 Ionia.KVCache <> Small_T4.d4 var
+R44095:44096 Ionia.KVCache <> Small_T4.e4 var
+R44092:44093 Ionia.KVCache <> Small_T4.v4 var
+R44089:44090 Ionia.KVCache <> Small_T4.k4 var
+R44086:44087 Ionia.KVCache <> Small_T4.q4 var
+R44083:44084 Ionia.KVCache <> Small_T4.x4 var
+R44065:44067 Ionia.KVCache <> Small_T4.dk4 var
+R44136:44143 Ionia.KVCache Small_T4 <> sec
+def 44239:44240 <> Q2
+R44244:44246 Ionia.Proof_CodeGen <> exp def
+R44249:44251 Ionia.DataExp <> ary constr
+R44258:44260 Ionia.DataExp <> num constr
+R44253:44254 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R44256:44256 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R44266:44271 Ionia.Proof_CodeGen <> mkvSeq def
+R44282:44284 Ionia.finType <> fin def
+R44300:44302 Ionia.Proof_CodeGen <> exp def
+R44304:44306 Ionia.DataExp <> num constr
+R44292:44294 Stdlib.Reals.Raxioms <> INR def
+def 44322:44323 <> K2
+R44327:44329 Ionia.Proof_CodeGen <> exp def
+R44332:44334 Ionia.DataExp <> ary constr
+R44342:44344 Ionia.DataExp <> ary constr
+R44351:44353 Ionia.DataExp <> num constr
+R44346:44347 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R44349:44349 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R44336:44337 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R44339:44339 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R44362:44367 Ionia.Proof_CodeGen <> mkvSeq def
+R44378:44380 Ionia.finType <> fin def
+binder 44374:44374 <> j:390
+R44387:44392 Ionia.Proof_CodeGen <> mkvSeq def
+R44404:44406 Ionia.finType <> fin def
+binder 44399:44400 <> dd:391
+R44436:44438 Ionia.Proof_CodeGen <> exp def
+R44440:44442 Ionia.DataExp <> num constr
+R44414:44416 Stdlib.Reals.Raxioms <> INR def
+R44428:44430 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R44419:44425 Ionia.finType <> fin2nat def
+R44427:44427 Ionia.KVCache <> j:390 var
+def 44459:44460 <> V2
+R44464:44466 Ionia.Proof_CodeGen <> exp def
+R44469:44471 Ionia.DataExp <> ary constr
+R44479:44481 Ionia.DataExp <> ary constr
+R44488:44490 Ionia.DataExp <> num constr
+R44483:44484 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R44486:44486 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R44473:44474 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R44476:44476 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R44499:44504 Ionia.Proof_CodeGen <> mkvSeq def
+R44515:44517 Ionia.finType <> fin def
+binder 44511:44511 <> j:392
+R44524:44529 Ionia.Proof_CodeGen <> mkvSeq def
+R44541:44543 Ionia.finType <> fin def
+binder 44536:44537 <> dd:393
+R44586:44588 Ionia.Proof_CodeGen <> exp def
+R44590:44592 Ionia.DataExp <> num constr
+R44551:44553 Stdlib.Reals.Raxioms <> INR def
+R44569:44571 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R44565:44567 Corelib.Init.Peano <> ::nat_scope:x_'*'_x not
+R44556:44562 Ionia.finType <> fin2nat def
+R44564:44564 Ionia.KVCache <> j:392 var
+R44572:44578 Ionia.finType <> fin2nat def
+R44580:44581 Ionia.KVCache <> dd:393 var
+def 44609:44613 <> i0_2k
+R44617:44619 Ionia.finType <> fin def
+R44627:44633 Ionia.finType <> nat2fin def
+def 44724:44741 <> check_attnq_score0
+R44776:44780 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R44747:44749 Ionia.Proof_CodeGen <> idx def
+R44771:44775 Ionia.KVCache <> i0_2k def
+R44752:44762 Ionia.KVCache <> attn_scores def
+R44767:44768 Ionia.KVCache <> K2 def
+R44764:44765 Ionia.KVCache <> Q2 def
+R44781:44783 Ionia.Proof_CodeGen <> mul def
+R44841:44850 Ionia.Attention_DPIA <> attn_scale def
+R44786:44788 Ionia.Proof_CodeGen <> sum def
+R44791:44796 Ionia.Proof_CodeGen <> mkvSeq def
+R44808:44810 Ionia.finType <> fin def
+binder 44803:44804 <> dd:394
+R44817:44819 Ionia.Proof_CodeGen <> mul def
+R44830:44832 Stdlib.Reals.Raxioms <> INR def
+R44822:44824 Stdlib.Reals.Raxioms <> INR def
+def 44969:44986 <> check_attnq_entry0
+R45018:45022 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R44992:44994 Ionia.Proof_CodeGen <> idx def
+R45013:45017 Ionia.KVCache <> i0_2k def
+R44997:45001 Ionia.KVCache <> AttnQ def
+R45009:45010 Ionia.KVCache <> V2 def
+R45006:45007 Ionia.KVCache <> K2 def
+R45003:45004 Ionia.KVCache <> Q2 def
+R45023:45025 Ionia.Proof_CodeGen <> sum def
+R45028:45033 Ionia.Proof_CodeGen <> mkvSeq def
+R45044:45046 Ionia.finType <> fin def
+binder 45040:45040 <> j:395
+R45059:45061 Ionia.Proof_CodeGen <> mul def
+R45104:45106 Ionia.Proof_CodeGen <> idx def
+R45119:45123 Ionia.KVCache <> i0_2k def
+R45109:45111 Ionia.Proof_CodeGen <> idx def
+R45116:45116 Ionia.KVCache <> j:395 var
+R45113:45114 Ionia.KVCache <> V2 def
+R45064:45066 Ionia.Proof_CodeGen <> idx def
+R45100:45100 Ionia.KVCache <> j:395 var
+R45069:45077 Ionia.LeNet5_Functional <> Softmax1d def
+R45080:45090 Ionia.KVCache <> attn_scores def
+R45095:45096 Ionia.KVCache <> K2 def
+R45092:45093 Ionia.KVCache <> Q2 def
+sec 45222:45230 <> Small_KV4
+def 45313:45322 <> cache_k_L4
+R45349:45352 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R45344:45346 Ionia.finType <> fin def
+R45353:45355 Ionia.Proof_CodeGen <> exp def
+R45358:45360 Ionia.DataExp <> ary constr
+R45367:45369 Ionia.DataExp <> num constr
+R45362:45363 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R45365:45365 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+binder 45334:45336 <> fk4:396
+binder 45338:45340 <> fv4:397
+R45388:45391 Ionia.DataExp <> path ind
+binder 45378:45380 <> kc4:398
+binder 45382:45384 <> vc4:399
+R45405:45408 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R45402:45404 Ionia.KVCache <> kc4:398 var
+R45409:45411 Ionia.KVCache <> vc4:399 var
+binder 45395:45398 <> Hkv4:400
+R45419:45421 Ionia.finType <> fin def
+binder 45415:45415 <> m:401
+R45433:45435 Ionia.Proof_CodeGen <> env def
+binder 45427:45429 <> rho:402
+R45550:45556 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R45443:45448 Ionia.Proof_CodeGen <> access def
+R45503:45503 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R45544:45546 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R45548:45548 Ionia.Proof_CodeGen <> :::x_'|{'_x_'}' not
+R45515:45517 Ionia.Proof_CodeGen <> acc def
+R45520:45522 Ionia.DataExp <> ary constr
+R45530:45532 Ionia.DataExp <> ary constr
+R45539:45541 Ionia.DataExp <> num constr
+R45534:45535 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R45537:45537 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R45524:45525 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R45527:45527 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R45504:45507 Ionia.Proof_CodeGen <> acc' def
+R45509:45511 Ionia.KVCache <> kc4:398 var
+R45547:45547 Ionia.KVCache <> m:401 var
+R45451:45459 Ionia.KVCache <> cachefill def
+R45486:45488 Ionia.KVCache <> rho:402 var
+R45482:45484 Ionia.KVCache <> vc4:399 var
+R45478:45480 Ionia.KVCache <> kc4:398 var
+R45474:45476 Ionia.KVCache <> fv4:397 var
+R45470:45472 Ionia.KVCache <> fk4:396 var
+R45557:45560 Corelib.Init.Datatypes <> Some constr
+R45563:45565 Ionia.KVCache <> fk4:396 var
+R45567:45567 Ionia.KVCache <> m:401 var
+R45594:45600 Ionia.KVCache <> cache_k thm
+def 45681:45697 <> kv_cache_equiv_L4
+R45724:45727 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R45719:45721 Ionia.finType <> fin def
+R45728:45730 Ionia.Proof_CodeGen <> exp def
+R45733:45735 Ionia.DataExp <> ary constr
+R45742:45744 Ionia.DataExp <> num constr
+R45737:45738 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R45740:45740 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+binder 45709:45711 <> fk4:403
+binder 45713:45715 <> fv4:404
+R45763:45766 Ionia.DataExp <> path ind
+binder 45753:45755 <> kc4:405
+binder 45757:45759 <> vc4:406
+R45780:45783 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R45777:45779 Ionia.KVCache <> kc4:405 var
+R45784:45786 Ionia.KVCache <> vc4:406 var
+binder 45770:45773 <> Hkv4:407
+R45796:45798 Ionia.Proof_CodeGen <> env def
+binder 45790:45792 <> rho:408
+R45806:45808 Ionia.Proof_CodeGen <> exp def
+R45811:45813 Ionia.DataExp <> ary constr
+R45820:45822 Ionia.DataExp <> num constr
+R45815:45816 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R45818:45818 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+binder 45802:45802 <> q:409
+R45838:45840 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+binder 45831:45832 <> Ht:410
+R46003:46009 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R45854:45858 Ionia.KVCache <> AttnQ def
+R45940:45944 Ionia.KVCache <> vread def
+R45963:45971 Ionia.KVCache <> cachefill def
+R45998:46000 Ionia.KVCache <> rho:408 var
+R45994:45996 Ionia.KVCache <> vc4:406 var
+R45990:45992 Ionia.KVCache <> kc4:405 var
+R45986:45988 Ionia.KVCache <> fv4:404 var
+R45982:45984 Ionia.KVCache <> fk4:403 var
+R45959:45960 Ionia.KVCache <> Ht:410 var
+R45955:45957 Ionia.KVCache <> vc4:406 var
+R45863:45867 Ionia.KVCache <> kread def
+R45886:45894 Ionia.KVCache <> cachefill def
+R45921:45923 Ionia.KVCache <> rho:408 var
+R45917:45919 Ionia.KVCache <> vc4:406 var
+R45913:45915 Ionia.KVCache <> kc4:405 var
+R45909:45911 Ionia.KVCache <> fv4:404 var
+R45905:45907 Ionia.KVCache <> fk4:403 var
+R45882:45883 Ionia.KVCache <> Ht:410 var
+R45878:45880 Ionia.KVCache <> kc4:405 var
+R45860:45860 Ionia.KVCache <> q:409 var
+R46010:46014 Ionia.KVCache <> AttnQ def
+R46043:46047 Ionia.KVCache <> vpref def
+R46062:46063 Ionia.KVCache <> Ht:410 var
+R46058:46060 Ionia.KVCache <> fv4:404 var
+R46019:46023 Ionia.KVCache <> kpref def
+R46038:46039 Ionia.KVCache <> Ht:410 var
+R46034:46036 Ionia.KVCache <> fk4:403 var
+R46016:46016 Ionia.KVCache <> q:409 var
+R46090:46103 Ionia.KVCache <> kv_cache_equiv thm
+R46128:46136 Ionia.KVCache Small_KV4 <> sec
+R46402:46416 Ionia.KVCache <> If_assign_merge thm
+R46437:46445 Ionia.KVCache <> fill_read thm
+R46466:46475 Ionia.KVCache <> fill_other thm
+R46496:46502 Ionia.KVCache <> A_AttnQ thm
+R46523:46537 Ionia.KVCache <> AttnQ_cell_last thm
+R46558:46571 Ionia.KVCache <> kv_cache_equiv thm
+R46592:46610 Ionia.KVCache <> kv_cache_equiv_cell thm
+R46631:46644 Ionia.KVCache <> A_AttnQ_cached thm
+R46665:46672 Ionia.KVCache <> gen_at_S thm
+R46693:46707 Ionia.KVCache <> genstep_correct thm
+R46728:46738 Ionia.KVCache <> genloop_inv thm
+R46759:46776 Ionia.KVCache <> bounded_gen_access thm
+R46797:46813 Ionia.KVCache <> A_BoundedGenerate thm
+R46834:46853 Ionia.KVCache <> A_BoundedGenerate_T4 ex

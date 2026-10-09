@@ -1,0 +1,1310 @@
+DIGEST b413115cf9a584c31abeb2045c0302e6
+FIonia.BiLSTM_DPIA
+R1397:1420 Stdlib.Logic.FunctionalExtensionality <> <> lib
+R1438:1453 Ionia.DPIA_Rules <> <> lib
+R1471:1489 Ionia.Proof_CodeGen <> <> lib
+R1599:1603 Stdlib.Reals.Reals <> <> lib
+R1605:1607 Stdlib.micromega.Lia <> <> lib
+R1617:1629 Ionia.Proof_CodeGen <> <> mod
+R1692:1704 Ionia.Ops_RNN <> <> lib
+R1740:1757 Ionia.TextCNN_DPIA <> <> lib
+R1830:1852 Ionia.LeNet5_Functional <> <> lib
+R1870:1892 Ionia.LeNet5_Imperative <> <> lib
+R1910:1926 Ionia.LeNet5_DPIA <> <> lib
+R1956:1961 Stdlib.Strings.String <> <> lib
+prf 2321:2329 <> rev_bound
+R2345:2347 Corelib.Init.Datatypes <> nat ind
+binder 2341:2341 <> T:1
+R2355:2357 Ionia.finType <> fin def
+R2359:2359 Ionia.BiLSTM_DPIA <> T:1 var
+binder 2351:2351 <> i:2
+R2381:2383 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R2369:2371 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R2365:2367 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R2364:2364 Ionia.BiLSTM_DPIA <> T:1 var
+R2372:2378 Ionia.finType <> fin2nat def
+R2380:2380 Ionia.BiLSTM_DPIA <> i:2 var
+R2384:2384 Ionia.BiLSTM_DPIA <> T:1 var
+R2423:2431 Ionia.finType <> fin_proof def
+def 2459:2464 <> revidx
+R2471:2473 Corelib.Init.Datatypes <> nat ind
+binder 2467:2467 <> T:3
+R2481:2483 Ionia.finType <> fin def
+R2485:2485 Ionia.BiLSTM_DPIA <> T:3 var
+binder 2477:2477 <> i:4
+R2490:2492 Ionia.finType <> fin def
+R2494:2494 Ionia.BiLSTM_DPIA <> T:3 var
+R2499:2505 Ionia.finType <> nat2fin def
+R2508:2516 Ionia.BiLSTM_DPIA <> rev_bound thm
+R2518:2518 Ionia.BiLSTM_DPIA <> i:4 var
+prf 2529:2542 <> fin2nat_revidx
+R2558:2560 Corelib.Init.Datatypes <> nat ind
+binder 2554:2554 <> T:5
+R2568:2570 Ionia.finType <> fin def
+R2572:2572 Ionia.BiLSTM_DPIA <> T:5 var
+binder 2564:2564 <> i:6
+R2596:2598 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2578:2584 Ionia.finType <> fin2nat def
+R2587:2592 Ionia.BiLSTM_DPIA <> revidx def
+R2594:2594 Ionia.BiLSTM_DPIA <> i:6 var
+R2604:2606 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R2600:2602 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R2599:2599 Ionia.BiLSTM_DPIA <> T:5 var
+R2607:2613 Ionia.finType <> fin2nat def
+R2615:2615 Ionia.BiLSTM_DPIA <> i:6 var
+R2640:2645 Ionia.BiLSTM_DPIA <> revidx def
+R2654:2668 Ionia.finType <> fin2nat_nat2fin thm
+def 2741:2746 <> revseq
+R2753:2755 Corelib.Init.Datatypes <> nat ind
+binder 2749:2749 <> T:7
+R2763:2766 Ionia.DataExp <> data ind
+binder 2759:2759 <> s:8
+R2775:2777 Ionia.Proof_CodeGen <> exp def
+R2780:2782 Ionia.DataExp <> ary constr
+R2789:2789 Ionia.BiLSTM_DPIA <> s:8 var
+R2784:2785 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2787:2787 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2786:2786 Ionia.BiLSTM_DPIA <> T:7 var
+binder 2770:2771 <> xs:9
+R2797:2799 Ionia.Proof_CodeGen <> exp def
+R2802:2804 Ionia.DataExp <> ary constr
+R2811:2811 Ionia.BiLSTM_DPIA <> s:8 var
+R2806:2807 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2809:2809 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2808:2808 Ionia.BiLSTM_DPIA <> T:7 var
+R2819:2824 Ionia.Proof_CodeGen <> mkvSeq def
+R2835:2837 Ionia.finType <> fin def
+R2839:2839 Ionia.BiLSTM_DPIA <> T:7 var
+binder 2831:2831 <> i:10
+R2844:2846 Ionia.Proof_CodeGen <> idx def
+R2852:2857 Ionia.BiLSTM_DPIA <> revidx def
+R2859:2859 Ionia.BiLSTM_DPIA <> i:10 var
+R2848:2849 Ionia.BiLSTM_DPIA <> xs:9 var
+def 3119:3123 <> vcons
+binder 3126:3126 <> A:11
+R3140:3140 Ionia.BiLSTM_DPIA <> A:11 var
+binder 3136:3136 <> x:12
+R3148:3150 Corelib.Init.Datatypes <> nat ind
+binder 3144:3144 <> n:13
+R3167:3170 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3157:3162 Ionia.vector <> vector def
+R3166:3166 Ionia.BiLSTM_DPIA <> n:13 var
+R3164:3164 Ionia.BiLSTM_DPIA <> A:11 var
+R3171:3176 Ionia.vector <> vector def
+R3181:3181 Corelib.Init.Datatypes <> S constr
+R3183:3183 Ionia.BiLSTM_DPIA <> n:13 var
+R3178:3178 Ionia.BiLSTM_DPIA <> A:11 var
+R3197:3197 Ionia.BiLSTM_DPIA <> n:13 var
+R3217:3220 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3207:3212 Ionia.vector <> vector def
+R3216:3216 Ionia.BiLSTM_DPIA <> n:15 var
+R3214:3214 Ionia.BiLSTM_DPIA <> A:11 var
+R3221:3226 Ionia.vector <> vector def
+R3231:3231 Corelib.Init.Datatypes <> S constr
+R3233:3233 Ionia.BiLSTM_DPIA <> n:15 var
+R3228:3228 Ionia.BiLSTM_DPIA <> A:11 var
+R3260:3260 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3263:3264 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3266:3266 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3261:3262 Corelib.Init.Datatypes <> tt constr
+R3265:3265 Ionia.BiLSTM_DPIA <> x:12 var
+R3272:3272 Corelib.Init.Datatypes <> S constr
+binder 3284:3284 <> v:16
+R3289:3289 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3308:3309 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3315:3315 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3290:3294 Ionia.BiLSTM_DPIA <> vcons:14 def
+R3302:3304 Corelib.Init.Datatypes <> fst def
+R3306:3306 Ionia.BiLSTM_DPIA <> v:16 var
+R3296:3296 Ionia.BiLSTM_DPIA <> x:12 var
+R3310:3312 Corelib.Init.Datatypes <> snd def
+R3314:3314 Ionia.BiLSTM_DPIA <> v:16 var
+prf 3407:3417 <> v_nth_vcons
+R3433:3435 Corelib.Init.Datatypes <> nat ind
+binder 3429:3429 <> n:17
+binder 3439:3439 <> A:18
+R3453:3453 Ionia.BiLSTM_DPIA <> A:18 var
+binder 3449:3449 <> x:19
+R3461:3466 Ionia.vector <> vector def
+R3470:3470 Ionia.BiLSTM_DPIA <> n:17 var
+R3468:3468 Ionia.BiLSTM_DPIA <> A:18 var
+binder 3457:3457 <> v:20
+R3480:3482 Corelib.Init.Datatypes <> nat ind
+binder 3476:3476 <> i:21
+R3491:3491 Ionia.BiLSTM_DPIA <> A:18 var
+binder 3486:3487 <> d0:22
+R3510:3515 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R3499:3501 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R3498:3498 Ionia.BiLSTM_DPIA <> i:21 var
+R3502:3502 Corelib.Init.Datatypes <> S constr
+R3504:3504 Ionia.BiLSTM_DPIA <> n:17 var
+R3540:3543 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3590:3590 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3516:3520 Ionia.vector <> v_nth def
+R3539:3539 Ionia.BiLSTM_DPIA <> i:21 var
+R3526:3530 Ionia.BiLSTM_DPIA <> vcons def
+R3536:3536 Ionia.BiLSTM_DPIA <> v:20 var
+R3534:3534 Ionia.BiLSTM_DPIA <> n:17 var
+R3532:3532 Ionia.BiLSTM_DPIA <> x:19 var
+R3522:3523 Ionia.BiLSTM_DPIA <> d0:22 var
+R3549:3552 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R3548:3548 Ionia.BiLSTM_DPIA <> i:21 var
+R3572:3576 Ionia.vector <> v_nth def
+R3585:3587 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R3584:3584 Ionia.BiLSTM_DPIA <> i:21 var
+R3581:3581 Ionia.BiLSTM_DPIA <> v:20 var
+R3578:3579 Ionia.BiLSTM_DPIA <> d0:22 var
+R3565:3565 Ionia.BiLSTM_DPIA <> x:19 var
+R3757:3761 Ionia.BiLSTM_DPIA <> vcons def
+R3772:3772 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3775:3776 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3778:3778 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3766:3766 Corelib.Init.Datatypes <> S constr
+R3786:3786 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3800:3801 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3803:3803 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3787:3791 Ionia.BiLSTM_DPIA <> vcons def
+R3818:3831 Ionia.vector <> v_nth_Sn_simpl thm
+R3849:3852 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R3853:3853 Corelib.Init.Datatypes <> S constr
+R3883:3892 Stdlib.Arith.PeanoNat Nat eqb_eq thm
+R3929:3931 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R3925:3925 Corelib.Init.Datatypes <> S constr
+R3975:3978 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R3971:3971 Corelib.Init.Datatypes <> S constr
+R4026:4032 Ionia.vector <> v_nth_x thm
+R4090:4100 Stdlib.Arith.PeanoNat Nat eqb_neq thm
+R4132:4135 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R4217:4227 Stdlib.Arith.PeanoNat Nat eqb_neq thm
+R4242:4252 Stdlib.Arith.PeanoNat Nat eqb_neq thm
+R4188:4195 Ionia.vector <> v_nth_Sn thm
+prf 4330:4338 <> idx_vcons
+R4354:4356 Corelib.Init.Datatypes <> nat ind
+binder 4350:4350 <> n:23
+R4364:4367 Ionia.DataExp <> data ind
+binder 4360:4360 <> s:24
+R4375:4377 Ionia.Proof_CodeGen <> exp def
+R4379:4379 Ionia.BiLSTM_DPIA <> s:24 var
+binder 4371:4371 <> x:25
+R4389:4391 Ionia.Proof_CodeGen <> exp def
+R4394:4396 Ionia.DataExp <> ary constr
+R4403:4403 Ionia.BiLSTM_DPIA <> s:24 var
+R4398:4399 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4401:4401 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4400:4400 Ionia.BiLSTM_DPIA <> n:23 var
+binder 4385:4385 <> v:26
+R4412:4414 Ionia.finType <> fin def
+R4417:4417 Corelib.Init.Datatypes <> S constr
+R4419:4419 Ionia.BiLSTM_DPIA <> n:23 var
+binder 4408:4408 <> i:27
+R4445:4450 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4526:4526 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4426:4428 Ionia.Proof_CodeGen <> idx def
+R4444:4444 Ionia.BiLSTM_DPIA <> i:27 var
+R4431:4435 Ionia.BiLSTM_DPIA <> vcons def
+R4441:4441 Ionia.BiLSTM_DPIA <> v:26 var
+R4439:4439 Ionia.BiLSTM_DPIA <> n:23 var
+R4437:4437 Ionia.BiLSTM_DPIA <> x:25 var
+R4464:4467 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R4455:4461 Ionia.finType <> fin2nat def
+R4463:4463 Ionia.BiLSTM_DPIA <> i:27 var
+R4487:4491 Ionia.vector <> v_nth def
+R4521:4523 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R4512:4518 Ionia.finType <> fin2nat def
+R4520:4520 Ionia.BiLSTM_DPIA <> i:27 var
+R4509:4509 Ionia.BiLSTM_DPIA <> v:26 var
+R4494:4504 Ionia.Proof_CodeGen <> exp_default def
+R4506:4506 Ionia.BiLSTM_DPIA <> s:24 var
+R4480:4480 Ionia.BiLSTM_DPIA <> x:25 var
+R4553:4555 Ionia.Proof_CodeGen <> idx def
+R4558:4562 Ionia.vector <> v_idx def
+R4571:4581 Ionia.BiLSTM_DPIA <> v_nth_vcons thm
+R4590:4598 Ionia.finType <> fin_proof def
+prf 4688:4699 <> reduce_vcons
+R4715:4717 Corelib.Init.Datatypes <> nat ind
+binder 4711:4711 <> n:28
+R4727:4730 Ionia.DataExp <> data ind
+binder 4721:4721 <> s:29
+binder 4723:4723 <> t:30
+R4746:4749 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4741:4743 Ionia.Proof_CodeGen <> exp def
+R4745:4745 Ionia.BiLSTM_DPIA <> s:29 var
+R4755:4758 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4750:4752 Ionia.Proof_CodeGen <> exp def
+R4754:4754 Ionia.BiLSTM_DPIA <> t:30 var
+R4759:4761 Ionia.Proof_CodeGen <> exp def
+R4763:4763 Ionia.BiLSTM_DPIA <> t:30 var
+binder 4736:4737 <> op:31
+R4774:4776 Ionia.Proof_CodeGen <> exp def
+R4778:4778 Ionia.BiLSTM_DPIA <> t:30 var
+binder 4767:4770 <> init:32
+R4786:4788 Ionia.Proof_CodeGen <> exp def
+R4790:4790 Ionia.BiLSTM_DPIA <> s:29 var
+binder 4782:4782 <> x:33
+R4800:4802 Ionia.Proof_CodeGen <> exp def
+R4805:4807 Ionia.DataExp <> ary constr
+R4814:4814 Ionia.BiLSTM_DPIA <> s:29 var
+R4809:4810 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4812:4812 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4811:4811 Ionia.BiLSTM_DPIA <> n:28 var
+binder 4796:4796 <> v:34
+R4849:4851 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4821:4826 Ionia.Proof_CodeGen <> reduce def
+R4837:4841 Ionia.BiLSTM_DPIA <> vcons def
+R4847:4847 Ionia.BiLSTM_DPIA <> v:34 var
+R4845:4845 Ionia.BiLSTM_DPIA <> n:28 var
+R4843:4843 Ionia.BiLSTM_DPIA <> x:33 var
+R4831:4834 Ionia.BiLSTM_DPIA <> init:32 var
+R4828:4829 Ionia.BiLSTM_DPIA <> op:31 var
+R4852:4857 Ionia.Proof_CodeGen <> reduce def
+R4874:4874 Ionia.BiLSTM_DPIA <> v:34 var
+R4863:4864 Ionia.BiLSTM_DPIA <> op:31 var
+R4868:4871 Ionia.BiLSTM_DPIA <> init:32 var
+R4866:4866 Ionia.BiLSTM_DPIA <> x:33 var
+R4859:4860 Ionia.BiLSTM_DPIA <> op:31 var
+R5004:5008 Ionia.BiLSTM_DPIA <> vcons def
+R5019:5019 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5022:5023 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5025:5025 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5013:5013 Corelib.Init.Datatypes <> S constr
+R5033:5033 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5047:5048 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5050:5050 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5034:5038 Ionia.BiLSTM_DPIA <> vcons def
+R5065:5073 Ionia.DPIA_Rules <> reduce_Sn thm
+R5097:5105 Ionia.DPIA_Rules <> reduce_Sn thm
+prf 5426:5436 <> revseq_snoc
+R5452:5454 Corelib.Init.Datatypes <> nat ind
+binder 5448:5448 <> n:35
+R5462:5465 Ionia.DataExp <> data ind
+binder 5458:5458 <> s:36
+R5475:5477 Ionia.Proof_CodeGen <> exp def
+R5480:5482 Ionia.DataExp <> ary constr
+R5489:5489 Ionia.BiLSTM_DPIA <> s:36 var
+R5484:5485 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5487:5487 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5486:5486 Ionia.BiLSTM_DPIA <> n:35 var
+binder 5471:5471 <> v:37
+R5498:5500 Ionia.Proof_CodeGen <> exp def
+R5502:5502 Ionia.BiLSTM_DPIA <> s:36 var
+binder 5494:5494 <> x:38
+R5544:5546 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5508:5513 Ionia.BiLSTM_DPIA <> revseq def
+R5525:5527 Ionia.Proof_CodeGen <> exp def
+R5530:5532 Ionia.DataExp <> ary constr
+R5541:5541 Ionia.BiLSTM_DPIA <> s:36 var
+R5534:5535 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5539:5539 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5536:5536 Corelib.Init.Datatypes <> S constr
+R5538:5538 Ionia.BiLSTM_DPIA <> n:35 var
+R5516:5516 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5518:5519 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5521:5521 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5517:5517 Ionia.BiLSTM_DPIA <> v:37 var
+R5520:5520 Ionia.BiLSTM_DPIA <> x:38 var
+R5547:5551 Ionia.BiLSTM_DPIA <> vcons def
+R5558:5563 Ionia.BiLSTM_DPIA <> revseq def
+R5565:5565 Ionia.BiLSTM_DPIA <> v:37 var
+R5555:5555 Ionia.BiLSTM_DPIA <> n:35 var
+R5553:5553 Ionia.BiLSTM_DPIA <> x:38 var
+R5603:5607 Corelib.Init.Logic <> proj2 thm
+R5611:5625 Ionia.vector <> vector_eq_v_nth thm
+R5628:5630 Ionia.Proof_CodeGen <> exp def
+R5636:5636 Corelib.Init.Datatypes <> S constr
+R5655:5660 Ionia.BiLSTM_DPIA <> revseq def
+R5672:5674 Ionia.Proof_CodeGen <> exp def
+R5677:5679 Ionia.DataExp <> ary constr
+R5681:5682 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5686:5686 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5683:5683 Corelib.Init.Datatypes <> S constr
+R5663:5663 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5665:5666 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5668:5668 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5694:5698 Ionia.BiLSTM_DPIA <> vcons def
+R5705:5710 Ionia.BiLSTM_DPIA <> revseq def
+R5730:5740 Ionia.Proof_CodeGen <> exp_default def
+R5769:5773 Ionia.vector <> v_nth def
+R5792:5797 Ionia.BiLSTM_DPIA <> revseq def
+R5809:5811 Ionia.Proof_CodeGen <> exp def
+R5814:5816 Ionia.DataExp <> ary constr
+R5818:5819 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5823:5823 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5820:5820 Corelib.Init.Datatypes <> S constr
+R5800:5800 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5802:5803 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5805:5805 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5776:5786 Ionia.Proof_CodeGen <> exp_default def
+R5843:5845 Ionia.Proof_CodeGen <> idx def
+R5848:5853 Ionia.BiLSTM_DPIA <> revseq def
+R5865:5867 Ionia.Proof_CodeGen <> exp def
+R5870:5872 Ionia.DataExp <> ary constr
+R5874:5875 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5879:5879 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5876:5876 Corelib.Init.Datatypes <> S constr
+R5856:5856 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5858:5859 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5861:5861 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5900:5904 Ionia.vector <> v_nth def
+R5923:5927 Ionia.BiLSTM_DPIA <> vcons def
+R5934:5939 Ionia.BiLSTM_DPIA <> revseq def
+R5907:5917 Ionia.Proof_CodeGen <> exp_default def
+R5958:5960 Ionia.Proof_CodeGen <> idx def
+R5963:5967 Ionia.BiLSTM_DPIA <> vcons def
+R5974:5979 Ionia.BiLSTM_DPIA <> revseq def
+R5998:6003 Ionia.BiLSTM_DPIA <> revseq def
+R6019:6028 Ionia.Proof_CodeGen <> idx_mkvSeq thm
+R6058:6066 Ionia.BiLSTM_DPIA <> idx_vcons thm
+R6078:6080 Ionia.Proof_CodeGen <> idx def
+R6083:6087 Ionia.vector <> v_idx def
+R6098:6111 Ionia.BiLSTM_DPIA <> fin2nat_revidx thm
+R6318:6322 Ionia.vector <> v_nth def
+R6378:6380 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R6374:6376 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R6371:6371 Corelib.Init.Datatypes <> S constr
+R6381:6387 Ionia.finType <> fin2nat def
+R6350:6352 Ionia.Proof_CodeGen <> exp def
+R6355:6357 Ionia.DataExp <> ary constr
+R6359:6360 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6364:6364 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R6361:6361 Corelib.Init.Datatypes <> S constr
+R6341:6341 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6343:6344 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6346:6346 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6325:6335 Ionia.Proof_CodeGen <> exp_default def
+R6426:6429 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R6414:6416 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R6410:6412 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R6407:6407 Corelib.Init.Datatypes <> S constr
+R6417:6423 Ionia.finType <> fin2nat def
+R6459:6463 Ionia.vector <> v_nth def
+R6491:6493 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R6487:6489 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R6484:6484 Corelib.Init.Datatypes <> S constr
+R6494:6500 Ionia.finType <> fin2nat def
+R6466:6476 Ionia.Proof_CodeGen <> exp_default def
+R6528:6531 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R6519:6525 Ionia.finType <> fin2nat def
+R6590:6599 Stdlib.Arith.PeanoNat Nat eqb_eq thm
+R6640:6642 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R6636:6638 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R6633:6633 Corelib.Init.Datatypes <> S constr
+R6677:6688 Stdlib.Arith.PeanoNat Nat eqb_refl thm
+R6763:6773 Stdlib.Arith.PeanoNat Nat eqb_neq thm
+R6798:6806 Ionia.finType <> fin_proof def
+R6849:6851 Corelib.Init.Peano <> ::nat_scope:x_'<'_x not
+R6845:6847 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R6836:6842 Ionia.finType <> fin2nat def
+R6911:6913 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6901:6904 Stdlib.Arith.PeanoNat <> ::nat_scope:x_'=?'_x not
+R6889:6891 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R6885:6887 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R6882:6882 Corelib.Init.Datatypes <> S constr
+R6892:6898 Ionia.finType <> fin2nat def
+R6914:6918 Corelib.Init.Datatypes <> false constr
+R6934:6944 Stdlib.Arith.PeanoNat Nat eqb_neq thm
+R6982:6987 Ionia.BiLSTM_DPIA <> revseq def
+R7003:7007 Ionia.vector <> v_nth def
+R7096:7098 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R7087:7093 Ionia.finType <> fin2nat def
+R7040:7045 Ionia.Proof_CodeGen <> mkvSeq def
+R7057:7059 Ionia.finType <> fin def
+binder 7052:7053 <> i0:39
+R7066:7068 Ionia.Proof_CodeGen <> idx def
+R7073:7078 Ionia.BiLSTM_DPIA <> revidx def
+R7080:7081 Ionia.BiLSTM_DPIA <> i0:39 var
+R7010:7020 Ionia.Proof_CodeGen <> exp_default def
+R7115:7117 Ionia.Proof_CodeGen <> idx def
+R7167:7173 Ionia.finType <> nat2fin def
+R7120:7125 Ionia.Proof_CodeGen <> mkvSeq def
+R7137:7139 Ionia.finType <> fin def
+binder 7132:7133 <> i0:40
+R7146:7148 Ionia.Proof_CodeGen <> idx def
+R7153:7158 Ionia.BiLSTM_DPIA <> revidx def
+R7160:7161 Ionia.BiLSTM_DPIA <> i0:40 var
+binder 7052:7053 <> i0:41
+R7080:7081 Ionia.BiLSTM_DPIA <> i0:41 var
+binder 7132:7133 <> i0:42
+R7160:7161 Ionia.BiLSTM_DPIA <> i0:42 var
+R7198:7200 Ionia.Proof_CodeGen <> idx def
+R7203:7207 Ionia.vector <> v_idx def
+R7218:7232 Ionia.finType <> fin2nat_nat2fin thm
+R7262:7271 Ionia.Proof_CodeGen <> idx_mkvSeq thm
+R7292:7294 Ionia.Proof_CodeGen <> idx def
+R7297:7301 Ionia.vector <> v_idx def
+R7312:7325 Ionia.BiLSTM_DPIA <> fin2nat_revidx thm
+R7336:7350 Ionia.finType <> fin2nat_nat2fin thm
+R7371:7374 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R7388:7388 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R7367:7369 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R7384:7386 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R7375:7381 Ionia.finType <> fin2nat def
+R7402:7404 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R7405:7411 Ionia.finType <> fin2nat def
+R7444:7446 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R7440:7442 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R7437:7437 Corelib.Init.Datatypes <> S constr
+R7447:7453 Ionia.finType <> fin2nat def
+R7469:7471 Corelib.Init.Peano <> ::nat_scope:x_'-'_x not
+R7472:7478 Ionia.finType <> fin2nat def
+def 7744:7748 <> bfold
+R7757:7760 Ionia.DataExp <> data ind
+binder 7751:7751 <> s:43
+binder 7753:7753 <> t:44
+R7774:7777 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7769:7771 Ionia.Proof_CodeGen <> exp def
+R7773:7773 Ionia.BiLSTM_DPIA <> s:43 var
+R7783:7786 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7778:7780 Ionia.Proof_CodeGen <> exp def
+R7782:7782 Ionia.BiLSTM_DPIA <> t:44 var
+R7787:7789 Ionia.Proof_CodeGen <> exp def
+R7791:7791 Ionia.BiLSTM_DPIA <> t:44 var
+binder 7764:7765 <> op:45
+R7799:7801 Corelib.Init.Datatypes <> nat ind
+binder 7795:7795 <> n:46
+R7813:7816 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7808:7810 Ionia.Proof_CodeGen <> exp def
+R7812:7812 Ionia.BiLSTM_DPIA <> t:44 var
+R7833:7836 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7817:7819 Ionia.Proof_CodeGen <> exp def
+R7822:7824 Ionia.DataExp <> ary constr
+R7831:7831 Ionia.BiLSTM_DPIA <> s:43 var
+R7826:7827 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7829:7829 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7828:7828 Ionia.BiLSTM_DPIA <> n:46 var
+R7837:7839 Ionia.Proof_CodeGen <> exp def
+R7841:7841 Ionia.BiLSTM_DPIA <> t:44 var
+R7854:7854 Ionia.BiLSTM_DPIA <> n:46 var
+R7869:7872 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7864:7866 Ionia.Proof_CodeGen <> exp def
+R7868:7868 Ionia.BiLSTM_DPIA <> t:44 var
+R7889:7892 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7873:7875 Ionia.Proof_CodeGen <> exp def
+R7878:7880 Ionia.DataExp <> ary constr
+R7887:7887 Ionia.BiLSTM_DPIA <> s:43 var
+R7882:7883 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7885:7885 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7884:7884 Ionia.BiLSTM_DPIA <> n:48 var
+R7893:7895 Ionia.Proof_CodeGen <> exp def
+R7897:7897 Ionia.BiLSTM_DPIA <> t:44 var
+binder 7918:7921 <> init:49
+R7928:7931 Ionia.BiLSTM_DPIA <> init:49 var
+R7937:7937 Corelib.Init.Datatypes <> S constr
+binder 7949:7952 <> init:50
+binder 7954:7954 <> v:51
+R7959:7963 Ionia.BiLSTM_DPIA <> bfold:47 def
+R7990:7992 Corelib.Init.Datatypes <> fst def
+R7994:7994 Ionia.BiLSTM_DPIA <> v:51 var
+R7972:7973 Ionia.BiLSTM_DPIA <> op:45 var
+R7983:7986 Ionia.BiLSTM_DPIA <> init:50 var
+R7976:7978 Corelib.Init.Datatypes <> snd def
+R7980:7980 Ionia.BiLSTM_DPIA <> v:51 var
+R7965:7966 Ionia.BiLSTM_DPIA <> op:45 var
+prf 8141:8159 <> reduce_revseq_bfold
+R8175:8177 Corelib.Init.Datatypes <> nat ind
+binder 8171:8171 <> n:52
+R8187:8190 Ionia.DataExp <> data ind
+binder 8181:8181 <> s:53
+binder 8183:8183 <> t:54
+R8206:8209 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8201:8203 Ionia.Proof_CodeGen <> exp def
+R8205:8205 Ionia.BiLSTM_DPIA <> s:53 var
+R8215:8218 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R8210:8212 Ionia.Proof_CodeGen <> exp def
+R8214:8214 Ionia.BiLSTM_DPIA <> t:54 var
+R8219:8221 Ionia.Proof_CodeGen <> exp def
+R8223:8223 Ionia.BiLSTM_DPIA <> t:54 var
+binder 8196:8197 <> op:55
+R8234:8236 Ionia.Proof_CodeGen <> exp def
+R8238:8238 Ionia.BiLSTM_DPIA <> t:54 var
+binder 8227:8230 <> init:56
+R8246:8248 Ionia.Proof_CodeGen <> exp def
+R8251:8253 Ionia.DataExp <> ary constr
+R8260:8260 Ionia.BiLSTM_DPIA <> s:53 var
+R8255:8256 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R8258:8258 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R8257:8257 Ionia.BiLSTM_DPIA <> n:52 var
+binder 8242:8242 <> v:57
+R8292:8294 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8267:8272 Ionia.Proof_CodeGen <> reduce def
+R8283:8288 Ionia.BiLSTM_DPIA <> revseq def
+R8290:8290 Ionia.BiLSTM_DPIA <> v:57 var
+R8277:8280 Ionia.BiLSTM_DPIA <> init:56 var
+R8274:8275 Ionia.BiLSTM_DPIA <> op:55 var
+R8295:8299 Ionia.BiLSTM_DPIA <> bfold def
+R8311:8311 Ionia.BiLSTM_DPIA <> v:57 var
+R8306:8309 Ionia.BiLSTM_DPIA <> init:56 var
+R8304:8304 Ionia.BiLSTM_DPIA <> n:52 var
+R8301:8302 Ionia.BiLSTM_DPIA <> op:55 var
+R8439:8449 Ionia.BiLSTM_DPIA <> revseq_snoc thm
+R8460:8471 Ionia.BiLSTM_DPIA <> reduce_vcons thm
+R8486:8490 Ionia.BiLSTM_DPIA <> bfold def
+R8507:8507 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8510:8511 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8513:8513 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8496:8496 Corelib.Init.Datatypes <> S constr
+R8522:8526 Ionia.BiLSTM_DPIA <> bfold def
+prf 8703:8713 <> LSTMSeq_rev
+R8735:8737 Corelib.Init.Datatypes <> nat ind
+binder 8725:8725 <> T:58
+binder 8727:8728 <> dx:59
+binder 8730:8731 <> dh:60
+R8746:8755 Ionia.Ops_RNN <> LSTMParams rec
+R8760:8761 Ionia.BiLSTM_DPIA <> dh:60 var
+R8757:8758 Ionia.BiLSTM_DPIA <> dx:59 var
+binder 8741:8742 <> ps:61
+R8773:8775 Ionia.Proof_CodeGen <> exp def
+R8778:8780 Ionia.DataExp <> ary constr
+R8788:8790 Ionia.DataExp <> ary constr
+R8798:8800 Ionia.DataExp <> num constr
+R8792:8793 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R8796:8796 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R8794:8795 Ionia.BiLSTM_DPIA <> dh:60 var
+R8782:8783 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R8785:8785 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+binder 8767:8769 <> st0:62
+R8813:8815 Ionia.Proof_CodeGen <> exp def
+R8818:8820 Ionia.DataExp <> ary constr
+R8828:8830 Ionia.DataExp <> ary constr
+R8838:8840 Ionia.DataExp <> num constr
+R8832:8833 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R8836:8836 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R8834:8835 Ionia.BiLSTM_DPIA <> dx:59 var
+R8822:8823 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R8825:8825 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R8824:8824 Ionia.BiLSTM_DPIA <> T:58 var
+binder 8808:8809 <> xs:63
+R8874:8876 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8848:8854 Ionia.Ops_RNN <> LSTMSeq def
+R8864:8869 Ionia.BiLSTM_DPIA <> revseq def
+R8871:8872 Ionia.BiLSTM_DPIA <> xs:63 var
+R8859:8861 Ionia.BiLSTM_DPIA <> st0:62 var
+R8856:8857 Ionia.BiLSTM_DPIA <> ps:61 var
+R8877:8881 Ionia.BiLSTM_DPIA <> bfold def
+R8903:8904 Ionia.BiLSTM_DPIA <> xs:63 var
+R8899:8901 Ionia.BiLSTM_DPIA <> st0:62 var
+R8897:8897 Ionia.BiLSTM_DPIA <> T:58 var
+R8884:8891 Ionia.Ops_RNN <> LSTMCell def
+R8893:8894 Ionia.BiLSTM_DPIA <> ps:61 var
+R8929:8935 Ionia.Ops_RNN <> LSTMSeq def
+R8944:8962 Ionia.BiLSTM_DPIA <> reduce_revseq_bfold thm
+sec 9224:9232 <> BiLSTMNet
+var  9247:9247 BiLSTMNet T
+var  9249:9250 BiLSTMNet dx
+var  9252:9253 BiLSTMNet dh
+var  9255:9256 BiLSTMNet nc
+R9260:9262 Corelib.Init.Datatypes <> nat ind
+var  9277:9279 BiLSTMNet psF
+var  9281:9283 BiLSTMNet psB
+var  9316:9318 BiLSTMNet c0F
+var  9320:9322 BiLSTMNet h0F
+var  9324:9326 BiLSTMNet c0B
+var  9328:9330 BiLSTMNet h0B
+var  9366:9367 BiLSTMNet wo
+var  9410:9411 BiLSTMNet bo
+var  9447:9448 BiLSTMNet xs
+R9287:9296 Ionia.Ops_RNN <> LSTMParams rec
+R9301:9302 Ionia.BiLSTM_DPIA <> BiLSTMNet.dh var
+R9298:9299 Ionia.BiLSTM_DPIA <> BiLSTMNet.dx var
+R9334:9336 Ionia.Proof_CodeGen <> exp def
+R9339:9341 Ionia.DataExp <> ary constr
+R9349:9351 Ionia.DataExp <> num constr
+R9343:9344 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9347:9347 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9345:9346 Ionia.BiLSTM_DPIA <> BiLSTMNet.dh var
+R9371:9373 Ionia.Proof_CodeGen <> exp def
+R9376:9378 Ionia.DataExp <> ary constr
+R9387:9389 Ionia.DataExp <> ary constr
+R9402:9404 Ionia.DataExp <> num constr
+R9391:9392 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9400:9400 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9395:9397 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R9393:9394 Ionia.BiLSTM_DPIA <> BiLSTMNet.dh var
+R9398:9399 Ionia.BiLSTM_DPIA <> BiLSTMNet.dh var
+R9380:9381 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9384:9384 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9382:9383 Ionia.BiLSTM_DPIA <> BiLSTMNet.nc var
+R9415:9417 Ionia.Proof_CodeGen <> exp def
+R9420:9422 Ionia.DataExp <> ary constr
+R9430:9432 Ionia.DataExp <> num constr
+R9424:9425 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9428:9428 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9426:9427 Ionia.BiLSTM_DPIA <> BiLSTMNet.nc var
+R9452:9454 Ionia.Proof_CodeGen <> exp def
+R9457:9459 Ionia.DataExp <> ary constr
+R9467:9469 Ionia.DataExp <> ary constr
+R9477:9479 Ionia.DataExp <> num constr
+R9471:9472 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9475:9475 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9473:9474 Ionia.BiLSTM_DPIA <> BiLSTMNet.dx var
+R9461:9462 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9464:9464 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9463:9463 Ionia.BiLSTM_DPIA <> BiLSTMNet.T var
+def 9579:9584 <> bi_fwd
+R9588:9590 Ionia.Proof_CodeGen <> exp def
+R9593:9595 Ionia.DataExp <> ary constr
+R9603:9605 Ionia.DataExp <> ary constr
+R9613:9615 Ionia.DataExp <> num constr
+R9607:9608 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9611:9611 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9609:9610 Ionia.BiLSTM_DPIA <> BiLSTMNet.dh var
+R9597:9598 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9600:9600 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9626:9632 Ionia.Ops_RNN <> LSTMSeq def
+R9660:9661 Ionia.BiLSTM_DPIA <> BiLSTMNet.xs var
+R9639:9649 Ionia.Ops_RNN <> lstm_state0 def
+R9655:9657 Ionia.BiLSTM_DPIA <> BiLSTMNet.h0F var
+R9651:9653 Ionia.BiLSTM_DPIA <> BiLSTMNet.c0F var
+R9634:9636 Ionia.BiLSTM_DPIA <> BiLSTMNet.psF var
+def 9677:9682 <> bi_bwd
+R9686:9688 Ionia.Proof_CodeGen <> exp def
+R9691:9693 Ionia.DataExp <> ary constr
+R9701:9703 Ionia.DataExp <> ary constr
+R9711:9713 Ionia.DataExp <> num constr
+R9705:9706 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9709:9709 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9707:9708 Ionia.BiLSTM_DPIA <> BiLSTMNet.dh var
+R9695:9696 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9698:9698 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9724:9730 Ionia.Ops_RNN <> LSTMSeq def
+R9759:9764 Ionia.BiLSTM_DPIA <> revseq def
+R9766:9767 Ionia.BiLSTM_DPIA <> BiLSTMNet.xs var
+R9737:9747 Ionia.Ops_RNN <> lstm_state0 def
+R9753:9755 Ionia.BiLSTM_DPIA <> BiLSTMNet.h0B var
+R9749:9751 Ionia.BiLSTM_DPIA <> BiLSTMNet.c0B var
+R9732:9734 Ionia.BiLSTM_DPIA <> BiLSTMNet.psB var
+def 9784:9787 <> bi_h
+R9791:9793 Ionia.Proof_CodeGen <> exp def
+R9796:9798 Ionia.DataExp <> ary constr
+R9811:9813 Ionia.DataExp <> num constr
+R9800:9801 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9809:9809 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9804:9806 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R9802:9803 Ionia.BiLSTM_DPIA <> BiLSTMNet.dh var
+R9807:9808 Ionia.BiLSTM_DPIA <> BiLSTMNet.dh var
+R9823:9830 Ionia.TextCNN_DPIA <> Concat1d def
+R9851:9853 Ionia.Proof_CodeGen <> idx def
+R9862:9865 Ionia.Ops_RNN <> st_h def
+R9855:9860 Ionia.BiLSTM_DPIA <> bi_bwd def
+R9833:9835 Ionia.Proof_CodeGen <> idx def
+R9844:9847 Ionia.Ops_RNN <> st_h def
+R9837:9842 Ionia.BiLSTM_DPIA <> bi_fwd def
+def 9882:9889 <> bi_logit
+R9893:9895 Ionia.Proof_CodeGen <> exp def
+R9898:9900 Ionia.DataExp <> ary constr
+R9908:9910 Ionia.DataExp <> num constr
+R9902:9903 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9906:9906 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9904:9905 Ionia.BiLSTM_DPIA <> BiLSTMNet.nc var
+R9916:9923 Ionia.LeNet5_Functional <> Linear1d def
+R9931:9934 Ionia.BiLSTM_DPIA <> bi_h def
+R9928:9929 Ionia.BiLSTM_DPIA <> BiLSTMNet.bo var
+R9925:9926 Ionia.BiLSTM_DPIA <> BiLSTMNet.wo var
+def 9950:9956 <> bi_soft
+R9960:9962 Ionia.Proof_CodeGen <> exp def
+R9965:9967 Ionia.DataExp <> ary constr
+R9975:9977 Ionia.DataExp <> num constr
+R9969:9970 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9973:9973 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9971:9972 Ionia.BiLSTM_DPIA <> BiLSTMNet.nc var
+R9983:9991 Ionia.LeNet5_Functional <> Softmax1d def
+R9993:10000 Ionia.BiLSTM_DPIA <> bi_logit def
+prf 10012:10022 <> bi_fwd_body
+R10032:10034 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10026:10031 Ionia.BiLSTM_DPIA <> bi_fwd def
+R10035:10041 Ionia.Ops_RNN <> LSTMSeq def
+R10069:10070 Ionia.BiLSTM_DPIA <> BiLSTMNet.xs var
+R10048:10058 Ionia.Ops_RNN <> lstm_state0 def
+R10064:10066 Ionia.BiLSTM_DPIA <> BiLSTMNet.h0F var
+R10060:10062 Ionia.BiLSTM_DPIA <> BiLSTMNet.c0F var
+R10043:10045 Ionia.BiLSTM_DPIA <> BiLSTMNet.psF var
+prf 10108:10118 <> bi_bwd_body
+R10128:10130 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10122:10127 Ionia.BiLSTM_DPIA <> bi_bwd def
+R10131:10137 Ionia.Ops_RNN <> LSTMSeq def
+R10166:10171 Ionia.BiLSTM_DPIA <> revseq def
+R10173:10174 Ionia.BiLSTM_DPIA <> BiLSTMNet.xs var
+R10144:10154 Ionia.Ops_RNN <> lstm_state0 def
+R10160:10162 Ionia.BiLSTM_DPIA <> BiLSTMNet.h0B var
+R10156:10158 Ionia.BiLSTM_DPIA <> BiLSTMNet.c0B var
+R10139:10141 Ionia.BiLSTM_DPIA <> BiLSTMNet.psB var
+prf 10213:10221 <> bi_h_body
+R10229:10231 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10225:10228 Ionia.BiLSTM_DPIA <> bi_h def
+R10232:10239 Ionia.TextCNN_DPIA <> Concat1d def
+R10260:10262 Ionia.Proof_CodeGen <> idx def
+R10271:10274 Ionia.Ops_RNN <> st_h def
+R10264:10269 Ionia.BiLSTM_DPIA <> bi_bwd def
+R10242:10244 Ionia.Proof_CodeGen <> idx def
+R10253:10256 Ionia.Ops_RNN <> st_h def
+R10246:10251 Ionia.BiLSTM_DPIA <> bi_fwd def
+prf 10313:10325 <> bi_logit_body
+R10337:10339 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10329:10336 Ionia.BiLSTM_DPIA <> bi_logit def
+R10340:10347 Ionia.LeNet5_Functional <> Linear1d def
+R10355:10358 Ionia.BiLSTM_DPIA <> bi_h def
+R10352:10353 Ionia.BiLSTM_DPIA <> BiLSTMNet.bo var
+R10349:10350 Ionia.BiLSTM_DPIA <> BiLSTMNet.wo var
+prf 10394:10405 <> bi_soft_body
+R10416:10418 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10409:10415 Ionia.BiLSTM_DPIA <> bi_soft def
+R10419:10427 Ionia.LeNet5_Functional <> Softmax1d def
+R10429:10436 Ionia.BiLSTM_DPIA <> bi_logit def
+R10474:10479 Ionia.BiLSTM_DPIA <> bi_fwd def
+R10481:10486 Ionia.BiLSTM_DPIA <> bi_bwd def
+R10488:10491 Ionia.BiLSTM_DPIA <> bi_h def
+R10493:10500 Ionia.BiLSTM_DPIA <> bi_logit def
+R10502:10508 Ionia.BiLSTM_DPIA <> bi_soft def
+def 10525:10530 <> BiLSTM
+R10534:10536 Ionia.Proof_CodeGen <> exp def
+R10539:10541 Ionia.DataExp <> ary constr
+R10549:10551 Ionia.DataExp <> num constr
+R10543:10544 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10547:10547 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10545:10546 Ionia.BiLSTM_DPIA <> BiLSTMNet.nc var
+R10557:10563 Ionia.BiLSTM_DPIA <> bi_soft def
+def 10660:10670 <> bilstm_comm
+R10682:10684 Ionia.Proof_CodeGen <> acc def
+R10687:10689 Ionia.DataExp <> ary constr
+R10697:10699 Ionia.DataExp <> num constr
+R10691:10692 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10695:10695 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10693:10694 Ionia.BiLSTM_DPIA <> BiLSTMNet.nc var
+binder 10673:10678 <> output:77
+R10705:10708 Ionia.Proof_CodeGen <> comm def
+R10713:10715 Ionia.Proof_CodeGen <> new def
+R11143:11146 Ionia.Proof_CodeGen <> acc' def
+R11149:11151 Ionia.DataExp <> Var constr
+binder 10722:10723 <> tF:78
+R10772:10775 Ionia.Proof_CodeGen <> :::x_''';'_x not
+R10728:10739 Ionia.Ops_RNN <> LSTMSeq_comm def
+R10770:10771 Ionia.BiLSTM_DPIA <> tF:78 var
+R10767:10768 Ionia.BiLSTM_DPIA <> BiLSTMNet.xs var
+R10746:10756 Ionia.Ops_RNN <> lstm_state0 def
+R10762:10764 Ionia.BiLSTM_DPIA <> BiLSTMNet.h0F var
+R10758:10760 Ionia.BiLSTM_DPIA <> BiLSTMNet.c0F var
+R10741:10743 Ionia.BiLSTM_DPIA <> BiLSTMNet.psF var
+R10776:10784 Ionia.LeNet5_Imperative <> bind_read def
+binder 10794:10795 <> eF:79
+R10800:10802 Ionia.Proof_CodeGen <> new def
+R11122:11125 Ionia.Proof_CodeGen <> acc' def
+R11128:11130 Ionia.DataExp <> Var constr
+binder 10809:10810 <> tB:80
+R10868:10871 Ionia.Proof_CodeGen <> :::x_''';'_x not
+R10815:10826 Ionia.Ops_RNN <> LSTMSeq_comm def
+R10866:10867 Ionia.BiLSTM_DPIA <> tB:80 var
+R10855:10860 Ionia.BiLSTM_DPIA <> revseq def
+R10862:10863 Ionia.BiLSTM_DPIA <> BiLSTMNet.xs var
+R10833:10843 Ionia.Ops_RNN <> lstm_state0 def
+R10849:10851 Ionia.BiLSTM_DPIA <> BiLSTMNet.h0B var
+R10845:10847 Ionia.BiLSTM_DPIA <> BiLSTMNet.c0B var
+R10828:10830 Ionia.BiLSTM_DPIA <> BiLSTMNet.psB var
+R10872:10880 Ionia.LeNet5_Imperative <> bind_read def
+binder 10890:10891 <> eB:81
+R10896:10898 Ionia.Proof_CodeGen <> new def
+R11101:11104 Ionia.Proof_CodeGen <> acc' def
+R11107:11109 Ionia.DataExp <> Var constr
+binder 10905:10906 <> tH:82
+R10955:10958 Ionia.Proof_CodeGen <> :::x_''';'_x not
+R10911:10923 Ionia.TextCNN_DPIA <> Concat1d_comm def
+R10953:10954 Ionia.BiLSTM_DPIA <> tH:82 var
+R10940:10942 Ionia.Proof_CodeGen <> idx def
+R10947:10950 Ionia.Ops_RNN <> st_h def
+R10944:10945 Ionia.BiLSTM_DPIA <> eB:81 var
+R10926:10928 Ionia.Proof_CodeGen <> idx def
+R10933:10936 Ionia.Ops_RNN <> st_h def
+R10930:10931 Ionia.BiLSTM_DPIA <> eF:79 var
+R10959:10961 Ionia.Proof_CodeGen <> new def
+R11081:11084 Ionia.Proof_CodeGen <> acc' def
+R11087:11089 Ionia.DataExp <> Var constr
+binder 10968:10969 <> tL:83
+R11024:11027 Ionia.Proof_CodeGen <> :::x_''';'_x not
+R10974:10982 Ionia.LeNet5_Imperative <> bind_read def
+binder 10992:10993 <> eH:84
+R10998:11010 Ionia.LeNet5_Imperative <> Linear1d_comm def
+R11021:11022 Ionia.BiLSTM_DPIA <> tL:83 var
+R11018:11019 Ionia.BiLSTM_DPIA <> eH:84 var
+R11015:11016 Ionia.BiLSTM_DPIA <> BiLSTMNet.bo var
+R11012:11013 Ionia.BiLSTM_DPIA <> BiLSTMNet.wo var
+R10984:10985 Ionia.BiLSTM_DPIA <> tH:82 var
+R11028:11036 Ionia.LeNet5_Imperative <> bind_read def
+binder 11046:11047 <> eL:85
+R11052:11065 Ionia.LeNet5_Imperative <> Softmax1d_comm def
+R11070:11075 Ionia.BiLSTM_DPIA <> output:77 var
+R11067:11068 Ionia.BiLSTM_DPIA <> eL:85 var
+R11038:11039 Ionia.BiLSTM_DPIA <> tL:83 var
+R10882:10883 Ionia.BiLSTM_DPIA <> tB:80 var
+R10786:10787 Ionia.BiLSTM_DPIA <> tF:78 var
+def 11256:11268 <> bilstm_direct
+R11280:11282 Ionia.Proof_CodeGen <> acc def
+R11285:11287 Ionia.DataExp <> ary constr
+R11295:11297 Ionia.DataExp <> num constr
+R11289:11290 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11293:11293 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11291:11292 Ionia.BiLSTM_DPIA <> BiLSTMNet.nc var
+binder 11271:11276 <> output:86
+R11303:11306 Ionia.Proof_CodeGen <> comm def
+R11341:11348 Ionia.Proof_CodeGen <> :::x_''';'_x not
+R11315:11316 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R11332:11333 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R11340:11340 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R11317:11320 Ionia.Proof_CodeGen <> acc' def
+R11323:11325 Ionia.DataExp <> Var constr
+R11334:11339 Ionia.BiLSTM_DPIA <> bi_fwd def
+R11375:11382 Ionia.Proof_CodeGen <> :::x_''';'_x not
+R11349:11350 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R11366:11367 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R11374:11374 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R11351:11354 Ionia.Proof_CodeGen <> acc' def
+R11357:11359 Ionia.DataExp <> Var constr
+R11368:11373 Ionia.BiLSTM_DPIA <> bi_bwd def
+R11407:11414 Ionia.Proof_CodeGen <> :::x_''';'_x not
+R11383:11384 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R11400:11401 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R11406:11406 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R11385:11388 Ionia.Proof_CodeGen <> acc' def
+R11391:11393 Ionia.DataExp <> Var constr
+R11402:11405 Ionia.BiLSTM_DPIA <> bi_h def
+R11443:11450 Ionia.Proof_CodeGen <> :::x_''';'_x not
+R11415:11416 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R11432:11433 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R11442:11442 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R11417:11420 Ionia.Proof_CodeGen <> acc' def
+R11423:11425 Ionia.DataExp <> Var constr
+R11434:11441 Ionia.BiLSTM_DPIA <> bi_logit def
+R11451:11452 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R11459:11460 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R11468:11468 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R11453:11458 Ionia.BiLSTM_DPIA <> output:86 var
+R11461:11467 Ionia.BiLSTM_DPIA <> bi_soft def
+def 11565:11576 <> bilstm_fresh
+R11588:11590 Ionia.Proof_CodeGen <> acc def
+R11593:11595 Ionia.DataExp <> ary constr
+R11603:11605 Ionia.DataExp <> num constr
+R11597:11598 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11601:11601 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11599:11600 Ionia.BiLSTM_DPIA <> BiLSTMNet.nc var
+binder 11579:11584 <> output:87
+R11616:11618 Ionia.Proof_CodeGen <> env def
+binder 11610:11612 <> rho:88
+R11705:11712 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R11635:11649 Ionia.Proof_CodeGen <> StructUndefined def
+R11702:11704 Ionia.BiLSTM_DPIA <> rho:88 var
+R11670:11672 Ionia.Proof_CodeGen <> acc def
+R11675:11677 Ionia.DataExp <> ary constr
+R11685:11687 Ionia.DataExp <> ary constr
+R11695:11697 Ionia.DataExp <> num constr
+R11689:11690 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11693:11693 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11691:11692 Ionia.BiLSTM_DPIA <> BiLSTMNet.dh var
+R11679:11680 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11682:11682 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11652:11655 Ionia.Proof_CodeGen <> acc' def
+R11658:11660 Ionia.DataExp <> Var constr
+R11783:11790 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R11713:11727 Ionia.Proof_CodeGen <> StructUndefined def
+R11780:11782 Ionia.BiLSTM_DPIA <> rho:88 var
+R11748:11750 Ionia.Proof_CodeGen <> acc def
+R11753:11755 Ionia.DataExp <> ary constr
+R11763:11765 Ionia.DataExp <> ary constr
+R11773:11775 Ionia.DataExp <> num constr
+R11767:11768 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11771:11771 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11769:11770 Ionia.BiLSTM_DPIA <> BiLSTMNet.dh var
+R11757:11758 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11760:11760 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11730:11733 Ionia.Proof_CodeGen <> acc' def
+R11736:11738 Ionia.DataExp <> Var constr
+R11855:11862 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R11791:11805 Ionia.Proof_CodeGen <> StructUndefined def
+R11852:11854 Ionia.BiLSTM_DPIA <> rho:88 var
+R11826:11828 Ionia.Proof_CodeGen <> acc def
+R11831:11833 Ionia.DataExp <> ary constr
+R11846:11848 Ionia.DataExp <> num constr
+R11835:11836 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11844:11844 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11839:11841 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R11837:11838 Ionia.BiLSTM_DPIA <> BiLSTMNet.dh var
+R11842:11843 Ionia.BiLSTM_DPIA <> BiLSTMNet.dh var
+R11808:11811 Ionia.Proof_CodeGen <> acc' def
+R11814:11816 Ionia.DataExp <> Var constr
+R11922:11929 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R11863:11877 Ionia.Proof_CodeGen <> StructUndefined def
+R11919:11921 Ionia.BiLSTM_DPIA <> rho:88 var
+R11898:11900 Ionia.Proof_CodeGen <> acc def
+R11903:11905 Ionia.DataExp <> ary constr
+R11913:11915 Ionia.DataExp <> num constr
+R11907:11908 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11911:11911 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11909:11910 Ionia.BiLSTM_DPIA <> BiLSTMNet.nc var
+R11880:11883 Ionia.Proof_CodeGen <> acc' def
+R11886:11888 Ionia.DataExp <> Var constr
+R11930:11930 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R12021:12029 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 11938:11938 <> p:89
+R11956:11959 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11941:11946 Ionia.Proof_CodeGen <> in_acc def
+R11950:11955 Ionia.BiLSTM_DPIA <> output:87 var
+R11948:11948 Ionia.BiLSTM_DPIA <> p:89 var
+R11960:11961 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R11962:11967 Ionia.Proof_CodeGen <> in_acc def
+R11990:11992 Ionia.Proof_CodeGen <> acc def
+R11995:11997 Ionia.DataExp <> ary constr
+R12005:12007 Ionia.DataExp <> ary constr
+R12015:12017 Ionia.DataExp <> num constr
+R12009:12010 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12013:12013 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12011:12012 Ionia.BiLSTM_DPIA <> BiLSTMNet.dh var
+R11999:12000 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12002:12002 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11972:11975 Ionia.Proof_CodeGen <> acc' def
+R11978:11980 Ionia.DataExp <> Var constr
+R11969:11969 Ionia.BiLSTM_DPIA <> p:89 var
+R12030:12030 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R12121:12129 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 12038:12038 <> p:90
+R12056:12059 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12041:12046 Ionia.Proof_CodeGen <> in_acc def
+R12050:12055 Ionia.BiLSTM_DPIA <> output:87 var
+R12048:12048 Ionia.BiLSTM_DPIA <> p:90 var
+R12060:12061 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R12062:12067 Ionia.Proof_CodeGen <> in_acc def
+R12090:12092 Ionia.Proof_CodeGen <> acc def
+R12095:12097 Ionia.DataExp <> ary constr
+R12105:12107 Ionia.DataExp <> ary constr
+R12115:12117 Ionia.DataExp <> num constr
+R12109:12110 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12113:12113 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12111:12112 Ionia.BiLSTM_DPIA <> BiLSTMNet.dh var
+R12099:12100 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12102:12102 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12072:12075 Ionia.Proof_CodeGen <> acc' def
+R12078:12080 Ionia.DataExp <> Var constr
+R12069:12069 Ionia.BiLSTM_DPIA <> p:90 var
+R12130:12130 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R12215:12224 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R12304:12304 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 12138:12138 <> p:91
+R12156:12159 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12141:12146 Ionia.Proof_CodeGen <> in_acc def
+R12150:12155 Ionia.BiLSTM_DPIA <> output:87 var
+R12148:12148 Ionia.BiLSTM_DPIA <> p:91 var
+R12160:12161 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R12162:12167 Ionia.Proof_CodeGen <> in_acc def
+R12190:12192 Ionia.Proof_CodeGen <> acc def
+R12195:12197 Ionia.DataExp <> ary constr
+R12210:12212 Ionia.DataExp <> num constr
+R12199:12200 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12208:12208 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12203:12205 Corelib.Init.Peano <> ::nat_scope:x_'+'_x not
+R12201:12202 Ionia.BiLSTM_DPIA <> BiLSTMNet.dh var
+R12206:12207 Ionia.BiLSTM_DPIA <> BiLSTMNet.dh var
+R12172:12175 Ionia.Proof_CodeGen <> acc' def
+R12178:12180 Ionia.DataExp <> Var constr
+R12169:12169 Ionia.BiLSTM_DPIA <> p:91 var
+binder 12232:12232 <> p:92
+R12250:12253 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12235:12240 Ionia.Proof_CodeGen <> in_acc def
+R12244:12249 Ionia.BiLSTM_DPIA <> output:87 var
+R12242:12242 Ionia.BiLSTM_DPIA <> p:92 var
+R12254:12255 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R12256:12261 Ionia.Proof_CodeGen <> in_acc def
+R12284:12286 Ionia.Proof_CodeGen <> acc def
+R12289:12291 Ionia.DataExp <> ary constr
+R12299:12301 Ionia.DataExp <> num constr
+R12293:12294 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12297:12297 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12295:12296 Ionia.BiLSTM_DPIA <> BiLSTMNet.nc var
+R12266:12269 Ionia.Proof_CodeGen <> acc' def
+R12272:12274 Ionia.DataExp <> Var constr
+R12263:12263 Ionia.BiLSTM_DPIA <> p:92 var
+prf 12396:12416 <> bilstm_comm_eq_direct
+R12441:12443 Ionia.Proof_CodeGen <> acc def
+R12446:12448 Ionia.DataExp <> ary constr
+R12456:12458 Ionia.DataExp <> num constr
+R12450:12451 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12454:12454 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12452:12453 Ionia.BiLSTM_DPIA <> BiLSTMNet.nc var
+binder 12432:12437 <> output:93
+R12485:12487 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12467:12477 Ionia.BiLSTM_DPIA <> bilstm_comm def
+R12479:12484 Ionia.BiLSTM_DPIA <> output:93 var
+R12488:12500 Ionia.BiLSTM_DPIA <> bilstm_direct def
+R12502:12507 Ionia.BiLSTM_DPIA <> output:93 var
+R12542:12552 Ionia.BiLSTM_DPIA <> bilstm_comm def
+R12555:12567 Ionia.BiLSTM_DPIA <> bilstm_direct def
+R12570:12572 Ionia.Proof_CodeGen <> new def
+R12604:12612 Ionia.Ops_RNN <> A_LSTMSeq thm
+R12630:12640 Ionia.BiLSTM_DPIA <> bi_fwd_body thm
+R12655:12671 Ionia.LeNet5_DPIA <> bind_read_replace thm
+R12689:12697 Ionia.Ops_RNN <> A_LSTMSeq thm
+R12715:12725 Ionia.BiLSTM_DPIA <> bi_bwd_body thm
+R12740:12756 Ionia.LeNet5_DPIA <> bind_read_replace thm
+R12774:12783 Ionia.TextCNN_DPIA <> A_Concat1d thm
+R12801:12809 Ionia.BiLSTM_DPIA <> bi_h_body thm
+R12824:12844 Ionia.LeNet5_DPIA <> bind_read_replace_seq thm
+R12862:12871 Ionia.LeNet5_DPIA <> A_Linear1d thm
+R12889:12901 Ionia.BiLSTM_DPIA <> bi_logit_body thm
+R12916:12932 Ionia.LeNet5_DPIA <> bind_read_replace thm
+R12950:12960 Ionia.LeNet5_DPIA <> A_Softmax1d thm
+R12978:12989 Ionia.BiLSTM_DPIA <> bi_soft_body thm
+prf 13025:13039 <> A_BiLSTM_direct
+R13064:13066 Ionia.Proof_CodeGen <> acc def
+R13069:13071 Ionia.DataExp <> ary constr
+R13079:13081 Ionia.DataExp <> num constr
+R13073:13074 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13077:13077 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13075:13076 Ionia.BiLSTM_DPIA <> BiLSTMNet.nc var
+binder 13055:13060 <> output:94
+R13092:13094 Ionia.Proof_CodeGen <> env def
+binder 13086:13088 <> rho:95
+R13102:13105 Ionia.DataExp <> path ind
+binder 13098:13098 <> p:96
+R13128:13135 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13113:13118 Ionia.Proof_CodeGen <> in_acc def
+R13122:13127 Ionia.BiLSTM_DPIA <> output:94 var
+R13120:13120 Ionia.BiLSTM_DPIA <> p:96 var
+R13159:13166 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13136:13147 Ionia.BiLSTM_DPIA <> bilstm_fresh def
+R13156:13158 Ionia.BiLSTM_DPIA <> rho:95 var
+R13149:13154 Ionia.BiLSTM_DPIA <> output:94 var
+R13193:13195 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13167:13179 Ionia.BiLSTM_DPIA <> bilstm_direct def
+R13192:13192 Ionia.BiLSTM_DPIA <> p:96 var
+R13188:13190 Ionia.BiLSTM_DPIA <> rho:95 var
+R13181:13186 Ionia.BiLSTM_DPIA <> output:94 var
+R13196:13197 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R13204:13205 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R13212:13218 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R13198:13203 Ionia.BiLSTM_DPIA <> output:94 var
+R13206:13211 Ionia.BiLSTM_DPIA <> BiLSTM def
+R13218:13218 Ionia.BiLSTM_DPIA <> p:96 var
+R13214:13216 Ionia.BiLSTM_DPIA <> rho:95 var
+R13253:13265 Ionia.BiLSTM_DPIA <> bilstm_direct def
+R13268:13268 Ionia.DPIA_Rules <> A def
+R13312:13334 Ionia.DPIA_Rules <> assign_pure_independent thm
+R13378:13383 Ionia.BiLSTM_DPIA <> BiLSTM def
+prf 13600:13607 <> A_BiLSTM
+R13632:13634 Ionia.Proof_CodeGen <> acc def
+R13637:13639 Ionia.DataExp <> ary constr
+R13647:13649 Ionia.DataExp <> num constr
+R13641:13642 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13645:13645 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13643:13644 Ionia.BiLSTM_DPIA <> BiLSTMNet.nc var
+binder 13623:13628 <> output:97
+R13660:13662 Ionia.Proof_CodeGen <> env def
+binder 13654:13656 <> rho:98
+R13670:13673 Ionia.DataExp <> path ind
+binder 13666:13666 <> p:99
+R13696:13703 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13681:13686 Ionia.Proof_CodeGen <> in_acc def
+R13690:13695 Ionia.BiLSTM_DPIA <> output:97 var
+R13688:13688 Ionia.BiLSTM_DPIA <> p:99 var
+R13727:13734 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13704:13715 Ionia.BiLSTM_DPIA <> bilstm_fresh def
+R13724:13726 Ionia.BiLSTM_DPIA <> rho:98 var
+R13717:13722 Ionia.BiLSTM_DPIA <> output:97 var
+R13759:13761 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13735:13745 Ionia.BiLSTM_DPIA <> bilstm_comm def
+R13758:13758 Ionia.BiLSTM_DPIA <> p:99 var
+R13754:13756 Ionia.BiLSTM_DPIA <> rho:98 var
+R13747:13752 Ionia.BiLSTM_DPIA <> output:97 var
+R13762:13763 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R13770:13771 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R13778:13784 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R13764:13769 Ionia.BiLSTM_DPIA <> output:97 var
+R13772:13777 Ionia.BiLSTM_DPIA <> BiLSTM def
+R13784:13784 Ionia.BiLSTM_DPIA <> p:99 var
+R13780:13782 Ionia.BiLSTM_DPIA <> rho:98 var
+R13816:13836 Ionia.BiLSTM_DPIA <> bilstm_comm_eq_direct thm
+R13849:13863 Ionia.BiLSTM_DPIA <> A_BiLSTM_direct thm
+R13890:13898 Ionia.BiLSTM_DPIA BiLSTMNet <> sec
+def 14157:14163 <> bi_i0_8
+R14167:14169 Ionia.finType <> fin def
+R14177:14183 Ionia.finType <> nat2fin def
+def 14214:14220 <> bi_i7_8
+R14224:14226 Ionia.finType <> fin def
+R14234:14240 Ionia.finType <> nat2fin def
+sec 14269:14281 <> Small_8_2_2_3
+var  14296:14299 Small_8_2_2_3 psFs
+var  14301:14304 Small_8_2_2_3 psBs
+var  14335:14338 Small_8_2_2_3 c0Fs
+var  14340:14343 Small_8_2_2_3 h0Fs
+var  14345:14348 Small_8_2_2_3 c0Bs
+var  14350:14353 Small_8_2_2_3 h0Bs
+var  14388:14390 Small_8_2_2_3 wos
+var  14426:14428 Small_8_2_2_3 bos
+var  14463:14465 Small_8_2_2_3 xss
+var  14511:14514 Small_8_2_2_3 outs
+R14308:14317 Ionia.Ops_RNN <> LSTMParams rec
+R14357:14359 Ionia.Proof_CodeGen <> exp def
+R14362:14364 Ionia.DataExp <> ary constr
+R14371:14373 Ionia.DataExp <> num constr
+R14366:14367 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14369:14369 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14394:14396 Ionia.Proof_CodeGen <> exp def
+R14399:14401 Ionia.DataExp <> ary constr
+R14409:14411 Ionia.DataExp <> ary constr
+R14418:14420 Ionia.DataExp <> num constr
+R14413:14414 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14416:14416 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14403:14404 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14406:14406 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14432:14434 Ionia.Proof_CodeGen <> exp def
+R14437:14439 Ionia.DataExp <> ary constr
+R14446:14448 Ionia.DataExp <> num constr
+R14441:14442 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14444:14444 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14469:14471 Ionia.Proof_CodeGen <> exp def
+R14474:14476 Ionia.DataExp <> ary constr
+R14484:14486 Ionia.DataExp <> ary constr
+R14493:14495 Ionia.DataExp <> num constr
+R14488:14489 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14491:14491 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14478:14479 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14481:14481 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14518:14520 Ionia.Proof_CodeGen <> acc def
+R14523:14525 Ionia.DataExp <> ary constr
+R14532:14534 Ionia.DataExp <> num constr
+R14527:14528 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14530:14530 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+def 14647:14660 <> BiLSTM_8_2_2_3
+R14664:14666 Ionia.Proof_CodeGen <> exp def
+R14669:14671 Ionia.DataExp <> ary constr
+R14678:14680 Ionia.DataExp <> num constr
+R14673:14674 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14676:14676 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R14691:14696 Ionia.BiLSTM_DPIA <> BiLSTM def
+R14706:14709 Ionia.BiLSTM_DPIA <> Small_8_2_2_3.psFs var
+R14711:14714 Ionia.BiLSTM_DPIA <> Small_8_2_2_3.psBs var
+R14716:14719 Ionia.BiLSTM_DPIA <> Small_8_2_2_3.c0Fs var
+R14721:14724 Ionia.BiLSTM_DPIA <> Small_8_2_2_3.h0Fs var
+R14726:14729 Ionia.BiLSTM_DPIA <> Small_8_2_2_3.c0Bs var
+R14731:14734 Ionia.BiLSTM_DPIA <> Small_8_2_2_3.h0Bs var
+R14736:14738 Ionia.BiLSTM_DPIA <> Small_8_2_2_3.wos var
+R14740:14742 Ionia.BiLSTM_DPIA <> Small_8_2_2_3.bos var
+R14744:14746 Ionia.BiLSTM_DPIA <> Small_8_2_2_3.xss var
+def 14763:14781 <> bilstm_comm_8_2_2_3
+R14785:14788 Ionia.Proof_CodeGen <> comm def
+R14798:14808 Ionia.BiLSTM_DPIA <> bilstm_comm def
+R14818:14821 Ionia.BiLSTM_DPIA <> Small_8_2_2_3.psFs var
+R14823:14826 Ionia.BiLSTM_DPIA <> Small_8_2_2_3.psBs var
+R14828:14831 Ionia.BiLSTM_DPIA <> Small_8_2_2_3.c0Fs var
+R14833:14836 Ionia.BiLSTM_DPIA <> Small_8_2_2_3.h0Fs var
+R14838:14841 Ionia.BiLSTM_DPIA <> Small_8_2_2_3.c0Bs var
+R14843:14846 Ionia.BiLSTM_DPIA <> Small_8_2_2_3.h0Bs var
+R14848:14850 Ionia.BiLSTM_DPIA <> Small_8_2_2_3.wos var
+R14852:14854 Ionia.BiLSTM_DPIA <> Small_8_2_2_3.bos var
+R14856:14858 Ionia.BiLSTM_DPIA <> Small_8_2_2_3.xss var
+R14860:14863 Ionia.BiLSTM_DPIA <> Small_8_2_2_3.outs var
+R14871:14883 Ionia.BiLSTM_DPIA Small_8_2_2_3 <> sec
+def 15038:15055 <> check_revseq_first
+R15075:15077 Ionia.Proof_CodeGen <> exp def
+R15080:15082 Ionia.DataExp <> ary constr
+R15089:15091 Ionia.DataExp <> num constr
+R15084:15085 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R15087:15087 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+binder 15069:15071 <> xs8:110
+R15122:15124 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15098:15100 Ionia.Proof_CodeGen <> idx def
+R15115:15121 Ionia.BiLSTM_DPIA <> bi_i0_8 def
+R15103:15108 Ionia.BiLSTM_DPIA <> revseq def
+R15110:15112 Ionia.BiLSTM_DPIA <> xs8:110 var
+R15125:15127 Ionia.Proof_CodeGen <> idx def
+R15133:15139 Ionia.BiLSTM_DPIA <> bi_i7_8 def
+R15129:15131 Ionia.BiLSTM_DPIA <> xs8:110 var
+R15166:15171 Ionia.BiLSTM_DPIA <> revseq def
+R15182:15191 Ionia.Proof_CodeGen <> idx_mkvSeq thm
+R15218:15228 Ionia.finType <> fin2nat_inj thm
+R15239:15252 Ionia.BiLSTM_DPIA <> fin2nat_revidx thm
+def 15354:15372 <> check_bfold_unroll2
+R15392:15395 Ionia.DataExp <> data ind
+binder 15386:15386 <> s:111
+binder 15388:15388 <> t:112
+R15409:15412 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15404:15406 Ionia.Proof_CodeGen <> exp def
+R15408:15408 Ionia.BiLSTM_DPIA <> s:111 var
+R15418:15421 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15413:15415 Ionia.Proof_CodeGen <> exp def
+R15417:15417 Ionia.BiLSTM_DPIA <> t:112 var
+R15422:15424 Ionia.Proof_CodeGen <> exp def
+R15426:15426 Ionia.BiLSTM_DPIA <> t:112 var
+binder 15399:15400 <> op:113
+R15437:15439 Ionia.Proof_CodeGen <> exp def
+R15441:15441 Ionia.BiLSTM_DPIA <> t:112 var
+binder 15430:15433 <> init:114
+R15455:15457 Ionia.Proof_CodeGen <> exp def
+R15459:15459 Ionia.BiLSTM_DPIA <> s:111 var
+binder 15449:15449 <> a:115
+binder 15451:15451 <> b:116
+R15514:15516 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15465:15469 Ionia.BiLSTM_DPIA <> bfold def
+R15497:15499 Ionia.Proof_CodeGen <> exp def
+R15502:15504 Ionia.DataExp <> ary constr
+R15511:15511 Ionia.BiLSTM_DPIA <> s:111 var
+R15506:15507 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R15509:15509 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R15482:15482 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15490:15491 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15493:15493 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15483:15483 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15486:15487 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15489:15489 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15484:15485 Corelib.Init.Datatypes <> tt constr
+R15488:15488 Ionia.BiLSTM_DPIA <> a:115 var
+R15492:15492 Ionia.BiLSTM_DPIA <> b:116 var
+R15476:15479 Ionia.BiLSTM_DPIA <> init:114 var
+R15471:15472 Ionia.BiLSTM_DPIA <> op:113 var
+R15517:15518 Ionia.BiLSTM_DPIA <> op:113 var
+R15523:15524 Ionia.BiLSTM_DPIA <> op:113 var
+R15528:15531 Ionia.BiLSTM_DPIA <> init:114 var
+R15526:15526 Ionia.BiLSTM_DPIA <> b:116 var
+R15520:15520 Ionia.BiLSTM_DPIA <> a:115 var
+def 15695:15714 <> check_reduce_revseq2
+R15734:15737 Ionia.DataExp <> data ind
+binder 15728:15728 <> s:117
+binder 15730:15730 <> t:118
+R15751:15754 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15746:15748 Ionia.Proof_CodeGen <> exp def
+R15750:15750 Ionia.BiLSTM_DPIA <> s:117 var
+R15760:15763 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R15755:15757 Ionia.Proof_CodeGen <> exp def
+R15759:15759 Ionia.BiLSTM_DPIA <> t:118 var
+R15764:15766 Ionia.Proof_CodeGen <> exp def
+R15768:15768 Ionia.BiLSTM_DPIA <> t:118 var
+binder 15741:15742 <> op:119
+R15779:15781 Ionia.Proof_CodeGen <> exp def
+R15783:15783 Ionia.BiLSTM_DPIA <> t:118 var
+binder 15772:15775 <> init:120
+R15797:15799 Ionia.Proof_CodeGen <> exp def
+R15801:15801 Ionia.BiLSTM_DPIA <> s:117 var
+binder 15791:15791 <> a:121
+binder 15793:15793 <> b:122
+R15864:15866 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15807:15812 Ionia.Proof_CodeGen <> reduce def
+R15823:15828 Ionia.BiLSTM_DPIA <> revseq def
+R15846:15848 Ionia.Proof_CodeGen <> exp def
+R15851:15853 Ionia.DataExp <> ary constr
+R15860:15860 Ionia.BiLSTM_DPIA <> s:117 var
+R15855:15856 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R15858:15858 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R15831:15831 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15839:15840 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15842:15842 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15832:15832 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15835:15836 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15838:15838 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15833:15834 Corelib.Init.Datatypes <> tt constr
+R15837:15837 Ionia.BiLSTM_DPIA <> a:121 var
+R15841:15841 Ionia.BiLSTM_DPIA <> b:122 var
+R15817:15820 Ionia.BiLSTM_DPIA <> init:120 var
+R15814:15815 Ionia.BiLSTM_DPIA <> op:119 var
+R15867:15868 Ionia.BiLSTM_DPIA <> op:119 var
+R15873:15874 Ionia.BiLSTM_DPIA <> op:119 var
+R15878:15881 Ionia.BiLSTM_DPIA <> init:120 var
+R15876:15876 Ionia.BiLSTM_DPIA <> b:122 var
+R15870:15870 Ionia.BiLSTM_DPIA <> a:121 var
+R15910:15928 Ionia.BiLSTM_DPIA <> reduce_revseq_bfold thm
+R16213:16223 Ionia.BiLSTM_DPIA <> revseq_snoc thm
+R16244:16262 Ionia.BiLSTM_DPIA <> reduce_revseq_bfold thm
+R16283:16293 Ionia.BiLSTM_DPIA <> LSTMSeq_rev thm
+R16314:16321 Ionia.BiLSTM_DPIA <> A_BiLSTM thm

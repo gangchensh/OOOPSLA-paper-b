@@ -1,0 +1,730 @@
+DIGEST 56b29beb108ca91e6f21ef9f9df89302
+FIonia.Bridge_Elementwise
+R3071:3075 Stdlib.Reals.Reals <> <> lib
+R3077:3082 Stdlib.Strings.String <> <> lib
+R3084:3088 Stdlib.Arith.Arith <> <> lib
+R3090:3092 Stdlib.micromega.Lia <> <> lib
+R3094:3097 Stdlib.Bool.Bool <> <> lib
+R3115:3127 Ionia.finType <> <> lib
+R3129:3140 Ionia.vector <> <> lib
+R3142:3154 Ionia.DataExp <> <> lib
+R3156:3169 Ionia.CNN_Defs <> <> lib
+R3173:3194 Ionia.CNN_CodeGen_Core <> <> lib
+R3196:3214 Ionia.Proof_CodeGen <> <> lib
+R3216:3231 Ionia.DPIA_Rules <> <> lib
+R3235:3251 Ionia.CNN_CodeGen <> <> lib
+R3253:3279 Ionia.CNN_CodeGen_Semantics <> <> lib
+R3283:3305 Ionia.CNN_Examples_Base <> <> lib
+R3307:3333 Ionia.CNN_Examples_Base_Ops <> <> lib
+R3337:3361 Ionia.CNN_Examples_LeNet5 <> <> lib
+R3363:3374 Ionia.CNN_OP <> <> lib
+R3376:3400 Ionia.Operators_Sem_Equiv <> <> lib
+R3404:3424 Ionia.Ops_Elementwise <> <> lib
+R3441:3453 Ionia.DataExp <> <> mod
+mod 3435:3436 <> DE
+R3469:3482 Ionia.CNN_Defs <> <> mod
+mod 3463:3464 <> CD
+R3498:3519 Ionia.CNN_CodeGen_Core <> <> mod
+mod 3492:3493 <> CG
+R3536:3552 Ionia.CNN_CodeGen <> <> mod
+mod 3529:3531 <> CCG
+R3569:3587 Ionia.Proof_CodeGen <> <> mod
+mod 3562:3564 <> PCG
+R3603:3618 Ionia.DPIA_Rules <> <> mod
+mod 3597:3598 <> DR
+R3635:3661 Ionia.CNN_CodeGen_Semantics <> <> mod
+mod 3628:3630 <> SEM
+R3678:3700 Ionia.CNN_Examples_Base <> <> mod
+mod 3671:3673 <> CEB
+R3717:3743 Ionia.CNN_Examples_Base_Ops <> <> mod
+mod 3710:3712 <> CEO
+R3760:3784 Ionia.CNN_Examples_LeNet5 <> <> mod
+mod 3753:3755 <> CEL
+R3801:3812 Ionia.CNN_OP <> <> mod
+mod 3794:3796 <> COP
+R3829:3853 Ionia.Operators_Sem_Equiv <> <> mod
+mod 3822:3824 <> OSE
+R3869:3889 Ionia.Ops_Elementwise <> <> mod
+mod 3863:3864 <> OE
+R3904:3915 Ionia.vector <> <> mod
+mod 3899:3899 <> V
+def 4065:4071 <> env_val
+R4080:4086 Ionia.Bridge_Elementwise <> env def
+binder 4074:4076 <> rho:1
+R4094:4099 Stdlib.Strings.String <> string ind
+binder 4090:4090 <> s:2
+R4104:4104 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R4117:4119 Ionia.Bridge_Elementwise <> rho:1 var
+R4122:4127 Ionia.Bridge_Elementwise <> Var constr
+R4129:4129 Ionia.Bridge_Elementwise <> s:2 var
+R4137:4140 Corelib.Init.Datatypes <> Some constr
+R4151:4154 Corelib.Init.Datatypes <> None constr
+R4159:4160 Stdlib.Reals.Rdefinitions RbaseSymbolsImpl R0 defax
+prf 4563:4576 <> to_pcg_exp_BLe
+R4594:4599 Ionia.Bridge_Elementwise <> exp def
+R4601:4603 Ionia.DataExp <> num constr
+binder 4588:4588 <> x:3
+binder 4590:4590 <> y:4
+R4613:4619 Ionia.Bridge_Elementwise <> env def
+binder 4607:4609 <> rho:5
+R4666:4670 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4625:4636 Ionia.Bridge_Elementwise <> eval_bexp def
+R4653:4660 Ionia.Bridge_Elementwise <> leExp def
+R4664:4664 Ionia.Bridge_Elementwise <> y:4 var
+R4662:4662 Ionia.Bridge_Elementwise <> x:3 var
+R4639:4645 Ionia.Bridge_Elementwise <> env_val def
+R4647:4649 Ionia.Bridge_Elementwise <> rho:5 var
+R4671:4679 Ionia.Bridge_Elementwise <> leExp def
+R4705:4718 Ionia.Bridge_Elementwise <> to_pcg_exp def
+R4722:4724 Ionia.Bridge_Elementwise <> rho:5 var
+R4720:4720 Ionia.Bridge_Elementwise <> y:4 var
+R4682:4695 Ionia.Bridge_Elementwise <> to_pcg_exp def
+R4699:4701 Ionia.Bridge_Elementwise <> rho:5 var
+R4697:4697 Ionia.Bridge_Elementwise <> x:3 var
+R4758:4771 Ionia.Bridge_Elementwise <> to_pcg_exp def
+R4773:4780 Ionia.Bridge_Elementwise <> leExp def
+R4782:4788 Ionia.Bridge_Elementwise <> env_val def
+R4790:4798 Ionia.Bridge_Elementwise <> leExp def
+prf 4899:4915 <> to_pcg_mkvSeq_ext
+R4931:4933 Corelib.Init.Datatypes <> nat ind
+binder 4927:4927 <> n:6
+R4941:4944 Ionia.DataExp <> data ind
+binder 4937:4937 <> d:7
+R4959:4962 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4954:4956 Ionia.finType <> fin def
+R4958:4958 Ionia.Bridge_Elementwise <> n:6 var
+R4963:4968 Ionia.Bridge_Elementwise <> exp def
+R4970:4970 Ionia.Bridge_Elementwise <> d:7 var
+binder 4950:4950 <> f:8
+R4983:4986 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R4978:4980 Ionia.finType <> fin def
+R4982:4982 Ionia.Bridge_Elementwise <> n:6 var
+R4987:4993 Ionia.Bridge_Elementwise <> exp def
+R4995:4995 Ionia.Bridge_Elementwise <> d:7 var
+binder 4974:4974 <> g:9
+R5005:5011 Ionia.Bridge_Elementwise <> env def
+binder 4999:5001 <> rho:10
+R5017:5017 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5058:5064 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+binder 5025:5025 <> i:11
+R5052:5054 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5028:5041 Ionia.Bridge_Elementwise <> to_pcg_exp def
+R5049:5051 Ionia.Bridge_Elementwise <> rho:10 var
+R5044:5044 Ionia.Bridge_Elementwise <> f:8 var
+R5046:5046 Ionia.Bridge_Elementwise <> i:11 var
+R5055:5055 Ionia.Bridge_Elementwise <> g:9 var
+R5057:5057 Ionia.Bridge_Elementwise <> i:11 var
+R5097:5099 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5065:5078 Ionia.Bridge_Elementwise <> to_pcg_exp def
+R5094:5096 Ionia.Bridge_Elementwise <> rho:10 var
+R5081:5089 Ionia.Bridge_Elementwise <> mkvSeq def
+R5091:5091 Ionia.Bridge_Elementwise <> f:8 var
+R5100:5109 Ionia.Bridge_Elementwise <> mkvSeq def
+R5111:5111 Ionia.Bridge_Elementwise <> g:9 var
+R5155:5175 Ionia.Bridge_Elementwise <> to_pcg_exp_mkvSeq thm
+R5187:5196 Ionia.Bridge_Elementwise <> mkvSeq def
+R5207:5218 Ionia.Bridge_Elementwise <> mk_vec_ext thm
+prf 5488:5500 <> interp_ReLU4d
+R5534:5536 Corelib.Init.Datatypes <> nat ind
+binder 5512:5516 <> batch:12
+binder 5518:5524 <> channel:13
+binder 5526:5527 <> m1:14
+binder 5529:5530 <> m2:15
+R5550:5555 Ionia.Bridge_Elementwise <> exp def
+R5558:5560 Ionia.DataExp <> ary constr
+R5572:5574 Ionia.DataExp <> ary constr
+R5588:5590 Ionia.DataExp <> ary constr
+R5599:5601 Ionia.DataExp <> ary constr
+R5609:5611 Ionia.DataExp <> num constr
+R5603:5604 Ionia.DataExp <> :::'''{'_x_'}' not
+R5607:5607 Ionia.DataExp <> :::'''{'_x_'}' not
+R5605:5606 Ionia.Bridge_Elementwise <> m2:15 var
+R5592:5593 Ionia.DataExp <> :::'''{'_x_'}' not
+R5596:5596 Ionia.DataExp <> :::'''{'_x_'}' not
+R5594:5595 Ionia.Bridge_Elementwise <> m1:14 var
+R5576:5577 Ionia.DataExp <> :::'''{'_x_'}' not
+R5585:5585 Ionia.DataExp <> :::'''{'_x_'}' not
+R5578:5584 Ionia.Bridge_Elementwise <> channel:13 var
+R5562:5563 Ionia.DataExp <> :::'''{'_x_'}' not
+R5569:5569 Ionia.DataExp <> :::'''{'_x_'}' not
+R5564:5568 Ionia.Bridge_Elementwise <> batch:12 var
+binder 5542:5546 <> input:16
+R5627:5633 Ionia.Bridge_Elementwise <> env def
+binder 5621:5623 <> rho:17
+R5639:5639 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5917:5923 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R5652:5654 Ionia.finType <> fin def
+R5656:5660 Ionia.Bridge_Elementwise <> batch:12 var
+binder 5648:5648 <> b:18
+R5668:5670 Ionia.finType <> fin def
+R5672:5678 Ionia.Bridge_Elementwise <> channel:13 var
+binder 5664:5664 <> c:19
+R5687:5689 Ionia.finType <> fin def
+R5691:5692 Ionia.Bridge_Elementwise <> m1:14 var
+binder 5682:5683 <> i0:20
+R5701:5703 Ionia.finType <> fin def
+R5705:5706 Ionia.Bridge_Elementwise <> m2:15 var
+binder 5696:5697 <> i1:21
+R5819:5826 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5715:5726 Ionia.Bridge_Elementwise <> eval_bexp def
+R5750:5757 Ionia.Bridge_Elementwise <> leExp def
+R5811:5817 Ionia.Bridge_Elementwise <> zero def
+R5760:5765 Ionia.Bridge_Elementwise <> idx def
+R5807:5808 Ionia.Bridge_Elementwise <> i1:21 var
+R5768:5773 Ionia.Bridge_Elementwise <> idx def
+R5803:5804 Ionia.Bridge_Elementwise <> i0:20 var
+R5776:5781 Ionia.Bridge_Elementwise <> idx def
+R5800:5800 Ionia.Bridge_Elementwise <> c:19 var
+R5784:5789 Ionia.Bridge_Elementwise <> idx def
+R5797:5797 Ionia.Bridge_Elementwise <> b:18 var
+R5791:5795 Ionia.Bridge_Elementwise <> input:16 var
+R5729:5735 Ionia.Bridge_Elementwise <> env_val def
+R5737:5739 Ionia.Bridge_Elementwise <> rho:17 var
+R5827:5838 Ionia.Bridge_Elementwise <> bexp2bool def
+R5848:5855 Ionia.Bridge_Elementwise <> leExp def
+R5909:5915 Ionia.Bridge_Elementwise <> zero def
+R5858:5863 Ionia.Bridge_Elementwise <> idx def
+R5905:5906 Ionia.Bridge_Elementwise <> i1:21 var
+R5866:5871 Ionia.Bridge_Elementwise <> idx def
+R5901:5902 Ionia.Bridge_Elementwise <> i0:20 var
+R5874:5879 Ionia.Bridge_Elementwise <> idx def
+R5898:5898 Ionia.Bridge_Elementwise <> c:19 var
+R5882:5887 Ionia.Bridge_Elementwise <> idx def
+R5895:5895 Ionia.Bridge_Elementwise <> b:18 var
+R5889:5893 Ionia.Bridge_Elementwise <> input:16 var
+R5961:5965 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5924:5937 Ionia.Bridge_Elementwise <> to_pcg_exp def
+R5958:5960 Ionia.Bridge_Elementwise <> rho:17 var
+R5940:5949 Ionia.Bridge_Elementwise <> ReLU4d def
+R5951:5955 Ionia.Bridge_Elementwise <> input:16 var
+R5966:5974 Ionia.Bridge_Elementwise <> ReLU4d def
+R5977:5990 Ionia.Bridge_Elementwise <> to_pcg_exp def
+R5998:6000 Ionia.Bridge_Elementwise <> rho:17 var
+R5992:5996 Ionia.Bridge_Elementwise <> input:16 var
+R6063:6072 Ionia.Bridge_Elementwise <> ReLU4d def
+R6075:6083 Ionia.Bridge_Elementwise <> ReLU4d def
+R6094:6110 Ionia.Bridge_Elementwise <> to_pcg_mkvSeq_ext thm
+R6130:6146 Ionia.Bridge_Elementwise <> to_pcg_mkvSeq_ext thm
+R6166:6182 Ionia.Bridge_Elementwise <> to_pcg_mkvSeq_ext thm
+R6203:6219 Ionia.Bridge_Elementwise <> to_pcg_mkvSeq_ext thm
+R6273:6284 Ionia.Bridge_Elementwise <> eval_bexp def
+R6315:6322 Ionia.Bridge_Elementwise <> leExp def
+R6393:6399 Ionia.Bridge_Elementwise <> zero def
+R6325:6330 Ionia.Bridge_Elementwise <> idx def
+R6333:6338 Ionia.Bridge_Elementwise <> idx def
+R6341:6346 Ionia.Bridge_Elementwise <> idx def
+R6349:6354 Ionia.Bridge_Elementwise <> idx def
+R6287:6293 Ionia.Bridge_Elementwise <> env_val def
+R6429:6442 Ionia.Bridge_Elementwise <> to_pcg_exp_BLe thm
+R6460:6478 Ionia.Bridge_Elementwise <> to_pcg_exp_zero thm
+R6503:6520 Ionia.Bridge_Elementwise <> to_pcg_exp_idx thm
+R6537:6544 Ionia.Bridge_Elementwise <> zero def
+R6615:6632 Ionia.Bridge_Elementwise <> to_pcg_exp_idx thm
+prf 7311:7323 <> Bridge_ReLU4d
+R7357:7359 Corelib.Init.Datatypes <> nat ind
+binder 7335:7339 <> batch:22
+binder 7341:7347 <> channel:23
+binder 7349:7350 <> m1:24
+binder 7352:7353 <> m2:25
+R7373:7378 Ionia.Bridge_Elementwise <> exp def
+R7381:7383 Ionia.DataExp <> ary constr
+R7395:7397 Ionia.DataExp <> ary constr
+R7411:7413 Ionia.DataExp <> ary constr
+R7422:7424 Ionia.DataExp <> ary constr
+R7432:7434 Ionia.DataExp <> num constr
+R7426:7427 Ionia.DataExp <> :::'''{'_x_'}' not
+R7430:7430 Ionia.DataExp <> :::'''{'_x_'}' not
+R7428:7429 Ionia.Bridge_Elementwise <> m2:25 var
+R7415:7416 Ionia.DataExp <> :::'''{'_x_'}' not
+R7419:7419 Ionia.DataExp <> :::'''{'_x_'}' not
+R7417:7418 Ionia.Bridge_Elementwise <> m1:24 var
+R7399:7400 Ionia.DataExp <> :::'''{'_x_'}' not
+R7408:7408 Ionia.DataExp <> :::'''{'_x_'}' not
+R7401:7407 Ionia.Bridge_Elementwise <> channel:23 var
+R7385:7386 Ionia.DataExp <> :::'''{'_x_'}' not
+R7392:7392 Ionia.DataExp <> :::'''{'_x_'}' not
+R7387:7391 Ionia.Bridge_Elementwise <> batch:22 var
+binder 7365:7369 <> input:26
+R7453:7458 Ionia.Bridge_Elementwise <> acc def
+R7461:7463 Ionia.DataExp <> ary constr
+R7475:7477 Ionia.DataExp <> ary constr
+R7491:7493 Ionia.DataExp <> ary constr
+R7502:7504 Ionia.DataExp <> ary constr
+R7512:7514 Ionia.DataExp <> num constr
+R7506:7507 Ionia.DataExp <> :::'''{'_x_'}' not
+R7510:7510 Ionia.DataExp <> :::'''{'_x_'}' not
+R7508:7509 Ionia.Bridge_Elementwise <> m2:25 var
+R7495:7496 Ionia.DataExp <> :::'''{'_x_'}' not
+R7499:7499 Ionia.DataExp <> :::'''{'_x_'}' not
+R7497:7498 Ionia.Bridge_Elementwise <> m1:24 var
+R7479:7480 Ionia.DataExp <> :::'''{'_x_'}' not
+R7488:7488 Ionia.DataExp <> :::'''{'_x_'}' not
+R7481:7487 Ionia.Bridge_Elementwise <> channel:23 var
+R7465:7466 Ionia.DataExp <> :::'''{'_x_'}' not
+R7472:7472 Ionia.DataExp <> :::'''{'_x_'}' not
+R7467:7471 Ionia.Bridge_Elementwise <> batch:22 var
+binder 7444:7449 <> output:27
+R7530:7536 Ionia.Bridge_Elementwise <> env def
+binder 7524:7526 <> rho:28
+R7581:7586 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7542:7567 Ionia.Bridge_Elementwise <> exp_independent_of_acc def
+R7575:7580 Ionia.Bridge_Elementwise <> output:27 var
+R7569:7573 Ionia.Bridge_Elementwise <> input:26 var
+R7587:7587 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7865:7871 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R7600:7602 Ionia.finType <> fin def
+R7604:7608 Ionia.Bridge_Elementwise <> batch:22 var
+binder 7596:7596 <> b:29
+R7616:7618 Ionia.finType <> fin def
+R7620:7626 Ionia.Bridge_Elementwise <> channel:23 var
+binder 7612:7612 <> c:30
+R7635:7637 Ionia.finType <> fin def
+R7639:7640 Ionia.Bridge_Elementwise <> m1:24 var
+binder 7630:7631 <> i0:31
+R7649:7651 Ionia.finType <> fin def
+R7653:7654 Ionia.Bridge_Elementwise <> m2:25 var
+binder 7644:7645 <> i1:32
+R7767:7774 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7663:7674 Ionia.Bridge_Elementwise <> eval_bexp def
+R7698:7705 Ionia.Bridge_Elementwise <> leExp def
+R7759:7765 Ionia.Bridge_Elementwise <> zero def
+R7708:7713 Ionia.Bridge_Elementwise <> idx def
+R7755:7756 Ionia.Bridge_Elementwise <> i1:32 var
+R7716:7721 Ionia.Bridge_Elementwise <> idx def
+R7751:7752 Ionia.Bridge_Elementwise <> i0:31 var
+R7724:7729 Ionia.Bridge_Elementwise <> idx def
+R7748:7748 Ionia.Bridge_Elementwise <> c:30 var
+R7732:7737 Ionia.Bridge_Elementwise <> idx def
+R7745:7745 Ionia.Bridge_Elementwise <> b:29 var
+R7739:7743 Ionia.Bridge_Elementwise <> input:26 var
+R7677:7683 Ionia.Bridge_Elementwise <> env_val def
+R7685:7687 Ionia.Bridge_Elementwise <> rho:28 var
+R7775:7786 Ionia.Bridge_Elementwise <> bexp2bool def
+R7796:7803 Ionia.Bridge_Elementwise <> leExp def
+R7857:7863 Ionia.Bridge_Elementwise <> zero def
+R7806:7811 Ionia.Bridge_Elementwise <> idx def
+R7853:7854 Ionia.Bridge_Elementwise <> i1:32 var
+R7814:7819 Ionia.Bridge_Elementwise <> idx def
+R7849:7850 Ionia.Bridge_Elementwise <> i0:31 var
+R7822:7827 Ionia.Bridge_Elementwise <> idx def
+R7846:7846 Ionia.Bridge_Elementwise <> c:30 var
+R7830:7835 Ionia.Bridge_Elementwise <> idx def
+R7843:7843 Ionia.Bridge_Elementwise <> b:29 var
+R7837:7841 Ionia.Bridge_Elementwise <> input:26 var
+R7915:7919 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7872:7879 Ionia.Bridge_Elementwise <> eval def
+R7912:7914 Ionia.Bridge_Elementwise <> rho:28 var
+R7882:7896 Ionia.Bridge_Elementwise <> ReLU4d_comm def
+R7904:7909 Ionia.Bridge_Elementwise <> output:27 var
+R7898:7902 Ionia.Bridge_Elementwise <> input:26 var
+R7920:7933 Ionia.Bridge_Elementwise <> ReLU4d_comm def
+R7969:7971 Ionia.Bridge_Elementwise <> rho:28 var
+R7962:7967 Ionia.Bridge_Elementwise <> output:27 var
+R7936:7949 Ionia.Bridge_Elementwise <> to_pcg_exp def
+R7957:7959 Ionia.Bridge_Elementwise <> rho:28 var
+R7951:7955 Ionia.Bridge_Elementwise <> input:26 var
+R8052:8071 Ionia.Bridge_Elementwise <> ReLU4d_equiv_sem thm
+R8096:8099 Ionia.Bridge_Elementwise <> A def
+R8113:8127 Ionia.Bridge_Elementwise <> eval_assign thm
+R8143:8153 Ionia.Bridge_Elementwise <> A_ReLU4d thm
+R8163:8166 Ionia.Bridge_Elementwise <> A def
+R8189:8201 Ionia.Bridge_Elementwise <> interp_ReLU4d thm
+prf 8472:8483 <> interp_Add4d
+R8517:8519 Corelib.Init.Datatypes <> nat ind
+binder 8495:8499 <> batch:33
+binder 8501:8507 <> channel:34
+binder 8509:8510 <> m1:35
+binder 8512:8513 <> m2:36
+R8531:8536 Ionia.Bridge_Elementwise <> exp def
+R8539:8541 Ionia.DataExp <> ary constr
+R8553:8555 Ionia.DataExp <> ary constr
+R8569:8571 Ionia.DataExp <> ary constr
+R8580:8582 Ionia.DataExp <> ary constr
+R8590:8592 Ionia.DataExp <> num constr
+R8584:8585 Ionia.DataExp <> :::'''{'_x_'}' not
+R8588:8588 Ionia.DataExp <> :::'''{'_x_'}' not
+R8586:8587 Ionia.Bridge_Elementwise <> m2:36 var
+R8573:8574 Ionia.DataExp <> :::'''{'_x_'}' not
+R8577:8577 Ionia.DataExp <> :::'''{'_x_'}' not
+R8575:8576 Ionia.Bridge_Elementwise <> m1:35 var
+R8557:8558 Ionia.DataExp <> :::'''{'_x_'}' not
+R8566:8566 Ionia.DataExp <> :::'''{'_x_'}' not
+R8559:8565 Ionia.Bridge_Elementwise <> channel:34 var
+R8543:8544 Ionia.DataExp <> :::'''{'_x_'}' not
+R8550:8550 Ionia.DataExp <> :::'''{'_x_'}' not
+R8545:8549 Ionia.Bridge_Elementwise <> batch:33 var
+binder 8525:8525 <> x:37
+binder 8527:8527 <> y:38
+R8608:8614 Ionia.Bridge_Elementwise <> env def
+binder 8602:8604 <> rho:39
+R8654:8658 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8620:8633 Ionia.Bridge_Elementwise <> to_pcg_exp def
+R8651:8653 Ionia.Bridge_Elementwise <> rho:39 var
+R8636:8644 Ionia.Bridge_Elementwise <> Add4d def
+R8648:8648 Ionia.Bridge_Elementwise <> y:38 var
+R8646:8646 Ionia.Bridge_Elementwise <> x:37 var
+R8659:8666 Ionia.Bridge_Elementwise <> Add4d def
+R8692:8705 Ionia.Bridge_Elementwise <> to_pcg_exp def
+R8709:8711 Ionia.Bridge_Elementwise <> rho:39 var
+R8707:8707 Ionia.Bridge_Elementwise <> y:38 var
+R8669:8682 Ionia.Bridge_Elementwise <> to_pcg_exp def
+R8686:8688 Ionia.Bridge_Elementwise <> rho:39 var
+R8684:8684 Ionia.Bridge_Elementwise <> x:37 var
+R8769:8777 Ionia.Bridge_Elementwise <> Add4d def
+R8780:8787 Ionia.Bridge_Elementwise <> Add4d def
+R8798:8814 Ionia.Bridge_Elementwise <> to_pcg_mkvSeq_ext thm
+R8834:8850 Ionia.Bridge_Elementwise <> to_pcg_mkvSeq_ext thm
+R8870:8886 Ionia.Bridge_Elementwise <> to_pcg_mkvSeq_ext thm
+R8906:8922 Ionia.Bridge_Elementwise <> to_pcg_mkvSeq_ext thm
+R8944:8961 Ionia.Bridge_Elementwise <> to_pcg_exp_add thm
+R8981:8998 Ionia.Bridge_Elementwise <> to_pcg_exp_idx thm
+prf 9274:9285 <> Bridge_Add4d
+R9319:9321 Corelib.Init.Datatypes <> nat ind
+binder 9297:9301 <> batch:40
+binder 9303:9309 <> channel:41
+binder 9311:9312 <> m1:42
+binder 9314:9315 <> m2:43
+R9333:9338 Ionia.Bridge_Elementwise <> exp def
+R9341:9343 Ionia.DataExp <> ary constr
+R9355:9357 Ionia.DataExp <> ary constr
+R9371:9373 Ionia.DataExp <> ary constr
+R9382:9384 Ionia.DataExp <> ary constr
+R9392:9394 Ionia.DataExp <> num constr
+R9386:9387 Ionia.DataExp <> :::'''{'_x_'}' not
+R9390:9390 Ionia.DataExp <> :::'''{'_x_'}' not
+R9388:9389 Ionia.Bridge_Elementwise <> m2:43 var
+R9375:9376 Ionia.DataExp <> :::'''{'_x_'}' not
+R9379:9379 Ionia.DataExp <> :::'''{'_x_'}' not
+R9377:9378 Ionia.Bridge_Elementwise <> m1:42 var
+R9359:9360 Ionia.DataExp <> :::'''{'_x_'}' not
+R9368:9368 Ionia.DataExp <> :::'''{'_x_'}' not
+R9361:9367 Ionia.Bridge_Elementwise <> channel:41 var
+R9345:9346 Ionia.DataExp <> :::'''{'_x_'}' not
+R9352:9352 Ionia.DataExp <> :::'''{'_x_'}' not
+R9347:9351 Ionia.Bridge_Elementwise <> batch:40 var
+binder 9327:9327 <> x:44
+binder 9329:9329 <> y:45
+R9413:9418 Ionia.Bridge_Elementwise <> acc def
+R9421:9423 Ionia.DataExp <> ary constr
+R9435:9437 Ionia.DataExp <> ary constr
+R9451:9453 Ionia.DataExp <> ary constr
+R9462:9464 Ionia.DataExp <> ary constr
+R9472:9474 Ionia.DataExp <> num constr
+R9466:9467 Ionia.DataExp <> :::'''{'_x_'}' not
+R9470:9470 Ionia.DataExp <> :::'''{'_x_'}' not
+R9468:9469 Ionia.Bridge_Elementwise <> m2:43 var
+R9455:9456 Ionia.DataExp <> :::'''{'_x_'}' not
+R9459:9459 Ionia.DataExp <> :::'''{'_x_'}' not
+R9457:9458 Ionia.Bridge_Elementwise <> m1:42 var
+R9439:9440 Ionia.DataExp <> :::'''{'_x_'}' not
+R9448:9448 Ionia.DataExp <> :::'''{'_x_'}' not
+R9441:9447 Ionia.Bridge_Elementwise <> channel:41 var
+R9425:9426 Ionia.DataExp <> :::'''{'_x_'}' not
+R9432:9432 Ionia.DataExp <> :::'''{'_x_'}' not
+R9427:9431 Ionia.Bridge_Elementwise <> batch:40 var
+binder 9404:9409 <> output:46
+R9490:9496 Ionia.Bridge_Elementwise <> env def
+binder 9484:9486 <> rho:47
+R9537:9542 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9502:9527 Ionia.Bridge_Elementwise <> exp_independent_of_acc def
+R9531:9536 Ionia.Bridge_Elementwise <> output:46 var
+R9529:9529 Ionia.Bridge_Elementwise <> x:44 var
+R9578:9583 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R9543:9568 Ionia.Bridge_Elementwise <> exp_independent_of_acc def
+R9572:9577 Ionia.Bridge_Elementwise <> output:46 var
+R9570:9570 Ionia.Bridge_Elementwise <> y:45 var
+R9624:9628 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9584:9591 Ionia.Bridge_Elementwise <> eval def
+R9621:9623 Ionia.Bridge_Elementwise <> rho:47 var
+R9594:9607 Ionia.Bridge_Elementwise <> Add4d_comm def
+R9613:9618 Ionia.Bridge_Elementwise <> output:46 var
+R9611:9611 Ionia.Bridge_Elementwise <> y:45 var
+R9609:9609 Ionia.Bridge_Elementwise <> x:44 var
+R9629:9641 Ionia.Bridge_Elementwise <> Add4d_comm def
+R9696:9698 Ionia.Bridge_Elementwise <> rho:47 var
+R9689:9694 Ionia.Bridge_Elementwise <> output:46 var
+R9667:9680 Ionia.Bridge_Elementwise <> to_pcg_exp def
+R9684:9686 Ionia.Bridge_Elementwise <> rho:47 var
+R9682:9682 Ionia.Bridge_Elementwise <> y:45 var
+R9644:9657 Ionia.Bridge_Elementwise <> to_pcg_exp def
+R9661:9663 Ionia.Bridge_Elementwise <> rho:47 var
+R9659:9659 Ionia.Bridge_Elementwise <> x:44 var
+R9773:9791 Ionia.Bridge_Elementwise <> Add4d_equiv_sem thm
+R9812:9815 Ionia.Bridge_Elementwise <> A def
+R9829:9843 Ionia.Bridge_Elementwise <> eval_assign thm
+R9859:9868 Ionia.Bridge_Elementwise <> A_Add4d thm
+R9878:9881 Ionia.Bridge_Elementwise <> A def
+R9904:9915 Ionia.Bridge_Elementwise <> interp_Add4d thm
+prf 10174:10185 <> interp_Mul2d
+R10205:10207 Corelib.Init.Datatypes <> nat ind
+binder 10197:10198 <> m1:48
+binder 10200:10201 <> m2:49
+R10219:10224 Ionia.Bridge_Elementwise <> exp def
+R10227:10229 Ionia.DataExp <> ary constr
+R10238:10240 Ionia.DataExp <> ary constr
+R10248:10250 Ionia.DataExp <> num constr
+R10242:10243 Ionia.DataExp <> :::'''{'_x_'}' not
+R10246:10246 Ionia.DataExp <> :::'''{'_x_'}' not
+R10244:10245 Ionia.Bridge_Elementwise <> m2:49 var
+R10231:10232 Ionia.DataExp <> :::'''{'_x_'}' not
+R10235:10235 Ionia.DataExp <> :::'''{'_x_'}' not
+R10233:10234 Ionia.Bridge_Elementwise <> m1:48 var
+binder 10213:10213 <> x:50
+binder 10215:10215 <> y:51
+R10262:10268 Ionia.Bridge_Elementwise <> env def
+binder 10256:10258 <> rho:52
+R10308:10312 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10274:10287 Ionia.Bridge_Elementwise <> to_pcg_exp def
+R10305:10307 Ionia.Bridge_Elementwise <> rho:52 var
+R10290:10298 Ionia.Bridge_Elementwise <> Mul2d def
+R10302:10302 Ionia.Bridge_Elementwise <> y:51 var
+R10300:10300 Ionia.Bridge_Elementwise <> x:50 var
+R10313:10320 Ionia.Bridge_Elementwise <> Mul2d def
+R10346:10359 Ionia.Bridge_Elementwise <> to_pcg_exp def
+R10363:10365 Ionia.Bridge_Elementwise <> rho:52 var
+R10361:10361 Ionia.Bridge_Elementwise <> y:51 var
+R10323:10336 Ionia.Bridge_Elementwise <> to_pcg_exp def
+R10340:10342 Ionia.Bridge_Elementwise <> rho:52 var
+R10338:10338 Ionia.Bridge_Elementwise <> x:50 var
+R10409:10417 Ionia.Bridge_Elementwise <> Mul2d def
+R10420:10427 Ionia.Bridge_Elementwise <> Mul2d def
+R10438:10454 Ionia.Bridge_Elementwise <> to_pcg_mkvSeq_ext thm
+R10474:10490 Ionia.Bridge_Elementwise <> to_pcg_mkvSeq_ext thm
+R10512:10529 Ionia.Bridge_Elementwise <> to_pcg_exp_mul thm
+R10549:10566 Ionia.Bridge_Elementwise <> to_pcg_exp_idx thm
+prf 10842:10853 <> Bridge_Mul2d
+R10873:10875 Corelib.Init.Datatypes <> nat ind
+binder 10865:10866 <> m1:53
+binder 10868:10869 <> m2:54
+R10887:10892 Ionia.Bridge_Elementwise <> exp def
+R10895:10897 Ionia.DataExp <> ary constr
+R10906:10908 Ionia.DataExp <> ary constr
+R10916:10918 Ionia.DataExp <> num constr
+R10910:10911 Ionia.DataExp <> :::'''{'_x_'}' not
+R10914:10914 Ionia.DataExp <> :::'''{'_x_'}' not
+R10912:10913 Ionia.Bridge_Elementwise <> m2:54 var
+R10899:10900 Ionia.DataExp <> :::'''{'_x_'}' not
+R10903:10903 Ionia.DataExp <> :::'''{'_x_'}' not
+R10901:10902 Ionia.Bridge_Elementwise <> m1:53 var
+binder 10881:10881 <> x:55
+binder 10883:10883 <> y:56
+R10935:10940 Ionia.Bridge_Elementwise <> acc def
+R10943:10945 Ionia.DataExp <> ary constr
+R10954:10956 Ionia.DataExp <> ary constr
+R10964:10966 Ionia.DataExp <> num constr
+R10958:10959 Ionia.DataExp <> :::'''{'_x_'}' not
+R10962:10962 Ionia.DataExp <> :::'''{'_x_'}' not
+R10960:10961 Ionia.Bridge_Elementwise <> m2:54 var
+R10947:10948 Ionia.DataExp <> :::'''{'_x_'}' not
+R10951:10951 Ionia.DataExp <> :::'''{'_x_'}' not
+R10949:10950 Ionia.Bridge_Elementwise <> m1:53 var
+binder 10926:10931 <> output:57
+R10980:10986 Ionia.Bridge_Elementwise <> env def
+binder 10974:10976 <> rho:58
+R11027:11032 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R10992:11017 Ionia.Bridge_Elementwise <> exp_independent_of_acc def
+R11021:11026 Ionia.Bridge_Elementwise <> output:57 var
+R11019:11019 Ionia.Bridge_Elementwise <> x:55 var
+R11068:11073 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11033:11058 Ionia.Bridge_Elementwise <> exp_independent_of_acc def
+R11062:11067 Ionia.Bridge_Elementwise <> output:57 var
+R11060:11060 Ionia.Bridge_Elementwise <> y:56 var
+R11114:11118 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11074:11081 Ionia.Bridge_Elementwise <> eval def
+R11111:11113 Ionia.Bridge_Elementwise <> rho:58 var
+R11084:11097 Ionia.Bridge_Elementwise <> Mul2d_comm def
+R11103:11108 Ionia.Bridge_Elementwise <> output:57 var
+R11101:11101 Ionia.Bridge_Elementwise <> y:56 var
+R11099:11099 Ionia.Bridge_Elementwise <> x:55 var
+R11119:11131 Ionia.Bridge_Elementwise <> Mul2d_comm def
+R11186:11188 Ionia.Bridge_Elementwise <> rho:58 var
+R11179:11184 Ionia.Bridge_Elementwise <> output:57 var
+R11157:11170 Ionia.Bridge_Elementwise <> to_pcg_exp def
+R11174:11176 Ionia.Bridge_Elementwise <> rho:58 var
+R11172:11172 Ionia.Bridge_Elementwise <> y:56 var
+R11134:11147 Ionia.Bridge_Elementwise <> to_pcg_exp def
+R11151:11153 Ionia.Bridge_Elementwise <> rho:58 var
+R11149:11149 Ionia.Bridge_Elementwise <> x:55 var
+R11249:11267 Ionia.Bridge_Elementwise <> Mul2d_equiv_sem thm
+R11288:11291 Ionia.Bridge_Elementwise <> A def
+R11305:11319 Ionia.Bridge_Elementwise <> eval_assign thm
+R11335:11344 Ionia.Bridge_Elementwise <> A_Mul2d thm
+R11354:11357 Ionia.Bridge_Elementwise <> A def
+R11380:11391 Ionia.Bridge_Elementwise <> interp_Mul2d thm
+prf 11812:11826 <> Add2d_equiv_sem
+R11846:11848 Corelib.Init.Datatypes <> nat ind
+binder 11838:11839 <> m1:59
+binder 11841:11842 <> m2:60
+R11860:11865 Ionia.Bridge_Elementwise <> exp def
+R11868:11870 Ionia.DataExp <> ary constr
+R11879:11881 Ionia.DataExp <> ary constr
+R11889:11891 Ionia.DataExp <> num constr
+R11883:11884 Ionia.DataExp <> :::'''{'_x_'}' not
+R11887:11887 Ionia.DataExp <> :::'''{'_x_'}' not
+R11885:11886 Ionia.Bridge_Elementwise <> m2:60 var
+R11872:11873 Ionia.DataExp <> :::'''{'_x_'}' not
+R11876:11876 Ionia.DataExp <> :::'''{'_x_'}' not
+R11874:11875 Ionia.Bridge_Elementwise <> m1:59 var
+binder 11854:11854 <> x:61
+binder 11856:11856 <> y:62
+R11908:11913 Ionia.Bridge_Elementwise <> acc def
+R11916:11918 Ionia.DataExp <> ary constr
+R11927:11929 Ionia.DataExp <> ary constr
+R11937:11939 Ionia.DataExp <> num constr
+R11931:11932 Ionia.DataExp <> :::'''{'_x_'}' not
+R11935:11935 Ionia.DataExp <> :::'''{'_x_'}' not
+R11933:11934 Ionia.Bridge_Elementwise <> m2:60 var
+R11920:11921 Ionia.DataExp <> :::'''{'_x_'}' not
+R11924:11924 Ionia.DataExp <> :::'''{'_x_'}' not
+R11922:11923 Ionia.Bridge_Elementwise <> m1:59 var
+binder 11899:11904 <> output:63
+R11953:11959 Ionia.Bridge_Elementwise <> env def
+binder 11947:11949 <> rho:64
+R12000:12005 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R11965:11990 Ionia.Bridge_Elementwise <> exp_independent_of_acc def
+R11994:11999 Ionia.Bridge_Elementwise <> output:63 var
+R11992:11992 Ionia.Bridge_Elementwise <> x:61 var
+R12041:12046 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R12006:12031 Ionia.Bridge_Elementwise <> exp_independent_of_acc def
+R12035:12040 Ionia.Bridge_Elementwise <> output:63 var
+R12033:12033 Ionia.Bridge_Elementwise <> y:62 var
+R12090:12094 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12047:12054 Ionia.Bridge_Elementwise <> eval def
+R12087:12089 Ionia.Bridge_Elementwise <> rho:64 var
+R12057:12060 Ionia.Bridge_Elementwise <> A def
+R12062:12062 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12069:12070 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12084:12084 Corelib.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12063:12068 Ionia.Bridge_Elementwise <> output:63 var
+R12071:12079 Ionia.Bridge_Elementwise <> Add2d def
+R12083:12083 Ionia.Bridge_Elementwise <> y:62 var
+R12081:12081 Ionia.Bridge_Elementwise <> x:61 var
+R12095:12102 Ionia.Bridge_Elementwise <> eval def
+R12132:12134 Ionia.Bridge_Elementwise <> rho:64 var
+R12105:12118 Ionia.Bridge_Elementwise <> Add2d_comm def
+R12124:12129 Ionia.Bridge_Elementwise <> output:63 var
+R12122:12122 Ionia.Bridge_Elementwise <> y:62 var
+R12120:12120 Ionia.Bridge_Elementwise <> x:61 var
+R12190:12198 Ionia.Bridge_Elementwise <> Add2d def
+R12201:12214 Ionia.Bridge_Elementwise <> Add2d_comm def
+R12227:12241 Ionia.Bridge_Elementwise <> AmkvSeq_sem thm
+R12255:12264 Ionia.Bridge_Elementwise <> mkvSeql def
+R12275:12289 Ionia.Bridge_Elementwise <> eval_seqfor thm
+R12302:12317 Ionia.Bridge_Elementwise <> seqfor_congr thm
+R12348:12362 Ionia.Bridge_Elementwise <> AmkvSeq_sem thm
+R12378:12387 Ionia.Bridge_Elementwise <> mkvSeql def
+R12398:12412 Ionia.Bridge_Elementwise <> eval_seqfor thm
+R12427:12442 Ionia.Bridge_Elementwise <> seqfor_congr thm
+R12497:12526 Ionia.Bridge_Elementwise <> exp_independent_of_acc_add thm
+R12545:12574 Ionia.Bridge_Elementwise <> exp_independent_of_acc_idx thm
+R12593:12629 Ionia.Bridge_Elementwise <> exp_independent_of_acc_weaken_ary thm
+R12648:12677 Ionia.Bridge_Elementwise <> exp_independent_of_acc_idx thm
+R12701:12730 Ionia.Bridge_Elementwise <> exp_independent_of_acc_idx thm
+R12749:12785 Ionia.Bridge_Elementwise <> exp_independent_of_acc_weaken_ary thm
+R12804:12833 Ionia.Bridge_Elementwise <> exp_independent_of_acc_idx thm
+R12865:12897 Ionia.Bridge_Elementwise <> exp_independent_of_acc_mkvSeq thm
+R12921:12950 Ionia.Bridge_Elementwise <> exp_independent_of_acc_add thm
+R12967:12996 Ionia.Bridge_Elementwise <> exp_independent_of_acc_idx thm
+R13013:13042 Ionia.Bridge_Elementwise <> exp_independent_of_acc_idx thm
+R13064:13093 Ionia.Bridge_Elementwise <> exp_independent_of_acc_idx thm
+R13110:13139 Ionia.Bridge_Elementwise <> exp_independent_of_acc_idx thm
+prf 13406:13417 <> interp_Add2d
+R13437:13439 Corelib.Init.Datatypes <> nat ind
+binder 13429:13430 <> m1:65
+binder 13432:13433 <> m2:66
+R13451:13456 Ionia.Bridge_Elementwise <> exp def
+R13459:13461 Ionia.DataExp <> ary constr
+R13470:13472 Ionia.DataExp <> ary constr
+R13480:13482 Ionia.DataExp <> num constr
+R13474:13475 Ionia.DataExp <> :::'''{'_x_'}' not
+R13478:13478 Ionia.DataExp <> :::'''{'_x_'}' not
+R13476:13477 Ionia.Bridge_Elementwise <> m2:66 var
+R13463:13464 Ionia.DataExp <> :::'''{'_x_'}' not
+R13467:13467 Ionia.DataExp <> :::'''{'_x_'}' not
+R13465:13466 Ionia.Bridge_Elementwise <> m1:65 var
+binder 13445:13445 <> x:67
+binder 13447:13447 <> y:68
+R13494:13500 Ionia.Bridge_Elementwise <> env def
+binder 13488:13490 <> rho:69
+R13540:13544 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13506:13519 Ionia.Bridge_Elementwise <> to_pcg_exp def
+R13537:13539 Ionia.Bridge_Elementwise <> rho:69 var
+R13522:13530 Ionia.Bridge_Elementwise <> Add2d def
+R13534:13534 Ionia.Bridge_Elementwise <> y:68 var
+R13532:13532 Ionia.Bridge_Elementwise <> x:67 var
+R13545:13552 Ionia.Bridge_Elementwise <> Add2d def
+R13578:13591 Ionia.Bridge_Elementwise <> to_pcg_exp def
+R13595:13597 Ionia.Bridge_Elementwise <> rho:69 var
+R13593:13593 Ionia.Bridge_Elementwise <> y:68 var
+R13555:13568 Ionia.Bridge_Elementwise <> to_pcg_exp def
+R13572:13574 Ionia.Bridge_Elementwise <> rho:69 var
+R13570:13570 Ionia.Bridge_Elementwise <> x:67 var
+R13641:13649 Ionia.Bridge_Elementwise <> Add2d def
+R13652:13659 Ionia.Bridge_Elementwise <> Add2d def
+R13670:13686 Ionia.Bridge_Elementwise <> to_pcg_mkvSeq_ext thm
+R13706:13722 Ionia.Bridge_Elementwise <> to_pcg_mkvSeq_ext thm
+R13744:13761 Ionia.Bridge_Elementwise <> to_pcg_exp_add thm
+R13781:13798 Ionia.Bridge_Elementwise <> to_pcg_exp_idx thm
+prf 14074:14085 <> Bridge_Add2d
+R14105:14107 Corelib.Init.Datatypes <> nat ind
+binder 14097:14098 <> m1:70
+binder 14100:14101 <> m2:71
+R14119:14124 Ionia.Bridge_Elementwise <> exp def
+R14127:14129 Ionia.DataExp <> ary constr
+R14138:14140 Ionia.DataExp <> ary constr
+R14148:14150 Ionia.DataExp <> num constr
+R14142:14143 Ionia.DataExp <> :::'''{'_x_'}' not
+R14146:14146 Ionia.DataExp <> :::'''{'_x_'}' not
+R14144:14145 Ionia.Bridge_Elementwise <> m2:71 var
+R14131:14132 Ionia.DataExp <> :::'''{'_x_'}' not
+R14135:14135 Ionia.DataExp <> :::'''{'_x_'}' not
+R14133:14134 Ionia.Bridge_Elementwise <> m1:70 var
+binder 14113:14113 <> x:72
+binder 14115:14115 <> y:73
+R14167:14172 Ionia.Bridge_Elementwise <> acc def
+R14175:14177 Ionia.DataExp <> ary constr
+R14186:14188 Ionia.DataExp <> ary constr
+R14196:14198 Ionia.DataExp <> num constr
+R14190:14191 Ionia.DataExp <> :::'''{'_x_'}' not
+R14194:14194 Ionia.DataExp <> :::'''{'_x_'}' not
+R14192:14193 Ionia.Bridge_Elementwise <> m2:71 var
+R14179:14180 Ionia.DataExp <> :::'''{'_x_'}' not
+R14183:14183 Ionia.DataExp <> :::'''{'_x_'}' not
+R14181:14182 Ionia.Bridge_Elementwise <> m1:70 var
+binder 14158:14163 <> output:74
+R14212:14218 Ionia.Bridge_Elementwise <> env def
+binder 14206:14208 <> rho:75
+R14259:14264 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14224:14249 Ionia.Bridge_Elementwise <> exp_independent_of_acc def
+R14253:14258 Ionia.Bridge_Elementwise <> output:74 var
+R14251:14251 Ionia.Bridge_Elementwise <> x:72 var
+R14300:14305 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R14265:14290 Ionia.Bridge_Elementwise <> exp_independent_of_acc def
+R14294:14299 Ionia.Bridge_Elementwise <> output:74 var
+R14292:14292 Ionia.Bridge_Elementwise <> y:73 var
+R14346:14350 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14306:14313 Ionia.Bridge_Elementwise <> eval def
+R14343:14345 Ionia.Bridge_Elementwise <> rho:75 var
+R14316:14329 Ionia.Bridge_Elementwise <> Add2d_comm def
+R14335:14340 Ionia.Bridge_Elementwise <> output:74 var
+R14333:14333 Ionia.Bridge_Elementwise <> y:73 var
+R14331:14331 Ionia.Bridge_Elementwise <> x:72 var
+R14351:14363 Ionia.Bridge_Elementwise <> Add2d_comm def
+R14418:14420 Ionia.Bridge_Elementwise <> rho:75 var
+R14411:14416 Ionia.Bridge_Elementwise <> output:74 var
+R14389:14402 Ionia.Bridge_Elementwise <> to_pcg_exp def
+R14406:14408 Ionia.Bridge_Elementwise <> rho:75 var
+R14404:14404 Ionia.Bridge_Elementwise <> y:73 var
+R14366:14379 Ionia.Bridge_Elementwise <> to_pcg_exp def
+R14383:14385 Ionia.Bridge_Elementwise <> rho:75 var
+R14381:14381 Ionia.Bridge_Elementwise <> x:72 var
+R14481:14495 Ionia.Bridge_Elementwise <> Add2d_equiv_sem thm
+R14533:14536 Ionia.Bridge_Elementwise <> A def
+R14550:14564 Ionia.Bridge_Elementwise <> eval_assign thm
+R14580:14589 Ionia.Bridge_Elementwise <> A_Add2d thm
+R14599:14602 Ionia.Bridge_Elementwise <> A def
+R14625:14636 Ionia.Bridge_Elementwise <> interp_Add2d thm
+R14663:14675 Ionia.Bridge_Elementwise <> Bridge_ReLU4d thm
+R14696:14707 Ionia.Bridge_Elementwise <> Bridge_Add4d thm
+R14728:14739 Ionia.Bridge_Elementwise <> Bridge_Mul2d thm
+R14760:14771 Ionia.Bridge_Elementwise <> Bridge_Add2d thm

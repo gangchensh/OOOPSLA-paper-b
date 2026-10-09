@@ -1,0 +1,21 @@
+DIGEST 3535f99c41e3e4130f5591323ccad5e9
+Fprint_assumptions_B
+R412:428 Ionia.Opt_OnlineSoftmax <> <> lib
+R457:477 Ionia.Opt_OnlineSoftmax_Acc <> <> lib
+R506:515 Ionia.Opt_Tiling <> <> lib
+R517:526 Ionia.Opt_Fusion <> <> lib
+R528:545 Ionia.Opt_ParGranularity <> <> lib
+R635:668 Ionia.Opt_OnlineSoftmax <> esum_scale thm
+R689:732 Ionia.Opt_OnlineSoftmax <> online_merge_correct thm
+R753:795 Ionia.Opt_OnlineSoftmax <> online_fold_correct thm
+R816:859 Ionia.Opt_OnlineSoftmax <> online_softmax_equiv thm
+R880:927 Ionia.Opt_OnlineSoftmax <> online_merge_all_correct thm
+R948:1001 Ionia.Opt_OnlineSoftmax_Acc <> online_merge_all_v_correct thm
+R1022:1074 Ionia.Opt_OnlineSoftmax_Acc <> online_merge_all_v_output thm
+R1095:1141 Ionia.Opt_OnlineSoftmax <> online_merge_two_blocks thm
+R1162:1202 Ionia.Opt_OnlineSoftmax <> softmax_denom_pos thm
+R1223:1262 Ionia.Opt_OnlineSoftmax <> online_loop_spec thm
+R1283:1338 Ionia.Opt_OnlineSoftmax <> online_loop_computes_denominator thm
+R1436:1464 Ionia.Opt_Tiling <> seqfor_split thm
+R1485:1511 Ionia.Opt_Fusion <> map_fusion thm
+R1532:1570 Ionia.Opt_ParGranularity <> parfor_coarsen thm

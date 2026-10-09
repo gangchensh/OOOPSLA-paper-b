@@ -1,0 +1,1432 @@
+DIGEST 92ed5ff5022bb6f58317d831d4c4f134
+FIonia.Opt_BlockFusion
+R1624:1653 Stdlib.Logic.FunctionalExtensionality <> <> lib
+R1671:1674 Stdlib.Lists.List <> <> lib
+R1676:1680 Stdlib.Reals.Reals <> <> lib
+R1682:1687 Stdlib.Strings.String <> <> lib
+R1689:1691 Corelib.Init.Nat <> <> lib
+R1693:1696 Stdlib.Bool.Bool <> <> lib
+R1698:1702 Stdlib.Arith.Arith <> <> lib
+R1704:1706 Stdlib.micromega.Lra <> <> lib
+R1708:1710 Stdlib.micromega.Lia <> <> lib
+R1728:1753 Stdlib.Logic.ProofIrrelevance <> <> lib
+R1771:1786 Ionia.DPIA_Rules <> <> lib
+R1804:1822 Ionia.Proof_CodeGen <> <> lib
+R1832:1844 Ionia.Proof_CodeGen <> <> mod
+R1862:1875 Ionia.Ops_Conv <> <> lib
+R1893:1911 Ionia.Ops_BatchNorm <> <> lib
+R1929:1949 Ionia.Ops_Elementwise <> <> lib
+R1967:1985 Ionia.Opt_TiledConv <> <> lib
+R2003:2021 Ionia.ResNet18_DPIA <> <> lib
+def 2496:2502 <> BB_mid1
+R2521:2523 Corelib.Init.Datatypes <> nat ind
+binder 2505:2509 <> batch:1
+binder 2511:2511 <> c:2
+binder 2513:2514 <> m1:3
+binder 2516:2517 <> m2:4
+R2537:2539 Ionia.Proof_CodeGen <> exp def
+R2542:2544 Ionia.DataExp <> ary constr
+R2556:2558 Ionia.DataExp <> ary constr
+R2566:2568 Ionia.DataExp <> ary constr
+R2577:2579 Ionia.DataExp <> ary constr
+R2587:2589 Ionia.DataExp <> num constr
+R2581:2582 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2585:2585 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2583:2584 Ionia.Opt_BlockFusion <> m2:4 var
+R2570:2571 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2574:2574 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2572:2573 Ionia.Opt_BlockFusion <> m1:3 var
+R2560:2561 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2563:2563 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2562:2562 Ionia.Opt_BlockFusion <> c:2 var
+R2546:2547 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2553:2553 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2548:2552 Ionia.Opt_BlockFusion <> batch:1 var
+binder 2529:2533 <> input:5
+R2604:2606 Ionia.Proof_CodeGen <> exp def
+R2609:2611 Ionia.DataExp <> ary constr
+R2619:2621 Ionia.DataExp <> ary constr
+R2629:2631 Ionia.DataExp <> ary constr
+R2639:2641 Ionia.DataExp <> ary constr
+R2648:2650 Ionia.DataExp <> num constr
+R2643:2644 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2646:2646 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2633:2634 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2636:2636 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2623:2624 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2626:2626 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2625:2625 Ionia.Opt_BlockFusion <> c:2 var
+R2613:2614 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2616:2616 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2615:2615 Ionia.Opt_BlockFusion <> c:2 var
+binder 2599:2600 <> w1:6
+R2665:2667 Ionia.Proof_CodeGen <> exp def
+R2670:2672 Ionia.DataExp <> ary constr
+R2679:2681 Ionia.DataExp <> num constr
+R2674:2675 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2677:2677 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2676:2676 Ionia.Opt_BlockFusion <> c:2 var
+binder 2660:2661 <> b1:7
+R2691:2693 Ionia.Proof_CodeGen <> exp def
+R2696:2698 Ionia.DataExp <> ary constr
+R2705:2707 Ionia.DataExp <> num constr
+R2700:2701 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2703:2703 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2702:2702 Ionia.Opt_BlockFusion <> c:2 var
+binder 2686:2687 <> g1:8
+R2717:2719 Ionia.Proof_CodeGen <> exp def
+R2722:2724 Ionia.DataExp <> ary constr
+R2731:2733 Ionia.DataExp <> num constr
+R2726:2727 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2729:2729 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2728:2728 Ionia.Opt_BlockFusion <> c:2 var
+binder 2712:2713 <> z1:9
+R2746:2748 Ionia.Proof_CodeGen <> exp def
+R2750:2752 Ionia.DataExp <> num constr
+binder 2740:2742 <> eps:10
+R2759:2761 Ionia.Proof_CodeGen <> exp def
+R2764:2766 Ionia.DataExp <> ary constr
+R2778:2780 Ionia.DataExp <> ary constr
+R2788:2790 Ionia.DataExp <> ary constr
+R2799:2801 Ionia.DataExp <> ary constr
+R2809:2811 Ionia.DataExp <> num constr
+R2803:2804 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2807:2807 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2805:2806 Ionia.Opt_BlockFusion <> m2:4 var
+R2792:2793 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2796:2796 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2794:2795 Ionia.Opt_BlockFusion <> m1:3 var
+R2782:2783 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2785:2785 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2784:2784 Ionia.Opt_BlockFusion <> c:2 var
+R2768:2769 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2775:2775 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R2770:2774 Ionia.Opt_BlockFusion <> batch:1 var
+R2822:2827 Ionia.Ops_Elementwise <> ReLU4d def
+R2830:2840 Ionia.Ops_BatchNorm <> BatchNorm4d def
+R2876:2878 Ionia.Opt_BlockFusion <> eps:10 var
+R2873:2874 Ionia.Opt_BlockFusion <> z1:9 var
+R2870:2871 Ionia.Opt_BlockFusion <> g1:8 var
+R2843:2855 Ionia.ResNet18_DPIA <> Conv4d_3x3_s1 def
+R2863:2867 Ionia.Opt_BlockFusion <> input:5 var
+R2860:2861 Ionia.Opt_BlockFusion <> w1:6 var
+R2857:2858 Ionia.Opt_BlockFusion <> b1:7 var
+def 3105:3121 <> BB_conv2_chan_sum
+R3140:3142 Corelib.Init.Datatypes <> nat ind
+binder 3124:3128 <> batch:11
+binder 3130:3130 <> c:12
+binder 3132:3133 <> m1:13
+binder 3135:3136 <> m2:14
+R3154:3156 Ionia.Proof_CodeGen <> exp def
+R3159:3161 Ionia.DataExp <> ary constr
+R3173:3175 Ionia.DataExp <> ary constr
+R3183:3185 Ionia.DataExp <> ary constr
+R3194:3196 Ionia.DataExp <> ary constr
+R3204:3206 Ionia.DataExp <> num constr
+R3198:3199 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3202:3202 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3200:3201 Ionia.Opt_BlockFusion <> m2:14 var
+R3187:3188 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3191:3191 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3189:3190 Ionia.Opt_BlockFusion <> m1:13 var
+R3177:3178 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3180:3180 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3179:3179 Ionia.Opt_BlockFusion <> c:12 var
+R3163:3164 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3170:3170 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3165:3169 Ionia.Opt_BlockFusion <> batch:11 var
+binder 3148:3150 <> mid:15
+R3221:3223 Ionia.Proof_CodeGen <> exp def
+R3226:3228 Ionia.DataExp <> ary constr
+R3236:3238 Ionia.DataExp <> ary constr
+R3246:3248 Ionia.DataExp <> ary constr
+R3256:3258 Ionia.DataExp <> ary constr
+R3265:3267 Ionia.DataExp <> num constr
+R3260:3261 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3263:3263 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3250:3251 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3253:3253 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3240:3241 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3243:3243 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3242:3242 Ionia.Opt_BlockFusion <> c:12 var
+R3230:3231 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3233:3233 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3232:3232 Ionia.Opt_BlockFusion <> c:12 var
+binder 3216:3217 <> w2:16
+R3281:3283 Ionia.finType <> fin def
+R3285:3289 Ionia.Opt_BlockFusion <> batch:11 var
+binder 3277:3277 <> b:17
+R3300:3302 Ionia.finType <> fin def
+R3304:3304 Ionia.Opt_BlockFusion <> c:12 var
+binder 3293:3296 <> cout:18
+R3313:3315 Ionia.finType <> fin def
+R3317:3318 Ionia.Opt_BlockFusion <> m1:13 var
+binder 3308:3309 <> i0:19
+R3327:3329 Ionia.finType <> fin def
+R3331:3332 Ionia.Opt_BlockFusion <> m2:14 var
+binder 3322:3323 <> j0:20
+R3342:3344 Ionia.finType <> fin def
+R3346:3346 Ionia.Opt_BlockFusion <> c:12 var
+binder 3336:3338 <> cin:21
+R3353:3355 Ionia.Proof_CodeGen <> exp def
+R3357:3359 Ionia.DataExp <> num constr
+R3366:3368 Ionia.Proof_CodeGen <> sum def
+R3371:3376 Ionia.Proof_CodeGen <> mkvSeq def
+R3388:3390 Ionia.finType <> fin def
+binder 3383:3384 <> i1:22
+R3401:3403 Ionia.Proof_CodeGen <> sum def
+R3406:3411 Ionia.Proof_CodeGen <> mkvSeq def
+R3423:3425 Ionia.finType <> fin def
+binder 3418:3419 <> j1:23
+R3438:3440 Ionia.Proof_CodeGen <> mul def
+R3583:3585 Ionia.Proof_CodeGen <> idx def
+R3620:3621 Ionia.Opt_BlockFusion <> j1:23 var
+R3588:3590 Ionia.Proof_CodeGen <> idx def
+R3616:3617 Ionia.Opt_BlockFusion <> i1:22 var
+R3593:3595 Ionia.Proof_CodeGen <> idx def
+R3611:3613 Ionia.Opt_BlockFusion <> cin:21 var
+R3598:3600 Ionia.Proof_CodeGen <> idx def
+R3605:3608 Ionia.Opt_BlockFusion <> cout:18 var
+R3602:3603 Ionia.Opt_BlockFusion <> w2:16 var
+R3443:3451 Ionia.Ops_Conv <> pad_idx2d def
+R3556:3558 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R3546:3552 Ionia.finType <> fin2nat def
+R3554:3555 Ionia.Opt_BlockFusion <> j0:20 var
+R3559:3565 Ionia.finType <> fin2nat def
+R3567:3568 Ionia.Opt_BlockFusion <> j1:23 var
+R3509:3511 Corelib.Init.Nat <> ::nat_scope:x_'+'_x not
+R3499:3505 Ionia.finType <> fin2nat def
+R3507:3508 Ionia.Opt_BlockFusion <> i0:19 var
+R3512:3518 Ionia.finType <> fin2nat def
+R3520:3521 Ionia.Opt_BlockFusion <> i1:22 var
+R3456:3458 Ionia.Proof_CodeGen <> idx def
+R3472:3474 Ionia.Opt_BlockFusion <> cin:21 var
+R3461:3463 Ionia.Proof_CodeGen <> idx def
+R3469:3469 Ionia.Opt_BlockFusion <> b:17 var
+R3465:3467 Ionia.Opt_BlockFusion <> mid:15 var
+def 3825:3842 <> BB_conv2_out_slice
+R3861:3863 Corelib.Init.Datatypes <> nat ind
+binder 3845:3849 <> batch:24
+binder 3851:3851 <> c:25
+binder 3853:3854 <> m1:26
+binder 3856:3857 <> m2:27
+R3875:3877 Ionia.Proof_CodeGen <> exp def
+R3880:3882 Ionia.DataExp <> ary constr
+R3894:3896 Ionia.DataExp <> ary constr
+R3904:3906 Ionia.DataExp <> ary constr
+R3915:3917 Ionia.DataExp <> ary constr
+R3925:3927 Ionia.DataExp <> num constr
+R3919:3920 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3923:3923 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3921:3922 Ionia.Opt_BlockFusion <> m2:27 var
+R3908:3909 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3912:3912 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3910:3911 Ionia.Opt_BlockFusion <> m1:26 var
+R3898:3899 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3901:3901 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3900:3900 Ionia.Opt_BlockFusion <> c:25 var
+R3884:3885 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3891:3891 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3886:3890 Ionia.Opt_BlockFusion <> batch:24 var
+binder 3869:3871 <> mid:28
+R3942:3944 Ionia.Proof_CodeGen <> exp def
+R3947:3949 Ionia.DataExp <> ary constr
+R3956:3958 Ionia.DataExp <> num constr
+R3951:3952 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3954:3954 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3953:3953 Ionia.Opt_BlockFusion <> c:25 var
+binder 3937:3938 <> b2:29
+R3970:3972 Ionia.Proof_CodeGen <> exp def
+R3975:3977 Ionia.DataExp <> ary constr
+R3985:3987 Ionia.DataExp <> ary constr
+R3995:3997 Ionia.DataExp <> ary constr
+R4005:4007 Ionia.DataExp <> ary constr
+R4014:4016 Ionia.DataExp <> num constr
+R4009:4010 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4012:4012 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3999:4000 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4002:4002 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3989:3990 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3992:3992 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3991:3991 Ionia.Opt_BlockFusion <> c:25 var
+R3979:3980 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3982:3982 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R3981:3981 Ionia.Opt_BlockFusion <> c:25 var
+binder 3965:3966 <> w2:30
+R4030:4032 Ionia.finType <> fin def
+R4034:4038 Ionia.Opt_BlockFusion <> batch:24 var
+binder 4026:4026 <> b:31
+R4049:4051 Ionia.finType <> fin def
+R4053:4053 Ionia.Opt_BlockFusion <> c:25 var
+binder 4042:4045 <> cout:32
+R4060:4062 Ionia.Proof_CodeGen <> exp def
+R4065:4067 Ionia.DataExp <> ary constr
+R4076:4078 Ionia.DataExp <> ary constr
+R4086:4088 Ionia.DataExp <> num constr
+R4080:4081 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4084:4084 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4082:4083 Ionia.Opt_BlockFusion <> m2:27 var
+R4069:4070 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4073:4073 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4071:4072 Ionia.Opt_BlockFusion <> m1:26 var
+R4097:4102 Ionia.Proof_CodeGen <> mkvSeq def
+R4114:4116 Ionia.finType <> fin def
+R4118:4119 Ionia.Opt_BlockFusion <> m1:26 var
+binder 4109:4110 <> i0:33
+R4124:4129 Ionia.Proof_CodeGen <> mkvSeq def
+R4141:4143 Ionia.finType <> fin def
+R4145:4146 Ionia.Opt_BlockFusion <> m2:27 var
+binder 4136:4137 <> j0:34
+R4155:4157 Ionia.Proof_CodeGen <> add def
+R4246:4248 Ionia.Proof_CodeGen <> idx def
+R4253:4256 Ionia.Opt_BlockFusion <> cout:32 var
+R4250:4251 Ionia.Opt_BlockFusion <> b2:29 var
+R4160:4162 Ionia.Proof_CodeGen <> sum def
+R4165:4170 Ionia.Proof_CodeGen <> mkvSeq def
+R4183:4185 Ionia.finType <> fin def
+R4187:4187 Ionia.Opt_BlockFusion <> c:25 var
+binder 4177:4179 <> cin:35
+R4192:4208 Ionia.Opt_BlockFusion <> BB_conv2_chan_sum def
+R4230:4232 Ionia.Opt_BlockFusion <> cin:35 var
+R4227:4228 Ionia.Opt_BlockFusion <> j0:34 var
+R4224:4225 Ionia.Opt_BlockFusion <> i0:33 var
+R4219:4222 Ionia.Opt_BlockFusion <> cout:32 var
+R4217:4217 Ionia.Opt_BlockFusion <> b:31 var
+R4214:4215 Ionia.Opt_BlockFusion <> w2:30 var
+R4210:4212 Ionia.Opt_BlockFusion <> mid:28 var
+prf 4893:4915 <> A_relu_add_bn_conv_cell
+R4931:4933 Corelib.Init.Datatypes <> nat ind
+binder 4927:4927 <> n:36
+R4942:4944 Ionia.Proof_CodeGen <> exp def
+R4947:4949 Ionia.DataExp <> ary constr
+R4956:4958 Ionia.DataExp <> num constr
+R4951:4952 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4954:4954 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R4953:4953 Ionia.Opt_BlockFusion <> n:36 var
+binder 4937:4938 <> xs:37
+R4970:4972 Ionia.Proof_CodeGen <> exp def
+R4974:4976 Ionia.DataExp <> num constr
+binder 4965:4966 <> bc:38
+R4986:4988 Corelib.Init.Datatypes <> nat ind
+binder 4980:4980 <> h:39
+binder 4982:4982 <> w:40
+R4997:4999 Ionia.Proof_CodeGen <> exp def
+R5002:5004 Ionia.DataExp <> ary constr
+R5012:5014 Ionia.DataExp <> ary constr
+R5021:5023 Ionia.DataExp <> num constr
+R5016:5017 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5019:5019 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5018:5018 Ionia.Opt_BlockFusion <> w:40 var
+R5006:5007 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5009:5009 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R5008:5008 Ionia.Opt_BlockFusion <> h:39 var
+binder 4992:4993 <> x2:41
+R5047:5049 Ionia.Proof_CodeGen <> exp def
+R5051:5053 Ionia.DataExp <> num constr
+binder 5031:5033 <> gmm:42
+binder 5035:5036 <> bt:43
+binder 5038:5040 <> eps:44
+binder 5042:5043 <> xr:45
+R5062:5064 Ionia.Proof_CodeGen <> acc def
+R5066:5068 Ionia.DataExp <> num constr
+binder 5057:5058 <> oj:46
+R5295:5299 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5074:5075 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R5078:5080 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R5293:5294 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R5076:5077 Ionia.Opt_BlockFusion <> oj:46 var
+R5084:5088 Ionia.Proof_CodeGen <> leExp def
+R5172:5175 Ionia.Proof_CodeGen <> zero def
+R5091:5093 Ionia.Proof_CodeGen <> add def
+R5168:5169 Ionia.Opt_BlockFusion <> xr:45 var
+R5096:5101 Ionia.Ops_BatchNorm <> BNcell def
+R5163:5165 Ionia.Opt_BlockFusion <> eps:44 var
+R5160:5161 Ionia.Opt_BlockFusion <> bt:43 var
+R5156:5158 Ionia.Opt_BlockFusion <> gmm:42 var
+R5134:5138 Ionia.Ops_BatchNorm <> BNvar def
+R5144:5149 Ionia.Ops_BatchNorm <> BNmean def
+R5151:5152 Ionia.Opt_BlockFusion <> x2:41 var
+R5140:5141 Ionia.Opt_BlockFusion <> x2:41 var
+R5122:5127 Ionia.Ops_BatchNorm <> BNmean def
+R5129:5130 Ionia.Opt_BlockFusion <> x2:41 var
+R5104:5106 Ionia.Proof_CodeGen <> add def
+R5117:5118 Ionia.Opt_BlockFusion <> bc:38 var
+R5109:5111 Ionia.Proof_CodeGen <> sum def
+R5113:5114 Ionia.Opt_BlockFusion <> xs:37 var
+R5214:5216 Ionia.Proof_CodeGen <> add def
+R5291:5292 Ionia.Opt_BlockFusion <> xr:45 var
+R5219:5224 Ionia.Ops_BatchNorm <> BNcell def
+R5286:5288 Ionia.Opt_BlockFusion <> eps:44 var
+R5283:5284 Ionia.Opt_BlockFusion <> bt:43 var
+R5279:5281 Ionia.Opt_BlockFusion <> gmm:42 var
+R5257:5261 Ionia.Ops_BatchNorm <> BNvar def
+R5267:5272 Ionia.Ops_BatchNorm <> BNmean def
+R5274:5275 Ionia.Opt_BlockFusion <> x2:41 var
+R5263:5264 Ionia.Opt_BlockFusion <> x2:41 var
+R5245:5250 Ionia.Ops_BatchNorm <> BNmean def
+R5252:5253 Ionia.Opt_BlockFusion <> x2:41 var
+R5227:5229 Ionia.Proof_CodeGen <> add def
+R5240:5241 Ionia.Opt_BlockFusion <> bc:38 var
+R5232:5234 Ionia.Proof_CodeGen <> sum def
+R5236:5237 Ionia.Opt_BlockFusion <> xs:37 var
+R5193:5196 Ionia.Proof_CodeGen <> zero def
+R5300:5303 Ionia.DPIA_Rules <> suml def
+R5739:5740 Ionia.Opt_BlockFusion <> oj:46 var
+binder 5336:5337 <> sv:47
+R5348:5351 Ionia.DPIA_Rules <> suml def
+R5735:5736 Ionia.Opt_BlockFusion <> oj:46 var
+binder 5373:5374 <> sm:48
+R5387:5390 Ionia.DPIA_Rules <> suml def
+R5731:5732 Ionia.Opt_BlockFusion <> oj:46 var
+binder 5400:5400 <> r:49
+R5417:5422 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R5728:5728 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R5415:5416 Ionia.Opt_BlockFusion <> oj:46 var
+R5426:5430 Ionia.Proof_CodeGen <> leExp def
+R5553:5556 Ionia.Proof_CodeGen <> zero def
+R5433:5435 Ionia.Proof_CodeGen <> add def
+R5549:5550 Ionia.Opt_BlockFusion <> xr:45 var
+R5438:5443 Ionia.Ops_BatchNorm <> BNcell def
+R5544:5546 Ionia.Opt_BlockFusion <> eps:44 var
+R5541:5542 Ionia.Opt_BlockFusion <> bt:43 var
+R5537:5539 Ionia.Opt_BlockFusion <> gmm:42 var
+R5515:5517 Ionia.Proof_CodeGen <> div def
+R5523:5525 Stdlib.Reals.Raxioms <> INR def
+R5529:5531 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R5528:5528 Ionia.Opt_BlockFusion <> h:39 var
+R5532:5532 Ionia.Opt_BlockFusion <> w:40 var
+R5519:5520 Ionia.Opt_BlockFusion <> sv:47 var
+R5457:5459 Ionia.Proof_CodeGen <> div def
+R5465:5467 Stdlib.Reals.Raxioms <> INR def
+R5471:5473 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R5470:5470 Ionia.Opt_BlockFusion <> h:39 var
+R5474:5474 Ionia.Opt_BlockFusion <> w:40 var
+R5461:5462 Ionia.Opt_BlockFusion <> sm:48 var
+R5446:5448 Ionia.Proof_CodeGen <> add def
+R5452:5453 Ionia.Opt_BlockFusion <> bc:38 var
+R5450:5450 Ionia.Opt_BlockFusion <> r:49 var
+R5613:5615 Ionia.Proof_CodeGen <> add def
+R5726:5727 Ionia.Opt_BlockFusion <> xr:45 var
+R5618:5623 Ionia.Ops_BatchNorm <> BNcell def
+R5721:5723 Ionia.Opt_BlockFusion <> eps:44 var
+R5718:5719 Ionia.Opt_BlockFusion <> bt:43 var
+R5714:5716 Ionia.Opt_BlockFusion <> gmm:42 var
+R5692:5694 Ionia.Proof_CodeGen <> div def
+R5700:5702 Stdlib.Reals.Raxioms <> INR def
+R5706:5708 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R5705:5705 Ionia.Opt_BlockFusion <> h:39 var
+R5709:5709 Ionia.Opt_BlockFusion <> w:40 var
+R5696:5697 Ionia.Opt_BlockFusion <> sv:47 var
+R5637:5639 Ionia.Proof_CodeGen <> div def
+R5645:5647 Stdlib.Reals.Raxioms <> INR def
+R5651:5653 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R5650:5650 Ionia.Opt_BlockFusion <> h:39 var
+R5654:5654 Ionia.Opt_BlockFusion <> w:40 var
+R5641:5642 Ionia.Opt_BlockFusion <> sm:48 var
+R5626:5628 Ionia.Proof_CodeGen <> add def
+R5632:5633 Ionia.Opt_BlockFusion <> bc:38 var
+R5630:5630 Ionia.Opt_BlockFusion <> r:49 var
+R5583:5586 Ionia.Proof_CodeGen <> zero def
+R5392:5393 Ionia.Opt_BlockFusion <> xs:37 var
+R5354:5362 Ionia.Ops_BatchNorm <> BNmeanSum def
+R5364:5365 Ionia.Opt_BlockFusion <> x2:41 var
+R5306:5313 Ionia.Ops_BatchNorm <> BNvarSum def
+R5319:5324 Ionia.Ops_BatchNorm <> BNmean def
+R5326:5327 Ionia.Opt_BlockFusion <> x2:41 var
+R5315:5316 Ionia.Opt_BlockFusion <> x2:41 var
+R6039:6045 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5814:5815 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R5818:5820 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R6037:6038 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R5824:5828 Ionia.Proof_CodeGen <> leExp def
+R5912:5915 Ionia.Proof_CodeGen <> zero def
+R5831:5833 Ionia.Proof_CodeGen <> add def
+R5836:5841 Ionia.Ops_BatchNorm <> BNcell def
+R5874:5878 Ionia.Ops_BatchNorm <> BNvar def
+R5884:5889 Ionia.Ops_BatchNorm <> BNmean def
+R5862:5867 Ionia.Ops_BatchNorm <> BNmean def
+R5844:5846 Ionia.Proof_CodeGen <> add def
+R5849:5851 Ionia.Proof_CodeGen <> sum def
+R5958:5960 Ionia.Proof_CodeGen <> add def
+R5963:5968 Ionia.Ops_BatchNorm <> BNcell def
+R6001:6005 Ionia.Ops_BatchNorm <> BNvar def
+R6011:6016 Ionia.Ops_BatchNorm <> BNmean def
+R5989:5994 Ionia.Ops_BatchNorm <> BNmean def
+R5971:5973 Ionia.Proof_CodeGen <> add def
+R5976:5978 Ionia.Proof_CodeGen <> sum def
+R5935:5938 Ionia.Proof_CodeGen <> zero def
+R6046:6047 Ionia.DPIA_Rules <> :::'C('_x_','_x_')' not
+R6077:6078 Ionia.DPIA_Rules <> :::'C('_x_','_x_')' not
+R6494:6494 Ionia.DPIA_Rules <> :::'C('_x_','_x_')' not
+R6048:6050 Ionia.Proof_CodeGen <> sum def
+R6053:6060 Ionia.Ops_BatchNorm <> BNvarSum def
+R6066:6071 Ionia.Ops_BatchNorm <> BNmean def
+binder 6083:6084 <> sv:50
+R6097:6098 Ionia.DPIA_Rules <> :::'C('_x_','_x_')' not
+R6117:6118 Ionia.DPIA_Rules <> :::'C('_x_','_x_')' not
+R6493:6493 Ionia.DPIA_Rules <> :::'C('_x_','_x_')' not
+R6099:6101 Ionia.Proof_CodeGen <> sum def
+R6104:6112 Ionia.Ops_BatchNorm <> BNmeanSum def
+binder 6123:6124 <> sm:51
+R6139:6140 Ionia.DPIA_Rules <> :::'C('_x_','_x_')' not
+R6147:6148 Ionia.DPIA_Rules <> :::'C('_x_','_x_')' not
+R6492:6492 Ionia.DPIA_Rules <> :::'C('_x_','_x_')' not
+R6141:6143 Ionia.Proof_CodeGen <> sum def
+binder 6153:6153 <> r:52
+R6172:6177 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R6491:6491 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R6181:6185 Ionia.Proof_CodeGen <> leExp def
+R6310:6313 Ionia.Proof_CodeGen <> zero def
+R6188:6190 Ionia.Proof_CodeGen <> add def
+R6193:6198 Ionia.Ops_BatchNorm <> BNcell def
+R6272:6274 Ionia.Proof_CodeGen <> div def
+R6280:6282 Stdlib.Reals.Raxioms <> INR def
+R6286:6288 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R6276:6277 Ionia.Opt_BlockFusion <> sv:50 var
+R6212:6214 Ionia.Proof_CodeGen <> div def
+R6220:6222 Stdlib.Reals.Raxioms <> INR def
+R6226:6228 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R6216:6217 Ionia.Opt_BlockFusion <> sm:51 var
+R6201:6203 Ionia.Proof_CodeGen <> add def
+R6205:6205 Ionia.Opt_BlockFusion <> r:52 var
+R6374:6376 Ionia.Proof_CodeGen <> add def
+R6379:6384 Ionia.Ops_BatchNorm <> BNcell def
+R6455:6457 Ionia.Proof_CodeGen <> div def
+R6463:6465 Stdlib.Reals.Raxioms <> INR def
+R6469:6471 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R6459:6460 Ionia.Opt_BlockFusion <> sv:50 var
+R6398:6400 Ionia.Proof_CodeGen <> div def
+R6406:6408 Stdlib.Reals.Raxioms <> INR def
+R6412:6414 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R6402:6403 Ionia.Opt_BlockFusion <> sm:51 var
+R6387:6389 Ionia.Proof_CodeGen <> add def
+R6391:6391 Ionia.Opt_BlockFusion <> r:52 var
+R6342:6345 Ionia.Proof_CodeGen <> zero def
+binder 6083:6084 <> sv:53
+binder 6123:6124 <> sm:54
+binder 6153:6153 <> r:55
+R6276:6277 Ionia.Opt_BlockFusion <> sv:53 var
+R6216:6217 Ionia.Opt_BlockFusion <> sm:54 var
+R6205:6205 Ionia.Opt_BlockFusion <> r:55 var
+R6459:6460 Ionia.Opt_BlockFusion <> sv:53 var
+R6402:6403 Ionia.Opt_BlockFusion <> sm:54 var
+R6391:6391 Ionia.Opt_BlockFusion <> r:55 var
+R6544:6558 Ionia.Opt_TiledConv <> C_sum_post3_acc thm
+R6569:6583 Ionia.Ops_BatchNorm <> suml_cont_congr thm
+R6606:6620 Ionia.Ops_BatchNorm <> C_sum_post2_acc thm
+R6631:6645 Ionia.Ops_BatchNorm <> suml_cont_congr thm
+R6668:6681 Ionia.DPIA_Rules <> C_sum_post_acc thm
+def 7306:7330 <> BasicBlockCell_fused_comm
+R7349:7351 Corelib.Init.Datatypes <> nat ind
+binder 7333:7337 <> batch:56
+binder 7339:7339 <> c:57
+binder 7341:7342 <> m1:58
+binder 7344:7345 <> m2:59
+R7365:7367 Ionia.Proof_CodeGen <> exp def
+R7370:7372 Ionia.DataExp <> ary constr
+R7384:7386 Ionia.DataExp <> ary constr
+R7394:7396 Ionia.DataExp <> ary constr
+R7405:7407 Ionia.DataExp <> ary constr
+R7415:7417 Ionia.DataExp <> num constr
+R7409:7410 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7413:7413 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7411:7412 Ionia.Opt_BlockFusion <> m2:59 var
+R7398:7399 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7402:7402 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7400:7401 Ionia.Opt_BlockFusion <> m1:58 var
+R7388:7389 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7391:7391 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7390:7390 Ionia.Opt_BlockFusion <> c:57 var
+R7374:7375 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7381:7381 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7376:7380 Ionia.Opt_BlockFusion <> batch:56 var
+binder 7357:7361 <> input:60
+R7433:7435 Ionia.Proof_CodeGen <> exp def
+R7438:7440 Ionia.DataExp <> ary constr
+R7452:7454 Ionia.DataExp <> ary constr
+R7462:7464 Ionia.DataExp <> ary constr
+R7473:7475 Ionia.DataExp <> ary constr
+R7483:7485 Ionia.DataExp <> num constr
+R7477:7478 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7481:7481 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7479:7480 Ionia.Opt_BlockFusion <> m2:59 var
+R7466:7467 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7470:7470 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7468:7469 Ionia.Opt_BlockFusion <> m1:58 var
+R7456:7457 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7459:7459 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7458:7458 Ionia.Opt_BlockFusion <> c:57 var
+R7442:7443 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7449:7449 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7444:7448 Ionia.Opt_BlockFusion <> batch:56 var
+binder 7427:7429 <> mid:61
+R7500:7502 Ionia.Proof_CodeGen <> exp def
+R7505:7507 Ionia.DataExp <> ary constr
+R7514:7516 Ionia.DataExp <> num constr
+R7509:7510 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7512:7512 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7511:7511 Ionia.Opt_BlockFusion <> c:57 var
+binder 7495:7496 <> b2:62
+R7528:7530 Ionia.Proof_CodeGen <> exp def
+R7533:7535 Ionia.DataExp <> ary constr
+R7543:7545 Ionia.DataExp <> ary constr
+R7553:7555 Ionia.DataExp <> ary constr
+R7563:7565 Ionia.DataExp <> ary constr
+R7572:7574 Ionia.DataExp <> num constr
+R7567:7568 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7570:7570 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7557:7558 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7560:7560 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7547:7548 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7550:7550 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7549:7549 Ionia.Opt_BlockFusion <> c:57 var
+R7537:7538 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7540:7540 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7539:7539 Ionia.Opt_BlockFusion <> c:57 var
+binder 7523:7524 <> w2:63
+R7589:7591 Ionia.Proof_CodeGen <> exp def
+R7594:7596 Ionia.DataExp <> ary constr
+R7603:7605 Ionia.DataExp <> num constr
+R7598:7599 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7601:7601 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7600:7600 Ionia.Opt_BlockFusion <> c:57 var
+binder 7584:7585 <> g2:64
+R7615:7617 Ionia.Proof_CodeGen <> exp def
+R7620:7622 Ionia.DataExp <> ary constr
+R7629:7631 Ionia.DataExp <> num constr
+R7624:7625 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7627:7627 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R7626:7626 Ionia.Opt_BlockFusion <> c:57 var
+binder 7610:7611 <> z2:65
+R7642:7644 Ionia.Proof_CodeGen <> exp def
+R7646:7648 Ionia.DataExp <> num constr
+binder 7636:7638 <> eps:66
+R7658:7660 Ionia.finType <> fin def
+R7662:7666 Ionia.Opt_BlockFusion <> batch:56 var
+binder 7654:7654 <> b:67
+R7677:7679 Ionia.finType <> fin def
+R7681:7681 Ionia.Opt_BlockFusion <> c:57 var
+binder 7670:7673 <> cout:68
+R7690:7692 Ionia.finType <> fin def
+R7694:7695 Ionia.Opt_BlockFusion <> m1:58 var
+binder 7685:7686 <> i0:69
+R7704:7706 Ionia.finType <> fin def
+R7708:7709 Ionia.Opt_BlockFusion <> m2:59 var
+binder 7699:7700 <> j0:70
+R7729:7731 Ionia.Proof_CodeGen <> acc def
+R7733:7735 Ionia.DataExp <> num constr
+binder 7715:7725 <> output_cell:71
+R7740:7743 Ionia.Proof_CodeGen <> comm def
+R7750:7753 Ionia.DPIA_Rules <> suml def
+R8828:8838 Ionia.Opt_BlockFusion <> output_cell:71 var
+R7882:7884 Ionia.Proof_CodeGen <> exp def
+R7886:7888 Ionia.DataExp <> num constr
+binder 7877:7878 <> sv:72
+R7899:7902 Ionia.DPIA_Rules <> suml def
+R8815:8825 Ionia.Opt_BlockFusion <> output_cell:71 var
+R7972:7974 Ionia.Proof_CodeGen <> exp def
+R7976:7978 Ionia.DataExp <> num constr
+binder 7967:7968 <> sm:73
+R7993:7996 Ionia.DPIA_Rules <> suml def
+R8802:8812 Ionia.Opt_BlockFusion <> output_cell:71 var
+R8091:8093 Ionia.Proof_CodeGen <> exp def
+R8095:8097 Ionia.DataExp <> num constr
+binder 8087:8087 <> r:74
+R8127:8148 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R8787:8787 Ionia.Proof_CodeGen <> :::x_'|:='_x not
+R8116:8126 Ionia.Opt_BlockFusion <> output_cell:71 var
+R8152:8156 Ionia.Proof_CodeGen <> leExp def
+R8449:8452 Ionia.Proof_CodeGen <> zero def
+R8159:8161 Ionia.Proof_CodeGen <> add def
+R8406:8408 Ionia.Proof_CodeGen <> idx def
+R8444:8445 Ionia.Opt_BlockFusion <> j0:70 var
+R8411:8413 Ionia.Proof_CodeGen <> idx def
+R8440:8441 Ionia.Opt_BlockFusion <> i0:69 var
+R8416:8418 Ionia.Proof_CodeGen <> idx def
+R8434:8437 Ionia.Opt_BlockFusion <> cout:68 var
+R8421:8423 Ionia.Proof_CodeGen <> idx def
+R8431:8431 Ionia.Opt_BlockFusion <> b:67 var
+R8425:8429 Ionia.Opt_BlockFusion <> input:60 var
+R8164:8169 Ionia.Ops_BatchNorm <> BNcell def
+R8373:8375 Ionia.Opt_BlockFusion <> eps:66 var
+R8360:8362 Ionia.Proof_CodeGen <> idx def
+R8367:8370 Ionia.Opt_BlockFusion <> cout:68 var
+R8364:8365 Ionia.Opt_BlockFusion <> z2:65 var
+R8346:8348 Ionia.Proof_CodeGen <> idx def
+R8353:8356 Ionia.Opt_BlockFusion <> cout:68 var
+R8350:8351 Ionia.Opt_BlockFusion <> g2:64 var
+R8287:8289 Ionia.Proof_CodeGen <> div def
+R8295:8297 Stdlib.Reals.Raxioms <> INR def
+R8302:8304 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R8300:8301 Ionia.Opt_BlockFusion <> m1:58 var
+R8305:8306 Ionia.Opt_BlockFusion <> m2:59 var
+R8291:8292 Ionia.Opt_BlockFusion <> sv:72 var
+R8228:8230 Ionia.Proof_CodeGen <> div def
+R8236:8238 Stdlib.Reals.Raxioms <> INR def
+R8243:8245 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R8241:8242 Ionia.Opt_BlockFusion <> m1:58 var
+R8246:8247 Ionia.Opt_BlockFusion <> m2:59 var
+R8232:8233 Ionia.Opt_BlockFusion <> sm:73 var
+R8172:8174 Ionia.Proof_CodeGen <> add def
+R8179:8181 Ionia.Proof_CodeGen <> idx def
+R8186:8189 Ionia.Opt_BlockFusion <> cout:68 var
+R8183:8184 Ionia.Opt_BlockFusion <> b2:62 var
+R8176:8176 Ionia.Opt_BlockFusion <> r:74 var
+R8507:8509 Ionia.Proof_CodeGen <> add def
+R8746:8748 Ionia.Proof_CodeGen <> idx def
+R8784:8785 Ionia.Opt_BlockFusion <> j0:70 var
+R8751:8753 Ionia.Proof_CodeGen <> idx def
+R8780:8781 Ionia.Opt_BlockFusion <> i0:69 var
+R8756:8758 Ionia.Proof_CodeGen <> idx def
+R8774:8777 Ionia.Opt_BlockFusion <> cout:68 var
+R8761:8763 Ionia.Proof_CodeGen <> idx def
+R8771:8771 Ionia.Opt_BlockFusion <> b:67 var
+R8765:8769 Ionia.Opt_BlockFusion <> input:60 var
+R8512:8517 Ionia.Ops_BatchNorm <> BNcell def
+R8712:8714 Ionia.Opt_BlockFusion <> eps:66 var
+R8699:8701 Ionia.Proof_CodeGen <> idx def
+R8706:8709 Ionia.Opt_BlockFusion <> cout:68 var
+R8703:8704 Ionia.Opt_BlockFusion <> z2:65 var
+R8685:8687 Ionia.Proof_CodeGen <> idx def
+R8692:8695 Ionia.Opt_BlockFusion <> cout:68 var
+R8689:8690 Ionia.Opt_BlockFusion <> g2:64 var
+R8629:8631 Ionia.Proof_CodeGen <> div def
+R8637:8639 Stdlib.Reals.Raxioms <> INR def
+R8644:8646 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R8642:8643 Ionia.Opt_BlockFusion <> m1:58 var
+R8647:8648 Ionia.Opt_BlockFusion <> m2:59 var
+R8633:8634 Ionia.Opt_BlockFusion <> sv:72 var
+R8573:8575 Ionia.Proof_CodeGen <> div def
+R8581:8583 Stdlib.Reals.Raxioms <> INR def
+R8588:8590 Corelib.Init.Nat <> ::nat_scope:x_'*'_x not
+R8586:8587 Ionia.Opt_BlockFusion <> m1:58 var
+R8591:8592 Ionia.Opt_BlockFusion <> m2:59 var
+R8577:8578 Ionia.Opt_BlockFusion <> sm:73 var
+R8520:8522 Ionia.Proof_CodeGen <> add def
+R8527:8529 Ionia.Proof_CodeGen <> idx def
+R8534:8537 Ionia.Opt_BlockFusion <> cout:68 var
+R8531:8532 Ionia.Opt_BlockFusion <> b2:62 var
+R8524:8524 Ionia.Opt_BlockFusion <> r:74 var
+R8478:8481 Ionia.Proof_CodeGen <> zero def
+R7999:8004 Ionia.Proof_CodeGen <> mkvSeq def
+R8017:8019 Ionia.finType <> fin def
+R8021:8021 Ionia.Opt_BlockFusion <> c:57 var
+binder 8011:8013 <> cin:75
+R8026:8042 Ionia.Opt_BlockFusion <> BB_conv2_chan_sum def
+R8064:8066 Ionia.Opt_BlockFusion <> cin:75 var
+R8061:8062 Ionia.Opt_BlockFusion <> j0:70 var
+R8058:8059 Ionia.Opt_BlockFusion <> i0:69 var
+R8053:8056 Ionia.Opt_BlockFusion <> cout:68 var
+R8051:8051 Ionia.Opt_BlockFusion <> b:67 var
+R8048:8049 Ionia.Opt_BlockFusion <> w2:63 var
+R8044:8046 Ionia.Opt_BlockFusion <> mid:61 var
+R7905:7913 Ionia.Ops_BatchNorm <> BNmeanSum def
+R7916:7933 Ionia.Opt_BlockFusion <> BB_conv2_out_slice def
+R7947:7950 Ionia.Opt_BlockFusion <> cout:68 var
+R7945:7945 Ionia.Opt_BlockFusion <> b:67 var
+R7942:7943 Ionia.Opt_BlockFusion <> w2:63 var
+R7939:7940 Ionia.Opt_BlockFusion <> b2:62 var
+R7935:7937 Ionia.Opt_BlockFusion <> mid:61 var
+R7756:7763 Ionia.Ops_BatchNorm <> BNvarSum def
+R7821:7826 Ionia.Ops_BatchNorm <> BNmean def
+R7829:7846 Ionia.Opt_BlockFusion <> BB_conv2_out_slice def
+R7860:7863 Ionia.Opt_BlockFusion <> cout:68 var
+R7858:7858 Ionia.Opt_BlockFusion <> b:67 var
+R7855:7856 Ionia.Opt_BlockFusion <> w2:63 var
+R7852:7853 Ionia.Opt_BlockFusion <> b2:62 var
+R7848:7850 Ionia.Opt_BlockFusion <> mid:61 var
+R7766:7783 Ionia.Opt_BlockFusion <> BB_conv2_out_slice def
+R7797:7800 Ionia.Opt_BlockFusion <> cout:68 var
+R7795:7795 Ionia.Opt_BlockFusion <> b:67 var
+R7792:7793 Ionia.Opt_BlockFusion <> w2:63 var
+R7789:7790 Ionia.Opt_BlockFusion <> b2:62 var
+R7785:7787 Ionia.Opt_BlockFusion <> mid:61 var
+def 9070:9090 <> BasicBlock_fused_comm
+R9109:9111 Corelib.Init.Datatypes <> nat ind
+binder 9093:9097 <> batch:76
+binder 9099:9099 <> c:77
+binder 9101:9102 <> m1:78
+binder 9104:9105 <> m2:79
+R9125:9127 Ionia.Proof_CodeGen <> exp def
+R9130:9132 Ionia.DataExp <> ary constr
+R9144:9146 Ionia.DataExp <> ary constr
+R9154:9156 Ionia.DataExp <> ary constr
+R9165:9167 Ionia.DataExp <> ary constr
+R9175:9177 Ionia.DataExp <> num constr
+R9169:9170 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9173:9173 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9171:9172 Ionia.Opt_BlockFusion <> m2:79 var
+R9158:9159 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9162:9162 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9160:9161 Ionia.Opt_BlockFusion <> m1:78 var
+R9148:9149 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9151:9151 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9150:9150 Ionia.Opt_BlockFusion <> c:77 var
+R9134:9135 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9141:9141 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9136:9140 Ionia.Opt_BlockFusion <> batch:76 var
+binder 9117:9121 <> input:80
+R9192:9194 Ionia.Proof_CodeGen <> exp def
+R9197:9199 Ionia.DataExp <> ary constr
+R9207:9209 Ionia.DataExp <> ary constr
+R9217:9219 Ionia.DataExp <> ary constr
+R9227:9229 Ionia.DataExp <> ary constr
+R9236:9238 Ionia.DataExp <> num constr
+R9231:9232 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9234:9234 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9221:9222 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9224:9224 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9211:9212 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9214:9214 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9213:9213 Ionia.Opt_BlockFusion <> c:77 var
+R9201:9202 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9204:9204 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9203:9203 Ionia.Opt_BlockFusion <> c:77 var
+binder 9187:9188 <> w1:81
+R9253:9255 Ionia.Proof_CodeGen <> exp def
+R9258:9260 Ionia.DataExp <> ary constr
+R9267:9269 Ionia.DataExp <> num constr
+R9262:9263 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9265:9265 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9264:9264 Ionia.Opt_BlockFusion <> c:77 var
+binder 9248:9249 <> b1:82
+R9279:9281 Ionia.Proof_CodeGen <> exp def
+R9284:9286 Ionia.DataExp <> ary constr
+R9293:9295 Ionia.DataExp <> num constr
+R9288:9289 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9291:9291 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9290:9290 Ionia.Opt_BlockFusion <> c:77 var
+binder 9274:9275 <> g1:83
+R9305:9307 Ionia.Proof_CodeGen <> exp def
+R9310:9312 Ionia.DataExp <> ary constr
+R9319:9321 Ionia.DataExp <> num constr
+R9314:9315 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9317:9317 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9316:9316 Ionia.Opt_BlockFusion <> c:77 var
+binder 9300:9301 <> z1:84
+R9333:9335 Ionia.Proof_CodeGen <> exp def
+R9338:9340 Ionia.DataExp <> ary constr
+R9348:9350 Ionia.DataExp <> ary constr
+R9358:9360 Ionia.DataExp <> ary constr
+R9368:9370 Ionia.DataExp <> ary constr
+R9377:9379 Ionia.DataExp <> num constr
+R9372:9373 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9375:9375 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9362:9363 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9365:9365 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9352:9353 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9355:9355 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9354:9354 Ionia.Opt_BlockFusion <> c:77 var
+R9342:9343 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9345:9345 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9344:9344 Ionia.Opt_BlockFusion <> c:77 var
+binder 9328:9329 <> w2:85
+R9394:9396 Ionia.Proof_CodeGen <> exp def
+R9399:9401 Ionia.DataExp <> ary constr
+R9408:9410 Ionia.DataExp <> num constr
+R9403:9404 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9406:9406 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9405:9405 Ionia.Opt_BlockFusion <> c:77 var
+binder 9389:9390 <> b2:86
+R9420:9422 Ionia.Proof_CodeGen <> exp def
+R9425:9427 Ionia.DataExp <> ary constr
+R9434:9436 Ionia.DataExp <> num constr
+R9429:9430 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9432:9432 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9431:9431 Ionia.Opt_BlockFusion <> c:77 var
+binder 9415:9416 <> g2:87
+R9446:9448 Ionia.Proof_CodeGen <> exp def
+R9451:9453 Ionia.DataExp <> ary constr
+R9460:9462 Ionia.DataExp <> num constr
+R9455:9456 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9458:9458 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9457:9457 Ionia.Opt_BlockFusion <> c:77 var
+binder 9441:9442 <> z2:88
+R9475:9477 Ionia.Proof_CodeGen <> exp def
+R9479:9481 Ionia.DataExp <> num constr
+binder 9469:9471 <> eps:89
+R9496:9498 Ionia.Proof_CodeGen <> acc def
+R9501:9503 Ionia.DataExp <> ary constr
+R9515:9517 Ionia.DataExp <> ary constr
+R9525:9527 Ionia.DataExp <> ary constr
+R9536:9538 Ionia.DataExp <> ary constr
+R9546:9548 Ionia.DataExp <> num constr
+R9540:9541 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9544:9544 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9542:9543 Ionia.Opt_BlockFusion <> m2:79 var
+R9529:9530 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9533:9533 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9531:9532 Ionia.Opt_BlockFusion <> m1:78 var
+R9519:9520 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9522:9522 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9521:9521 Ionia.Opt_BlockFusion <> c:77 var
+R9505:9506 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9512:9512 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R9507:9511 Ionia.Opt_BlockFusion <> batch:76 var
+binder 9487:9492 <> output:90
+R9559:9562 Ionia.Proof_CodeGen <> comm def
+R9569:9575 Ionia.DPIA_Rules <> mkvSeql def
+R9785:9790 Ionia.Opt_BlockFusion <> output:90 var
+binder 9582:9582 <> b:91
+binder 9584:9585 <> ob:92
+R9590:9596 Ionia.DPIA_Rules <> mkvSeql def
+R9781:9782 Ionia.Opt_BlockFusion <> ob:92 var
+binder 9603:9606 <> cout:93
+binder 9608:9609 <> oc:94
+R9618:9624 Ionia.DPIA_Rules <> mkvSeql def
+R9777:9778 Ionia.Opt_BlockFusion <> oc:94 var
+binder 9631:9632 <> i0:95
+binder 9634:9635 <> o0:96
+R9640:9646 Ionia.DPIA_Rules <> mkvSeql def
+R9773:9774 Ionia.Opt_BlockFusion <> o0:96 var
+binder 9653:9654 <> j0:97
+binder 9656:9657 <> o1:98
+R9668:9692 Ionia.Opt_BlockFusion <> BasicBlockCell_fused_comm def
+R9769:9770 Ionia.Opt_BlockFusion <> o1:98 var
+R9766:9767 Ionia.Opt_BlockFusion <> j0:97 var
+R9763:9764 Ionia.Opt_BlockFusion <> i0:95 var
+R9758:9761 Ionia.Opt_BlockFusion <> cout:93 var
+R9756:9756 Ionia.Opt_BlockFusion <> b:91 var
+R9752:9754 Ionia.Opt_BlockFusion <> eps:89 var
+R9749:9750 Ionia.Opt_BlockFusion <> z2:88 var
+R9746:9747 Ionia.Opt_BlockFusion <> g2:87 var
+R9743:9744 Ionia.Opt_BlockFusion <> w2:85 var
+R9740:9741 Ionia.Opt_BlockFusion <> b2:86 var
+R9701:9707 Ionia.Opt_BlockFusion <> BB_mid1 def
+R9727:9729 Ionia.Opt_BlockFusion <> eps:89 var
+R9724:9725 Ionia.Opt_BlockFusion <> z1:84 var
+R9721:9722 Ionia.Opt_BlockFusion <> g1:83 var
+R9718:9719 Ionia.Opt_BlockFusion <> b1:82 var
+R9715:9716 Ionia.Opt_BlockFusion <> w1:81 var
+R9709:9713 Ionia.Opt_BlockFusion <> input:80 var
+R9694:9698 Ionia.Opt_BlockFusion <> input:80 var
+prf 10390:10407 <> A_BasicBlock_fused
+R10435:10437 Corelib.Init.Datatypes <> nat ind
+binder 10419:10423 <> batch:99
+binder 10425:10425 <> c:100
+binder 10427:10428 <> m1:101
+binder 10430:10431 <> m2:102
+R10453:10455 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R10448:10452 Ionia.Opt_BlockFusion <> batch:99 var
+binder 10443:10444 <> Hb:103
+R10466:10468 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R10465:10465 Ionia.Opt_BlockFusion <> c:100 var
+binder 10460:10461 <> Hc:104
+R10481:10483 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R10479:10480 Ionia.Opt_BlockFusion <> m1:101 var
+binder 10473:10475 <> Hm1:105
+R10496:10498 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R10494:10495 Ionia.Opt_BlockFusion <> m2:102 var
+binder 10488:10490 <> Hm2:106
+R10513:10515 Ionia.Proof_CodeGen <> exp def
+R10518:10520 Ionia.DataExp <> ary constr
+R10532:10534 Ionia.DataExp <> ary constr
+R10542:10544 Ionia.DataExp <> ary constr
+R10553:10555 Ionia.DataExp <> ary constr
+R10563:10565 Ionia.DataExp <> num constr
+R10557:10558 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10561:10561 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10559:10560 Ionia.Opt_BlockFusion <> m2:102 var
+R10546:10547 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10550:10550 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10548:10549 Ionia.Opt_BlockFusion <> m1:101 var
+R10536:10537 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10539:10539 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10538:10538 Ionia.Opt_BlockFusion <> c:100 var
+R10522:10523 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10529:10529 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10524:10528 Ionia.Opt_BlockFusion <> batch:99 var
+binder 10505:10509 <> input:107
+R10580:10582 Ionia.Proof_CodeGen <> exp def
+R10585:10587 Ionia.DataExp <> ary constr
+R10595:10597 Ionia.DataExp <> ary constr
+R10605:10607 Ionia.DataExp <> ary constr
+R10615:10617 Ionia.DataExp <> ary constr
+R10624:10626 Ionia.DataExp <> num constr
+R10619:10620 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10622:10622 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10609:10610 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10612:10612 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10599:10600 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10602:10602 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10601:10601 Ionia.Opt_BlockFusion <> c:100 var
+R10589:10590 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10592:10592 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10591:10591 Ionia.Opt_BlockFusion <> c:100 var
+binder 10575:10576 <> w1:108
+R10641:10643 Ionia.Proof_CodeGen <> exp def
+R10646:10648 Ionia.DataExp <> ary constr
+R10655:10657 Ionia.DataExp <> num constr
+R10650:10651 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10653:10653 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10652:10652 Ionia.Opt_BlockFusion <> c:100 var
+binder 10636:10637 <> b1:109
+R10667:10669 Ionia.Proof_CodeGen <> exp def
+R10672:10674 Ionia.DataExp <> ary constr
+R10681:10683 Ionia.DataExp <> num constr
+R10676:10677 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10679:10679 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10678:10678 Ionia.Opt_BlockFusion <> c:100 var
+binder 10662:10663 <> g1:110
+R10693:10695 Ionia.Proof_CodeGen <> exp def
+R10698:10700 Ionia.DataExp <> ary constr
+R10707:10709 Ionia.DataExp <> num constr
+R10702:10703 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10705:10705 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10704:10704 Ionia.Opt_BlockFusion <> c:100 var
+binder 10688:10689 <> z1:111
+R10721:10723 Ionia.Proof_CodeGen <> exp def
+R10726:10728 Ionia.DataExp <> ary constr
+R10736:10738 Ionia.DataExp <> ary constr
+R10746:10748 Ionia.DataExp <> ary constr
+R10756:10758 Ionia.DataExp <> ary constr
+R10765:10767 Ionia.DataExp <> num constr
+R10760:10761 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10763:10763 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10750:10751 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10753:10753 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10740:10741 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10743:10743 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10742:10742 Ionia.Opt_BlockFusion <> c:100 var
+R10730:10731 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10733:10733 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10732:10732 Ionia.Opt_BlockFusion <> c:100 var
+binder 10716:10717 <> w2:112
+R10782:10784 Ionia.Proof_CodeGen <> exp def
+R10787:10789 Ionia.DataExp <> ary constr
+R10796:10798 Ionia.DataExp <> num constr
+R10791:10792 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10794:10794 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10793:10793 Ionia.Opt_BlockFusion <> c:100 var
+binder 10777:10778 <> b2:113
+R10808:10810 Ionia.Proof_CodeGen <> exp def
+R10813:10815 Ionia.DataExp <> ary constr
+R10822:10824 Ionia.DataExp <> num constr
+R10817:10818 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10820:10820 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10819:10819 Ionia.Opt_BlockFusion <> c:100 var
+binder 10803:10804 <> g2:114
+R10834:10836 Ionia.Proof_CodeGen <> exp def
+R10839:10841 Ionia.DataExp <> ary constr
+R10848:10850 Ionia.DataExp <> num constr
+R10843:10844 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10846:10846 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10845:10845 Ionia.Opt_BlockFusion <> c:100 var
+binder 10829:10830 <> z2:115
+R10863:10865 Ionia.Proof_CodeGen <> exp def
+R10867:10869 Ionia.DataExp <> num constr
+binder 10857:10859 <> eps:116
+R10884:10886 Ionia.Proof_CodeGen <> acc def
+R10889:10891 Ionia.DataExp <> ary constr
+R10903:10905 Ionia.DataExp <> ary constr
+R10913:10915 Ionia.DataExp <> ary constr
+R10924:10926 Ionia.DataExp <> ary constr
+R10934:10936 Ionia.DataExp <> num constr
+R10928:10929 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10932:10932 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10930:10931 Ionia.Opt_BlockFusion <> m2:102 var
+R10917:10918 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10921:10921 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10919:10920 Ionia.Opt_BlockFusion <> m1:101 var
+R10907:10908 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10910:10910 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10909:10909 Ionia.Opt_BlockFusion <> c:100 var
+R10893:10894 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10900:10900 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R10895:10899 Ionia.Opt_BlockFusion <> batch:99 var
+binder 10875:10880 <> output:117
+R11069:11073 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10946:10947 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R10954:10955 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R11068:11068 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R10948:10953 Ionia.Opt_BlockFusion <> output:117 var
+R10956:10961 Ionia.Ops_Elementwise <> ReLU4d def
+R10964:10968 Ionia.Ops_Elementwise <> Add4d def
+R11062:11066 Ionia.Opt_BlockFusion <> input:107 var
+R10971:10981 Ionia.Ops_BatchNorm <> BatchNorm4d def
+R11057:11059 Ionia.Opt_BlockFusion <> eps:116 var
+R11054:11055 Ionia.Opt_BlockFusion <> z2:115 var
+R11051:11052 Ionia.Opt_BlockFusion <> g2:114 var
+R10984:10996 Ionia.ResNet18_DPIA <> Conv4d_3x3_s1 def
+R11019:11025 Ionia.Opt_BlockFusion <> BB_mid1 def
+R11045:11047 Ionia.Opt_BlockFusion <> eps:116 var
+R11042:11043 Ionia.Opt_BlockFusion <> z1:111 var
+R11039:11040 Ionia.Opt_BlockFusion <> g1:110 var
+R11036:11037 Ionia.Opt_BlockFusion <> b1:109 var
+R11033:11034 Ionia.Opt_BlockFusion <> w1:108 var
+R11027:11031 Ionia.Opt_BlockFusion <> input:107 var
+R11001:11002 Ionia.Opt_BlockFusion <> w2:112 var
+R10998:10999 Ionia.Opt_BlockFusion <> b2:113 var
+R11074:11094 Ionia.Opt_BlockFusion <> BasicBlock_fused_comm def
+R11130:11135 Ionia.Opt_BlockFusion <> output:117 var
+R11126:11128 Ionia.Opt_BlockFusion <> eps:116 var
+R11123:11124 Ionia.Opt_BlockFusion <> z2:115 var
+R11120:11121 Ionia.Opt_BlockFusion <> g2:114 var
+R11117:11118 Ionia.Opt_BlockFusion <> b2:113 var
+R11114:11115 Ionia.Opt_BlockFusion <> w2:112 var
+R11111:11112 Ionia.Opt_BlockFusion <> z1:111 var
+R11108:11109 Ionia.Opt_BlockFusion <> g1:110 var
+R11105:11106 Ionia.Opt_BlockFusion <> b1:109 var
+R11102:11103 Ionia.Opt_BlockFusion <> w1:108 var
+R11096:11100 Ionia.Opt_BlockFusion <> input:107 var
+R11164:11169 Ionia.Ops_Elementwise <> ReLU4d def
+R11172:11176 Ionia.Ops_Elementwise <> Add4d def
+R11179:11189 Ionia.Ops_BatchNorm <> BatchNorm4d def
+R11192:11204 Ionia.ResNet18_DPIA <> Conv4d_3x3_s1 def
+R11216:11233 Ionia.Opt_BlockFusion <> BB_conv2_out_slice def
+R11236:11252 Ionia.Opt_BlockFusion <> BB_conv2_chan_sum def
+R11264:11284 Ionia.Opt_BlockFusion <> BasicBlock_fused_comm def
+R11287:11311 Ionia.Opt_BlockFusion <> BasicBlockCell_fused_comm def
+R11324:11330 Ionia.DPIA_Rules <> AmkvSeq thm
+R11339:11359 Ionia.Proof_CodeGen <> seqfor_extensionality thm
+R11381:11387 Ionia.DPIA_Rules <> AmkvSeq thm
+R11396:11416 Ionia.Proof_CodeGen <> seqfor_extensionality thm
+R11441:11447 Ionia.DPIA_Rules <> AmkvSeq thm
+R11456:11476 Ionia.Proof_CodeGen <> seqfor_extensionality thm
+R11499:11505 Ionia.DPIA_Rules <> AmkvSeq thm
+R11514:11534 Ionia.Proof_CodeGen <> seqfor_extensionality thm
+R11570:11579 Ionia.Proof_CodeGen <> idx_mkvSeq thm
+R11597:11619 Ionia.Opt_BlockFusion <> A_relu_add_bn_conv_cell thm
+prf 11779:11799 <> A_BasicBlock_id_fused
+R11827:11829 Corelib.Init.Datatypes <> nat ind
+binder 11811:11815 <> batch:118
+binder 11817:11817 <> c:119
+binder 11819:11820 <> m1:120
+binder 11822:11823 <> m2:121
+R11845:11847 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R11840:11844 Ionia.Opt_BlockFusion <> batch:118 var
+binder 11835:11836 <> Hb:122
+R11858:11860 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R11857:11857 Ionia.Opt_BlockFusion <> c:119 var
+binder 11852:11853 <> Hc:123
+R11873:11875 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R11871:11872 Ionia.Opt_BlockFusion <> m1:120 var
+binder 11865:11867 <> Hm1:124
+R11888:11890 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R11886:11887 Ionia.Opt_BlockFusion <> m2:121 var
+binder 11880:11882 <> Hm2:125
+R11905:11907 Ionia.Proof_CodeGen <> exp def
+R11910:11912 Ionia.DataExp <> ary constr
+R11924:11926 Ionia.DataExp <> ary constr
+R11934:11936 Ionia.DataExp <> ary constr
+R11945:11947 Ionia.DataExp <> ary constr
+R11955:11957 Ionia.DataExp <> num constr
+R11949:11950 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11953:11953 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11951:11952 Ionia.Opt_BlockFusion <> m2:121 var
+R11938:11939 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11942:11942 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11940:11941 Ionia.Opt_BlockFusion <> m1:120 var
+R11928:11929 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11931:11931 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11930:11930 Ionia.Opt_BlockFusion <> c:119 var
+R11914:11915 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11921:11921 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11916:11920 Ionia.Opt_BlockFusion <> batch:118 var
+binder 11897:11901 <> input:126
+R11972:11974 Ionia.Proof_CodeGen <> exp def
+R11977:11979 Ionia.DataExp <> ary constr
+R11987:11989 Ionia.DataExp <> ary constr
+R11997:11999 Ionia.DataExp <> ary constr
+R12007:12009 Ionia.DataExp <> ary constr
+R12016:12018 Ionia.DataExp <> num constr
+R12011:12012 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12014:12014 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12001:12002 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12004:12004 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11991:11992 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11994:11994 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11993:11993 Ionia.Opt_BlockFusion <> c:119 var
+R11981:11982 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11984:11984 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R11983:11983 Ionia.Opt_BlockFusion <> c:119 var
+binder 11967:11968 <> w1:127
+R12033:12035 Ionia.Proof_CodeGen <> exp def
+R12038:12040 Ionia.DataExp <> ary constr
+R12047:12049 Ionia.DataExp <> num constr
+R12042:12043 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12045:12045 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12044:12044 Ionia.Opt_BlockFusion <> c:119 var
+binder 12028:12029 <> b1:128
+R12059:12061 Ionia.Proof_CodeGen <> exp def
+R12064:12066 Ionia.DataExp <> ary constr
+R12073:12075 Ionia.DataExp <> num constr
+R12068:12069 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12071:12071 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12070:12070 Ionia.Opt_BlockFusion <> c:119 var
+binder 12054:12055 <> g1:129
+R12085:12087 Ionia.Proof_CodeGen <> exp def
+R12090:12092 Ionia.DataExp <> ary constr
+R12099:12101 Ionia.DataExp <> num constr
+R12094:12095 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12097:12097 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12096:12096 Ionia.Opt_BlockFusion <> c:119 var
+binder 12080:12081 <> z1:130
+R12113:12115 Ionia.Proof_CodeGen <> exp def
+R12118:12120 Ionia.DataExp <> ary constr
+R12128:12130 Ionia.DataExp <> ary constr
+R12138:12140 Ionia.DataExp <> ary constr
+R12148:12150 Ionia.DataExp <> ary constr
+R12157:12159 Ionia.DataExp <> num constr
+R12152:12153 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12155:12155 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12142:12143 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12145:12145 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12132:12133 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12135:12135 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12134:12134 Ionia.Opt_BlockFusion <> c:119 var
+R12122:12123 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12125:12125 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12124:12124 Ionia.Opt_BlockFusion <> c:119 var
+binder 12108:12109 <> w2:131
+R12174:12176 Ionia.Proof_CodeGen <> exp def
+R12179:12181 Ionia.DataExp <> ary constr
+R12188:12190 Ionia.DataExp <> num constr
+R12183:12184 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12186:12186 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12185:12185 Ionia.Opt_BlockFusion <> c:119 var
+binder 12169:12170 <> b2:132
+R12200:12202 Ionia.Proof_CodeGen <> exp def
+R12205:12207 Ionia.DataExp <> ary constr
+R12214:12216 Ionia.DataExp <> num constr
+R12209:12210 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12212:12212 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12211:12211 Ionia.Opt_BlockFusion <> c:119 var
+binder 12195:12196 <> g2:133
+R12226:12228 Ionia.Proof_CodeGen <> exp def
+R12231:12233 Ionia.DataExp <> ary constr
+R12240:12242 Ionia.DataExp <> num constr
+R12235:12236 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12238:12238 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12237:12237 Ionia.Opt_BlockFusion <> c:119 var
+binder 12221:12222 <> z2:134
+R12255:12257 Ionia.Proof_CodeGen <> exp def
+R12259:12261 Ionia.DataExp <> num constr
+binder 12249:12251 <> eps:135
+R12276:12278 Ionia.Proof_CodeGen <> acc def
+R12281:12283 Ionia.DataExp <> ary constr
+R12295:12297 Ionia.DataExp <> ary constr
+R12305:12307 Ionia.DataExp <> ary constr
+R12316:12318 Ionia.DataExp <> ary constr
+R12326:12328 Ionia.DataExp <> num constr
+R12320:12321 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12324:12324 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12322:12323 Ionia.Opt_BlockFusion <> m2:121 var
+R12309:12310 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12313:12313 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12311:12312 Ionia.Opt_BlockFusion <> m1:120 var
+R12299:12300 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12302:12302 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12301:12301 Ionia.Opt_BlockFusion <> c:119 var
+R12285:12286 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12292:12292 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12287:12291 Ionia.Opt_BlockFusion <> batch:118 var
+binder 12267:12272 <> output:136
+R12396:12400 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12338:12339 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R12346:12347 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R12395:12395 Ionia.DPIA_Rules <> :::'A('_x_','_x_')' not
+R12340:12345 Ionia.Opt_BlockFusion <> output:136 var
+R12348:12360 Ionia.ResNet18_DPIA <> BasicBlock_id def
+R12392:12394 Ionia.Opt_BlockFusion <> eps:135 var
+R12389:12390 Ionia.Opt_BlockFusion <> z2:134 var
+R12386:12387 Ionia.Opt_BlockFusion <> g2:133 var
+R12383:12384 Ionia.Opt_BlockFusion <> b2:132 var
+R12380:12381 Ionia.Opt_BlockFusion <> w2:131 var
+R12377:12378 Ionia.Opt_BlockFusion <> z1:130 var
+R12374:12375 Ionia.Opt_BlockFusion <> g1:129 var
+R12371:12372 Ionia.Opt_BlockFusion <> b1:128 var
+R12368:12369 Ionia.Opt_BlockFusion <> w1:127 var
+R12362:12366 Ionia.Opt_BlockFusion <> input:126 var
+R12401:12421 Ionia.Opt_BlockFusion <> BasicBlock_fused_comm def
+R12457:12462 Ionia.Opt_BlockFusion <> output:136 var
+R12453:12455 Ionia.Opt_BlockFusion <> eps:135 var
+R12450:12451 Ionia.Opt_BlockFusion <> z2:134 var
+R12447:12448 Ionia.Opt_BlockFusion <> g2:133 var
+R12444:12445 Ionia.Opt_BlockFusion <> b2:132 var
+R12441:12442 Ionia.Opt_BlockFusion <> w2:131 var
+R12438:12439 Ionia.Opt_BlockFusion <> z1:130 var
+R12435:12436 Ionia.Opt_BlockFusion <> g1:129 var
+R12432:12433 Ionia.Opt_BlockFusion <> b1:128 var
+R12429:12430 Ionia.Opt_BlockFusion <> w1:127 var
+R12423:12427 Ionia.Opt_BlockFusion <> input:126 var
+R12489:12501 Ionia.ResNet18_DPIA <> BasicBlock_id def
+R12522:12539 Ionia.Opt_BlockFusion <> A_BasicBlock_fused thm
+prf 12781:12807 <> basicblock_id_comm_eq_fused
+R12835:12837 Corelib.Init.Datatypes <> nat ind
+binder 12819:12823 <> batch:137
+binder 12825:12825 <> c:138
+binder 12827:12828 <> m1:139
+binder 12830:12831 <> m2:140
+R12853:12855 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R12848:12852 Ionia.Opt_BlockFusion <> batch:137 var
+binder 12843:12844 <> Hb:141
+R12866:12868 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R12865:12865 Ionia.Opt_BlockFusion <> c:138 var
+binder 12860:12861 <> Hc:142
+R12881:12883 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R12879:12880 Ionia.Opt_BlockFusion <> m1:139 var
+binder 12873:12875 <> Hm1:143
+R12896:12898 Corelib.Init.Peano <> ::nat_scope:x_'>'_x not
+R12894:12895 Ionia.Opt_BlockFusion <> m2:140 var
+binder 12888:12890 <> Hm2:144
+R12913:12915 Ionia.Proof_CodeGen <> exp def
+R12918:12920 Ionia.DataExp <> ary constr
+R12932:12934 Ionia.DataExp <> ary constr
+R12942:12944 Ionia.DataExp <> ary constr
+R12953:12955 Ionia.DataExp <> ary constr
+R12963:12965 Ionia.DataExp <> num constr
+R12957:12958 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12961:12961 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12959:12960 Ionia.Opt_BlockFusion <> m2:140 var
+R12946:12947 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12950:12950 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12948:12949 Ionia.Opt_BlockFusion <> m1:139 var
+R12936:12937 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12939:12939 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12938:12938 Ionia.Opt_BlockFusion <> c:138 var
+R12922:12923 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12929:12929 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12924:12928 Ionia.Opt_BlockFusion <> batch:137 var
+binder 12905:12909 <> input:145
+R12980:12982 Ionia.Proof_CodeGen <> exp def
+R12985:12987 Ionia.DataExp <> ary constr
+R12995:12997 Ionia.DataExp <> ary constr
+R13005:13007 Ionia.DataExp <> ary constr
+R13015:13017 Ionia.DataExp <> ary constr
+R13024:13026 Ionia.DataExp <> num constr
+R13019:13020 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13022:13022 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13009:13010 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13012:13012 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12999:13000 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13002:13002 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13001:13001 Ionia.Opt_BlockFusion <> c:138 var
+R12989:12990 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12992:12992 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R12991:12991 Ionia.Opt_BlockFusion <> c:138 var
+binder 12975:12976 <> w1:146
+R13041:13043 Ionia.Proof_CodeGen <> exp def
+R13046:13048 Ionia.DataExp <> ary constr
+R13055:13057 Ionia.DataExp <> num constr
+R13050:13051 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13053:13053 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13052:13052 Ionia.Opt_BlockFusion <> c:138 var
+binder 13036:13037 <> b1:147
+R13067:13069 Ionia.Proof_CodeGen <> exp def
+R13072:13074 Ionia.DataExp <> ary constr
+R13081:13083 Ionia.DataExp <> num constr
+R13076:13077 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13079:13079 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13078:13078 Ionia.Opt_BlockFusion <> c:138 var
+binder 13062:13063 <> g1:148
+R13093:13095 Ionia.Proof_CodeGen <> exp def
+R13098:13100 Ionia.DataExp <> ary constr
+R13107:13109 Ionia.DataExp <> num constr
+R13102:13103 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13105:13105 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13104:13104 Ionia.Opt_BlockFusion <> c:138 var
+binder 13088:13089 <> z1:149
+R13121:13123 Ionia.Proof_CodeGen <> exp def
+R13126:13128 Ionia.DataExp <> ary constr
+R13136:13138 Ionia.DataExp <> ary constr
+R13146:13148 Ionia.DataExp <> ary constr
+R13156:13158 Ionia.DataExp <> ary constr
+R13165:13167 Ionia.DataExp <> num constr
+R13160:13161 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13163:13163 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13150:13151 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13153:13153 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13140:13141 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13143:13143 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13142:13142 Ionia.Opt_BlockFusion <> c:138 var
+R13130:13131 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13133:13133 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13132:13132 Ionia.Opt_BlockFusion <> c:138 var
+binder 13116:13117 <> w2:150
+R13182:13184 Ionia.Proof_CodeGen <> exp def
+R13187:13189 Ionia.DataExp <> ary constr
+R13196:13198 Ionia.DataExp <> num constr
+R13191:13192 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13194:13194 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13193:13193 Ionia.Opt_BlockFusion <> c:138 var
+binder 13177:13178 <> b2:151
+R13208:13210 Ionia.Proof_CodeGen <> exp def
+R13213:13215 Ionia.DataExp <> ary constr
+R13222:13224 Ionia.DataExp <> num constr
+R13217:13218 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13220:13220 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13219:13219 Ionia.Opt_BlockFusion <> c:138 var
+binder 13203:13204 <> g2:152
+R13234:13236 Ionia.Proof_CodeGen <> exp def
+R13239:13241 Ionia.DataExp <> ary constr
+R13248:13250 Ionia.DataExp <> num constr
+R13243:13244 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13246:13246 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13245:13245 Ionia.Opt_BlockFusion <> c:138 var
+binder 13229:13230 <> z2:153
+R13263:13265 Ionia.Proof_CodeGen <> exp def
+R13267:13269 Ionia.DataExp <> num constr
+binder 13257:13259 <> eps:154
+R13284:13286 Ionia.Proof_CodeGen <> acc def
+R13289:13291 Ionia.DataExp <> ary constr
+R13303:13305 Ionia.DataExp <> ary constr
+R13313:13315 Ionia.DataExp <> ary constr
+R13324:13326 Ionia.DataExp <> ary constr
+R13334:13336 Ionia.DataExp <> num constr
+R13328:13329 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13332:13332 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13330:13331 Ionia.Opt_BlockFusion <> m2:140 var
+R13317:13318 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13321:13321 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13319:13320 Ionia.Opt_BlockFusion <> m1:139 var
+R13307:13308 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13310:13310 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13309:13309 Ionia.Opt_BlockFusion <> c:138 var
+R13293:13294 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13300:13300 Ionia.Proof_CodeGen <> :::'''{'_x_'}' not
+R13295:13299 Ionia.Opt_BlockFusion <> batch:137 var
+binder 13275:13280 <> output:155
+R13352:13354 Ionia.Proof_CodeGen <> env def
+binder 13346:13348 <> rho:156
+R13362:13365 Ionia.DataExp <> path ind
+binder 13358:13358 <> p:157
+R13386:13391 Corelib.Init.Notations <> ::type_scope:x_'->'_x not
+R13371:13376 Ionia.Proof_CodeGen <> in_acc def
+R13380:13385 Ionia.Opt_BlockFusion <> output:155 var
+R13378:13378 Ionia.Opt_BlockFusion <> p:157 var
+R13457:13461 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13392:13409 Ionia.ResNet18_DPIA <> basicblock_id_comm def
+R13456:13456 Ionia.Opt_BlockFusion <> p:157 var
+R13452:13454 Ionia.Opt_BlockFusion <> rho:156 var
+R13445:13450 Ionia.Opt_BlockFusion <> output:155 var
+R13441:13443 Ionia.Opt_BlockFusion <> eps:154 var
+R13438:13439 Ionia.Opt_BlockFusion <> z2:153 var
+R13435:13436 Ionia.Opt_BlockFusion <> g2:152 var
+R13432:13433 Ionia.Opt_BlockFusion <> b2:151 var
+R13429:13430 Ionia.Opt_BlockFusion <> w2:150 var
+R13426:13427 Ionia.Opt_BlockFusion <> z1:149 var
+R13423:13424 Ionia.Opt_BlockFusion <> g1:148 var
+R13420:13421 Ionia.Opt_BlockFusion <> b1:147 var
+R13417:13418 Ionia.Opt_BlockFusion <> w1:146 var
+R13411:13415 Ionia.Opt_BlockFusion <> input:145 var
+R13462:13482 Ionia.Opt_BlockFusion <> BasicBlock_fused_comm def
+R13529:13529 Ionia.Opt_BlockFusion <> p:157 var
+R13525:13527 Ionia.Opt_BlockFusion <> rho:156 var
+R13518:13523 Ionia.Opt_BlockFusion <> output:155 var
+R13514:13516 Ionia.Opt_BlockFusion <> eps:154 var
+R13511:13512 Ionia.Opt_BlockFusion <> z2:153 var
+R13508:13509 Ionia.Opt_BlockFusion <> g2:152 var
+R13505:13506 Ionia.Opt_BlockFusion <> b2:151 var
+R13502:13503 Ionia.Opt_BlockFusion <> w2:150 var
+R13499:13500 Ionia.Opt_BlockFusion <> z1:149 var
+R13496:13497 Ionia.Opt_BlockFusion <> g1:148 var
+R13493:13494 Ionia.Opt_BlockFusion <> b1:147 var
+R13490:13491 Ionia.Opt_BlockFusion <> w1:146 var
+R13484:13488 Ionia.Opt_BlockFusion <> input:145 var
+R13559:13573 Ionia.ResNet18_DPIA <> A_BasicBlock_id thm
+R13597:13617 Ionia.Opt_BlockFusion <> A_BasicBlock_id_fused thm
+R13917:13939 Ionia.Opt_BlockFusion <> A_relu_add_bn_conv_cell thm
+R13960:13977 Ionia.Opt_BlockFusion <> A_BasicBlock_fused thm
+R13998:14018 Ionia.Opt_BlockFusion <> A_BasicBlock_id_fused thm
+R14039:14065 Ionia.Opt_BlockFusion <> basicblock_id_comm_eq_fused thm
